@@ -1,0 +1,7 @@
+# 비밀 값(API 키)이 든 파일 — 절대 git에 올리면 안 됨
+.env
+
+# npm이 설치한 라이브러리 폴더 — 용량이 크고, package.json만 있으면 언제든 재설치 가능
+node_modules/
+
+# festivals.json은 사이트가 읽는 데이터라서 git에 포함시킴 (배포에 필요)

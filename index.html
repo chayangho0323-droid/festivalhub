@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FestivalHub — 전국 축제 모아보기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>🎪 FestivalHub</h1>
+    <p class="subtitle">오늘부터 3개월 안에 열리는 전국 축제</p>
+  </header>
+
+  <!-- 검색창 + 지역 필터 + 정렬. 실제 동작은 app.js가 담당 -->
+  <section class="controls">
+    <input type="search" id="search-input" placeholder="축제명 검색..." />
+    <select id="region-filter">
+      <option value="">전체 지역</option>
+      <!-- 지역 목록은 app.js가 데이터를 보고 자동으로 채움 -->
+    </select>
+    <select id="sort-order">
+      <option value="date">날짜순</option>
+      <option value="name">이름순</option>
+    </select>
+    <!-- 90일 이상 이어지는 상설 공연/행사를 목록에서 뺄지 선택.
+         data-tip 속성의 글이 마우스를 올리면 말풍선으로 표시됨 (style.css 참고) -->
+    <label class="toggle" data-tip="기간이 90일 이상인 상설 공연·전시(수문장 교대의식, 상설 드론쇼 등)를 목록에서 가립니다. 체크를 끄면 다시 보여요.">
+      <input type="checkbox" id="hide-long" checked />
+      상설·장기 행사 숨기기
+    </label>
+    <!-- 하트 누른 축제만 모아보기 -->
+    <label class="toggle" data-tip="카드의 하트(🤍)를 눌러 찜해둔 축제만 모아 봅니다. 찜 목록은 지금 쓰는 브라우저에만 저장됩니다.">
+      <input type="checkbox" id="only-fav" />
+      ❤️ 찜한 축제만
+    </label>
+  </section>
+
+  <!-- 현재 몇 건이 보이는지 표시 -->
+  <p id="result-count" class="result-count"></p>
+
+  <!-- 축제 카드들이 들어갈 자리. app.js가 채움 -->
+  <main id="festival-list" class="festival-grid"></main>
+
+  <script src="app.js"></script>
+</body>
+</html>

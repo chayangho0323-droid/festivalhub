@@ -1,0 +1,489 @@
+/* ─── 기본 초기화 ─────────────────────────────── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 패딩을 넣어도 요소 크기가 안 커지게 */
+}
+
+body {
+  font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  background: #f6f7f9;
+  color: #222;
+}
+
+/* ─── 헤더 ────────────────────────────────────── */
+.site-header {
+  text-align: center;
+  padding: 40px 16px 24px;
+}
+
+.site-header h1 {
+  font-size: 2rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 8px;
+}
+
+/* ─── 검색/필터 영역 ──────────────────────────── */
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap; /* 화면이 좁으면 줄바꿈 */
+  padding: 0 16px 16px;
+}
+
+/* [type="search"]로 한정: 안 그러면 체크박스에도 이 스타일이 적용돼 버림 */
+.controls input[type="search"],
+.controls select {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.controls input[type="search"] {
+  width: 260px;
+}
+
+.result-count {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  padding-bottom: 16px;
+}
+
+/* ─── 카드 그리드 ─────────────────────────────── */
+.festival-grid {
+  display: grid;
+  /* 화면 너비에 맞춰 260px 이상 카드를 자동으로 여러 열 배치 */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px 60px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden; /* 이미지 모서리가 카드 밖으로 안 나가게 */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.15s, box-shadow 0.15s;
+  position: relative; /* 하트 버튼을 카드 기준으로 배치하기 위함 */
+}
+
+/* 카드 오른쪽 위에 겹쳐진 하트 버튼 */
+.fav-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  border: none;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.fav-heart:hover {
+  transform: scale(1.15);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover; /* 비율 안 깨지게 잘라서 채움 */
+  background: #eee;
+  display: block;
+}
+
+/* 이미지가 없는 축제용 대체 박스 */
+.card .no-image {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e9ecf1;
+  color: #99a;
+  font-size: 2rem;
+}
+
+.card-body {
+  padding: 14px 16px 18px;
+}
+
+.card-body h2 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  margin-bottom: 6px;
+}
+
+.card-body .period,
+.card-body .address {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* 카드를 감싸는 링크 — 밑줄/파란색 같은 링크 기본 스타일 제거 */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+/* ─── 상태 배지 (진행중 / D-n) ─────────────────── */
+.badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.badge.ongoing {
+  background: #e6f6ec;
+  color: #1a8b45;
+}
+
+.badge.upcoming {
+  background: #eef2ff;
+  color: #4756c9;
+}
+
+.badge.long {
+  background: #f0f0f2;
+  color: #777;
+}
+
+/* 상설·장기 숨기기 체크박스 */
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  cursor: pointer;
+  padding: 10px 4px;
+  user-select: none;
+  position: relative; /* 말풍선을 이 라벨 기준으로 띄우기 위함 */
+}
+
+/* 말풍선 본체: data-tip 속성의 글을 CSS가 꺼내서(attr) 보여준다 */
+.toggle[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  top: calc(100% + 8px); /* 라벨 바로 아래 8px 지점 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  background: #333;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-align: left;
+  z-index: 10;
+  /* 평소엔 숨김 + 부드럽게 나타나는 효과 */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  pointer-events: none; /* 말풍선이 마우스 클릭을 가로채지 않게 */
+}
+
+/* 말풍선 위쪽의 작은 삼각형 꼬리 */
+.toggle[data-tip]::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-bottom-color: #333;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+/* 마우스를 올리면 말풍선과 꼬리를 보여준다 */
+.toggle[data-tip]:hover::after,
+.toggle[data-tip]:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ─── 상세 페이지 ─────────────────────────────── */
+.detail-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px 80px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #4756c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-container .hero {
+  width: 100%;
+  max-height: 70vh; /* 최대 화면 높이의 70%까지 */
+  object-fit: contain; /* cover는 잘라내고, contain은 비율 유지하며 전체를 보여줌 */
+  border-radius: 12px;
+  background: #e9ecf1; /* 포스터 좌우 여백 부분의 배경색 */
+  display: block;
+}
+
+.detail-body {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.detail-body h1 {
+  font-size: 1.5rem;
+  margin: 8px 0 16px;
+  line-height: 1.35;
+}
+
+.info-row {
+  color: #555;
+  line-height: 1.9;
+  font-size: 0.95rem;
+}
+
+.info-row a {
+  color: #4756c9;
+}
+
+.overview {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.overview h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.overview p {
+  line-height: 1.8;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+  padding: 40px 0;
+}
+
+/* ─── 상세: 사진 갤러리 ───────────────────────── */
+.thumbs {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  overflow-x: auto; /* 사진이 많으면 가로 스크롤 */
+  padding-bottom: 4px;
+}
+
+.thumb {
+  width: 84px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  opacity: 0.75;
+}
+
+.thumb:hover {
+  opacity: 1;
+}
+
+.thumb.active {
+  border-color: #4756c9;
+  opacity: 1;
+}
+
+/* ─── 상세: 정보 목록 ─────────────────────────── */
+.info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.info-item {
+  display: flex;
+  gap: 12px;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.info-label {
+  flex-shrink: 0;
+  width: 110px;
+  color: #888;
+  font-weight: 600;
+}
+
+.info-value {
+  color: #333;
+  min-width: 0; /* 긴 URL이 카드 밖으로 안 삐져나가게 */
+  overflow-wrap: anywhere;
+}
+
+.info-value a {
+  color: #4756c9;
+}
+
+/* ─── 상세: 지도 + 길찾기 ─────────────────────── */
+.map-section {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.map-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 320px;
+  border-radius: 12px;
+  z-index: 0; /* Leaflet이 다른 요소를 가리지 않게 */
+}
+
+.dir-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.dir-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.dir-btn.kakao {
+  background: #fee500;
+  color: #191919;
+}
+
+.dir-btn.naver {
+  background: #03c75a;
+  color: #fff;
+}
+
+/* ─── 상세: 액션 버튼 (찜/캘린더/공유) ────────── */
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 4px 0 16px;
+}
+
+.action-btn {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  font-family: inherit;
+}
+
+.action-btn:hover {
+  background: #f5f6fa;
+}
+
+.action-btn.faved {
+  border-color: #ffb3c1;
+  background: #fff0f3;
+}
+
+/* ─── 상세: 주변 관광지/맛집 ──────────────────── */
+.nearby-section {
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.nearby-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.nearby-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto; /* 가로로 넘치면 스크롤 */
+  padding-bottom: 6px;
+}
+
+.nearby-card {
+  flex: 0 0 140px; /* 카드 폭 고정, 줄어들지 않음 */
+}
+
+.nearby-card img,
+.nearby-noimg {
+  width: 140px;
+  height: 95px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #e9ecf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #99a;
+  font-size: 1.5rem;
+}
+
+.nearby-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+.nearby-dist {
+  font-size: 0.78rem;
+  color: #888;
+  margin-top: 2px;
+}
