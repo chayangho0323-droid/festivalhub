@@ -17,7 +17,9 @@ const SITE_URL = "https://festivalhub.kr";
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
 // (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
 const COUPANG_ITEMS = [
-  { name: "🛒 축제 준비물 추천 상품 보기", url: "https://link.coupang.com/a/f7LuGkEJMq" },
+  { name: "🪑 캠핑의자", url: "https://link.coupang.com/a/f7LuGkEJMq" },
+  { name: "🧺 돗자리", url: "https://link.coupang.com/a/f7MlAxqn7s" },
+  { name: "🌀 휴대용 선풍기", url: "https://link.coupang.com/a/f7Mn8WrdpA" },
 ];
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
