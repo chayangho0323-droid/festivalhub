@@ -14,6 +14,12 @@ const path = require("path");
 // 배포 주소 (festivalhub.kr 도메인 — 2026-08 구입)
 const SITE_URL = "https://festivalhub.kr";
 
+// 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
+// (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
+const COUPANG_ITEMS = [
+  { name: "🛒 축제 준비물 추천 상품 보기", url: "https://link.coupang.com/a/f7LuGkEJMq" },
+];
+
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 
 // ─── 도우미 함수 ────────────────────────────────────────────
@@ -246,6 +252,20 @@ function buildPage(f, all) {
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
       ${relatedSection(`${region} 지역의 다른 축제`, "🗺️", sameRegion)}
       ${relatedSection("비슷한 시기에 열리는 축제", "🗓️", similarTime)}
+      ${
+        COUPANG_ITEMS.length
+          ? `<section class="nearby-section coupang-section">
+        <h2>🎒 축제 준비물</h2>
+        <div class="dir-buttons">
+          ${COUPANG_ITEMS.map(
+            (item) =>
+              `<a class="dir-btn coupang" target="_blank" rel="noopener sponsored" href="${esc(item.url)}">${esc(item.name)}</a>`
+          ).join("")}
+        </div>
+        <p class="coupang-notice">이 섹션은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+      </section>`
+          : ""
+      }
     </div>
   </main>
   ${footerHtml("../")}

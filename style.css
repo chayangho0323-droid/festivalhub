@@ -483,6 +483,18 @@ body {
   color: #fff;
 }
 
+.dir-btn.coupang {
+  background: #e52528; /* 쿠팡 빨강 */
+  color: #fff;
+}
+
+/* 쿠팡 파트너스 의무 고지 문구 */
+.coupang-notice {
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: #999;
+}
+
 /* ─── 상세: 액션 버튼 (찜/캘린더/공유) ────────── */
 .actions {
   display: flex;
