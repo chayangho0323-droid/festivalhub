@@ -102,6 +102,29 @@ body {
   font-weight: 600;
 }
 
+/* ─── 사이트 공통 푸터 ────────────────────────── */
+.site-footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 40px;
+  color: #888;
+  font-size: 0.85rem;
+  line-height: 2;
+}
+
+.site-footer a {
+  color: #4756c9;
+  text-decoration: none;
+}
+
+/* 상세 페이지 추천 카드가 링크일 때 기본 링크 꾸밈 제거 */
+.nearby-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* ─── 카드 그리드 ─────────────────────────────── */
 .festival-grid {
   display: grid;

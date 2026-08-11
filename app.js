@@ -178,18 +178,37 @@ const REGION_SLUGS = {
   경북: "gyeongbuk", 경남: "gyeongnam", 제주: "jeju",
 };
 
-// 홈 상단의 지역 바로가기 칩 채우기 (지역별 정적 페이지로 연결)
+// 홈 상단의 바로가기 칩 채우기 (월별/테마별/지역별 정적 페이지로 연결)
 function fillQuickLinks() {
   const nav = document.getElementById("quick-links");
+  const addChip = (href, label, cls = "chip") => {
+    const a = document.createElement("a");
+    a.className = cls;
+    a.href = href;
+    a.textContent = label;
+    nav.appendChild(a);
+  };
+
+  // 월별 칩: 이번 달부터 4개월 (build-pages.js가 만드는 파일명과 같은 규칙)
+  const now = new Date();
+  for (let i = 0; i < 4; i++) {
+    const md = new Date(now.getFullYear(), now.getMonth() + i, 1);
+    const mm = String(md.getMonth() + 1).padStart(2, "0");
+    addChip(`month-${md.getFullYear()}-${mm}.html`, `${md.getMonth() + 1}월`);
+  }
+
+  // 테마별 칩 (build-pages.js의 THEMES와 같은 목록)
+  addChip("theme-flower.html", "🌸 꽃");
+  addChip("theme-light.html", "🎆 불꽃·빛");
+  addChip("theme-food.html", "🍜 먹거리");
+  addChip("theme-heritage.html", "🏯 문화유산 야행");
+
+  // 지역별 칩
   const regions = [...new Set(allFestivals.map((f) => getRegion(f.address)))]
     .filter((r) => REGION_SLUGS[r])
     .sort((a, b) => a.localeCompare(b, "ko"));
   for (const r of regions) {
-    const a = document.createElement("a");
-    a.className = "chip";
-    a.href = `region-${REGION_SLUGS[r]}.html`;
-    a.textContent = r;
-    nav.appendChild(a);
+    addChip(`region-${REGION_SLUGS[r]}.html`, r);
   }
 }
 

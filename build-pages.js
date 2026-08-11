@@ -62,9 +62,33 @@ function infoRow(icon, label, value) {
   return `<div class="info-item"><span class="info-label">${icon} ${label}</span><div class="info-value">${value}</div></div>`;
 }
 
+// 모든 페이지 하단에 붙는 공통 푸터 (출처 표기는 공공데이터 이용 시 의무사항)
+// prefix: 페이지 위치에 따른 경로 보정 ("" = 루트, "../" = festival/ 폴더 안)
+function footerHtml(prefix = "") {
+  return `
+  <footer class="site-footer">
+    <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
+    <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
+  </footer>`;
+}
+
+// 상세 페이지 하단의 추천용 작은 카드들 (festival/ 폴더 안에서 쓰므로 경로가 같은 폴더)
+function miniCards(list) {
+  return list
+    .map(
+      (o) => `
+      <a class="nearby-card nearby-link" href="${o.contentid}.html">
+        ${o.image ? `<img src="${esc(o.image)}" alt="${esc(o.name)}" loading="lazy" />` : `<div class="nearby-noimg">🎪</div>`}
+        <div class="nearby-name">${esc(o.name)}</div>
+        <div class="nearby-dist">${formatDate(o.startDate)} ~</div>
+      </a>`
+    )
+    .join("");
+}
+
 // ─── 축제 한 건 → HTML 페이지 ──────────────────────────────
 
-function buildPage(f) {
+function buildPage(f, all) {
   const today = todayStr();
   const ongoing = f.startDate <= today && today <= f.endDate;
   const badge = ongoing
@@ -131,6 +155,27 @@ function buildPage(f) {
   const homepage = f.homepage
     ? `<a href="${esc(f.homepage)}" target="_blank" rel="noopener">${esc(f.homepage)}</a>`
     : "";
+
+  // ── 내부 연결: 이 지역의 다른 축제 + 비슷한 시기 축제 (각 4개) ──
+  // 방문자가 더 둘러보게 하고, 페이지끼리 연결돼 검색엔진 평가에도 좋다
+  const region = getRegion(f.address);
+  const toD = (s) => new Date(+s.slice(0, 4), +s.slice(4, 6) - 1, +s.slice(6, 8));
+  const byDateCloseness = (a, b) =>
+    Math.abs(toD(a.startDate) - toD(f.startDate)) - Math.abs(toD(b.startDate) - toD(f.startDate));
+  const others = all.filter((o) => o.contentid !== f.contentid);
+  const sameRegion = others
+    .filter((o) => getRegion(o.address) === region)
+    .sort(byDateCloseness)
+    .slice(0, 4);
+  const shownIds = new Set(sameRegion.map((o) => o.contentid));
+  const similarTime = others
+    .filter((o) => !shownIds.has(o.contentid) && !isLongRunning(o))
+    .sort(byDateCloseness)
+    .slice(0, 4);
+  const relatedSection = (title, icon, list) =>
+    list.length
+      ? `<section class="nearby-section"><h2>${icon} ${title}</h2><div class="nearby-row">${miniCards(list)}</div></section>`
+      : "";
 
   // ── 검색엔진용 구조화 데이터 (구글이 행사로 인식해 리치 결과 노출 가능) ──
   const jsonLd = {
@@ -199,8 +244,11 @@ function buildPage(f) {
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
+      ${relatedSection(`${region} 지역의 다른 축제`, "🗺️", sameRegion)}
+      ${relatedSection("비슷한 시기에 열리는 축제", "🗓️", similarTime)}
     </div>
   </main>
+  ${footerHtml("../")}
 
   <!-- 찜/공유/갤러리/지도 등 동작에 필요한 최소 정보만 심어둔다 -->
   <script>
@@ -314,6 +362,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   </header>
   <p class="result-count">${items.length}개의 축제</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
+  ${footerHtml("")}
 </body>
 </html>`;
 }
@@ -329,9 +378,16 @@ for (const old of fs.readdirSync(outDir)) {
 }
 
 for (const f of festivals) {
-  fs.writeFileSync(path.join(outDir, `${f.contentid}.html`), buildPage(f), "utf-8");
+  fs.writeFileSync(path.join(outDir, `${f.contentid}.html`), buildPage(f, festivals), "utf-8");
 }
 console.log(`✅ festival/*.html ${festivals.length}개 생성`);
+
+// 지난 달 페이지 등 예전 빌드의 월별/테마 파일 정리 (죽은 페이지가 남지 않게)
+for (const old of fs.readdirSync(__dirname)) {
+  if (/^(month-\d{4}-\d{2}|theme-[a-z]+)\.html$/.test(old)) {
+    fs.unlinkSync(path.join(__dirname, old));
+  }
+}
 
 // ── 큐레이션 페이지 생성 ──
 const todayYmd = todayStr();
@@ -396,11 +452,79 @@ for (const region of regions) {
 }
 console.log(`✅ 지역별 페이지 ${regionFiles.length}개 생성 (${regions.join(", ")})`);
 
+// ── 월별 페이지: 이번 달부터 4개월치 ──
+const monthFiles = [];
+for (let i = 0; i < 4; i++) {
+  const md = new Date(now.getFullYear(), now.getMonth() + i, 1);
+  const y = md.getFullYear();
+  const m = md.getMonth() + 1;
+  const mm = String(m).padStart(2, "0");
+  // 축제 기간이 그 달과 하루라도 겹치면 포함 ("31"은 문자열 비교용 상한)
+  const items = festivals
+    .filter((f) => f.startDate <= `${y}${mm}31` && f.endDate >= `${y}${mm}01` && !isLongRunning(f))
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
+  const filename = `month-${y}-${mm}.html`;
+  fs.writeFileSync(
+    filename,
+    buildListPage({
+      filename,
+      title: `${y}년 ${m}월 축제 일정 총정리 (${items.length}곳) — FestivalHub`,
+      heading: `🗓️ ${y}년 ${m}월 축제`,
+      subtitle: `${m}월에 열리는 전국 축제 ${items.length}곳 — 날짜순 정리 (상설 행사 제외)`,
+      description: `${y}년 ${m}월 전국 축제 일정 모음. ${items.slice(0, 5).map((f) => f.name).join(", ")} 등 ${items.length}곳의 기간·장소·사진 정보.`,
+      items,
+      today: todayYmd,
+    }),
+    "utf-8"
+  );
+  monthFiles.push(filename);
+}
+console.log(`✅ 월별 페이지 ${monthFiles.length}개 생성 (${monthFiles.join(", ")})`);
+
+// ── 테마별 페이지: 축제 이름에서 키워드로 자동 분류 ──
+const THEMES = [
+  { slug: "flower", name: "꽃 축제", icon: "🌸",
+    keywords: ["꽃", "연꽃", "장미", "벚꽃", "유채", "국화", "구절초", "상사화", "코스모스", "맥문동", "해바라기", "수국"] },
+  { slug: "light", name: "불꽃·빛 축제", icon: "🎆",
+    keywords: ["불꽃", "드론", "빛", "미디어아트", "유등", "등불", "야경", "별빛", "루미나리에", "야간"] },
+  { slug: "food", name: "먹거리 축제", icon: "🍜",
+    keywords: ["먹거리", "음식", "맥주", "커피", "와인", "김밥", "라면", "전어", "꽃게", "한우", "숯불", "인삼", "홍삼", "산삼", "김치", "치즈", "사과", "포도", "토마토", "대추", "고추", "구기자", "약초", "장류", "오곡", "막국수", "닭갈비", "송이", "수산", "푸드"] },
+  { slug: "heritage", name: "문화유산 야행", icon: "🏯",
+    keywords: ["국가유산", "야행", "문화재", "읍성", "궁", "전통", "민속", "한옥"] },
+];
+
+const themeFiles = [];
+for (const theme of THEMES) {
+  const items = festivals
+    .filter((f) => theme.keywords.some((k) => f.name.includes(k)))
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
+  if (items.length < 3) continue; // 너무 적으면 페이지 가치가 없어서 건너뜀
+  const filename = `theme-${theme.slug}.html`;
+  fs.writeFileSync(
+    filename,
+    buildListPage({
+      filename,
+      title: `전국 ${theme.name} 총정리 (${items.length}곳) — FestivalHub`,
+      heading: `${theme.icon} ${theme.name}`,
+      subtitle: `전국에서 열리는 ${theme.name} ${items.length}곳 — 날짜순 정리`,
+      description: `전국 ${theme.name} 모음. ${items.slice(0, 5).map((f) => f.name).join(", ")} 등 ${items.length}곳의 일정·장소·사진 정보를 한눈에.`,
+      items,
+      today: todayYmd,
+    }),
+    "utf-8"
+  );
+  themeFiles.push(filename);
+  console.log(`✅ ${filename} 생성 (${theme.name} ${items.length}건)`);
+}
+
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   `${SITE_URL}/`,
+  `${SITE_URL}/about.html`,
   `${SITE_URL}/weekend.html`,
+  ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
+  ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
   ...regionFiles.map((rf) => `${SITE_URL}/${rf}`),
   ...festivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
 ];
