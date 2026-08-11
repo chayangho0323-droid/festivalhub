@@ -14,6 +14,18 @@ const path = require("path");
 // 배포 주소 (festivalhub.kr 도메인 — 2026-08 구입)
 const SITE_URL = "https://festivalhub.kr";
 
+// 구글 애널리틱스(GA4) 방문자 통계 코드 — 모든 생성 페이지의 <head>에 들어간다.
+// 측정 ID를 바꾸려면 아래 G-... 두 군데를 수정.
+const GA_SNIPPET = `
+  <!-- Google Analytics (방문자 통계) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q3T5H6HSQQ');
+  </script>`;
+
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
 // (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
 const COUPANG_ITEMS = [
@@ -224,6 +236,7 @@ function buildPage(f, all) {
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+  ${GA_SNIPPET}
 </head>
 <body>
   <main class="detail-container">
@@ -375,6 +388,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${SITE_URL}/${filename}" />
   <link rel="stylesheet" href="style.css" />
+  ${GA_SNIPPET}
 </head>
 <body>
   <header class="site-header">
