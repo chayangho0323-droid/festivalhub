@@ -56,6 +56,52 @@ body {
   padding-bottom: 16px;
 }
 
+/* ─── 주말/지역 바로가기 칩 ───────────────────── */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px 20px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #444;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.chip:hover {
+  border-color: #4756c9;
+  color: #4756c9;
+}
+
+/* 이번 주말 칩은 눈에 띄게 */
+.chip-hot {
+  background: #fff0f0;
+  border-color: #ffb3b3;
+  color: #d63031;
+}
+
+/* 큐레이션 페이지의 "전체 축제 보기" 링크 */
+.home-link {
+  margin-top: 10px;
+}
+
+.home-link a {
+  color: #4756c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 /* ─── 카드 그리드 ─────────────────────────────── */
 .festival-grid {
   display: grid;

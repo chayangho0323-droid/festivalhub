@@ -220,6 +220,104 @@ function buildPage(f) {
 </html>`;
 }
 
+// ─── 큐레이션 페이지(주말/지역)용 도우미 ────────────────────
+
+// 주소 → 표준 지역명 (app.js와 같은 규칙. 수정하면 양쪽 다 고칠 것!)
+const REGION_PREFIXES = [
+  ["전남광주", "전남·광주"],
+  ["서울", "서울"], ["부산", "부산"], ["대구", "대구"], ["인천", "인천"],
+  ["광주", "광주"], ["대전", "대전"], ["울산", "울산"], ["세종", "세종"],
+  ["경기", "경기"], ["강원", "강원"],
+  ["충청북", "충북"], ["충북", "충북"], ["충청남", "충남"], ["충남", "충남"],
+  ["전라북", "전북"], ["전북", "전북"], ["전라남", "전남"], ["전남", "전남"],
+  ["경상북", "경북"], ["경북", "경북"], ["경상남", "경남"], ["경남", "경남"],
+  ["제주", "제주"],
+];
+
+function getRegion(address) {
+  if (!address) return "기타";
+  for (const [prefix, name] of REGION_PREFIXES) {
+    if (address.startsWith(prefix)) return name;
+  }
+  return "기타";
+}
+
+// 지역명 → 파일명용 영문 슬러그 (한글 파일명은 주소창에서 깨져 보여서)
+const REGION_SLUGS = {
+  서울: "seoul", 부산: "busan", 대구: "daegu", 인천: "incheon",
+  광주: "gwangju", 대전: "daejeon", 울산: "ulsan", 세종: "sejong",
+  경기: "gyeonggi", 강원: "gangwon", 충북: "chungbuk", 충남: "chungnam",
+  전북: "jeonbuk", 전남: "jeonnam", "전남·광주": "jeonnam-gwangju",
+  경북: "gyeongbuk", 경남: "gyeongnam", 제주: "jeju", 기타: "etc",
+};
+
+// 90일 이상은 상설·장기 행사로 분류 (큐레이션에서 제외용)
+function isLongRunning(f) {
+  const toDate = (s) =>
+    new Date(Number(s.slice(0, 4)), Number(s.slice(4, 6)) - 1, Number(s.slice(6, 8)));
+  return (toDate(f.endDate) - toDate(f.startDate)) / (1000 * 60 * 60 * 24) >= 90;
+}
+
+// 목록 페이지에 들어갈 축제 카드 한 장 (app.js의 카드와 같은 모양)
+function listCard(f, today) {
+  const ongoing = f.startDate <= today && today <= f.endDate;
+  const dday = Math.round(
+    (new Date(Number(f.startDate.slice(0, 4)), Number(f.startDate.slice(4, 6)) - 1, Number(f.startDate.slice(6, 8))) -
+      new Date(Number(today.slice(0, 4)), Number(today.slice(4, 6)) - 1, Number(today.slice(6, 8)))) /
+      (1000 * 60 * 60 * 24)
+  );
+  const badge = isLongRunning(f)
+    ? `<span class="badge long">상설·장기</span>`
+    : ongoing
+      ? `<span class="badge ongoing">진행중</span>`
+      : `<span class="badge upcoming">D-${dday}</span>`;
+  const img = f.image
+    ? `<img src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" />`
+    : `<div class="no-image">🎪</div>`;
+
+  return `
+    <a class="card-link" href="festival/${f.contentid}.html">
+      <article class="card">
+        ${img}
+        <div class="card-body">
+          ${badge}
+          <h2>${esc(f.name)}</h2>
+          <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}</p>
+          <p class="address">📍 ${esc(f.address) || "주소 정보 없음"}</p>
+        </div>
+      </article>
+    </a>`;
+}
+
+// 주말/지역 같은 목록형 페이지 한 장을 통째로 만든다
+function buildListPage({ filename, title, heading, subtitle, description, items, today }) {
+  const cards = items.map((f) => listCard(f, today)).join("");
+  return `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${esc(title)}</title>
+  <meta name="description" content="${esc(description)}" />
+  <link rel="canonical" href="${SITE_URL}/${filename}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="${esc(title)}" />
+  <meta property="og:description" content="${esc(description)}" />
+  <meta property="og:url" content="${SITE_URL}/${filename}" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>${esc(heading)}</h1>
+    <p class="subtitle">${esc(subtitle)}</p>
+    <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
+  </header>
+  <p class="result-count">${items.length}개의 축제</p>
+  <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
+</body>
+</html>`;
+}
+
 // ─── 실행 ──────────────────────────────────────────────────
 
 const outDir = path.join(__dirname, "festival");
@@ -235,10 +333,75 @@ for (const f of festivals) {
 }
 console.log(`✅ festival/*.html ${festivals.length}개 생성`);
 
+// ── 큐레이션 페이지 생성 ──
+const todayYmd = todayStr();
+
+// 이번 주말(토·일) 날짜 계산. 일요일이라면 "이번 주말"은 어제~오늘
+const now = new Date();
+const day = now.getDay(); // 0=일 ... 6=토
+const sat = new Date(now);
+sat.setDate(now.getDate() + (day === 0 ? -1 : 6 - day));
+const sun = new Date(sat);
+sun.setDate(sat.getDate() + 1);
+const fmt = (d) =>
+  d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
+const satStr = fmt(sat);
+const sunStr = fmt(sun);
+
+// 주말과 기간이 겹치는 축제 (상설·장기는 제외해서 진짜 축제만)
+const weekendFestivals = festivals
+  .filter((f) => f.startDate <= sunStr && f.endDate >= satStr && !isLongRunning(f))
+  .sort((a, b) => a.startDate.localeCompare(b.startDate));
+
+const satLabel = `${sat.getMonth() + 1}.${sat.getDate()}`;
+const sunLabel = `${sun.getMonth() + 1}.${sun.getDate()}`;
+fs.writeFileSync(
+  "weekend.html",
+  buildListPage({
+    filename: "weekend.html",
+    title: `이번 주말 축제 (${satLabel}~${sunLabel}) 전국 ${weekendFestivals.length}곳 — FestivalHub`,
+    heading: `🔥 이번 주말 축제`,
+    subtitle: `${satLabel}(토) ~ ${sunLabel}(일) 전국에서 열리는 축제 ${weekendFestivals.length}곳 (상설 행사 제외)`,
+    description: `이번 주말(${satLabel}~${sunLabel}) 가볼만한 전국 축제 ${weekendFestivals.length}곳 총정리. ${weekendFestivals.slice(0, 5).map((f) => f.name).join(", ")} 등 일정·위치·사진 정보.`,
+    items: weekendFestivals,
+    today: todayYmd,
+  }),
+  "utf-8"
+);
+console.log(`✅ weekend.html 생성 (주말 축제 ${weekendFestivals.length}건)`);
+
+// 지역별 페이지: 데이터에 있는 지역마다 한 장씩
+const regions = [...new Set(festivals.map((f) => getRegion(f.address)))].filter((r) => r !== "기타");
+const regionFiles = [];
+for (const region of regions) {
+  const slug = REGION_SLUGS[region] || "etc";
+  const filename = `region-${slug}.html`;
+  const items = festivals
+    .filter((f) => getRegion(f.address) === region)
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
+  fs.writeFileSync(
+    filename,
+    buildListPage({
+      filename,
+      title: `${region} 축제 일정 총정리 (${items.length}곳) — FestivalHub`,
+      heading: `📍 ${region} 축제`,
+      subtitle: `${region}에서 열리는 축제 ${items.length}곳 — 날짜순 정리`,
+      description: `${region} 축제 일정 모음. ${items.slice(0, 5).map((f) => f.name).join(", ")} 등 ${items.length}곳의 기간·장소·사진 정보를 한눈에.`,
+      items,
+      today: todayYmd,
+    }),
+    "utf-8"
+  );
+  regionFiles.push(filename);
+}
+console.log(`✅ 지역별 페이지 ${regionFiles.length}개 생성 (${regions.join(", ")})`);
+
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   `${SITE_URL}/`,
+  `${SITE_URL}/weekend.html`,
+  ...regionFiles.map((rf) => `${SITE_URL}/${rf}`),
   ...festivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
 ];
 const sitemap =

@@ -169,6 +169,30 @@ function render() {
     .join("");
 }
 
+// 지역명 → 지역 페이지 파일명용 슬러그 (build-pages.js와 같은 표. 수정 시 양쪽 다!)
+const REGION_SLUGS = {
+  서울: "seoul", 부산: "busan", 대구: "daegu", 인천: "incheon",
+  광주: "gwangju", 대전: "daejeon", 울산: "ulsan", 세종: "sejong",
+  경기: "gyeonggi", 강원: "gangwon", 충북: "chungbuk", 충남: "chungnam",
+  전북: "jeonbuk", 전남: "jeonnam", "전남·광주": "jeonnam-gwangju",
+  경북: "gyeongbuk", 경남: "gyeongnam", 제주: "jeju",
+};
+
+// 홈 상단의 지역 바로가기 칩 채우기 (지역별 정적 페이지로 연결)
+function fillQuickLinks() {
+  const nav = document.getElementById("quick-links");
+  const regions = [...new Set(allFestivals.map((f) => getRegion(f.address)))]
+    .filter((r) => REGION_SLUGS[r])
+    .sort((a, b) => a.localeCompare(b, "ko"));
+  for (const r of regions) {
+    const a = document.createElement("a");
+    a.className = "chip";
+    a.href = `region-${REGION_SLUGS[r]}.html`;
+    a.textContent = r;
+    nav.appendChild(a);
+  }
+}
+
 // ─── 지역 드롭다운 채우기 ───────────────────────────────────
 
 function fillRegionOptions() {
@@ -192,6 +216,7 @@ async function init() {
     allFestivals = await res.json();
 
     fillRegionOptions();
+    fillQuickLinks();
     render();
   } catch (err) {
     listEl.innerHTML = `<p style="text-align:center; grid-column: 1 / -1;">
