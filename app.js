@@ -153,7 +153,7 @@ function render() {
       // 카드 전체를 <a>로 감싸서 클릭하면 상세 페이지로 이동.
       // 하트 버튼은 카드 위에 겹쳐 놓고, 클릭 시 페이지 이동을 막는다 (아래 이벤트 처리 참고)
       return `
-        <a class="card-link" href="detail.html?id=${f.contentid}">
+        <a class="card-link" href="festival/${f.contentid}.html">
           <article class="card">
             <button class="fav-heart${faved ? " faved" : ""}" data-id="${f.contentid}" aria-label="찜하기">${faved ? "❤️" : "🤍"}</button>
             ${img}

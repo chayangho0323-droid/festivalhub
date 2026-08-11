@@ -1,0 +1,45 @@
+# GitHub Actions 워크플로 — GitHub가 무료로 제공하는 "자동 실행 로봇" 설정 파일.
+# 매일 새벽 3시(한국시간)에 축제 데이터를 새로 받아서 페이지를 다시 만들고 배포한다.
+# 수동으로 돌리고 싶으면: GitHub 저장소 > Actions 탭 > 이 워크플로 > Run workflow 버튼
+
+name: 축제 데이터 자동 갱신
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # UTC 18:00 = 한국시간 새벽 03:00
+  workflow_dispatch: # Actions 탭에서 수동 실행 버튼도 활성화
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 갱신된 데이터를 저장소에 커밋하기 위한 권한
+
+    steps:
+      # 1. 저장소 코드 내려받기
+      - uses: actions/checkout@v4
+
+      # 2. Node.js 준비
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 3. 라이브러리 설치 (dotenv)
+      - run: npm install
+
+      # 4. 축제 데이터 수집 — API 키는 저장소 Secrets에서 안전하게 주입
+      #    (Settings > Secrets and variables > Actions 에 TOUR_API_KEY 등록 필요)
+      - run: node fetch-festivals.js
+        env:
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+
+      # 5. 축제별 정적 페이지 + sitemap 재생성
+      - run: node build-pages.js
+
+      # 6. 바뀐 내용이 있으면 커밋 + 푸시 (푸시되면 GitHub Pages가 자동 재배포)
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "자동 데이터 갱신 $(date -u +'%Y-%m-%d')"
+          git push

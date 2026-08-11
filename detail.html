@@ -2,19 +2,16 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>축제 상세 — FestivalHub</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- Leaflet: 무료 오픈소스 지도 라이브러리 (키 발급 불필요) -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <title>이동 중... — FestivalHub</title>
+  <!-- 예전 방식(detail.html?id=123)으로 들어온 방문자를
+       새 정적 페이지(festival/123.html)로 자동으로 보내주는 안내판.
+       상세 페이지 본체는 build-pages.js가 생성하는 festival/ 폴더에 있다. -->
+  <script>
+    const id = new URLSearchParams(location.search).get("id");
+    location.replace(id ? `festival/${id}.html` : "index.html");
+  </script>
 </head>
 <body>
-  <!-- 상세 내용이 들어갈 자리. detail.js가 주소창의 ?id= 를 보고 채움 -->
-  <main id="detail" class="detail-container">
-    <p class="loading">불러오는 중...</p>
-  </main>
-
-  <script src="detail.js"></script>
+  <p>페이지를 이동하고 있습니다... <a href="index.html">목록으로 가기</a></p>
 </body>
 </html>

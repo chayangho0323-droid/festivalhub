@@ -409,6 +409,11 @@ body {
   color: #fff;
 }
 
+.dir-btn.hotel {
+  background: #003580; /* 부킹닷컴 파랑. 제휴 승인 후 링크만 교체하면 됨 */
+  color: #fff;
+}
+
 /* ─── 상세: 액션 버튼 (찜/캘린더/공유) ────────── */
 .actions {
   display: flex;
