@@ -11,8 +11,8 @@
 const fs = require("fs");
 const path = require("path");
 
-// 배포 주소. 나중에 도메인을 사면 이 한 줄만 바꾸고 다시 빌드하면 된다.
-const SITE_URL = "https://chayangho0323-droid.github.io/festivalhub";
+// 배포 주소 (festivalhub.kr 도메인 — 2026-08 구입)
+const SITE_URL = "https://festivalhub.kr";
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 

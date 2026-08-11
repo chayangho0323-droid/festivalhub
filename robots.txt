@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://chayangho0323-droid.github.io/festivalhub/sitemap.xml
+Sitemap: https://festivalhub.kr/sitemap.xml
