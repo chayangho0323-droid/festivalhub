@@ -156,16 +156,20 @@ function buildPage(f, all) {
     .join("");
 
   // ── 주변 관광지/맛집 ──
+  // 카드를 클릭하면 네이버지도에서 그 장소를 검색한 화면이 새 탭으로 열린다.
+  // 검색어는 "지역(주소 앞 두 단어) + 장소명"으로 만들어 동명의 다른 지역 가게와 안 헷갈리게 함
   const nearbyCards = (list) =>
     (list || [])
-      .map(
-        (p) => `
-        <div class="nearby-card">
+      .map((p) => {
+        const query = `${(p.addr || "").split(" ").slice(0, 2).join(" ")} ${p.name}`.trim();
+        return `
+        <a class="nearby-card nearby-link" target="_blank" rel="noopener"
+           href="https://map.naver.com/p/search/${encodeURIComponent(query)}" title="네이버지도에서 보기">
           ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />` : `<div class="nearby-noimg">📷</div>`}
           <div class="nearby-name">${esc(p.name)}</div>
-          <div class="nearby-dist">${p.dist >= 1000 ? (p.dist / 1000).toFixed(1) + "km" : p.dist + "m"}</div>
-        </div>`
-      )
+          <div class="nearby-dist">📍 ${p.dist >= 1000 ? (p.dist / 1000).toFixed(1) + "km" : p.dist + "m"} · 지도 보기</div>
+        </a>`;
+      })
       .join("");
   const nearbySection = (title, icon, list) =>
     list && list.length

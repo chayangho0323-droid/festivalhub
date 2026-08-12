@@ -125,6 +125,12 @@ body {
   display: block;
 }
 
+/* 마우스를 올리면 눌러볼 수 있다는 느낌 주기 */
+.nearby-link:hover .nearby-name {
+  color: #4756c9;
+  text-decoration: underline;
+}
+
 /* ─── 카드 그리드 ─────────────────────────────── */
 .festival-grid {
   display: grid;
