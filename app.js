@@ -202,6 +202,7 @@ function fillQuickLinks() {
   addChip("theme-light.html", "🎆 불꽃·빛");
   addChip("theme-food.html", "🍜 먹거리");
   addChip("theme-heritage.html", "🏯 문화유산 야행");
+  addChip("theme-kids.html", "👨‍👩‍👧 아이랑");
 
   // 지역별 칩
   const regions = [...new Set(allFestivals.map((f) => getRegion(f.address)))]
