@@ -21,6 +21,8 @@ const IMAGE_URL = "https://apis.data.go.kr/B551011/KorService2/detailImage2";
 const INFO_URL = "https://apis.data.go.kr/B551011/KorService2/detailInfo2";
 // 좌표 반경 안의 관광지/음식점을 찾아주는 오퍼레이션
 const NEARBY_URL = "https://apis.data.go.kr/B551011/KorService2/locationBasedList2";
+// 지자체가 직접 등록하는 지역 축제 (전국문화축제표준데이터) — TourAPI에 없는 소규모 축제 보완용
+const STD_FESTIVAL_URL = "http://api.data.go.kr/openapi/tn_pubr_public_cltur_fstvl_api";
 const SERVICE_KEY = process.env.TOUR_API_KEY;
 const NUM_OF_ROWS = 100; // 한 번에 가져올 개수 (페이지 크기)
 
@@ -258,6 +260,52 @@ async function fetchNearby(lat, lng, contentTypeId) {
   }
 }
 
+// 전국문화축제표준데이터 전체를 페이지 단위로 받아온다
+// (실패해도 전체 수집이 죽지 않게 — 이 데이터는 보완용이므로)
+async function fetchStandardFestivals() {
+  try {
+    let all = [];
+    let page = 1;
+    let total = Infinity;
+    while (all.length < total && page <= 10) {
+      const params = new URLSearchParams({
+        serviceKey: SERVICE_KEY,
+        pageNo: String(page),
+        numOfRows: "1000",
+        type: "json",
+      });
+      const res = await fetch(`${STD_FESTIVAL_URL}?${params.toString()}`);
+      const text = await res.text();
+      if (text.trim().startsWith("<")) throw new Error("XML 에러 응답");
+      const data = JSON.parse(text);
+      // 주의: 표준데이터 API는 TourAPI와 달리 response 껍데기 없이 {header, body} 구조
+      const body = data?.response?.body ?? data?.body;
+      const code = (data?.response?.header ?? data?.header)?.resultCode;
+      if (code !== "00") throw new Error(`API 에러 code=${code}`);
+      total = Number(body?.totalCount ?? 0);
+      let items = body?.items?.item ?? [];
+      if (!Array.isArray(items)) items = [items];
+      if (items.length === 0) break;
+      all.push(...items);
+      page++;
+    }
+    return all;
+  } catch (err) {
+    console.warn(`⚠️ 표준데이터 수집 실패 (기존 축제만으로 진행): ${err.message}`);
+    return [];
+  }
+}
+
+// 표준데이터 축제용 고유 ID 만들기 (이름+시작일+주소를 숫자로 압축)
+// TourAPI의 contentid와 구분되게 "s"로 시작. 데이터가 같으면 항상 같은 ID가 나와서
+// 페이지 주소와 캐시가 안정적으로 유지된다
+function stdId(r) {
+  const s = (r.fstvlNm || "") + (r.fstvlStartDate || "") + (r.rdnmadr || r.lnmadr || "");
+  let h = 0;
+  for (const ch of s) h = (h * 31 + ch.codePointAt(0)) >>> 0;
+  return "s" + h.toString(36);
+}
+
 // 배열을 size개씩 잘라서 순서대로 처리 (API 서버에 한꺼번에 몰아치지 않기 위함)
 async function mapInBatches(items, size, fn) {
   const results = [];
@@ -363,13 +411,85 @@ async function main() {
     return { ...f, ...common, ...intro, images, extraInfo, nearbySpots, nearbyFood };
   });
 
+  // ── 지자체 표준데이터 축제 추가 ──────────────────────────
+  console.log("🏘️ 지역 축제(표준데이터) 수집 시작");
+  const stdRaw = await fetchStandardFestivals();
+
+  const toYmd = (s) => (s || "").replace(/-/g, ""); // "2026-08-12" → "20260812"
+  // 이름 비교용 정규화: "제27회", 연도, 공백, 괄호에 더해
+  // "축제/문화제/페스티벌" 같은 꼬리표도 지워서 알맹이만 남긴다
+  // (예: "천안흥타령춤축제" → "천안흥타령춤", "천안흥타령축제" → "천안흥타령" → 포함 관계로 중복 판정됨)
+  const normName = (s) =>
+    (s || "")
+      .replace(/제\d+회|\d{4}년?|\s|[()\[\]<>〈〉·]/g, "")
+      .replace(/대축제|축제|문화제|페스티벌|축전|한마당/g, "")
+      .toLowerCase();
+  const overlapDate = (s1, e1, s2, e2) => s1 <= e2 && s2 <= e1;
+
+  // 우리 사이트 기간(오늘~3개월)과 겹치고 날짜 형식이 정상인 것만
+  const stdWindow = stdRaw.filter((r) => {
+    const s = toYmd(r.fstvlStartDate);
+    const e = toYmd(r.fstvlEndDate);
+    return /^\d{8}$/.test(s) && /^\d{8}$/.test(e) && e >= startDate && s <= endLimit;
+  });
+
+  // 중복 판정: TourAPI 축제와 ①정규화 이름이 같거나
+  // ②같은 시도 + 기간 겹침 + 한쪽 이름이 다른쪽을 포함 ("천안흥타령축제" vs "천안흥타령춤축제")
+  const isDupOf = (r, f) => {
+    const a = normName(r.fstvlNm);
+    const b = normName(f.name);
+    if (!a || !b) return false;
+    if (a === b) return true;
+    const sameSido = (r.rdnmadr || r.lnmadr || "").slice(0, 2) === (f.address || "").slice(0, 2);
+    const contains = a.length >= 4 && b.length >= 4 && (a.includes(b) || b.includes(a));
+    return sameSido && contains &&
+      overlapDate(toYmd(r.fstvlStartDate), toYmd(r.fstvlEndDate), f.startDate, f.endDate);
+  };
+  const stdNew = stdWindow.filter((r) => !festivals.some((f) => isDupOf(r, f)));
+  console.log(`   표준데이터 ${stdRaw.length}건 → 기간 내 ${stdWindow.length}건 → 중복 제거 후 신규 ${stdNew.length}건`);
+
+  // 우리 스키마로 변환 + 좌표 있는 축제는 주변 관광지/맛집도 붙임 (캐시 재사용)
+  const stdFestivals = await mapInBatches(stdNew, 5, async (r) => {
+    const id = stdId(r);
+    const c = cache[id] || {};
+    const lat = r.latitude || "";
+    const lng = r.longitude || "";
+    const nearbySpots = Array.isArray(c.nearbySpots)
+      ? c.nearbySpots
+      : lat && lng ? await fetchNearby(lat, lng, "12") : [];
+    const nearbyFood = Array.isArray(c.nearbyFood)
+      ? c.nearbyFood
+      : lat && lng ? await fetchNearby(lat, lng, "39") : [];
+
+    return {
+      contentid: id,
+      name: r.fstvlNm,
+      startDate: toYmd(r.fstvlStartDate),
+      endDate: toYmd(r.fstvlEndDate),
+      address: r.rdnmadr || r.lnmadr || "",
+      lat, lng,
+      image: "", // 표준데이터엔 사진이 없음 (화면에선 🎪 아이콘으로 표시됨)
+      overview: r.fstvlCo || "",
+      tel: r.phoneNumber || "",
+      homepage: (r.homepageUrl || "").match(/https?:\/\/[^"'\s<>]+/)?.[0] || "",
+      eventplace: r.opar || "",
+      playtime: "", usefee: "",
+      sponsor: r.auspcInsttNm || r.mnnstNm || "",
+      images: [], extraInfo: [],
+      nearbySpots, nearbyFood,
+      source: "std", // 출처 표시 (디버깅용)
+    };
+  });
+
+  const allFestivals = [...festivals, ...stdFestivals];
+
   fs.writeFileSync(
     "festivals.json",
-    JSON.stringify(festivals, null, 2), // null, 2 = 사람이 읽기 좋게 들여쓰기
+    JSON.stringify(allFestivals, null, 2), // null, 2 = 사람이 읽기 좋게 들여쓰기
     "utf-8"
   );
 
-  console.log(`✅ festivals.json 저장 완료 — 축제 ${festivals.length}건`);
+  console.log(`✅ festivals.json 저장 완료 — 축제 ${allFestivals.length}건 (관광공사 ${festivals.length} + 지역 ${stdFestivals.length})`);
 }
 
 main().catch((err) => {
