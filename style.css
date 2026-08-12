@@ -118,6 +118,89 @@ body {
   text-decoration: none;
 }
 
+/* ─── 공연·행사 목록 페이지 ────────────────────── */
+.events-container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px 60px;
+}
+
+.event-region {
+  margin-top: 28px;
+}
+
+.event-region h2 {
+  font-size: 1.15rem;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #4756c9;
+  margin-bottom: 4px;
+}
+
+.event-count {
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.event-row {
+  display: flex;
+  gap: 16px;
+  padding: 14px 4px;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+
+.event-date {
+  flex-shrink: 0;
+  width: 150px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #4756c9;
+}
+
+.event-time {
+  color: #999;
+  font-weight: 400;
+}
+
+.event-name {
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.event-desc {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+.event-meta {
+  font-size: 0.83rem;
+  color: #888;
+  margin-top: 4px;
+}
+
+.event-meta a {
+  color: #4756c9;
+  text-decoration: none;
+}
+
+.event-meta a:hover {
+  text-decoration: underline;
+}
+
+/* 모바일에서는 날짜가 위로 가게 세로 배치 */
+@media (max-width: 600px) {
+  .event-row {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .event-date {
+    width: auto;
+  }
+}
+
 /* 상세 페이지 추천 카드가 링크일 때 기본 링크 꾸밈 제거 */
 .nearby-link {
   text-decoration: none;

@@ -23,6 +23,8 @@ const INFO_URL = "https://apis.data.go.kr/B551011/KorService2/detailInfo2";
 const NEARBY_URL = "https://apis.data.go.kr/B551011/KorService2/locationBasedList2";
 // 지자체가 직접 등록하는 지역 축제 (전국문화축제표준데이터) — TourAPI에 없는 소규모 축제 보완용
 const STD_FESTIVAL_URL = "http://api.data.go.kr/openapi/tn_pubr_public_cltur_fstvl_api";
+// 동네 공연·행사 (전국공연행사정보표준데이터) — events.json으로 별도 저장
+const STD_EVENT_URL = "http://api.data.go.kr/openapi/tn_pubr_public_pblprfr_event_info_api";
 const SERVICE_KEY = process.env.TOUR_API_KEY;
 const NUM_OF_ROWS = 100; // 한 번에 가져올 개수 (페이지 크기)
 
@@ -296,6 +298,40 @@ async function fetchStandardFestivals() {
   }
 }
 
+// 전국공연행사정보표준데이터 전체를 페이지 단위로 받아온다 (축제와 같은 요령)
+async function fetchStandardEvents() {
+  try {
+    let all = [];
+    let page = 1;
+    let total = Infinity;
+    while (all.length < total && page <= 15) {
+      const params = new URLSearchParams({
+        serviceKey: SERVICE_KEY,
+        pageNo: String(page),
+        numOfRows: "1000",
+        type: "json",
+      });
+      const res = await fetch(`${STD_EVENT_URL}?${params.toString()}`);
+      const text = await res.text();
+      if (text.trim().startsWith("<")) throw new Error("XML 에러 응답");
+      const data = JSON.parse(text);
+      const body = data?.response?.body ?? data?.body;
+      const code = (data?.response?.header ?? data?.header)?.resultCode;
+      if (code !== "00") throw new Error(`API 에러 code=${code}`);
+      total = Number(body?.totalCount ?? 0);
+      let items = body?.items?.item ?? [];
+      if (!Array.isArray(items)) items = [items];
+      if (items.length === 0) break;
+      all.push(...items);
+      page++;
+    }
+    return all;
+  } catch (err) {
+    console.warn(`⚠️ 공연행사 수집 실패 (공연 페이지 없이 진행): ${err.message}`);
+    return [];
+  }
+}
+
 // 표준데이터 축제용 고유 ID 만들기 (이름+시작일+주소를 숫자로 압축)
 // TourAPI의 contentid와 구분되게 "s"로 시작. 데이터가 같으면 항상 같은 ID가 나와서
 // 페이지 주소와 캐시가 안정적으로 유지된다
@@ -490,6 +526,33 @@ async function main() {
   );
 
   console.log(`✅ festivals.json 저장 완료 — 축제 ${allFestivals.length}건 (관광공사 ${festivals.length} + 지역 ${stdFestivals.length})`);
+
+  // ── 동네 공연·행사 수집 → events.json (축제와 별도 파일) ──
+  console.log("🎭 동네 공연·행사 수집 시작");
+  const evRaw = await fetchStandardEvents();
+  const events = evRaw
+    .filter((r) => {
+      const s = toYmd(r.eventStartDate);
+      const e = toYmd(r.eventEndDate);
+      // 날짜 형식이 정상이고 오늘~3개월 창과 겹치는 것만 (2205년 같은 오타 데이터 방어)
+      return /^\d{8}$/.test(s) && /^\d{8}$/.test(e) && e >= startDate && s <= endLimit && e <= "20991231";
+    })
+    .map((r) => ({
+      name: r.eventNm,
+      startDate: toYmd(r.eventStartDate),
+      endDate: toYmd(r.eventEndDate),
+      time: r.eventStartTime && r.eventEndTime ? `${r.eventStartTime}~${r.eventEndTime}` : r.eventStartTime || "",
+      place: r.opar || "", // 공연 장소 (예: 광산문화예술회관)
+      address: r.rdnmadr || r.lnmadr || "",
+      charge: r.chrgeInfo || "", // 유료/무료
+      desc: r.eventCo || "",
+      tel: r.phoneNumber || "",
+      host: r.mnnstNm || r.auspcInsttNm || "",
+    }))
+    .sort((a, b) => a.startDate.localeCompare(b.startDate));
+
+  fs.writeFileSync("events.json", JSON.stringify(events, null, 2), "utf-8");
+  console.log(`✅ events.json 저장 완료 — 공연·행사 ${events.length}건`);
 }
 
 main().catch((err) => {

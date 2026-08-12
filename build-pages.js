@@ -560,12 +560,103 @@ for (const theme of THEMES) {
   console.log(`✅ ${filename} 생성 (${theme.name} ${items.length}건)`);
 }
 
+// ── 우리 동네 공연·행사 페이지 (events.json → events.html 한 장) ──
+// 공연은 사진이 없고 정보가 단순해서 카드 대신 줄 목록으로, 지역별 섹션 + 날짜순
+let hasEventsPage = false;
+try {
+  const events = JSON.parse(fs.readFileSync("events.json", "utf-8"));
+  if (events.length >= 3) {
+    // 지역별로 묶기
+    const byRegion = {};
+    for (const ev of events) {
+      const region = getRegion(ev.address);
+      (byRegion[region] = byRegion[region] || []).push(ev);
+    }
+    const regionNames = Object.keys(byRegion).sort((a, b) => byRegion[b].length - byRegion[a].length);
+
+    // 상단 지역 점프 칩 (해당 섹션으로 스크롤)
+    const jumpChips = regionNames
+      .map((r) => `<a class="chip" href="#ev-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`)
+      .join("");
+
+    // 공연 한 건 → 줄 하나. 장소를 클릭하면 네이버지도 검색
+    const eventRow = (ev) => {
+      const mapQuery = `${(ev.address || "").split(" ").slice(0, 2).join(" ")} ${ev.place || ev.name}`.trim();
+      const period =
+        ev.startDate === ev.endDate
+          ? formatDate(ev.startDate)
+          : `${formatDate(ev.startDate)} ~ ${formatDate(ev.endDate)}`;
+      const chargeBadge = ev.charge
+        ? `<span class="badge ${ev.charge.includes("무료") ? "ongoing" : "upcoming"}">${esc(ev.charge)}</span>`
+        : "";
+      return `
+      <div class="event-row">
+        <div class="event-date">${period}${ev.time ? `<br><span class="event-time">${esc(ev.time)}</span>` : ""}</div>
+        <div class="event-main">
+          <div class="event-name">${esc(ev.name)} ${chargeBadge}</div>
+          ${ev.desc ? `<div class="event-desc">${esc(ev.desc)}</div>` : ""}
+          <div class="event-meta">
+            ${ev.place ? `<a target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(mapQuery)}">📍 ${esc(ev.place)}</a>` : ""}
+            ${ev.tel ? ` · 📞 ${esc(ev.tel)}` : ""}
+          </div>
+        </div>
+      </div>`;
+    };
+
+    const sections = regionNames
+      .map(
+        (r) => `
+      <section class="event-region" id="ev-${REGION_SLUGS[r] || "etc"}">
+        <h2>📍 ${esc(r)} <span class="event-count">${byRegion[r].length}건</span></h2>
+        ${byRegion[r].map(eventRow).join("")}
+      </section>`
+      )
+      .join("");
+
+    fs.writeFileSync(
+      "events.html",
+      `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>우리 동네 공연·행사 일정 (${events.length}건) — FestivalHub</title>
+  <meta name="description" content="전국 문예회관·지자체의 공연, 연주회, 연극 등 동네 공연·행사 ${events.length}건을 지역별로 정리했습니다. 매일 업데이트." />
+  <link rel="canonical" href="${SITE_URL}/events.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="우리 동네 공연·행사 일정 — FestivalHub" />
+  <meta property="og:description" content="전국 동네 공연·연주회·연극 ${events.length}건 지역별 정리" />
+  <meta property="og:url" content="${SITE_URL}/events.html" />
+  <link rel="stylesheet" href="style.css" />
+  ${GA_SNIPPET}
+</head>
+<body>
+  <header class="site-header">
+    <h1>🎭 우리 동네 공연·행사</h1>
+    <p class="subtitle">문예회관·지자체 공연과 행사 ${events.length}건 — 지역별·날짜순 (공공데이터 기준)</p>
+    <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
+  </header>
+  <nav class="quick-links">${jumpChips}</nav>
+  <main class="events-container">${sections}</main>
+  ${footerHtml("")}
+</body>
+</html>`,
+      "utf-8"
+    );
+    hasEventsPage = true;
+    console.log(`✅ events.html 생성 (공연·행사 ${events.length}건, ${regionNames.length}개 지역)`);
+  }
+} catch {
+  console.log("ℹ️ events.json이 없어 공연·행사 페이지는 건너뜀 (fetch-festivals.js 실행 필요)");
+}
+
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
 const today = new Date().toISOString().slice(0, 10);
 const urls = [
   `${SITE_URL}/`,
   `${SITE_URL}/about.html`,
   `${SITE_URL}/weekend.html`,
+  ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
   ...regionFiles.map((rf) => `${SITE_URL}/${rf}`),
