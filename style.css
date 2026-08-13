@@ -758,3 +758,21 @@ html {
   color: #888;
   margin-top: 2px;
 }
+
+/* === 한국어 줄바꿈 개선 === */
+/* 단어(어절) 중간에서 잘리지 않고 단어 단위로만 줄바꿈되게 */
+body {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+/* 좁은 화면(모바일)에서만 나타나는 줄바꿈 — PC에서는 투명 */
+.mobile-br {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .mobile-br {
+    display: inline;
+  }
+}
