@@ -182,31 +182,41 @@ const REGION_SLUGS = {
 // 홈 상단의 바로가기 칩 채우기 (월별/테마별/지역별 정적 페이지로 연결)
 function fillQuickLinks() {
   const nav = document.getElementById("quick-links");
-  const addChip = (href, label, cls = "chip") => {
+  // tip을 넘기면 마우스 올렸을 때 말풍선 설명이 뜬다 (style.css의 [data-tip] 참고)
+  const addChip = (href, label, cls = "chip", tip = "") => {
     const a = document.createElement("a");
     a.className = cls;
     a.href = href;
     a.textContent = label;
+    if (tip) a.dataset.tip = tip;
     nav.appendChild(a);
   };
 
   // 공연·행사는 축제와 다른 성격의 페이지라 전용 스타일(보라색)로 맨 앞에 배치
-  addChip("events.html", "🎭 공연·행사", "chip chip-events");
+  addChip("events.html", "🎭 공연·행사", "chip chip-events",
+    "축제가 아닌 공연·연주회·전시 등 동네 문예회관 행사를 지역별로 모은 페이지입니다.");
 
   // 월별 칩: 이번 달부터 4개월 (build-pages.js가 만드는 파일명과 같은 규칙)
   const now = new Date();
   for (let i = 0; i < 4; i++) {
     const md = new Date(now.getFullYear(), now.getMonth() + i, 1);
-    const mm = String(md.getMonth() + 1).padStart(2, "0");
-    addChip(`month-${md.getFullYear()}-${mm}.html`, `${md.getMonth() + 1}월`);
+    const m = md.getMonth() + 1;
+    const mm = String(m).padStart(2, "0");
+    addChip(`month-${md.getFullYear()}-${mm}.html`, `${m}월`, "chip",
+      `${m}월에 열리는 전국 축제를 날짜순으로 정리한 페이지입니다.`);
   }
 
   // 테마별 칩 (build-pages.js의 THEMES와 같은 목록)
-  addChip("theme-flower.html", "🌸 꽃");
-  addChip("theme-light.html", "🎆 불꽃·빛");
-  addChip("theme-food.html", "🍜 먹거리");
-  addChip("theme-heritage.html", "🏯 문화유산 야행");
-  addChip("theme-kids.html", "👨‍👩‍👧 아이랑");
+  addChip("theme-flower.html", "🌸 꽃", "chip",
+    "연꽃·상사화·구절초 등 전국 꽃 축제만 모아봅니다.");
+  addChip("theme-light.html", "🎆 불꽃·빛", "chip",
+    "불꽃놀이·드론쇼·미디어아트 등 밤이 아름다운 축제 모음입니다.");
+  addChip("theme-food.html", "🍜 먹거리", "chip",
+    "맥주·전어·한우·인삼 등 맛있는 먹거리 축제 모음입니다.");
+  addChip("theme-heritage.html", "🏯 문화유산 야행", "chip",
+    "고궁·읍성 같은 문화유산에서 열리는 야간 행사 모음입니다.");
+  addChip("theme-kids.html", "👨‍👩‍👧 아이랑", "chip",
+    "인형극·공룡·반딧불 등 아이와 함께 가기 좋은 축제만 골랐습니다.");
 
   // 지역별 칩
   const regions = [...new Set(allFestivals.map((f) => getRegion(f.address)))]

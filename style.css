@@ -414,7 +414,13 @@ html {
   position: relative; /* 말풍선을 이 라벨 기준으로 띄우기 위함 */
 }
 
+/* 칩에도 말풍선을 띄울 수 있게 기준점 부여 */
+.chip {
+  position: relative;
+}
+
 /* 말풍선 본체: data-tip 속성의 글을 CSS가 꺼내서(attr) 보여준다 */
+.chip[data-tip]::after,
 .toggle[data-tip]::after {
   content: attr(data-tip);
   position: absolute;
@@ -438,6 +444,7 @@ html {
 }
 
 /* 말풍선 위쪽의 작은 삼각형 꼬리 */
+.chip[data-tip]::before,
 .toggle[data-tip]::before {
   content: "";
   position: absolute;
@@ -454,6 +461,8 @@ html {
 }
 
 /* 마우스를 올리면 말풍선과 꼬리를 보여준다 */
+.chip[data-tip]:hover::after,
+.chip[data-tip]:hover::before,
 .toggle[data-tip]:hover::after,
 .toggle[data-tip]:hover::before {
   opacity: 1;
