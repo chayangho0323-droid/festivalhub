@@ -1,13 +1,14 @@
 // serve.js — 로컬 미리보기용 초소형 정적 파일 서버
-// 실행: node serve.js  → 브라우저에서 http://localhost:8080 접속
+// 실행: node serve.js  → 브라우저에서 http://localhost:8081 접속
 // (index.html을 더블클릭으로 열면 브라우저 보안 정책 때문에 festivals.json을 못 읽어서 필요)
 
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-// 환경변수 PORT가 있으면 그걸 쓰고, 없으면 8080 (포트 충돌 시 유연하게 대응)
-const PORT = process.env.PORT || 8080;
+// 환경변수 PORT가 있으면 그걸 쓰고, 없으면 8081
+// (8080은 이 컴퓨터에서 다른 프로그램이 쓰고 있어서 FestivalHub는 8081 사용)
+const PORT = process.env.PORT || 8081;
 
 // 파일 확장자별로 브라우저에게 알려줄 타입
 const MIME = {
