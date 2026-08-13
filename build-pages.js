@@ -579,6 +579,21 @@ try {
       .map((r) => `<a class="chip" href="#ev-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`)
       .join("");
 
+    // 공연 이름/내용에서 장르를 추측해 아이콘 부여 (데이터에 이미지가 없어서 시각 구분용)
+    // 순서 중요: "뮤지컬"이 "음악"보다 먼저 검사되어야 함
+    const eventIcon = (ev) => {
+      const t = (ev.name || "") + (ev.desc || "");
+      if (/뮤지컬/.test(t)) return "🎶";
+      if (/연극|인형극|아동극|넌버벌/.test(t)) return "🎭";
+      if (/국악|판소리|민요|풍물|사물놀이|가야금|해금/.test(t)) return "🥁";
+      if (/무용|발레|춤|댄스/.test(t)) return "💃";
+      if (/마술|매직|서커스/.test(t)) return "🪄"; // "아트"보다 먼저 검사 (사이버매직쇼 같은 경우)
+      if (/전시|미술|사진전|아트/.test(t)) return "🖼️";
+      if (/영화|시네마/.test(t)) return "🎬";
+      if (/클래식|연주회|오케스트라|앙상블|피아노|바이올린|첼로|콘서트|음악회|합창|성악|재즈|밴드/.test(t)) return "🎻";
+      return "🎪";
+    };
+
     // 공연 한 건 → 줄 하나. 장소를 클릭하면 네이버지도 검색
     const eventRow = (ev) => {
       const mapQuery = `${(ev.address || "").split(" ").slice(0, 2).join(" ")} ${ev.place || ev.name}`.trim();
@@ -606,7 +621,7 @@ try {
       <div class="event-row">
         <div class="event-date">${period}${ev.time ? `<br><span class="event-time">${esc(ev.time)}</span>` : ""}</div>
         <div class="event-main">
-          <div class="event-name">${nameLink} ${chargeBadge}</div>
+          <div class="event-name"><span class="event-icon">${eventIcon(ev)}</span> ${nameLink} ${chargeBadge}</div>
           ${ev.desc ? `<div class="event-desc">${esc(ev.desc)}</div>` : ""}
           <div class="event-meta">
             ${ev.place ? `<a target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(mapQuery)}">📍 ${esc(ev.place)}</a>` : ""}

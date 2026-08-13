@@ -169,6 +169,12 @@ html {
   background: #3a46a8;
 }
 
+/* 공연 장르 아이콘 */
+.event-icon {
+  font-size: 1.05rem;
+  margin-right: 2px;
+}
+
 /* 공연명 링크 */
 .event-name-link {
   color: inherit;
