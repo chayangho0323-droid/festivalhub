@@ -677,8 +677,13 @@ try {
     hasEventsPage = true;
     console.log(`✅ events.html 생성 (공연·행사 ${events.length}건, ${regionNames.length}개 지역)`);
   }
-} catch {
-  console.log("ℹ️ events.json이 없어 공연·행사 페이지는 건너뜀 (fetch-festivals.js 실행 필요)");
+} catch (err) {
+  if (err.code === "ENOENT") {
+    console.log("ℹ️ events.json이 없어 공연·행사 페이지는 건너뜀 (fetch-festivals.js 실행 필요)");
+  } else {
+    // 파일이 있는데 실패한 것은 코드 문제이므로 숨기지 말고 그대로 알린다
+    throw err;
+  }
 }
 
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
