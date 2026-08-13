@@ -141,6 +141,20 @@ html {
   padding: 0 16px 60px;
 }
 
+/* 칩이 많은 페이지(홈/목록)용: 데스크톱에서만 상단 고정
+   (모바일은 칩이 여러 줄이라 고정하면 화면을 너무 가려서 ↑ 버튼으로 대체) */
+@media (min-width: 768px) {
+  .sticky-desktop {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #f6f7f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  }
+}
+
 /* 지역 칩 줄을 스크롤해도 상단에 고정 */
 .sticky-nav {
   position: sticky;

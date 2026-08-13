@@ -54,8 +54,9 @@
     </label>
   </section>
 
-  <!-- 주말/지역 큐레이션 페이지 바로가기. 지역 칩은 app.js가 데이터를 보고 채움 -->
-  <nav id="quick-links" class="quick-links">
+  <!-- 주말/지역 큐레이션 페이지 바로가기. 지역 칩은 app.js가 데이터를 보고 채움.
+       sticky-desktop: 데스크톱에서 스크롤해도 상단 고정 -->
+  <nav id="quick-links" class="quick-links sticky-desktop">
     <a class="chip chip-hot" href="weekend.html" data-tip="이번 주 토·일에 열리는 축제만 모아 보여줍니다. 매일 새벽 자동 갱신돼요.">🔥 이번 주말 축제</a>
   </nav>
 
@@ -64,6 +65,9 @@
 
   <!-- 축제 카드들이 들어갈 자리. app.js가 채움 -->
   <main id="festival-list" class="festival-grid"></main>
+
+  <!-- 우측 하단 맨 위로 버튼 -->
+  <a class="to-top" href="#" aria-label="맨 위로">↑</a>
 
   <!-- 사이트 하단 공통 정보 (데이터 출처 표기는 공공데이터 이용 의무사항) -->
   <footer class="site-footer">

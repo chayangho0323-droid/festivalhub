@@ -339,6 +339,24 @@ const REGION_SLUGS = {
   경북: "gyeongbuk", 경남: "gyeongnam", 제주: "jeju", 기타: "etc",
 };
 
+// 테마 정의: 축제 이름 키워드로 자동 분류. chip은 홈/내비 칩에 쓰는 짧은 이름
+const THEMES = [
+  { slug: "flower", name: "꽃 축제", chip: "꽃", icon: "🌸",
+    keywords: ["꽃", "연꽃", "장미", "벚꽃", "유채", "국화", "구절초", "상사화", "코스모스", "맥문동", "해바라기", "수국"] },
+  { slug: "light", name: "불꽃·빛 축제", chip: "불꽃·빛", icon: "🎆",
+    keywords: ["불꽃", "드론", "빛", "미디어아트", "유등", "등불", "야경", "별빛", "루미나리에", "야간"] },
+  { slug: "food", name: "먹거리 축제", chip: "먹거리", icon: "🍜",
+    keywords: ["먹거리", "음식", "맥주", "커피", "와인", "김밥", "라면", "전어", "꽃게", "한우", "숯불", "인삼", "홍삼", "산삼", "김치", "치즈", "사과", "포도", "토마토", "대추", "고추", "구기자", "약초", "장류", "오곡", "막국수", "닭갈비", "송이", "수산", "푸드"] },
+  { slug: "heritage", name: "문화유산 야행", chip: "문화유산 야행", icon: "🏯",
+    keywords: ["국가유산", "야행", "문화재", "읍성", "궁", "전통", "민속", "한옥"] },
+  { slug: "kids", name: "아이랑 가기 좋은 축제", chip: "아이랑", icon: "👨‍👩‍👧",
+    keywords: ["어린이", "아이", "키즈", "가족", "인형", "동화", "만화", "공룡", "반딧불", "곤충", "동물", "나비", "황새", "체험", "청소년", "캐릭터", "장난감"] },
+];
+
+// 목록 페이지들(주말/월별/테마/지역) 상단에 공통으로 붙는 칩 내비게이션.
+// 실행부에서 데이터를 보고 채워지며, buildListPage가 페이지에 삽입한다
+let SITE_NAV = "";
+
 // 90일 이상은 상설·장기 행사로 분류 (큐레이션에서 제외용)
 function isLongRunning(f) {
   const toDate = (s) =>
@@ -401,8 +419,10 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
     <p class="subtitle">${esc(subtitle)}</p>
     <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
   </header>
+  ${SITE_NAV}
   <p class="result-count">${items.length}개의 축제</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
+  <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
 </body>
 </html>`;
@@ -432,6 +452,30 @@ for (const old of fs.readdirSync(__dirname)) {
 
 // ── 큐레이션 페이지 생성 ──
 const todayYmd = todayStr();
+
+// 목록 페이지 공통 칩 내비게이션 만들기 (홈 화면과 같은 구성)
+// 아래에서 생성될 파일들과 링크가 일치하도록 같은 규칙으로 미리 계산한다
+{
+  const navNow = new Date();
+  const navMonths = Array.from({ length: 4 }, (_, i) => {
+    const md = new Date(navNow.getFullYear(), navNow.getMonth() + i, 1);
+    return { y: md.getFullYear(), m: md.getMonth() + 1, mm: String(md.getMonth() + 1).padStart(2, "0") };
+  });
+  const navRegions = [...new Set(festivals.map((f) => getRegion(f.address)))]
+    .filter((r) => r !== "기타")
+    .sort((a, b) => a.localeCompare(b, "ko"));
+  const navThemes = THEMES.filter(
+    (t) => festivals.filter((f) => t.keywords.some((k) => f.name.includes(k))).length >= 3
+  );
+  SITE_NAV = `
+  <nav class="quick-links sticky-desktop">
+    <a class="chip chip-hot" href="weekend.html">🔥 이번 주말</a>
+    ${fs.existsSync(path.join(__dirname, "events.json")) ? `<a class="chip chip-events" href="events.html">🎭 공연·행사</a>` : ""}
+    ${navMonths.map((d) => `<a class="chip" href="month-${d.y}-${d.mm}.html">${d.m}월</a>`).join("")}
+    ${navThemes.map((t) => `<a class="chip" href="theme-${t.slug}.html">${t.icon} ${t.chip}</a>`).join("")}
+    ${navRegions.map((r) => `<a class="chip" href="region-${REGION_SLUGS[r] || "etc"}.html">${esc(r)}</a>`).join("")}
+  </nav>`;
+}
 
 // 이번 주말(토·일) 날짜 계산. 일요일이라면 "이번 주말"은 어제~오늘
 const now = new Date();
@@ -522,20 +566,7 @@ for (let i = 0; i < 4; i++) {
 }
 console.log(`✅ 월별 페이지 ${monthFiles.length}개 생성 (${monthFiles.join(", ")})`);
 
-// ── 테마별 페이지: 축제 이름에서 키워드로 자동 분류 ──
-const THEMES = [
-  { slug: "flower", name: "꽃 축제", icon: "🌸",
-    keywords: ["꽃", "연꽃", "장미", "벚꽃", "유채", "국화", "구절초", "상사화", "코스모스", "맥문동", "해바라기", "수국"] },
-  { slug: "light", name: "불꽃·빛 축제", icon: "🎆",
-    keywords: ["불꽃", "드론", "빛", "미디어아트", "유등", "등불", "야경", "별빛", "루미나리에", "야간"] },
-  { slug: "food", name: "먹거리 축제", icon: "🍜",
-    keywords: ["먹거리", "음식", "맥주", "커피", "와인", "김밥", "라면", "전어", "꽃게", "한우", "숯불", "인삼", "홍삼", "산삼", "김치", "치즈", "사과", "포도", "토마토", "대추", "고추", "구기자", "약초", "장류", "오곡", "막국수", "닭갈비", "송이", "수산", "푸드"] },
-  { slug: "heritage", name: "문화유산 야행", icon: "🏯",
-    keywords: ["국가유산", "야행", "문화재", "읍성", "궁", "전통", "민속", "한옥"] },
-  { slug: "kids", name: "아이랑 가기 좋은 축제", icon: "👨‍👩‍👧",
-    keywords: ["어린이", "아이", "키즈", "가족", "인형", "동화", "만화", "공룡", "반딧불", "곤충", "동물", "나비", "황새", "체험", "청소년", "캐릭터", "장난감"] },
-];
-
+// ── 테마별 페이지: 축제 이름에서 키워드로 자동 분류 (THEMES는 파일 상단에 정의) ──
 const themeFiles = [];
 for (const theme of THEMES) {
   const items = festivals
