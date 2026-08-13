@@ -119,10 +119,65 @@ body {
 }
 
 /* ─── 공연·행사 목록 페이지 ────────────────────── */
+html {
+  scroll-behavior: smooth; /* 지역 점프 시 부드럽게 이동 */
+}
+
 .events-container {
   max-width: 860px;
   margin: 0 auto;
   padding: 0 16px 60px;
+}
+
+/* 지역 칩 줄을 스크롤해도 상단에 고정 */
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #f6f7f9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* 점프로 이동했을 때 섹션 제목이 고정된 칩 줄에 가려지지 않게 여유를 둠 */
+.event-region {
+  scroll-margin-top: 110px;
+}
+
+/* 우측 하단 맨 위로 플로팅 버튼 */
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #4756c9;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 60;
+}
+
+.to-top:hover {
+  background: #3a46a8;
+}
+
+/* 공연명 링크 */
+.event-name-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.event-name-link:hover {
+  color: #4756c9;
+  text-decoration: underline;
 }
 
 .event-region {

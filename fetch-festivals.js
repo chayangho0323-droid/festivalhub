@@ -548,6 +548,8 @@ async function main() {
       desc: r.eventCo || "",
       tel: r.phoneNumber || "",
       host: r.mnnstNm || r.auspcInsttNm || "",
+      // 공연 안내 홈페이지 (없는 공연도 많아서 빈 값 허용)
+      homepage: (r.homepageUrl || "").match(/https?:\/\/[^"'\s<>]+/)?.[0] || "",
     }))
     .sort((a, b) => a.startDate.localeCompare(b.startDate));
 

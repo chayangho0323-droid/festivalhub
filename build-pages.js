@@ -589,11 +589,15 @@ try {
       const chargeBadge = ev.charge
         ? `<span class="badge ${ev.charge.includes("무료") ? "ongoing" : "upcoming"}">${esc(ev.charge)}</span>`
         : "";
+      // 공연명 클릭 → 안내 홈페이지 (없으면 네이버 검색으로 대체해서 안내 페이지를 찾게)
+      const nameLink = ev.homepage
+        ? `<a class="event-name-link" target="_blank" rel="noopener" href="${esc(ev.homepage)}">${esc(ev.name)} ↗</a>`
+        : `<a class="event-name-link" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?query=${encodeURIComponent(`${ev.name} ${ev.place || ""}`.trim())}">${esc(ev.name)} 🔍</a>`;
       return `
       <div class="event-row">
         <div class="event-date">${period}${ev.time ? `<br><span class="event-time">${esc(ev.time)}</span>` : ""}</div>
         <div class="event-main">
-          <div class="event-name">${esc(ev.name)} ${chargeBadge}</div>
+          <div class="event-name">${nameLink} ${chargeBadge}</div>
           ${ev.desc ? `<div class="event-desc">${esc(ev.desc)}</div>` : ""}
           <div class="event-meta">
             ${ev.place ? `<a target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(mapQuery)}">📍 ${esc(ev.place)}</a>` : ""}
@@ -636,8 +640,11 @@ try {
     <p class="subtitle">문예회관·지자체 공연과 행사 ${events.length}건 — 지역별·날짜순 (공공데이터 기준)</p>
     <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
   </header>
-  <nav class="quick-links">${jumpChips}</nav>
+  <!-- 지역 칩 줄은 스크롤해도 화면 상단에 고정됨 (sticky-nav) -->
+  <nav class="quick-links sticky-nav">${jumpChips}</nav>
   <main class="events-container">${sections}</main>
+  <!-- 우측 하단 맨 위로 버튼 -->
+  <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
 </body>
 </html>`,
