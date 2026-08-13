@@ -589,10 +589,19 @@ try {
       const chargeBadge = ev.charge
         ? `<span class="badge ${ev.charge.includes("무료") ? "ongoing" : "upcoming"}">${esc(ev.charge)}</span>`
         : "";
-      // 공연명 클릭 → 안내 홈페이지 (없으면 네이버 검색으로 대체해서 안내 페이지를 찾게)
-      const nameLink = ev.homepage
+      // 공연명 클릭 목적지 정하기:
+      // 등록된 홈페이지가 "그 공연의 상세 페이지"로 보이면(쿼리스트링이 있거나 경로가 깊으면) 직행,
+      // 공연장 대표 주소뿐이면 네이버 검색이 정확한 안내를 더 잘 찾아주므로 검색으로 보낸다
+      const isDeepLink = ev.homepage && (ev.homepage.includes("?") || ev.homepage.split("/").length > 5);
+      const searchUrl = `https://search.naver.com/search.naver?query=${encodeURIComponent(`${ev.name} ${ev.place || ""}`.trim())}`;
+      const nameLink = isDeepLink
         ? `<a class="event-name-link" target="_blank" rel="noopener" href="${esc(ev.homepage)}">${esc(ev.name)} ↗</a>`
-        : `<a class="event-name-link" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?query=${encodeURIComponent(`${ev.name} ${ev.place || ""}`.trim())}">${esc(ev.name)} 🔍</a>`;
+        : `<a class="event-name-link" target="_blank" rel="noopener" href="${searchUrl}">${esc(ev.name)} 🔍</a>`;
+      // 대표 주소만 있는 경우엔 아래 정보 줄에 공연장 홈페이지 링크를 따로 달아준다
+      const venueHomeLink =
+        ev.homepage && !isDeepLink
+          ? ` · <a target="_blank" rel="noopener" href="${esc(ev.homepage)}">🏛️ 공연장 홈페이지</a>`
+          : "";
       return `
       <div class="event-row">
         <div class="event-date">${period}${ev.time ? `<br><span class="event-time">${esc(ev.time)}</span>` : ""}</div>
@@ -601,7 +610,7 @@ try {
           ${ev.desc ? `<div class="event-desc">${esc(ev.desc)}</div>` : ""}
           <div class="event-meta">
             ${ev.place ? `<a target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(mapQuery)}">📍 ${esc(ev.place)}</a>` : ""}
-            ${ev.tel ? ` · 📞 ${esc(ev.tel)}` : ""}
+            ${ev.tel ? ` · 📞 ${esc(ev.tel)}` : ""}${venueHomeLink}
           </div>
         </div>
       </div>`;
