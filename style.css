@@ -91,6 +91,18 @@ body {
   color: #d63031;
 }
 
+/* 공연·행사 칩 — 축제와 다른 성격의 페이지라 보라색 전용 스타일 */
+.chip-events {
+  background: #f5f0ff;
+  border-color: #c9b3f5;
+  color: #6d3fc4;
+}
+
+.chip-events:hover {
+  border-color: #6d3fc4;
+  color: #6d3fc4;
+}
+
 /* 큐레이션 페이지의 "전체 축제 보기" 링크 */
 .home-link {
   margin-top: 10px;

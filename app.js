@@ -190,6 +190,9 @@ function fillQuickLinks() {
     nav.appendChild(a);
   };
 
+  // 공연·행사는 축제와 다른 성격의 페이지라 전용 스타일(보라색)로 맨 앞에 배치
+  addChip("events.html", "🎭 공연·행사", "chip chip-events");
+
   // 월별 칩: 이번 달부터 4개월 (build-pages.js가 만드는 파일명과 같은 규칙)
   const now = new Date();
   for (let i = 0; i < 4; i++) {
@@ -204,7 +207,6 @@ function fillQuickLinks() {
   addChip("theme-food.html", "🍜 먹거리");
   addChip("theme-heritage.html", "🏯 문화유산 야행");
   addChip("theme-kids.html", "👨‍👩‍👧 아이랑");
-  addChip("events.html", "🎭 공연·행사");
 
   // 지역별 칩
   const regions = [...new Set(allFestivals.map((f) => getRegion(f.address)))]
