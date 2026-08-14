@@ -785,3 +785,11 @@ body {
   align-items: center;
   gap: 0 12px;
 }
+
+/* 모든 말풍선(체크박스·칩·제보버튼)이 상단 고정 칩 줄(z-index 50)에 가리지 않게 */
+.toggle[data-tip]::after,
+.toggle[data-tip]::before,
+.chip[data-tip]::after,
+.chip[data-tip]::before {
+  z-index: 100;
+}
