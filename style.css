@@ -776,3 +776,12 @@ body {
     display: inline;
   }
 }
+
+/* 체크박스 묶음: 모바일에서 두 토글이 흩어지지 않고 나란히 함께 줄바꿈 */
+.toggle-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0 12px;
+}

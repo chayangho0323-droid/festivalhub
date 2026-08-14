@@ -41,17 +41,20 @@
       <option value="date">날짜순</option>
       <option value="name">이름순</option>
     </select>
-    <!-- 90일 이상 이어지는 상설 공연/행사를 목록에서 뺄지 선택.
-         data-tip 속성의 글이 마우스를 올리면 말풍선으로 표시됨 (style.css 참고) -->
-    <label class="toggle" data-tip="기간이 90일 이상인 상설 공연·전시(수문장 교대의식, 상설 드론쇼 등)를 목록에서 가립니다. 체크를 끄면 다시 보여요.">
-      <input type="checkbox" id="hide-long" checked />
-      상설·장기 행사 숨기기
-    </label>
-    <!-- 하트 누른 축제만 모아보기 -->
-    <label class="toggle" data-tip="카드의 하트(🤍)를 눌러 찜해둔 축제만 모아 봅니다. 찜 목록은 지금 쓰는 브라우저에만 저장됩니다.">
-      <input type="checkbox" id="only-fav" />
-      ❤️ 찜한 축제만
-    </label>
+    <!-- 체크박스 두 개는 한 묶음으로 — 모바일에서 흩어지지 않고 함께 줄바꿈됨 -->
+    <div class="toggle-group">
+      <!-- 90일 이상 이어지는 상설 공연/행사를 목록에서 뺄지 선택.
+           data-tip 속성의 글이 마우스를 올리면 말풍선으로 표시됨 (style.css 참고) -->
+      <label class="toggle" data-tip="기간이 90일 이상인 상설 공연·전시(수문장 교대의식, 상설 드론쇼 등)를 목록에서 가립니다. 체크를 끄면 다시 보여요.">
+        <input type="checkbox" id="hide-long" checked />
+        상설·장기 행사 숨기기
+      </label>
+      <!-- 하트 누른 축제만 모아보기 -->
+      <label class="toggle" data-tip="카드의 하트(🤍)를 눌러 찜해둔 축제만 모아 봅니다. 찜 목록은 지금 쓰는 브라우저에만 저장됩니다.">
+        <input type="checkbox" id="only-fav" />
+        ❤️ 찜한 축제만
+      </label>
+    </div>
   </section>
 
   <!-- 주말/지역 큐레이션 페이지 바로가기. 지역 칩은 app.js가 데이터를 보고 채움.
