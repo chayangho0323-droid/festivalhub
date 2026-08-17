@@ -377,19 +377,6 @@
     "homepage": "https://www.geojeart.or.kr/"
   },
   {
-    "name": "싸운드써커스",
-    "startDate": "20260620",
-    "endDate": "20260816",
-    "time": "13:30~16:30",
-    "place": "용인어린이상상의숲 공연놀이터",
-    "address": "경기도 용인시 처인구 동백죽전대로 61",
-    "charge": "유료",
-    "desc": "업사이클링 악기로 선보이는 환경 퍼포먼스",
-    "tel": "031-323-6509",
-    "host": "라슨컴퍼니",
-    "homepage": "https://www.yicf.or.kr/lib"
-  },
-  {
     "name": "전통예술지역브랜드 상설공연(춤추는 상쇠-필봉백년)",
     "startDate": "20260629",
     "endDate": "20260928",
@@ -442,19 +429,6 @@
     "homepage": ""
   },
   {
-    "name": "제11회 소아암 어린이 꿈 공모전",
-    "startDate": "20260803",
-    "endDate": "20260816",
-    "time": "10:00~18:00",
-    "place": "영등포아트스퀘어",
-    "address": "서울특별시 영등포구 영중로15",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "한국백혈병어린이재단",
-    "homepage": ""
-  },
-  {
     "name": "겸재정선미술관 기획전 Ⅱ <유근택 개인전>",
     "startDate": "20260804",
     "endDate": "20261022",
@@ -466,45 +440,6 @@
     "tel": "02-2659-2206",
     "host": "겸재정선미술관",
     "homepage": "https://culture.gangseo.seoul.kr"
-  },
-  {
-    "name": "아트레이저(사이버매직쇼)",
-    "startDate": "20260815",
-    "endDate": "20260816",
-    "time": "09:00~21:00",
-    "place": "청주아트홀 공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "매직헌터",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "강서아트리움 기획공연 <역사콘서트>",
-    "startDate": "20260816",
-    "endDate": "20260816",
-    "time": "15:00~16:30",
-    "place": "강서아트리움",
-    "address": "서울특별시 강서구 가로공원로 195",
-    "charge": "유료",
-    "desc": "역사 강연과 공연이 결합된 새로운 형식의 문화콘텐츠로, 전문가의 해설과 함께 음악, 낭독, 영상 등 다양한 공연 요소로 풀어내는 프로그램 (일요일 운영)",
-    "tel": "02-2692-4266",
-    "host": "강서아트리움",
-    "homepage": "https://culture.gangseo.seoul.kr"
-  },
-  {
-    "name": "숨 브라스 콰이어 ‘refesh&hope 콘서트‘",
-    "startDate": "20260816",
-    "endDate": "20260816",
-    "time": "09:00~21:00",
-    "place": "청주예술의전당 소공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "숨 브라스 콰이어",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
     "name": "소프라노 조수미 세계 무대 데뷔 40주년 기념 공연",
@@ -3833,5 +3768,57 @@
     "tel": "",
     "host": "충북예총",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "2026 이달의 공연 사운드트립_11월 앰비규어스댄스컴퍼니",
+    "startDate": "20261117",
+    "endDate": "20261117",
+    "time": "11:00~12:00",
+    "place": "구로아트밸리극장",
+    "address": "서울특별시 구로구 가마산로25길 9-24",
+    "charge": "유료",
+    "desc": "콘서트+댄스+퍼포먼스",
+    "tel": "02-2029-1725",
+    "host": "구로문화재단",
+    "homepage": "https://www.guroartsvalley.or.kr/"
+  },
+  {
+    "name": "청주프라임클라리넷 제4회 정기연주회",
+    "startDate": "20261117",
+    "endDate": "20261117",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 소공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "청주프라임클라리넷",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "충북도립교향악단 제94회 정기연주회 ‘모차르트’",
+    "startDate": "20261117",
+    "endDate": "20261117",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 대공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "충북도립교향악단",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "2026 전국환경사진대전 입상작 전시회 및 시상식",
+    "startDate": "20261117",
+    "endDate": "20261124",
+    "time": "10:00~18:00",
+    "place": "영등포아트스퀘어",
+    "address": "서울특별시 영등포구 영중로15",
+    "charge": "무료",
+    "desc": "전시",
+    "tel": "",
+    "host": "한국환경사진협회",
+    "homepage": ""
   }
 ]
