@@ -442,19 +442,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "제2회 청주문화원 국악합창단 정기연주회",
-    "startDate": "20260818",
-    "endDate": "20260818",
-    "time": "09:00~21:00",
-    "place": "청주예술의전당 소공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "청주문화원",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
     "name": "2026 디자인캠프 IN 영등포",
     "startDate": "20260820",
     "endDate": "20260830",
@@ -3845,6 +3832,71 @@
     "desc": "음악평론가 장영범의 해설이 있는 음악회",
     "tel": "031-511-6780",
     "host": "(재)남양주문화재단",
+    "homepage": ""
+  },
+  {
+    "name": "시립합창단 정기연주회",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "19:30~21:00",
+    "place": "김천시문화예술회관",
+    "address": "경상북도 김천시 운동장길3",
+    "charge": "무료",
+    "desc": "음악회",
+    "tel": "054-420-7827",
+    "host": "경상북도 김천시",
+    "homepage": ""
+  },
+  {
+    "name": "청주의 명인전",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 소공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "(사)청주예총 (국악협회)",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "한음클라리넷 정기연주회",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "09:00~21:00",
+    "place": "청주아트홀 공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "한음클라리넷",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "1234 콘서트 <오르간과 합창음악>",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "19:30~21:30",
+    "place": "부천아트센터 콘서트홀",
+    "address": "경기도 부천시 원미구 소향로 165",
+    "charge": "유료",
+    "desc": "부천시립합창단 연주회",
+    "tel": "032-327-7523",
+    "host": "부천시립예술단",
+    "homepage": "https://www.bucheonphil.or.kr/"
+  },
+  {
+    "name": "2026 추억의 명화 11월 게이샤의 추억",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "14:00~16:00",
+    "place": "서빛마루문화예술회관",
+    "address": "광주광역시 서구 풍암공원로 30",
+    "charge": "무료",
+    "desc": "영화상영",
+    "tel": "062-350-4564",
+    "host": "광주광역시 서구",
     "homepage": ""
   }
 ]
