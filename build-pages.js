@@ -310,6 +310,7 @@ function buildPage(f, all) {
     })};
   </script>
   <script src="../festival-page.js"></script>
+  <script src="../track-clicks.js"></script>
 </body>
 </html>`;
 }
@@ -437,6 +438,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
+  <script src="track-clicks.js"></script>
 </body>
 </html>`;
 }
@@ -714,6 +716,7 @@ try {
   <!-- 우측 하단 맨 위로 버튼 -->
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
+  <script src="track-clicks.js"></script>
 </body>
 </html>`,
       "utf-8"
