@@ -37,12 +37,25 @@ function toYYYYMMDD(date) {
   return `${y}${m}${d}`;
 }
 
-const today = new Date();
-const threeMonthsLater = new Date(today);
-threeMonthsLater.setMonth(threeMonthsLater.getMonth() + 3);
+// 한국 시간 기준 "오늘" — GitHub 자동 갱신 서버는 세계표준시(UTC)로 돌아서
+// 새벽 실행 시 날짜가 하루 어긋나는 문제를 막기 위해 +9시간 보정
+function kstNow() {
+  return new Date(Date.now() + 9 * 60 * 60 * 1000);
+}
+function kstYYYYMMDD(d) {
+  return (
+    d.getUTCFullYear() +
+    String(d.getUTCMonth() + 1).padStart(2, "0") +
+    String(d.getUTCDate()).padStart(2, "0")
+  );
+}
 
-const startDate = toYYYYMMDD(today); // 예: 20260810
-const endLimit = toYYYYMMDD(threeMonthsLater); // 예: 20261110
+const today = kstNow();
+const threeMonthsLater = new Date(today);
+threeMonthsLater.setUTCMonth(threeMonthsLater.getUTCMonth() + 3);
+
+const startDate = kstYYYYMMDD(today); // 예: 20260818
+const endLimit = kstYYYYMMDD(threeMonthsLater); // 예: 20261118
 
 // ─── API 호출 ───────────────────────────────────────────────────────
 // 한 페이지를 가져와서 { items: [...], totalCount: N } 형태로 돌려준다

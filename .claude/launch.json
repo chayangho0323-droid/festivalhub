@@ -7,6 +7,13 @@
       "runtimeArgs": ["serve.js"],
       "port": 8080,
       "autoPort": true
+    },
+    {
+      "name": "camping-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["D:\\camping-hub\\serve.js"],
+      "port": 8090,
+      "autoPort": true
     }
   ]
 }

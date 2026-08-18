@@ -442,19 +442,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "소프라노 조수미 세계 무대 데뷔 40주년 기념 공연",
-    "startDate": "20260817",
-    "endDate": "20260817",
-    "time": "17:00~19:00",
-    "place": "양산문화예술회관 대공연장",
-    "address": "경상남도 양산시 중앙로 39-1(남부동)",
-    "charge": "유료",
-    "desc": "소프라노 조수미와 출연진, 오케스트라의 성악 공연",
-    "tel": "055-380-0930",
-    "host": "(재)양산문화재단",
-    "homepage": "https://culture.ycf.or.kr/"
-  },
-  {
     "name": "제2회 청주문화원 국악합창단 정기연주회",
     "startDate": "20260818",
     "endDate": "20260818",
@@ -3819,6 +3806,45 @@
     "desc": "전시",
     "tel": "",
     "host": "한국환경사진협회",
+    "homepage": ""
+  },
+  {
+    "name": "전통과 현재를 잇는 소리울림“잇다”",
+    "startDate": "20261118",
+    "endDate": "20261118",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 소공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "음악그룹여음",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "수요음감회(11월)",
+    "startDate": "20261118",
+    "endDate": "20261118",
+    "time": "19:00~20:00",
+    "place": "과천시민회관 3층 스테이지",
+    "address": "경기도 과천시 통영로 5",
+    "charge": "무료",
+    "desc": "복합",
+    "tel": "02-2009-9700",
+    "host": "과천문화재단",
+    "homepage": "https://www.gcart.or.kr"
+  },
+  {
+    "name": "마티네 콘서트 시리즈<11시 클래식 수다>",
+    "startDate": "20261118",
+    "endDate": "20261118",
+    "time": "11:00~12:30",
+    "place": "다산아트홀",
+    "address": "경기도 남양주시 다산중앙로 7",
+    "charge": "유료",
+    "desc": "음악평론가 장영범의 해설이 있는 음악회",
+    "tel": "031-511-6780",
+    "host": "(재)남양주문화재단",
     "homepage": ""
   }
 ]

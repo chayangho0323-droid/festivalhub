@@ -117,16 +117,25 @@ function render() {
   const favorites = getFavorites();
 
   let shown = allFestivals.filter((f) => {
+    const notEnded = f.endDate >= today; // 끝난 축제는 다음 데이터 갱신 전이라도 화면에서 바로 제외
     const matchKeyword = !keyword || f.name.toLowerCase().includes(keyword);
     const matchRegion = !region || getRegion(f.address) === region;
     const matchLong = !hideLongEl.checked || !isLongRunning(f);
     const matchFav = !onlyFavEl.checked || favorites.includes(f.contentid);
-    return matchKeyword && matchRegion && matchLong && matchFav;
+    return notEnded && matchKeyword && matchRegion && matchLong && matchFav;
   });
 
   // 2) 정렬
   if (sortEl.value === "date") {
-    shown.sort((a, b) => a.startDate.localeCompare(b.startDate));
+    // 날짜순 = ① 진행중인 축제 먼저 (곧 끝나는 순 — "지금 가야 하는 것"부터)
+    //          ② 그다음 예정 축제 (시작일 빠른 순 = D-day 순)
+    shown.sort((a, b) => {
+      const aOn = a.startDate <= today && today <= a.endDate;
+      const bOn = b.startDate <= today && today <= b.endDate;
+      if (aOn !== bOn) return aOn ? -1 : 1; // 진행중이 앞으로
+      if (aOn && bOn) return a.endDate.localeCompare(b.endDate); // 진행중끼리는 마감 임박순
+      return a.startDate.localeCompare(b.startDate); // 예정끼리는 시작 빠른 순
+    });
   } else {
     shown.sort((a, b) => a.name.localeCompare(b.name, "ko"));
   }

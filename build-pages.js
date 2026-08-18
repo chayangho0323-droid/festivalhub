@@ -67,12 +67,17 @@ function isoDate(d) {
   return `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}`;
 }
 
+// 한국 시간 기준 현재 시각 — GitHub 자동 갱신 서버(UTC)에서 돌아도 날짜가 안 어긋나게 +9시간 보정
+function kstNow() {
+  return new Date(Date.now() + 9 * 60 * 60 * 1000);
+}
+
 function todayStr() {
-  const d = new Date();
+  const d = kstNow();
   return (
-    d.getFullYear() +
-    String(d.getMonth() + 1).padStart(2, "0") +
-    String(d.getDate()).padStart(2, "0")
+    d.getUTCFullYear() +
+    String(d.getUTCMonth() + 1).padStart(2, "0") +
+    String(d.getUTCDate()).padStart(2, "0")
   );
 }
 
@@ -111,9 +116,11 @@ function miniCards(list) {
 function buildPage(f, all) {
   const today = todayStr();
   const ongoing = f.startDate <= today && today <= f.endDate;
-  const badge = ongoing
-    ? `<span class="badge ongoing">진행중</span>`
-    : `<span class="badge upcoming">예정</span>`;
+  const badge = f.endDate < today
+    ? `<span class="badge long">종료</span>`
+    : ongoing
+      ? `<span class="badge ongoing">진행중</span>`
+      : `<span class="badge upcoming">예정</span>`;
 
   const period = `${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}`;
 
@@ -372,11 +379,15 @@ function listCard(f, today) {
       new Date(Number(today.slice(0, 4)), Number(today.slice(4, 6)) - 1, Number(today.slice(6, 8)))) /
       (1000 * 60 * 60 * 24)
   );
-  const badge = isLongRunning(f)
-    ? `<span class="badge long">상설·장기</span>`
-    : ongoing
-      ? `<span class="badge ongoing">진행중</span>`
-      : `<span class="badge upcoming">D-${dday}</span>`;
+  // 배지 우선순위: 종료 > 상설·장기 > 진행중 > D-day
+  // (끝난 축제는 다음 갱신 때 목록에서 빠지지만, 그 사이에도 "D--3" 같은 깨진 표시가 안 나오게)
+  const badge = f.endDate < today
+    ? `<span class="badge long">종료</span>`
+    : isLongRunning(f)
+      ? `<span class="badge long">상설·장기</span>`
+      : ongoing
+        ? `<span class="badge ongoing">진행중</span>`
+        : `<span class="badge upcoming">D-${dday}</span>`;
   const img = f.image
     ? `<img src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" />`
     : `<div class="no-image">🎪</div>`;
@@ -397,7 +408,9 @@ function listCard(f, today) {
 
 // 주말/지역 같은 목록형 페이지 한 장을 통째로 만든다
 function buildListPage({ filename, title, heading, subtitle, description, items, today }) {
-  const cards = items.map((f) => listCard(f, today)).join("");
+  // 이미 끝난 축제는 목록 맨 뒤로 (월별 페이지처럼 지난 축제가 섞일 수 있는 곳 대비)
+  const sorted = [...items.filter((f) => f.endDate >= today), ...items.filter((f) => f.endDate < today)];
+  const cards = sorted.map((f) => listCard(f, today)).join("");
   return `<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -456,10 +469,10 @@ const todayYmd = todayStr();
 // 목록 페이지 공통 칩 내비게이션 만들기 (홈 화면과 같은 구성)
 // 아래에서 생성될 파일들과 링크가 일치하도록 같은 규칙으로 미리 계산한다
 {
-  const navNow = new Date();
+  const navNow = kstNow(); // 한국시간 기준
   const navMonths = Array.from({ length: 4 }, (_, i) => {
-    const md = new Date(navNow.getFullYear(), navNow.getMonth() + i, 1);
-    return { y: md.getFullYear(), m: md.getMonth() + 1, mm: String(md.getMonth() + 1).padStart(2, "0") };
+    const md = new Date(Date.UTC(navNow.getUTCFullYear(), navNow.getUTCMonth() + i, 1));
+    return { y: md.getUTCFullYear(), m: md.getUTCMonth() + 1, mm: String(md.getUTCMonth() + 1).padStart(2, "0") };
   });
   const navRegions = [...new Set(festivals.map((f) => getRegion(f.address)))]
     .filter((r) => r !== "기타")
@@ -477,15 +490,15 @@ const todayYmd = todayStr();
   </nav>`;
 }
 
-// 이번 주말(토·일) 날짜 계산. 일요일이라면 "이번 주말"은 어제~오늘
-const now = new Date();
-const day = now.getDay(); // 0=일 ... 6=토
+// 이번 주말(토·일) 날짜 계산 — 한국시간 기준. 일요일이라면 "이번 주말"은 어제~오늘
+const now = kstNow();
+const day = now.getUTCDay(); // 0=일 ... 6=토
 const sat = new Date(now);
-sat.setDate(now.getDate() + (day === 0 ? -1 : 6 - day));
+sat.setUTCDate(now.getUTCDate() + (day === 0 ? -1 : 6 - day));
 const sun = new Date(sat);
-sun.setDate(sat.getDate() + 1);
+sun.setUTCDate(sat.getUTCDate() + 1);
 const fmt = (d) =>
-  d.getFullYear() + String(d.getMonth() + 1).padStart(2, "0") + String(d.getDate()).padStart(2, "0");
+  d.getUTCFullYear() + String(d.getUTCMonth() + 1).padStart(2, "0") + String(d.getUTCDate()).padStart(2, "0");
 const satStr = fmt(sat);
 const sunStr = fmt(sun);
 
@@ -494,8 +507,8 @@ const weekendFestivals = festivals
   .filter((f) => f.startDate <= sunStr && f.endDate >= satStr && !isLongRunning(f))
   .sort((a, b) => a.startDate.localeCompare(b.startDate));
 
-const satLabel = `${sat.getMonth() + 1}.${sat.getDate()}`;
-const sunLabel = `${sun.getMonth() + 1}.${sun.getDate()}`;
+const satLabel = `${sat.getUTCMonth() + 1}.${sat.getUTCDate()}`;
+const sunLabel = `${sun.getUTCMonth() + 1}.${sun.getUTCDate()}`;
 fs.writeFileSync(
   "weekend.html",
   buildListPage({
@@ -540,9 +553,9 @@ console.log(`✅ 지역별 페이지 ${regionFiles.length}개 생성 (${regions.
 // ── 월별 페이지: 이번 달부터 4개월치 ──
 const monthFiles = [];
 for (let i = 0; i < 4; i++) {
-  const md = new Date(now.getFullYear(), now.getMonth() + i, 1);
-  const y = md.getFullYear();
-  const m = md.getMonth() + 1;
+  const md = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + i, 1));
+  const y = md.getUTCFullYear();
+  const m = md.getUTCMonth() + 1;
   const mm = String(m).padStart(2, "0");
   // 축제 기간이 그 달과 하루라도 겹치면 포함 ("31"은 문자열 비교용 상한)
   const items = festivals
@@ -718,7 +731,7 @@ try {
 }
 
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
-const today = new Date().toISOString().slice(0, 10);
+const today = kstNow().toISOString().slice(0, 10); // 한국시간 기준 날짜
 const urls = [
   `${SITE_URL}/`,
   `${SITE_URL}/about.html`,
