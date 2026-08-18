@@ -618,12 +618,37 @@ try {
       const region = getRegion(ev.address);
       (byRegion[region] = byRegion[region] || []).push(ev);
     }
-    const regionNames = Object.keys(byRegion).sort((a, b) => byRegion[b].length - byRegion[a].length);
+    // 지역 순서는 가나다순으로 고정 (건수순은 갱신마다 순서가 바뀌어 헷갈림)
+    const regionNames = Object.keys(byRegion).sort((a, b) => a.localeCompare(b, "ko"));
 
-    // 상단 지역 점프 칩 (해당 섹션으로 스크롤)
-    const jumpChips = regionNames
-      .map((r) => `<a class="chip" href="#ev-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`)
-      .join("");
+    // 앞으로 7일 안에 열리는 공연 — 맨 위에 따로 모아 보여준다 (가장 급한 정보)
+    const weekLater = (() => {
+      const d = kstNow();
+      d.setUTCDate(d.getUTCDate() + 7);
+      return d.getUTCFullYear() + String(d.getUTCMonth() + 1).padStart(2, "0") + String(d.getUTCDate()).padStart(2, "0");
+    })();
+    // 상설 전시(90일 이상 이어지는 것)는 "이번 주 공연"의 취지와 달라 제외
+    const toD = (s) => new Date(Number(s.slice(0, 4)), Number(s.slice(4, 6)) - 1, Number(s.slice(6, 8)));
+    const soonEvents = events
+      .filter(
+        (ev) =>
+          ev.startDate <= weekLater &&
+          ev.endDate >= todayYmd &&
+          (toD(ev.endDate) - toD(ev.startDate)) / 86400000 < 90
+      )
+      // 이미 시작한 공연은 오늘 기준으로 취급해 정렬 (몇 달 전 시작한 것이 맨 앞에 오지 않게)
+      .sort((a, b) => {
+        const ea = a.startDate < todayYmd ? todayYmd : a.startDate;
+        const eb = b.startDate < todayYmd ? todayYmd : b.startDate;
+        return ea.localeCompare(eb) || a.startDate.localeCompare(b.startDate);
+      });
+
+    // 상단 지역 점프 칩 (해당 섹션으로 스크롤). 맨 앞에 "이번 주" 바로가기
+    const jumpChips =
+      (soonEvents.length ? `<a class="chip chip-hot" href="#ev-soon">🔥 이번 주 ${soonEvents.length}</a>` : "") +
+      regionNames
+        .map((r) => `<a class="chip" href="#ev-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`)
+        .join("");
 
     // 공연 이름/내용에서 장르를 추측해 아이콘 부여 (데이터에 이미지가 없어서 시각 구분용)
     // 순서 중요: "뮤지컬"이 "음악"보다 먼저 검사되어야 함
@@ -677,15 +702,26 @@ try {
       </div>`;
     };
 
-    const sections = regionNames
-      .map(
-        (r) => `
+    // 이번 주 섹션을 맨 위에 (지역 구분 없이 날짜순 — 가장 급한 공연부터)
+    const soonSection = soonEvents.length
+      ? `
+      <section class="event-region" id="ev-soon">
+        <h2>🔥 이번 주 공연 <span class="event-count">${soonEvents.length}건 · 앞으로 7일</span></h2>
+        ${soonEvents.map(eventRow).join("")}
+      </section>`
+      : "";
+
+    const sections =
+      soonSection +
+      regionNames
+        .map(
+          (r) => `
       <section class="event-region" id="ev-${REGION_SLUGS[r] || "etc"}">
         <h2>📍 ${esc(r)} <span class="event-count">${byRegion[r].length}건</span></h2>
         ${byRegion[r].map(eventRow).join("")}
       </section>`
-      )
-      .join("");
+        )
+        .join("");
 
     fs.writeFileSync(
       "events.html",
@@ -707,7 +743,7 @@ try {
 <body>
   <header class="site-header">
     <h1>🎭 우리 동네 공연·행사</h1>
-    <p class="subtitle">문예회관·지자체 공연과 행사 ${events.length}건 — 지역별·날짜순 (공공데이터 기준)</p>
+    <p class="subtitle">문예회관·지자체 공연과 행사 ${events.length}건 — <br class="mobile-br" />이번 주 공연 먼저, 그다음 지역별·날짜순</p>
     <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
   </header>
   <!-- 지역 칩 줄은 스크롤해도 화면 상단에 고정됨 (sticky-nav) -->
