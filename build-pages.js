@@ -143,13 +143,16 @@ function buildPage(f, all) {
 
   // ── 길찾기 + 숙소 버튼 ──
   const hasCoords = f.lat && f.lng;
-  // 주소 앞 두 단어(예: "전북특별자치도 진안군")로 숙소 검색
-  const stayQuery = (f.address || f.name).split(" ").slice(0, 2).join(" ");
+  // 숙소 검색은 축제가 열리는 시·군 기준으로 (예: "충청남도 계룡시 숙박")
+  // Booking.com은 한글 지역명을 도시로 인식하지 못해 이름이 비슷한 엉뚱한 숙소를 보여줬고
+  // ("충청남도 계룡시" → 공주 계룡산 글램핑), 중구·서구처럼 여러 도시에 겹치는 이름도 많아
+  // 한국 주소를 정확히 처리하는 네이버 지도 숙박 검색으로 연결한다. (펜션·민박까지 나옴)
+  const stayQuery = (f.address || f.name).split(" ").slice(0, 2).join(" ") + " 숙박";
   const directions = `
     <div class="dir-buttons">
       ${hasCoords ? `<a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/${encodeURIComponent(f.name)},${f.lat},${f.lng}">🚗 카카오맵 길찾기</a>` : ""}
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(f.address || f.name)}">🧭 네이버지도에서 보기</a>
-      <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://www.booking.com/searchresults.ko.html?ss=${encodeURIComponent(stayQuery)}">🏨 근처 숙소 보기</a>
+      <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(stayQuery)}">🏨 근처 숙소 보기</a>
     </div>`;
 
   // ── 소개/행사내용 섹션 (중복 제거) ──
