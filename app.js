@@ -314,17 +314,10 @@ listEl.addEventListener("click", (e) => {
 // ─── 내 주변 가까운 순 (CampingHub와 같은 방식 — 수정 시 양쪽 다!) ───
 // 브라우저 위치 기능(허용 팝업)을 써서 현재 위치를 받아온다.
 // 위치는 이 페이지 안에서 거리 계산에만 쓰고 서버로 보내지 않음.
-nearBtn.addEventListener("click", () => {
-  // 이미 켜져 있으면 → 끄고 원래 정렬로
-  if (nearPos) {
-    nearPos = null;
-    nearBtn.classList.remove("on");
-    nearBtn.textContent = "📍 내 주변 가까운 순";
-    render();
-    return;
-  }
+function enableNear(silent) {
+  // silent=true는 접속 직후 자동 시도 — 실패해도 알림 없이 일반 정렬 유지
   if (!navigator.geolocation) {
-    alert("이 브라우저는 위치 기능을 지원하지 않아요.");
+    if (!silent) alert("이 브라우저는 위치 기능을 지원하지 않아요.");
     return;
   }
   nearBtn.textContent = "📍 위치 확인 중...";
@@ -334,14 +327,32 @@ nearBtn.addEventListener("click", () => {
       nearBtn.classList.add("on");
       nearBtn.textContent = "📍 내 주변 순 (누르면 끔)";
       render();
-      window.scrollTo({ top: 0 }); // 정렬이 바뀌었으니 목록 맨 위로
+      if (!silent) window.scrollTo({ top: 0 }); // 정렬이 바뀌었으니 목록 맨 위로
     },
     () => {
       nearBtn.textContent = "📍 내 주변 가까운 순";
-      alert("위치 정보를 가져오지 못했어요.\n주소창 근처의 위치 권한을 허용으로 바꾸고 다시 눌러주세요.");
+      if (!silent) alert("위치 정보를 가져오지 못했어요.\n주소창 근처의 위치 권한을 허용으로 바꾸고 다시 눌러주세요.");
     },
     { maximumAge: 600000, timeout: 8000 } // 10분 내 위치는 재사용, 8초 안에 응답 없으면 포기
   );
+}
+
+nearBtn.addEventListener("click", () => {
+  // 이미 켜져 있으면 → 끄고 원래 정렬로. 끈 선택은 기억해서 다음 방문엔 자동으로 안 켬
+  if (nearPos) {
+    nearPos = null;
+    nearBtn.classList.remove("on");
+    nearBtn.textContent = "📍 내 주변 가까운 순";
+    try { localStorage.setItem("near-off", "1"); } catch (e) {}
+    render();
+    return;
+  }
+  try { localStorage.removeItem("near-off"); } catch (e) {}
+  enableNear(false);
 });
 
 init();
+
+// 기본값: 접속하자마자 내 주변 정렬을 자동 시도 (위치를 거부하면 조용히 일반 정렬)
+// 사용자가 버튼으로 직접 껐던 브라우저에서는 그 선택을 존중해 자동으로 켜지 않음
+if (localStorage.getItem("near-off") !== "1") enableNear(true);
