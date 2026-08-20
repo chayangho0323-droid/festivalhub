@@ -8,6 +8,9 @@ const sortEl = document.getElementById("sort-order");
 const countEl = document.getElementById("result-count");
 const hideLongEl = document.getElementById("hide-long");
 const onlyFavEl = document.getElementById("only-fav");
+const nearBtn = document.getElementById("near-me");
+
+let nearPos = null; // "내 주변" 켜면 {lat, lng}가 채워짐 (브라우저에만 있고 어디에도 안 보냄)
 
 // ── 찜하기: 브라우저 저장소(localStorage)에 contentid 목록으로 보관 ──
 function getFavorites() {
@@ -126,7 +129,23 @@ function render() {
   });
 
   // 2) 정렬
-  if (sortEl.value === "date") {
+  if (nearPos) {
+    // "내 주변" 켜짐: 현재 위치에서 가까운 순 (하버사인 공식으로 km 거리 계산)
+    const rad = (deg) => (deg * Math.PI) / 180;
+    shown.forEach((f) => {
+      if (!f.lat || !f.lng) {
+        f._dist = Infinity; // 좌표 없는 축제(지역 표준데이터 일부)는 맨 뒤로
+        return;
+      }
+      const dLat = rad(f.lat - nearPos.lat);
+      const dLng = rad(f.lng - nearPos.lng);
+      const h =
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(rad(nearPos.lat)) * Math.cos(rad(f.lat)) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+      f._dist = 6371 * 2 * Math.asin(Math.sqrt(h)); // 지구 반지름 6371km
+    });
+    shown.sort((a, b) => a._dist - b._dist);
+  } else if (sortEl.value === "date") {
     // 날짜순 = ① 진행중인 축제 먼저 (곧 끝나는 순 — "지금 가야 하는 것"부터)
     //          ② 그다음 예정 축제 (시작일 빠른 순 = D-day 순)
     shown.sort((a, b) => {
@@ -171,7 +190,11 @@ function render() {
               ${badge}
               <h2>${f.name}</h2>
               <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}</p>
-              <p class="address">📍 ${f.address || "주소 정보 없음"}</p>
+              <p class="address">📍 ${f.address || "주소 정보 없음"}${
+                nearPos && isFinite(f._dist)
+                  ? ` · 🚗 ${f._dist < 10 ? f._dist.toFixed(1) : Math.round(f._dist)}km`
+                  : ""
+              }</p>
             </div>
           </article>
         </a>`;
@@ -284,6 +307,39 @@ listEl.addEventListener("click", (e) => {
   e.preventDefault();
   toggleFavorite(heart.dataset.id);
   render();
+});
+
+// ─── 내 주변 가까운 순 (CampingHub와 같은 방식 — 수정 시 양쪽 다!) ───
+// 브라우저 위치 기능(허용 팝업)을 써서 현재 위치를 받아온다.
+// 위치는 이 페이지 안에서 거리 계산에만 쓰고 서버로 보내지 않음.
+nearBtn.addEventListener("click", () => {
+  // 이미 켜져 있으면 → 끄고 원래 정렬로
+  if (nearPos) {
+    nearPos = null;
+    nearBtn.classList.remove("on");
+    nearBtn.textContent = "📍 내 주변 가까운 순";
+    render();
+    return;
+  }
+  if (!navigator.geolocation) {
+    alert("이 브라우저는 위치 기능을 지원하지 않아요.");
+    return;
+  }
+  nearBtn.textContent = "📍 위치 확인 중...";
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      nearPos = { lat: pos.coords.latitude, lng: pos.coords.longitude };
+      nearBtn.classList.add("on");
+      nearBtn.textContent = "📍 내 주변 순 (누르면 끔)";
+      render();
+      window.scrollTo({ top: 0 }); // 정렬이 바뀌었으니 목록 맨 위로
+    },
+    () => {
+      nearBtn.textContent = "📍 내 주변 가까운 순";
+      alert("위치 정보를 가져오지 못했어요.\n주소창 근처의 위치 권한을 허용으로 바꾸고 다시 눌러주세요.");
+    },
+    { maximumAge: 600000, timeout: 8000 } // 10분 내 위치는 재사용, 8초 안에 응답 없으면 포기
+  );
 });
 
 init();

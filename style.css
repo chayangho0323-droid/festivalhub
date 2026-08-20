@@ -434,6 +434,7 @@ html {
 }
 
 /* 말풍선 본체: data-tip 속성의 글을 CSS가 꺼내서(attr) 보여준다 */
+.near-me[data-tip]::after,
 .chip[data-tip]::after,
 .toggle[data-tip]::after {
   content: attr(data-tip);
@@ -458,6 +459,7 @@ html {
 }
 
 /* 말풍선 위쪽의 작은 삼각형 꼬리 */
+.near-me[data-tip]::before,
 .chip[data-tip]::before,
 .toggle[data-tip]::before {
   content: "";
@@ -475,6 +477,8 @@ html {
 }
 
 /* 마우스를 올리면 말풍선과 꼬리를 보여준다 */
+.near-me[data-tip]:hover::after,
+.near-me[data-tip]:hover::before,
 .chip[data-tip]:hover::after,
 .chip[data-tip]:hover::before,
 .toggle[data-tip]:hover::after,
@@ -790,6 +794,30 @@ body {
 .toggle[data-tip]::after,
 .toggle[data-tip]::before,
 .chip[data-tip]::after,
-.chip[data-tip]::before {
+.chip[data-tip]::before,
+.near-me[data-tip]::after,
+.near-me[data-tip]::before {
   z-index: 100;
+}
+
+
+/* 내 주변 가까운 순 버튼 — 켜지면(.on) 파란색으로 채워짐 (CampingHub와 동일) */
+.near-me {
+  display: inline-block;
+  padding: 7px 14px;
+  border-radius: 20px;
+  border: 1.5px solid #2b6cb0;
+  background: #fff;
+  color: #2b6cb0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative; /* 말풍선 기준점 */
+}
+.near-me:hover {
+  background: #ebf4ff;
+}
+.near-me.on {
+  background: #2b6cb0;
+  color: #fff;
 }
