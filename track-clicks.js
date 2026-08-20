@@ -27,6 +27,7 @@
     if (el.closest("#near-me")) return "click_nearme"; // 내 주변 가까운 순 (캠핑)
     if (el.closest(".report-btn, .report-link")) return "click_report";
     if (el.closest("#cal-btn")) return "click_calendar";
+    if (el.closest(".cross-link")) return "click_cross"; // 축제↔캠핑 상호 이동 (네트워크 효과 측정)
     if (el.closest(".nearby-link")) return "click_nearby";
     if (el.closest("#fav-btn, .fav-heart")) return "click_favorite";
     if (el.closest("#share-btn")) return "click_share";

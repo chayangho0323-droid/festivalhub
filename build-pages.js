@@ -36,6 +36,30 @@ const COUPANG_ITEMS = [
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 
+// ── 형제 사이트(캠핑허브) 데이터: 상세 페이지 "근처 캠핑장" 섹션용 ──
+// 라이브 사이트의 공개 JSON을 가져온다. 실패해도 빌드는 계속 (섹션만 생략)
+const { execSync } = require("child_process");
+let crossCampings = [];
+try {
+  crossCampings = JSON.parse(
+    execSync("curl -s -m 30 https://campinghub.kr/campings-list.json", { maxBuffer: 20 * 1024 * 1024 }).toString("utf8")
+  ).filter((c) => c.lat && c.lng);
+  console.log(`🏕️ 캠핑허브 데이터 ${crossCampings.length}곳 로드 (근처 캠핑장 섹션용)`);
+} catch (e) {
+  console.log("⚠️ 캠핑허브 데이터를 가져오지 못해 이번 빌드는 근처 캠핑장 섹션을 생략합니다");
+}
+
+// 두 지점 사이 거리(km) — 하버사인 공식
+function distKm(lat1, lng1, lat2, lng2) {
+  const rad = (d) => (d * Math.PI) / 180;
+  const dLat = rad(lat2 - lat1);
+  const dLng = rad(lng2 - lng1);
+  const h =
+    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+    Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * Math.sin(dLng / 2) * Math.sin(dLng / 2);
+  return 6371 * 2 * Math.asin(Math.sqrt(h));
+}
+
 // ─── 도우미 함수 ────────────────────────────────────────────
 
 // HTML 속성/제목에 들어갈 글자를 안전하게 (태그·따옴표가 코드로 해석되는 것 방지)
@@ -94,6 +118,7 @@ function footerHtml(prefix = "") {
   <footer class="site-footer">
     <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
     <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
+    <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>`;
 }
 
@@ -185,6 +210,29 @@ function buildPage(f, all) {
     list && list.length
       ? `<section class="nearby-section"><h2>${icon} ${title}</h2><div class="nearby-row">${nearbyCards(list)}</div></section>`
       : "";
+
+  // ── 형제 사이트 연결: 근처 캠핑장 (캠핑허브) ──
+  // "축제 가는 김에 근처에서 캠핑" — 두 사이트가 방문자를 주고받는 다리
+  const nearCamps = hasCoords
+    ? crossCampings
+        .map((c) => ({ ...c, dist: distKm(Number(f.lat), Number(f.lng), c.lat, c.lng) }))
+        .filter((c) => c.dist <= 40)
+        .sort((a, b) => a.dist - b.dist)
+        .slice(0, 4)
+    : [];
+  const campSection = nearCamps.length
+    ? `<section class="nearby-section"><h2>🏕️ 근처 캠핑장</h2><div class="nearby-row">${nearCamps
+        .map(
+          (c) => `
+        <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener"
+           href="https://campinghub.kr/camping/${c.contentId}.html" title="캠핑허브에서 보기">
+          ${c.image ? `<img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" />` : `<div class="nearby-noimg">🏕️</div>`}
+          <div class="nearby-name">${esc(c.name)}</div>
+          <div class="nearby-dist">📍 ${c.dist < 10 ? c.dist.toFixed(1) : Math.round(c.dist)}km · 캠핑허브 ↗</div>
+        </a>`
+        )
+        .join("")}</div></section>`
+    : "";
 
   const homepage = f.homepage
     ? `<a href="${esc(f.homepage)}" target="_blank" rel="noopener">${esc(f.homepage)}</a>`
@@ -279,6 +327,7 @@ function buildPage(f, all) {
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
+      ${campSection}
       ${relatedSection(`${region} 지역의 다른 축제`, "🗺️", sameRegion)}
       ${relatedSection("비슷한 시기에 열리는 축제", "🗓️", similarTime)}
       ${
