@@ -24,6 +24,7 @@
     if (el.closest(".dir-btn.reserve")) return "click_reserve"; // 캠핑 예약 바로가기
     if (el.closest(".dir-btn.kakao, .dir-btn.naver")) return "click_map";
     if (el.closest(".review-link")) return "click_review"; // 네이버 후기 보기 (캠핑 카드)
+    if (el.closest("#near-me")) return "click_nearme"; // 내 주변 가까운 순 (캠핑)
     if (el.closest(".report-btn, .report-link")) return "click_report";
     if (el.closest("#cal-btn")) return "click_calendar";
     if (el.closest(".nearby-link")) return "click_nearby";
