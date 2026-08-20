@@ -3911,5 +3911,44 @@
     "tel": "",
     "host": "청주시자원봉사센터",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "라인필하모닉 제10회 정기연주회 Nostalgia",
+    "startDate": "20261121",
+    "endDate": "20261121",
+    "time": "09:00~21:00",
+    "place": "청주아트홀 공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "라인필하모닉",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "뮤지컬겨울왕국시즌2",
+    "startDate": "20261121",
+    "endDate": "20261122",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 대공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "i기획",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "과천시립소년소녀합창단 하모니시리즈4",
+    "startDate": "20261121",
+    "endDate": "20261121",
+    "time": "17:00~18:30",
+    "place": "과천시민회관 대극장",
+    "address": "경기도 과천시 통영로 5",
+    "charge": "유료",
+    "desc": "클래식",
+    "tel": "02-2009-9700",
+    "host": "경기도 과천시",
+    "homepage": "https://www.gcart.or.kr"
   }
 ]
