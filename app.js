@@ -195,6 +195,8 @@ function render() {
                   ? ` · 🚗 ${f._dist < 10 ? f._dist.toFixed(1) : Math.round(f._dist)}km`
                   : ""
               }</p>
+              <button class="review-link" data-query="${`${(f.address || "").split(" ")[1] || ""} ${f.name}`.trim()}"
+                onclick="event.preventDefault();window.open('https://map.naver.com/p/search/'+encodeURIComponent(this.dataset.query)+'?placePath=%2Freview','_blank','noopener');">📝 네이버 후기 보기</button>
             </div>
           </article>
         </a>`;

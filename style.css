@@ -821,3 +821,21 @@ body {
   background: #2b6cb0;
   color: #fff;
 }
+
+/* 카드 안 네이버 후기 버튼 — 카드 전체가 링크라 <a>를 못 쓰고 button으로 처리 (CampingHub와 동일) */
+.review-link {
+  margin-top: 8px;
+  padding: 4px 12px;
+  border: 1px solid #03c75a; /* 네이버 초록 */
+  background: #fff;
+  color: #03c75a;
+  border-radius: 14px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+.review-link:hover {
+  background: #03c75a;
+  color: #fff;
+}

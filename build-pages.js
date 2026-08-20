@@ -405,6 +405,8 @@ function listCard(f, today) {
           <h2>${esc(f.name)}</h2>
           <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}</p>
           <p class="address">📍 ${esc(f.address) || "주소 정보 없음"}</p>
+          <button class="review-link" data-query="${esc(`${(f.address || "").split(" ")[1] || ""} ${f.name}`.trim())}"
+            onclick="event.preventDefault();window.open('https://map.naver.com/p/search/'+encodeURIComponent(this.dataset.query)+'?placePath=%2Freview','_blank','noopener');">📝 네이버 후기 보기</button>
         </div>
       </article>
     </a>`;
