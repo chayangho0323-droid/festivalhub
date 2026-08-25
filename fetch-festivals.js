@@ -380,19 +380,35 @@ async function main() {
 
   console.log(`📅 조회 기간: ${startDate} ~ ${endLimit} (오늘부터 3개월)`);
 
-  // 1페이지를 먼저 호출해서 전체 개수(totalCount)를 알아낸다
-  const first = await fetchPage(1);
-  const totalCount = Number(first.totalCount);
-  const totalPages = Math.ceil(totalCount / NUM_OF_ROWS);
-  console.log(`🔎 전체 ${totalCount}건, ${totalPages}페이지 수집 시작`);
-
-  let allItems = [...first.items];
-
-  // 2페이지부터 끝 페이지까지 순서대로 가져온다
-  for (let page = 2; page <= totalPages; page++) {
-    const { items } = await fetchPage(page);
-    allItems.push(...items);
-    console.log(`   ${page}/${totalPages} 페이지 완료 (누적 ${allItems.length}건)`);
+  // 목록 수집 — 새벽 시간대 API가 가끔 죽어 있어서 3번까지 재시도 (캠핑 로봇과 같은 방식)
+  // 전부 실패하면 기존 festivals.json을 그대로 두고 종료 → build-pages.js가 어제 데이터로
+  // 페이지를 새로 만들어 날짜/배지는 계속 갱신된다
+  let allItems = null;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const first = await fetchPage(1);
+      const totalCount = Number(first.totalCount);
+      const totalPages = Math.ceil(totalCount / NUM_OF_ROWS);
+      console.log(`🔎 전체 ${totalCount}건, ${totalPages}페이지 수집 시작 (시도 ${attempt}/3)`);
+      const collected = [...first.items];
+      for (let page = 2; page <= totalPages; page++) {
+        const { items } = await fetchPage(page);
+        collected.push(...items);
+        console.log(`   ${page}/${totalPages} 페이지 완료 (누적 ${collected.length}건)`);
+      }
+      allItems = collected;
+      break;
+    } catch (err) {
+      console.log(`⚠️ 목록 수집 실패 (시도 ${attempt}/3): ${err.message}`);
+      if (attempt < 3) {
+        console.log("   60초 뒤 다시 시도합니다...");
+        await new Promise((r) => setTimeout(r, 60000));
+      }
+    }
+  }
+  if (!allItems) {
+    console.log("⚠️ API가 계속 응답하지 않습니다. 오늘은 기존 festivals.json/events.json을 그대로 사용합니다.");
+    return;
   }
 
   // eventStartDate 파라미터는 "이 날짜 이후 시작"만 걸러주므로,
@@ -464,6 +480,18 @@ async function main() {
   console.log("🏘️ 지역 축제(표준데이터) 수집 시작");
   const stdRaw = await fetchStandardFestivals();
 
+  // 표준데이터 API가 죽어 빈 결과면 기존 파일의 지역 축제를 재사용
+  // (하루 정전으로 지역 축제 170여 건이 통째로 사라지는 것 방지)
+  let stdReuse = null;
+  if (stdRaw.length === 0 && fs.existsSync("festivals.json")) {
+    try {
+      stdReuse = JSON.parse(fs.readFileSync("festivals.json", "utf-8")).filter(
+        (f) => f.source === "std" && f.endDate >= startDate
+      );
+      console.log(`   ⚠️ 표준데이터가 비어 있어 기존 지역 축제 ${stdReuse.length}건을 재사용합니다`);
+    } catch {}
+  }
+
   const toYmd = (s) => (s || "").replace(/-/g, ""); // "2026-08-12" → "20260812"
   // 이름 비교용 정규화: "제27회", 연도, 공백, 괄호에 더해
   // "축제/문화제/페스티벌" 같은 꼬리표도 지워서 알맹이만 남긴다
@@ -498,7 +526,7 @@ async function main() {
   console.log(`   표준데이터 ${stdRaw.length}건 → 기간 내 ${stdWindow.length}건 → 중복 제거 후 신규 ${stdNew.length}건`);
 
   // 우리 스키마로 변환 + 좌표 있는 축제는 주변 관광지/맛집도 붙임 (캐시 재사용)
-  const stdFestivals = await mapInBatches(stdNew, 5, async (r) => {
+  const stdFestivals = stdReuse ?? await mapInBatches(stdNew, 5, async (r) => {
     const id = stdId(r);
     const c = cache[id] || {};
     const lat = r.latitude || "";
@@ -565,6 +593,17 @@ async function main() {
       homepage: (r.homepageUrl || "").match(/https?:\/\/[^"'\s<>]+/)?.[0] || "",
     }))
     .sort((a, b) => a.startDate.localeCompare(b.startDate));
+
+  // 공연 API가 죽어 빈 결과면 기존 events.json을 덮어쓰지 않고 유지
+  if (events.length === 0 && fs.existsSync("events.json")) {
+    try {
+      const prev = JSON.parse(fs.readFileSync("events.json", "utf-8")).filter((e) => e.endDate >= startDate);
+      if (prev.length) {
+        console.log(`⚠️ 공연 데이터가 비어 있어 기존 events.json(${prev.length}건)을 유지합니다`);
+        return;
+      }
+    } catch {}
+  }
 
   fs.writeFileSync("events.json", JSON.stringify(events, null, 2), "utf-8");
   console.log(`✅ events.json 저장 완료 — 공연·행사 ${events.length}건`);
