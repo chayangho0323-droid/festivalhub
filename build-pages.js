@@ -49,6 +49,25 @@ try {
   console.log("⚠️ 캠핑허브 데이터를 가져오지 못해 이번 빌드는 근처 캠핑장 섹션을 생략합니다");
 }
 
+// ── 아고다 제휴 (Site ID = 파트너센터의 추적 번호) ──
+// agoda-cities.json: 시군구 → [아고다 도시 ID, 호텔 수] 매핑 (2026-08-31 수집)
+// 호텔이 충분한 지역(100개 이상)만 아고다로 보내고, 재고가 빈약한 소도시는
+// 네이버 지도 숙박 검색 유지 (빈 결과 페이지를 보여주는 것보다 낫다)
+const AGODA_CID = "1972966";
+let AGODA = { cities: {}, metros: {} };
+try {
+  AGODA = JSON.parse(fs.readFileSync("agoda-cities.json", "utf-8"));
+} catch {}
+
+function agodaCityFor(address) {
+  const t = (address || "").split(" ");
+  if (!t[1]) return null;
+  const sido = t[0].replace(/(특별자치도|특별자치시|특별시|광역시|도)$/, "");
+  const key = t[1].endsWith("구") ? `${sido} ${t[1]}` : t[1];
+  const hit = AGODA.cities[key] || AGODA.metros[sido];
+  return hit && hit[1] >= 100 ? hit[0] : null;
+}
+
 // 두 지점 사이 거리(km) — 하버사인 공식
 function distKm(lat1, lng1, lat2, lng2) {
   const rad = (d) => (d * Math.PI) / 180;
@@ -177,7 +196,13 @@ function buildPage(f, all) {
     <div class="dir-buttons">
       ${hasCoords ? `<a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/${encodeURIComponent(f.name)},${f.lat},${f.lng}">🚗 카카오맵 길찾기</a>` : ""}
       <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(f.address || f.name)}">🧭 네이버지도에서 보기</a>
-      <a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(stayQuery)}">🏨 근처 숙소 보기</a>
+      ${(() => {
+        // 아고다 재고가 충분한 지역은 제휴 링크(예약 시 수수료), 아니면 네이버 지도
+        const agodaId = agodaCityFor(f.address);
+        return agodaId
+          ? `<a class="dir-btn hotel" target="_blank" rel="noopener sponsored" href="https://www.agoda.com/partners/partnersearch.aspx?cid=${AGODA_CID}&city=${agodaId}">🏨 근처 숙소 보기</a>`
+          : `<a class="dir-btn hotel" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(stayQuery)}">🏨 근처 숙소 보기</a>`;
+      })()}
     </div>`;
 
   // ── 소개/행사내용 섹션 (중복 제거) ──
