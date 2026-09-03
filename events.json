@@ -429,32 +429,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "장화신은 고양이",
-    "startDate": "20260903",
-    "endDate": "20260903",
-    "time": "10:10~12:00",
-    "place": "광양문화예술회관",
-    "address": "전라남도 광양시 광양읍 향교길 9-30",
-    "charge": "유료",
-    "desc": "뮤지컬",
-    "tel": "",
-    "host": "극단키즈샘",
-    "homepage": ""
-  },
-  {
-    "name": "로비콘서트Ⅴ : 그대, 꽃 피우리라",
-    "startDate": "20260903",
-    "endDate": "20260903",
-    "time": "14:00~15:00",
-    "place": "수성아트피아",
-    "address": "대구광역시 수성구 무학로 180",
-    "charge": "무료",
-    "desc": "음악회",
-    "tel": "053-668-1800",
-    "host": "수성아트피아",
-    "homepage": "http://www.ssartpia.kr"
-  },
-  {
     "name": "2026 포크페스티벌 전야제",
     "startDate": "20260904",
     "endDate": "20260904",
@@ -3950,5 +3924,57 @@
     "tel": "053-668-1800",
     "host": "수성아트피아",
     "homepage": "http://www.ssartpia.kr"
+  },
+  {
+    "name": "소년소녀합창단 정기연주회",
+    "startDate": "20261204",
+    "endDate": "20261204",
+    "time": "19:30~21:00",
+    "place": "김천시문화예술회관",
+    "address": "경상북도 김천시 운동장길3",
+    "charge": "무료",
+    "desc": "음악회",
+    "tel": "054-420-7827",
+    "host": "경상북도 김천시",
+    "homepage": ""
+  },
+  {
+    "name": "과천시립여성합창단 콰이어시리즈3",
+    "startDate": "20261204",
+    "endDate": "20261204",
+    "time": "19:30~21:00",
+    "place": "과천시민회관 대극장",
+    "address": "경기도 과천시 통영로 5",
+    "charge": "유료",
+    "desc": "클래식",
+    "tel": "02-2009-9700",
+    "host": "경기도 과천시",
+    "homepage": "https://www.gcart.or.kr"
+  },
+  {
+    "name": "윤종신 콘서트",
+    "startDate": "20261204",
+    "endDate": "20261206",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 대공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "드림티켓",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "기획연주회 <재즈와 캐롤>",
+    "startDate": "20261204",
+    "endDate": "20261204",
+    "time": "19:30~21:30",
+    "place": "부천아트센터 콘서트홀",
+    "address": "경기도 부천시 원미구 소향로 165",
+    "charge": "유료",
+    "desc": "부천시립합창단 연주회",
+    "tel": "032-327-7523",
+    "host": "부천시립예술단",
+    "homepage": "https://www.bucheonphil.or.kr/"
   }
 ]
