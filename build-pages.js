@@ -527,15 +527,23 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
 const outDir = path.join(__dirname, "festival");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
-// 이전 빌드 결과를 지워서, 끝난 축제 페이지가 남아있지 않게 한다
+// 종료 축제 아카이브: 페이지를 지우지 않고 "종료" 배지를 단 채 보존한다.
+// 지우면 구글 색인이 함께 사라져 검색 노출이 리셋되기 때문 (2026-08-31 교훈).
+// 목록·랜딩에는 안 나오므로(현재 축제만 사용) 방문자 경험은 그대로.
+let archivedFestivals = [];
+try {
+  archivedFestivals = JSON.parse(fs.readFileSync("festivals-archive.json", "utf-8"));
+} catch {}
+
+// 이전 빌드 결과를 지우고 (현재 + 아카이브 전체를 다시 생성하므로 죽은 파일은 안 남음)
 for (const old of fs.readdirSync(outDir)) {
   if (old.endsWith(".html")) fs.unlinkSync(path.join(outDir, old));
 }
 
-for (const f of festivals) {
+for (const f of [...festivals, ...archivedFestivals]) {
   fs.writeFileSync(path.join(outDir, `${f.contentid}.html`), buildPage(f, festivals), "utf-8");
 }
-console.log(`✅ festival/*.html ${festivals.length}개 생성`);
+console.log(`✅ festival/*.html ${festivals.length + archivedFestivals.length}개 생성 (진행·예정 ${festivals.length} + 종료 보존 ${archivedFestivals.length})`);
 
 // 예전 빌드의 월별/테마/지역 파일 정리 (죽은 페이지가 남지 않게 — 아래에서 다시 생성됨)
 for (const old of fs.readdirSync(__dirname)) {
@@ -859,6 +867,8 @@ const urls = [
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
   ...regionFiles.map((rf) => `${SITE_URL}/${rf}`),
   ...festivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
+  // 종료 축제도 사이트맵에 유지 — 색인을 지키고 내년 검색까지 잡는 자산
+  ...archivedFestivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
 ];
 const sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +

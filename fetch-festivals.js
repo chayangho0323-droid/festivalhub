@@ -560,6 +560,31 @@ async function main() {
 
   const allFestivals = [...festivals, ...stdFestivals];
 
+  // ── 종료 축제 아카이브 ──────────────────────────────────
+  // 목록에서 빠진(=끝난) 축제를 festivals-archive.json에 보존한다.
+  // 페이지를 지우면 구글 색인도 같이 사라져서 노출이 리셋되던 문제의 재발 방지
+  // (2026-08-31 발견: 8월 축제 종료 → 페이지 삭제 → 색인 280→45 급락)
+  try {
+    let archive = [];
+    try {
+      archive = JSON.parse(fs.readFileSync("festivals-archive.json", "utf-8"));
+    } catch {}
+    const prev = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
+    const curIds = new Set(allFestivals.map((f) => f.contentid));
+    const archIds = new Set(archive.map((f) => f.contentid));
+    for (const f of prev) {
+      if (!curIds.has(f.contentid) && !archIds.has(f.contentid) && f.endDate && f.endDate < startDate) {
+        archive.push(f);
+      }
+    }
+    // 같은 축제가 다시 현재 목록에 나타나면(내년 개최 등) 아카이브에서 빼서 중복 방지
+    archive = archive.filter((f) => !curIds.has(f.contentid));
+    fs.writeFileSync("festivals-archive.json", JSON.stringify(archive, null, 2), "utf-8");
+    console.log(`🗄️ 종료 축제 아카이브 ${archive.length}건 (색인 보존용)`);
+  } catch (err) {
+    console.log(`⚠️ 아카이브 갱신 실패 (계속 진행): ${err.message}`);
+  }
+
   fs.writeFileSync(
     "festivals.json",
     JSON.stringify(allFestivals, null, 2), // null, 2 = 사람이 읽기 좋게 들여쓰기
