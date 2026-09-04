@@ -3947,5 +3947,173 @@
       }
     ],
     "source": "std"
+  },
+  {
+    "contentid": "s181cgtz",
+    "name": "사회복지페스티벌",
+    "startDate": "20260904",
+    "endDate": "20260904",
+    "address": "경기도 성남시 중원구 성남대로 997",
+    "lat": "37.420173",
+    "lng": "127.126280",
+    "image": "",
+    "overview": "사회복지의 날 기념식 및 사회복지박람회",
+    "tel": "031-729-2842",
+    "homepage": "",
+    "eventplace": "성남시청",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "경기도 성남시",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "서울교통공사 모란차량사업소",
+        "dist": 312,
+        "image": "",
+        "addr": "경기도 성남시 중원구 여수대로 182 (여수동)"
+      },
+      {
+        "name": "상희공원",
+        "dist": 1675,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2914469_image2_1.jpg",
+        "addr": "경기도 성남시 분당구 야탑동"
+      },
+      {
+        "name": "수진공원",
+        "dist": 1764,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/53/3551853_image2_1.jpg",
+        "addr": "경기도 성남시 수정구 수진동"
+      },
+      {
+        "name": "맹산환경생태학습원",
+        "dist": 2163,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3055209_image2_1.jpg",
+        "addr": "경기도 성남시 분당구 판교로 628 (야탑동)"
+      },
+      {
+        "name": "둔촌이집묘역",
+        "dist": 2630,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/76/3053476_image2_1.jpg",
+        "addr": "경기도 성남시 중원구 둔촌대로 320 (하대원동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "고수짬뽕",
+        "dist": 362,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2893443_image2_1.jpg",
+        "addr": "경기도 성남시 중원구 성남대로997번길 51-4 (여수동)"
+      },
+      {
+        "name": "사계진미",
+        "dist": 643,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/87/2932387_image2_1.jpg",
+        "addr": "경기도 성남시 분당구 양현로 453 (야탑동)"
+      },
+      {
+        "name": "수라예찬 야탑점",
+        "dist": 786,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/2765719_image2_1.jpeg",
+        "addr": "경기도 성남시 분당구 성남대로925번길 16 (야탑동)"
+      },
+      {
+        "name": "황제바지락짬뽕",
+        "dist": 850,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2875110_image2_1.jpg",
+        "addr": "경기도 성남시 수정구 탄천로307번길 6 (사송동)"
+      },
+      {
+        "name": "왕노가",
+        "dist": 1004,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/51/2857751_image2_1.JPG",
+        "addr": "경기도 성남시 분당구 장미로100번길 20 (야탑동)"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "stuodfu",
+    "name": "2026년 파주포크페스티벌(전야제)",
+    "startDate": "20260904",
+    "endDate": "20260904",
+    "address": "경기도 파주시 문산읍 통일로 1680",
+    "lat": "37.8567709842",
+    "lng": "126.7903141158",
+    "image": "",
+    "overview": "파주의 대표 공연예술축제로 평화의 도시 파주에서 포크의 울림과 시대의 이야기를 전함",
+    "tel": "031-950-8431",
+    "homepage": "https://www.pajucf.or.kr/main/main.php",
+    "eventplace": "문산행복센터",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "경기도 파주시청",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "파주임진팔경",
+        "dist": 3472,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/3541717_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 반구정로 53-51"
+      },
+      {
+        "name": "황희선생유적지·반구정",
+        "dist": 3564,
+        "image": "",
+        "addr": "경기도 파주시 문산읍 반구정로85번길 3"
+      },
+      {
+        "name": "파주 율곡습지공원",
+        "dist": 4184,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3383136_image2_1.JPG",
+        "addr": "경기도 파주시 파평면 율곡리"
+      },
+      {
+        "name": "율곡수목원",
+        "dist": 5449,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/3547148_image2_1.jpg",
+        "addr": "경기도 파주시 파평면 장승배기로 392"
+      },
+      {
+        "name": "평화랜드",
+        "dist": 5696,
+        "image": "",
+        "addr": "경기도 파주시 문산읍 임진각로 148-39"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "밀밭식당",
+        "dist": 418,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2853308_image2_1.JPG",
+        "addr": "경기도 파주시 문산읍 문향로 84"
+      },
+      {
+        "name": "은하장",
+        "dist": 425,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/2855838_image2_1.JPG",
+        "addr": "경기도 파주시 문산읍 문향로 78"
+      },
+      {
+        "name": "전주웰빙새알팥죽",
+        "dist": 511,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/27/2862027_image2_1.JPG",
+        "addr": "경기도 파주시 문산읍 문향로 14"
+      },
+      {
+        "name": "맛나반점",
+        "dist": 825,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/24/2853324_image2_1.JPG",
+        "addr": "경기도 파주시 충현로 25"
+      },
+      {
+        "name": "문산부대찌개 정미식당",
+        "dist": 866,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2859785_image2_1.JPG",
+        "addr": "경기도 파주시 파주읍 충현로 42-8"
+      }
+    ],
+    "source": "std"
   }
 ]
