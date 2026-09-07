@@ -169,19 +169,6 @@
     "homepage": ""
   },
   {
-    "name": "허준박물관 개관 21주년 기념 <오감만족, 우리음식> 특별전",
-    "startDate": "20260320",
-    "endDate": "20260906",
-    "time": "10:00~18:00",
-    "place": "허준박물관",
-    "address": "서울특별시 강서구 허준로 87",
-    "charge": "유료",
-    "desc": "허준박물관 개관 21주년을 기념하여 오감을 통해서 본 우리나라 음식을 주제로 전시",
-    "tel": "02-3661-8686",
-    "host": "허준박물관",
-    "homepage": "https://culture.gangseo.seoul.kr"
-  },
-  {
     "name": "2026 차와 이야기가 있는 국악콘서트 <다담>",
     "startDate": "20260325",
     "endDate": "20261125",
@@ -403,19 +390,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "제22회 영등포미술협회 정기전",
-    "startDate": "20260901",
-    "endDate": "20260906",
-    "time": "10:00~18:00",
-    "place": "영등포아트스퀘어",
-    "address": "서울특별시 영등포구 영중로15",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "영등포미술협회",
-    "homepage": ""
-  },
-  {
     "name": "허준박물관 제17회 건강의학교실",
     "startDate": "20260903",
     "endDate": "20261119",
@@ -440,19 +414,6 @@
     "tel": "055-650-4514",
     "host": "통영연예예술인협회",
     "homepage": ""
-  },
-  {
-    "name": "뇌를춤추게하는천둥소리 실버페스티벌",
-    "startDate": "20260906",
-    "endDate": "20260906",
-    "time": "09:00~21:00",
-    "place": "청주아트홀 공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "해누리예술단",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
     "name": "2026년 09월 공연 문화공연",
@@ -3923,6 +3884,58 @@
     "desc": "순수공연",
     "tel": "",
     "host": "청주색소폰오케스트라",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "연극 한뼘사이",
+    "startDate": "20261208",
+    "endDate": "20261212",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 소공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "예술램프죠이",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "2026년 12월 공연 <김현철의 유쾌한 오케스트라>",
+    "startDate": "20261208",
+    "endDate": "20261208",
+    "time": "19:00~20:40",
+    "place": "장성문화예술회관 대공연장",
+    "address": "전라남도 장성군 장성읍 문화로 110",
+    "charge": "유료",
+    "desc": "기획공연",
+    "tel": "061-390-8578",
+    "host": "전라남도 장성군 문화교육과",
+    "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
+  },
+  {
+    "name": "2026충청북도자원봉사자대회",
+    "startDate": "20261208",
+    "endDate": "20261208",
+    "time": "09:00~21:00",
+    "place": "청주아트홀 공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "충청북도종합자원봉사센터",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "청주콘서트윈드오케스트라제40회정기연주회",
+    "startDate": "20261208",
+    "endDate": "20261208",
+    "time": "09:00~21:00",
+    "place": "청주예술의전당 대공연장",
+    "address": "충청북도 청주시 서원구 흥덕로 69",
+    "charge": "유료",
+    "desc": "순수공연",
+    "tel": "",
+    "host": "청주콘서트윈드오케스트라",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   }
 ]
