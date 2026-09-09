@@ -416,32 +416,6 @@
     "homepage": ""
   },
   {
-    "name": "2026년 09월 공연 문화공연",
-    "startDate": "20260908",
-    "endDate": "20260908",
-    "time": "19:00~20:40",
-    "place": "장성문화예술회관 대공연장",
-    "address": "전라남도 장성군 장성읍 문화로 110",
-    "charge": "유료",
-    "desc": "기획공연",
-    "tel": "061-390-8578",
-    "host": "전라남도 장성군 문화교육과",
-    "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
-  },
-  {
-    "name": "청년문화원 기획공연 <청년예술가여 일어나라>",
-    "startDate": "20260908",
-    "endDate": "20260908",
-    "time": "09:00~21:00",
-    "place": "청주아트홀 공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "청년문화원",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
     "name": "2026 현대미술기획전",
     "startDate": "20260908",
     "endDate": "20260923",
@@ -453,19 +427,6 @@
     "tel": "",
     "host": "영등포문화재단+영등포아트스퀘어",
     "homepage": ""
-  },
-  {
-    "name": "평택시문화재단  - 마티네콘서트 (3회차)",
-    "startDate": "20260909",
-    "endDate": "20260909",
-    "time": "11:00~12:00",
-    "place": "북부문화예술회관 소극장",
-    "address": "경기도 평택시 경기대로 1366",
-    "charge": "유료",
-    "desc": "정오의 음악회",
-    "tel": "031-8053-3531",
-    "host": "평택시문화재단",
-    "homepage": "https://www.pccf.or.kr/main.do"
   },
   {
     "name": "고스트",
@@ -3937,5 +3898,31 @@
     "tel": "",
     "host": "청주콘서트윈드오케스트라",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "문화살롱 4회차",
+    "startDate": "20261210",
+    "endDate": "20261210",
+    "time": "19:00~20:00",
+    "place": "문산행복센터 대공연장",
+    "address": "경기도 파주시 문산읍 통일로 1680",
+    "charge": "무료",
+    "desc": "대중적인 뮤지컬 레퍼토리 기반의 공연",
+    "tel": "031-950-8434",
+    "host": "파주문화재단",
+    "homepage": "https://pajucf.or.kr/main/main.php"
+  },
+  {
+    "name": "인천시민과 함께하는 우리 가락 우리춤",
+    "startDate": "20261210",
+    "endDate": "20261210",
+    "time": "14:00~15:00",
+    "place": "싸리재홀",
+    "address": "인천광역시 중구 자유공원로12(인현동)",
+    "charge": "무료",
+    "desc": "퓨전국악",
+    "tel": "032-760-3400",
+    "host": "인천광역시교육청학생교육문화회관",
+    "homepage": ""
   }
 ]

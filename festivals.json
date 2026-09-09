@@ -489,107 +489,6 @@
     ]
   },
   {
-    "contentid": "141105",
-    "name": "경남고성공룡세계엑스포",
-    "startDate": "20260922",
-    "endDate": "20261101",
-    "address": "경상남도 고성군 당항만로 1116",
-    "lat": "35.0533072967",
-    "lng": "128.3915143393",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4084832_image2_1.jpg",
-    "overview": "경남고성공룡세계엑스포는 대한민국 경상남도 고성군 회화면 당항포관광지에서 개최되는 공룡을 주제로 한 축제이다. 고성군은 세계 3대 공룡발자국 화석 원산지로 널리 알려진 지역으로 여러 지역에서 발견된 크고 작은 공룡화석의 가치를 알리고 관광산업을 알리기 위하여 2006년부터 개최되어 왔다. 행사장인 당항포관광지는 공룡테마존과 이순신테마존으로 구성되어 있며, 해안산책로, 등산로, 공룡 발자국 탐방로 등의 야외 테마 공원을 갖추고 있다. 행사의 주최는 경상남도 고성군이며, 2026년 현재 (재)고성문화관광재단에서 경남고성공룡세계엑스포를 운영하고 있다. 2026년 엑스포는 10회째, 20주년을 맞았으며 '공룡과 떠나는 신나는 모험'을 주제로 개최된다. 또한, 매회 다양한 전시·체험 프로그램과 공연을 통해 국내 대표 공룡 테마 축제로 자리매김하고 있다.",
-    "tel": "055-670-7400",
-    "homepage": "",
-    "eventplace": "당항포관광지",
-    "playtime": "09:00~18:00 (야간개장 시 22:00까지)",
-    "usefee": "유료 (대인 19,000원, 소인 13,000원)",
-    "sponsor": "경남 고성군",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/37/2828037_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/43/2828043_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/47/2828047_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/12/4083212_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/25/4084825_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/26/4084826_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/28/4084828_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/29/4084829_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "경남고성공룡세계엑스포는 대한민국 경상남도 고성군 회화면 당항포관광지에서 개최되는 공룡을 주제로 한 축제이다. 고성군은 세계 3대 공룡발자국 화석 원산지로 널리 알려진 지역으로 여러 지역에서 발견된 크고 작은 공룡화석의 가치를 알리고 관광산업을 알리기 위하여 2006년부터 개최되어 왔다. 행사장인 당항포관광지는 공룡테마존과 이순신테마존으로 구성되어 있며, 해안산책로, 등산로, 공룡 발자국 탐방로 등의 야외 테마 공원을 갖추고 있다. 행사의 주최는 경상남도 고성군이며, 2026년 현재 (재)고성문화관광재단에서 경남고성공룡세계엑스포를 운영하고 있다. 2026년 엑스포는 10회째, 20주년을 맞았으며 '공룡과 떠나는 신나는 모험'을 주제로 개최된다. 또한, 매회 다양한 전시·체험 프로그램과 공연을 통해 국내 대표 공룡 테마 축제로 자리매김하고 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인프로그램: 공룡퍼레이드, 서커스 공연, 공룡테마 전시, 로봇 공룡 라이브쇼 등\n2. 부대프로그램: 캐릭터 특별전시관, 쥬라기파크, 야간 퍼레이드, 불꽃쇼 등\n3. 소비자 참여 프로그램 : 대형 화석 발굴 체험, 공룡그리기, 공룡 먹이주기, 다이노퍼즐, 바닥 스케치북 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "고성당항포랜드",
-        "dist": 722,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/3348153_image2_1.jpg",
-        "addr": "경상남도 고성군 회화면 당항만로 1116"
-      },
-      {
-        "name": "국산서원",
-        "dist": 4487,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3040112_image2_1.jpg",
-        "addr": "경상남도 고성군 동해면 외곡1길 151-44"
-      },
-      {
-        "name": "수림서원",
-        "dist": 4790,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3349272_image2_1.jpg",
-        "addr": "경상남도 고성군 마암면 화산4길 201-54"
-      },
-      {
-        "name": "도연서원",
-        "dist": 5131,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/2848536_image2_1.jpg",
-        "addr": "경상남도 고성군 마암면 도전4길 152-41"
-      },
-      {
-        "name": "덕산서원(고성)",
-        "dist": 5937,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/40/3348040_image2_1.jpg",
-        "addr": "경상남도 고성군 마암면 두호2길 76-13"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "통영짬뽕",
-        "dist": 886,
-        "image": "",
-        "addr": "경상남도 고성군 당항길 154-12"
-      },
-      {
-        "name": "카페자하",
-        "dist": 1146,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/89/2858389_image2_1.jpg",
-        "addr": "경상남도 고성군 봉동6길 6"
-      },
-      {
-        "name": "둘리왕새우",
-        "dist": 2065,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/2870978_image2_1.jpg",
-        "addr": "경상남도 고성군 마구들1길 83"
-      },
-      {
-        "name": "네순도르마",
-        "dist": 6312,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/2867178_image2_1.jpg",
-        "addr": "경상남도 고성군 외산로 549"
-      },
-      {
-        "name": "그레이트버뮤다",
-        "dist": 7239,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/38/2851638_image2_1.JPG",
-        "addr": "경상남도 창원시 마산합포구 창포1길 6"
-      }
-    ]
-  },
-  {
     "contentid": "2648460",
     "name": "경복궁 별빛야행",
     "startDate": "20260902",
@@ -1088,6 +987,107 @@
     ]
   },
   {
+    "contentid": "2755115",
+    "name": "고양 푸드앤비어페스티벌",
+    "startDate": "20260911",
+    "endDate": "20260913",
+    "address": "경기도 고양시 일산동구 중앙로 1305-56 (장항동)",
+    "lat": "37.6610286707",
+    "lng": "126.7683076192",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/34/4104834_image2_1.jpg",
+    "overview": "2026 고양푸드앤비어 페스티벌은 올해로 7회를 맞이하는 고양시 대표 미식문화축제로, 시민과 지역상권이 함께 만드는 참여형 도시축제이다. 맛있는 음식과 시원한 수제 맥주, 감성 가득한 라이브 공연, 다채로운 체험 프로그램이 어우러져 고양시민은 물론 관광객에게도 일상 속 특별한 힐링의 시간을 선사한다. 고양시는 본 축제를 통해 ‘지속가능하고 안전한 축제문화’를 실현하며, 지역경제와 관광을 연계하는 상생형 축제 플랫폼을 구축하고 있다. 특히 푸드트럭존, 맥주존 등 MZ세대가 열광하는 콘텐츠를 강화해 세대와 세대를 잇는 소통의 장으로 자리매김하고 있다. 또한 고양시의 문화·관광자원과 연계한 체류형 콘텐츠를 통해 도시 전역에 활력을 불어넣고 있으며, 친환경 운영과 철저한 안전관리 시스템으로 모두가 안심하고 즐길 수 있는 축제를 지향한다. 고양푸드앤비어 페스티벌은 도시형 축제의 새로운 패러다임을 제시하며, 고양시가 함께 만들고 모두가 즐기는 대표 축제로 자리 잡아가고 있다.",
+    "tel": "031-927-9974",
+    "homepage": "",
+    "eventplace": "라페스타 문화의거리",
+    "playtime": "15:00~22:00",
+    "usefee": "무료",
+    "sponsor": "사단법인 고양시관광협의회",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/25/4104825_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4104826_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4104827_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/28/4104828_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4104829_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4104830_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/4104831_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/32/4104832_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 고양푸드앤비어 페스티벌은 올해로 7회를 맞이하는 고양시 대표 미식문화축제로, 시민과 지역상권이 함께 만드는 참여형 도시축제이다. 맛있는 음식과 시원한 수제 맥주, 감성 가득한 라이브 공연, 다채로운 체험 프로그램이 어우러져 고양시민은 물론 관광객에게도 일상 속 특별한 힐링의 시간을 선사한다. 고양시는 본 축제를 통해 ‘지속가능하고 안전한 축제문화’를 실현하며, 지역경제와 관광을 연계하는 상생형 축제 플랫폼을 구축하고 있다. 특히 푸드트럭존, 맥주존 등 MZ세대가 열광하는 콘텐츠를 강화해 세대와 세대를 잇는 소통의 장으로 자리매김하고 있다. 또한 고양시의 문화·관광자원과 연계한 체류형 콘텐츠를 통해 도시 전역에 활력을 불어넣고 있으며, 친환경 운영과 철저한 안전관리 시스템으로 모두가 안심하고 즐길 수 있는 축제를 지향한다. 고양푸드앤비어 페스티벌은 도시형 축제의 새로운 패러다임을 제시하며, 고양시가 함께 만들고 모두가 즐기는 대표 축제로 자리 잡아가고 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "​1. 메인프로그램 : 1DAY-대한민국자유로가요제, 2DAY-한여름밤의 클래식음악회, 3DAY-시민힐링노래경연, 랜덤댄스대회\n2. 부대프로그램 : 고양버스커즈공연, 가족체험, 고양나이트마켓\n3. 소비자참여이벤트 :SNS 인증이벤트, 보물찾기, MC퀴즈 등\n4. 기타먹거리 : 맥주판매부스, 먹거리부스 8개(예정)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "고양관광특구",
+        "dist": 425,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3465765_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
+      },
+      {
+        "name": "고양관광정보센터",
+        "dist": 425,
+        "image": "",
+        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
+      },
+      {
+        "name": "와글아이",
+        "dist": 1007,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2782983_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 중앙로 1205"
+      },
+      {
+        "name": "풍동 애니골",
+        "dist": 2216,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/71/3392171_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 풍산로 35"
+      },
+      {
+        "name": "일산 대화동 먹자골목",
+        "dist": 2249,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/3392143_image2_1.JPG",
+        "addr": "경기도 고양시 일산서구 대산로 213"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "라이크라이크",
+        "dist": 132,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/2892020_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 무궁화로 8-19 (장항동)"
+      },
+      {
+        "name": "명계옥",
+        "dist": 154,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2875581_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 무궁화로 32-21 (장항동)"
+      },
+      {
+        "name": "락희차이나",
+        "dist": 210,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/2868321_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 호수로 640 (장항동)"
+      },
+      {
+        "name": "고스이",
+        "dist": 210,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/05/2873205_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 호수로 640 (장항동)"
+      },
+      {
+        "name": "훠시즌",
+        "dist": 400,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/66/2872866_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 중앙로 1286 (마두동)"
+      }
+    ]
+  },
+  {
     "contentid": "3383613",
     "name": "고양행주한우 숯불구이축제",
     "startDate": "20261031",
@@ -1189,6 +1189,107 @@
     ]
   },
   {
+    "contentid": "1100492",
+    "name": "고양호수예술축제",
+    "startDate": "20260918",
+    "endDate": "20260920",
+    "address": "경기도 고양시 일산동구 호수로 595 (장항동)",
+    "lat": "37.6552847261",
+    "lng": "126.7689082803",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4081461_image2_1.jpg",
+    "overview": "일상 속 공간이 특별한 예술의 리듬으로 채워지는 순간이 2026 고양호수예술축제에서 펼쳐진다. 서커스, 마술, 공중 퍼포먼스 등 장르의 경계를 넘나드는 다채로운 거리예술 공연 100여회와, 누구나 함께 즐기는 체험 프로그램이 찾아온다. 일산호수공원 곳곳에서 펼쳐지는 생동감 넘치는 공연은 관객과 예술가가 함께 호흡하며 소통하는 특별한 경험을 선사하고, 호수의 밤을 밝히는 불꽃놀이와 야간 특별 프로그램은 잊지 못할 낭만을 선사할 것이다. 올 가을, 재미와 설렘이 경쾌하게 피어나는 2026 고양호수예술축제에서 특별한 순간을 만날 수 있다.",
+    "tel": "1577-7766",
+    "homepage": "",
+    "eventplace": "일산호수공원 및 일산문화광장 일원",
+    "playtime": "14:00~21:00",
+    "usefee": "무료",
+    "sponsor": "고양시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/55/4081455_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/56/4081456_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/57/4081457_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/58/4081458_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/59/4081459_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/60/4081460_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/62/4081462_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/63/4081463_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "일상 속 공간이 특별한 예술의 리듬으로 채워지는 순간이 2026 고양호수예술축제에서 펼쳐진다. 서커스, 마술, 공중 퍼포먼스 등 장르의 경계를 넘나드는 다채로운 거리예술 공연 100여회와, 누구나 함께 즐기는 체험 프로그램이 찾아온다. 일산호수공원 곳곳에서 펼쳐지는 생동감 넘치는 공연은 관객과 예술가가 함께 호흡하며 소통하는 특별한 경험을 선사하고, 호수의 밤을 밝히는 불꽃놀이와 야간 특별 프로그램은 잊지 못할 낭만을 선사할 것이다. 올 가을, 재미와 설렘이 경쾌하게 피어나는 2026 고양호수예술축제에서 특별한 순간을 만날 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 컨템포러리 서커스, 거리극, 거리무용, 인형극, 마술 등 국내외 최정상의 거리예술공연 100여회와 관객 체험 참여 프로그램\n2. GSAF초이스(국내 거리예술 공모 선정작) 15편, GSAF글로벌(해외 거리예술 공모 선정작) 5편, 왁자지껄 유랑단(퍼레이드)\n3. 개막작, 폐막공연, 불꽃놀이 등 야간 특별 프로그램, 관객 체험 프로그램(서커스 체험, 예술체험 외)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "고양관광특구",
+        "dist": 581,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3465765_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
+      },
+      {
+        "name": "고양관광정보센터",
+        "dist": 581,
+        "image": "",
+        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
+      },
+      {
+        "name": "와글아이",
+        "dist": 620,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2782983_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 중앙로 1205"
+      },
+      {
+        "name": "정혜사",
+        "dist": 2318,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3392157_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 일산로 134"
+      },
+      {
+        "name": "풍동 애니골",
+        "dist": 2573,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/71/3392171_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 풍산로 35"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "강릉집",
+        "dist": 270,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2891381_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 중앙로1261번길 61 (장항동)"
+      },
+      {
+        "name": "아시아아시아",
+        "dist": 288,
+        "image": "",
+        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
+      },
+      {
+        "name": "만돈",
+        "dist": 288,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/35/2831035_image2_1.jpg",
+        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
+      },
+      {
+        "name": "프랭크커핀바_일산점",
+        "dist": 288,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3449825_image2_1.JPG",
+        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
+      },
+      {
+        "name": "어랑생선구이",
+        "dist": 333,
+        "image": "",
+        "addr": "경기도 고양시 일산동구 정발산로 31-9 (장항동)"
+      }
+    ]
+  },
+  {
     "contentid": "604454",
     "name": "고창모양성제",
     "startDate": "20261015",
@@ -1286,6 +1387,100 @@
         "dist": 1748,
         "image": "http://tong.visitkorea.or.kr/cms/resource/00/2904900_image2_1.jpeg",
         "addr": "전북특별자치도 고창군 월암수월길 104-8"
+      }
+    ]
+  },
+  {
+    "contentid": "2872215",
+    "name": "고흥유자축제",
+    "startDate": "20261112",
+    "endDate": "20261115",
+    "address": "전남광주통합특별시 고흥군 풍양면 한동리",
+    "lat": "34.5750910000",
+    "lng": "127.2326630000",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4109413_image2_1.png",
+    "overview": "고흥유자축제는 대한민국 최대 유자 주산지, 청정고흥에서 펼쳐지는 대표 가을축제이다. 따뜻한 남도의 햇살과 맑은 해풍을 가득 머금고 자란 고흥 유자의 짙은 풍미와 싱그러운 매력을 오감으로 만끽할 수 있는 축제이다. 눈앞에 펼쳐지는 드넓은 유자밭을 배경으로 향긋한 유자청 만들기, 지친 몸을 녹이는 유자스파, 오직 고흥에서만 맛볼 수 있는 특별한 유자 요리 시식까지 오감만족 체험이 펼쳐진다. 밤이 되면 환상적인 야간 경관 조명과 유자 테마 공간이 어우러져 한 폭의 그림 같은 가을밤의 로맨스를 선사한다. 단순한 특산물 축제를 넘어 가족, 연인, 친구와 함께 머물며 쉬어가는 최적의 힐링 문화관광형 축제이며 노랗게 익어가는 유자와 가을의 정취를 만끽할 수 있는 11월, 상큼한 유자향과 따뜻한 추억을 선물할 예정이다.",
+    "tel": "061-830-5442",
+    "homepage": "https://www.goheungyuja.com/",
+    "eventplace": "고흥유자축제장",
+    "playtime": "10:00~22:00",
+    "usefee": "무료 (일부 유료)",
+    "sponsor": "고흥군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/09/4109409_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/10/4109410_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/11/4109411_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/12/4109412_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/14/4109414_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/15/4109415_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/16/4109416_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "고흥유자축제는 대한민국 최대 유자 주산지, 청정고흥에서 펼쳐지는 대표 가을축제이다. 따뜻한 남도의 햇살과 맑은 해풍을 가득 머금고 자란 고흥 유자의 짙은 풍미와 싱그러운 매력을 오감으로 만끽할 수 있는 축제이다. 눈앞에 펼쳐지는 드넓은 유자밭을 배경으로 향긋한 유자청 만들기, 지친 몸을 녹이는 유자스파, 오직 고흥에서만 맛볼 수 있는 특별한 유자 요리 시식까지 오감만족 체험이 펼쳐진다. 밤이 되면 환상적인 야간 경관 조명과 유자 테마 공간이 어우러져 한 폭의 그림 같은 가을밤의 로맨스를 선사한다. 단순한 특산물 축제를 넘어 가족, 연인, 친구와 함께 머물며 쉬어가는 최적의 힐링 문화관광형 축제이며 노랗게 익어가는 유자와 가을의 정취를 만끽할 수 있는 11월, 상큼한 유자향과 따뜻한 추억을 선물할 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램 : 개막 세리머니(감기없는 대한민국-1,004명 유자청 담기 나눔행사), 유유자적 유자길 걷기, 유자농민의 날, 유자농가 길놀이, 우수 유자 품평회, 아시아 유자 교류관 등\n2. 부대프로그램 : 유자 다이닝존, 유자테라피, 유자 직거래장터, 유자밭 막삼파티, 유자테마파크, 유자밭 버스킹·거리공연, 유자밭 야간 빛정원, 유자밭 탐방로·유자전망대·포토존, 고흥음식페스티벌 등\n3. 참여자 콘텐츠 : 유자마을 촌캉스, 유자 아트 포토존·설치미술, 유자 수확 체험, 유자청·유자활용 체험, 유자천국 전국 사생대회, 유자 전망대 사진전 등\n4. 기타 내용 : 파이어아트쇼 '불의 서사'(태국, 쿠바, 몽골), 유자 콘서트(4일), 유자밭 버스킹, 유자테마파크 거리공연"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "고흥 유자공원",
+        "dist": 383,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2043882_image2_1.jpg",
+        "addr": "전남광주통합특별시 고흥군 풍양면 대청길 33-11"
+      },
+      {
+        "name": "천등산(고흥)",
+        "dist": 5550,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/3544921_image2_1.jpg",
+        "addr": "전남광주통합특별시 고흥군 풍양면 송정리"
+      },
+      {
+        "name": "흥양읍성터 및 고흥 옥하리 홍교",
+        "dist": 6310,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3519365_image2_1.jpg",
+        "addr": "전남광주통합특별시 고흥군 고흥읍 옥하리"
+      },
+      {
+        "name": "용동해수욕장",
+        "dist": 7743,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/64/3344864_image2_1.JPG",
+        "addr": "전남광주통합특별시 고흥군 도덕면 용동리 590"
+      },
+      {
+        "name": "고흥 무열사",
+        "dist": 8823,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3550652_image2_1.jpg",
+        "addr": "전남광주통합특별시 고흥군 두원면 동신안길 21-6"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "소문난식당",
+        "dist": 5785,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/35/2861335_image2_1.JPG",
+        "addr": "전남광주통합특별시 고흥군 홍교당촌길 7 일반음식점 "
+      },
+      {
+        "name": "풍경채",
+        "dist": 6011,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2861404_image2_1.JPG",
+        "addr": "전남광주통합특별시 고흥군 흥양길 76  "
+      },
+      {
+        "name": "고흥한우직판장",
+        "dist": 7114,
+        "image": "",
+        "addr": "전남광주통합특별시 고흥군 고흥읍 고흥로 1892-67"
+      },
+      {
+        "name": "관산식당",
+        "dist": 7160,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/2832491_image2_1.JPG",
+        "addr": "전남광주통합특별시 고흥군 고흥로 1896  "
       }
     ]
   },
@@ -2879,6 +3074,199 @@
     ]
   },
   {
+    "contentid": "1998564",
+    "name": "궁중문화축전",
+    "startDate": "20261007",
+    "endDate": "20261011",
+    "address": "서울특별시 종로구 사직로 161",
+    "lat": "37.5787676270",
+    "lng": "126.9769768009",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/82/4108782_image2_1.jpg",
+    "overview": "‘궁중문화축전’은 매년 봄·가을 서울의 5대 궁궐(경복궁·창덕궁·덕수궁·창경궁·경희궁)과 종묘에서 펼쳐지는 국내 최대 국가유산 축제다. 궁궐을 무대로 공연·전시·체험·의례 재현 등 한국 전통문화를 다채로운 프로그램으로 선보이고 있다. 국가유산청이 주최하고 국가유산진흥원이 주관하는 궁중문화축전은 올해로 12회를 맞아 ‘궁, 예술을 깨우다’라는 주제로, 궁궐을 국가유산 관람 공간을 넘어 K-컬처의 원천을 경험할 수 있는 문화예술 무대로 확장할 예정이다. 2026년 봄 축전에는 총 72만 5천여 명이 방문해 역대 최다 관람객을 기록했다. 이번 축전은 가을 궁궐의 계절적 특성을 살려 낮에는 궁궐의 공간과 역사에 집중할 수 있는 전시·관광(투어)·체험 프로그램을, 밤에는 궁궐의 전각과 자연경관을 배경으로 한 공연·체험 프로그램을 확대 운영하여 봄 축전과 차별화된 경험을 선사한다. 축전 개막 전날인 10월 6일(화) 오후 5시에는 가을 축전의 시작을 축하하는 KBS2 ‘불후의 명곡 - 2026 궁중문화축전 특집’ 특별 공연이 경복궁 흥례문 광장에서 펼쳐진다. ‘궁, 예술을 깨우다’를 주제로 국악부터 케이팝까지 전 세대가 함께 즐길 수 있는 무대를 선보인다. 관람은 무료이며, KBS [불후의 명곡] 공식 누리집에서 방청을 신청할 수 있다.",
+    "tel": "1522-2295",
+    "homepage": "https://www.kh.or.kr/fest",
+    "eventplace": "경복궁,창덕궁,덕수궁,창경궁,종묘",
+    "playtime": "프로그램별 상이",
+    "usefee": "유료(궁궐 별 입장료 상이)",
+    "sponsor": "국가유산청",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/77/4108777_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/79/4108779_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/80/4108780_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/81/4108781_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/83/4108783_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/84/4108784_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/85/4108785_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/86/4108786_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "‘궁중문화축전’은 매년 봄·가을 서울의 5대 궁궐(경복궁·창덕궁·덕수궁·창경궁·경희궁)과 종묘에서 펼쳐지는 국내 최대 국가유산 축제다. 궁궐을 무대로 공연·전시·체험·의례 재현 등 한국 전통문화를 다채로운 프로그램으로 선보이고 있다. 국가유산청이 주최하고 국가유산진흥원이 주관하는 궁중문화축전은 올해로 12회를 맞아 ‘궁, 예술을 깨우다’라는 주제로, 궁궐을 국가유산 관람 공간을 넘어 K-컬처의 원천을 경험할 수 있는 문화예술 무대로 확장할 예정이다. 2026년 봄 축전에는 총 72만 5천여 명이 방문해 역대 최다 관람객을 기록했다. 이번 축전은 가을 궁궐의 계절적 특성을 살려 낮에는 궁궐의 공간과 역사에 집중할 수 있는 전시·관광(투어)·체험 프로그램을, 밤에는 궁궐의 전각과 자연경관을 배경으로 한 공연·체험 프로그램을 확대 운영하여 봄 축전과 차별화된 경험을 선사한다. 축전 개막 전날인 10월 6일(화) 오후 5시에는 가을 축전의 시작을 축하하는 KBS2 ‘불후의 명곡 - 2026 궁중문화축전 특집’ 특별 공연이 경복궁 흥례문 광장에서 펼쳐진다. ‘궁, 예술을 깨우다’를 주제로 국악부터 케이팝까지 전 세대가 함께 즐길 수 있는 무대를 선보인다. 관람은 무료이며, KBS [불후의 명곡] 공식 누리집에서 방청을 신청할 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. KBS2 ‘불후의 명곡 : 2026 궁중문화축전 특집’ 특별 공연(10.6) \n2. 내국인 전용 예약 프로그램 : 경복궁 한복 연향, 궁패스(굿즈), 아침 궁을 깨우다, 향아치와 함께하는 규장각 초계문신 워크숍, 준명당 어린이 학교, 동궐 장원서, 종묘 건축 탐험대, 궁중문화축전 학술 세미나, 창경궁 물빛연화 \n3. 외국인 전용 예약 프로그램 : 경복궁 한복 연향, 아침 궁을 깨우다 \n4. 현장 프로그램 :  조선 공간 미학: 백(白)의 질서, 창경궁 시간여행, 궁중놀이방,궁중문화축전 길놀이, 궁중문화축전 스탬프 투어, 광무에서 융희까지"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "건청궁",
+        "dist": 299,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2527110_image2_1.jpg",
+        "addr": "서울특별시 종로구 사직로 161 (세종로)"
+      },
+      {
+        "name": "한복남 경복궁점",
+        "dist": 426,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/3553780_image2_1.JPG",
+        "addr": "서울특별시 종로구 사직로 133-5"
+      },
+      {
+        "name": "북촌한옥마을 감고당길",
+        "dist": 492,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/2945806_image2_1.jpg",
+        "addr": "서울특별시 종로구 송현동"
+      },
+      {
+        "name": "아띠인력거",
+        "dist": 501,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/3427393_image2_1.jpg",
+        "addr": "서울특별시 종로구 북촌로5길 43 (화동)"
+      },
+      {
+        "name": "K-컬처 스크린(대한민국역사박물관)",
+        "dist": 517,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/2987806_image2_1.jpg",
+        "addr": "서울특별시 종로구 세종대로 198 (세종로)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "스미스가 좋아하는 한옥",
+        "dist": 285,
+        "image": "",
+        "addr": "서울특별시 종로구 삼청로 22-7"
+      },
+      {
+        "name": "두가헌 레스토랑",
+        "dist": 299,
+        "image": "",
+        "addr": "서울특별시 종로구 삼청로 14"
+      },
+      {
+        "name": "아키비스트 서촌",
+        "dist": 544,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/2848047_image2_1.jpg",
+        "addr": "서울특별시 종로구 효자로13길 52 (효자동)"
+      },
+      {
+        "name": "마지",
+        "dist": 566,
+        "image": "",
+        "addr": "서울특별시 종로구 자하문로5길 19"
+      },
+      {
+        "name": "엘 샌드위치",
+        "dist": 592,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/2588392_image2_1.jpg",
+        "addr": "서울특별시 종로구 율곡로4길 14"
+      }
+    ]
+  },
+  {
+    "contentid": "2728613",
+    "name": "귀몽 제주신화월드",
+    "startDate": "20260918",
+    "endDate": "20261101",
+    "address": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 98",
+    "lat": "33.3049276506",
+    "lng": "126.3151497973",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/44/4108744_image2_1.png",
+    "overview": "귀몽은 제주신화월드 테마파크에서 운영되는 야외 공포 체험 콘텐르로, 주요 프로그램은 공포체험의 고스트존과 다양한 체험의 세이브존, 야간 놀이시설 체험으로 그성된다. 공포체험은 실제 자연지형을 배경으로 하며, 참가자는 어둠 속을 따라 이동하며 다양한 공포 연출과 마주하게 된다. 귀몽은 자연의 어둠과 사운드, 시각효과를 활용해 긴장감을 높이고, 공포 뿐만 아니라 남녀노소가 즐기는 호러 파티도 함께 진행된다. 또한, 테마파크 내 놀이기구인 오스카 스핀, 익스프레스, 플레이그라운드를 귀몽 버전으로 동시에 체험할 수 있다. 부대공간인 귀몽마켓에는 귀몽펍, 귀몽분장샵, 귀몽푸드 등의 휴식 및 F&B 프로그램이 운영되며, 포토존이 함께 진행된다.\n귀몽은 2026년 9월 18일부터 11월 1일까지 운영되며, 체험권 구매를 통해 입장 및 참여가 가능하다.",
+    "tel": "1670-1188",
+    "homepage": "https://www.instagram.com/jeju_ghost/",
+    "eventplace": "제주신화월드 신화테마파크",
+    "playtime": "- 19:00~22:30- 입장 발권 19:00",
+    "usefee": "- 30,000원- 도민 20% 할인- 노인/장애인 50% 할인",
+    "sponsor": "놀담빌레",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "귀몽은 제주신화월드 테마파크에서 운영되는 야외 공포 체험 콘텐르로, 주요 프로그램은 공포체험의 고스트존과 다양한 체험의 세이브존, 야간 놀이시설 체험으로 그성된다. 공포체험은 실제 자연지형을 배경으로 하며, 참가자는 어둠 속을 따라 이동하며 다양한 공포 연출과 마주하게 된다. 귀몽은 자연의 어둠과 사운드, 시각효과를 활용해 긴장감을 높이고, 공포 뿐만 아니라 남녀노소가 즐기는 호러 파티도 함께 진행된다. 또한, 테마파크 내 놀이기구인 오스카 스핀, 익스프레스, 플레이그라운드를 귀몽 버전으로 동시에 체험할 수 있다. 부대공간인 귀몽마켓에는 귀몽펍, 귀몽분장샵, 귀몽푸드 등의 휴식 및 F&B 프로그램이 운영되며, 포토존이 함께 진행된다.\n귀몽은 2026년 9월 18일부터 11월 1일까지 운영되며, 체험권 구매를 통해 입장 및 참여가 가능하다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 미디어 아트 전시 / 야간 놀이시설 체험 / 공포 체험\n- 부대 행사 및 프로그램 : 귀몽마켓 (귀몽분장샵 / 귀몽푸드 / 귀몽펍 등) / 야간 호러파티"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "신화테마파크",
+        "dist": 694,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3550541_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 98"
+      },
+      {
+        "name": "이상한나라의 앨리스",
+        "dist": 1868,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/3024622_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 중산간서로 1881"
+      },
+      {
+        "name": "동광리농촌체험마을",
+        "dist": 2223,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3024315_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 동광로 126"
+      },
+      {
+        "name": "서광차밭",
+        "dist": 2294,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3024741_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 신화역사로 15"
+      },
+      {
+        "name": "도너리오름",
+        "dist": 2634,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3477170_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 한창로 775"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "제주순메밀막국수",
+        "dist": 1915,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2785304_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 녹차분재로 60"
+      },
+      {
+        "name": "무로이",
+        "dist": 1951,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2830196_image2_1.JPG",
+        "addr": "제주특별자치도 서귀포시 동광본동로 21"
+      },
+      {
+        "name": "양가네 신화월드 본점",
+        "dist": 2122,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/2840900_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 안덕면 동광로 112"
+      },
+      {
+        "name": "풀베개",
+        "dist": 2402,
+        "image": "",
+        "addr": "제주특별자치도 서귀포시 안덕면 화순서서로 492-4"
+      },
+      {
+        "name": "소규모식탁",
+        "dist": 2790,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/2877725_image2_1.jpg",
+        "addr": "제주특별자치도 서귀포시 서광남로115번길 12"
+      }
+    ]
+  },
+  {
     "contentid": "3020552",
     "name": "글로컬 문화 in(人) 남산 페스티벌",
     "startDate": "20260912",
@@ -4237,6 +4625,107 @@
     ]
   },
   {
+    "contentid": "4109305",
+    "name": "달밤에체조 부산 챌린지",
+    "startDate": "20260919",
+    "endDate": "20261107",
+    "address": "부산광역시 부산진구 시민공원로 73 (범전동)",
+    "lat": "35.1655426683",
+    "lng": "129.0558397915",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/24/4109324_image2_1.jpg",
+    "overview": "달밤에체조 부산 챌린지는 운동에 익숙하지 않거나 평소 운동에 관심이 적은 시민도 쉽고 즐겁게 생활체육 활동에 참여할 수 있도록 유도하여 시민의 생활체육 참여 확대와 건강증진, 활기찬 야간 여가문화 조성을 목적으로 하는 부산 특화형 생활체육 프로그램이다. 부산광역시가 주최·주관하여 운영하는 행사로, 부산을 대표하는 공원과 친수공간 등 야외공간을 활용하여 가을밤 달빛 아래 매주 정기적으로 생활체육을 즐길 수 있도록 구성한 시민 참여형 행사이다.\n메인 프로그램은 유명 운동 인플루언서가 직접 지도하는 체조, 요가, 서킷트레이닝, 줌바, 어린이 운동 등 다양한 생활체육 프로그램으로 구성되는 행사이다. 이와 함께 태권도, 줄넘기, 복싱, 치어리딩 등 생활체육 공연과 마술, 코미디, 버스킹, 콘서트 등 문화공연을 운영하는 행사이다. 시민체력장, 체력왕선발대회, 타바타·스피닝 챌린지, 랜덤플레이 댄스 챌린지 등 시민이 직접 참여하고 즐길 수 있는 참여 이벤트도 함께 운영하는 축제형 행사이다.\n행사장에는 양궁, 농구, 볼링, 골프 등 생활체육 체험과 체력측정, 운동처방, 테이핑, 통증케어 등 건강 관련 체험부스를 운영하며, 가족 단위 참가자가 함께 참여할 수 있는 다양한 체험 프로그램도 마련되는 행사이다. 생활체육 프로그램에 공연, 참여이벤트, 가족 체험 콘텐츠를 결합하여 운동에 대한 시민의 진입장벽을 낮추고 일상 속 생활체육 참여기회를 확대하는 것을 목적으로 하는 시민참여형 생활체육 축제이다.",
+    "tel": "070-8065-4592",
+    "homepage": "https://dalbambusan.com/",
+    "eventplace": "부산시민공원 다솜광장 / 북항친수공원 잔디광장 / 화명생태공원 연꽃단지",
+    "playtime": "",
+    "usefee": "무료",
+    "sponsor": "부산광역시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/18/4109318_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/19/4109319_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/20/4109320_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/21/4109321_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/22/4109322_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/25/4109325_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4109326_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4109327_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "달밤에체조 부산 챌린지는 운동에 익숙하지 않거나 평소 운동에 관심이 적은 시민도 쉽고 즐겁게 생활체육 활동에 참여할 수 있도록 유도하여 시민의 생활체육 참여 확대와 건강증진, 활기찬 야간 여가문화 조성을 목적으로 하는 부산 특화형 생활체육 프로그램이다. 부산광역시가 주최·주관하여 운영하는 행사로, 부산을 대표하는 공원과 친수공간 등 야외공간을 활용하여 가을밤 달빛 아래 매주 정기적으로 생활체육을 즐길 수 있도록 구성한 시민 참여형 행사이다.\n메인 프로그램은 유명 운동 인플루언서가 직접 지도하는 체조, 요가, 서킷트레이닝, 줌바, 어린이 운동 등 다양한 생활체육 프로그램으로 구성되는 행사이다. 이와 함께 태권도, 줄넘기, 복싱, 치어리딩 등 생활체육 공연과 마술, 코미디, 버스킹, 콘서트 등 문화공연을 운영하는 행사이다. 시민체력장, 체력왕선발대회, 타바타·스피닝 챌린지, 랜덤플레이 댄스 챌린지 등 시민이 직접 참여하고 즐길 수 있는 참여 이벤트도 함께 운영하는 축제형 행사이다.\n행사장에는 양궁, 농구, 볼링, 골프 등 생활체육 체험과 체력측정, 운동처방, 테이핑, 통증케어 등 건강 관련 체험부스를 운영하며, 가족 단위 참가자가 함께 참여할 수 있는 다양한 체험 프로그램도 마련되는 행사이다. 생활체육 프로그램에 공연, 참여이벤트, 가족 체험 콘텐츠를 결합하여 운동에 대한 시민의 진입장벽을 낮추고 일상 속 생활체육 참여기회를 확대하는 것을 목적으로 하는 시민참여형 생활체육 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 매주 토요일 운동 인플루언서와 함께하는 생활체육 프로그램 운영(체조/요가/줌바 등)\n- 부대 행사 및 프로그램 : 다양한 체육공연(태권도·줄넘기·복싱·치어리딩 등) / 문화공연(마술·코미디·버스킹·콘서트 등) / 시민체력장 / 체력왕선발대회 / 랜덤플레이댄스 챌린지 / 가족단위 체험부스 / 생활체육 및 건강체험부스 운영 등\n\n1. 부산시민공원 - 09.19.(토), 09.26.(토), 10.3.(토)\n2. 북항친수공원 - 10.17.(토), 10.24.(토)\n3. 화명생태공원 - 10.31.(토), 11.7.(토)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "부산진 별빛산책길",
+        "dist": 199,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/3093621_image2_1.PNG",
+        "addr": "부산광역시 부산진구 범전동"
+      },
+      {
+        "name": "그런고로",
+        "dist": 1159,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/3421696_image2_1.jpg",
+        "addr": "부산광역시 부산진구 서전로 40 (전포동)"
+      },
+      {
+        "name": "전포 삼거리",
+        "dist": 1950,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/2947122_image2_1.jpg",
+        "addr": "부산광역시 부산진구 진남로 320 (전포동)"
+      },
+      {
+        "name": "남부산교회",
+        "dist": 2128,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/2947000_image2_1.jpg",
+        "addr": "부산광역시 부산진구 진남로 300 남부산교회"
+      },
+      {
+        "name": "황령산",
+        "dist": 2535,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2732750_image2_1.jpg",
+        "addr": "부산광역시 남구 황령산로 391-39"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "스페이스앤무드",
+        "dist": 647,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2865950_image2_1.jpg",
+        "addr": "부산광역시 부산진구 새싹로 22-1 (부전동)"
+      },
+      {
+        "name": "다원",
+        "dist": 712,
+        "image": "",
+        "addr": "부산광역시 부산진구 서면문화로 23-1"
+      },
+      {
+        "name": "사미헌",
+        "dist": 730,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3583678_image2_1.jpg",
+        "addr": "부산광역시 부산진구 서면문화로 19"
+      },
+      {
+        "name": "해신킹크랩",
+        "dist": 766,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/2865417_image2_1.jpg",
+        "addr": "부산광역시 부산진구 전포대로275번길 65 (전포동)"
+      },
+      {
+        "name": "급행장",
+        "dist": 848,
+        "image": "",
+        "addr": "부산광역시 부산진구 서면문화로 4"
+      }
+    ]
+  },
+  {
     "contentid": "2758030",
     "name": "당진해나루황토고구마홍보판촉행사",
     "startDate": "20261003",
@@ -4821,98 +5310,192 @@
     ]
   },
   {
-    "contentid": "4098740",
-    "name": "동대문구 북 페스티벌",
-    "startDate": "20260912",
-    "endDate": "20260912",
-    "address": "서울특별시 동대문구 천호대로 145 (용두동)",
-    "lat": "37.5743917162",
-    "lng": "127.0398965801",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/43/4098743_image2_1.jpg",
-    "overview": "2026 동대문구 북 페스티벌은 9월 독서의 달을 맞이하여 주민의 독서에 대한 관심을 높이고 지역 독서 문화 진흥에 기여하기 위해 개최되는  독서문화 진흥 축제이다. 올해 축제는 ‘책력장-펼쳐라 책, 뛰어라 몸!’을 주제로 기존의 정적인 독서 활동을 넘어 책과 신체활동을 결합한 온 가족이 함께 즐길 수 있는 다양한 참여형 독서문화 프로그램이 펼쳐진다. 동대문구청 미래광장에서는 몸을 움직이며 책을 읽는 '독서 피트니스', 전래동화를 놀이로 즐겨보는 '몸으로 읽는 책', 독서와 사색을 함께 만끽할 수 있는 야외도서관 등이 운영된다. 다목적 강당에서는 동대문구 도서관 네트워크가 운영하는 '책력 모험단', '도전! 도서관 미니 운동회', '독서력 건강검진', '답십리 모터스' 등 다양한 부스 체험이 진행된다. 이외에도 어린이들의 눈높이에 맞춘 독서 장려 뮤지컬, 버블쇼, 버스킹 등 다양한 공연을 통해 관람객들에게 풍성한 볼거리와 즐길 거리를 제공한다.",
-    "tel": "070-7742-8871",
-    "homepage": "https://www.l4d.or.kr/intro/index.do",
-    "eventplace": "동대문구청 미래광장 및 다목적 강당",
-    "playtime": "12:00~17:00 (다목적 강당 13:00~17:00)",
+    "contentid": "2601242",
+    "name": "도봉한글잔치",
+    "startDate": "20260930",
+    "endDate": "20261012",
+    "address": "서울특별시 도봉구 해등로32가길 16 (방학동)",
+    "lat": "37.6602913339",
+    "lng": "127.0222645550",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/25/3550325_image2_1.JPG",
+    "overview": "한글은 사람의 마음을 헤아려 태어나 서로의 생각과 뜻을 이어주는 글자다. 한글은 뜻을 펴기 어려웠던 백성의 마음을 전하고, 어두운 역사 속에서도 우리 민족의 정신을 굳건히 지켜낸 희망이기도 했다. 서울특별시 도봉구는 세종대왕의 딸인 정의공주를 비롯해 일제강점기 우리말과 글을 지킨 간송 전형필과 위당 정인보, 한글로 자유를 노래한 시인 김수영까지 한글을 만들고, 지키고, 누린 역사적 인물들의 숨결이 깃든 곳이다. 2026년은 훈민정음 반포 580돌이자 ‘한글날’ 제정과 시각장애인을 위한 우리 글 ‘훈맹정음’ 창안 100주년을 맞는 뜻깊은 해이다. 이에 도봉문화원은 한글에 담긴 사람을 향한 마음과 시대의 어둠 속에서도 한글을 지켜온 이들의 뜻을 되새기고자 제15회 도봉한글잔치 「어둠을 뚫고, 마음을 잇다」를 개최한다. 한글을 만들고 지키며 누려온 역사를 도봉의 인물과 문화자원으로 연결하고, 전시·공연·체험을 통해 오늘의 우리와 함께 나누는 축제의 장을 마련하고자 한다.",
+    "tel": "02-905-4026",
+    "homepage": "https://www.dobong.or.kr/main/main.php?categoryid=02&menuid=02&groupid=01",
+    "eventplace": "방학동 원당샘공원",
+    "playtime": "11:00~17:00",
     "usefee": "무료",
-    "sponsor": "동대문문화재단",
+    "sponsor": "도봉문화원",
     "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/41/4098741_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/42/4098742_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/44/4098744_image2_1.jpg"
+      "https://tong.visitkorea.or.kr/cms/resource/23/3550323_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/24/3550324_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/73/4108973_image2_1.jpg"
     ],
     "extraInfo": [
       {
         "name": "행사소개",
-        "text": "2026 동대문구 북 페스티벌은 9월 독서의 달을 맞이하여 주민의 독서에 대한 관심을 높이고 지역 독서 문화 진흥에 기여하기 위해 개최되는  독서문화 진흥 축제이다. 올해 축제는 ‘책력장-펼쳐라 책, 뛰어라 몸!’을 주제로 기존의 정적인 독서 활동을 넘어 책과 신체활동을 결합한 온 가족이 함께 즐길 수 있는 다양한 참여형 독서문화 프로그램이 펼쳐진다. 동대문구청 미래광장에서는 몸을 움직이며 책을 읽는 '독서 피트니스', 전래동화를 놀이로 즐겨보는 '몸으로 읽는 책', 독서와 사색을 함께 만끽할 수 있는 야외도서관 등이 운영된다. 다목적 강당에서는 동대문구 도서관 네트워크가 운영하는 '책력 모험단', '도전! 도서관 미니 운동회', '독서력 건강검진', '답십리 모터스' 등 다양한 부스 체험이 진행된다. 이외에도 어린이들의 눈높이에 맞춘 독서 장려 뮤지컬, 버블쇼, 버스킹 등 다양한 공연을 통해 관람객들에게 풍성한 볼거리와 즐길 거리를 제공한다."
+        "text": "한글은 사람의 마음을 헤아려 태어나 서로의 생각과 뜻을 이어주는 글자다. 한글은 뜻을 펴기 어려웠던 백성의 마음을 전하고, 어두운 역사 속에서도 우리 민족의 정신을 굳건히 지켜낸 희망이기도 했다. 서울특별시 도봉구는 세종대왕의 딸인 정의공주를 비롯해 일제강점기 우리말과 글을 지킨 간송 전형필과 위당 정인보, 한글로 자유를 노래한 시인 김수영까지 한글을 만들고, 지키고, 누린 역사적 인물들의 숨결이 깃든 곳이다. 2026년은 훈민정음 반포 580돌이자 ‘한글날’ 제정과 시각장애인을 위한 우리 글 ‘훈맹정음’ 창안 100주년을 맞는 뜻깊은 해이다. 이에 도봉문화원은 한글에 담긴 사람을 향한 마음과 시대의 어둠 속에서도 한글을 지켜온 이들의 뜻을 되새기고자 제15회 도봉한글잔치 「어둠을 뚫고, 마음을 잇다」를 개최한다. 한글을 만들고 지키며 누려온 역사를 도봉의 인물과 문화자원으로 연결하고, 전시·공연·체험을 통해 오늘의 우리와 함께 나누는 축제의 장을 마련하고자 한다."
       },
       {
         "name": "행사내용",
-        "text": "1. 대표 프로그램 : 책력장(독서 피트니스, 몸으로 읽는 책)\n2. 체험 프로그램 : 동대문구 도서관 네트워크 체험 부스, 나만의 책표지 만들기, 이모저모: 이모티콘 스토리 만들기 등\n3. 야외도서관 : 야외도서관 및 도서 큐레이션 전시 등\n4. 시상식 및 공연 프로그램 : 책 읽는 가족, 도서관 유공자 시상식, 어린이 독서장려 뮤지컬, 버블쇼, 버스킹 공연 등"
+        "text": "1. 메인프로그램 : 정의공주 나들이, 한글서예 행위예술\n2. 부대프로그램 : 전시마당(연보전, 기획전, 시화전 등), 공연마당(오케스트라, 문화나눔공연단 등)\n3. 소비자 참여 프로그램 : 체험,놀이마당(점자 키링 만들기, 전통놀이 등)\n4. 기타 내용 : 제20회 도봉 글짓기 및 그림그리기 대회, 조선왕실 문화체험 등"
       }
     ],
     "nearbySpots": [
       {
-        "name": "용두동 쭈꾸미골목",
-        "dist": 294,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/51/3567851_image2_1.jpg",
-        "addr": "서울특별시 동대문구 용두동"
+        "name": "원당샘공원",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3567836_image2_1.jpg",
+        "addr": "서울특별시 도봉구 해등로32가길 16 (방학동)"
       },
       {
-        "name": "오미요리연구소",
-        "dist": 983,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/34/3428434_image2_1.JPG",
-        "addr": "서울특별시 동대문구 약령시로 97-1 (제기동)"
+        "name": "우이동만남의광장",
+        "dist": 1304,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3065952_image2_1.jpg",
+        "addr": "서울특별시 강북구 우이동"
       },
       {
-        "name": "청량사(서울)",
-        "dist": 1616,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/67/3055867_image2_1.JPG",
-        "addr": "서울특별시 동대문구 제기로31길 10-3 청량사"
+        "name": "우이동계곡",
+        "dist": 1653,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568554_image2_1.jpg",
+        "addr": "서울특별시 강북구 삼양로181길 141-5 (우이동)"
       },
       {
-        "name": "서울 고려대학교 중앙도서관",
-        "dist": 1624,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/47/2953247_image2_1.jpg",
-        "addr": "서울특별시 성북구 안암로 145 (안암동5가)"
+        "name": "국립4·19민주묘지",
+        "dist": 1759,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3393837_image2_1.JPG",
+        "addr": "서울특별시 강북구 4.19로8길 17"
       },
       {
-        "name": "왕십리맛골목",
-        "dist": 1663,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/01/3444601_image2_1.jpeg",
-        "addr": "서울특별시 성동구 마조로 17 (행당동)"
+        "name": "윤극영가옥",
+        "dist": 1832,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/75/3467875_image2_1.jpg",
+        "addr": "서울특별시 강북구 인수봉로84길 5 (수유동)"
       }
     ],
     "nearbyFood": [
       {
-        "name": "마장동 한우촌",
-        "dist": 424,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2843480_image2_1.jpg",
-        "addr": "서울특별시 성동구 마장로35길 68 (마장동)"
+        "name": "홍가네풍천장어",
+        "dist": 388,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/2842658_image2_1.jpg",
+        "addr": "서울특별시 도봉구 방학로 290-7 (방학동)"
       },
       {
-        "name": "인생한우",
-        "dist": 489,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2845139_image2_1.jpg",
-        "addr": "서울특별시 성동구 마장로31길 43 (마장동)"
+        "name": "황금정원",
+        "dist": 497,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/11/2832811_image2_1.jpg",
+        "addr": "서울특별시 도봉구 방학로 312"
       },
       {
-        "name": "경동함흥냉면",
-        "dist": 640,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/2789742_image2_1.jpg",
-        "addr": "서울특별시 동대문구 고산자로38길 19"
+        "name": "대문한정식",
+        "dist": 602,
+        "image": "",
+        "addr": "서울특별시 도봉구 시루봉로 139-6"
       },
       {
-        "name": "용두동복집",
-        "dist": 835,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2842879_image2_1.jpg",
-        "addr": "서울특별시 동대문구 왕산로16길 9 (용두동)"
+        "name": "사이코우스시 쌍문점",
+        "dist": 1285,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2834840_image2_1.jpg",
+        "addr": "서울특별시 도봉구 해등로 184 (쌍문동)"
       },
       {
-        "name": "할머니냉면",
-        "dist": 949,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/57/2842957_image2_1.jpg",
-        "addr": "서울특별시 동대문구 왕산로37길 53 (제기동)"
+        "name": "서당골 수유본점",
+        "dist": 1556,
+        "image": "",
+        "addr": "서울특별시 강북구 한천로 1153 (수유동)"
+      }
+    ]
+  },
+  {
+    "contentid": "4108615",
+    "name": "동강둠칫",
+    "startDate": "20261003",
+    "endDate": "20261003",
+    "address": "강원특별자치도 영월군 영월읍 하송리 61-19",
+    "lat": "37.1780020000",
+    "lng": "128.4686319000",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/16/4108616_image2_1.jpg",
+    "overview": "동강둠칫은 2026년 영월군 청년의 날을 맞아 영월 청년과 지역 브랜드가 동강둔치에 모여 여는 자연 라이프스타일 축제이다. 동강정원에서는 책을 읽고 자연 속에서 쉬는 시간을 제공하며, 청년마켓에서는 영월 청년 브랜드와 라이프스타일 상품을 만날 수 있는 행사이다. 동강미식클럽에서는 영월 원물과 지역 먹거리를 활용한 음식과 음료를 소개하며, 큰골라디오에서는 영월의 라디오 문화와 지역 이야기를 사연·인터뷰·음악으로 연결하는 프로그램을 운영하는 축제이다. 손에코 탐조, 마인드풀, 훌라댄스, 캐리커처 등 참여형 프로그램과 변선희, 서울 보사 소사이어티, 쏘왓놀라, 요조, 디에이드, 소란, 재지삼림의 공연이 이어지는 행사이다. 읽고·고르고·먹고·쉬고·듣고·둠칫하는 흐름을 통해 영월의 자연, 청년, 문화와 먹거리를 하나의 하루 경험으로 구성하는 축제이다.",
+    "tel": "033-370-2731",
+    "homepage": "",
+    "eventplace": "영월 동강둔치",
+    "playtime": "11:00~21:00",
+    "usefee": "무료",
+    "sponsor": "영월군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/16/4108616_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "동강둠칫은 2026년 영월군 청년의 날을 맞아 영월 청년과 지역 브랜드가 동강둔치에 모여 여는 자연 라이프스타일 축제이다. 동강정원에서는 책을 읽고 자연 속에서 쉬는 시간을 제공하며, 청년마켓에서는 영월 청년 브랜드와 라이프스타일 상품을 만날 수 있는 행사이다. 동강미식클럽에서는 영월 원물과 지역 먹거리를 활용한 음식과 음료를 소개하며, 큰골라디오에서는 영월의 라디오 문화와 지역 이야기를 사연·인터뷰·음악으로 연결하는 프로그램을 운영하는 축제이다. 손에코 탐조, 마인드풀, 훌라댄스, 캐리커처 등 참여형 프로그램과 변선희, 서울 보사 소사이어티, 쏘왓놀라, 요조, 디에이드, 소란, 재지삼림의 공연이 이어지는 행사이다. 읽고·고르고·먹고·쉬고·듣고·둠칫하는 흐름을 통해 영월의 자연, 청년, 문화와 먹거리를 하나의 하루 경험으로 구성하는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램 : 큰골라디오·공연무대(변선희, 서울 보사 소사이어티, 쏘왓놀라, 요조 북콘서트, 디에이드, 소란, 재지삼림 : 9&4, 조운)\n2. 부대프로그램 : 손에코 탐조, 유다솜 마인드풀, 와이키키훌라클럽 훌라댄스, 하재욱 캐리커처, 「나도 보사(가제)」 쉐이커 제작\n3. 소비자 참여 프로그램 : 청년마켓, 리워드 스탬프 투어, 바람종 셀프 커스텀\n4. 기타 내용 : 동강정원, 동강미식클럽(영월 원물 전시·큐레이션, 푸드·드링크, DJ), 텃바(동강변 원물 체험 바)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "자규루 및 관풍헌",
+        "dist": 648,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3493412_image2_1.jpg",
+        "addr": "강원특별자치도 영월군 영월읍 중앙로 61"
+      },
+      {
+        "name": "금강공원에코스튜디오",
+        "dist": 1178,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/2774038_image2_1.jpg",
+        "addr": "강원특별자치도 영월군 영월읍 영흥리 80"
+      },
+      {
+        "name": "금강정",
+        "dist": 1189,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/69/3388569_image2_1.JPG",
+        "addr": "강원특별자치도 영월군 영월읍 금강공원길 136"
+      },
+      {
+        "name": "민충사",
+        "dist": 1207,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/05/3506505_image2_1.jpg",
+        "addr": "강원특별자치도 영월군 영월읍 금강공원길 136"
+      },
+      {
+        "name": "영모전",
+        "dist": 1329,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/3375158_image2_1.JPG",
+        "addr": "강원특별자치도 영월군 영월읍 영모전길 148"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "영월 박가네",
+        "dist": 796,
+        "image": "",
+        "addr": "강원특별자치도 영월군 영월읍 중앙로 149"
+      },
+      {
+        "name": "진미막국수 왕갈비탕",
+        "dist": 857,
+        "image": "",
+        "addr": "강원특별자치도 영월군 영월읍 단종로 27"
+      },
+      {
+        "name": "별애별빵1984(영월동강곤드레영농조합법인)",
+        "dist": 976,
+        "image": "",
+        "addr": "강원특별자치도 영월군 영월읍 영월로 2085"
+      },
+      {
+        "name": "이달엔영월 ((주)영월청년들)",
+        "dist": 1029,
+        "image": "",
+        "addr": "강원특별자치도 영월군 영월읍 덕포시장길 50"
+      },
+      {
+        "name": "육정가",
+        "dist": 1557,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2925185_image2_1.jpg",
+        "addr": "강원특별자치도 영월군 봉래산로 95-1"
       }
     ]
   },
@@ -5328,7 +5911,7 @@
     "address": "경기도 평택시 팽성읍 안정쇼핑로 11",
     "lat": "36.9596136599",
     "lng": "127.0441409123",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/23/4108423_image2_1.png",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/61/4108761_image2_1.jpg",
     "overview": "마토예술제는 ‘마지막 주 토요일에 하는 예술제’라는 의미를 담은 안정리 대표 문화예술축제로, 6월과 10월 각 회차별 주제를 선정하여 계절과 지역의 특색을 반영한 테마형 축제로 운영된다. 10월에는 ‘브로드웨이 인 안정리(Broadway in Anjeong-ri)’를 주제로, 뮤지컬을 중심으로 한 공연과 이색 콘셉트의 체험·이벤트 프로그램을 구성하여 안정리 예술인광장을 하나의 뮤지컬 무대로 연출한다. 축제에서는 전문 뮤지컬 배우와 앙상블이 참여하는 주제 공연을 비롯해 미8군 군악대 관악 5중주, 지역 예술인 공연 등 다양한 공연 프로그램을 운영한다. 또한 관람객이 직접 브로드웨이 배우가 되어보는 스탬프 투어형 체험 프로그램과 이색 콘셉트의 체험·이벤트, 레드카펫 포토존 등을 마련하여 시민과 외국인, 방문객이 함께 즐길 수 있는 참여형 문화예술 콘텐츠를 제공한다. 특히 안정리 지역의 특성을 반영한 미8군 군악대 공연을 통해 지역사회와 미군 간 문화적 교류의 기회를 마련하고, 다양한 문화예술 콘텐츠를 통해 세대와 국적을 아우르는 축제 경험을 선사한다.",
     "tel": "031-669-0974",
     "homepage": "https://www.pccf.or.kr/evnt/evntView.do?evntSn=2609040001",
@@ -6962,6 +7545,100 @@
     ]
   },
   {
+    "contentid": "3368584",
+    "name": "부산청년주간",
+    "startDate": "20260918",
+    "endDate": "20260920",
+    "address": "부산 중구 중앙동 4가 15-33",
+    "lat": "35.1086225000",
+    "lng": "129.0409640000",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/58/4109358_image2_1.png",
+    "overview": "청년의 권리보장 및 청년발전의 중요성을 알리고, 청년문제에 대한 관심을 높이기 위해 제정한 법정기념일(9월 세 번째 토요일)인 청년의 날을 기념하여 부산항 제1부두에서 9월 18일(금) ~ 20일(일)까지 3일간 제8회 부산청년주간 행사가 열린다. 2026 부산청년주간 슬로건은 부산의 얼굴들이다. 부산의 바다와 청춘이 만나는 가면의 장을 행사 주제로 하여 동남해의 바다를 품은 도시 부산에서 살아가는 청년들의 이야기가 그려진다. 부산에서 살아가는 청년감독이 직접 기획한 프로그램으로 개인의 이야기가 모여 도시의 얼굴이 된다는 취지로, 청년들이 사회적 의무(본캐릭터)를 잠시 내려놓고 진짜 나(부캐릭터)를 찾아가는 특별한 시간이 펼쳐진다. 특히 이머시브 연출 기법을 연계한 프로그램으로 청년 감독만의 특색과 창의성을 더했다. 9월 19일 부산항 제1부두에서 열리는 청년의 날 기념식을 시작으로 부산청년센터를 비롯한 청년공간에서 3일간 다채로운 프로그램이 펼쳐진다. 부산청년 뿐 아니라 청년이라면 누구나 참여 가능하며, 자세한 내용은 홈페이지를 참고하면 된다.",
+    "tel": "051-927-7056",
+    "homepage": "https://busanyouthweek.com/",
+    "eventplace": "부산항 제1부두",
+    "playtime": "14:00~20:00",
+    "usefee": "무료",
+    "sponsor": "부산광역시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/58/4109358_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "청년의 권리보장 및 청년발전의 중요성을 알리고, 청년문제에 대한 관심을 높이기 위해 제정한 법정기념일(9월 세 번째 토요일)인 청년의 날을 기념하여 부산항 제1부두에서 9월 18일(금) ~ 20일(일)까지 3일간 제8회 부산청년주간 행사가 열린다. 2026 부산청년주간 슬로건은 부산의 얼굴들이다. 부산의 바다와 청춘이 만나는 가면의 장을 행사 주제로 하여 동남해의 바다를 품은 도시 부산에서 살아가는 청년들의 이야기가 그려진다. 부산에서 살아가는 청년감독이 직접 기획한 프로그램으로 개인의 이야기가 모여 도시의 얼굴이 된다는 취지로, 청년들이 사회적 의무(본캐릭터)를 잠시 내려놓고 진짜 나(부캐릭터)를 찾아가는 특별한 시간이 펼쳐진다. 특히 이머시브 연출 기법을 연계한 프로그램으로 청년 감독만의 특색과 창의성을 더했다. 9월 19일 부산항 제1부두에서 열리는 청년의 날 기념식을 시작으로 부산청년센터를 비롯한 청년공간에서 3일간 다채로운 프로그램이 펼쳐진다. 부산청년 뿐 아니라 청년이라면 누구나 참여 가능하며, 자세한 내용은 홈페이지를 참고하면 된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 청년의 날 전야제 \n- 부산청년멘토단 인생특강 : 말자쑈!\n- 디딤돌카드 + 취업특강 : 유튜버 이형 \n- 디제잉파티 : KIRARA\n\n2. 청년의 날 기념식\n- 청년의 날 기념식 \n- 기념콘서트 : 정책제안회 및 청년과의 대화, 가수 공연(빈첸) \n- 네트워킹 가면무도회 : 가면소개팅 \n\n3. 청년의 날 문화행사\n- 부산항 그룹 러닝 : 부산항 일대 \n- 파도 호흡 요가·명상\n- 그룹 복싱 \n- 가면 코스튬 대회"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "남도해양열차 에스트레인(S-train)",
+        "dist": 750,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3070878_image2_1.JPG",
+        "addr": "부산광역시 동구 중앙대로 206"
+      },
+      {
+        "name": "남선창고터",
+        "dist": 916,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3070879_image2_1.JPG",
+        "addr": "부산광역시 동구 초량로13번길 53"
+      },
+      {
+        "name": "부산영화체험박물관",
+        "dist": 999,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3539019_image2_1.jpg",
+        "addr": "부산광역시 중구 대청로126번길 12"
+      },
+      {
+        "name": "초량교회",
+        "dist": 1011,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3343314_image2_1.jpg",
+        "addr": "부산광역시 동구 초량상로 53"
+      },
+      {
+        "name": "색채마을",
+        "dist": 1037,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3064923_image2_1.JPG",
+        "addr": "부산광역시 중구 망양로 327-1 (대청동4가)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "만석미역 본점",
+        "dist": 317,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/02/2867702_image2_1.JPG",
+        "addr": "부산광역시 중구 충장대로5번길 32-1 (중앙동4가)"
+      },
+      {
+        "name": "장성향",
+        "dist": 621,
+        "image": "",
+        "addr": "부산광역시 동구 대영로243번길 29"
+      },
+      {
+        "name": "신발원",
+        "dist": 719,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/2832667_image2_1.jpg",
+        "addr": "부산광역시 동구 대영로243번길 62 (초량동)"
+      },
+      {
+        "name": "노티스",
+        "dist": 776,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/2836430_image2_1.jpg",
+        "addr": "부산광역시 중구 대교로 135 (중앙동5가)"
+      },
+      {
+        "name": "영동밀면&돼지국밥",
+        "dist": 865,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/88/2869388_image2_1.jpg",
+        "addr": "부산광역시 동구 중앙대로209번길 12 (초량동)"
+      }
+    ]
+  },
+  {
     "contentid": "2933008",
     "name": "부안붉은노을축제",
     "startDate": "20261016",
@@ -7954,6 +8631,103 @@
     ]
   },
   {
+    "contentid": "2759788",
+    "name": "서리풀뮤직페스티벌",
+    "startDate": "20260919",
+    "endDate": "20260920",
+    "address": "서울특별시 서초구 서초대로 233 서초역",
+    "lat": "37.4918235233",
+    "lng": "127.0075934663",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/46/4100646_image2_1.jpg",
+    "overview": "서리풀뮤직페스티벌은 매년 9월 개최되는 도심 속 음악 축제로, 2015년 첫선을 보인 후 지난 2025년까지 누적 134만여 명이 찾으며 서초구를 대표하는 브랜드 축제로 확실히 자리매김했다. 일 년에 단 이틀, 10차선 반포대로를 무대로 다채로운 장르의 공연과 감동적인 시민 참여 프로그램을 선보이며 한층 더 풍성하고 확장된 축제로 도약하고 있다. 특히 올해는 ‘Seocho is the Music’이라는 주제 아래 반포대로 본행사를 비롯해, 8월 말부터 한 달 동안 서초구 전역을 아름다운 선율로 물들이는 ‘4주간의 음악 여정’을 통해 더욱 특별한 감동으로 관람객을 맞이한다.",
+    "tel": "02-3477-2808",
+    "homepage": "https://seoripul.org/",
+    "eventplace": "반포대로",
+    "playtime": "토- 13:00~22:00일- 11:00~21:00",
+    "usefee": "무료 (마켓, F&B 등 일부 부스 제외)",
+    "sponsor": "서초구",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/47/4100647_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/48/4100648_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/49/4100649_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/50/4100650_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "서리풀뮤직페스티벌은 매년 9월 개최되는 도심 속 음악 축제로, 2015년 첫선을 보인 후 지난 2025년까지 누적 134만여 명이 찾으며 서초구를 대표하는 브랜드 축제로 확실히 자리매김했다. 일 년에 단 이틀, 10차선 반포대로를 무대로 다채로운 장르의 공연과 감동적인 시민 참여 프로그램을 선보이며 한층 더 풍성하고 확장된 축제로 도약하고 있다. 특히 올해는 ‘Seocho is the Music’이라는 주제 아래 반포대로 본행사를 비롯해, 8월 말부터 한 달 동안 서초구 전역을 아름다운 선율로 물들이는 ‘4주간의 음악 여정’을 통해 더욱 특별한 감동으로 관람객을 맞이한다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인 프로그램\n- 9월 19일(토)\n1) 지상최대스케치북 : 형형색색 10만여 개의 분필로 그리는 거대한 아스팔트 드로잉\n2) 서리풀합창제 : 서초구 관내 합창단들이 세대와 장르를 넘어, 모두가 한 목소리로 만드는 감동의 무대\n3) 클래식의 밤 : 서초의 가을밤을 채우는 오케스트라 낭만적인 선율\n4) 서리풀 재즈 나이트 : 늦은 밤, 도심 한 가운데서 울려퍼지는 낭만적인 재즈 콘서트\n\n- 9월 20일(일)\n1) 서리풀 굿모닝 요가 : 상쾌한 아침, 모두 함께 몸과 마음을 꺠우는 모닝 요가\n2) 서리풀 키즈 클래식  (콘텐츠 기획, 제작:(주)토스터) : 3D 애니메이션과 함께 어린이들이 클래식을 쉽고 재미있게 감상할 수 있는 생동감 넘치는 공연\n3) 서리풀 로컬 라이브 : 서초를 대표하는 문화기관과 예술단체가 함께 만들어가는, 지역의 품격과 매력을 담은 공연\n4) K-POP의 밤&불꽃놀이 : 페스티벌의 피날레를 장식하는 K-POP 콘서트와 불꽃놀이\n\n2. 부대 프로그램\n1) 서리풀 뮤직 라이브 : 음악공연, 퍼포먼스 등 장르를 넘나드는 다채로운 공연\n2) 체험부스 : 어린이와 가족을 위한 체험 및 놀이 프로그램\n3) 서리풀아트살롱 : 핸드메이드 작가들의 회화, 수공예 등의 작품 전시 및 판매\n\n3. 기타 프로그램\n1) 푸드트럭&쉼터\n2) 다양한 포토존 및 이벤트 등\n\n4. 페스티벌 전야제 (8/29~9/18)\n- 9월 18일(금)\n1) 예술의전당 패션쇼 : 예술의전당 야외광장에서 펼쳐지는 서막, 패션쇼와 오케스트라가 결합된 특별한 패션쇼\n\n5. 축제 주간 프로그램 (8/29~9/18)\n1) 작은 음악가의 산책길 : 악기 공방부터 공연장 백스테이지까지, '서리풀악기거리'를 낱낱이 체험하는 투어 프로그램\n2) 터치 더 피아노 : 서초문화벨트의 시작과 끝, 거리 위 피아노에서 누구나 연주자가 되어 일상 속에서 음악의 즐거움과 감동을 나누는 참여형 프로그램\n3) 서울고등학교 80주년 행사, 청년주간, 피아노페스타 등 협력 프로그램 운영\n\n[안내사항]\n※ 차 없는 거리 교통통제 안내\n- 일시 : 9월 19일(토) 00:00~ 9월 21일(월) 04:00\n- 구간 : 반포대로(서초역~서초3동사거리, 약 900m)\n\n※ 행사장 내 주차가 불가하오니 지하철(서초역 2·3번 출구)을 이용해주시기 바랍니다."
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "몽마르뜨공원",
+        "dist": 704,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3456312_image2_1.jpg",
+        "addr": "서울특별시 서초구 반포대로 201 (반포동)"
+      },
+      {
+        "name": "서리풀공원",
+        "dist": 709,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/16/3540716_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초동"
+      },
+      {
+        "name": "서래마을",
+        "dist": 1062,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3571659_image2_1.jpg",
+        "addr": "서울특별시 서초구 반포동"
+      },
+      {
+        "name": "우면산 소망탑",
+        "dist": 1438,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3467859_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초동 419-3"
+      },
+      {
+        "name": "심산기념문화센터",
+        "dist": 1674,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/88/3540488_image2_1.jpg",
+        "addr": "서울특별시 서초구 사평대로 55 (반포동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "설눈",
+        "dist": 204,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2855981_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초대로46길 20-7 (서초동)"
+      },
+      {
+        "name": "3대삼계장인",
+        "dist": 361,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/51/2855751_image2_1.jpg",
+        "addr": "서울특별시 서초구 반포대로28길 56-3 (서초동)"
+      },
+      {
+        "name": "채미가",
+        "dist": 505,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/2856167_image2_1.jpg",
+        "addr": "서울특별시 서초구 법원로2길 15 (서초동)"
+      },
+      {
+        "name": "탐라도야지 본점",
+        "dist": 584,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/2860959_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초대로50길 82 (서초동)"
+      },
+      {
+        "name": "일식 신태평양",
+        "dist": 733,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2856710_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초대로 307 (서초동)"
+      }
+    ]
+  },
+  {
     "contentid": "140752",
     "name": "서산해미읍성축제",
     "startDate": "20261009",
@@ -8462,7 +9236,7 @@
     "address": "서울특별시 중구 을지로 281 (을지로7가)",
     "lat": "37.5660539726",
     "lng": "127.0095547691",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/60/4105560_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/08/4109008_image2_1.jpg",
     "overview": "서울 도심을 환하게 비춰줄 세계 최대 비정형 미디어아트 축제 [서울라이트 DDP 2026 가을]이 오는 9월 3일부터 13일까지 11일간 동대문디자인플라자(DDP)에서 개최된다. ‘DAYBREAKER’를 테마로, 어둠을 깨고 새로운 빛을 여는 혁신과 도전정신을 가을·겨울·카운트다운 세 개의 축제를 통해 선보인다. 그 첫 장을 여는 [서울라이트 DDP 2026 가을]은 ‘K-Original Light’를 주제로, 오늘의 한국 문화를 이루어온 근원적인 빛을 조명한다. 이번 행사에서는 특히 백남준의 철학을 바탕으로 라이브 퍼포먼스와 실시간 반응형 미디어아트를 통해 서울라이트 DDP 최초의 새로운 무대를 선보인다. 또한, 유영국의 작품과 한글을 현대적으로 재해석한 미디어아트, 빛과 소리·레이저가 결합된 퍼포먼스까지 더해져 앞으로의 서울라이트 DDP를 기억하게 될 또 하나의 시작을 만들어 본다.",
     "tel": "02-2153-0000",
     "homepage": "https://ddp.or.kr/",
@@ -8748,107 +9522,6 @@
         "dist": 1344,
         "image": "",
         "addr": "서울특별시 강남구 영동대로 736 aloft HOTELS"
-      }
-    ]
-  },
-  {
-    "contentid": "3351888",
-    "name": "서천 국가유산야행",
-    "startDate": "20260911",
-    "endDate": "20260912",
-    "address": "충청남도 서천군 한산면 지현리",
-    "lat": "36.0824920000",
-    "lng": "126.8037260000",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/40/3525340_image2_1.jpg",
-    "overview": "2026 서천국가유산야행은 ‘한산의 성주, 요란한 잠행’을 주제로 2026년 9월 11일(금)부터 12일(토)까지 한산읍성 일원에서 개최된다. 한산읍성과 한산의 역사·문화유산을 배경으로 다채로운 야간 문화 프로그램과 공연, 체험, 다양한 전시가 펼쳐지며 전통과 현대가 어우러진 멋진 밤을 선사한다. 지역 주민과 관광객이 함께 참여하여 한산의 문화를 오감으로 즐기고 서천 국가유산의 깊은 매력을 색다르게 경험할 수 있는 대표 야간 문화축제이다. 아름다운 국가유산을 무대로 펼쳐지는 잊지 못할 특별한 밤으로 여러분을 모두 초대하는 자리이다.",
-    "tel": "041-957-9030",
-    "homepage": "https://seocheon-yahaeng.kr/",
-    "eventplace": "한산읍성",
-    "playtime": "18:00~22:00",
-    "usefee": "무료",
-    "sponsor": "서천군",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/36/3525336_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/41/3525341_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/42/3525342_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/76/4096376_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/77/4096377_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/78/4096378_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/79/4096379_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/80/4096380_image2_1.JPG"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 서천국가유산야행은 ‘한산의 성주, 요란한 잠행’을 주제로 2026년 9월 11일(금)부터 12일(토)까지 한산읍성 일원에서 개최된다. 한산읍성과 한산의 역사·문화유산을 배경으로 다채로운 야간 문화 프로그램과 공연, 체험, 다양한 전시가 펼쳐지며 전통과 현대가 어우러진 멋진 밤을 선사한다. 지역 주민과 관광객이 함께 참여하여 한산의 문화를 오감으로 즐기고 서천 국가유산의 깊은 매력을 색다르게 경험할 수 있는 대표 야간 문화축제이다. 아름다운 국가유산을 무대로 펼쳐지는 잊지 못할 특별한 밤으로 여러분을 모두 초대하는 자리이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 야경(夜景) : 등불따라 한산읍성까지, 한산을 지키는 제등\n2. 야로(夜路) : 서천국가유산담기 스탬프투어, 청소년이 들려주는 서천국가유산이야기, 한산읍성 줍깅엔티어링\n3. 야사(夜事) : 한산 현감의 하루, 한산읍성 지킴이, 서천 국가유산을 잇는 사람들, 한산읍성 밤에 여는 선비 시험\n4. 야화(夜畵) : 서천 국가유산스케치북, 한산수호탑에 말해봐\n5. 야설(夜設) : 한산읍성, 현감을 맞이하다, 조선 판소리 명창 이동백, 마당극 한산 보부상 이야기, 한산읍성에서 울리는 풍류\n6. 야시(夜市) : 한산 별빛 장터\n7. 야식(夜食) : 한산읍성, 한밤 장터\n8. 야숙(夜宿) : 서천에서 별빛캠프"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "한산소곡주 양조장",
-        "dist": 295,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3567100_image2_1.jpg",
-        "addr": "충청남도 서천군 한산면 충절로 1118"
-      },
-      {
-        "name": "한산향교",
-        "dist": 865,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/87/3339987_image2_1.jpg",
-        "addr": "충청남도 서천군 한산면 한산향교길 76-31"
-      },
-      {
-        "name": "동자북마을 (동자북역사문화마을)",
-        "dist": 866,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3339773_image2_1.jpg",
-        "addr": "충청남도 서천군 한산면 신성로 36-31"
-      },
-      {
-        "name": "봉서사(서천)",
-        "dist": 1118,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3043879_image2_1.jpg",
-        "addr": "충청남도 서천군 한산면 건지산길 113"
-      },
-      {
-        "name": "달고개모시마을",
-        "dist": 2429,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3043846_image2_1.jpg",
-        "addr": "충청남도 서천군 화양면 화한로504번길 5"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "삼풍식당",
-        "dist": 8494,
-        "image": "",
-        "addr": "전북특별자치도 군산시 성산면 철새로 31"
-      },
-      {
-        "name": "신가네칼국수",
-        "dist": 8496,
-        "image": "",
-        "addr": "전북특별자치도 군산시 성산면 철새로 31"
-      },
-      {
-        "name": "소문난해물칼국수",
-        "dist": 9262,
-        "image": "",
-        "addr": "충청남도 서천군 장산로855번길 7"
-      },
-      {
-        "name": "당골 한옥카페",
-        "dist": 9280,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2783596_image2_1.jpg",
-        "addr": "전북특별자치도 군산시 성산면 오성로 134-17"
-      },
-      {
-        "name": "산정호수가든",
-        "dist": 9312,
-        "image": "",
-        "addr": "전북특별자치도 익산시 웅포면 백제로 476-6"
       }
     ]
   },
@@ -10638,6 +11311,82 @@
     ]
   },
   {
+    "contentid": "3377089",
+    "name": "아라가야문화제",
+    "startDate": "20260918",
+    "endDate": "20260920",
+    "address": "경상남도 함안군 가야읍 고분길 153-31",
+    "lat": "35.2694732541",
+    "lng": "128.4029793292",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/18/4106318_image2_1.JPG",
+    "overview": "함안 아라가야문화제는 찬란했던 아라가야의 역사와 문화를 오늘날의 시선으로 새롭게 조명하고, 보다 다양한 역사·문화 콘텐츠를 발굴하여 많은 사람들이 아라가야의 가치를 쉽고 재미있게 경험할 수 있도록 마련된 대표적인 지역 문화축제이다. 축제 기간에는 아라가야의 역사와 문화를 주제로 한 다양한 공연과 축하 퍼포먼스가 펼쳐져 관람객들에게 풍성한 볼거리를 선사한다. 특히 아라가야의 생활과 문화를 직접 느껴볼 수 있는 역사체험 코스를 비롯해 기마무사 체험, 행렬 체험 등 남녀노소 누구나 참여할 수 있는 프로그램이 준비되어 있다. 또한 청년들이 직접 기획하고 실행하는 ‘말이산 힐링예’ 공연 프로그램을 통해 젊고 새로운 감각의 문화 콘텐츠도 만나볼 수 있다. 이와 함께 세계무형유산축제, 아라가야 수문장 교대의식, 아라대왕 행렬 등 아라가야의 역사적 이야기를 생생하게 재현하는 프로그램이 진행되며, 말이산고분군 일원에서도 가족과 관광객이 함께 즐길 수 있는 다양한 체험 행사가 펼쳐진다. 축제의 하이라이트로는 화려한 불꽃과 함께 펼쳐지는 주제공연 ‘아라홍련’이 준비되어 있어 아라가야의 역사와 문화, 전통과 현대가 어우러지는 특별한 감동을 선사한다. 함안 아라가야문화제는 단순히 관람하는 축제를 넘어 직접 보고, 듣고, 체험하며 아라가야의 역사 속으로 들어가 볼 수 있는 살아있는 역사문화 축제의 장이 될 것이다.",
+    "tel": "055-585-9400",
+    "homepage": "http://www.araje.or.kr/",
+    "eventplace": "함안박물관, 말이산고분군",
+    "playtime": "09:00~21:00",
+    "usefee": "무료",
+    "sponsor": "아라가야문화제위원회",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/13/4106313_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/14/4106314_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/15/4106315_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/16/4106316_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/17/4106317_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/19/4106319_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/20/4106320_image2_1.JPG"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "함안 아라가야문화제는 찬란했던 아라가야의 역사와 문화를 오늘날의 시선으로 새롭게 조명하고, 보다 다양한 역사·문화 콘텐츠를 발굴하여 많은 사람들이 아라가야의 가치를 쉽고 재미있게 경험할 수 있도록 마련된 대표적인 지역 문화축제이다. 축제 기간에는 아라가야의 역사와 문화를 주제로 한 다양한 공연과 축하 퍼포먼스가 펼쳐져 관람객들에게 풍성한 볼거리를 선사한다. 특히 아라가야의 생활과 문화를 직접 느껴볼 수 있는 역사체험 코스를 비롯해 기마무사 체험, 행렬 체험 등 남녀노소 누구나 참여할 수 있는 프로그램이 준비되어 있다. 또한 청년들이 직접 기획하고 실행하는 ‘말이산 힐링예’ 공연 프로그램을 통해 젊고 새로운 감각의 문화 콘텐츠도 만나볼 수 있다. 이와 함께 세계무형유산축제, 아라가야 수문장 교대의식, 아라대왕 행렬 등 아라가야의 역사적 이야기를 생생하게 재현하는 프로그램이 진행되며, 말이산고분군 일원에서도 가족과 관광객이 함께 즐길 수 있는 다양한 체험 행사가 펼쳐진다. 축제의 하이라이트로는 화려한 불꽃과 함께 펼쳐지는 주제공연 ‘아라홍련’이 준비되어 있어 아라가야의 역사와 문화, 전통과 현대가 어우러지는 특별한 감동을 선사한다. 함안 아라가야문화제는 단순히 관람하는 축제를 넘어 직접 보고, 듣고, 체험하며 아라가야의 역사 속으로 들어가 볼 수 있는 살아있는 역사문화 축제의 장이 될 것이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 식전행사\n- 아라가야천신제\n- 아라대왕행렬\n\n2. 식전축하공연\n- 식전축하공연\n\n3. 개막식 및 식후행사\n- 개막식\n- VR드로잉 퍼포먼스\n- 불꽃,아라홍련\n- 특별공연 (김수찬 김지현)\n\n4. 박물관프로그램\n- 프린지공연(풍선,마술,버블)\n- 아라가야 전래놀이 마당\n- 세계무형유산축제청년, 무형유산의 미래를 만나다 (남사당놀이, 줄타기놀이)\n- 청소년 오케스트라 \n- 아라가야 뮤지컬갈라쇼\n- 말이산힐링의(衣) 아라가야를 입다\n- ai  영상 공모전(영상홍보크리에이트)\n- 말이산 힐링보(步)\n- 나무로 만드는 3D 아라가야\n- 3D블록 미니어처 체험\n- 아라가야 불꽃가죽 키링 만들기\n- 남두육성 반지 아라홍련 디폼블럭 클리커 키캡 금동관 슈링클스 드림캐쳐 아라가야 유물  미니테라리움\n- 아라홍련 슬라임, 불꽃무늬워리스톤, 유물 폴리머클레이 악세사리, 말이산 고분군 디오션 디오라마\n- 함안을 담은 아트캔버스 액션페인팅\n- 함안의 보물을 담다.\n- 아라가야 토기 미니북 키링만들기\n- 함안을 맛보다.\n\n5. 아라가야체험장 프로그램\n- 샌드 아트공연\n- 아라가야 역사체험코스 아라가야놀장! 2\n- 대장간철기 갑옷 만들기 체험\n- 조랑말 먹이주기 체험\n\n6. 말이산고분군  프로그램\n- “아라가야”밤을 거닐다(아라가야불꽃정원)\n- 말이산힐링요(謠)열린 축제,청년버스킹\n- 말이산힐링비(飛)하늘을 향해 날아오르는 청년의 꿈\n- 말이산힐링무(舞)청년의 몸짓, 아라가야를 춤추다\n- 말이산힐링예(藝)청년이 예술로 깨우는 세계유산\n- 아라가야 문화체험 (의상,왕관,굿즈)\n- 아라가야 기마무사 체험\n- 수문장⦁행렬체험\n- 수문장 교대의식\n- 말이산힐링소(逍)아라가야밤을거닐다\n\n7. 홍보 전시 먹거리 행사\n- 금빛으로 새기는 가야\n- 1회용품 사용줄이기 홍보\n- 탄소 중립포인트 가입홍보 \n- 다회용기 공급수거처\n- 청년밥상!아라가야의 맛!\n- 아라가야 맛!저잣거리\n\n8. 연계행사\n- 추석맞이 아라가야 장터\n- 굿윌스토어 친환경프로그램&기후위기 홍보\n- 지산학 페스티벌(드론체험)\n- 마산대학 지역성장인생양성 프로그램"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "함안 연꽃테마파크",
+        "dist": 1423,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/2755215_image2_1.JPG",
+        "addr": "경상남도 함안군 가야읍 왕궁1길 38-20"
+      },
+      {
+        "name": "신암서원",
+        "dist": 1720,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3376009_image2_1.JPG",
+        "addr": "경상남도 함안군 가야읍 신암로 209"
+      },
+      {
+        "name": "황곡서원",
+        "dist": 1981,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3376023_image2_1.JPG",
+        "addr": "경상남도 함안군 가야읍 상검길 22-35"
+      },
+      {
+        "name": "도계서원 유허비",
+        "dist": 3426,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3376030_image2_1.JPG",
+        "addr": "경상남도 함안군 함안면 파수리"
+      },
+      {
+        "name": "함안 주리사지 사자석탑",
+        "dist": 3507,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3538220_image2_1.jpg",
+        "addr": "경상남도 함안군 함안면 함안대로 105-2"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "국보반상",
+        "dist": 5795,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/62/2844562_image2_1.JPG",
+        "addr": "경상남도 함안군 산인로 331"
+      }
+    ]
+  },
+  {
     "contentid": "4102351",
     "name": "안다미로귀때박물관 기획전시 '명화와 티타임(Teatime) : 빛과 색채로 마시는 차 한 잔의 여유'",
     "startDate": "20260626",
@@ -11214,104 +11963,6 @@
     ]
   },
   {
-    "contentid": "3000203",
-    "name": "양주 국가유산야행",
-    "startDate": "20260912",
-    "endDate": "20260920",
-    "address": "경기도 양주시 부흥로1399번길 15 (유양동)",
-    "lat": "37.7850538831",
-    "lng": "127.0295007970",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/47/4105747_image2_1.png",
-    "overview": "2026 양주국가유산 야행은 ‘다시, 관민동락’을 주제로 양주관아지 일원에서 펼쳐지는 야간형 국가유산 축제다. 조선시대 양주목을 배경으로 백성과 관리가 함께 어울려 즐기던 ‘관민동락’의 정신을 오늘의 축제로 되살리고, 양주가 간직한 역사와 국가유산을 공연·체험·전시·야간경관으로 연결한다. 축제는 양주별산대놀이, 양주소놀이굿, 양주들노래, 양주상여와회다지소리 등 양주의 대표 무형유산을 한자리에서 만나는 공연과 체험을 비롯해 정조대왕과 양주목을 소재로 한 역사 프로그램, 과거시험 체험, 전통문화 체험, 야간 탐방, 미디어 전시, 전통 찻집과 저잣거리 등 다채로운 콘텐츠로 구성된다. 양주의 국가유산을 단순히 관람하는 데 그치지 않고 관람객이 직접 이야기 속 인물이 되어 체험하고 참여하며 ‘관민동락’의 의미를 함께 완성하는 것이 특징이다. 야경·야로·야설·야사·야화·야식·야숙·야시의 8夜 프로그램을 따라 양주목의 밤을 거닐다 보면 아름다운 야간경관 속에서 양주의 역사와 사람, 전통문화가 하나의 이야기로 이어진다. 과거와 현재가 만나는 특별한 밤, 양주만의 국가유산과 풍류를 온몸으로 즐길 수 있는 축제다.",
-    "tel": "031-8082-5673",
-    "homepage": "https://yangju2022.quv.kr/",
-    "eventplace": "양주관아지 일원",
-    "playtime": "17:00~22:00",
-    "usefee": "무료 (체험부스 일부 유료)",
-    "sponsor": "양주시",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/43/4105743_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/44/4105744_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/45/4105745_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/46/4105746_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/48/4105748_image2_1.png"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 양주국가유산 야행은 ‘다시, 관민동락’을 주제로 양주관아지 일원에서 펼쳐지는 야간형 국가유산 축제다. 조선시대 양주목을 배경으로 백성과 관리가 함께 어울려 즐기던 ‘관민동락’의 정신을 오늘의 축제로 되살리고, 양주가 간직한 역사와 국가유산을 공연·체험·전시·야간경관으로 연결한다. 축제는 양주별산대놀이, 양주소놀이굿, 양주들노래, 양주상여와회다지소리 등 양주의 대표 무형유산을 한자리에서 만나는 공연과 체험을 비롯해 정조대왕과 양주목을 소재로 한 역사 프로그램, 과거시험 체험, 전통문화 체험, 야간 탐방, 미디어 전시, 전통 찻집과 저잣거리 등 다채로운 콘텐츠로 구성된다. 양주의 국가유산을 단순히 관람하는 데 그치지 않고 관람객이 직접 이야기 속 인물이 되어 체험하고 참여하며 ‘관민동락’의 의미를 함께 완성하는 것이 특징이다. 야경·야로·야설·야사·야화·야식·야숙·야시의 8夜 프로그램을 따라 양주목의 밤을 거닐다 보면 아름다운 야간경관 속에서 양주의 역사와 사람, 전통문화가 하나의 이야기로 이어진다. 과거와 현재가 만나는 특별한 밤, 양주만의 국가유산과 풍류를 온몸으로 즐길 수 있는 축제다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인프로그램 : 양주의 유산, 한판에 담다\n2. 부대프로그램 : 관민이여, 밤을 밝혀라, 신명나게 놀아보세, 관민동락의 풍류를 즐기다, 양주목 사람들, 양주목의 시간을 거닐다\n3. 소비자 참여 프로그램 : 양주목 퀴즈, 역사 속으로, 오감만족 양주목, 양주목, 기후변화와 지혜로운 선조 유산, 양주목 학당, 양주목 관아스테이 체험\n4. 기타 먹거리 등 : 버드나무 찻집, 저잣거리 한마당"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "양주 관아지",
-        "dist": 6,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3541591_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1399번길 15 (유양동)"
-      },
-      {
-        "name": "양주향교",
-        "dist": 321,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3559428_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1423번길 50"
-      },
-      {
-        "name": "백화암(양주)",
-        "dist": 1093,
-        "image": "",
-        "addr": "경기도 양주시 백화암길 191 (유양동)"
-      },
-      {
-        "name": "불곡산",
-        "dist": 1510,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3067723_image2_1.jpg",
-        "addr": "경기도 양주시 유양동"
-      },
-      {
-        "name": "양주 대모산성",
-        "dist": 1654,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/01/3496401_image2_1.jpg",
-        "addr": "경기도 양주시 백석읍 방성리"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "성북돈까스",
-        "dist": 470,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2751437_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1398번길 81-7 (유양동)"
-      },
-      {
-        "name": "밀밭사랑",
-        "dist": 975,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/45/2832145_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1398번길 189 (남방동)"
-      },
-      {
-        "name": "에이에이에이(AAA) 베이커리",
-        "dist": 1236,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/61/2865961_image2_1.jpg",
-        "addr": "경기도 양주시 양주산성로164번길 95 (남방동)"
-      },
-      {
-        "name": "이너프유",
-        "dist": 1392,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/64/2832264_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1422번길 220 (남방동)"
-      },
-      {
-        "name": "예향재",
-        "dist": 2949,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/71/2830371_image2_1.jpg",
-        "addr": "경기도 의정부시 동일로 860-22 (녹양동)"
-      }
-    ]
-  },
-  {
     "contentid": "3400809",
     "name": "어부장터X포트빌리지 통영",
     "startDate": "20261106",
@@ -11598,6 +12249,107 @@
         "dist": 5467,
         "image": "http://tong.visitkorea.or.kr/cms/resource/18/2834518_image2_1.jpg",
         "addr": "충청남도 논산시 탑정로 872"
+      }
+    ]
+  },
+  {
+    "contentid": "2849159",
+    "name": "연수 능허대 문화축제",
+    "startDate": "20261009",
+    "endDate": "20261010",
+    "address": "인천 연수구 선학동 231-3",
+    "lat": "37.4052019914",
+    "lng": "126.6305643362",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/51/4108751_image2_1.JPG",
+    "overview": "「2026 제14회 연수 능허대 문화축제」는 고대 백제 사신이 도전과 진취의 정신으로 출항했던 능허대의 역사성을 계승하고, 그 정신을 오늘날 연수구민과 함께 나누는 대화합의 문화축제이다. 연수구를 대표하는 '백제사신 퍼레이드'를 비롯해 주민이 함께 참여하는 다양한 프로그램이 마련되어 있으며, 구민의 날 기념 시상식, 인기 연예인 축하공연, 불꽃놀이 등 풍성한 연계 행사와 체험 부스는 능허대 축제만의 특별한 즐거움을 선사한다. 특히 올해는 2,000여 대의 드론이 밤하늘을 수놓는 역대 최대 규모의 드론 라이트 쇼​가 펼쳐진다. ‘능허대, 빛의 항해’​를 주제로, 고대 능허대를 통해 이어졌던 해상 교류의 역사와 세계를 향해 나아가는 글로벌 항해의 의미를 첨단 미디어 기술로 재해석해 화려한 빛의 장관을 선보일 예정이다.",
+    "tel": "032-749-7330 / 032-822-1000",
+    "homepage": "https://www.yeonsu.go.kr/tour/festival/neungheodae_festival/info.asp",
+    "eventplace": "연수한마음공원",
+    "playtime": "12:00 ~ 21:00",
+    "usefee": "무료",
+    "sponsor": "인천광역시 연수구",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/48/4108748_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/49/4108749_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/50/4108750_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/52/4108752_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/53/4108753_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/54/4108754_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/55/4108755_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/56/4108756_image2_1.JPG"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "「2026 제14회 연수 능허대 문화축제」는 고대 백제 사신이 도전과 진취의 정신으로 출항했던 능허대의 역사성을 계승하고, 그 정신을 오늘날 연수구민과 함께 나누는 대화합의 문화축제이다. 연수구를 대표하는 '백제사신 퍼레이드'를 비롯해 주민이 함께 참여하는 다양한 프로그램이 마련되어 있으며, 구민의 날 기념 시상식, 인기 연예인 축하공연, 불꽃놀이 등 풍성한 연계 행사와 체험 부스는 능허대 축제만의 특별한 즐거움을 선사한다. 특히 올해는 2,000여 대의 드론이 밤하늘을 수놓는 역대 최대 규모의 드론 라이트 쇼​가 펼쳐진다. ‘능허대, 빛의 항해’​를 주제로, 고대 능허대를 통해 이어졌던 해상 교류의 역사와 세계를 향해 나아가는 글로벌 항해의 의미를 첨단 미디어 기술로 재해석해 화려한 빛의 장관을 선보일 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 의전행사 : 구민의 날 기념식 \n2. 퍼포먼스 : 2,000대 드론 라이트쇼, 빛·춤타 공연, 백제사신 퍼레이드, 연예인 축하공연, 불꽃공연, 전통연희극 등\n3. 경연대회 : 제2회 연수구민 노래자랑, 우리센터 자랑 경연대회\n4. 체육행사 : 구민 한마음 체육대회\n5. 기타 : 생활문화공연, 한나루 예술제 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "G타워 전망대",
+        "dist": 1011,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3393341_image2_1.JPG",
+        "addr": "인천광역시 연수구 아트센터대로 175 G-Tower"
+      },
+      {
+        "name": "아암도해안공원",
+        "dist": 1250,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3037250_image2_1.jpg",
+        "addr": "인천광역시 연수구 아암대로 612"
+      },
+      {
+        "name": "투모로우시티(인천스타트업파크)",
+        "dist": 2025,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/94/3339594_image2_1.jpg",
+        "addr": "인천광역시 연수구 컨벤시아대로 204"
+      },
+      {
+        "name": "마리앤쥬",
+        "dist": 2178,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/3437040_image2_1.jpg",
+        "addr": "인천광역시 연수구 신송로125번길 13 (송도동)"
+      },
+      {
+        "name": "스머프매직포레스트 송도점",
+        "dist": 2678,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/87/3098887_image2_1.jpg",
+        "addr": "인천광역시 연수구 하모니로 158 (송도동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "셀레브르",
+        "dist": 841,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/66/3449366_image2_1.jpg",
+        "addr": "인천광역시 연수구 아트센터대로 131 (송도동)"
+      },
+      {
+        "name": "임파스토",
+        "dist": 1101,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/2789458_image2_1.jpg",
+        "addr": "인천광역시 연수구 아트센터대로 203"
+      },
+      {
+        "name": "기노스코",
+        "dist": 1106,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/2851821_image2_1.jpg",
+        "addr": "인천광역시 연수구 아트센터대로 203 (송도동)"
+      },
+      {
+        "name": "엉클인더키친 센트럴파크 본점",
+        "dist": 1147,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/68/2899968_image2_1.jpg",
+        "addr": "인천광역시 연수구 센트럴로 232 (송도동, 더샵센트럴파크1)"
+      },
+      {
+        "name": "우만당",
+        "dist": 1284,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/13/2853813_image2_1.jpg",
+        "addr": "인천광역시 연수구 아트센터대로 222 아트센터 인천(콘서트홀)"
       }
     ]
   },
@@ -12712,6 +13464,100 @@
         "dist": 2778,
         "image": "http://tong.visitkorea.or.kr/cms/resource/24/2834124_image2_1.jpg",
         "addr": "인천광역시 영종구 마시란로 163 (덕교동)"
+      }
+    ]
+  },
+  {
+    "contentid": "3354966",
+    "name": "용산 국가유산야행",
+    "startDate": "20260911",
+    "endDate": "20260912",
+    "address": "서울특별시 용산구 효창원로 177-18 (효창동)",
+    "lat": "37.5445089972",
+    "lng": "126.9618771947",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/19/4109419_image2_1.png",
+    "overview": "서울 한복판 우리가 익숙하게 지나던 효창공원이 독립의 기억을 만나는 특별한 야간 문화공간으로 변화한다. 2026 용산 국가유산 야행은 서울 효창공원에 모셔진 8위 선열의 독립운동 역사와 상징성을 바탕으로 야간경관·공연·전시·해설·체험 등 다양한 문화콘텐츠를 연계하여 시민들이 독립의 역사와 효창공원의 가치를 보다 가까이에서 경험하고 향유할 수 있도록 마련하는 야간 역사문화축제다. 특히 효창공원이 지닌 고유한 역사성과 장소성을 현대적인 야간 콘텐츠로 재해석하여 용산구만의 차별화된 야간 문화콘텐츠를 구축하고 구민과 방문객이 머물며 역사·문화·여가를 함께 즐길 수 있는 체류형 문화공간이자 용산을 대표하는 야간 명소로 조성하고자 한다. 이번 행사는 한 기관이나 하나의 프로그램만으로 완성되는 축제가 아니라, 지역의 공공기관·보훈 및 역사단체·문화예술기관·학교·대학·시민단체·지역사회가 각자의 콘텐츠와 전문성을 더해 함께 만드는 지역협력형 국가유산 야행을 지향할 예정이다.",
+    "tel": "02-458-3315",
+    "homepage": "https://shnesquetour.com/Yongsan_Festival",
+    "eventplace": "서울 효창공원",
+    "playtime": "17:00~21:00(토 13:00~21:00)",
+    "usefee": "무료",
+    "sponsor": "용산구청",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/19/4109419_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "서울 한복판 우리가 익숙하게 지나던 효창공원이 독립의 기억을 만나는 특별한 야간 문화공간으로 변화한다. 2026 용산 국가유산 야행은 서울 효창공원에 모셔진 8위 선열의 독립운동 역사와 상징성을 바탕으로 야간경관·공연·전시·해설·체험 등 다양한 문화콘텐츠를 연계하여 시민들이 독립의 역사와 효창공원의 가치를 보다 가까이에서 경험하고 향유할 수 있도록 마련하는 야간 역사문화축제다. 특히 효창공원이 지닌 고유한 역사성과 장소성을 현대적인 야간 콘텐츠로 재해석하여 용산구만의 차별화된 야간 문화콘텐츠를 구축하고 구민과 방문객이 머물며 역사·문화·여가를 함께 즐길 수 있는 체류형 문화공간이자 용산을 대표하는 야간 명소로 조성하고자 한다. 이번 행사는 한 기관이나 하나의 프로그램만으로 완성되는 축제가 아니라, 지역의 공공기관·보훈 및 역사단체·문화예술기관·학교·대학·시민단체·지역사회가 각자의 콘텐츠와 전문성을 더해 함께 만드는 지역협력형 국가유산 야행을 지향할 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 전통 초롱등 만들기&시민 퍼레이드\n2. 개막식&점등 퍼포먼스\n3. 전시관람 '기억, 기록하다'\n4. 미션투어\n5. 스탬프 투어\n6. 스토리텔링 해설투어\n7. 공연&독립선열 영상 상영\n8. 시민참여 프로그램\n- 전통 초롱등 만들기\n- 독립의 메시지 만들기\n- 매듭체험\n- LED 무드등 만들기\n- 독립신문 만들기"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "의열사(용산)",
+        "dist": 145,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3550679_image2_1.jpg",
+        "addr": "서울특별시 용산구 효창원로 177-18"
+      },
+      {
+        "name": "공덕동 족발골목",
+        "dist": 759,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3384423_image2_1.JPG",
+        "addr": "서울특별시 마포구 만리재로 19 (공덕동)"
+      },
+      {
+        "name": "당고개순교성지",
+        "dist": 1091,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3568219_image2_1.jpg",
+        "addr": "서울특별시 용산구 청파로 139-26"
+      },
+      {
+        "name": "크라운해태 키즈뮤지엄",
+        "dist": 1127,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3399730_image2_1.JPG",
+        "addr": "서울특별시 용산구 한강대로72길 3 (남영동)"
+      },
+      {
+        "name": "후암거실",
+        "dist": 1352,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3542759_image2_1.jpg",
+        "addr": "서울특별시 용산구 두텁바위로1가길 47 (후암동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "mtl 효창",
+        "dist": 282,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/42/2855442_image2_1.jpg",
+        "addr": "서울특별시 용산구 효창원로69길 25 송원빌딩"
+      },
+      {
+        "name": "다과상사",
+        "dist": 564,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/76/3580476_image2_1.jpg",
+        "addr": "서울특별시 용산구 백범로 291"
+      },
+      {
+        "name": "오츠커피 용산점",
+        "dist": 690,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/64/2855564_image2_1.jpg",
+        "addr": "서울특별시 용산구 원효로89길 13-12 (원효로1가)"
+      },
+      {
+        "name": "쌍대포소금구이 본점",
+        "dist": 752,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/2855548_image2_1.jpg",
+        "addr": "서울특별시 용산구 청파로 291 (청파동2가)"
+      },
+      {
+        "name": "한입소반",
+        "dist": 753,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/02/2851002_image2_1.jpg",
+        "addr": "서울특별시 용산구 청파로45길 3"
       }
     ]
   },
@@ -13962,6 +14808,104 @@
     ]
   },
   {
+    "contentid": "2393544",
+    "name": "전주 국가유산야행",
+    "startDate": "20261002",
+    "endDate": "20261003",
+    "address": "전북특별자치도 전주시 완산구 태조로 44 (풍남동3가)",
+    "lat": "35.8141717863",
+    "lng": "127.1500212472",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/34/4109434_image2_1.jpg",
+    "overview": "아름다운 야경과 함께 펼쳐지는 국가유산 야간축제, 전주국가유산야행이 오는 2026년 10월 2일(금)부터 3일(토)까지 ‘천년고도 전주, 역사 속 밤마실’을 슬로건으로 개최된다. 행사는 한옥마을과 경기전, 전라감영, 풍남문 등 전주를 대표하는 역사문화 공간 일대에서 진행될 예정이다. 조선왕조의 본향이자 후백제의 왕도였던 전주의 역사를 조명하는 이번 전주야행에서는 8개 분야의 ‘술사’들이 공연·체험·전시·투어 등 다채로운 프로그램을 선보이며, 관람객들은 역사적 공간과 전주의 이야기가 어우러진 체험형 콘텐츠를 통해 전주의 역사와 국가유산의 가치를 더욱 생생하게 만나볼 수 있다.",
+    "tel": "063-232-9937",
+    "homepage": "http://www.jeonjunight.com/",
+    "eventplace": "전주 한옥마을, 경기전, 풍남문, 전라감영",
+    "playtime": "18:00~22:00",
+    "usefee": "무료",
+    "sponsor": "국가유산청, 전북특별자치도, 전주시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/35/4109435_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/36/4109436_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/37/4109437_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/38/4109438_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/39/4109439_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "아름다운 야경과 함께 펼쳐지는 국가유산 야간축제, 전주국가유산야행이 오는 2026년 10월 2일(금)부터 3일(토)까지 ‘천년고도 전주, 역사 속 밤마실’을 슬로건으로 개최된다. 행사는 한옥마을과 경기전, 전라감영, 풍남문 등 전주를 대표하는 역사문화 공간 일대에서 진행될 예정이다. 조선왕조의 본향이자 후백제의 왕도였던 전주의 역사를 조명하는 이번 전주야행에서는 8개 분야의 ‘술사’들이 공연·체험·전시·투어 등 다채로운 프로그램을 선보이며, 관람객들은 역사적 공간과 전주의 이야기가 어우러진 체험형 콘텐츠를 통해 전주의 역사와 국가유산의 가치를 더욱 생생하게 만나볼 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 빛의 술사들\n- 국가유산 빛나는 공간 : 단청등, 미디어 간판등, 포토존 등으로 연출한 야간경관\n \n2. 국가유산 술사들\n- 국가유산 진검승부 : 취재, 역사 퀴즈, 게임 등 직접참여형 대결 콘텐츠\n- 국가유산 천년의 행진 : 시민과 예술인이 한데 모여 펼치는 대규모 행진 퍼레이드\n- 잃어버린 후백제를 찾아서 : 후백제의 왕도, 전주의 역사가 담긴 스탬프 투어\n- 국가유산 전주의 소리를 담다 : 방짜유기 싱잉볼과 함께하는 치유와 명상의 시간\n\n3. 이야기 술사들\n- 국가유산 올림픽 : 조상들의 삶과 정신을 활용한 전주올림픽 개최 염원 프로그램\n- 국가유산 이야기술사 : 후백제 왕도 시절부터 현재까지의 천년 전주 역사 이야기\n- 국가유산 보드게임 겨룸 : 전통놀이 역사이야기와 함께하는 조선 보드게임 한 판\n\n4. 그림 술사들\n- 국가유산 체험 놀이 : 전주국가유산야행에서 자체 개발한 키트를 체험하는 공간\n- 국가유산 거리의 화공 : 조선 시대 화공이 그려 주는 나만의 조선풍 초상화\n- 국가유산 환상 낙서장 : 리사이클링 크레파스를 활용해 채색하는 대국민 낙서장\n\n5. 공연 술사들\n- 국가유산 콘서트 ''풍류 한마당'' : 지역 예술가들이 국가유산에서 펼치는 대형 콘서트\n- 태조와 야행이를 만나다 : 마스코트 태조, 야행이와 사진 찍는 관객 맞이 이벤트\n- 전라관찰사의 탄생 : 조선직업체험, 추억의놀이가 함께하는 전라감영 역사테마파크\n- 국가유산 악사들 : 아름다운 선율로 발길을 사로잡는 1인 악사들의 전통 악기 공연\n- 녹두꽃의 함성 : 동학의 역사와 정신을 해설·영상·사진 전시로 만나보는 프로그램\n- 뜻밖의 국악 : 국가유산을 배경으로 펼쳐지는 전주야행 속 뜻밖의 국악 공연\n\n6. 여행 술사들\n- 한옥마을 골목길 투어 : 역사 해설사와 함께하는 전주 한옥마을 골목길 해설투어\n- 후백제 왕궁, 산성행 : 전주 후백제 유적지 일대 역사 탐방 및 강연\n\n7. 음식 술사들\n- 국가유산 달빛 차회 : 다도에 대해 배우고, 직접 체험해 보는 힐링 프로그램\n- 국가유산 풍류 한사발 : 전통떡 만들기 체험과, 지역 전통주를 받아보는 이벤트\n\n8. 흥정 술사들\n- 국가유산 청년 프리마켓 : 지역 청년들이 준비한 다양한 상품과 체험형 프리마켓\n- 전주야행 개발 상품 판매 : 전주국가유산야행 자체 개발 기념품 판매 및 체험"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "예종대왕태실 및 비",
+        "dist": 5,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/11/3537111_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 태조로 44 (풍남동3가)"
+      },
+      {
+        "name": "우리 놀이터 마루달",
+        "dist": 335,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/55/3066455_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 은행로 39 (풍남동3가)"
+      },
+      {
+        "name": "전주전통한지원",
+        "dist": 372,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/29/3064729_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 한지길 100-10 (풍남동3가)"
+      },
+      {
+        "name": "오목대와 이목대",
+        "dist": 408,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3533046_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 기린대로 55"
+      },
+      {
+        "name": "전라 감영",
+        "dist": 433,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/29/3457029_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 전라감영로 55 (중앙동4가)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "마시랑게",
+        "dist": 100,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3589839_image2_1.png",
+        "addr": "전북특별자치도 전주시 완산구 전동성당길 100 (전동)"
+      },
+      {
+        "name": "베테랑칼국수",
+        "dist": 170,
+        "image": "",
+        "addr": "전북특별자치도 전주시 완산구 경기전길 135"
+      },
+      {
+        "name": "한국집",
+        "dist": 306,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3064709_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 어진길 119"
+      },
+      {
+        "name": "노벨반점",
+        "dist": 532,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/2899009_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 풍남문2길 99 (전동3가)"
+      },
+      {
+        "name": "진미반점",
+        "dist": 647,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3444052_image2_1.jpg",
+        "addr": "전북특별자치도 전주시 완산구 전라감영3길 12-3 (중앙동2가)"
+      }
+    ]
+  },
+  {
     "contentid": "2547013",
     "name": "전주한옥마을 전통연희 퍼레이드-노상놀이야",
     "startDate": "20260418",
@@ -14687,102 +15631,6 @@
       }
     ],
     "nearbyFood": []
-  },
-  {
-    "contentid": "4033328",
-    "name": "제14회 부산국제항만컨퍼런스",
-    "startDate": "20260915",
-    "endDate": "20260916",
-    "address": "부산광역시 동구 충장대로 206 (초량동)",
-    "lat": "35.1175129767",
-    "lng": "129.0493834405",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/79/4039679_image2_1.jpg",
-    "overview": "부산국제항만컨퍼런스(BIPC)는 급변하는 글로벌 해운·물류 환경 속에서 항만의 미래를 함께 모색하고 국제협력을 강화하기 위해 마련된 컨퍼런스이다. 세계 주요\n항만과 해운, 물류 분야의 전문가들이 한자리에 모여 글로벌 컨테이너 해운시장 전망을 공유하고, 항만 운영과 관련된 주요 이슈와 대응 전략을 논의한다. 특히 디\n지털 전환, 탈탄소화, 공급망 변화 등 항만 산업이 직면한 핵심 과제를 중심으로 각국 항만의 경험과 성과를 공유하며 실질적인 협력 방안을 모색하는 장으로 기능\n하고 있다. 이를 통해 BIPC는 글로벌 항만 간 교류와 협력의 네트워크를 확대하고, 지속가능한 항만 산업 발전과 미래 경쟁력 확보를 위한 국제 협력 플랫폼으로\n자리매김하고 있다.",
-    "tel": "051-711-0069",
-    "homepage": "http://bipc.kr/",
-    "eventplace": "부산항 국제전시컨벤션센터",
-    "playtime": "※ 행사 시간 추후 결정 예정",
-    "usefee": "무료",
-    "sponsor": "부산항만공사",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/25/4033325_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/26/4033326_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/27/4033327_image2_1.JPG"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "부산국제항만컨퍼런스(BIPC)는 급변하는 글로벌 해운·물류 환경 속에서 항만의 미래를 함께 모색하고 국제협력을 강화하기 위해 마련된 컨퍼런스이다. 세계 주요\n항만과 해운, 물류 분야의 전문가들이 한자리에 모여 글로벌 컨테이너 해운시장 전망을 공유하고, 항만 운영과 관련된 주요 이슈와 대응 전략을 논의한다. 특히 디\n지털 전환, 탈탄소화, 공급망 변화 등 항만 산업이 직면한 핵심 과제를 중심으로 각국 항만의 경험과 성과를 공유하며 실질적인 협력 방안을 모색하는 장으로 기능\n하고 있다. 이를 통해 BIPC는 글로벌 항만 간 교류와 협력의 네트워크를 확대하고, 지속가능한 항만 산업 발전과 미래 경쟁력 확보를 위한 국제 협력 플랫폼으로\n자리매김하고 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 세션\n- 부대 행사 및 프로그램 : 전시 / 개막식 / 특별강연 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "남도해양열차 에스트레인(S-train)",
-        "dist": 666,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3070878_image2_1.JPG",
-        "addr": "부산광역시 동구 중앙대로 206"
-      },
-      {
-        "name": "남선창고터",
-        "dist": 881,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3070879_image2_1.JPG",
-        "addr": "부산광역시 동구 초량로13번길 53"
-      },
-      {
-        "name": "소림사(부산)",
-        "dist": 1072,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3561509_image2_1.jpg",
-        "addr": "부산광역시 동구 초량상로65번길 7 (초량동)"
-      },
-      {
-        "name": "초량교회",
-        "dist": 1105,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3343314_image2_1.jpg",
-        "addr": "부산광역시 동구 초량상로 53"
-      },
-      {
-        "name": "묘심사(부산)",
-        "dist": 1351,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3343332_image2_1.jpg",
-        "addr": "부산광역시 동구 망양로 671"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "스완양분식",
-        "dist": 626,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/26/2870326_image2_1.JPG",
-        "addr": "부산광역시 동구 중앙대로236번길 7-5 (초량동)"
-      },
-      {
-        "name": "1950 태성당",
-        "dist": 768,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/58/2870658_image2_1.jpg",
-        "addr": "부산광역시 동구 중앙대로296번길 3-5"
-      },
-      {
-        "name": "초량밀면",
-        "dist": 773,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/24/2800524_image2_1.jpg",
-        "addr": "부산광역시 동구 중앙대로 225 (초량동)"
-      },
-      {
-        "name": "은하갈비",
-        "dist": 890,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2870379_image2_1.JPG",
-        "addr": "부산광역시 동구 초량중로 86"
-      },
-      {
-        "name": "영동밀면&돼지국밥",
-        "dist": 902,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/88/2869388_image2_1.jpg",
-        "addr": "부산광역시 동구 중앙대로209번길 12 (초량동)"
-      }
-    ]
   },
   {
     "contentid": "617992",
@@ -16323,106 +17171,6 @@
     ]
   },
   {
-    "contentid": "3113583",
-    "name": "차 없는 잠수교 뚜벅뚜벅축제",
-    "startDate": "20260906",
-    "endDate": "20261025",
-    "address": "서울특별시 서초구 반포동",
-    "lat": "37.5128610000",
-    "lng": "126.9973530000",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/54/4103754_image2_1.jpg",
-    "overview": "''2026 차 없는 잠수교 뚜벅뚜벅 축제''는 서울특별시 미래한강본부에서 주최하는 무료 행사이며, 시민들이 도심 속 휴식과 다양한 문화 프로그램을 즐길 수 있도록 기획된 서울의 대표적인 거리 축제이다. 잠수교 일대에는 다양한 국가별 음식이 모여있는 달빛 식당, 수공예품부터 친환경 소품까지 나만의 소품을 찾을 수 있는 달빛 상점, 남녀노소 누구나 동심으로 돌아가 즐길 거리와 여유롭게 쉬어갈 수 있는 쉼터 등 상설 프로그램이 더욱 확대되었으며, 잠수교에서 마지막 여름을 즐기는 시원한 물총축제 '뚜뚜게더 워터워즈', 잠수교 위에서 새롭게 시도하는 '잠수교 미디어아트 Night' 등 매 회차 달라지는 8개의 특별 프로그램으로 언제든 새롭게 즐길 수 있다.",
-    "tel": "02-6401-9717",
-    "homepage": "https://www.festa-ddooddoo.com/",
-    "eventplace": "잠수교 및 반포한강공원 일원",
-    "playtime": "14:00~22:00",
-    "usefee": "무료(일부 프로그램 유료)",
-    "sponsor": "서울특별시 미래한강본부",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/52/4103752_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/53/4103753_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/55/4103755_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/56/4103756_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/57/4103757_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/58/4103758_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/59/4103759_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "''2026 차 없는 잠수교 뚜벅뚜벅 축제''는 서울특별시 미래한강본부에서 주최하는 무료 행사이며, 시민들이 도심 속 휴식과 다양한 문화 프로그램을 즐길 수 있도록 기획된 서울의 대표적인 거리 축제이다. 잠수교 일대에는 다양한 국가별 음식이 모여있는 달빛 식당, 수공예품부터 친환경 소품까지 나만의 소품을 찾을 수 있는 달빛 상점, 남녀노소 누구나 동심으로 돌아가 즐길 거리와 여유롭게 쉬어갈 수 있는 쉼터 등 상설 프로그램이 더욱 확대되었으며, 잠수교에서 마지막 여름을 즐기는 시원한 물총축제 '뚜뚜게더 워터워즈', 잠수교 위에서 새롭게 시도하는 '잠수교 미디어아트 Night' 등 매 회차 달라지는 8개의 특별 프로그램으로 언제든 새롭게 즐길 수 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 상설 프로그램 \n- 달빛 놀이터, 달빛 식당, 달빛 상점, 달빛 쉼터, 달빛 공방, 달빛 갤러리, 뚜뚜낙타봉 캔버스\n2. 특별 프로그램\n- 1주차 : 뚜뚜게더 워터워즈\n- 2주차 : 동아리 : ONDAY\n- 3주차 : 잠수교 가을 운동회  \n- 4주차 : 뚜벅뚜벅 한가위 한마당\n- 5주차 : 잠수교 미식로드\n- 6주차 : 잠수교 미디어아트 Night\n- 7주차 : 잠수교 웰니스 DAY\n- 8주차 : COACH X Spotify 프로젝트 \n3. 협력 프로그램 \n- 구석구석 라이브, 서로장터, 무소음 DJ파티"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "플로팅아일랜드",
-        "dist": 93,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3386650_image2_1.jpg",
-        "addr": "서울특별시 서초구 올림픽대로 2085-14 (반포동)"
-      },
-      {
-        "name": "서빙고동 부군당",
-        "dist": 927,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3542778_image2_1.jpg",
-        "addr": "서울특별시 용산구 서빙고로59길 3-6 (서빙고동)"
-      },
-      {
-        "name": "용산공원 부분개방부지",
-        "dist": 1024,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/3458353_image2_1.jpg",
-        "addr": "서울특별시 용산구 서빙고로 238 (서빙고동)"
-      },
-      {
-        "name": "서울웨이브아트센터",
-        "dist": 1079,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3096830_image2_1.jpg",
-        "addr": "서울특별시 서초구 잠원로 145-35 (잠원동)"
-      },
-      {
-        "name": "용산가족공원",
-        "dist": 1485,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/49/3507949_image2_1.jpg",
-        "addr": "서울특별시 용산구 서빙고로 185 (용산동6가)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "돈까스잔치 동빙고점",
-        "dist": 941,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/2837900_image2_1.jpg",
-        "addr": "서울특별시 용산구 서빙고로 297"
-      },
-      {
-        "name": "모던눌랑 센트럴시티점",
-        "dist": 1310,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3570685_image2_1.jpg",
-        "addr": "서울특별시 서초구 사평대로 205 (반포동)"
-      },
-      {
-        "name": "텍사스 데 브라질 센트럴시티점",
-        "dist": 1318,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3570532_image2_1.jpg",
-        "addr": "서울특별시 서초구 사평대로 205"
-      },
-      {
-        "name": "서래본갈비",
-        "dist": 1449,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/97/2787797_image2_1.jpg",
-        "addr": "서울특별시 서초구 사평대로 126 (반포동)"
-      },
-      {
-        "name": "동빙고 본점",
-        "dist": 1452,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/95/2849395_image2_1.jpg",
-        "addr": "서울특별시 용산구 이촌로 319 현대아파트"
-      }
-    ]
-  },
-  {
     "contentid": "2818138",
     "name": "창경궁 야연",
     "startDate": "20260924",
@@ -16717,6 +17465,107 @@
         "dist": 694,
         "image": "http://tong.visitkorea.or.kr/cms/resource/65/2856765_image2_1.jpg",
         "addr": "충청남도 천안시 서북구 불당21로 67-12 퍼스트프라자"
+      }
+    ]
+  },
+  {
+    "contentid": "4109423",
+    "name": "청년축제 유플페",
+    "startDate": "20260919",
+    "endDate": "20260919",
+    "address": "경기도 남양주시 고산로 254-2 (삼패동)",
+    "lat": "37.5928932000",
+    "lng": "127.1946381000",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/29/4109429_image2_1.JPG",
+    "overview": "2026년 남양주 청년축제 ‘유플페’는 오는 9월 19일 토요일 남양주 한강시민공원 삼패지구에서 개최된다. 남양주시가 주최하는 청년 대상 문화행사로, 청년의 문화·예술 활동과 다양한 재능을 시민과 공유하는 축제이다. 주요 프로그램은 13시부터 17시까지 운영되는 청년기획 체험부스와 15시 30분부터 17시 20분까지 진행되는 청년스타★스테이지, 17시 20분부터 18시 40분까지 진행되는 아티스트 공연으로 구성된다. 부대행사는 체험부스, 푸드트럭, 플리마켓, 논알콜 맥주 등 다양한 프로그램을 만나 볼 수 있다. 청년스타★스테이지는 지역 청년 인재 공연 프로그램이다. 아티스트 공연은 래퍼 가오가이와 가수 김나영이 한시간 가량 무대를 진행한다. 청년축제 유플페는 청년들이 공연, 체험, 플리마켓 등 다양한 형태로 참여하고 시민들이 청년의 문화와 재능을 함께 즐길 수 있는 행사이다.",
+    "tel": "031-590-8226",
+    "homepage": "https://blog.naver.com/nyjyouth7/224390651015",
+    "eventplace": "한강공원 삼패지구 물놀이장",
+    "playtime": "13:00-19:00",
+    "usefee": "무료",
+    "sponsor": "남양주시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/25/4109425_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4109426_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4109427_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/28/4109428_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4109430_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/31/4109431_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/32/4109432_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/33/4109433_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026년 남양주 청년축제 ‘유플페’는 오는 9월 19일 토요일 남양주 한강시민공원 삼패지구에서 개최된다. 남양주시가 주최하는 청년 대상 문화행사로, 청년의 문화·예술 활동과 다양한 재능을 시민과 공유하는 축제이다. 주요 프로그램은 13시부터 17시까지 운영되는 청년기획 체험부스와 15시 30분부터 17시 20분까지 진행되는 청년스타★스테이지, 17시 20분부터 18시 40분까지 진행되는 아티스트 공연으로 구성된다. 부대행사는 체험부스, 푸드트럭, 플리마켓, 논알콜 맥주 등 다양한 프로그램을 만나 볼 수 있다. 청년스타★스테이지는 지역 청년 인재 공연 프로그램이다. 아티스트 공연은 래퍼 가오가이와 가수 김나영이 한시간 가량 무대를 진행한다. 청년축제 유플페는 청년들이 공연, 체험, 플리마켓 등 다양한 형태로 참여하고 시민들이 청년의 문화와 재능을 함께 즐길 수 있는 행사이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인공연 : 아티스트 공연 (가수 김나영, 래퍼 가오가이)\n2. 지역청년아티스트 공연 : 여인준, 최석준, 김소윤, TAP, 김채운, 수아, 원미 + 대경대 태권도학과\n3. 부대프로그램 : 청년기획체험부스 (캘리그라피, 샤쉐만들기, 타로 사주 등), 지역대학(대경대,경복대)홍보 체험 부스 등 15개 부스\n4. 푸드트럭(5개 업체), 청년사장플리마켓(15개 업체) + 관내 논알콜수제맥주(어프리데이)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "하남 나무고아원",
+        "dist": 1201,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/3336792_image2_1.jpg",
+        "addr": "경기도 하남시 미사동"
+      },
+      {
+        "name": "미사한강공원5호",
+        "dist": 1405,
+        "image": "",
+        "addr": "경기도 하남시 미사대로 246 (망월동)"
+      },
+      {
+        "name": "미사한강공원4호",
+        "dist": 1751,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/3566817_image2_1.jpg",
+        "addr": "경기도 하남시 미사강변한강로 111 (선동)"
+      },
+      {
+        "name": "미음나루터(미음나루 풍속마을)",
+        "dist": 2123,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3404756_image2_1.JPG",
+        "addr": "경기도 남양주시 강변북로632번길 26 (수석동)"
+      },
+      {
+        "name": "미사한강공원2호",
+        "dist": 2170,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/99/2900499_image2_1.jpg",
+        "addr": "경기도 하남시 미사강변한강로 45 (선동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "파스타 아미고",
+        "dist": 459,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/2767632_image2_1.jpeg",
+        "addr": "경기도 남양주시 경강로 377"
+      },
+      {
+        "name": "시가올비빔국수",
+        "dist": 616,
+        "image": "",
+        "addr": "경기도 남양주시 고산로 196 (삼패동)"
+      },
+      {
+        "name": "우렁찬한우명품",
+        "dist": 753,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/14/2876614_image2_1.jpg",
+        "addr": "경기도 남양주시 고산로 180-1 (삼패동)"
+      },
+      {
+        "name": "트윈트리",
+        "dist": 1333,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2830337_image2_1.jpg",
+        "addr": "경기도 남양주시 고산로126번길 33-8 (수석동)"
+      },
+      {
+        "name": "더 숯불",
+        "dist": 1336,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2867180_image2_1.JPG",
+        "addr": "경기도 남양주시 고산로126번길 33-6 (수석동)"
       }
     ]
   },
@@ -17111,101 +17960,101 @@
     ]
   },
   {
-    "contentid": "2826119",
-    "name": "춘천 술 페스타",
-    "startDate": "20260911",
-    "endDate": "20260912",
-    "address": "강원특별자치도 춘천시 스포츠타운길399번길 25 (삼천동)",
-    "lat": "37.8734466386",
-    "lng": "127.7021326610",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/09/4105509_image2_1.jpg",
-    "overview": "2026 춘천 술페스타는 술의 도시 춘천의 고유한 매력을 널리 알리고 침체된 로컬 주류 문화를 활성화하기 위해 마련된 대표적인 전통주 및 로컬 미식 축제이다. 특히 올해 행사는 본행사에 앞서 6월 19일부터 20일까지 이틀간 근화동의 복합문화공간인 화동 2571에서 사전 행사 성격의 미니 술페스타 형태로 개최되어 큰 호응을 이끌어냈다. 이번 행사에는 춘천을 대표하는 지역 양조장이 대거 참여하여 탁주를 비롯해 증류주, 약주, 과실주, 수제맥주 등 다채로운 우리 술을 선보였으며, 직접 시음하고 합리적인 가격에 병술을 구매할 수 있는 판매 부스가 운영되어 방문객들의 발길을 사로잡았다. 또한 춘천의 로컬 미식 브랜드와 푸드트럭이 긴밀하게 연계되어 전통주와 완벽한 조화를 이루는 풍성하고 매력적인 미식 안주를 제공함으로써 오감 만족을 선사했다. 단순한 술자리를 넘어 문화 버스킹이 펼쳐지는 주향 스테이지를 비롯해 방문객들이 직접 참여하고 즐길 수 있는 이색적인 체험 프로그램과 부대행사가 다채롭게 펼쳐졌다. 춘천시는 이번 축제를 통해 지역 양조장의 브랜드 경쟁력을 실질적으로 높이고, 춘천을 찾는 관광객들에게 차별화된 체류형 미식 관광 콘텐츠와 로컬 라이프스타일을 각인시키는 중요한 발판을 마련하였다는 평가를 받는 축제이다.",
-    "tel": "070-8672-0156",
-    "homepage": "",
-    "eventplace": "KT&G 상상마당 춘천",
-    "playtime": "15:00~22:00 (토 14:00~22:00)",
+    "contentid": "3340159",
+    "name": "청춘대로",
+    "startDate": "20260919",
+    "endDate": "20260919",
+    "address": "서울특별시 광진구 능동로 216 (능동)",
+    "lat": "37.5520117940",
+    "lng": "127.0787702413",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/04/4109404_image2_1.jpg",
+    "overview": "2026 청춘대로는 광진구에서 개최하는 청년문화 Street 페스티벌이다. 어린이대공원 열린무대를 중심으로 청년과 지역주민이 함께 참여하고 즐길 수 있는 공연과 문화체험 프로그램을 운영하는 축제이다. 청년 동아리와 대학생이 참여하는 동아리 공연을 비롯하여 버스킹 공연, 청춘토크쇼, 축하공연 등이 진행되며, 청년 창업자와 지역 청년들이 참여하는 프리마켓과 체험·홍보부스도 운영되는 행사이다. 축제 현장에서는 다양한 장르의 공연과 참여형 프로그램을 통해 방문객이 자유롭게 문화를 즐길 수 있도록 구성한 것이 특징이다. 또한 건국대학교와 세종대학교 등 지역 대학의 청년들이 공연 및 프리마켓 등에 참여하여 지역 청년문화와 대학문화를 연계하는 프로그램을 마련한 축제이다. 2026 청춘대로는 청년을 중심으로 다양한 세대와 지역주민이 함께 어울리며 광진구의 청년문화와 지역의 활력을 경험할 수 있는 문화축제이다.",
+    "tel": "02-450-7596",
+    "homepage": "https://blog.naver.com/gwangjin_b/224391984691",
+    "eventplace": "어린이대공원 열린무대",
+    "playtime": "11:00 ~ 19:00",
     "usefee": "무료",
-    "sponsor": "춘천시(푸드테크산업과)",
+    "sponsor": "광진구",
     "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/03/4105503_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/04/4105504_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/05/4105505_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/06/4105506_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/07/4105507_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/08/4105508_image2_1.jpg"
+      "https://tong.visitkorea.or.kr/cms/resource/83/3530383_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/85/3530385_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/88/3530388_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/03/4109403_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/05/4109405_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/06/4109406_image2_1.png"
     ],
     "extraInfo": [
       {
         "name": "행사소개",
-        "text": "2026 춘천 술페스타는 술의 도시 춘천의 고유한 매력을 널리 알리고 침체된 로컬 주류 문화를 활성화하기 위해 마련된 대표적인 전통주 및 로컬 미식 축제이다. 특히 올해 행사는 본행사에 앞서 6월 19일부터 20일까지 이틀간 근화동의 복합문화공간인 화동 2571에서 사전 행사 성격의 미니 술페스타 형태로 개최되어 큰 호응을 이끌어냈다. 이번 행사에는 춘천을 대표하는 지역 양조장이 대거 참여하여 탁주를 비롯해 증류주, 약주, 과실주, 수제맥주 등 다채로운 우리 술을 선보였으며, 직접 시음하고 합리적인 가격에 병술을 구매할 수 있는 판매 부스가 운영되어 방문객들의 발길을 사로잡았다. 또한 춘천의 로컬 미식 브랜드와 푸드트럭이 긴밀하게 연계되어 전통주와 완벽한 조화를 이루는 풍성하고 매력적인 미식 안주를 제공함으로써 오감 만족을 선사했다. 단순한 술자리를 넘어 문화 버스킹이 펼쳐지는 주향 스테이지를 비롯해 방문객들이 직접 참여하고 즐길 수 있는 이색적인 체험 프로그램과 부대행사가 다채롭게 펼쳐졌다. 춘천시는 이번 축제를 통해 지역 양조장의 브랜드 경쟁력을 실질적으로 높이고, 춘천을 찾는 관광객들에게 차별화된 체류형 미식 관광 콘텐츠와 로컬 라이프스타일을 각인시키는 중요한 발판을 마련하였다는 평가를 받는 축제이다."
+        "text": "2026 청춘대로는 광진구에서 개최하는 청년문화 Street 페스티벌이다. 어린이대공원 열린무대를 중심으로 청년과 지역주민이 함께 참여하고 즐길 수 있는 공연과 문화체험 프로그램을 운영하는 축제이다. 청년 동아리와 대학생이 참여하는 동아리 공연을 비롯하여 버스킹 공연, 청춘토크쇼, 축하공연 등이 진행되며, 청년 창업자와 지역 청년들이 참여하는 프리마켓과 체험·홍보부스도 운영되는 행사이다. 축제 현장에서는 다양한 장르의 공연과 참여형 프로그램을 통해 방문객이 자유롭게 문화를 즐길 수 있도록 구성한 것이 특징이다. 또한 건국대학교와 세종대학교 등 지역 대학의 청년들이 공연 및 프리마켓 등에 참여하여 지역 청년문화와 대학문화를 연계하는 프로그램을 마련한 축제이다. 2026 청춘대로는 청년을 중심으로 다양한 세대와 지역주민이 함께 어울리며 광진구의 청년문화와 지역의 활력을 경험할 수 있는 문화축제이다."
       },
       {
         "name": "행사내용",
-        "text": "1. 메인프로그램 : 문화버스킹\n2. 부대프로그램 : 술빚기 체험, 나무놀이터, LED잔 꾸미기, 부채만들기, 나만의 칠링백 만들기, 외국인문화교류체험, 비어퐁잔퐁, 봉잡기 챌린지, 룰렛이벤트, 초시계 맞추기, 홍보전시부스,디제잉공연\n3. 소비자 참여 프로그램 : 로컬 F&B 부스, 양조장 판매부스, 푸드트럭"
+        "text": "1. 메인프로그램\n- 「터벌림」 길놀이공연 : 세종대학교 동아리 「터벌림」의 거리 퍼레이드 및 길놀이 공연\n- 대학생 동아리공연 : 세종대학교·건국대학교 대학생 동아리 6팀의 K-POP, 댄스, 밴드, 힙합, 치어리딩 등 다양한 공연\n- 스낵타운 토크콘서트 : 코미디 크리에이터 그룹 스낵타운과 함께하는 청춘 토크 프로그램\n- 청춘 버스킹 : 청년·인디 아티스트가 참여하는 다양한 장르의 버스킹 공연\n- 박재정 미니콘서트 : 가수 박재정의 감성적인 보컬을 만날 수 있는 미니콘서트\n\n2. 부대프로그램\n- 거리 버스킹 공연 : 어린이대공원 정문 앞 나무데크에서 진행되는 소규모 거리공연\n- 구정홍보부스 : 광진구의 주요 정책 및 사업을 소개하는 홍보 프로그램\n- 체험부스 : 축제 방문객이 직접 참여할 수 있는 다양한 체험 프로그램\n- 청년 프리마켓 : 청년 창업자 및 지역 청년이 참여하는 상품·콘텐츠 판매 및 전시\n- 대학생 참여 프로그램 : 건국대학교·세종대학교 대학생이 참여하는 공연 및 축제 프로그램\n\n3. 소비자 참여 프로그램\n- 청년 창업자·크리에이터 상품 및 콘텐츠 체험\n- 프리마켓 상품 구경 및 구매\n- 체험부스 참여\n- 토크콘서트 및 공연 관객 참여\n- 축제 현장 참여형 이벤트"
       }
     ],
     "nearbySpots": [
       {
-        "name": "KT&G 상상마당 춘천",
-        "dist": 40,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3581726_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 스포츠타운길399번길 25"
+        "name": "광나루안전체험관",
+        "dist": 163,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/02/3540002_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로 238"
       },
       {
-        "name": "춘천시 수변공원",
-        "dist": 189,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/69/3537669_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 삼천동 200-9"
+        "name": "키즈오토파크",
+        "dist": 368,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/03/3567303_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로 216"
       },
       {
-        "name": "춘천지구 전적비(춘천지구 전적기념관)",
-        "dist": 252,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/75/3466475_image2_1.JPG",
-        "addr": "강원특별자치도 춘천시 수변공원길 45 (삼천동)"
+        "name": "아리수나라",
+        "dist": 369,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3540023_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로 216 (능동)"
       },
       {
-        "name": "윤희순의사 동상",
-        "dist": 456,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3475430_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 수변공원길 18 (삼천동)"
+        "name": "육영재단 어린이회관",
+        "dist": 553,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3393937_image2_1.JPG",
+        "addr": "서울특별시 광진구 광나루로 441"
       },
       {
-        "name": "근화동396청년창업공간",
-        "dist": 1111,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3351718_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 중앙로 186"
+        "name": "존비코올터장군상",
+        "dist": 896,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3569079_image2_1.jpg",
+        "addr": "서울특별시 광진구 천호대로 662 (능동)"
       }
     ],
     "nearbyFood": [
       {
-        "name": "댄싱카페인",
-        "dist": 32,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/67/1919167_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 스포츠타운길399번길 25"
+        "name": "이화만두",
+        "dist": 307,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/2875230_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로 278-1 (능동)"
       },
       {
-        "name": "륭도객잔",
-        "dist": 826,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3421636_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 이디오피아길 7 (근화동)"
+        "name": "이이요",
+        "dist": 359,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2838485_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로32길 6 (능동)"
       },
       {
-        "name": "곰배령",
-        "dist": 1851,
+        "name": "호재래",
+        "dist": 578,
         "image": "",
-        "addr": "강원특별자치도 춘천시 춘천로 19"
+        "addr": "서울특별시 광진구 능동로35길 28"
       },
       {
-        "name": "남부막국수본관",
-        "dist": 1981,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/16/2892816_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 춘천로81번길 16"
+        "name": "신토불이 떡볶이 본점",
+        "dist": 1042,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/53/2832953_image2_1.jpg",
+        "addr": "서울특별시 광진구 자양로43길 42"
       },
       {
-        "name": "[백년가게]보문각",
-        "dist": 2165,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/2629078_image2_1.jpg",
-        "addr": "강원특별자치도 춘천시 약사고개길 42 (약사동)"
+        "name": "호야초밥참치 본점",
+        "dist": 1199,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/05/2838505_image2_1.jpg",
+        "addr": "서울특별시 광진구 능동로13길 39 한아름건물"
       }
     ]
   },
@@ -18348,6 +19197,105 @@
     ]
   },
   {
+    "contentid": "2859297",
+    "name": "페스티벌 광명",
+    "startDate": "20261003",
+    "endDate": "20261004",
+    "address": "경기도 광명시 철산동",
+    "lat": "37.4765540000",
+    "lng": "126.8693580000",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/27/4109227_image2_1.jpg",
+    "overview": "페스티벌 광명은 광명의 거리를 음악과 문화 그리고 축제의 열기로 가득 채우는 광명의 대표 축제이다. 올해 메인무대인 ‘GM 라이브’는 총 11팀의 아티스트가 무대를 꾸밀 예정이다. 3일에는 독보적인 싱어송라이터 10CM(십센치)​가 헤드라이너로 무대에 오르며, ‘데이브레이크’, ‘잭킹콩’, ‘아스라이’, ‘아사달’ 등 실력파 아티스트들이 함께한다. 4일에는 한국 록의 전설 김종서를 필두로 ‘로맨틱펀치’ ‘불나방스타 쏘세지클럽’, ‘신현희 밴드’, ‘칵투스’, ‘루아멜’ 등이 무대에 올라 축제의 열기를 이어간다. 아울러, 8차선 도로를 막고 조성된 거리 광장에는 시민 모두가 즐길 수 있는 랜덤플레이댄스, 거리 노래방, 버블 쇼, 키다리 삐에로, 석고 마임 등 다양한 프로그램이 진행될 예정이며, 광명의 대표 여행지인 '​광명9경'을 알차고 재밌게 즐길 수 있는 마블게임·미니게임도 준비되어 있다. 그리고 광명 시민들이 직접 참여하여 거리를 행진하는 '시민퍼레이드'와 '시민의거리 기념행사' 등이 진행된다. 이와 함께 광명의 다양한 사회적경제 비롯한 시민사회단체 등이 참여하는 '체험·마켓 프로그램'과 광명의 청소년이 꾸미는 상업지구내 '버스킹 공연'등 다양한 프로그램으로 알차게 꾸며질 예정이다.",
+    "tel": "02-2680-2787",
+    "homepage": "http://www.festivalgm.or.kr/2026/",
+    "eventplace": "철산역 8차선 일대",
+    "playtime": "11:00~21:00 (프로그램별 상이)",
+    "usefee": "무료",
+    "sponsor": "경기도 광명시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/28/4109228_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4109229_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4109230_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/4109231_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/32/4109232_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/33/4109233_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "페스티벌 광명은 광명의 거리를 음악과 문화 그리고 축제의 열기로 가득 채우는 광명의 대표 축제이다. 올해 메인무대인 ‘GM 라이브’는 총 11팀의 아티스트가 무대를 꾸밀 예정이다. 3일에는 독보적인 싱어송라이터 10CM(십센치)​가 헤드라이너로 무대에 오르며, ‘데이브레이크’, ‘잭킹콩’, ‘아스라이’, ‘아사달’ 등 실력파 아티스트들이 함께한다. 4일에는 한국 록의 전설 김종서를 필두로 ‘로맨틱펀치’ ‘불나방스타 쏘세지클럽’, ‘신현희 밴드’, ‘칵투스’, ‘루아멜’ 등이 무대에 올라 축제의 열기를 이어간다. 아울러, 8차선 도로를 막고 조성된 거리 광장에는 시민 모두가 즐길 수 있는 랜덤플레이댄스, 거리 노래방, 버블 쇼, 키다리 삐에로, 석고 마임 등 다양한 프로그램이 진행될 예정이며, 광명의 대표 여행지인 '​광명9경'을 알차고 재밌게 즐길 수 있는 마블게임·미니게임도 준비되어 있다. 그리고 광명 시민들이 직접 참여하여 거리를 행진하는 '시민퍼레이드'와 '시민의거리 기념행사' 등이 진행된다. 이와 함께 광명의 다양한 사회적경제 비롯한 시민사회단체 등이 참여하는 '체험·마켓 프로그램'과 광명의 청소년이 꾸미는 상업지구내 '버스킹 공연'등 다양한 프로그램으로 알차게 꾸며질 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램 : GM라이브, 퍼레이드 광명\n2. 부대프로그램 : 거리 노래방, 랜덤 플레이 댄스, 버스킹 공연\n3. 참여 프로그램 : 광명9경플레이존, 사회적 경제존(체험·마켓 부스 등)\n4. 기타 내용 : 그린존(관람객 쉼터), 나눔장터존"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "도덕산공원",
+        "dist": 1275,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3527200_image2_1.jpg",
+        "addr": "경기도 광명시 광명동"
+      },
+      {
+        "name": "구로공단 노동자생활체험관",
+        "dist": 1450,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/88/3400288_image2_1.JPG",
+        "addr": "서울특별시 금천구 벚꽃로44길 17 (가산동)"
+      },
+      {
+        "name": "개봉유수지 생태공원",
+        "dist": 1847,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/55/3558655_image2_1.jpg",
+        "addr": "서울특별시 구로구 개봉동"
+      },
+      {
+        "name": "안터생태공원",
+        "dist": 1906,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3527179_image2_1.jpg",
+        "addr": "경기도 광명시 안재로1번길 27 (하안동)"
+      },
+      {
+        "name": "독산 근린공원",
+        "dist": 2019,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3467759_image2_1.jpg",
+        "addr": "서울특별시 금천구 범안로 1096 (독산동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "한본삼계탕",
+        "dist": 235,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/55/2830255_image2_1.jpeg",
+        "addr": "경기도 광명시 오리로854번길 16-15 (철산동)"
+      },
+      {
+        "name": "가산물갈비&백년불고기",
+        "dist": 1284,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2836560_image2_1.jpg",
+        "addr": "서울특별시 금천구 가산디지털1로 128 에스티엑스브이타워"
+      },
+      {
+        "name": "가마솥밥상 철산본점",
+        "dist": 1323,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/34/2774734_image2_1.jpeg",
+        "addr": "경기도 광명시 안양천로 459 (철산동)"
+      },
+      {
+        "name": "정인면옥평양냉면",
+        "dist": 1333,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/61/2830161_image2_1.jpeg",
+        "addr": "경기도 광명시 목감로268번길 27-1 (광명동)"
+      },
+      {
+        "name": "선릉매운트럭떡볶이",
+        "dist": 1681,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/01/2772401_image2_1.JPG",
+        "addr": "경기도 광명시 광명로 823 (광명동)"
+      }
+    ]
+  },
+  {
     "contentid": "3481597",
     "name": "페인터즈",
     "startDate": "20221101",
@@ -18544,104 +19492,6 @@
         "dist": 188,
         "image": "http://tong.visitkorea.or.kr/cms/resource/43/2789643_image2_1.jpg",
         "addr": "강원특별자치도 평창군 봉평면 메밀꽃길 17"
-      }
-    ]
-  },
-  {
-    "contentid": "2034167",
-    "name": "평택호 물빛축제",
-    "startDate": "20260912",
-    "endDate": "20260912",
-    "address": "경기도 평택시 현덕면 평택호길 159",
-    "lat": "36.9214412612",
-    "lng": "126.9222261083",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/16/4107416_image2_1.jpg",
-    "overview": "‘평택호 물빛축제’는 아름다운 평택호의 자연경관을 배경으로 ‘물’과 ‘빛’을 주제로 펼쳐지는 평택시의 대표 축제다. 남녀노소 누구나 즐길 수 있는 다채로운 공연과 체험 프로그램, 먹거리 등 풍성한 즐길 거리가 마련되며, 평택호의 매력을 느낄 수 있는 다양한 콘텐츠를 선보인다. 특히 축제의 밤에는 밤하늘을 화려하게 수놓는 불꽃놀이가 펼쳐져 관람객들에게 특별한 볼거리를 선사한다. 낮부터 밤까지 이어지는 축제를 즐기며 가족, 연인, 친구들과 함께 평택호의 풍경 속에서 관람객들만의 특별한 추억과 낭만을 만들 수 있다. 또한 지역 주민과 지역 예술인이 참여하는 공연을 통해 지역의 문화적 매력을 소개하고, 방문객이 함께 즐기고 교류할 수 있는 열린 축제의 장을 마련한다.",
-    "tel": "031-669-0964",
-    "homepage": "https://www.pccf.or.kr/festival/festivalView.do?evntSn=2606180001&pageIndex=1&sw=&sc_tharAreaCd=&orderBy=deadline",
-    "eventplace": "평택호 관광단지 일원 (한국소리터, 모래톱공원)",
-    "playtime": "11:00~21:00",
-    "usefee": "무료",
-    "sponsor": "평택시",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/13/4107413_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/14/4107414_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/15/4107415_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/17/4107417_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/18/4107418_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "‘평택호 물빛축제’는 아름다운 평택호의 자연경관을 배경으로 ‘물’과 ‘빛’을 주제로 펼쳐지는 평택시의 대표 축제다. 남녀노소 누구나 즐길 수 있는 다채로운 공연과 체험 프로그램, 먹거리 등 풍성한 즐길 거리가 마련되며, 평택호의 매력을 느낄 수 있는 다양한 콘텐츠를 선보인다. 특히 축제의 밤에는 밤하늘을 화려하게 수놓는 불꽃놀이가 펼쳐져 관람객들에게 특별한 볼거리를 선사한다. 낮부터 밤까지 이어지는 축제를 즐기며 가족, 연인, 친구들과 함께 평택호의 풍경 속에서 관람객들만의 특별한 추억과 낭만을 만들 수 있다. 또한 지역 주민과 지역 예술인이 참여하는 공연을 통해 지역의 문화적 매력을 소개하고, 방문객이 함께 즐기고 교류할 수 있는 열린 축제의 장을 마련한다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 상설공연 : 주민자치 및 예술인공연\n2. 물빛콘서트 : 초청가수 축하공연, 불꽃놀이 등\n3. 체험 프로그램 : 지역작가 체험 프로그램, 체험부스 등\n4. 푸드트럭 : 관람객 만족도 제고를 위한 인기 있는 음식/음료로 구성된 푸드트럭 및 휴게공간 운영"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "평택호관광단지",
-        "dist": 6,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3514170_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 평택호길 159"
-      },
-      {
-        "name": "평택호예술공원",
-        "dist": 128,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3096782_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 권관리"
-      },
-      {
-        "name": "아산만방조제",
-        "dist": 3044,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3048814_image2_1.JPG",
-        "addr": "충청남도 아산시 인주면 공세리"
-      },
-      {
-        "name": "아산 공세리성당",
-        "dist": 4302,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3558572_image2_1.jpg",
-        "addr": "충청남도 아산시 인주면 공세리성당길 10"
-      },
-      {
-        "name": "냉정저수지",
-        "dist": 6390,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3567641_image2_1.jpg",
-        "addr": "충청남도 아산시 인주면 서해로548번길 158"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "액션커피앤브런치",
-        "dist": 895,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3444719_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 서해로 255"
-      },
-      {
-        "name": "웨스트157(west157)",
-        "dist": 1481,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2855043_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 서동대로 157"
-      },
-      {
-        "name": "밥보다국시",
-        "dist": 2818,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2864783_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 서해로 506"
-      },
-      {
-        "name": "도대리카페",
-        "dist": 4070,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/17/2855717_image2_1.jpg",
-        "addr": "경기도 평택시 현덕면 현덕서로 110"
-      },
-      {
-        "name": "이화식당",
-        "dist": 6501,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/09/2858409_image2_1.jpg",
-        "addr": "충청남도 아산시 신현로23번길 62"
       }
     ]
   },
@@ -19309,6 +20159,98 @@
     ]
   },
   {
+    "contentid": "3540329",
+    "name": "한글날 문화행사",
+    "startDate": "20261009",
+    "endDate": "20261010",
+    "address": "경기도 여주시 세종대왕면 영릉로 269-10",
+    "lat": "37.3047787539",
+    "lng": "127.6128192378",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/91/4109191_image2_1.jpg",
+    "overview": "훈민정음 반포 제580돌을 맞아 2026년 10월 9일부터 10일까지 세종대왕릉 일원에서 「2026 한글날 문화행사」가 개최된다. 이번 행사는 세조앧왕의 업적과 한글의 가치를 알리고 한글날의 의미를 되새기기 위해 마련된 문화 행사이다. 어린이와 가족 단위 방문객을 대상으로 '캐치! 티니핑' 특별공연과 '흔한남매' 소통공연을 비롯해 한글을 주제로 한 다양한 체험 및 전시 프로그램이 운영된다. 또한 세종대왕릉 곳곳에서는 다양한 문화예술 공연을 선보이는 '쉼터 작은 음악회'가 진해오딘다. 이와 함께 한글과 세종대왕을 주제로 한 체험 프로그램을 통해 한글의 역사와 가치를 접할 수 있는 프로그램이 마련된다. 세종대왕릉의 역사·문화적 공간을 활용해 공연과 체험, 전시 등 다양한 프로그램을 운영하는 행사로, 한글날을 맞아 세종대왕과 한글의 의미를 문화적으로 접할 수 있는 기회를 제공하는 행사이다.",
+    "tel": "031-881-9692",
+    "homepage": "https://www.yjcf.or.kr/",
+    "eventplace": "",
+    "playtime": "10:00~17:00",
+    "usefee": "무료",
+    "sponsor": "여주시",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "훈민정음 반포 제580돌을 맞아 2026년 10월 9일부터 10일까지 세종대왕릉 일원에서 「2026 한글날 문화행사」가 개최된다. 이번 행사는 세조앧왕의 업적과 한글의 가치를 알리고 한글날의 의미를 되새기기 위해 마련된 문화 행사이다. 어린이와 가족 단위 방문객을 대상으로 '캐치! 티니핑' 특별공연과 '흔한남매' 소통공연을 비롯해 한글을 주제로 한 다양한 체험 및 전시 프로그램이 운영된다. 또한 세종대왕릉 곳곳에서는 다양한 문화예술 공연을 선보이는 '쉼터 작은 음악회'가 진해오딘다. 이와 함께 한글과 세종대왕을 주제로 한 체험 프로그램을 통해 한글의 역사와 가치를 접할 수 있는 프로그램이 마련된다. 세종대왕릉의 역사·문화적 공간을 활용해 공연과 체험, 전시 등 다양한 프로그램을 운영하는 행사로, 한글날을 맞아 세종대왕과 한글의 의미를 문화적으로 접할 수 있는 기회를 제공하는 행사이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : '캐치! 티니핑 싱어롱쇼' 특별공연 / '흔한남매 토크쇼' 소통공연 / 세종대왕·한글 관련 체험 프로그램(한글놀이터) / 한글 주제 전시(세종대왕 전국 한글휘호대회 수상작품전, 아름다운 먹빛 누리전) / 쉼터 작은 음악회(관내 문화예술 단체 공연)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "양섬",
+        "dist": 645,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/3539743_image2_1.jpg",
+        "addr": "경기도 여주시 여주북로 238 (하동)"
+      },
+      {
+        "name": "강한사",
+        "dist": 1912,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3060415_image2_1.jpg",
+        "addr": "경기도 여주시 청심로 113 (하동)"
+      },
+      {
+        "name": "여주향교",
+        "dist": 2216,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3040619_image2_1.jpg",
+        "addr": "경기도 여주시 향교1길 28 (교동)"
+      },
+      {
+        "name": "매산서원",
+        "dist": 3243,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3382182_image2_1.jpg",
+        "addr": "경기도 여주시 능서면 능서로 94-8"
+      },
+      {
+        "name": "영월루",
+        "dist": 3303,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3383525_image2_1.jpg",
+        "addr": "경기도 여주시 주내로 13"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "플랫",
+        "dist": 1857,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2893310_image2_1.jpg",
+        "addr": "경기도 여주시 강변로 64-2"
+      },
+      {
+        "name": "여주솥반",
+        "dist": 2059,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/2893292_image2_1.jpg",
+        "addr": "경기도 여주시 강변로 82 (하동)"
+      },
+      {
+        "name": "수곡가든",
+        "dist": 2174,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/2834467_image2_1.jpg",
+        "addr": "경기도 여주시 향교2길 37 (교동)"
+      },
+      {
+        "name": "유가장",
+        "dist": 2234,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/2768315_image2_1.jpg",
+        "addr": "경기도 여주시 세종로46번길 17-1 (창동)"
+      },
+      {
+        "name": "여내울",
+        "dist": 2485,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2765708_image2_1.jpeg",
+        "addr": "경기도 여주시 여주남로 70 (월송동)"
+      }
+    ]
+  },
+  {
     "contentid": "563458",
     "name": "함양산삼축제",
     "startDate": "20261007",
@@ -19406,6 +20348,87 @@
         "dist": 801,
         "image": "http://tong.visitkorea.or.kr/cms/resource/22/2843622_image2_1.JPG",
         "addr": "경상남도 함양군 함양읍 함양로 1104-1"
+      }
+    ]
+  },
+  {
+    "contentid": "1700219",
+    "name": "함평모악산 꽃무릇축제",
+    "startDate": "20260916",
+    "endDate": "20260920",
+    "address": "전남광주통합특별시 함평군 해보면 용천사길 209",
+    "lat": "35.1835271438",
+    "lng": "126.5452777706",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/06/4098306_image2_1.jpg",
+    "overview": "제27회 함평 모악산 꽃무릇축제는 붉게 물든 꽃무릇 군락지와 모악산의 아름다운 자연환경을 배경으로 개최된다. 이번 축제는 꽃무릇과 숲이 어우러진 가을 풍경 속에서 일상의 피로를 내려놓고 여유를 즐길 수 있는 감성 치유형 축제로 마련된다. 특히 모악산 숲길을 활용한 명상·산림 치유 프로그램과 꽃무릇 및 지역의 특색을 살린 다채로운 콘텐츠를 통해 자연 속에서 걷고 쉬며 몸과 마음을 재충전할 수 있는 특별하고 소중한 가을의 시간을 선사한다. 자연과 사람, 쉼이 어우러지는 축제를 통해 모악산 꽃무릇의 아름다움과 생태적 가치를 널리 알릴 예정이다.",
+    "tel": "061-320-2247",
+    "homepage": "",
+    "eventplace": "용천사 꽃무릇 공원",
+    "playtime": "10:00~17:00",
+    "usefee": "무료",
+    "sponsor": "함평군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/01/4098301_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/02/4098302_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/03/4098303_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/04/4098304_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/05/4098305_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/07/4098307_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "제27회 함평 모악산 꽃무릇축제는 붉게 물든 꽃무릇 군락지와 모악산의 아름다운 자연환경을 배경으로 개최된다. 이번 축제는 꽃무릇과 숲이 어우러진 가을 풍경 속에서 일상의 피로를 내려놓고 여유를 즐길 수 있는 감성 치유형 축제로 마련된다. 특히 모악산 숲길을 활용한 명상·산림 치유 프로그램과 꽃무릇 및 지역의 특색을 살린 다채로운 콘텐츠를 통해 자연 속에서 걷고 쉬며 몸과 마음을 재충전할 수 있는 특별하고 소중한 가을의 시간을 선사한다. 자연과 사람, 쉼이 어우러지는 축제를 통해 모악산 꽃무릇의 아름다움과 생태적 가치를 널리 알릴 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 공연프로그램 : 꽃무릇 콘서트, 꽃무릇 웃음치유 토크 콘서트, 평생학습 공연, 지역문화예술단체 공연, 주민화합 한마당 공연, 꽃무릇 숲속 버스킹, 꽃무릇 노래자랑 \n2. 체험프로그램 : 꽃무릇 숲 나들이, 등산로 소원 리본 달기, 꽃무릇 추억 사진 남기기, 아로마 향기 목걸이 체험, 샤인머스캣 디저트 시식, 꽃무릇 치유센터 프로그램\n3. 이벤트 프로그램 : 모악산 정상 찾아가기 이벤트, 꽃무릇 축제 소비 촉진 인증 이벤트\n3. 판매부스 : 농특산품 판매장(8개소), 수공예품 판매장(4개소), 해보면민 특산물 판매장 운영(3개소)\n4. 기타 내용 : 유모차∙휠체어 대여소, 꽃무릇길 순환버스"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "용천사 꽃무릇공원",
+        "dist": 5,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3061145_image2_1.jpg",
+        "addr": "전남광주통합특별시 함평군 해보면 용천사길 209"
+      },
+      {
+        "name": "용천사(함평)",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3061070_image2_1.jpg",
+        "addr": "전남광주통합특별시 함평군 해보면 용천사길 209 "
+      },
+      {
+        "name": "불갑산도립공원",
+        "dist": 1950,
+        "image": "",
+        "addr": "전남광주통합특별시 영광군 불갑면 불갑사로 450"
+      },
+      {
+        "name": "내산서원",
+        "dist": 4130,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3379065_image2_1.JPG",
+        "addr": "전남광주통합특별시 영광군 불갑면 강항로 101"
+      },
+      {
+        "name": "모평마을",
+        "dist": 5062,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/07/3583007_image2_1.jpg",
+        "addr": "전남광주통합특별시 함평군 해보면 상모길 80"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "전원일기",
+        "dist": 6924,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/2867218_image2_1.jpg",
+        "addr": "전남광주통합특별시 함평군 학동로 1398-14  "
+      },
+      {
+        "name": "밀향기",
+        "dist": 8970,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/2877523_image2_1.jpg",
+        "addr": "전남광주통합특별시 영광군 영광읍 함영로 3448"
       }
     ]
   },
@@ -20315,7 +21338,7 @@
     "address": "서울특별시 마포구 월드컵로 251 (성산동)",
     "lat": "37.5659052367",
     "lng": "126.8964648544",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/62/4108262_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/70/4109170_image2_1.jpg",
     "overview": "아동학대예방을 위한 비대면 기부 마라톤 ‘허그런(HUG RUN)’은 3㎞, 6㎞, 11.19㎞ 코스 중 선택해 참여할 수 있는 버추얼 러닝 행사이다. 2025년 10월 13일부터 11월 30일까지 선착순 3,000명을 대상으로 참가 신청을 받으며, 30,000원의 참가비 전액은 학대피해아동 지원을 위해 사용된다. 참가자에게는 티셔츠와 기념 메달 등이 담긴 러닝키트가 지급되며, 참가 순번 이벤트 및 SNS 완주 인증을 통한 다양한 경품 혜택도 함께 제공된다.",
     "tel": "02-332-3997",
     "homepage": "https://hugrun.kr/",
@@ -22248,98 +23271,6 @@
     ]
   },
   {
-    "contentid": "4095402",
-    "name": "2026 서가콘서트 : 셜록홈즈",
-    "startDate": "20260908",
-    "endDate": "20260908",
-    "address": "경기도 수원시 팔달구 효원로307번길 20 (인계동)",
-    "lat": "37.2615833280",
-    "lng": "127.0375696865",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/58/4095458_image2_1.jpg",
-    "overview": "책과 클래식 음악이 만나는 경기아트센터의 대표 실내악 시리즈 〈서가콘서트〉는 문학을 음악으로 읽고, 클래식을 이야기로 듣는 새로운 공연 콘텐츠이다. 2026년에는 세계적인 추리소설의 고전 『셜록홈즈』를 주제로 무대를 꾸민다.\n\n역사추리소설 작가 정명섭이 진행을 맡아 아서 코난 도일과 『셜록홈즈』의 탄생 배경, 작품에 얽힌 흥미로운 비하인드 스토리와 시대적 배경을 쉽고 재미있게 들려준다. 여기에 작품의 분위기와 장면을 표현하는 실내악 연주가 더해져 한 편의 추리소설을 읽는 듯한 몰입감을 선사한다. 공연은 셜록홈즈의 날카로운 추리와 빅토리아 시대 런던의 분위기를 클래식 음악으로 재해석하며, 문학과 음악이 서로의 감동을 확장하는 특별한 경험을 제공한다.\n책을 읽지 않았더라도 공연만으로 작품을 이해하고 즐길 수 있으며, 이미 소설을 접한 관객에게는 새로운 시각으로 명작을 만나는 기회를 선사한다. 추리소설 애호가는 물론 클래식 입문자와 가족 관객까지 누구나 부담 없이 즐길 수 있는 공연이다.\n\n90분 동안 펼쳐지는 2026 서가콘서트 : 셜록홈즈는 문학과 클래식이 만나 만들어내는 색다른 공연 경험을 통해 고전의 매력을 새롭게 발견하게 하는 무대이다. 공연장을 찾는 순간, 관객은 셜록홈즈와 함께 사건을 추리하고 음악으로 시대를 여행하는 특별한 시간을 만나게 된다.",
-    "tel": "031-230-3268",
-    "homepage": "https://www.ggac.or.kr/",
-    "eventplace": "경기아트센터 소극장",
-    "playtime": "19:30~21:00",
-    "usefee": "- R석 35,000원- S석 25,000원※ 기타 할인권종은 공식 홈페이지 참조",
-    "sponsor": "(재)경기아트센터",
-    "images": [],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "책과 클래식 음악이 만나는 경기아트센터의 대표 실내악 시리즈 〈서가콘서트〉는 문학을 음악으로 읽고, 클래식을 이야기로 듣는 새로운 공연 콘텐츠이다. 2026년에는 세계적인 추리소설의 고전 『셜록홈즈』를 주제로 무대를 꾸민다.\n\n역사추리소설 작가 정명섭이 진행을 맡아 아서 코난 도일과 『셜록홈즈』의 탄생 배경, 작품에 얽힌 흥미로운 비하인드 스토리와 시대적 배경을 쉽고 재미있게 들려준다. 여기에 작품의 분위기와 장면을 표현하는 실내악 연주가 더해져 한 편의 추리소설을 읽는 듯한 몰입감을 선사한다. 공연은 셜록홈즈의 날카로운 추리와 빅토리아 시대 런던의 분위기를 클래식 음악으로 재해석하며, 문학과 음악이 서로의 감동을 확장하는 특별한 경험을 제공한다.\n책을 읽지 않았더라도 공연만으로 작품을 이해하고 즐길 수 있으며, 이미 소설을 접한 관객에게는 새로운 시각으로 명작을 만나는 기회를 선사한다. 추리소설 애호가는 물론 클래식 입문자와 가족 관객까지 누구나 부담 없이 즐길 수 있는 공연이다.\n\n90분 동안 펼쳐지는 2026 서가콘서트 : 셜록홈즈는 문학과 클래식이 만나 만들어내는 색다른 공연 경험을 통해 고전의 매력을 새롭게 발견하게 하는 무대이다. 공연장을 찾는 순간, 관객은 셜록홈즈와 함께 사건을 추리하고 음악으로 시대를 여행하는 특별한 시간을 만나게 된다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 실내악 콘서트 (소설가의 큐레이팅과 실내악 콘서트가 결합된 북클래식 공연)"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "효원공원",
-        "dist": 330,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3400919_image2_1.JPG",
-        "addr": "경기도 수원시 팔달구 동수원로 397 (인계동)"
-      },
-      {
-        "name": "인계예술공원",
-        "dist": 358,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3400879_image2_1.JPG",
-        "addr": "경기도 수원시 팔달구 동수원로 335"
-      },
-      {
-        "name": "나혜석거리",
-        "dist": 388,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/99/3400899_image2_1.JPG",
-        "addr": "경기도 수원시 팔달구 권광로188번길 25-2 (인계동)"
-      },
-      {
-        "name": "매탄공원",
-        "dist": 953,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3539179_image2_1.jpg",
-        "addr": "경기도 수원시 영통구 매탄로 185 (매탄동)"
-      },
-      {
-        "name": "방죽공원",
-        "dist": 2241,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3539157_image2_1.jpg",
-        "addr": "경기도 수원시 영통구 덕영대로1484번길 10-25 (망포동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "955카페",
-        "dist": 237,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/63/2892863_image2_1.jpg",
-        "addr": "경기도 수원시 팔달구 효원로307번길 51"
-      },
-      {
-        "name": "미나미참치",
-        "dist": 271,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2867383_image2_1.jpg",
-        "addr": "경기도 수원시 팔달구 효원로307번길 61 장성빌딩"
-      },
-      {
-        "name": "카페 도안",
-        "dist": 271,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/21/2906121_image2_1.jpg",
-        "addr": "경기도 수원시 팔달구 효원로307번길 61 (인계동)"
-      },
-      {
-        "name": "영천식당",
-        "dist": 350,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2867890_image2_1.jpg",
-        "addr": "경기도 수원시 팔달구 효원로291번길 35 (인계동)"
-      },
-      {
-        "name": "마초",
-        "dist": 351,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/06/2746006_image2_1.jpg",
-        "addr": "경기도 수원시 팔달구 권광로196번길 51 (인계동)"
-      }
-    ]
-  },
-  {
     "contentid": "3512205",
     "name": "2026 서귀포 원도심 문화페스티벌",
     "startDate": "20260411",
@@ -22715,6 +23646,106 @@
     ]
   },
   {
+    "contentid": "4108758",
+    "name": "2026 세븐브릿지 투어",
+    "startDate": "20260920",
+    "endDate": "20260920",
+    "address": "부산광역시 해운대구 APEC로 55 (우동)",
+    "lat": "35.1690637155",
+    "lng": "129.1360182683",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/32/4109032_image2_1.jpg",
+    "overview": "2026 세븐브릿지 투어는 부산을 대표하는 해상교량을 무대로 펼쳐지는 국내 유일의 대규모 77㎞ 사이클 행사로 평소 자전거 통행이 불가능했던 바다 위 다리들을 시원하게 내달리는 특별한 라이딩을 선보인다. 참가 라이더는 물론 일반 시민과 관광객도 함께 즐길 수 있는 다채로운 프로그램이 함께 마련된다.\n메인 프로그램인 사이클 투어는 광안대교를 시작으로 부산항대교, 남항대교, 을숙도대교 등 주요 교량을 잇는 코스를 주행하며, 바다 위 다리를 직접 걸어보는 광안대교 걷기 프로그램을 비롯해 용호별빛공원 일대에서는 웰니스 체험, 푸드 라운지 등이 운영되어 온 가족이 건강한 휴식과 체험을 즐길 수 있다.\n올해 세븐브릿지 투어는 바다 위를 가르는 짜릿한 라이딩과 도심 속 힐림 체험을 통해 부산 해상교량이 지닌 매력과 가능성을 새로운 방식으로 선보일 예정이다.",
+    "tel": "051-713-5000",
+    "homepage": "https://busan7bridges.com//",
+    "eventplace": "부산 전역(시내 주요 교량 및 도심 일원)",
+    "playtime": "06:30~17:00",
+    "usefee": "[세븐브릿지 투어] - 정규 티켓 100,000원 - 얼리버드 티켓 80,000원 [굿모닝 브릿지 워킹] - 10,000원 ※ 부산시민 50% 할인",
+    "sponsor": "부산광역시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/25/4109025_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4109026_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4109027_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/28/4109028_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4109029_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4109030_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/4109031_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 세븐브릿지 투어는 부산을 대표하는 해상교량을 무대로 펼쳐지는 국내 유일의 대규모 77㎞ 사이클 행사로 평소 자전거 통행이 불가능했던 바다 위 다리들을 시원하게 내달리는 특별한 라이딩을 선보인다. 참가 라이더는 물론 일반 시민과 관광객도 함께 즐길 수 있는 다채로운 프로그램이 함께 마련된다.\n메인 프로그램인 사이클 투어는 광안대교를 시작으로 부산항대교, 남항대교, 을숙도대교 등 주요 교량을 잇는 코스를 주행하며, 바다 위 다리를 직접 걸어보는 광안대교 걷기 프로그램을 비롯해 용호별빛공원 일대에서는 웰니스 체험, 푸드 라운지 등이 운영되어 온 가족이 건강한 휴식과 체험을 즐길 수 있다.\n올해 세븐브릿지 투어는 바다 위를 가르는 짜릿한 라이딩과 도심 속 힐림 체험을 통해 부산 해상교량이 지닌 매력과 가능성을 새로운 방식으로 선보일 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 굿모닝 브릿지 워킹\n- 기간 : 2026.09.20.(일) 07:00~10:00 (집결 시간 06:20)\n- 장소 : 남구 소금공원(용호만매립부두)\n- 주요 프로그램 : 광안대교 상판 위를 걷는 걷기 프로그램\n\n2. 세븐브릿지 페스티벌\n- 기간 : 2026.09.20.(일) 10:00~17:00 (프로그램별 운영시간 상이함)\n- 장소 : 용호별빛공원\n- 주요 프로그램 : 브릿지 스테이지 / 액티브 존 / 리커버리 존 / 릴렉스 라운지 / 세븐브릿지 바이크 클래스 / 세븐브릿지 키즈바이크컵 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "부산영화촬영스튜디오",
+        "dist": 750,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3337973_image2_1.jpg",
+        "addr": "부산광역시 해운대구 해운대해변로 52"
+      },
+      {
+        "name": "해운대리버크루즈",
+        "dist": 783,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3041326_image2_1.JPG",
+        "addr": "부산광역시 해운대구 수영강변대로 85"
+      },
+      {
+        "name": "부산 영화의 전당",
+        "dist": 819,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3035052_image2_1.jpg",
+        "addr": "부산광역시 해운대구 수영강변대로 120"
+      },
+      {
+        "name": "영화의전당 라이브러리 자료실",
+        "dist": 824,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/99/3453999_image2_1.jpg",
+        "addr": "부산광역시 해운대구 수영강변대로 120 (우동)"
+      },
+      {
+        "name": "옥련선원",
+        "dist": 1195,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/3589758_image2_1.jpg",
+        "addr": "부산광역시 수영구 광남로257번길 58"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "그랜드애플",
+        "dist": 457,
+        "image": "",
+        "addr": "부산광역시 해운대구 센텀1로 25"
+      },
+      {
+        "name": "외식1번가",
+        "dist": 581,
+        "image": "",
+        "addr": "부산광역시 해운대구 해운대로 425"
+      },
+      {
+        "name": "비스포레",
+        "dist": 883,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2868740_image2_1.jpg",
+        "addr": "부산광역시 수영구 민락수변로239번길 4 (민락동)"
+      },
+      {
+        "name": "수변최고돼지국밥 민락본점",
+        "dist": 1371,
+        "image": "",
+        "addr": "부산광역시 수영구 광안해변로370번길 9-32"
+      },
+      {
+        "name": "리오네",
+        "dist": 1447,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/71/2868571_image2_1.jpg",
+        "addr": "부산광역시 수영구 구락로 36 (수영동)"
+      }
+    ]
+  },
+  {
     "contentid": "3107059",
     "name": "2026 숭례문 파수의식",
     "startDate": "20260101",
@@ -22993,101 +24024,6 @@
         "dist": 1980,
         "image": "http://tong.visitkorea.or.kr/cms/resource/16/3458316_image2_1.jpg",
         "addr": "강원특별자치도 원주시 서원대로 264 (단계동)"
-      }
-    ]
-  },
-  {
-    "contentid": "4075091",
-    "name": "2026 전국 장애학생 e페스티벌",
-    "startDate": "20260908",
-    "endDate": "20260909",
-    "address": "강원특별자치도 홍천군 서면 한치골길 262",
-    "lat": "37.6521031527",
-    "lng": "127.6871063500",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/88/4075188_image2_1.jpg",
-    "overview": "2026 전국 장애학생 e페스티벌은 국립특수교육원, 한국콘텐츠진흥원, 넷마블문화재단이 공동 주최하는 전국 단위의 장애학생 대상 행사이다. 2026년 행사는 'AI로 여는 세상e, 무한한 가능성e'를 주제로 개최되며, 전국 17개 시·도에서 선발된 장애학생과 지도교사, 관계자 등이 참가한다. 행사는 e스포츠대회와 정보경진대회를 중심으로 운영되며, 인공지능(AI) 및 디지털 기술 체험 프로그램, 문화공연, 전시 및 체험부스, 교류 프로그램 등 다양한 콘텐츠로 구성된다. 참가 학생들은 5월 27일부터 진행되는 지역예선대회를 거쳐 본·결선 대회에 참가하며, e스포츠와 정보경진 분야에서 기량을 발휘하고 다양한 디지털 기술과 문화 콘텐츠를 체험하게 된다. 또한 행사 기간 동안 참가 학생 간 교류와 소통을 위한 프로그램이 함께 운영되며, 장애학생의 디지털 활용 역량 향상과 정보 문화 참여 기회 확대를 지원하는 교육·문화 행사이다.",
-    "tel": "010-2751-1082",
-    "homepage": "http://www.2026전국장애학생e페스티벌.com/",
-    "eventplace": "소노캄 비발디파크",
-    "playtime": "- 화요일 14:00~21:00- 수요일 09:00~13:00",
-    "usefee": "무료",
-    "sponsor": "한국콘텐츠진흥원, 국립특수교육원, 넷마블문화재단",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/89/4075189_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/90/4075190_image2_1.JPG"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 전국 장애학생 e페스티벌은 국립특수교육원, 한국콘텐츠진흥원, 넷마블문화재단이 공동 주최하는 전국 단위의 장애학생 대상 행사이다. 2026년 행사는 'AI로 여는 세상e, 무한한 가능성e'를 주제로 개최되며, 전국 17개 시·도에서 선발된 장애학생과 지도교사, 관계자 등이 참가한다. 행사는 e스포츠대회와 정보경진대회를 중심으로 운영되며, 인공지능(AI) 및 디지털 기술 체험 프로그램, 문화공연, 전시 및 체험부스, 교류 프로그램 등 다양한 콘텐츠로 구성된다. 참가 학생들은 5월 27일부터 진행되는 지역예선대회를 거쳐 본·결선 대회에 참가하며, e스포츠와 정보경진 분야에서 기량을 발휘하고 다양한 디지털 기술과 문화 콘텐츠를 체험하게 된다. 또한 행사 기간 동안 참가 학생 간 교류와 소통을 위한 프로그램이 함께 운영되며, 장애학생의 디지털 활용 역량 향상과 정보 문화 참여 기회 확대를 지원하는 교육·문화 행사이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 개회식 / e스포츠대회 / 정보경진대회 / 문화행사 \"드림 e스테이지\"(비보잉댄스 / 마술쇼 / 현장 레크레이션 / K-pop 공연) / 시상식 / 폐회식\n- 부대 행사 및 프로그램 : 체험 프로그램(AI 캐리커처 드로잉로봇 / AI 오목 로봇 배틀 / AI 자율주행 휠체어 체험 / AI 역량평가 체험 / AI 자작곡 만들기 / 에듀테크 체험존 / 로봇축구 체험 / 에코스테이지 버스킹 / 상상체험 버스·트럭 등 실내·외 체험 프로그램)\n이벤트 (AI 포토존 체험 / 솜사탕 체험 / 키링 만들기 체험 / 미션 e파서블 모바일 스탬프로드 / 승부예측 e챌린지 / 경품 이벤트 등)"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "팔봉참살이마을",
-        "dist": 3602,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3384630_image2_1.JPG",
-        "addr": "강원특별자치도 홍천군 서면 오도치길 6"
-      },
-      {
-        "name": "홍천강",
-        "dist": 4665,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3584663_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 팔봉강변길"
-      },
-      {
-        "name": "팔봉산관광지",
-        "dist": 5700,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3422445_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 한치골길 1124"
-      },
-      {
-        "name": "팔봉산(홍천)",
-        "dist": 5703,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3042918_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 한치골길 1124"
-      },
-      {
-        "name": "복주머니마을",
-        "dist": 6944,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3384582_image2_1.JPG",
-        "addr": "강원특별자치도 홍천군 서면 개야마을길 73"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "홍천메밀가",
-        "dist": 3025,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2837985_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 한치골길 759"
-      },
-      {
-        "name": "금수강산막국수",
-        "dist": 3296,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2837941_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 한치골길 785"
-      },
-      {
-        "name": "들꽃가든",
-        "dist": 3737,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2892308_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 서면 한서로 2045"
-      },
-      {
-        "name": "홍천조박사화로구이",
-        "dist": 3934,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/65/2892465_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 한서로 2080"
-      },
-      {
-        "name": "홍천강한우타운",
-        "dist": 4404,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/07/2891707_image2_1.jpg",
-        "addr": "강원특별자치도 홍천군 한치골길 912"
       }
     ]
   },
@@ -23575,7 +24511,7 @@
     "address": "세종특별자치시 중앙공원로 60 (세종동)",
     "lat": "36.4917742203",
     "lng": "127.2717369032",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4108259_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/46/4108746_image2_1.jpg",
     "overview": "2026 한글문화특별기획전 《세종과 남준》은 500여 년의 시간을 뛰어 넘어 두 인물을 조명한다. 세종대왕의 한글창제, 백남준의 비디오아트를 통해 소통의 혁신을 이뤄낸 두 혁신가의 창의성과 혁신성을 다루는 기획 전시이다. 오는 10월 9일부터 11월 8일까지 비엔날레전시관에서 경험할 수 있으며, 화~일 14시, 16시 시민도슨트의 전시해설도 들을 수 있다.",
     "tel": "044-850-8952",
     "homepage": "",
@@ -24422,6 +25358,104 @@
     ]
   },
   {
+    "contentid": "2833186",
+    "name": "MOIM International",
+    "startDate": "20261017",
+    "endDate": "20261017",
+    "address": "경기도 시흥시 시청로 20 (장현동)",
+    "lat": "37.3795201238",
+    "lng": "126.8032733548",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4104859_image2_1.jpg",
+    "overview": "시흥시청소년동아리축제는 청소년들의 자기주도적인 동아리 활동을 활성화하고, 청소년동아리와 지역사회 간의 소통과 교류를 확대하기 위해 마련된 청소년 참여형 축제로 사회참여, 봉사, 학술, 스포츠, 댄스, 밴드, 문화예술 등 다양한 분야에서 활동하는 청소년들이 주도적으로 기획하고 운영하며, 자신의 재능과 역량을 지역사회와 함께 나누는 장으로 자리매김하고 있다. 특히 시흥시청소년동아리축제는 시흥시 청소년동아리지원사업에 참여하는 584개 동아리, 약 7,800여 명의 청소년이 함께 만들어가는 전국 최대 규모의 청소년동아리 축제로, 공연과 체험, 전시, 교류 프로그램 등 다채로운 콘텐츠를 선보인다. 또한 국내 청소년뿐만 아니라 해외 청소년 및 국제 교류단체와의 협력을 통해 글로벌 문화교류의 기회를 확대하며, 다양한 문화와 가치가 공존하는 국제적 청소년 축제로 발전하고 있다.",
+    "tel": "031-315-1889",
+    "homepage": "https://www.shyouth.or.kr/",
+    "eventplace": "시흥시청",
+    "playtime": "13:00~21:00",
+    "usefee": "무료",
+    "sponsor": "시흥시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/58/4104858_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/60/4104860_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/61/4104861_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/62/4104862_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/63/4104863_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "시흥시청소년동아리축제는 청소년들의 자기주도적인 동아리 활동을 활성화하고, 청소년동아리와 지역사회 간의 소통과 교류를 확대하기 위해 마련된 청소년 참여형 축제로 사회참여, 봉사, 학술, 스포츠, 댄스, 밴드, 문화예술 등 다양한 분야에서 활동하는 청소년들이 주도적으로 기획하고 운영하며, 자신의 재능과 역량을 지역사회와 함께 나누는 장으로 자리매김하고 있다. 특히 시흥시청소년동아리축제는 시흥시 청소년동아리지원사업에 참여하는 584개 동아리, 약 7,800여 명의 청소년이 함께 만들어가는 전국 최대 규모의 청소년동아리 축제로, 공연과 체험, 전시, 교류 프로그램 등 다채로운 콘텐츠를 선보인다. 또한 국내 청소년뿐만 아니라 해외 청소년 및 국제 교류단체와의 협력을 통해 글로벌 문화교류의 기회를 확대하며, 다양한 문화와 가치가 공존하는 국제적 청소년 축제로 발전하고 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 개회식\n2. 카니발존 : 체험부스, 버스킹 공연, E-sport 1:1 이벤트, Artistaff 야외 미션 방탈출 등\n3. 뮤직페스티벌존 : 청소년동아리 공연, 사일런트디스코 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "법륭사",
+        "dist": 1826,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3560814_image2_1.jpg",
+        "addr": "경기도 시흥시 하중로173번길 11 (하중동)"
+      },
+      {
+        "name": "흔들전망대",
+        "dist": 2120,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3527032_image2_1.jpg",
+        "addr": "경기도 시흥시 섬말길 94 (장곡동)"
+      },
+      {
+        "name": "연꽃테마파크",
+        "dist": 2401,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3558695_image2_1.jpg",
+        "addr": "경기도 시흥시 관곡지로 139 (하중동)"
+      },
+      {
+        "name": "물왕호수",
+        "dist": 2415,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/03/3040903_image2_1.JPG",
+        "addr": "경기도 시흥시 물왕동"
+      },
+      {
+        "name": "영각사(시흥)",
+        "dist": 2471,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3560846_image2_1.jpg",
+        "addr": "경기도 시흥시 영각사길 52 (군자동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "진짬뽕 진차이나",
+        "dist": 1896,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/14/2751614_image2_1.jpeg",
+        "addr": "경기도 시흥시 동서로 691 (광석동)"
+      },
+      {
+        "name": "서운칼국수",
+        "dist": 1923,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2763277_image2_1.jpg",
+        "addr": "경기도 시흥시 시흥대로 248-8 (군자동)"
+      },
+      {
+        "name": "참소예",
+        "dist": 2284,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/29/2751629_image2_1.jpeg",
+        "addr": "경기도 시흥시 동서로 706-27 (물왕동)"
+      },
+      {
+        "name": "옛날쌈밥",
+        "dist": 2351,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2875882_image2_1.JPG",
+        "addr": "경기도 시흥시 금화로202번길 231 (물왕동)"
+      },
+      {
+        "name": "아름드리민물장어",
+        "dist": 2417,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/2838465_image2_1.jpeg",
+        "addr": "경기도 시흥시 금화로 404 (물왕동)"
+      }
+    ]
+  },
+  {
     "contentid": "3331805",
     "name": "NS푸드페스타",
     "startDate": "20261016",
@@ -24520,104 +25554,6 @@
     ]
   },
   {
-    "contentid": "2833186",
-    "name": "SIYF",
-    "startDate": "20261017",
-    "endDate": "20261017",
-    "address": "경기도 시흥시 시청로 20 (장현동)",
-    "lat": "37.3795201238",
-    "lng": "126.8032733548",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4104859_image2_1.jpg",
-    "overview": "시흥시청소년동아리축제는 청소년들의 자기주도적인 동아리 활동을 활성화하고, 청소년동아리와 지역사회 간의 소통과 교류를 확대하기 위해 마련된 청소년 참여형 축제로 사회참여, 봉사, 학술, 스포츠, 댄스, 밴드, 문화예술 등 다양한 분야에서 활동하는 청소년들이 주도적으로 기획하고 운영하며, 자신의 재능과 역량을 지역사회와 함께 나누는 장으로 자리매김하고 있다. 특히 시흥시청소년동아리축제는 시흥시 청소년동아리지원사업에 참여하는 584개 동아리, 약 7,800여 명의 청소년이 함께 만들어가는 전국 최대 규모의 청소년동아리 축제로, 공연과 체험, 전시, 교류 프로그램 등 다채로운 콘텐츠를 선보인다. 또한 국내 청소년뿐만 아니라 해외 청소년 및 국제 교류단체와의 협력을 통해 글로벌 문화교류의 기회를 확대하며, 다양한 문화와 가치가 공존하는 국제적 청소년 축제로 발전하고 있다.",
-    "tel": "031-315-1889",
-    "homepage": "https://www.shyouth.or.kr/",
-    "eventplace": "시흥시청",
-    "playtime": "13:00~21:00",
-    "usefee": "무료",
-    "sponsor": "시흥시",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/58/4104858_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/60/4104860_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/61/4104861_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/62/4104862_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/63/4104863_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "시흥시청소년동아리축제는 청소년들의 자기주도적인 동아리 활동을 활성화하고, 청소년동아리와 지역사회 간의 소통과 교류를 확대하기 위해 마련된 청소년 참여형 축제로 사회참여, 봉사, 학술, 스포츠, 댄스, 밴드, 문화예술 등 다양한 분야에서 활동하는 청소년들이 주도적으로 기획하고 운영하며, 자신의 재능과 역량을 지역사회와 함께 나누는 장으로 자리매김하고 있다. 특히 시흥시청소년동아리축제는 시흥시 청소년동아리지원사업에 참여하는 584개 동아리, 약 7,800여 명의 청소년이 함께 만들어가는 전국 최대 규모의 청소년동아리 축제로, 공연과 체험, 전시, 교류 프로그램 등 다채로운 콘텐츠를 선보인다. 또한 국내 청소년뿐만 아니라 해외 청소년 및 국제 교류단체와의 협력을 통해 글로벌 문화교류의 기회를 확대하며, 다양한 문화와 가치가 공존하는 국제적 청소년 축제로 발전하고 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 개회식\n2. 카니발존 : 체험부스, 버스킹 공연, E-sport 1:1 이벤트, Artistaff 야외 미션 방탈출 등\n3. 뮤직페스티벌존 : 청소년동아리 공연, 사일런트디스코 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "법륭사",
-        "dist": 1826,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3560814_image2_1.jpg",
-        "addr": "경기도 시흥시 하중로173번길 11 (하중동)"
-      },
-      {
-        "name": "흔들전망대",
-        "dist": 2120,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3527032_image2_1.jpg",
-        "addr": "경기도 시흥시 섬말길 94 (장곡동)"
-      },
-      {
-        "name": "연꽃테마파크",
-        "dist": 2401,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3558695_image2_1.jpg",
-        "addr": "경기도 시흥시 관곡지로 139 (하중동)"
-      },
-      {
-        "name": "물왕호수",
-        "dist": 2415,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/03/3040903_image2_1.JPG",
-        "addr": "경기도 시흥시 물왕동"
-      },
-      {
-        "name": "영각사(시흥)",
-        "dist": 2471,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3560846_image2_1.jpg",
-        "addr": "경기도 시흥시 영각사길 52 (군자동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "진짬뽕 진차이나",
-        "dist": 1896,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/2751614_image2_1.jpeg",
-        "addr": "경기도 시흥시 동서로 691 (광석동)"
-      },
-      {
-        "name": "서운칼국수",
-        "dist": 1923,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2763277_image2_1.jpg",
-        "addr": "경기도 시흥시 시흥대로 248-8 (군자동)"
-      },
-      {
-        "name": "참소예",
-        "dist": 2284,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/29/2751629_image2_1.jpeg",
-        "addr": "경기도 시흥시 동서로 706-27 (물왕동)"
-      },
-      {
-        "name": "옛날쌈밥",
-        "dist": 2351,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2875882_image2_1.JPG",
-        "addr": "경기도 시흥시 금화로202번길 231 (물왕동)"
-      },
-      {
-        "name": "아름드리민물장어",
-        "dist": 2417,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/65/2838465_image2_1.jpeg",
-        "addr": "경기도 시흥시 금화로 404 (물왕동)"
-      }
-    ]
-  },
-  {
     "contentid": "4089090",
     "name": "〈도기陶器, 우리를 담은 질그릇〉",
     "startDate": "20260729",
@@ -24708,6 +25644,67 @@
         "addr": "전남광주통합특별시 북구 일곡택지로99번길 33  "
       }
     ]
+  },
+  {
+    "contentid": "4109218",
+    "name": "「인각사」와 함께하는 제5회 군위 삼국유사 전국 가족걷기대회",
+    "startDate": "20261024",
+    "endDate": "20261024",
+    "address": "대구광역시 군위군 삼국유사면 삼국유사로 250",
+    "lat": "36.1280793877",
+    "lng": "128.7784271308",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/19/4109219_image2_1.jpg",
+    "overview": "「인각사와 함께하는 제5회 군위 삼국유사 전국 가족걷기대회」는 삼국유사의 고장 군위에서 가족과 함께 걸으며 지역의 역사와 자연을 경험할 수 있는 걷기 행사이다. 올해로 5회째를 맞는 이번 대회는 삼국유사의 집필지로 알려진 대한불교조계종 인각사와 함께 진행하며, 삼국유사의 역사적 의미와 군위의 문화·관광자원을 걷기를 통해 알리는 자리로 마련된다. 참가자들은 인각사 일원의 자연경관을 따라 마련된 걷기 코스를 걸으며 가족, 친구, 연인과 함께 가을의 정취를 즐길 수 있다. 걷기대회와 함께 행사장에서는 초청가수 홍원빈, 박서진, 김태연의 축하공연이 펼쳐지며 참가자를 위한 다양한 현장 프로그램도 진행된다. 역사와 문화, 자연, 공연을 한 자리에서 경험할 수 있는 가족 참여형 행사로, 걷기를 통해 건강한 여가문화를 확산하고 군위와 삼국유사의 문화적 가치를 알리는 것을 목적으로 한다.",
+    "tel": "053-757-5137",
+    "homepage": "http://군위걷기대회.com//",
+    "eventplace": "인각사",
+    "playtime": "13:30~19:00",
+    "usefee": "- 5㎞ 7,000원- 10㎞ 10,000원※ 초등학생 이상 참가비 있음(미성년자는 반드시 일솔자 동반)",
+    "sponsor": "군위군, 군위군체육회, 영남일보",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "「인각사와 함께하는 제5회 군위 삼국유사 전국 가족걷기대회」는 삼국유사의 고장 군위에서 가족과 함께 걸으며 지역의 역사와 자연을 경험할 수 있는 걷기 행사이다. 올해로 5회째를 맞는 이번 대회는 삼국유사의 집필지로 알려진 대한불교조계종 인각사와 함께 진행하며, 삼국유사의 역사적 의미와 군위의 문화·관광자원을 걷기를 통해 알리는 자리로 마련된다. 참가자들은 인각사 일원의 자연경관을 따라 마련된 걷기 코스를 걸으며 가족, 친구, 연인과 함께 가을의 정취를 즐길 수 있다. 걷기대회와 함께 행사장에서는 초청가수 홍원빈, 박서진, 김태연의 축하공연이 펼쳐지며 참가자를 위한 다양한 현장 프로그램도 진행된다. 역사와 문화, 자연, 공연을 한 자리에서 경험할 수 있는 가족 참여형 행사로, 걷기를 통해 건강한 여가문화를 확산하고 군위와 삼국유사의 문화적 가치를 알리는 것을 목적으로 한다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 군위 삼국유사 전국 가족걷기대회(인각사 및 군위댐 일원 걷기)\n- 부대 행사 및 프로그램 : 축하공연(가수 홍원빈, 가수 박서진, 가수 김태연) / 참가자 현장 프로그램 / 경품 추첨 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "군위 인각사지",
+        "dist": 3,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3029873_image2_1.jpg",
+        "addr": "대구광역시 군위군 고로면 삼국유사로 250"
+      },
+      {
+        "name": "인각사(군위)",
+        "dist": 105,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3569946_image2_1.jpg",
+        "addr": "대구광역시 군위군 고로면 삼국유사로 250"
+      },
+      {
+        "name": "화계서원",
+        "dist": 3206,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/49/3349349_image2_1.jpg",
+        "addr": "대구광역시 군위군 의흥면 금양3길 16-3"
+      },
+      {
+        "name": "화산산성",
+        "dist": 3311,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/3537580_image2_1.jpg",
+        "addr": "대구광역시 군위군 삼국유사면 화북리"
+      },
+      {
+        "name": "군위 화산산성 전망대",
+        "dist": 3323,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3496779_image2_1.jpg",
+        "addr": "대구광역시 군위군 삼국유사면 화북리"
+      }
+    ],
+    "nearbyFood": []
   },
   {
     "contentid": "s19r73d5",
@@ -25539,6 +26536,28 @@
         "addr": "경상남도 창녕군 창녕읍 계성화왕산로 575"
       }
     ],
+    "source": "std"
+  },
+  {
+    "contentid": "s1sd99d5",
+    "name": "2026경남고성공룡세계엑스포",
+    "startDate": "20260923",
+    "endDate": "20261101",
+    "address": "경상남도 고성군 회화면 당항만로 1116",
+    "lat": "",
+    "lng": "",
+    "image": "",
+    "overview": "전시+판매+공연",
+    "tel": "",
+    "homepage": "",
+    "eventplace": "당항포관광지",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "고성문화관광재단",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [],
+    "nearbyFood": [],
     "source": "std"
   },
   {
@@ -26430,90 +27449,6 @@
     "source": "std"
   },
   {
-    "contentid": "s1pzkm06",
-    "name": "2026 고양호수예술축제",
-    "startDate": "20260918",
-    "endDate": "20260920",
-    "address": "경기도 고양시 일산동구 호수로 595",
-    "lat": "37.65384593",
-    "lng": "126.7687814",
-    "image": "",
-    "overview": "국내외 거리예술공연 및 시민참여프로그램",
-    "tel": "031-960-9685",
-    "homepage": "http://www.gylaf.kr",
-    "eventplace": "일산호수공원+일산문화광장",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "경기도 고양시청",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "와글아이",
-        "dist": 621,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2782983_image2_1.jpg",
-        "addr": "경기도 고양시 일산동구 중앙로 1205"
-      },
-      {
-        "name": "고양관광특구",
-        "dist": 722,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3465765_image2_1.JPG",
-        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
-      },
-      {
-        "name": "고양관광정보센터",
-        "dist": 722,
-        "image": "",
-        "addr": "경기도 고양시 일산동구 중앙로 1271-1 (장항동)"
-      },
-      {
-        "name": "정혜사",
-        "dist": 2286,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3392157_image2_1.JPG",
-        "addr": "경기도 고양시 일산동구 일산로 134"
-      },
-      {
-        "name": "장항습지",
-        "dist": 2544,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3527672_image2_1.jpg",
-        "addr": "경기도 고양시 일산동구 장항동"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "아시아아시아",
-        "dist": 397,
-        "image": "",
-        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
-      },
-      {
-        "name": "만돈",
-        "dist": 397,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/35/2831035_image2_1.jpg",
-        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
-      },
-      {
-        "name": "프랭크커핀바_일산점",
-        "dist": 397,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3449825_image2_1.JPG",
-        "addr": "경기도 고양시 일산동구 정발산로 24 (장항동)"
-      },
-      {
-        "name": "강릉집",
-        "dist": 422,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2891381_image2_1.jpg",
-        "addr": "경기도 고양시 일산동구 중앙로1261번길 61 (장항동)"
-      },
-      {
-        "name": "어랑생선구이",
-        "dist": 459,
-        "image": "",
-        "addr": "경기도 고양시 일산동구 정발산로 31-9 (장항동)"
-      }
-    ],
-    "source": "std"
-  },
-  {
     "contentid": "s14bez4f",
     "name": "구름산예술제",
     "startDate": "20260919",
@@ -26677,90 +27612,6 @@
         "dist": 1674,
         "image": "http://tong.visitkorea.or.kr/cms/resource/97/2846897_image2_1.JPG",
         "addr": "경기도 광명시 일직로12번길 21 (일직동)"
-      }
-    ],
-    "source": "std"
-  },
-  {
-    "contentid": "smzm175",
-    "name": "2026 페스티벌 광명",
-    "startDate": "20261003",
-    "endDate": "20261004",
-    "address": "경기도 광명시 철산로 13",
-    "lat": "37.47660787",
-    "lng": "126.869046",
-    "image": "",
-    "overview": "GM 라이브(대중음악공연)+광명음악명예의전당어워즈+사회연대경제존+푸드존 등",
-    "tel": "02-2680-2064",
-    "homepage": "https://festivalgm.or.kr/2025/",
-    "eventplace": "철산역 8차선도로",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "경기도 광명시청",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "도덕산공원",
-        "dist": 1256,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3527200_image2_1.jpg",
-        "addr": "경기도 광명시 광명동"
-      },
-      {
-        "name": "구로공단 노동자생활체험관",
-        "dist": 1472,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/88/3400288_image2_1.JPG",
-        "addr": "서울특별시 금천구 벚꽃로44길 17 (가산동)"
-      },
-      {
-        "name": "개봉유수지 생태공원",
-        "dist": 1834,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/55/3558655_image2_1.jpg",
-        "addr": "서울특별시 구로구 개봉동"
-      },
-      {
-        "name": "안터생태공원",
-        "dist": 1913,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3527179_image2_1.jpg",
-        "addr": "경기도 광명시 안재로1번길 27 (하안동)"
-      },
-      {
-        "name": "독산 근린공원",
-        "dist": 2043,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3467759_image2_1.jpg",
-        "addr": "서울특별시 금천구 범안로 1096 (독산동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "한본삼계탕",
-        "dist": 242,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/55/2830255_image2_1.jpeg",
-        "addr": "경기도 광명시 오리로854번길 16-15 (철산동)"
-      },
-      {
-        "name": "정인면옥평양냉면",
-        "dist": 1307,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/61/2830161_image2_1.jpeg",
-        "addr": "경기도 광명시 목감로268번길 27-1 (광명동)"
-      },
-      {
-        "name": "가산물갈비&백년불고기",
-        "dist": 1311,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2836560_image2_1.jpg",
-        "addr": "서울특별시 금천구 가산디지털1로 128 에스티엑스브이타워"
-      },
-      {
-        "name": "가마솥밥상 철산본점",
-        "dist": 1318,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/34/2774734_image2_1.jpeg",
-        "addr": "경기도 광명시 안양천로 459 (철산동)"
-      },
-      {
-        "name": "선릉매운트럭떡볶이",
-        "dist": 1655,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/01/2772401_image2_1.JPG",
-        "addr": "경기도 광명시 광명로 823 (광명동)"
       }
     ],
     "source": "std"
@@ -28853,6 +29704,90 @@
         "dist": 1729,
         "image": "http://tong.visitkorea.or.kr/cms/resource/82/2616082_image2_1.jpg",
         "addr": "경기도 평택시 조개터로1번길 71 (합정동)"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "smlqjfs",
+    "name": "평택호 물빛축제",
+    "startDate": "20260912",
+    "endDate": "20260912",
+    "address": "경기도 평택시 현덕면 평택호길 147",
+    "lat": "36.921209",
+    "lng": "126.920858",
+    "image": "",
+    "overview": "공연+상설공연+체험+먹거리",
+    "tel": "070-8874-1013",
+    "homepage": "https://www.pccf.or.kr/",
+    "eventplace": "평택호 관광단지 일원(한국소리터+모래톱공원)",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "경기도 평택시청",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "평택호관광단지",
+        "dist": 127,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3514170_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 평택호길 159"
+      },
+      {
+        "name": "평택호예술공원",
+        "dist": 252,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3096782_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 권관리"
+      },
+      {
+        "name": "아산만방조제",
+        "dist": 2983,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/14/3048814_image2_1.JPG",
+        "addr": "충청남도 아산시 인주면 공세리"
+      },
+      {
+        "name": "아산 공세리성당",
+        "dist": 4256,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3558572_image2_1.jpg",
+        "addr": "충청남도 아산시 인주면 공세리성당길 10"
+      },
+      {
+        "name": "냉정저수지",
+        "dist": 6331,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3567641_image2_1.jpg",
+        "addr": "충청남도 아산시 인주면 서해로548번길 158"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "액션커피앤브런치",
+        "dist": 789,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3444719_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 서해로 255"
+      },
+      {
+        "name": "웨스트157(west157)",
+        "dist": 1366,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2855043_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 서동대로 157"
+      },
+      {
+        "name": "밥보다국시",
+        "dist": 2814,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2864783_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 서해로 506"
+      },
+      {
+        "name": "도대리카페",
+        "dist": 4048,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/2855717_image2_1.jpg",
+        "addr": "경기도 평택시 현덕면 현덕서로 110"
+      },
+      {
+        "name": "이화식당",
+        "dist": 6490,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/2858409_image2_1.jpg",
+        "addr": "충청남도 아산시 신현로23번길 62"
       }
     ],
     "source": "std"
@@ -32433,90 +33368,6 @@
     "source": "std"
   },
   {
-    "contentid": "s1am00f3",
-    "name": "제14회 연수 능허대 문화축제",
-    "startDate": "20261009",
-    "endDate": "20261010",
-    "address": "인천광역시 연수구 선학동 231-3",
-    "lat": "37.42663245",
-    "lng": "126.7039902",
-    "image": "",
-    "overview": "능허대 소재 체험프로그램+문화공연",
-    "tel": "032-749-7330",
-    "homepage": "https://www.yeonsu.go.kr/tour/festival/neungheodae_festival/info.asp",
-    "eventplace": "연수한마음공원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "인천광역시 연수구청",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "장미공원",
-        "dist": 2326,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/87/3524787_image2_1.jpg",
-        "addr": "인천광역시 연수구 연수동"
-      },
-      {
-        "name": "인천도호부관아",
-        "dist": 2393,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3079385_image2_1.jpg",
-        "addr": "인천광역시 미추홀구 매소홀로 553"
-      },
-      {
-        "name": "인천애뜰",
-        "dist": 3164,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3457642_image2_1.JPG",
-        "addr": "인천광역시 남동구 정각로 29 (구월동)"
-      },
-      {
-        "name": "흥륜사(인천)",
-        "dist": 4129,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3043938_image2_1.jpg",
-        "addr": "인천광역시 연수구 청량로70번길 40-18 (동춘동)"
-      },
-      {
-        "name": "인천업사이클에코센터",
-        "dist": 4701,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/77/3431877_image2_1.jpg",
-        "addr": "인천광역시 미추홀구 매소홀로290번길 7 (학익동, 인천 업사이클 에코센터)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "꽃게담다 by 블루베리팜",
-        "dist": 1918,
-        "image": "",
-        "addr": "인천광역시 남동구 찬우물로 21 (수산동)"
-      },
-      {
-        "name": "라온",
-        "dist": 2047,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/2861953_image2_1.jpg",
-        "addr": "인천광역시 남동구 성말로32번길 6-1"
-      },
-      {
-        "name": "유노미",
-        "dist": 2079,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2828910_image2_1.jpg",
-        "addr": "인천광역시 남동구 성말로 43 (구월동)"
-      },
-      {
-        "name": "남동공단떡볶이",
-        "dist": 2092,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/31/2837031_image2_1.jpg",
-        "addr": "인천광역시 남동구 남동서로 226 (논현동)"
-      },
-      {
-        "name": "가마솥손두부",
-        "dist": 2192,
-        "image": "",
-        "addr": "인천광역시 미추홀구 소성로326번길 4 (문학동)"
-      }
-    ],
-    "source": "std"
-  },
-  {
     "contentid": "sh961vb",
     "name": "크리스마스 문화축제",
     "startDate": "20261127",
@@ -33645,90 +34496,6 @@
         "dist": 2356,
         "image": "",
         "addr": "강원특별자치도 원주시 양지로 20"
-      }
-    ],
-    "source": "std"
-  },
-  {
-    "contentid": "s12kip85",
-    "name": "제22회 제천국제음악영화제",
-    "startDate": "20260903",
-    "endDate": "20260908",
-    "address": "충청북도 제천시 의병대로12길 14-1",
-    "lat": "37.136923",
-    "lng": "128.2065521",
-    "image": "",
-    "overview": "음악영화제",
-    "tel": "043-646-2242",
-    "homepage": "http://www.jimff.org",
-    "eventplace": "예술의전당 일원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "제천국제음악영화제집행위원회",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "연업초살롱",
-        "dist": 9,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/44/3457744_image2_1.jpg",
-        "addr": "충청북도 제천시 의병대로12길 14-1 (명동)"
-      },
-      {
-        "name": "제천 엽연초생산조합 구사옥",
-        "dist": 62,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3568670_image2_1.jpg",
-        "addr": "충청북도 제천시 의병대로12길 8"
-      },
-      {
-        "name": "제천 한산사 석조여래입상",
-        "dist": 665,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/43/3568643_image2_1.jpg",
-        "addr": "충청북도 제천시 용두천로8길 27"
-      },
-      {
-        "name": "복천사(제천)",
-        "dist": 1011,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/2021573_image2_1.jpg",
-        "addr": "충청북도 제천시 독순로21길 14"
-      },
-      {
-        "name": "제천향교",
-        "dist": 1171,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3521956_image2_1.jpg",
-        "addr": "충청북도 제천시 칠성로 117"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "고원갈비",
-        "dist": 200,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3587938_image2_1.jpg",
-        "addr": "충청북도 제천시 의병대로15길 5"
-      },
-      {
-        "name": "덩실분식",
-        "dist": 310,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3587020_image2_1.jpg",
-        "addr": "충청북도 제천시  독순로6길 (5)"
-      },
-      {
-        "name": "수가성식당",
-        "dist": 317,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/24/2850524_image2_1.jpg",
-        "addr": "충청북도 제천시 내제로 76 (서부동)"
-      },
-      {
-        "name": "수제돈가스",
-        "dist": 447,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2856046_image2_1.jpg",
-        "addr": "충청북도 제천시 남산로5길 13"
-      },
-      {
-        "name": "청진동해장국",
-        "dist": 605,
-        "image": "",
-        "addr": "충청북도 제천시 내제로 21"
       }
     ],
     "source": "std"

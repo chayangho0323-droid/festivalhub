@@ -1996,105 +1996,6 @@
     ]
   },
   {
-    "contentid": "2728613",
-    "name": "귀몽 제주신화월드",
-    "startDate": "20260724",
-    "endDate": "20260817",
-    "address": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 98",
-    "lat": "33.3049276506",
-    "lng": "126.3151497973",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/60/4081660_image2_1.png",
-    "overview": "귀몽은 제주신화월드 테마파크에서 운영되는 야외 공포 체험 콘텐르로, 주요 프로그램은 공포체험, 비보이와 귀몽컬 공연, 야간 놀이시설 체험으로 그성된다. 공포체험은 실제 자연지형을 배경으로 하며, 참가자는 어둠 속을 따라 이동하며 다양한 공포 연출과 마주하게 된다. 귀몽 지킴이 비보이 공연과 공포 귀몽컬 공연으로, 자연의 어둠과 사운드, 시각효과를 활용해 긴장감을 높인다. 테마파크 내 오스카 스핀, 회전목마, 플레이 그라운드를 귀몽 버전으로 동시에 체험할 수 있다. 부대공간인 귀몽마켓에서는 귀몽펍, 귀몽분장샵, 귀몽푸드 등의 휴식 및 F&B프로그램이 운영되며, 포토존과 버스킹이 함께 진행된다.",
-    "tel": "1670-1188",
-    "homepage": "https://www.instagram.com/jeju_ghost/",
-    "eventplace": "제주신화월드 신화테마파크",
-    "playtime": "- 20:00~23:00- 발권 19:00",
-    "usefee": "30,000원",
-    "sponsor": "놀담빌레",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/24/4084424_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/25/4084425_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/26/4084426_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/27/4084427_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/28/4084428_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/29/4084429_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "귀몽은 제주신화월드 테마파크에서 운영되는 야외 공포 체험 콘텐르로, 주요 프로그램은 공포체험, 비보이와 귀몽컬 공연, 야간 놀이시설 체험으로 그성된다. 공포체험은 실제 자연지형을 배경으로 하며, 참가자는 어둠 속을 따라 이동하며 다양한 공포 연출과 마주하게 된다. 귀몽 지킴이 비보이 공연과 공포 귀몽컬 공연으로, 자연의 어둠과 사운드, 시각효과를 활용해 긴장감을 높인다. 테마파크 내 오스카 스핀, 회전목마, 플레이 그라운드를 귀몽 버전으로 동시에 체험할 수 있다. 부대공간인 귀몽마켓에서는 귀몽펍, 귀몽분장샵, 귀몽푸드 등의 휴식 및 F&B프로그램이 운영되며, 포토존과 버스킹이 함께 진행된다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 비보이 및 귀몽컬 공연 / 미디어 아트 전시 / 야간 놀이시설 체험 / 공포 체험\n- 부대 행사 및 프로그램 : 귀몽마켓 (귀몽분장샵 / 귀몽푸드 / 포토존 / 버스킹 등)"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "신화테마파크",
-        "dist": 694,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3550541_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 98"
-      },
-      {
-        "name": "이상한나라의 앨리스",
-        "dist": 1868,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/22/3024622_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 중산간서로 1881"
-      },
-      {
-        "name": "동광리농촌체험마을",
-        "dist": 2223,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3024315_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 동광로 126"
-      },
-      {
-        "name": "서광차밭",
-        "dist": 2294,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3024741_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 신화역사로 15"
-      },
-      {
-        "name": "도너리오름",
-        "dist": 2634,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3477170_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 한창로 775"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "제주그림카페",
-        "dist": 1554,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2847746_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 녹차분재로 218"
-      },
-      {
-        "name": "제주순메밀막국수",
-        "dist": 1915,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2785304_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 녹차분재로 60"
-      },
-      {
-        "name": "커피프렌즈촬영지",
-        "dist": 1936,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/2737542_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 중산간서로 2026"
-      },
-      {
-        "name": "무로이",
-        "dist": 1951,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2830196_image2_1.JPG",
-        "addr": "제주특별자치도 서귀포시 동광본동로 21"
-      },
-      {
-        "name": "양가네 신화월드 본점",
-        "dist": 2122,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/2840900_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 안덕면 동광로 112"
-      }
-    ]
-  },
-  {
     "contentid": "1684261",
     "name": "둔내고랭지토마토축제",
     "startDate": "20260814",
@@ -6765,6 +6666,277 @@
         "dist": 8315,
         "image": "http://tong.visitkorea.or.kr/cms/resource/16/2792416_image2_1.jpg",
         "addr": "경기도 화성시 서신면 해안길 330-1"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "4095402",
+    "name": "2026 서가콘서트 : 셜록홈즈",
+    "startDate": "20260908",
+    "endDate": "20260908",
+    "address": "경기도 수원시 팔달구 효원로307번길 20 (인계동)",
+    "lat": "37.2615833280",
+    "lng": "127.0375696865",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/58/4095458_image2_1.jpg",
+    "overview": "책과 클래식 음악이 만나는 경기아트센터의 대표 실내악 시리즈 〈서가콘서트〉는 문학을 음악으로 읽고, 클래식을 이야기로 듣는 새로운 공연 콘텐츠이다. 2026년에는 세계적인 추리소설의 고전 『셜록홈즈』를 주제로 무대를 꾸민다.\n\n역사추리소설 작가 정명섭이 진행을 맡아 아서 코난 도일과 『셜록홈즈』의 탄생 배경, 작품에 얽힌 흥미로운 비하인드 스토리와 시대적 배경을 쉽고 재미있게 들려준다. 여기에 작품의 분위기와 장면을 표현하는 실내악 연주가 더해져 한 편의 추리소설을 읽는 듯한 몰입감을 선사한다. 공연은 셜록홈즈의 날카로운 추리와 빅토리아 시대 런던의 분위기를 클래식 음악으로 재해석하며, 문학과 음악이 서로의 감동을 확장하는 특별한 경험을 제공한다.\n책을 읽지 않았더라도 공연만으로 작품을 이해하고 즐길 수 있으며, 이미 소설을 접한 관객에게는 새로운 시각으로 명작을 만나는 기회를 선사한다. 추리소설 애호가는 물론 클래식 입문자와 가족 관객까지 누구나 부담 없이 즐길 수 있는 공연이다.\n\n90분 동안 펼쳐지는 2026 서가콘서트 : 셜록홈즈는 문학과 클래식이 만나 만들어내는 색다른 공연 경험을 통해 고전의 매력을 새롭게 발견하게 하는 무대이다. 공연장을 찾는 순간, 관객은 셜록홈즈와 함께 사건을 추리하고 음악으로 시대를 여행하는 특별한 시간을 만나게 된다.",
+    "tel": "031-230-3268",
+    "homepage": "https://www.ggac.or.kr/",
+    "eventplace": "경기아트센터 소극장",
+    "playtime": "19:30~21:00",
+    "usefee": "- R석 35,000원- S석 25,000원※ 기타 할인권종은 공식 홈페이지 참조",
+    "sponsor": "(재)경기아트센터",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "책과 클래식 음악이 만나는 경기아트센터의 대표 실내악 시리즈 〈서가콘서트〉는 문학을 음악으로 읽고, 클래식을 이야기로 듣는 새로운 공연 콘텐츠이다. 2026년에는 세계적인 추리소설의 고전 『셜록홈즈』를 주제로 무대를 꾸민다.\n\n역사추리소설 작가 정명섭이 진행을 맡아 아서 코난 도일과 『셜록홈즈』의 탄생 배경, 작품에 얽힌 흥미로운 비하인드 스토리와 시대적 배경을 쉽고 재미있게 들려준다. 여기에 작품의 분위기와 장면을 표현하는 실내악 연주가 더해져 한 편의 추리소설을 읽는 듯한 몰입감을 선사한다. 공연은 셜록홈즈의 날카로운 추리와 빅토리아 시대 런던의 분위기를 클래식 음악으로 재해석하며, 문학과 음악이 서로의 감동을 확장하는 특별한 경험을 제공한다.\n책을 읽지 않았더라도 공연만으로 작품을 이해하고 즐길 수 있으며, 이미 소설을 접한 관객에게는 새로운 시각으로 명작을 만나는 기회를 선사한다. 추리소설 애호가는 물론 클래식 입문자와 가족 관객까지 누구나 부담 없이 즐길 수 있는 공연이다.\n\n90분 동안 펼쳐지는 2026 서가콘서트 : 셜록홈즈는 문학과 클래식이 만나 만들어내는 색다른 공연 경험을 통해 고전의 매력을 새롭게 발견하게 하는 무대이다. 공연장을 찾는 순간, 관객은 셜록홈즈와 함께 사건을 추리하고 음악으로 시대를 여행하는 특별한 시간을 만나게 된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 실내악 콘서트 (소설가의 큐레이팅과 실내악 콘서트가 결합된 북클래식 공연)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "효원공원",
+        "dist": 330,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3400919_image2_1.JPG",
+        "addr": "경기도 수원시 팔달구 동수원로 397 (인계동)"
+      },
+      {
+        "name": "인계예술공원",
+        "dist": 358,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3400879_image2_1.JPG",
+        "addr": "경기도 수원시 팔달구 동수원로 335"
+      },
+      {
+        "name": "나혜석거리",
+        "dist": 388,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/99/3400899_image2_1.JPG",
+        "addr": "경기도 수원시 팔달구 권광로188번길 25-2 (인계동)"
+      },
+      {
+        "name": "매탄공원",
+        "dist": 953,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3539179_image2_1.jpg",
+        "addr": "경기도 수원시 영통구 매탄로 185 (매탄동)"
+      },
+      {
+        "name": "방죽공원",
+        "dist": 2241,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3539157_image2_1.jpg",
+        "addr": "경기도 수원시 영통구 덕영대로1484번길 10-25 (망포동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "955카페",
+        "dist": 237,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/2892863_image2_1.jpg",
+        "addr": "경기도 수원시 팔달구 효원로307번길 51"
+      },
+      {
+        "name": "미나미참치",
+        "dist": 271,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2867383_image2_1.jpg",
+        "addr": "경기도 수원시 팔달구 효원로307번길 61 장성빌딩"
+      },
+      {
+        "name": "카페 도안",
+        "dist": 271,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/2906121_image2_1.jpg",
+        "addr": "경기도 수원시 팔달구 효원로307번길 61 (인계동)"
+      },
+      {
+        "name": "영천식당",
+        "dist": 350,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2867890_image2_1.jpg",
+        "addr": "경기도 수원시 팔달구 효원로291번길 35 (인계동)"
+      },
+      {
+        "name": "마초",
+        "dist": 351,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/2746006_image2_1.jpg",
+        "addr": "경기도 수원시 팔달구 권광로196번길 51 (인계동)"
+      }
+    ]
+  },
+  {
+    "contentid": "4075091",
+    "name": "2026 전국 장애학생 e페스티벌",
+    "startDate": "20260908",
+    "endDate": "20260909",
+    "address": "강원특별자치도 홍천군 서면 한치골길 262",
+    "lat": "37.6521031527",
+    "lng": "127.6871063500",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/88/4075188_image2_1.jpg",
+    "overview": "2026 전국 장애학생 e페스티벌은 국립특수교육원, 한국콘텐츠진흥원, 넷마블문화재단이 공동 주최하는 전국 단위의 장애학생 대상 행사이다. 2026년 행사는 'AI로 여는 세상e, 무한한 가능성e'를 주제로 개최되며, 전국 17개 시·도에서 선발된 장애학생과 지도교사, 관계자 등이 참가한다. 행사는 e스포츠대회와 정보경진대회를 중심으로 운영되며, 인공지능(AI) 및 디지털 기술 체험 프로그램, 문화공연, 전시 및 체험부스, 교류 프로그램 등 다양한 콘텐츠로 구성된다. 참가 학생들은 5월 27일부터 진행되는 지역예선대회를 거쳐 본·결선 대회에 참가하며, e스포츠와 정보경진 분야에서 기량을 발휘하고 다양한 디지털 기술과 문화 콘텐츠를 체험하게 된다. 또한 행사 기간 동안 참가 학생 간 교류와 소통을 위한 프로그램이 함께 운영되며, 장애학생의 디지털 활용 역량 향상과 정보 문화 참여 기회 확대를 지원하는 교육·문화 행사이다.",
+    "tel": "010-2751-1082",
+    "homepage": "http://www.2026전국장애학생e페스티벌.com/",
+    "eventplace": "소노캄 비발디파크",
+    "playtime": "- 화요일 14:00~21:00- 수요일 09:00~13:00",
+    "usefee": "무료",
+    "sponsor": "한국콘텐츠진흥원, 국립특수교육원, 넷마블문화재단",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/89/4075189_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/90/4075190_image2_1.JPG"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 전국 장애학생 e페스티벌은 국립특수교육원, 한국콘텐츠진흥원, 넷마블문화재단이 공동 주최하는 전국 단위의 장애학생 대상 행사이다. 2026년 행사는 'AI로 여는 세상e, 무한한 가능성e'를 주제로 개최되며, 전국 17개 시·도에서 선발된 장애학생과 지도교사, 관계자 등이 참가한다. 행사는 e스포츠대회와 정보경진대회를 중심으로 운영되며, 인공지능(AI) 및 디지털 기술 체험 프로그램, 문화공연, 전시 및 체험부스, 교류 프로그램 등 다양한 콘텐츠로 구성된다. 참가 학생들은 5월 27일부터 진행되는 지역예선대회를 거쳐 본·결선 대회에 참가하며, e스포츠와 정보경진 분야에서 기량을 발휘하고 다양한 디지털 기술과 문화 콘텐츠를 체험하게 된다. 또한 행사 기간 동안 참가 학생 간 교류와 소통을 위한 프로그램이 함께 운영되며, 장애학생의 디지털 활용 역량 향상과 정보 문화 참여 기회 확대를 지원하는 교육·문화 행사이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 개회식 / e스포츠대회 / 정보경진대회 / 문화행사 \"드림 e스테이지\"(비보잉댄스 / 마술쇼 / 현장 레크레이션 / K-pop 공연) / 시상식 / 폐회식\n- 부대 행사 및 프로그램 : 체험 프로그램(AI 캐리커처 드로잉로봇 / AI 오목 로봇 배틀 / AI 자율주행 휠체어 체험 / AI 역량평가 체험 / AI 자작곡 만들기 / 에듀테크 체험존 / 로봇축구 체험 / 에코스테이지 버스킹 / 상상체험 버스·트럭 등 실내·외 체험 프로그램)\n이벤트 (AI 포토존 체험 / 솜사탕 체험 / 키링 만들기 체험 / 미션 e파서블 모바일 스탬프로드 / 승부예측 e챌린지 / 경품 이벤트 등)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "팔봉참살이마을",
+        "dist": 3602,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3384630_image2_1.JPG",
+        "addr": "강원특별자치도 홍천군 서면 오도치길 6"
+      },
+      {
+        "name": "홍천강",
+        "dist": 4665,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3584663_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 팔봉강변길"
+      },
+      {
+        "name": "팔봉산관광지",
+        "dist": 5700,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3422445_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 한치골길 1124"
+      },
+      {
+        "name": "팔봉산(홍천)",
+        "dist": 5703,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3042918_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 한치골길 1124"
+      },
+      {
+        "name": "복주머니마을",
+        "dist": 6944,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3384582_image2_1.JPG",
+        "addr": "강원특별자치도 홍천군 서면 개야마을길 73"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "홍천메밀가",
+        "dist": 3025,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2837985_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 한치골길 759"
+      },
+      {
+        "name": "금수강산막국수",
+        "dist": 3296,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2837941_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 한치골길 785"
+      },
+      {
+        "name": "들꽃가든",
+        "dist": 3737,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2892308_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 서면 한서로 2045"
+      },
+      {
+        "name": "홍천조박사화로구이",
+        "dist": 3934,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/2892465_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 한서로 2080"
+      },
+      {
+        "name": "홍천강한우타운",
+        "dist": 4404,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/07/2891707_image2_1.jpg",
+        "addr": "강원특별자치도 홍천군 한치골길 912"
+      }
+    ]
+  },
+  {
+    "contentid": "s12kip85",
+    "name": "제22회 제천국제음악영화제",
+    "startDate": "20260903",
+    "endDate": "20260908",
+    "address": "충청북도 제천시 의병대로12길 14-1",
+    "lat": "37.136923",
+    "lng": "128.2065521",
+    "image": "",
+    "overview": "음악영화제",
+    "tel": "043-646-2242",
+    "homepage": "http://www.jimff.org",
+    "eventplace": "예술의전당 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "제천국제음악영화제집행위원회",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "연업초살롱",
+        "dist": 9,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/44/3457744_image2_1.jpg",
+        "addr": "충청북도 제천시 의병대로12길 14-1 (명동)"
+      },
+      {
+        "name": "제천 엽연초생산조합 구사옥",
+        "dist": 62,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3568670_image2_1.jpg",
+        "addr": "충청북도 제천시 의병대로12길 8"
+      },
+      {
+        "name": "제천 한산사 석조여래입상",
+        "dist": 665,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/3568643_image2_1.jpg",
+        "addr": "충청북도 제천시 용두천로8길 27"
+      },
+      {
+        "name": "복천사(제천)",
+        "dist": 1011,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/73/2021573_image2_1.jpg",
+        "addr": "충청북도 제천시 독순로21길 14"
+      },
+      {
+        "name": "제천향교",
+        "dist": 1171,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3521956_image2_1.jpg",
+        "addr": "충청북도 제천시 칠성로 117"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "고원갈비",
+        "dist": 200,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3587938_image2_1.jpg",
+        "addr": "충청북도 제천시 의병대로15길 5"
+      },
+      {
+        "name": "덩실분식",
+        "dist": 310,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3587020_image2_1.jpg",
+        "addr": "충청북도 제천시  독순로6길 (5)"
+      },
+      {
+        "name": "수가성식당",
+        "dist": 317,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/24/2850524_image2_1.jpg",
+        "addr": "충청북도 제천시 내제로 76 (서부동)"
+      },
+      {
+        "name": "수제돈가스",
+        "dist": 447,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2856046_image2_1.jpg",
+        "addr": "충청북도 제천시 남산로5길 13"
+      },
+      {
+        "name": "청진동해장국",
+        "dist": 605,
+        "image": "",
+        "addr": "충청북도 제천시 내제로 21"
       }
     ],
     "source": "std"
