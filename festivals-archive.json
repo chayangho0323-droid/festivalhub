@@ -5873,98 +5873,6 @@
     ]
   },
   {
-    "contentid": "3542294",
-    "name": "진주의 수호자들",
-    "startDate": "20260814",
-    "endDate": "20260906",
-    "address": "경상남도 진주시 강남로 287 (강남동)",
-    "lat": "35.1879338891",
-    "lng": "128.0858237357",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/79/4096279_image2_1.jpg",
-    "overview": "진주의 수호자들은 진주성과 역사대첩문화공원 일원을 배경으로 한 미션투어 콘텐츠이다. 참가자는 별도의 앱 설치 없이 웹기반 플랫폼에 접속하며, 진주성 및 역사대첩문화공원 내 지정된 장소를 이동하며 미션을 수행한다. 행사 콘텐츠는 총 3편의 시리즈로 구성되어 있다. 1편은 진주성의 역사적 사건을 바탕으로 한 서사 중심 미션이며, 2편은 세명의 등장인물을 중심으로 전개되는 추리 형식의 미션이다. 3편은 판타지 콘셉트로 설계되어 있으며, 국문 영문판을 운영할 예정이다. 단서를 모아 최종 문장을 완성하는 방식으로 진행된다. 행사는 국가유산미디어아트 진주성 및 국가유산 문화재 야행기간과 연계해 야간에 진행되며, 진주성 내 조명과 유등이 밝혀진 야경을 배경으로 체험할 수 있다. 참가는 진주성 공북문 안 잔디광장에서 시작되며 참가자는 미션 완료 시 기념품을 수령할 수 있다.",
-    "tel": "0507-1393-7113",
-    "homepage": "",
-    "eventplace": "진주성",
-    "playtime": "19:00~22:30",
-    "usefee": "무료",
-    "sponsor": "진주시, 한국관광공사",
-    "images": [],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "진주의 수호자들은 진주성과 역사대첩문화공원 일원을 배경으로 한 미션투어 콘텐츠이다. 참가자는 별도의 앱 설치 없이 웹기반 플랫폼에 접속하며, 진주성 및 역사대첩문화공원 내 지정된 장소를 이동하며 미션을 수행한다. 행사 콘텐츠는 총 3편의 시리즈로 구성되어 있다. 1편은 진주성의 역사적 사건을 바탕으로 한 서사 중심 미션이며, 2편은 세명의 등장인물을 중심으로 전개되는 추리 형식의 미션이다. 3편은 판타지 콘셉트로 설계되어 있으며, 국문 영문판을 운영할 예정이다. 단서를 모아 최종 문장을 완성하는 방식으로 진행된다. 행사는 국가유산미디어아트 진주성 및 국가유산 문화재 야행기간과 연계해 야간에 진행되며, 진주성 내 조명과 유등이 밝혀진 야경을 배경으로 체험할 수 있다. 참가는 진주성 공북문 안 잔디광장에서 시작되며 참가자는 미션 완료 시 기념품을 수령할 수 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 야외 미션 투어\n- 부대 행사 및 프로그램 : 1편 - 유등 빛을 지켜라(역사 서사 미션) / 2편 - 사라진 공신록의 비밀(추리 미션) / 3편 - 잊혀진 수호문을 찾아라(판타지 협동 미션, 국문·영문판 운영) / 진주성 내 미션 투어 / 진주성 야간 경관 조명 및 미디어 아트 축제 연꼐 관람 / 기념품 수여 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "촉석루",
-        "dist": 388,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/29/3349329_image2_1.jpg",
-        "addr": "경상남도 진주시 남강로 626"
-      },
-      {
-        "name": "폴링 인 진주",
-        "dist": 527,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3409530_image2_1.jpg",
-        "addr": "경상남도 진주시 망경남길44번길 22 (망경동)"
-      },
-      {
-        "name": "청계서원(진주)",
-        "dist": 585,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3040383_image2_1.jpg",
-        "addr": "경상남도 진주시 남강로 626 (본성동)"
-      },
-      {
-        "name": "창렬사",
-        "dist": 871,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/04/3040904_image2_1.jpg",
-        "addr": "경상남도 진주시 남강로 626"
-      },
-      {
-        "name": "호국사(진주)",
-        "dist": 885,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3348330_image2_1.jpg",
-        "addr": "경상남도 진주시 남강로 626-71"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "카페 뮈렌",
-        "dist": 212,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/51/2843651_image2_1.JPG",
-        "addr": "경상남도 진주시 망경로297번길 8"
-      },
-      {
-        "name": "북경장",
-        "dist": 404,
-        "image": "",
-        "addr": "경상남도 진주시 남강로 661"
-      },
-      {
-        "name": "[백년가게]중앙집",
-        "dist": 423,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/92/2609192_image2_1.jpg",
-        "addr": "경상남도 진주시 남강로673번길 6"
-      },
-      {
-        "name": "안의갈비탕",
-        "dist": 497,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/68/2843668_image2_1.JPG",
-        "addr": "경상남도 진주시 비봉로 6-2"
-      },
-      {
-        "name": "[백년가게]하동집",
-        "dist": 686,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/2629978_image2_1.JPG",
-        "addr": "경상남도 진주시 진양호로 553"
-      }
-    ]
-  },
-  {
     "contentid": "3383832",
     "name": "케미스트릿 강남역 페스티벌",
     "startDate": "20260905",
@@ -6940,5 +6848,99 @@
       }
     ],
     "source": "std"
+  },
+  {
+    "contentid": "4093222",
+    "name": "2026 구미 로컬푸드 페스타",
+    "startDate": "20260909",
+    "endDate": "20260910",
+    "address": "서울특별시 중구 을지로 지하12 (을지로1가)",
+    "lat": "37.5655671650",
+    "lng": "126.9783328596",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/05/4097305_image2_1.jpg",
+    "overview": "2026 구미 로컬푸드 페스탄즌 구미에서 생산하는 농·축산물, G푸드의 우수성을 홍보하고 농가의 판로개척과 소득창출에 기여하며, 서울 도심 속에 구미의 로컬푸드 및 시정을 홍보하고자 추진하는 행사이다. 판매부스 뿐만 아니라 구미시 홍보관, 농식품 수출상담회, 체험행사 등 방문객들이 즐길 수 있는 다양한 프로그램이 마련되며 구니 농특산물 경매 프로그램도 참여할 수 있다.",
+    "tel": "054-480-6762",
+    "homepage": "https://gmmall.cyso.co.kr/",
+    "eventplace": "서울광장",
+    "playtime": "10:00~20:00",
+    "usefee": "무료",
+    "sponsor": "구미시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/31/4093831_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 구미 로컬푸드 페스탄즌 구미에서 생산하는 농·축산물, G푸드의 우수성을 홍보하고 농가의 판로개척과 소득창출에 기여하며, 서울 도심 속에 구미의 로컬푸드 및 시정을 홍보하고자 추진하는 행사이다. 판매부스 뿐만 아니라 구미시 홍보관, 농식품 수출상담회, 체험행사 등 방문객들이 즐길 수 있는 다양한 프로그램이 마련되며 구니 농특산물 경매 프로그램도 참여할 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 농축산물·G푸드 판매부스 / 구미시 홍보관 / 농식품 수출상담회 / 귀농귀촌 홍보관 / 밀가리 특별 홍보관 등\n- 부대 행사 및 프로그램 : 구미농특산물 깜짝 경매 / 영수증 이벤트 / 체험행사 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "덕수궁 대한문",
+        "dist": 163,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3384991_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 99 (정동)"
+      },
+      {
+        "name": "경성 부민관 폭탄 의거지",
+        "dist": 260,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3077530_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 125 (태평로1가)"
+      },
+      {
+        "name": "대한성공회 서울주교좌성당",
+        "dist": 290,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568354_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로21길 15 (정동)"
+      },
+      {
+        "name": "덕수궁 돌담길",
+        "dist": 311,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2658350_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 지하 101"
+      },
+      {
+        "name": "청계광장",
+        "dist": 405,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/55/3385055_image2_1.JPG",
+        "addr": "서울특별시 중구 태평로1가"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "라칸티나",
+        "dist": 170,
+        "image": "",
+        "addr": "서울특별시 중구 을지로 19 (을지로1가)"
+      },
+      {
+        "name": "이북만두",
+        "dist": 194,
+        "image": "",
+        "addr": "서울특별시 중구 무교로 17-13 (무교동)"
+      },
+      {
+        "name": "참숯골",
+        "dist": 230,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/01/3474901_image2_1.jpg",
+        "addr": "서울특별시 중구 무교로 16 (무교동)"
+      },
+      {
+        "name": "낙동강",
+        "dist": 272,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/2789520_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로1길 34 (다동)"
+      },
+      {
+        "name": "아리랑",
+        "dist": 274,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/90/3474890_image2_1.jpg",
+        "addr": "서울특별시 중구 남대문로7길 23"
+      }
+    ]
   }
 ]
