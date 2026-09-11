@@ -275,6 +275,48 @@ async function fetchNearby(lat, lng, contentTypeId) {
   }
 }
 
+// 표준데이터(지자체) 축제를 관광공사 DB에서 이름으로 찾아본다.
+// 표준데이터에는 사진이 없어 상세 페이지가 허전한 문제 보완 (2026-09-11).
+// 같은 시도 + 이름 정규화 일치(또는 포함)일 때만 매칭 — 엉뚱한 축제 사진 방지
+async function fetchTourMatch(name, sido) {
+  try {
+    const cleaned = String(name || "").replace(/제\d+회|\d{4}년?/g, "").trim();
+    const params = new URLSearchParams({
+      serviceKey: SERVICE_KEY,
+      MobileOS: "ETC",
+      MobileApp: "FestivalHub",
+      _type: "json",
+      numOfRows: "5",
+      pageNo: "1",
+      arrange: "A",
+      keyword: cleaned || name,
+      contentTypeId: "15", // 축제공연행사만
+    });
+    const res = await fetch(`https://apis.data.go.kr/B551011/KorService2/searchKeyword2?${params.toString()}`);
+    const text = await res.text();
+    if (text.trim().startsWith("<")) throw new Error("XML 에러 응답");
+    const data = JSON.parse(text);
+    if (data?.response?.header?.resultCode !== "0000") throw new Error("API 에러");
+    let items = data?.response?.body?.items?.item ?? [];
+    if (!Array.isArray(items)) items = [items];
+    const norm = (s) =>
+      String(s || "")
+        .replace(/제\d+회|\d{4}년?|\s|[()\[\]<>〈〉·]/g, "")
+        .replace(/대축제|축제|문화제|페스티벌|축전|한마당/g, "")
+        .toLowerCase();
+    const target = norm(name);
+    const hit = items.find((it) => {
+      const a = norm(it.title);
+      const sameSido = !sido || (it.addr1 || "").slice(0, 2) === sido;
+      if (!a || !target || !sameSido) return false;
+      return a === target || (a.length >= 3 && target.length >= 3 && (a.includes(target) || target.includes(a)));
+    });
+    return hit ? { contentid: hit.contentid, image: hit.firstimage || "" } : null;
+  } catch {
+    return null; // 못 찾거나 실패하면 조용히 넘어감 (사진 없는 상태 유지)
+  }
+}
+
 // 전국문화축제표준데이터 전체를 페이지 단위로 받아온다
 // (실패해도 전체 수집이 죽지 않게 — 이 데이터는 보완용이므로)
 async function fetchStandardFestivals() {
@@ -538,6 +580,21 @@ async function main() {
       ? c.nearbyFood
       : lat && lng ? await fetchNearby(lat, lng, "39") : [];
 
+    // 관광공사 DB에서 같은 축제를 찾아 사진·소개글을 빌려온다 (캐시에 있으면 재사용)
+    // 표준데이터엔 사진이 없어서 상세 페이지가 지도만 보이는 문제 보완
+    let image = c.image || "";
+    let images = Array.isArray(c.images) && c.images.length ? c.images : [];
+    let tourOverview = c.tourOverview || "";
+    if (!image) {
+      const hit = await fetchTourMatch(r.fstvlNm, (r.rdnmadr || r.lnmadr || "").slice(0, 2));
+      if (hit) {
+        image = hit.image || "";
+        if (!images.length) images = await fetchImages(hit.contentid);
+        if (!image && images.length) image = images[0];
+        if (!tourOverview) tourOverview = (await fetchDetail(hit.contentid)).overview || "";
+      }
+    }
+
     return {
       contentid: id,
       name: r.fstvlNm,
@@ -545,14 +602,16 @@ async function main() {
       endDate: toYmd(r.fstvlEndDate),
       address: r.rdnmadr || r.lnmadr || "",
       lat, lng,
-      image: "", // 표준데이터엔 사진이 없음 (화면에선 🎪 아이콘으로 표시됨)
-      overview: r.fstvlCo || "",
+      image, // 관광공사에서 빌려온 사진 (못 찾으면 빈 값 → 🎪 아이콘)
+      // 소개글은 더 자세한 쪽을 사용 (관광공사 소개가 보통 훨씬 풍부함)
+      overview: tourOverview && tourOverview.length > (r.fstvlCo || "").length ? tourOverview : r.fstvlCo || "",
+      tourOverview, // 다음 실행에서 재사용하기 위한 캐시 필드
       tel: r.phoneNumber || "",
       homepage: (r.homepageUrl || "").match(/https?:\/\/[^"'\s<>]+/)?.[0] || "",
       eventplace: r.opar || "",
       playtime: "", usefee: "",
       sponsor: r.auspcInsttNm || r.mnnstNm || "",
-      images: [], extraInfo: [],
+      images, extraInfo: [],
       nearbySpots, nearbyFood,
       source: "std", // 출처 표시 (디버깅용)
     };
