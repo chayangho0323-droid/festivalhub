@@ -429,32 +429,6 @@
     "homepage": ""
   },
   {
-    "name": "2026 실내악시리즈 <시 노래가 되다>",
-    "startDate": "20260911",
-    "endDate": "20260911",
-    "time": "19:00~20:00",
-    "place": "솔가람아트홀",
-    "address": "경기도 파주시 가람로116번길 170",
-    "charge": "무료",
-    "desc": "다양한 우리나라 가곡을 감상할 수 있는 공연",
-    "tel": "031-950-8432",
-    "host": "파주문화재단",
-    "homepage": "https://pajucf.or.kr/main/main.php"
-  },
-  {
-    "name": "제42회 대야문화제",
-    "startDate": "20260911",
-    "endDate": "20260911",
-    "time": "08:00~22:00",
-    "place": "합천공설운동장",
-    "address": "경상남도 합천군 합천읍 황강체육공원로 93",
-    "charge": "혼합",
-    "desc": "축하퍼레이드+풍물패 공연 등",
-    "tel": "055-933-5448",
-    "host": "대야문화제제전본부 외 11개",
-    "homepage": ""
-  },
-  {
     "name": "달성 대구현대미술제",
     "startDate": "20260911",
     "endDate": "20261011",
@@ -466,32 +440,6 @@
     "tel": "053-668-4241",
     "host": "달성문화재단",
     "homepage": ""
-  },
-  {
-    "name": "어슬렁 어슬렁 콘서트 가을 <에피톤프로젝트>",
-    "startDate": "20260911",
-    "endDate": "20260911",
-    "time": "19:30~21:00",
-    "place": "영등포아트홀",
-    "address": "서울특별시 영등포구 국회대로 596",
-    "charge": "유료",
-    "desc": "콘서트",
-    "tel": "02-2629-2250",
-    "host": "영등포문화재단",
-    "homepage": ""
-  },
-  {
-    "name": "제339회 정기연주회<말러: 교향곡 1번>",
-    "startDate": "20260911",
-    "endDate": "20260911",
-    "time": "19:30~21:30",
-    "place": "부천아트센터 콘서트홀",
-    "address": "경기도 부천시 원미구 소향로 165",
-    "charge": "유료",
-    "desc": "부천필하모닉오케스트라 연주회",
-    "tel": "032-327-7523",
-    "host": "부천시립예술단",
-    "homepage": "https://www.bucheonphil.or.kr/"
   },
   {
     "name": "기획공연<가족뮤지컬-할머니의 여름휴가>",
@@ -3950,5 +3898,70 @@
     "tel": "031-8053-3531",
     "host": "예술경영지원센터",
     "homepage": "https://www.pccf.or.kr/main.do"
+  },
+  {
+    "name": "키즈인비또 <클래식 어드벤처> 12월",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "time": "11:00~15:50",
+    "place": "용인문화예술원 마루홀",
+    "address": "경기도 용인시 처인구 중부대로1199",
+    "charge": "유료",
+    "desc": "영유아를 위한 융복합 클래식 상설공연",
+    "tel": "031-323-6345",
+    "host": "㈜NIHR",
+    "homepage": "https://www.yicf.or.kr"
+  },
+  {
+    "name": "베이스 연광철 <겨울나그네>",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "time": "00:00~23:59",
+    "place": "당진문예의전당 대공연장",
+    "address": "충청남도 당진시 무수동2길 25-21",
+    "charge": "유료",
+    "desc": "음악",
+    "tel": "041-350-2911",
+    "host": "(재)당진문화재단·당진문예의전당",
+    "homepage": ""
+  },
+  {
+    "name": "2026년 12월 공연 <산타클로스와 브레맨 음악대>(1회)",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "time": "11:00~12:00",
+    "place": "장성문화예술회관 소공연장",
+    "address": "전라남도 장성군 장성읍 문화로 110",
+    "charge": "유료",
+    "desc": "어린이공연",
+    "tel": "061-390-8578",
+    "host": "전라남도 장성군 문화교육과",
+    "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
+  },
+  {
+    "name": "2026년 12월 공연 <산타클로스와 브레맨 음악대>(2회)",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "time": "14:00~15:00",
+    "place": "장성문화예술회관 소공연장",
+    "address": "전라남도 장성군 장성읍 문화로 110",
+    "charge": "유료",
+    "desc": "어린이공연",
+    "tel": "061-390-8578",
+    "host": "전라남도 장성군 문화교육과",
+    "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
+  },
+  {
+    "name": "2026년 12월 공연 <산타클로스와 브레맨 음악대>(3회)",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "time": "16:00~17:00",
+    "place": "장성문화예술회관 소공연장",
+    "address": "전라남도 장성군 장성읍 문화로 110",
+    "charge": "유료",
+    "desc": "어린이공연",
+    "tel": "061-390-8578",
+    "host": "전라남도 장성군 문화교육과",
+    "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
   }
 ]
