@@ -28,11 +28,12 @@ const GA_SNIPPET = `
 
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
 // (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
+// ⚠️ 애드센스 심사를 위해 임시로 비움 (2026-09-14) — 승인되면 아래 주석을 다시 살릴 것!
 const COUPANG_ITEMS = [
-  { name: "🪑 캠핑의자", url: "https://link.coupang.com/a/f7LuGkEJMq" },
-  { name: "🧺 돗자리", url: "https://link.coupang.com/a/f7MlAxqn7s" },
-  { name: "🧣 캠핑 담요", url: "https://link.coupang.com/a/gP8GvQyG2S" },
-  { name: "🔥 핫팩", url: "https://link.coupang.com/a/gP8J1IrVsW" },
+  // { name: "🪑 캠핑의자", url: "https://link.coupang.com/a/f7LuGkEJMq" },
+  // { name: "🧺 돗자리", url: "https://link.coupang.com/a/f7MlAxqn7s" },
+  // { name: "🧣 캠핑 담요", url: "https://link.coupang.com/a/gP8GvQyG2S" },
+  // { name: "🔥 핫팩", url: "https://link.coupang.com/a/gP8J1IrVsW" },
 ];
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
@@ -137,7 +138,7 @@ function footerHtml(prefix = "") {
   return `
   <footer class="site-footer">
     <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
-    <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
+    <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>`;
 }
@@ -862,6 +863,7 @@ const today = kstNow().toISOString().slice(0, 10); // 한국시간 기준 날짜
 const urls = [
   `${SITE_URL}/`,
   `${SITE_URL}/about.html`,
+  `${SITE_URL}/privacy.html`,
   `${SITE_URL}/weekend.html`,
   ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
