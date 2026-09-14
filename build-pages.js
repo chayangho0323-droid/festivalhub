@@ -24,7 +24,9 @@ const GA_SNIPPET = `
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-Q3T5H6HSQQ');
-  </script>`;
+  </script>
+  <!-- Google AdSense (사이트 소유 확인 + 광고 게재) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5951913667078413" crossorigin="anonymous"></script>`;
 
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
 // (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
