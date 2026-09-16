@@ -10676,5 +10676,289 @@
       }
     ],
     "source": "std"
+  },
+  {
+    "contentid": "1018469",
+    "name": "서울국제작가축제",
+    "startDate": "20260911",
+    "endDate": "20260916",
+    "address": "서울특별시 종로구 인사동9길 26 (견지동)",
+    "lat": "37.5734199329",
+    "lng": "126.9836265705",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/69/4073769_image2_1.jpg",
+    "overview": "서울국제작가축제는 한국문학과 세계문학의 교류를 위해 2006년부터 이어온 글로벌 문학 축제이다. 올해로 15회를 맞이하는 2026 서울국제작가축제는 작가, 독자, 그리고 다양한 언어와 이야기가 한자리에서 만나는 특별한 자리를 만들었다. 국내 작가는 물론, 평소 쉽게 접하기 어려운 해외 작가들과 함께 대담, 워크숍, 전시 등 풍성한 프로그램을 통해 문학을 더욱 가깝게 경험할 수 있다. 책과 사람, 언어와 감정이 교차하는 축제의 현장에서 '누구세요?'라는 물음 아래 오직 사람과 사람 사이에서만 가능한 문학의 깊은 경험을 할 수 있는 축제이다.",
+    "tel": "02-6339-1232",
+    "homepage": "https://www.siwf.or.kr",
+    "eventplace": "아라아트센터",
+    "playtime": "프로그램 별 상이",
+    "usefee": "무료",
+    "sponsor": "한국문학번역원",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/70/4073770_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/71/4073771_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/72/4073772_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/73/4073773_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/74/4073774_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/32/4075332_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/33/4075333_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/34/4075334_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "서울국제작가축제는 한국문학과 세계문학의 교류를 위해 2006년부터 이어온 글로벌 문학 축제이다. 올해로 15회를 맞이하는 2026 서울국제작가축제는 작가, 독자, 그리고 다양한 언어와 이야기가 한자리에서 만나는 특별한 자리를 만들었다. 국내 작가는 물론, 평소 쉽게 접하기 어려운 해외 작가들과 함께 대담, 워크숍, 전시 등 풍성한 프로그램을 통해 문학을 더욱 가깝게 경험할 수 있다. 책과 사람, 언어와 감정이 교차하는 축제의 현장에서 '누구세요?'라는 물음 아래 오직 사람과 사람 사이에서만 가능한 문학의 깊은 경험을 할 수 있는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 개막식 및 개막대담(국내외 작가와 대담 및 작품세계를 중심으로 한 1:1 대담) / 워크숍 프로그램(작가와 관객이 함께하는 소규모 워크숍 프로그램) / 전시('누구세요?'의 주제에 맞는 전시) / 참가작가 도서 판매 / 팝업 부스프로그램"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "조계사(서울)",
+        "dist": 100,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/13/3533413_image2_1.jpg",
+        "addr": "서울특별시 종로구 우정국로 55 (견지동)"
+      },
+      {
+        "name": "보성사터",
+        "dist": 100,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/61/3518361_image2_1.jpg",
+        "addr": "서울특별시 종로구 우정국로 55 (견지동)"
+      },
+      {
+        "name": "안녕인사동",
+        "dist": 118,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/2666736_image2_1.jpg",
+        "addr": "서울특별시 종로구 인사동길 49"
+      },
+      {
+        "name": "서울 우정총국",
+        "dist": 137,
+        "image": "",
+        "addr": "서울특별시 종로구 우정국로 59 (견지동)"
+      },
+      {
+        "name": "쌈지길",
+        "dist": 148,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3348672_image2_1.JPG",
+        "addr": "서울특별시 종로구 인사동길 44 (관훈동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "안동국시소람",
+        "dist": 50,
+        "image": "",
+        "addr": "서울특별시 종로구 인사동9길 16"
+      },
+      {
+        "name": "사찰음식 전문점 발우공양",
+        "dist": 69,
+        "image": "",
+        "addr": "서울특별시 종로구 우정국로 56"
+      },
+      {
+        "name": "이문설농탕",
+        "dist": 72,
+        "image": "",
+        "addr": "서울특별시 종로구 우정국로 38-13 (견지동)"
+      },
+      {
+        "name": "뮤직컴플렉스 서울",
+        "dist": 122,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/2947958_image2_1.jpg",
+        "addr": "서울특별시 종로구 인사동길 49"
+      },
+      {
+        "name": "옛찻집",
+        "dist": 160,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3474885_image2_1.jpg",
+        "addr": "서울특별시 종로구 인사동길 33-1"
+      }
+    ]
+  },
+  {
+    "contentid": "573459",
+    "name": "제38회 춘천인형극제",
+    "startDate": "20260910",
+    "endDate": "20260916",
+    "address": "강원특별자치도 춘천시 영서로 3017 (사농동)",
+    "lat": "37.9209224402",
+    "lng": "127.7201075840",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4087113_image2_1.png",
+    "overview": "제38회 춘천인형극제는 아시아 최대 규모의 인형극 축제이다. 춘천세계인형극제에서는 세계 각국의 최정상 아티스트와 인형극단이 참가하며, 춘천인형극장을 중심으로 춘천시 전역에서 인형극 공연과 대규모 퍼레이드, 아트마켓이 진행될 예정이다. 인형극 공연 외에도 인형극 장르의 확산과 발전을 위한 체험, 전시, 워크숍 등 다채로운 프로그램이 진행된다. 세계 인형극계의 흐름을 조망할 수 잇는 국제 교류의 장이자, 모든 세대를 아우르는 문화예술축제로 자리매김하고 있다.",
+    "tel": "033-242-8452",
+    "homepage": "",
+    "eventplace": "춘천인형극장",
+    "playtime": "일자 별로 상이함",
+    "usefee": "프로그램 별로 상이함",
+    "sponsor": "재단법인 춘천인형극제",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/07/4087107_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/08/4087108_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/09/4087109_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/10/4087110_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/12/4087112_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "제38회 춘천인형극제는 아시아 최대 규모의 인형극 축제이다. 춘천세계인형극제에서는 세계 각국의 최정상 아티스트와 인형극단이 참가하며, 춘천인형극장을 중심으로 춘천시 전역에서 인형극 공연과 대규모 퍼레이드, 아트마켓이 진행될 예정이다. 인형극 공연 외에도 인형극 장르의 확산과 발전을 위한 체험, 전시, 워크숍 등 다채로운 프로그램이 진행된다. 세계 인형극계의 흐름을 조망할 수 잇는 국제 교류의 장이자, 모든 세대를 아우르는 문화예술축제로 자리매김하고 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 제38회 춘천인형극제\n- 기간 : 2026/09/10~2026/09/16\n- 장소 : 춘천인형극장 / 춘천시청 대회의실 / 축제극장 몸짓\n- 부대 행사 및 프로그램 : 인형극 공연 / 인형극 만들기 체험 / 워크숍 / 플리마켓 / 인형극 박물관 기획전시 등\n\n\n2. 제38회 춘천인형극제 : 퍼펫카니발 \n- 기간 : 2026/09/12 18:00~21:00\n- 장소 : 춘천시청 광장\n- 부대 행사 및 프로그램 : 인형극 퍼레이드 / 주제공연\n\n\n3. 제38회 춘천인형극제 : 인형극 아트마켓\n- 기간 : 2026/09/16 16:00~21:00\n- 장소 : KT&G 상상마당 춘천\n- 부대 행사 및 프로그램 : 참여극단 홍보테이블 / 쇼케이스 / 특별공연 / 폐막식 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "육림랜드",
+        "dist": 407,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3562223_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 영서로 2965 (사농동)"
+      },
+      {
+        "name": "강원 경찰충혼탑",
+        "dist": 783,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3381636_image2_1.JPG",
+        "addr": "강원특별자치도 춘천시 서면 신매리"
+      },
+      {
+        "name": "충렬탑(강원)",
+        "dist": 1987,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/29/3373429_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 우두동"
+      },
+      {
+        "name": "춘천시 반려견놀이터 같이놀개",
+        "dist": 2399,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3382612_image2_1.JPG",
+        "addr": "강원특별자치도 춘천시 영서로 3282"
+      },
+      {
+        "name": "춘천문학공원",
+        "dist": 3032,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3351545_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 서면 금산리 500-4"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "둥근닭갈비 막국수 닭보쌈",
+        "dist": 204,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3046185_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 동내면 춘천순환로72번길 54"
+      },
+      {
+        "name": "소양강농원 콩이랑두부랑",
+        "dist": 1752,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/2893920_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 사우벌길 15"
+      },
+      {
+        "name": "가보자순대국",
+        "dist": 2396,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/95/2891695_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 율문2길 11"
+      },
+      {
+        "name": "유기농카페",
+        "dist": 2962,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/2918959_image2_1.jpg",
+        "addr": "강원특별자치도 춘천시 신북읍 지내고탄로 184"
+      },
+      {
+        "name": "[백년가게]명가춘천막국수",
+        "dist": 3195,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2608782_image2_1.JPG",
+        "addr": "강원특별자치도 춘천시 당간지주길 76 (근화동)"
+      }
+    ]
+  },
+  {
+    "contentid": "shew7da",
+    "name": "제18회 DMZ 국제다큐멘터리 영화제",
+    "startDate": "20260910",
+    "endDate": "20260916",
+    "address": "경기도 파주시 문산읍 임진각로 177",
+    "lat": "37.8895362",
+    "lng": "126.7401868",
+    "image": "",
+    "overview": "다큐멘터리 상영 및 시상+포럼+다큐강연 등",
+    "tourOverview": "",
+    "tel": "031-940-4723",
+    "homepage": "https://dmzdocs.com",
+    "eventplace": "임진각 평화누리 야외공연장",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "사단법인 DMZ국제다큐멘터리영화제",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "DMZ 생생누리",
+        "dist": 123,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/2874218_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 임진각로 148-57"
+      },
+      {
+        "name": "한반도생태평화 종합관광센터",
+        "dist": 164,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 임진각로 148-63"
+      },
+      {
+        "name": "평화랜드",
+        "dist": 186,
+        "image": "",
+        "addr": "경기도 파주시 문산읍 임진각로 148-39"
+      },
+      {
+        "name": "임진강 독개다리",
+        "dist": 320,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3540609_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 마정리 1400-5"
+      },
+      {
+        "name": "황희선생유적지·반구정",
+        "dist": 2645,
+        "image": "",
+        "addr": "경기도 파주시 문산읍 반구정로85번길 3"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "포비 DMZ",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2865443_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 임진각로 177"
+      },
+      {
+        "name": "임진각샘뜰두부집",
+        "dist": 1817,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2765081_image2_1.jpeg",
+        "addr": "경기도 파주시 문산읍 사목로 227"
+      },
+      {
+        "name": "반구정 나루터집",
+        "dist": 2560,
+        "image": "",
+        "addr": "경기도 파주시 문산읍 반구정로85번길 13"
+      },
+      {
+        "name": "카페8794",
+        "dist": 3143,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/07/2865207_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 통일로2010번길 36"
+      },
+      {
+        "name": "소풍농월",
+        "dist": 4539,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/56/2832456_image2_1.jpg",
+        "addr": "경기도 파주시 문산읍 방촌로 1779-40"
+      }
+    ],
+    "source": "std"
   }
 ]
