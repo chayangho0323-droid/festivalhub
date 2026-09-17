@@ -620,7 +620,7 @@ async function main() {
   const allFestivals = [...festivals, ...stdFestivals];
 
   // ── 종료 축제 아카이브 ──────────────────────────────────
-  // 목록에서 빠진(=끝난) 축제를 festivals-archive.json에 보존한다.
+  // 목록에서 빠진 축제(끝났거나, 공식 데이터에서 내려갔거나)를 festivals-archive.json에 보존한다.
   // 페이지를 지우면 구글 색인도 같이 사라져서 노출이 리셋되던 문제의 재발 방지
   // (2026-08-31 발견: 8월 축제 종료 → 페이지 삭제 → 색인 280→45 급락)
   try {
@@ -632,7 +632,11 @@ async function main() {
     const curIds = new Set(allFestivals.map((f) => f.contentid));
     const archIds = new Set(archive.map((f) => f.contentid));
     for (const f of prev) {
-      if (!curIds.has(f.contentid) && !archIds.has(f.contentid) && f.endDate && f.endDate < startDate) {
+      // 종료 여부와 상관없이 "목록에서 사라진 축제"는 전부 보존한다.
+      // (2026-09-17: 관광공사가 ID를 바꾸거나 일정을 수정하면 안 끝난 축제도 목록에서 빠져
+      //  페이지가 404가 됐음 — 네이버 서치어드바이저 "접근 불가 페이지" 18건의 원인)
+      // 같은 축제가 새 ID로 다시 나타난 경우는 build-pages.js가 옛 주소 → 새 주소 이동 페이지를 만든다.
+      if (!curIds.has(f.contentid) && !archIds.has(f.contentid)) {
         archive.push(f);
       }
     }

@@ -336,6 +336,7 @@ function buildPage(f, all) {
     <div class="detail-body">
       ${badge}
       <h1>${esc(f.name)}</h1>
+      ${f._archived && f.endDate >= today ? `<p class="coupang-notice">ℹ️ 이 축제는 한국관광공사 공식 목록에서 내려갔거나 일정이 변경된 상태일 수 있어요. 방문 전 주최 측에 일정을 꼭 확인해 주세요.</p>` : ""}
       <div class="actions">
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <a class="action-btn" id="cal-btn" href="#" target="_blank" rel="noopener">📆 캘린더에 추가</a>
@@ -539,6 +540,24 @@ try {
   archivedFestivals = JSON.parse(fs.readFileSync("festivals-archive.json", "utf-8"));
 } catch {}
 
+// 같은 축제가 새 ID로 현재 목록에 있으면(표준데이터 임시 ID → 관광공사 정식 ID 등)
+// 보존 페이지 대신 "옛 주소 → 새 주소" 이동 페이지를 만든다. (중복 페이지 방지 + 옛 주소 404 방지)
+const normFestName = (n) => String(n || "").replace(/제s*d+s*회|d{4}년?|s|[()[]<>〈〉·:,-]/g, "").toLowerCase();
+const festRedirects = [];
+archivedFestivals = archivedFestivals.filter((a) => {
+  const an = normFestName(a.name);
+  if (an.length < 3) return true;
+  const m = festivals.find((f) => {
+    const fn = normFestName(f.name);
+    const sameName = fn === an || (fn.length >= 4 && an.length >= 4 && (fn.includes(an) || an.includes(fn)));
+    return sameName && getRegion(f.address) === getRegion(a.address) && String(f.startDate).slice(0, 4) === String(a.startDate).slice(0, 4);
+  });
+  if (!m) return true;
+  festRedirects.push({ from: a.contentid, to: m.contentid, name: m.name });
+  return false;
+});
+for (const a of archivedFestivals) a._archived = true; // 상세 페이지 안내문용
+
 // 이전 빌드 결과를 지우고 (현재 + 아카이브 전체를 다시 생성하므로 죽은 파일은 안 남음)
 for (const old of fs.readdirSync(outDir)) {
   if (old.endsWith(".html")) fs.unlinkSync(path.join(outDir, old));
@@ -547,7 +566,23 @@ for (const old of fs.readdirSync(outDir)) {
 for (const f of [...festivals, ...archivedFestivals]) {
   fs.writeFileSync(path.join(outDir, `${f.contentid}.html`), buildPage(f, festivals), "utf-8");
 }
-console.log(`✅ festival/*.html ${festivals.length + archivedFestivals.length}개 생성 (진행·예정 ${festivals.length} + 종료 보존 ${archivedFestivals.length})`);
+for (const r of festRedirects) {
+  const to = `${SITE_URL}/festival/${r.to}.html`;
+  fs.writeFileSync(path.join(outDir, `${r.from}.html`), `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>${esc(r.name)} — FestivalHub</title>
+  <link rel="canonical" href="${to}" />
+  <meta http-equiv="refresh" content="0; url=${r.to}.html" />
+  <meta name="robots" content="noindex, follow" />
+</head>
+<body>
+  <p>이 축제 페이지의 주소가 바뀌었습니다. <a href="${r.to}.html">${esc(r.name)} 페이지로 이동하기</a></p>
+</body>
+</html>`, "utf-8");
+}
+console.log(`✅ festival/*.html ${festivals.length + archivedFestivals.length}개 생성 (진행·예정 ${festivals.length} + 보존 ${archivedFestivals.length}) + 주소 이동 ${festRedirects.length}개`);
 
 // 예전 빌드의 월별/테마/지역 파일 정리 (죽은 페이지가 남지 않게 — 아래에서 다시 생성됨)
 for (const old of fs.readdirSync(__dirname)) {
@@ -644,14 +679,20 @@ for (const region of regions) {
 console.log(`✅ 지역별 페이지 ${regionFiles.length}개 생성 (${regions.join(", ")})`);
 
 // ── 월별 페이지: 이번 달부터 4개월치 ──
+// 지난 달 페이지도 지우지 않고 보존한다 (사이트 오픈 2026-08부터) — 지우면 검색엔진에 "접근 불가"로 남음
 const monthFiles = [];
-for (let i = 0; i < 4; i++) {
+const FIRST_MONTH = Date.UTC(2026, 7, 1);
+const monthOffsets = [];
+for (let i = -24; i < 4; i++) {
+  if (Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + i, 1) >= FIRST_MONTH) monthOffsets.push(i);
+}
+for (const i of monthOffsets) {
   const md = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + i, 1));
   const y = md.getUTCFullYear();
   const m = md.getUTCMonth() + 1;
   const mm = String(m).padStart(2, "0");
   // 축제 기간이 그 달과 하루라도 겹치면 포함 ("31"은 문자열 비교용 상한)
-  const items = festivals
+  const items = [...festivals, ...archivedFestivals]
     .filter((f) => f.startDate <= `${y}${mm}31` && f.endDate >= `${y}${mm}01` && !isLongRunning(f))
     .sort((a, b) => a.startDate.localeCompare(b.startDate));
   const filename = `month-${y}-${mm}.html`;
