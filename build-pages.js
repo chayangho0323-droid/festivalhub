@@ -542,7 +542,7 @@ try {
 
 // 같은 축제가 새 ID로 현재 목록에 있으면(표준데이터 임시 ID → 관광공사 정식 ID 등)
 // 보존 페이지 대신 "옛 주소 → 새 주소" 이동 페이지를 만든다. (중복 페이지 방지 + 옛 주소 404 방지)
-const normFestName = (n) => String(n || "").replace(/제s*d+s*회|d{4}년?|s|[()[]<>〈〉·:,-]/g, "").toLowerCase();
+const normFestName = (n) => String(n || "").replace(/제\s*\d+\s*회|\d{4}년?|\s|[()\[\]<>〈〉·:,\-]/g, "").toLowerCase();
 const festRedirects = [];
 archivedFestivals = archivedFestivals.filter((a) => {
   const an = normFestName(a.name);
