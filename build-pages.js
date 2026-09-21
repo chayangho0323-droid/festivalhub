@@ -159,6 +159,21 @@ function miniCards(list) {
     .join("");
 }
 
+// ─── 직접 쓴 축제 이야기 (festival-notes.json) ───────────────
+// 표준데이터 축제는 소개글이 20~30자뿐이고 사진도 없어서 이탈률이 60~90%였다 (2026-09-21 점검).
+// 검색이 몰리는 빈약한 페이지에 유래·볼거리·팁을 직접 써서 붙인다.
+// 표준데이터 ID는 날짜가 바뀌면 같이 바뀌므로 ID가 아니라 "정규화한 축제 이름에 key가 포함되는지"로 찾는다.
+let festivalNotes = [];
+try {
+  festivalNotes = JSON.parse(fs.readFileSync("festival-notes.json", "utf-8"));
+} catch {}
+function findFestivalNote(f) {
+  // 공공데이터 소개글이 이미 충분한 축제에는 붙이지 않는다 (중복 방지)
+  if (stripHtml(f.overview || "").length >= 200 || stripHtml(f.tourOverview || "").length >= 200) return null;
+  const n = normFestName(f.name);
+  return festivalNotes.find((x) => x.key && n.includes(x.key.toLowerCase())) || null;
+}
+
 // ─── 축제 한 건 → HTML 페이지 ──────────────────────────────
 
 function buildPage(f, all) {
@@ -172,8 +187,20 @@ function buildPage(f, all) {
 
   const period = `${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}`;
 
-  // 검색 결과에 보일 설명문: 소개글 앞부분 150자
-  const description = (stripHtml(f.overview) || `${f.name} — ${period}, ${f.address}`).slice(0, 150);
+  // 직접 쓴 축제 이야기 (festival-notes.json) — 공공데이터 소개글이 빈약한 축제에만 붙인다
+  const note = findFestivalNote(f);
+  const noteSection = note
+    ? `<section class="overview fest-note">
+        <h2>📖 축제 이야기</h2>
+        ${note.intro.map((p) => `<p>${esc(p)}</p>`).join("\n        ")}
+        ${note.highlights && note.highlights.length ? `<h3>✨ 이런 걸 볼 수 있어요</h3><ul>${note.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}
+        ${note.tips && note.tips.length ? `<h3>🎒 가기 전에 알아두면 좋은 팁</h3><ul>${note.tips.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+        <p class="coupang-notice">※ 축제의 유래와 즐기는 법을 FestivalHub가 정리한 글입니다. 세부 프로그램과 시간은 해마다 달라지니 방문 전 공식 안내를 확인해 주세요.</p>
+      </section>`
+    : "";
+
+  // 검색 결과에 보일 설명문: 소개글 앞부분 150자 (직접 쓴 글이 있으면 그 첫 문단)
+  const description = ((note && note.intro[0]) || stripHtml(f.overview) || `${f.name} — ${period}, ${f.address}`).slice(0, 150);
 
   // ── 사진 갤러리 ──
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
@@ -352,6 +379,7 @@ function buildPage(f, all) {
         ${infoRow("📞", "문의", esc(f.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${noteSection}
       ${overview}
       ${extraSections}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>

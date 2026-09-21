@@ -839,3 +839,8 @@ body {
   background: #03c75a;
   color: #fff;
 }
+/* Hand-written festival story (festival-notes.json) */
+.fest-note p { line-height: 1.8; margin-bottom: 10px; }
+.fest-note h3 { font-size: 1rem; margin: 16px 0 8px; }
+.fest-note ul { padding-left: 20px; line-height: 1.8; }
+.fest-note li { margin-bottom: 4px; }
