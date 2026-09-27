@@ -32765,5 +32765,553 @@
       }
     ],
     "source": "std"
+  },
+  {
+    "contentid": "2756253",
+    "name": "국가유산 미디어아트 부여 정림사지",
+    "startDate": "20260907",
+    "endDate": "20260927",
+    "address": "충청남도 부여군 부여읍 정림로 83",
+    "lat": "36.2790259229",
+    "lng": "126.9128806090",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/27/3563827_image2_1.jpg",
+    "overview": "2026 국가유산 미디어아트 부여 정림사지는 사비백제의 문화 발전을 이끈 사비박사와 당시의 지식, 기술, 국가유산을 주제로 하는 야간 미디어아트 행사이다. 행사는 2026년 9월 7일부터 9월 27일까지 21일간 부여 정림사지 일원에서 진행되며, 운영 시간은 매일 오후 7시부터 10시까지 운영된다. 정림사지 오층석탑과 강당 등 주요 공간을 활용한 영상 투사, 레이저 아트, 조명 연출, 대형 화면 전시, 관람객 참여형 콘텐츠, 인공지능 기반 체험, 움직이는 조형 예술 등 다양한 미디어 콘텐츠로 구성된 행사로 백제금동대향로, 연화문 와당, 백제의 천문학과 공예, 건축 등 사비백제의 역사문화 요소를 소재로 한 작품을 전시하며, 관람형 콘텐츠와 직접 참여할 수 있는 체험형 콘텐츠를 함께 운영한다.",
+    "tel": "041-837-1722",
+    "homepage": "https://mediaartbuyeo.com/",
+    "eventplace": "정림사지",
+    "playtime": "19:00~22:00",
+    "usefee": "무료",
+    "sponsor": "국가유산청, 부여군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/26/3563826_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/28/3563828_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/3563829_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/3563831_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/21/4106521_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 국가유산 미디어아트 부여 정림사지는 사비백제의 문화 발전을 이끈 사비박사와 당시의 지식, 기술, 국가유산을 주제로 하는 야간 미디어아트 행사이다. 행사는 2026년 9월 7일부터 9월 27일까지 21일간 부여 정림사지 일원에서 진행되며, 운영 시간은 매일 오후 7시부터 10시까지 운영된다. 정림사지 오층석탑과 강당 등 주요 공간을 활용한 영상 투사, 레이저 아트, 조명 연출, 대형 화면 전시, 관람객 참여형 콘텐츠, 인공지능 기반 체험, 움직이는 조형 예술 등 다양한 미디어 콘텐츠로 구성된 행사로 백제금동대향로, 연화문 와당, 백제의 천문학과 공예, 건축 등 사비백제의 역사문화 요소를 소재로 한 작품을 전시하며, 관람형 콘텐츠와 직접 참여할 수 있는 체험형 콘텐츠를 함께 운영한다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. ZONE 1\n- 빛의 경계 \n- 사비의 빛 \n- 빛의 연지 \n- 빛의 탑 \n- 빛의 경전\n- 사비설법\n- 사비화원\n2. ZONE 2\n- 빛의 향로\n- 사비천문 \n- 빛의 파동\n- 사비화점 \n- 지혜의 빛 \n- 사비공방\n- 빛의 문양 & 빛 놀이\n\n3. ZONE 3 \n- 지혜의 길\n- 전승의 빛"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "부여향교",
+        "dist": 250,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3356332_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 의열로 21-4"
+      },
+      {
+        "name": "의열사 (부여)",
+        "dist": 329,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/51/3336351_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 동남리 산3"
+      },
+      {
+        "name": "도강영당",
+        "dist": 688,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/86/3348786_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 부소로 15"
+      },
+      {
+        "name": "조왕사(부여)",
+        "dist": 776,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3568163_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 계백로 334-47"
+      },
+      {
+        "name": "백제 오천결사대 충혼탑",
+        "dist": 1026,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3348679_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 동남리"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "백제고을 누룽지백숙",
+        "dist": 339,
+        "image": "",
+        "addr": "충청남도 부여군 부여읍 정림로 96"
+      },
+      {
+        "name": "백제의집",
+        "dist": 475,
+        "image": "",
+        "addr": "충청남도 부여군 부여읍 성왕로 248"
+      },
+      {
+        "name": "하늘채 황금수라",
+        "dist": 488,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2800539_image2_1.jpg",
+        "addr": "충청남도 부여군 부여읍 계백로 373"
+      },
+      {
+        "name": "서동한우 본점",
+        "dist": 499,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/2926993_image2_1.jpg",
+        "addr": "충청남도 부여군 성왕로 256"
+      },
+      {
+        "name": "엄가네곰탕",
+        "dist": 663,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/84/2877384_image2_1.jpg",
+        "addr": "충청남도 부여군 나루터로 21-4"
+      }
+    ]
+  },
+  {
+    "contentid": "1328004",
+    "name": "예천 삼강나루 주막축제",
+    "startDate": "20260925",
+    "endDate": "20260927",
+    "address": "경상북도 예천군 풍양면 삼강리길 33",
+    "lat": "36.5635556078",
+    "lng": "128.2988560966",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/25/4110525_image2_1.jpg",
+    "overview": "추석 명절을 대표하는 삼강나루주막축제는 대한민국의 마지막 주막인 삼강주막을 배경으로 고향을 찾는 귀향객과 방문객이 함께 즐기는 축제이다. 2026 예천 삼강나루주막축제는 9월 25일부터 27일까지 3일간 삼강문화단지 일원에서 ‘다시 열린 주막, 들썩이는 삼강’을 주제로 개최되는 축제이다. 과거 나루터를 오가던 보부상과 나그네들의 쉼터였던 삼강주막의 역사와 문화를 바탕으로 보부상, 주모, 포수, 상인 등으로 분장한 배우들과 함께하는 보부상 한마당을 비롯해 삼강의 역사와 문화를 알아보는 삼강 골든벨, 유형TEST, 느린 우체통 등 참여형 프로그램을 운영한다. 또한 달고나 만들기, 사격, 물레·한복체험, 키즈존 등의 체험과 지역예술인 공연, 버스킹, 어린이공연 등을 진행한다. 지역 농·특산물과 수공예품을 만날 수 있는 연계행사인 해보래장터와 먹거리 푸드존도 함께 운영하는 축제이다.",
+    "tel": "054-650-6034",
+    "homepage": "https://yctf.kr/2026samgang",
+    "eventplace": "삼강문화단지",
+    "playtime": "11:00 ~ 18:00",
+    "usefee": "무료",
+    "sponsor": "예천군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/21/4110521_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/22/4110522_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/23/4110523_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/24/4110524_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "추석 명절을 대표하는 삼강나루주막축제는 대한민국의 마지막 주막인 삼강주막을 배경으로 고향을 찾는 귀향객과 방문객이 함께 즐기는 축제이다. 2026 예천 삼강나루주막축제는 9월 25일부터 27일까지 3일간 삼강문화단지 일원에서 ‘다시 열린 주막, 들썩이는 삼강’을 주제로 개최되는 축제이다. 과거 나루터를 오가던 보부상과 나그네들의 쉼터였던 삼강주막의 역사와 문화를 바탕으로 보부상, 주모, 포수, 상인 등으로 분장한 배우들과 함께하는 보부상 한마당을 비롯해 삼강의 역사와 문화를 알아보는 삼강 골든벨, 유형TEST, 느린 우체통 등 참여형 프로그램을 운영한다. 또한 달고나 만들기, 사격, 물레·한복체험, 키즈존 등의 체험과 지역예술인 공연, 버스킹, 어린이공연 등을 진행한다. 지역 농·특산물과 수공예품을 만날 수 있는 연계행사인 해보래장터와 먹거리 푸드존도 함께 운영하는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램\n- 스탬프투어, 보부상운동회, 삼강키즈존, 삼강달달공방\n2. 부대프로그램 \n- 물레체험, 전통의상체험, 캐리커처, 삼강 사격장, 등\n3. 공연 \n- 지역 예술인 무대, 삼강 버스킹, 어린이 공연 등\n4. 전시·판매 \n- 해보래장터(연계행사), 푸드트럭, 지역 농특산물 판매, 푸드트럭 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "예천 삼강주막",
+        "dist": 65,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/3572622_image2_1.jpg",
+        "addr": "경상북도 예천군 풍양면 삼강리길 27"
+      },
+      {
+        "name": "삼강강당",
+        "dist": 369,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/27/3580727_image2_1.jpg",
+        "addr": "경상북도 예천군 풍양면 삼강리길 53-14"
+      },
+      {
+        "name": "예천삼강문화단지 생태공원",
+        "dist": 417,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3572650_image2_1.jpg",
+        "addr": "경상북도 예천군 풍양면 삼강리"
+      },
+      {
+        "name": "장안사(예천)",
+        "dist": 2287,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/3077492_image2_1.JPG",
+        "addr": "경상북도 예천군 용궁면 향석리"
+      },
+      {
+        "name": "회룡포전망대",
+        "dist": 2317,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/3000067_image2_1.JPG",
+        "addr": "경상북도 예천군 용궁면 회룡대길 168"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "용궁단골식당본점",
+        "dist": 5187,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2831977_image2_1.jpg",
+        "addr": "경상북도 예천군 용궁시장길 30 단골식당"
+      },
+      {
+        "name": "솔밭식당",
+        "dist": 9423,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/3591947_image2_1.jpg",
+        "addr": "경상북도 문경시 중앙6길 6 (점촌동)"
+      },
+      {
+        "name": "남부떡볶이",
+        "dist": 9764,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2832239_image2_1.jpg",
+        "addr": "경상북도 문경시 중앙로 16"
+      }
+    ]
+  },
+  {
+    "contentid": "4094595",
+    "name": "컨템포러리 아티스트 프로젝트 《이완 - 나는 쓴다》",
+    "startDate": "20260717",
+    "endDate": "20260927",
+    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
+    "lat": "37.4802401962",
+    "lng": "127.0142152392",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/83/4094783_image2_1.png",
+    "overview": "예술의전당이 제작한 컨템포러리 아티스트 프로젝트 《이완 - 나는 쓴다》 전시는 한국 전통 서예를 현대미술의 언어로 새롭게 해석한 전시이다. 작가 이완은 붓과 먹을 바탕으로 문자, 이미지, 회화, 전각을 결합해 서예의 새로운 가능성을 탐구한다. 아름다운 글씨를 감상하는 데 그치지 않고, '왜 쓰는가'라는 질문을 통해 쓰기가 자신을 표현하는 예술이 될 수 있음을 보여준다. 전통과 현대가 만나는 새로운 서예의 가능성을 경험할 수 있는 전시이다.",
+    "tel": "02-580-1655",
+    "homepage": "https://www.sac.or.kr/",
+    "eventplace": "예술의전당 서예박물관 제3전시실",
+    "playtime": "10:00~19:00",
+    "usefee": "- 성인 5,000원 - 유아/청소년/어린이(만36개월~19세) 2,500원 - 경로(만65세이상) 3,000원 ※ 무료 : 장애인/국가유공자/예술인패스 소지자",
+    "sponsor": "예술의전당",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/79/4094779_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/80/4094780_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/81/4094781_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/82/4094782_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "예술의전당이 제작한 컨템포러리 아티스트 프로젝트 《이완 - 나는 쓴다》 전시는 한국 전통 서예를 현대미술의 언어로 새롭게 해석한 전시이다. 작가 이완은 붓과 먹을 바탕으로 문자, 이미지, 회화, 전각을 결합해 서예의 새로운 가능성을 탐구한다. 아름다운 글씨를 감상하는 데 그치지 않고, '왜 쓰는가'라는 질문을 통해 쓰기가 자신을 표현하는 예술이 될 수 있음을 보여준다. 전통과 현대가 만나는 새로운 서예의 가능성을 경험할 수 있는 전시이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 전시 / 정규 도슨트 / 작가와의 대화 / 작가 워크숍"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "우면산 소망탑",
+        "dist": 401,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/3467859_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초동 419-3"
+      },
+      {
+        "name": "대성사(서울)",
+        "dist": 440,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3540509_image2_1.jpg",
+        "addr": "서울특별시 서초구 남부순환로328길 49 (서초동)"
+      },
+      {
+        "name": "우면산자연생태공원",
+        "dist": 1247,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/3540696_image2_1.jpg",
+        "addr": "서울특별시 서초구 우면동"
+      },
+      {
+        "name": "길상도예",
+        "dist": 1735,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/05/2947505_image2_1.jpg",
+        "addr": "서울특별시 서초구 강남대로39길 15-9 (서초동)"
+      },
+      {
+        "name": "서리풀공원",
+        "dist": 1746,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/16/3540716_image2_1.jpg",
+        "addr": "서울특별시 서초구 서초동"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "백년옥",
+        "dist": 118,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2787337_image2_1.jpg",
+        "addr": "서울특별시 서초구 남부순환로 2407 (서초동)"
+      },
+      {
+        "name": "카나디안 랍스터",
+        "dist": 258,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/33/3568533_image2_1.jpg",
+        "addr": "서울특별시 서초구 남부순환로 2385"
+      },
+      {
+        "name": "프리퍼",
+        "dist": 324,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/2847247_image2_1.jpg",
+        "addr": "서울특별시 서초구 반포대로5길 4 (서초동)"
+      },
+      {
+        "name": "메종조",
+        "dist": 414,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/27/2864327_image2_1.jpg",
+        "addr": "서울특별시 서초구 반포대로7길 35 (서초동)"
+      },
+      {
+        "name": "하오차이",
+        "dist": 450,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2860340_image2_1.jpg",
+        "addr": "서울특별시 서초구 효령로 260 (서초동)"
+      }
+    ]
+  },
+  {
+    "contentid": "4103259",
+    "name": "2026 DMZ PEACE FESTA",
+    "startDate": "20260912",
+    "endDate": "20260927",
+    "address": "인천광역시 강화군 교동면 교동동로 471",
+    "lat": "37.7837327580",
+    "lng": "126.2892126586",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/60/4103260_image2_1.jpg",
+    "overview": "개별 지자체로 분절되었던 DMZ 접경지역의 관광 자원을 하나로 잇기 위해 기획된 DMZ PEACE FESTA는 강화와 철원이 참여하는 릴레이 축제이다. 각 지역이 가진 고유 콘텐츠를 자연(생태), 삶(주민의 스토리), 성찰·치유(웰니스)라는 3개의 공통된 테마를 중심으로 다양한 체험형 프로그램을 제공할 예정이다.\n※ 사전 예약이 필요한 프로그램 등 행사 상세 정보는 공식 홈페이지 참조",
+    "tel": "033-738-3543",
+    "homepage": "https://korean.visitkorea.or.kr/",
+    "eventplace": "(강화) 교동도 화개정원 / (철원) 역사공원",
+    "playtime": "- 강화 10:00~- 철원 15:00~22:00",
+    "usefee": "무료",
+    "sponsor": "문화체육관광부",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "개별 지자체로 분절되었던 DMZ 접경지역의 관광 자원을 하나로 잇기 위해 기획된 DMZ PEACE FESTA는 강화와 철원이 참여하는 릴레이 축제이다. 각 지역이 가진 고유 콘텐츠를 자연(생태), 삶(주민의 스토리), 성찰·치유(웰니스)라는 3개의 공통된 테마를 중심으로 다양한 체험형 프로그램을 제공할 예정이다.\n※ 사전 예약이 필요한 프로그램 등 행사 상세 정보는 공식 홈페이지 참조"
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : (강화) DMZ 함꼐 평화염원 걷기 및 버스킹 / (철원) DMZ 평화페스타(백패킹) 및 버스킹 관람\n- 부대 행사 및 프로그램 : \n[강화]\n실향민 스토리 칵테일 제조 체험 / DMZ 소리 채집 걷기 / 즉흥 움직임 체험\n[철원]\n전통시장 탐방 및 DMZ 투어 / 미디어 아트 연계 행사 사일런트 디스코"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "난정리 해바라기마을 정원",
+        "dist": 5281,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/90/3588490_image2_1.jpg",
+        "addr": "인천광역시 강화군 교동면 난정리 741-3"
+      },
+      {
+        "name": "난정리 전망대",
+        "dist": 5373,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/3387867_image2_1.JPG",
+        "addr": "인천광역시 강화군 교동면 난정리 729"
+      },
+      {
+        "name": "망월돈대 및 장성",
+        "dist": 7509,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3390128_image2_1.JPG",
+        "addr": "인천광역시 강화군 하점면 망월리 2107번지"
+      },
+      {
+        "name": "삼산저수지",
+        "dist": 8609,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3040841_image2_1.jpg",
+        "addr": "인천광역시 강화군 삼산면 삼산서로310번길 21"
+      },
+      {
+        "name": "계룡돈대",
+        "dist": 8812,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3309563_image2_1.jpg",
+        "addr": "인천광역시 강화군 내가면 황청리"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "대풍식당",
+        "dist": 782,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2791277_image2_1.jpg",
+        "addr": "인천광역시 강화군 교동면 대룡안길54번길 24"
+      }
+    ]
+  },
+  {
+    "contentid": "4106883",
+    "name": "COSMOS BIGBANG 20TH ANNIVERSARY MEDIA EXHIBITION",
+    "startDate": "20260824",
+    "endDate": "20260927",
+    "address": "서울특별시 중구 서소문로 지하127 (서소문동)",
+    "lat": "37.5635793508",
+    "lng": "126.9753893632",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/94/4106894_image2_1.jpg",
+    "overview": "COSMOS BIGBANG 20TH ANNIVERSARY MEDIA EXHIBITION은 그룹 BIGBANG의 데뷔 20주년을 기념하여 지난 20년의 음악과 활동을 미디어아트로 구성한 전시이다. ‘COSMOS’를 주제로 과거와 현재, 미래를 연결하는 관계와 지속성을 공간별 콘텐츠로 구현한 전시이다. 서울 시청역과 을지로입구역 사이 지하 공간인 두두두 서울에서 개최되며, 관람객은 사전 예약한 회차에 맞추어 순차적으로 입장하는 방식이다. 전시 공간은 미디어 터널, 사운드 비주얼라이제이션 및 리스닝 존, 미디어 아카이브, 인터랙티브 아트 월, VR 존, 홀로그램 쇼 등으로 구성된다. AI, XR·VR, 홀로그램, 3D 모션그래픽 등 디지털 기술을 활용하여 BIGBANG의 음악과 기록을 시청각 콘텐츠로 제공하는 전시이다. 관람객이 직접 참여하는 인터랙티브 콘텐츠와 메시지형 콘텐츠도 포함되어 있으며, 전시 기간은 PHASE 1과 PHASE 2로 나뉘어 일부 VR·홀로그램 콘텐츠와 구매 특전이 변경되는 구성이다. 전시는 100% 사전 예약제로 하루 12회차 운영되며, 현장에는 전시 관람객을 위한 MD ZONE이 함께 운영된다.",
+    "tel": "02-517-6017",
+    "homepage": "https://www.instagram.com/cosmos.exh/",
+    "eventplace": "K-문화 스테이션 / 두두두 서울(dududo seoul)",
+    "playtime": "- 10:00~22:00※ 8/24 14:00~22:00",
+    "usefee": "20,200원",
+    "sponsor": "YG ENTERTAINMENT",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "COSMOS BIGBANG 20TH ANNIVERSARY MEDIA EXHIBITION은 그룹 BIGBANG의 데뷔 20주년을 기념하여 지난 20년의 음악과 활동을 미디어아트로 구성한 전시이다. ‘COSMOS’를 주제로 과거와 현재, 미래를 연결하는 관계와 지속성을 공간별 콘텐츠로 구현한 전시이다. 서울 시청역과 을지로입구역 사이 지하 공간인 두두두 서울에서 개최되며, 관람객은 사전 예약한 회차에 맞추어 순차적으로 입장하는 방식이다. 전시 공간은 미디어 터널, 사운드 비주얼라이제이션 및 리스닝 존, 미디어 아카이브, 인터랙티브 아트 월, VR 존, 홀로그램 쇼 등으로 구성된다. AI, XR·VR, 홀로그램, 3D 모션그래픽 등 디지털 기술을 활용하여 BIGBANG의 음악과 기록을 시청각 콘텐츠로 제공하는 전시이다. 관람객이 직접 참여하는 인터랙티브 콘텐츠와 메시지형 콘텐츠도 포함되어 있으며, 전시 기간은 PHASE 1과 PHASE 2로 나뉘어 일부 VR·홀로그램 콘텐츠와 구매 특전이 변경되는 구성이다. 전시는 100% 사전 예약제로 하루 12회차 운영되며, 현장에는 전시 관람객을 위한 MD ZONE이 함께 운영된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램: COSMIC MEDIA TUNNEL / SOUND VISUALIZATION ART & LISTENING ZONE / V.I.P. ZONE / MEDIA ARCHIVE / INTERACTIVE ART WALL / VR ZONE / HOLOGRAM SHOW / SHARE HERITAGE / WALKING WITH BIGBANG\n- PHASE 1: 2026.08.24~2026.09.13\n- PHASE 2: 2026.09.15~2026.09.27\n- 단계별 변경 콘텐츠: VR 콘텐츠 / HOLOGRAM SHOW / MD 구매 특전\n- 운영 방식: 100% 사전 예약제, 일 12회차\n- 휴관일: 매주 월요일(2026.08.24 제외)\n- 부대시설: MD ZONE"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "덕수궁 대한문",
+        "dist": 200,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3384991_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 99 (정동)"
+      },
+      {
+        "name": "덕수궁 돌담길",
+        "dist": 281,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2658350_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 지하 101"
+      },
+      {
+        "name": "숭례문",
+        "dist": 399,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2612539_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 40"
+      },
+      {
+        "name": "명동 남대문 북창동 다동무교동 관광특구",
+        "dist": 400,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3077642_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 40"
+      },
+      {
+        "name": "대한성공회 서울주교좌성당",
+        "dist": 431,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568354_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로21길 15 (정동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "진주회관",
+        "dist": 160,
+        "image": "",
+        "addr": "서울특별시 중구 세종대로11길 26 (서소문동)"
+      },
+      {
+        "name": "삼성 빨간양념 숯불구이",
+        "dist": 184,
+        "image": "",
+        "addr": "서울특별시 중구 남대문로1길 39"
+      },
+      {
+        "name": "서화",
+        "dist": 200,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3094654_image2_1.jpg",
+        "addr": "서울특별시 중구 서소문로 109 (서소문동)"
+      },
+      {
+        "name": "청송옥",
+        "dist": 204,
+        "image": "",
+        "addr": "서울특별시 중구 서소문로11길 14"
+      },
+      {
+        "name": "고려삼계탕",
+        "dist": 227,
+        "image": "",
+        "addr": "서울특별시 중구 서소문로11길 1 (서소문동)"
+      }
+    ]
+  },
+  {
+    "contentid": "s2sw7kh",
+    "name": "청주전통공예페스티벌",
+    "startDate": "20260917",
+    "endDate": "20260927",
+    "address": "충청북도 청주시 청원구 상당로 314",
+    "lat": "36.65619563",
+    "lng": "127.4923824",
+    "image": "",
+    "overview": "지역전통공예 활성화 및 시민 참여형 축제",
+    "tourOverview": "",
+    "tel": "043-201-2038",
+    "homepage": "",
+    "eventplace": "문화제조창 갤러리",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "충청북도 청주시청",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "동부창고",
+        "dist": 137,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/3309017_image2_1.jpg",
+        "addr": "충청북도 청주시 청원구 덕벌로 30 청주동부창고"
+      },
+      {
+        "name": "팔봉제빵점",
+        "dist": 989,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3075465_image2_1.jpg",
+        "addr": "충청북도 청주시 상당구 수암로 57-1"
+      },
+      {
+        "name": "수암골 벽화마을",
+        "dist": 1004,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/98/3353798_image2_1.jpg",
+        "addr": "충청북도 청주시 상당구 수암로 58"
+      },
+      {
+        "name": "수암골전망대",
+        "dist": 1201,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/31/3504331_image2_1.jpg",
+        "addr": "충청북도 청주시 상당구 수동로5번길 2"
+      },
+      {
+        "name": "수암골 카페거리",
+        "dist": 1259,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/44/3357644_image2_1.jpg",
+        "addr": "충청북도 청주시 상당구 수암로20번길 26 (수동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "일면식",
+        "dist": 284,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2859969_image2_1.jpg",
+        "addr": "충청북도 청주시 청원구 덕벌로 43"
+      },
+      {
+        "name": "[백년가게]리정",
+        "dist": 539,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/74/2630874_image2_1.JPG",
+        "addr": "충청북도 청주시 청원구 우암로 71-1"
+      },
+      {
+        "name": "금용",
+        "dist": 754,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2856979_image2_1.jpg",
+        "addr": "충청북도 청주시 청원구 내덕로 33"
+      },
+      {
+        "name": "왕뚝배기감자탕",
+        "dist": 788,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/2860138_image2_1.jpg",
+        "addr": "충청북도 청주시 청원구 중앙로 144"
+      },
+      {
+        "name": "할머니추어탕",
+        "dist": 962,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/2859322_image2_1.jpg",
+        "addr": "충청북도 청주시 청원구 1순환로 219"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "sg6p090",
+    "name": "세계불꽃축제with 버스킹",
+    "startDate": "20260927",
+    "endDate": "20260927",
+    "address": "서울특별시 동작구 노들로 688",
+    "lat": "",
+    "lng": "",
+    "image": "",
+    "overview": "불꽃과 선율이 만나는 특별한 밤 서울불꽃음악회",
+    "tourOverview": "",
+    "tel": "02-820-9405",
+    "homepage": "",
+    "eventplace": "노량진축구장",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "서울특별시 동작문화재단",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [],
+    "nearbyFood": [],
+    "source": "std"
   }
 ]
