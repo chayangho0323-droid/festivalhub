@@ -14,6 +14,27 @@ const path = require("path");
 // 배포 주소 (festivalhub.kr 도메인 — 2026-08 구입)
 const SITE_URL = "https://festivalhub.kr";
 
+// ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
+// 받은 사진: photos/ 폴더 + photos.json({ "<contentid>": [{image, credit, caption}] }) → 상세 "📸 방문자 사진" 갤러리.
+// 공식 사진이 없는 축제는 첫 제보 사진이 대표 사진이 된다.
+const VP = require("./visitor-photos");
+const REPORT_EMAIL = "chayangho0323@gmail.com";
+const visitorPhotos = VP.loadVisitorPhotos(SITE_URL);
+const FONT_LINK = `<link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />`;
+function reportMailto(f) {
+  return VP.reportMailto(f
+    ? { email: REPORT_EMAIL, siteName: "FestivalHub", name: f.name, where: (f.address || "").split(" ").slice(0, 2).join(" "), pageUrl: `${SITE_URL}/festival/${f.contentid}.html` }
+    : { email: REPORT_EMAIL, siteName: "FestivalHub" });
+}
+function photoCallHtml(f) {
+  const text = f
+    ? "이 축제에 다녀오셨나요? 가족·친구와 찍은 사진, 자랑하고 싶은 현장 사진을 보내주세요 — <strong>닉네임과 함께</strong> 이 페이지에 올려드려요."
+    : "가족·친구와 찍은 축제 사진, 자랑하고 싶은 현장 사진을 보내주세요! <strong>닉네임과 함께</strong> 축제 페이지에 올려드려요.";
+  return VP.photoCallHtml({ title: "축제 사진 자랑해 주세요!", text, href: reportMailto(f) });
+}
+
 // 구글 애널리틱스(GA4) 방문자 통계 코드 — 모든 생성 페이지의 <head>에 들어간다.
 // 측정 ID를 바꾸려면 아래 G-... 두 군데를 수정.
 const GA_SNIPPET = `
@@ -277,6 +298,8 @@ function buildPage(f, all) {
 
   // ── 사진 갤러리 ──
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
+  const vph = visitorPhotos[String(f.contentid)];
+  if (!photos.length && vph) photos.push(vph[0].image);
   const gallery = photos.length
     ? `<img class="hero" id="hero-img" src="${esc(photos[0])}" alt="${esc(f.name)}" />` +
       (photos.length > 1
@@ -425,6 +448,8 @@ function buildPage(f, all) {
   <meta property="og:url" content="${SITE_URL}/festival/${f.contentid}.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="../style.css" />
+  ${FONT_LINK}
+  <link rel="stylesheet" href="../report.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
@@ -453,8 +478,10 @@ function buildPage(f, all) {
         ${infoRow("📞", "문의", esc(f.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${noteSection}
       ${autoIntro}
+      ${photoCallHtml(f)}
       ${overview}
       ${extraSections}
       ${ADFIT_BODY}
@@ -497,6 +524,7 @@ function buildPage(f, all) {
   </script>
   <script src="../festival-page.js"></script>
   <script src="../track-clicks.js"></script>
+  <script src="../report.js"></script>
 </body>
 </html>`;
 }
@@ -613,6 +641,8 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${SITE_URL}/${filename}" />
   <link rel="stylesheet" href="style.css" />
+  ${FONT_LINK}
+  <link rel="stylesheet" href="report.css" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -622,11 +652,13 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
     <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
   </header>
   ${SITE_NAV}
+  ${photoCallHtml(null)}
   <p class="result-count">${items.length}개의 축제</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
+  <script src="report.js"></script>
 </body>
 </html>`;
 }
@@ -974,6 +1006,8 @@ try {
   <meta property="og:description" content="전국 동네 공연·연주회·연극 ${events.length}건 지역별 정리" />
   <meta property="og:url" content="${SITE_URL}/events.html" />
   <link rel="stylesheet" href="style.css" />
+  ${FONT_LINK}
+  <link rel="stylesheet" href="report.css" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -989,6 +1023,7 @@ try {
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
+  <script src="report.js"></script>
 </body>
 </html>`,
       "utf-8"
