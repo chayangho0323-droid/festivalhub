@@ -151,6 +151,7 @@ function footerHtml(prefix = "") {
   <footer class="site-footer">
     <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
     <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
+    <p>📚 축제 가이드: <a href="${prefix}picks-2026-10.html">10월 추천 15선</a> · <a href="${prefix}guide-checklist.html">준비물</a> · <a href="${prefix}guide-rain.html">비 올 때</a> · <a href="${prefix}guide-parking.html">주차·셔틀</a> · <a href="${prefix}guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>`;
 }
@@ -940,6 +941,81 @@ try {
   }
 }
 
+// ── 축제 가이드 글 + 에디터 추천 페이지 (festival-guides.js — 운영자가 직접 쓴 콘텐츠) ──
+const { GUIDE_PAGES, PICKS } = require("./festival-guides.js");
+function articlePage({ filename, title, desc, icon, bodyHtml }) {
+  return `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${esc(title)} — FestivalHub</title>
+  <meta name="description" content="${esc(desc)}" />
+  <link rel="canonical" href="${SITE_URL}/${filename}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${esc(title)} — FestivalHub" />
+  <meta property="og:description" content="${esc(desc)}" />
+  <meta property="og:url" content="${SITE_URL}/${filename}" />
+  <link rel="stylesheet" href="style.css" />
+  ${GA_SNIPPET}
+</head>
+<body>
+  <header class="site-header">
+    <h1>${icon} ${esc(title)}</h1>
+    <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
+  </header>
+  <main class="detail-container">
+    <div class="detail-body guide-body">
+      ${bodyHtml}
+      <p class="coupang-notice">※ 이 글은 FestivalHub 운영자가 직접 쓴 가이드입니다. 축제 운영 방식은 해마다 달라질 수 있으니 방문 전 공식 안내를 함께 확인해 주세요.</p>
+    </div>
+  </main>
+  ${footerHtml("")}
+  <script src="track-clicks.js"></script>
+</body>
+</html>`;
+}
+const guideFiles = [];
+for (const g of GUIDE_PAGES) {
+  const filename = `${g.slug}.html`;
+  fs.writeFileSync(filename, articlePage({ filename, title: g.title, desc: g.desc, icon: g.icon, bodyHtml: g.body }), "utf-8");
+  guideFiles.push(filename);
+}
+// 에디터 추천: 키로 현재 데이터에서 축제를 찾아 카드로 (종료·미수집 축제는 건너뜀)
+const pickToday = todayStr();
+for (const pk of PICKS) {
+  const filename = `${pk.slug}.html`;
+  const cards = pk.items
+    .map((it) => {
+      const f = festivals
+        .filter((x) => x.endDate >= pickToday && normFestName(x.name).includes(it.key.toLowerCase()))
+        .sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0))[0];
+      if (!f) return "";
+      const img = f.image
+        ? `<img src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" />`
+        : `<div class="pick-noimg">🎪</div>`;
+      return `
+      <a class="pick-card" href="festival/${f.contentid}.html">
+        ${img}
+        <div class="pick-body">
+          <span class="badge upcoming">${esc(it.tag)}</span>
+          <h3>${esc(f.name)}</h3>
+          <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}</p>
+          <p class="pick-why">${esc(it.why)}</p>
+        </div>
+      </a>`;
+    })
+    .filter(Boolean);
+  const bodyHtml = `
+      <section class="overview"><p>${pk.intro}</p></section>
+      <div class="pick-list">${cards.join("")}</div>
+      <p class="guide-tip">💡 가기 전에 <a href="guide-checklist.html">준비물 체크리스트</a>와 <a href="guide-parking.html">주차·셔틀 요령</a>도 함께 보세요. 비 예보가 있으면 <a href="guide-rain.html">우천 확인법</a>을.</p>`;
+  fs.writeFileSync(filename, articlePage({ filename, title: pk.title, desc: pk.desc, icon: "🍂", bodyHtml }), "utf-8");
+  guideFiles.push(filename);
+  console.log(`✅ ${filename} (추천 ${cards.length}/${pk.items.length}곳 매칭)`);
+}
+console.log(`✅ 가이드·추천 페이지 ${guideFiles.length}개`);
+
 // ── sitemap.xml: 검색엔진에게 "우리 사이트에 이런 페이지들이 있어요" 알려주는 지도 ──
 const today = kstNow().toISOString().slice(0, 10); // 한국시간 기준 날짜
 const urls = [
@@ -947,6 +1023,7 @@ const urls = [
   `${SITE_URL}/about.html`,
   `${SITE_URL}/privacy.html`,
   `${SITE_URL}/weekend.html`,
+  ...guideFiles.map((gf) => `${SITE_URL}/${gf}`),
   ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),

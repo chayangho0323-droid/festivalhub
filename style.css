@@ -853,3 +853,55 @@ body {
   min-height: 0;
 }
 .adfit ins { max-width: 100%; }
+
+/* Guide articles (festival-guides.js) */
+.guide-body ul { margin: 10px 0 0 20px; line-height: 1.85; }
+.guide-body li { margin-bottom: 7px; }
+.guide-body p { line-height: 1.8; }
+.guide-tip {
+  background: #fff7ec;
+  border-left: 4px solid #e8752c;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-top: 14px;
+  line-height: 1.8;
+}
+.table-wrap { overflow-x: auto; margin-top: 12px; }
+.guide-table { width: 100%; min-width: 480px; border-collapse: collapse; background: #fff; font-size: 0.9rem; line-height: 1.6; }
+.guide-table th { background: #eef1f7; font-weight: 700; white-space: nowrap; }
+.guide-table th, .guide-table td { border: 1px solid #e2e5ea; padding: 9px 12px; text-align: left; vertical-align: top; }
+
+/* Editor picks list */
+.pick-list { display: flex; flex-direction: column; gap: 14px; margin-top: 8px; }
+.pick-card {
+  display: flex;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s;
+}
+.pick-card:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); }
+.pick-card img, .pick-noimg {
+  width: 180px;
+  min-height: 130px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #e9ecf1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.pick-body { padding: 12px 14px 12px 0; }
+.pick-body h3 { font-size: 1.05rem; margin: 6px 0 4px; }
+.pick-body .period { font-size: 0.85rem; color: #666; }
+.pick-why { font-size: 0.92rem; line-height: 1.65; color: #333; margin-top: 6px; }
+@media (max-width: 600px) {
+  .pick-card { flex-direction: column; }
+  .pick-card img, .pick-noimg { width: 100%; height: 160px; }
+  .pick-body { padding: 0 14px 14px; }
+}
