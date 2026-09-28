@@ -14,6 +14,13 @@
       "runtimeArgs": ["D:\\camping-hub\\serve.js"],
       "port": 8090,
       "autoPort": true
+    },
+    {
+      "name": "pettrip-site",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["D:\\pettrip-hub\\serve.js"],
+      "port": 8095,
+      "autoPort": true
     }
   ]
 }

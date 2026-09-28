@@ -30,12 +30,12 @@ const GA_SNIPPET = `
 
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
 // (파트너스 링크로 구매가 일어나면 수수료 발생. 고지 문구는 표시 의무사항)
-// ⚠️ 애드센스 심사를 위해 임시로 비움 (2026-09-14) — 승인되면 아래 주석을 다시 살릴 것!
+// (2026-09-14 애드센스 1차 심사 동안 비웠다가 2026-09-28 복구. 제휴 링크는 애드센스 정책상 허용됨)
 const COUPANG_ITEMS = [
-  // { name: "🪑 캠핑의자", url: "https://link.coupang.com/a/f7LuGkEJMq" },
-  // { name: "🧺 돗자리", url: "https://link.coupang.com/a/f7MlAxqn7s" },
-  // { name: "🧣 캠핑 담요", url: "https://link.coupang.com/a/gP8GvQyG2S" },
-  // { name: "🔥 핫팩", url: "https://link.coupang.com/a/gP8J1IrVsW" },
+  { name: "🪑 캠핑의자", url: "https://link.coupang.com/a/f7LuGkEJMq" },
+  { name: "🧺 돗자리", url: "https://link.coupang.com/a/f7MlAxqn7s" },
+  { name: "🧣 캠핑 담요", url: "https://link.coupang.com/a/gP8GvQyG2S" },
+  { name: "🔥 핫팩", url: "https://link.coupang.com/a/gP8J1IrVsW" },
 ];
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
