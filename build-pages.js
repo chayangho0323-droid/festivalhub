@@ -185,6 +185,61 @@ function findFestivalNote(f) {
   return festivalNotes.find((x) => x.key && n.includes(x.key.toLowerCase())) || null;
 }
 
+// ─── 얇은 페이지 보강: 데이터로 만드는 "한눈에 보기" 문단 ─────────────
+// 공공데이터 소개글이 200자 미만이고 직접 쓴 축제 이야기도 없는 축제에, 장소·기간·시간·요금·주최·주변 관광지
+// 필드를 자연스러운 문장으로 엮어 붙인다. 있는 사실만 쓰고 없는 필드는 문장을 통째로 뺀다.
+const FEST_MONTH_RANGE = { first: "202608" }; // 월별 페이지가 존재하는 첫 달 (FIRST_MONTH와 동일)
+function eun(word) { // 은/는 조사
+  const c = String(word || "").trim().slice(-1);
+  const code = c.charCodeAt(0);
+  if (code < 0xac00 || code > 0xd7a3) return "은(는)";
+  return (code - 0xac00) % 28 === 0 ? "는" : "은";
+}
+function kindOf(name) {
+  const n = String(name || "");
+  if (/박람회|엑스포|페어|EXPO/i.test(n)) return "박람회";
+  if (/문화제|문화축전|예술제/.test(n)) return "문화 축제";
+  if (/페스티벌|페스타|festival/i.test(n)) return "페스티벌";
+  if (/음악회|콘서트|공연|연주회|음악제/.test(n)) return "공연 행사";
+  if (/전시|특별전|비엔날레/.test(n)) return "전시";
+  if (/축제/.test(n)) return "축제";
+  if (/대회|런|마라톤|걷기/.test(n)) return "참여형 행사";
+  return "지역 행사";
+}
+function autoIntroHtml(f) {
+  const name = f.name;
+  const kind = kindOf(name);
+  const region = String(f.address || "").split(" ").slice(0, 2).join(" ").trim();
+  const place = String(f.eventplace || "").trim();
+  const oneDay = f.startDate === f.endDate;
+  const when = oneDay ? `${formatDate(f.startDate)} 하루 동안` : `${formatDate(f.startDate)}부터 ${formatDate(f.endDate)}까지`;
+  const where = place && region ? `${region}의 ${place}` : place || region || "";
+  const s = [];
+  s.push(`${name}${eun(name)} ${when} ${where ? where + "에서 " : ""}열리는 ${kind}입니다.`);
+  const playtime = String(f.playtime || "").trim();
+  const usefee = String(f.usefee || "").trim();
+  if (playtime && usefee) s.push(`운영 시간은 ${playtime}이고, ${/무료/.test(usefee) ? "입장은 무료입니다" : `요금은 ${usefee}입니다`}.`);
+  else if (playtime) s.push(`운영 시간은 ${playtime}입니다.`);
+  else if (usefee) s.push(/무료/.test(usefee) ? "입장은 무료입니다." : `요금은 ${usefee}입니다.`);
+  const sponsor = String(f.sponsor || "").trim();
+  const tel = String(f.tel || "").replace(/^-\s*/, "").trim();
+  if (sponsor && tel) s.push(`${sponsor}가 주최하며, 자세한 프로그램은 ${tel}로 문의할 수 있습니다.`);
+  else if (sponsor) s.push(`${sponsor}가 주최합니다.`);
+  else if (tel) s.push(`자세한 프로그램은 ${tel}로 문의할 수 있습니다.`);
+  const spots = (f.nearbySpots || []).map((x) => x.name).filter(Boolean).slice(0, 2);
+  if (spots.length) s.push(`행사장 주변에는 ${spots.join(", ")} 같은 관광지가 있어 함께 둘러보기 좋습니다.`);
+  const ym = String(f.startDate || "").slice(0, 6);
+  if (ym >= FEST_MONTH_RANGE.first) {
+    const m = Number(ym.slice(4, 6));
+    s.push(`같은 달에 열리는 다른 축제는 <a href="../month-${ym.slice(0, 4)}-${ym.slice(4, 6)}.html">${m}월 축제 일정</a>에서 볼 수 있습니다.`);
+  }
+  return `<section class="overview auto-intro"><h2>한눈에 보기</h2><p>${s.join(" ")}</p></section>`;
+}
+// 정말 빈 페이지 판정: 사진·소개·홈페이지·좌표가 모두 없으면 검색 색인에서 제외 (noindex, 사이트맵에서도 뺌)
+function isBarePage(f) {
+  return !f.image && stripHtml(f.overview || "").length < 30 && stripHtml(f.tourOverview || "").length < 30 && !f.homepage && !(f.lat && f.lng) && !findFestivalNote(f);
+}
+
 // ─── 축제 한 건 → HTML 페이지 ──────────────────────────────
 
 function buildPage(f, all) {
@@ -210,8 +265,15 @@ function buildPage(f, all) {
       </section>`
     : "";
 
-  // 검색 결과에 보일 설명문: 소개글 앞부분 150자 (직접 쓴 글이 있으면 그 첫 문단)
-  const description = ((note && note.intro[0]) || stripHtml(f.overview) || `${f.name} — ${period}, ${f.address}`).slice(0, 150);
+  // 소개가 얇으면(200자 미만, 축제 이야기도 없음) 데이터로 만든 "한눈에 보기" 문단을 붙인다
+  const thin = !note && stripHtml(f.overview || "").length < 200 && stripHtml(f.tourOverview || "").length < 200;
+  const autoIntro = thin ? autoIntroHtml(f) : "";
+  const autoIntroText = thin ? stripHtml(autoIntro).replace(/^한눈에 보기/, "").trim() : "";
+
+  // 검색 결과에 보일 설명문: 직접 쓴 글 > 공공데이터 소개(100자 이상) > 자동 소개 > 기본
+  const ovText = stripHtml(f.overview);
+  const description = ((note && note.intro[0]) || (ovText.length >= 100 ? ovText : "") || autoIntroText || ovText || `${f.name} — ${period}, ${f.address}`).slice(0, 150);
+  const bare = isBarePage(f);
 
   // ── 사진 갤러리 ──
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
@@ -354,6 +416,7 @@ function buildPage(f, all) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${esc(f.name)} (${period}) — FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
+  ${bare ? `<meta name="robots" content="noindex,follow" />` : ""}
   <link rel="canonical" href="${SITE_URL}/festival/${f.contentid}.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(f.name)} (${period})" />
@@ -391,6 +454,7 @@ function buildPage(f, all) {
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
       ${noteSection}
+      ${autoIntro}
       ${overview}
       ${extraSections}
       ${ADFIT_BODY}
@@ -1028,10 +1092,12 @@ const urls = [
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
   ...regionFiles.map((rf) => `${SITE_URL}/${rf}`),
-  ...festivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
+  // 정말 빈 페이지(noindex)는 사이트맵에서도 제외
+  ...festivals.filter((f) => !isBarePage(f)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
   // 종료 축제도 사이트맵에 유지 — 색인을 지키고 내년 검색까지 잡는 자산
-  ...archivedFestivals.map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
+  ...archivedFestivals.filter((f) => !isBarePage(f)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
 ];
+console.log(`ℹ️ noindex(빈 페이지) ${[...festivals, ...archivedFestivals].filter(isBarePage).length}개`);
 const sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
