@@ -909,3 +909,7 @@ body {
 /* Auto intro paragraph for thin pages */
 .auto-intro p { line-height: 1.85; }
 .auto-intro a { color: #4756c9; }
+
+/* KOPIS show pages */
+.show-card img { height: 300px; object-fit: cover; object-position: top; }
+.show-poster { max-height: 80vh; object-fit: contain; background: #111; }

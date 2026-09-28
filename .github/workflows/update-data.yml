@@ -36,6 +36,12 @@ jobs:
         env:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
 
+      # 4-2. KOPIS 공연 데이터 (Secrets에 KOPIS_KEY가 있을 때만 수집, 없으면 건너뜀)
+      - run: node fetch-kopis.js
+        env:
+          KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
+        continue-on-error: true
+
       # 5. 축제별 정적 페이지 + sitemap 재생성
       - run: node build-pages.js
 

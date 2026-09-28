@@ -747,7 +747,7 @@ const todayYmd = todayStr();
   SITE_NAV = `
   <nav class="quick-links sticky-desktop">
     <a class="chip chip-hot" href="weekend.html">🔥 이번 주말</a>
-    ${fs.existsSync(path.join(__dirname, "events.json")) ? `<a class="chip chip-events" href="events.html">🎭 공연·행사</a>` : ""}
+    ${fs.existsSync(path.join(__dirname, "performances.json")) ? `<a class="chip chip-events" href="shows.html">🎭 공연</a>` : fs.existsSync(path.join(__dirname, "events.json")) ? `<a class="chip chip-events" href="events.html">🎭 공연·행사</a>` : ""}
     ${navMonths.map((d) => `<a class="chip" href="month-${d.y}-${d.mm}.html">${d.m}월</a>`).join("")}
     ${navThemes.map((t) => `<a class="chip" href="theme-${t.slug}.html">${t.icon} ${t.chip}</a>`).join("")}
     ${navRegions.map((r) => `<a class="chip" href="region-${REGION_SLUGS[r] || "etc"}.html">${esc(r)}</a>`).join("")}
@@ -1040,6 +1040,160 @@ try {
   }
 }
 
+// ── KOPIS 공연 페이지 (performances.json → shows.html + show/<id>.html) ──
+// 출처 표기 의무: (재)예술경영지원센터 공연예술통합전산망(www.kopis.or.kr). 포스터는 KOPIS가 제공하는 경로를 그대로 링크.
+const KOPIS_CREDIT = `공연 정보·포스터 출처: <a href="https://www.kopis.or.kr" target="_blank" rel="noopener">(재)예술경영지원센터 공연예술통합전산망(KOPIS)</a>`;
+let shows = [];
+try { shows = JSON.parse(fs.readFileSync("performances.json", "utf-8")).filter((s) => s.endDate >= todayStr()); } catch {}
+const showFiles = [];
+if (shows.length >= 10) {
+  const showDir = path.join(__dirname, "show");
+  if (!fs.existsSync(showDir)) fs.mkdirSync(showDir);
+  for (const old of fs.readdirSync(showDir)) if (old.endsWith(".html")) fs.unlinkSync(path.join(showDir, old));
+
+  const GENRE_ICON = { 뮤지컬: "🎼", 연극: "🎭", "서양음악(클래식)": "🎻", "한국음악(국악)": "🥁", 대중음악: "🎤", "무용(서양/한국무용)": "🩰", 대중무용: "💃", "서커스/마술": "🎪", 복합: "✨" };
+  const gIcon = (g) => GENRE_ICON[g] || "🎫";
+  const regionOf = (s) => getRegion(s.address || s.area || "");
+  const showCard = (s, prefix = "") => `
+      <a class="card-link" href="${prefix}show/${s.id}.html">
+        <article class="card show-card">
+          ${s.poster ? `<img src="${esc(s.poster)}" alt="${esc(s.name)} 포스터" loading="lazy" />` : `<div class="no-image">${gIcon(s.genre)}</div>`}
+          <div class="card-body">
+            <span class="badge ${s.state === "공연중" ? "ongoing" : "upcoming"}">${esc(s.state)}</span>
+            <span class="badge long">${gIcon(s.genre)} ${esc(s.genre)}</span>
+            <h2>${esc(s.name)}</h2>
+            <p class="period">📅 ${formatDate(s.startDate)} ~ ${formatDate(s.endDate)}</p>
+            <p class="address">📍 ${esc(s.venue)}</p>
+          </div>
+        </article>
+      </a>`;
+
+  // 상세 페이지
+  for (const s of shows) {
+    const d = s.detail || {};
+    const region = regionOf(s);
+    const hasCoords = s.lat && s.lng;
+    const tickets = (d.tickets || []).length
+      ? `<section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons">${d.tickets.map((t) => `<a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="${esc(t.url)}">${esc(t.name || "예매처")} 예매</a>`).join("")}</div></section>`
+      : "";
+    const story = d.story ? `<section class="overview"><h2>소개</h2><p>${esc(d.story).replace(/\n+/g, "<br />")}</p></section>` : "";
+    const gallery = (d.images || []).length ? `<div class="thumbs">${d.images.slice(0, 6).map((u, i) => `<img src="${esc(u)}" alt="${esc(s.name)} 소개 이미지 ${i + 1}" class="thumb" loading="lazy" />`).join("")}</div>` : "";
+    const same = shows.filter((o) => o.id !== s.id && regionOf(o) === region && o.genre === s.genre).slice(0, 6);
+    const sameSection = same.length ? `<section class="nearby-section"><h2>🎭 ${esc(region)}의 다른 ${esc(s.genre)}</h2><div class="festival-grid">${same.map((o) => showCard(o, "../")).join("")}</div></section>` : "";
+    const description = (d.story || `${s.name} — ${formatDate(s.startDate)}~${formatDate(s.endDate)}, ${s.venue}. ${s.genre}${d.price ? `, ${d.price}` : ""}`).slice(0, 150);
+    const jsonLd = { "@context": "https://schema.org", "@type": "Event", name: s.name, startDate: `${s.startDate.slice(0, 4)}-${s.startDate.slice(4, 6)}-${s.startDate.slice(6, 8)}`, endDate: `${s.endDate.slice(0, 4)}-${s.endDate.slice(4, 6)}-${s.endDate.slice(6, 8)}`, eventStatus: "https://schema.org/EventScheduled", location: { "@type": "Place", name: s.venue, address: s.address || s.area }, ...(s.poster ? { image: [s.poster] } : {}), ...(d.producer ? { organizer: { "@type": "Organization", name: d.producer } } : {}) };
+    const html = `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${esc(s.name)} — ${esc(s.venue)} ${esc(s.genre)} 일정·예매 | FestivalHub</title>
+  <meta name="description" content="${esc(description)}" />
+  <link rel="canonical" href="${SITE_URL}/show/${s.id}.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="${esc(s.name)} — ${esc(s.venue)}" />
+  <meta property="og:description" content="${esc(description)}" />
+  ${s.poster ? `<meta property="og:image" content="${esc(s.poster)}" />` : ""}
+  <meta property="og:url" content="${SITE_URL}/show/${s.id}.html" />
+  <link rel="stylesheet" href="../style.css" />
+  ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>` : ""}
+  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+  ${GA_SNIPPET}
+</head>
+<body>
+  <main class="detail-container">
+    <a class="back-link" href="../shows.html">← 전국 공연 일정으로</a>
+    ${s.poster ? `<img class="hero show-poster" src="${esc(s.poster)}" alt="${esc(s.name)} 포스터" />` : ""}
+    <div class="detail-body">
+      <div class="badges"><span class="badge ${s.state === "공연중" ? "ongoing" : "upcoming"}">${esc(s.state)}</span> <span class="badge long">${gIcon(s.genre)} ${esc(s.genre)}</span>${d.kids ? ` <span class="badge upcoming">👶 아동 공연</span>` : ""}${s.openrun ? ` <span class="badge long">오픈런</span>` : ""}</div>
+      <h1>${esc(s.name)}</h1>
+      <div class="info-grid">
+        ${infoRow("📅", "공연 기간", `${formatDate(s.startDate)} ~ ${formatDate(s.endDate)}`)}
+        ${infoRow("🏛️", "공연장", esc(s.venue) + (s.address ? `<br /><span style="color:#777">${esc(s.address)}</span>` : ""))}
+        ${infoRow("⏰", "공연 시간", esc(d.schedule))}
+        ${infoRow("⌛", "러닝타임", esc(d.runtime))}
+        ${infoRow("🔞", "관람 연령", esc(d.age))}
+        ${infoRow("💰", "티켓 가격", esc(d.price))}
+        ${infoRow("🎭", "출연", esc(d.cast))}
+        ${infoRow("🎬", "제작진", esc(d.crew))}
+        ${infoRow("🏢", "제작·기획", esc(d.producer))}
+        ${infoRow("📞", "공연장 문의", esc(s.venueTel))}
+      </div>
+      ${tickets}
+      ${story}
+      ${gallery}
+      ${ADFIT_BODY}
+      <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}
+        <div class="dir-buttons">
+          ${hasCoords ? `<a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/${encodeURIComponent(s.venue)},${s.lat},${s.lng}">🚗 카카오맵 길찾기</a>` : ""}
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(s.address || s.venue)}">🧭 네이버지도에서 보기</a>
+        </div>
+      </section>
+      ${sameSection}
+      <p class="coupang-notice">※ ${KOPIS_CREDIT}. 공연 일정·가격은 변경될 수 있으니 예매처에서 다시 확인해 주세요.</p>
+    </div>
+  </main>
+  ${footerHtml("../")}
+  ${hasCoords ? `<script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([${s.lat}, ${s.lng}], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([${s.lat}, ${s.lng}]).addTo(map).bindPopup(${JSON.stringify(s.venue)}).openPopup();
+  </script>` : ""}
+  <script src="../track-clicks.js"></script>
+</body>
+</html>`;
+    fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
+    showFiles.push(`show/${s.id}.html`);
+  }
+
+  // 목록 페이지 shows.html — 이번 주 시작 / 장르 칩 / 지역별
+  const soon = shows.filter((s) => s.startDate >= todayStr() && s.startDate <= ymdAfter(7)).slice(0, 12);
+  const genres = [...new Set(shows.map((s) => s.genre))].sort((a, b) => shows.filter((s) => s.genre === b).length - shows.filter((s) => s.genre === a).length);
+  const byRegion = {};
+  for (const s of shows) (byRegion[regionOf(s)] = byRegion[regionOf(s)] || []).push(s);
+  const regionNames = Object.keys(byRegion).sort((a, b) => byRegion[b].length - byRegion[a].length);
+  fs.writeFileSync("shows.html", `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>전국 공연 일정 ${shows.length}건 — 뮤지컬·연극·콘서트·클래식 | FestivalHub</title>
+  <meta name="description" content="앞으로 3개월 안에 열리는 전국 뮤지컬, 연극, 콘서트, 클래식, 국악, 무용 공연 ${shows.length}건. 포스터·공연장·가격·예매처를 한눈에. KOPIS 공연예술통합전산망 데이터 기반, 매일 갱신." />
+  <link rel="canonical" href="${SITE_URL}/shows.html" />
+  <meta property="og:title" content="전국 공연 일정 — FestivalHub" />
+  <meta property="og:description" content="뮤지컬·연극·콘서트·클래식 ${shows.length}건, 매일 갱신" />
+  <meta property="og:url" content="${SITE_URL}/shows.html" />
+  <link rel="stylesheet" href="style.css" />
+  ${GA_SNIPPET}
+</head>
+<body>
+  <header class="site-header">
+    <h1>🎭 전국 공연 일정</h1>
+    <p class="subtitle">앞으로 3개월 안에 열리는 뮤지컬·연극·콘서트·클래식 ${shows.length}건</p>
+    <p class="home-link"><a href="index.html">← 전체 축제 보기</a> · <a href="events.html">지자체 소규모 행사 보기</a></p>
+  </header>
+  <nav class="quick-links sticky-desktop">
+    ${genres.map((g) => `<a class="chip" href="#genre-${encodeURIComponent(g)}">${gIcon(g)} ${esc(g)} ${shows.filter((s) => s.genre === g).length}</a>`).join("")}
+  </nav>
+  <nav class="quick-links">
+    ${regionNames.map((r) => `<a class="chip" href="#region-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`).join("")}
+  </nav>
+  ${soon.length ? `<section class="event-region" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>🆕 이번 주 시작하는 공연</h2></section><main class="festival-grid">${soon.map((s) => showCard(s)).join("")}</main>` : ""}
+  ${genres.map((g) => `<section class="event-region" id="genre-${encodeURIComponent(g)}" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>${gIcon(g)} ${esc(g)} <span class="event-count">${shows.filter((s) => s.genre === g).length}건</span></h2></section><main class="festival-grid">${shows.filter((s) => s.genre === g).slice(0, 24).map((s) => showCard(s)).join("")}</main>`).join("")}
+  ${regionNames.map((r) => `<section class="event-region" id="region-${REGION_SLUGS[r] || "etc"}" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>📍 ${esc(r)} <span class="event-count">${byRegion[r].length}건</span></h2></section><main class="festival-grid">${byRegion[r].slice(0, 24).map((s) => showCard(s)).join("")}</main>`).join("")}
+  <p class="coupang-notice" style="max-width:1200px;margin:0 auto;padding:0 16px">※ ${KOPIS_CREDIT} · 매일 새벽 자동 갱신</p>
+  <a class="to-top" href="#" aria-label="맨 위로">↑</a>
+  ${footerHtml("")}
+  <script src="track-clicks.js"></script>
+</body>
+</html>`, "utf-8");
+  showFiles.push("shows.html");
+  console.log(`✅ 공연 페이지 ${showFiles.length - 1}개 + shows.html (KOPIS ${shows.length}건)`);
+} else if (shows.length) {
+  console.log(`ℹ️ 공연 데이터가 ${shows.length}건뿐이라 공연 페이지 생성 건너뜀`);
+}
+function ymdAfter(n) { const d = kstNow(); d.setUTCDate(d.getUTCDate() + n); return d.getUTCFullYear() + String(d.getUTCMonth() + 1).padStart(2, "0") + String(d.getUTCDate()).padStart(2, "0"); }
+
 // ── 축제 가이드 글 + 에디터 추천 페이지 (festival-guides.js — 운영자가 직접 쓴 콘텐츠) ──
 const { GUIDE_PAGES, PICKS } = require("./festival-guides.js");
 function articlePage({ filename, title, desc, icon, bodyHtml }) {
@@ -1123,6 +1277,7 @@ const urls = [
   `${SITE_URL}/privacy.html`,
   `${SITE_URL}/weekend.html`,
   ...guideFiles.map((gf) => `${SITE_URL}/${gf}`),
+  ...showFiles.map((sf) => `${SITE_URL}/${sf}`),
   ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
