@@ -1,0 +1,1290 @@
+{
+  "FC000382": {
+    "name": "티오엠씨어터(구. 문화공간필링)",
+    "address": "서울특별시 종로구 대학로8가길 85 (동숭동)",
+    "lat": 37.5822467,
+    "lng": 127.00371659999996,
+    "tel": "00-1544-8303",
+    "homepage": "http://www.towntom.com/"
+  },
+  "FC000020": {
+    "name": "세종문화회관",
+    "address": "서울특별시 종로구 세종대로 175 (세종로)",
+    "lat": 37.5725254,
+    "lng": 126.97564290000003,
+    "tel": "02-399-1000",
+    "homepage": "http://www.sejongpac.or.kr/"
+  },
+  "FC003387": {
+    "name": "아트홀 마당",
+    "address": "울산광역시 중구 성안1길 101(성안동)",
+    "lat": 35.5755364,
+    "lng": 129.3224548,
+    "tel": "070-4123-4666",
+    "homepage": "http://www.usmadang.co.kr/"
+  },
+  "FC002246": {
+    "name": "푸르지오아트홀",
+    "address": "서울특별시 중구 을지로 170 (을지로4가)",
+    "lat": 37.5661792,
+    "lng": 126.9973242,
+    "tel": "02-2288-2864",
+    "homepage": "http://prugioarthall.daewooenc.com/"
+  },
+  "FC000183": {
+    "name": "달서아트센터 (구. 웃는얼굴아트센터)",
+    "address": "대구광역시 달서구 문화회관길 160 (장기동)",
+    "lat": 35.84337790000001,
+    "lng": 128.52284439999994,
+    "tel": "053-584-8715",
+    "homepage": "http://www.dscf.or.kr/pages/main/index.html"
+  },
+  "FC003816": {
+    "name": "신라불교초전지",
+    "address": "경상북도 구미시 도개면 도개다곡길 389-46",
+    "lat": 36.2909092,
+    "lng": 128.3633378,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000009": {
+    "name": "국립국악원",
+    "address": "서울특별시 서초구 남부순환로 2364 (서초동) 국립국악원",
+    "lat": 37.4786094,
+    "lng": 127.01130690000002,
+    "tel": "02-580-3300",
+    "homepage": "http://www.gugak.go.kr"
+  },
+  "FC004296": {
+    "name": "부산콘서트홀",
+    "address": "부산광역시 부산진구 동평로 250 (연지동)",
+    "lat": 35.1693728,
+    "lng": 129.0542532,
+    "tel": "051-640-8888",
+    "homepage": "https://classicbusan.busan.go.kr/"
+  },
+  "FC000164": {
+    "name": "동래문화회관",
+    "address": "부산광역시 동래구 문화로 80 (명륜동)",
+    "lat": 35.2120008,
+    "lng": 129.09038540000006,
+    "tel": "051-550-6611",
+    "homepage": "http://www.dongnae.go.kr/culture/index.dongnae?menuCd=DOM_000000605001000000"
+  },
+  "FC003609": {
+    "name": "모두예술극장",
+    "address": "서울특별시 서대문구 충정로 7 (충정로3가)",
+    "lat": 37.5601124,
+    "lng": 126.9622821,
+    "tel": "02-760-9769",
+    "homepage": "https://www.moduarttheater.or.kr/home/ko/main"
+  },
+  "FC002086": {
+    "name": "서산문화원",
+    "address": "충청남도 서산시 부춘공원2로 11 (읍내동)",
+    "lat": 36.7867298,
+    "lng": 126.4489674,
+    "tel": "041-669-5050",
+    "homepage": "http://www.cnkccf.or.kr/seosan.do"
+  },
+  "FC000537": {
+    "name": "안동문화예술의전당",
+    "address": "경상북도 안동시 축제장길 66 (안흥동)",
+    "lat": 36.5595259,
+    "lng": 128.7256906,
+    "tel": "054-840-3600",
+    "homepage": "http://andongart.go.kr/"
+  },
+  "FC004282": {
+    "name": "서울연극창작센터",
+    "address": "서울특별시 성북구 성북로 8 (동소문동1가)",
+    "lat": 37.5892179,
+    "lng": 127.0060408,
+    "tel": "02-758-1607",
+    "homepage": "https://stccenter.or.kr/"
+  },
+  "FC000028": {
+    "name": "강동아트센터",
+    "address": "서울특별시 강동구 동남로 870 (상일동)",
+    "lat": 37.5512621,
+    "lng": 127.15761910000003,
+    "tel": "02-440-0500",
+    "homepage": "https://www.gangdongarts.or.kr/"
+  },
+  "FC000400": {
+    "name": "증평문화회관",
+    "address": "충청북도 증평군 증평읍 삼보로 28",
+    "lat": 36.78575,
+    "lng": 127.570003,
+    "tel": "043-835-4114",
+    "homepage": "http://www.jp.go.kr/html/kr/section/life/life_0304.html"
+  },
+  "FC000548": {
+    "name": "예주문화예술회관",
+    "address": "경상북도 영덕군 영해면 318만세길 36",
+    "lat": 36.529789,
+    "lng": 129.40498860000002,
+    "tel": "054-730-7774",
+    "homepage": "http://art.yd.go.kr/"
+  },
+  "FC004422": {
+    "name": "아르코 꿈밭극장",
+    "address": "서울특별시 종로구 대학로12길 46 (동숭동)",
+    "lat": 37.582042,
+    "lng": 127.003731,
+    "tel": "02-3668-0007",
+    "homepage": "https://theater.arko.or.kr/"
+  },
+  "FC000868": {
+    "name": "성주문화예술회관",
+    "address": "경상북도 성주군 성주읍 성산9길 45",
+    "lat": 35.9183692,
+    "lng": 128.30130510000004,
+    "tel": "054-933-6912",
+    "homepage": "http://www.scac.go.kr"
+  },
+  "FC004394": {
+    "name": "미래아트홀",
+    "address": "서울특별시 종로구 창경궁로35길 26 (혜화동)",
+    "lat": 37.5869481,
+    "lng": 127.0021179,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001131": {
+    "name": "소월아트홀 (성동문화회관)",
+    "address": "서울특별시 성동구 왕십리로 281",
+    "lat": 37.559276,
+    "lng": 127.03599370000006,
+    "tel": "02-2204-6400",
+    "homepage": "http://www.sdfac.or.kr/main/index.html"
+  },
+  "FC002779": {
+    "name": "천안어린이꿈누리터 (구. 천안시 어린이 회관)",
+    "address": "충청남도 천안시 동남구 옛시청길 39 (문화동)",
+    "lat": 36.806633,
+    "lng": 127.1511772,
+    "tel": "070-4944-0360",
+    "homepage": "https://www.cachildren.kr/kor/index.do"
+  },
+  "FC000073": {
+    "name": "롤링홀",
+    "address": "서울특별시 마포구 어울마당로 35 (서교동) 지하 1층",
+    "lat": 37.5484417,
+    "lng": 126.92010579999999,
+    "tel": "02-325-6071",
+    "homepage": "http://www.rollinghall.co.kr/"
+  },
+  "FC000453": {
+    "name": "봄날아트홀 (구. 아리랑소극장)",
+    "address": "서울특별시 종로구 동숭길 39 (동숭동)",
+    "lat": 37.5799517,
+    "lng": 127.00425100000007,
+    "tel": "070-8639-7883",
+    "homepage": ""
+  },
+  "FC000924": {
+    "name": "고창문화의전당",
+    "address": "전라북도 고창군 고창읍 모양성로 11",
+    "lat": 35.4331954,
+    "lng": 126.70450310000001,
+    "tel": "063-560-8041",
+    "homepage": "http://www.gochang.go.kr/art/index.gochang"
+  },
+  "FC004469": {
+    "name": "낙동아트센터",
+    "address": "부산광역시 강서구 명지국제1로 141 (명지동)",
+    "lat": 35.102094,
+    "lng": 128.903987,
+    "tel": "",
+    "homepage": "https://bsgangseo.go.kr/nac"
+  },
+  "FC000214": {
+    "name": "남동소래아트홀",
+    "address": "인천광역시 남동구 아암대로1437번길 32 (논현동)",
+    "lat": 37.3874966,
+    "lng": 126.72463809999999,
+    "tel": "032-427-8401",
+    "homepage": "http://www.namdongcf.or.kr"
+  },
+  "FC000578": {
+    "name": "사천문화예술회관",
+    "address": "경상남도 사천시 삼천포대교로 471 (동림동)",
+    "lat": 34.9399063,
+    "lng": 128.07501849999994,
+    "tel": "055-831-2460",
+    "homepage": "https://www.sccf.or.kr/"
+  },
+  "FC005084": {
+    "name": "도산대로(현대모터스튜디오 앞)",
+    "address": "서울특별시 강남구 언주로 738 (논현동)",
+    "lat": 37.521261,
+    "lng": 127.034366,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000068": {
+    "name": "빛고을시민문화관",
+    "address": "전남광주통합특별시 남구 천변좌로338번길 7 (구동)",
+    "lat": 35.1481359,
+    "lng": 126.90864540000007,
+    "tel": "062-670-7931",
+    "homepage": "http://bitculture.gjcf.or.kr/php/"
+  },
+  "FC000455": {
+    "name": "부안예술회관",
+    "address": "전라북도 부안군 부안읍 예술회관길 11",
+    "lat": 35.7243919,
+    "lng": 126.72539059999997,
+    "tel": "063-580-3929",
+    "homepage": ""
+  },
+  "FC002028": {
+    "name": "생기 스튜디오",
+    "address": "서울특별시 마포구 와우산로 137 (서교동)",
+    "lat": 37.5538644,
+    "lng": 126.9285846,
+    "tel": "010-5354-0193",
+    "homepage": "https://www.senggistudio.com/"
+  },
+  "FC002785": {
+    "name": "KT&G 상상마당 라이브홀 [부산]",
+    "address": "부산광역시 부산진구 서면로 39 (부전동)",
+    "lat": 35.1542715,
+    "lng": 129.0573028,
+    "tel": "051-809-5555",
+    "homepage": "https://www.sangsangmadang.com/main/BS"
+  },
+  "FC001231": {
+    "name": "서귀포예술의전당",
+    "address": "제주특별자치도 서귀포시 태평로 270 (서홍동)",
+    "lat": 33.2452306,
+    "lng": 126.55175259999999,
+    "tel": "064-760-3341",
+    "homepage": "https://culture.seogwipo.go.kr/artcenter/index.htm"
+  },
+  "FC000493": {
+    "name": "순천문화예술회관",
+    "address": "전남광주통합특별시 순천시 삼산로 16 (석현동)",
+    "lat": 34.9705841,
+    "lng": 127.4853144,
+    "tel": "061-749-8612",
+    "homepage": "http://art.suncheon.go.kr/scart/"
+  },
+  "FC000076": {
+    "name": "대전예술의전당",
+    "address": "대전광역시 서구 둔산대로 135 (만년동)",
+    "lat": 36.3665211,
+    "lng": 127.3837135,
+    "tel": "042-270-8333",
+    "homepage": "https://www.daejeon.go.kr/djac/index.do"
+  },
+  "FC002833": {
+    "name": "청라복합문화센터 블루노바홀",
+    "address": "인천광역시 서구 청라대로 20 (청라동)",
+    "lat": 37.5240132,
+    "lng": 126.6341822,
+    "tel": "032-580-1196",
+    "homepage": "https://iscf.kr/_new/html/centerIntro/cheongna.php"
+  },
+  "FC001270": {
+    "name": "국립아시아문화전당",
+    "address": "전남광주통합특별시 동구 문화전당로 38 (광산동)",
+    "lat": 35.1467193,
+    "lng": 126.92025420000004,
+    "tel": "00-1899-5566",
+    "homepage": "https://www.acc.go.kr/"
+  },
+  "FC002361": {
+    "name": "반쥴",
+    "address": "서울특별시 종로구 삼일대로17길 23 (관철동)",
+    "lat": 37.5690724,
+    "lng": 126.9861858,
+    "tel": "02-735-5437",
+    "homepage": "http://www.banjul.co.kr/"
+  },
+  "FC000445": {
+    "name": "홍주문화회관",
+    "address": "충청남도 홍성군 홍성읍 내포로 164",
+    "lat": 36.5947409,
+    "lng": 126.65187470000001,
+    "tel": "041-634-0021",
+    "homepage": "https://www.hongseong.go.kr/hjart/art/sub03_01.do"
+  },
+  "FC000167": {
+    "name": "부산문화회관",
+    "address": "부산광역시 남구 유엔평화로76번길 1 (대연동)",
+    "lat": 35.127275,
+    "lng": 129.09361390000004,
+    "tel": "051-607-6000",
+    "homepage": "http://culture.busan.go.kr/Main.bs"
+  },
+  "FC000878": {
+    "name": "거제문화예술회관",
+    "address": "경상남도 거제시 장승로 145 (장승포동)",
+    "lat": 34.8671887,
+    "lng": 128.72397890000002,
+    "tel": "055-680-1000",
+    "homepage": "http://www.geojeart.or.kr/"
+  },
+  "FC004092": {
+    "name": "사운드마인드",
+    "address": "서울특별시 관악구 낙성대로 14 (봉천동) 지하1층",
+    "lat": 37.4772823,
+    "lng": 126.9587389,
+    "tel": "02-884-2555",
+    "homepage": "https://soundmindseoul.modoo.at/"
+  },
+  "FC001428": {
+    "name": "한국콘텐츠진흥원 CKL스테이지",
+    "address": "서울특별시 중구 청계천로 40",
+    "lat": 37.5684894,
+    "lng": 126.98161340000001,
+    "tel": "02-6441-3951",
+    "homepage": "https://venture.ckl.or.kr/stage/main.do"
+  },
+  "FC000233": {
+    "name": "전남광주통합특별시 예술의전당 (구. 광주예술의전당)",
+    "address": "전남광주통합특별시 북구 북문대로 60 (운암동)",
+    "lat": 35.1777124,
+    "lng": 126.88170230000003,
+    "tel": "062-613-8333",
+    "homepage": "https://gjart.gwangju.go.kr/intro.jsp"
+  },
+  "FC001536": {
+    "name": "충남도청 문예회관",
+    "address": "충청남도 예산군 삽교읍 도청대로 600",
+    "lat": 36.681115,
+    "lng": 126.67101189999994,
+    "tel": "041-635-3815",
+    "homepage": "https://www.chungnam.go.kr/art.do"
+  },
+  "FC005083": {
+    "name": "골드비스튜디오 부산대점",
+    "address": "부산광역시 금정구 금정로 61 (장전동)",
+    "lat": 35.230119,
+    "lng": 129.086147,
+    "tel": "",
+    "homepage": "https://www.instagram.com/goldbe_studio"
+  },
+  "FC003892": {
+    "name": "옥타바리움 라이브홀",
+    "address": "서울특별시 마포구 와우산로18길 16 (서교동)",
+    "lat": 37.5509163,
+    "lng": 126.9238938,
+    "tel": "",
+    "homepage": "https://octavarium.modoo.at/"
+  },
+  "FC002062": {
+    "name": "쌀롱드무지끄",
+    "address": "서울특별시 종로구 창의문로 129 (부암동)",
+    "lat": 37.5923644,
+    "lng": 126.965995,
+    "tel": "010-8826-8364",
+    "homepage": "https://salondemusique.modoo.at/"
+  },
+  "FC000178": {
+    "name": "을숙도문화회관",
+    "address": "부산광역시 사하구 낙동남로1233번길 25 (하단동)",
+    "lat": 35.1099098,
+    "lng": 128.94485229999998,
+    "tel": "051-220-5804",
+    "homepage": "http://www.saha.go.kr/eulsukdo/contents.do?mId=0103000000"
+  },
+  "FC005062": {
+    "name": "숲세권 라이브 2호점 [독립문]",
+    "address": "서울특별시 종로구 사직로 8 (교북동)",
+    "lat": 37.57212,
+    "lng": 126.961099,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000517": {
+    "name": "경주예술의전당",
+    "address": "경상북도 경주시 알천북로 1 (황성동)",
+    "lat": 35.8625869,
+    "lng": 129.20586520000006,
+    "tel": "054-777-2949",
+    "homepage": "https://garts.kr/index.do"
+  },
+  "FC001556": {
+    "name": "금호아트홀 연세",
+    "address": "서울특별시 서대문구 연세로 50 (신촌동) 연세대학교 백양누리 B1 금호아트홀 연세",
+    "lat": 37.564089,
+    "lng": 126.93898089999993,
+    "tel": "02-6303-1977",
+    "homepage": "http://www.kumhoarthall.com/"
+  },
+  "FC004506": {
+    "name": "제임스레코드",
+    "address": "대구광역시 중구 동성로3길 104-14 (공평동)",
+    "lat": 35.86967,
+    "lng": 128.599304,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004355": {
+    "name": "서울문화예술교육센터 서초",
+    "address": "서울특별시 서초구 신반포로19길 6 (반포동)",
+    "lat": 37.5047177,
+    "lng": 126.9983081,
+    "tel": "02-3399-0777",
+    "homepage": "https://www.sfac.or.kr/artspace/artspace/seocho_main.do"
+  },
+  "FC001513": {
+    "name": "롯데콘서트홀",
+    "address": "서울특별시 송파구 올림픽로 300 (신천동) 롯데월드몰 8층 롯데문화재단",
+    "lat": 37.5130605,
+    "lng": 127.10349500000007,
+    "tel": "00-1544-7744",
+    "homepage": "http://www.lotteconcerthall.com/"
+  },
+  "FC001247": {
+    "name": "올림픽공원",
+    "address": "서울특별시 송파구 올림픽로 424 올림픽공원 (방이동)",
+    "lat": 37.52112,
+    "lng": 127.12836360000006,
+    "tel": "02-410-1114",
+    "homepage": "http://www.olympicpark.co.kr/"
+  },
+  "FC004583": {
+    "name": "아지토 라이브 홀",
+    "address": "서울특별시 서대문구 신촌역로 13 (대현동)",
+    "lat": 37.557804,
+    "lng": 126.942583,
+    "tel": "",
+    "homepage": "https://www.instagram.com/azito_livehall"
+  },
+  "FC001724": {
+    "name": "얼라이브홀(구. 크랙홀)",
+    "address": "서울특별시 마포구 독막로7길 20 (서교동) 지하1층",
+    "lat": 37.5486519,
+    "lng": 126.91915440000002,
+    "tel": "02-796-3207",
+    "homepage": "https://alivehall.com/index#"
+  },
+  "FC001255": {
+    "name": "이음아트홀 [대전]",
+    "address": "대전광역시 유성구 도안대로 591 (봉명동)",
+    "lat": 36.3531322,
+    "lng": 127.34079280000003,
+    "tel": "042-252-0887",
+    "homepage": ""
+  },
+  "FC001191": {
+    "name": "포항문화예술회관",
+    "address": "경상북도 포항시 남구 희망대로 850 (대도동)",
+    "lat": 36.009548,
+    "lng": 129.3659927,
+    "tel": "054-289-7999",
+    "homepage": "https://culturalspace.phcf.or.kr/munhwaArtCenter/subMain.do"
+  },
+  "FC005081": {
+    "name": "용마랜드",
+    "address": "서울특별시 중랑구 망우로70길 118 (망우동)",
+    "lat": 37.594777,
+    "lng": 127.105453,
+    "tel": "",
+    "homepage": "https://www.instagram.com/yongmaland_/"
+  },
+  "FC002379": {
+    "name": "복합문화공간 몽향",
+    "address": "서울특별시 서대문구 연세로5다길 10 (창천동)",
+    "lat": 37.5565279,
+    "lng": 126.935024,
+    "tel": "070-4121-7580",
+    "homepage": "https://www.instagram.com/studio_monghyang/"
+  },
+  "FC000013": {
+    "name": "인천문화예술회관",
+    "address": "인천광역시 남동구 예술로 149 (구월동)",
+    "lat": 37.4477666,
+    "lng": 126.70008329999996,
+    "tel": "032-427-8401",
+    "homepage": "https://www.incheon.go.kr/art/index"
+  },
+  "FC001926": {
+    "name": "락왕",
+    "address": "대구광역시 중구 명덕로 111 (남산동)",
+    "lat": 35.8568804,
+    "lng": 128.5824119,
+    "tel": "053-424-1052",
+    "homepage": "http://cafe.daum.net/clubrocking"
+  },
+  "FC001685": {
+    "name": "강동문화복지회관",
+    "address": "경상북도 구미시 인동가산로 392 (구평동) 강동문화복지회관",
+    "lat": 36.0904747,
+    "lng": 128.45493299999998,
+    "tel": "054-480-2990",
+    "homepage": "http://www.gumi.go.kr/artsgd/contents.do?mId=0104040000"
+  },
+  "FC005080": {
+    "name": "더 마스카니",
+    "address": "서울특별시 마포구 와우산로15길 29 (서교동)",
+    "lat": 37.549189,
+    "lng": 126.921789,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001081": {
+    "name": "경주세계문화엑스포",
+    "address": "경상북도 경주시 경감로 614 (천군동)",
+    "lat": 35.8320536,
+    "lng": 129.28811599999995,
+    "tel": "054-748-3011",
+    "homepage": "http://www.cultureexpo.or.kr/open.content/ko/"
+  },
+  "FC000017": {
+    "name": "경기아트센터(구. 경기도문화의전당)",
+    "address": "경기도 수원시 팔달구 효원로307번길 20 (인계동) 경기도문화의전당",
+    "lat": 37.2618899,
+    "lng": 127.0374319,
+    "tel": "031-230-3200",
+    "homepage": "http://www.ggac.or.kr/"
+  },
+  "FC000403": {
+    "name": "청주예술의전당",
+    "address": "충청북도 청주시 서원구 흥덕로 69 (사직동)",
+    "lat": 36.6420171,
+    "lng": 127.46975329999998,
+    "tel": "043-201-2304",
+    "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  "FC001376": {
+    "name": "소극장 6번출구",
+    "address": "부산광역시 수영구 수영로 477 (남천동)",
+    "lat": 35.1485415,
+    "lng": 129.11040309999998,
+    "tel": "051-625-2117",
+    "homepage": "http://blog.naver.com/mac1986"
+  },
+  "FC000197": {
+    "name": "세종대학교 대양홀",
+    "address": "서울특별시 광진구 능동로 209 (군자동)",
+    "lat": 37.5485943,
+    "lng": 127.07448840000006,
+    "tel": "02-3408-4457",
+    "homepage": "http://www.sejong.ac.kr/sejong/oncampus_02.html"
+  },
+  "FC003302": {
+    "name": "경상대학교 칠암캠퍼스",
+    "address": "경상남도 진주시 동진로 33(칠암동)",
+    "lat": 35.1792659,
+    "lng": 128.0920809,
+    "tel": "055-751-3114",
+    "homepage": ""
+  },
+  "FC001190": {
+    "name": "예천군문화회관",
+    "address": "경상북도 예천군 예천읍 충효로 209-15",
+    "lat": 36.651284,
+    "lng": 128.44588120000003,
+    "tel": "054-650-6422",
+    "homepage": "http://www.ycg.kr/open.content/culture/center/facilities/"
+  },
+  "FC000516": {
+    "name": "열린극장",
+    "address": "서울특별시 종로구 창경궁로 258-12 (명륜2가)",
+    "lat": 37.5836706,
+    "lng": 127.0003428,
+    "tel": "0505-894-0202",
+    "homepage": "www.whoplus.net"
+  },
+  "FC000447": {
+    "name": "군산예술의전당",
+    "address": "전라북도 군산시 백토로 203 (지곡동)",
+    "lat": 35.9608078,
+    "lng": 126.70683980000001,
+    "tel": "063-454-5520",
+    "homepage": "http://arts.gunsan.go.kr/index.gunsan"
+  },
+  "FC000205": {
+    "name": "예스24 라이브홀 (구. 악스코리아)",
+    "address": "서울특별시 광진구 구천면로 20 (광장동)",
+    "lat": 37.5456881,
+    "lng": 127.1079671,
+    "tel": "02-457-5114",
+    "homepage": "http://www.yes24livehall.com/"
+  },
+  "FC000885": {
+    "name": "성산아트홀",
+    "address": "경상남도 창원시 성산구 중앙대로 181 (용호동)",
+    "lat": 35.2293871,
+    "lng": 128.6831193,
+    "tel": "055-268-7900",
+    "homepage": "http://www.cwcf.or.kr/facility/facility_sungsan.asp"
+  },
+  "FC001094": {
+    "name": "예술공간 혜화",
+    "address": "서울특별시 종로구 혜화로 10-3 (혜화동)",
+    "lat": 37.586628,
+    "lng": 127.000475,
+    "tel": "02-747-9139",
+    "homepage": ""
+  },
+  "FC004500": {
+    "name": "우무지",
+    "address": "서울특별시 마포구 독막로8길 7 (합정동)",
+    "lat": 37.547514,
+    "lng": 126.918374,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004809": {
+    "name": "서울남산국악당",
+    "address": "서울특별시 중구 퇴계로34길 28 (필동2가)",
+    "lat": 37.559311,
+    "lng": 126.994431,
+    "tel": "02-6358-5500",
+    "homepage": "https://sgtt.kr/"
+  },
+  "FC001415": {
+    "name": "대전시립연정국악원",
+    "address": "대전광역시 서구 둔산대로 181 (만년동)",
+    "lat": 36.3555511,
+    "lng": 127.38994500000001,
+    "tel": "042-270-8500",
+    "homepage": "https://www.daejeon.go.kr/kmusic/"
+  },
+  "FC002035": {
+    "name": "Vel.R 벨르 (구. 벨로주 [홍대])",
+    "address": "서울특별시 마포구 잔다리로 46 (서교동)",
+    "lat": 37.5524309,
+    "lng": 126.9188172,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004821": {
+    "name": "큐브컨벤션센터(CCC)",
+    "address": "서울특별시 마포구 상암산로 34 (상암동)",
+    "lat": 37.576167,
+    "lng": 126.889217,
+    "tel": "",
+    "homepage": "https://cubeconvention.imweb.me/"
+  },
+  "FC004778": {
+    "name": "칠곡향사아트센터",
+    "address": "경상북도 칠곡군 석적읍 강변대로 1570",
+    "lat": 36.015599,
+    "lng": 128.404399,
+    "tel": "",
+    "homepage": "https://www.chilgokctf.or.kr/ctf/contents.do?mId=0801010000"
+  },
+  "FC004646": {
+    "name": "아스트라홀",
+    "address": "서울특별시 마포구 동교로22길 14 (서교동)",
+    "lat": 37.555114,
+    "lng": 126.918816,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003580": {
+    "name": "예술공간 휴서사",
+    "address": "경기도 의정부시 둔야로49번길 29 (의정부동)",
+    "lat": 37.7402315,
+    "lng": 127.0378666,
+    "tel": "",
+    "homepage": "hueseosa.com"
+  },
+  "FC000191": {
+    "name": "대구문화예술회관",
+    "address": "대구광역시 달서구 공원순환로 201 (성당동)",
+    "lat": 35.8446585,
+    "lng": 128.55874089999998,
+    "tel": "053-606-6114",
+    "homepage": "http://artcenter.daegu.go.kr/content.html?md=0047"
+  },
+  "FC004395": {
+    "name": "천하제일탈공작소",
+    "address": "서울특별시 영등포구 경인로 757 (문래동3가)",
+    "lat": 37.5137705,
+    "lng": 126.8975489,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003417": {
+    "name": "서울아트센터",
+    "address": "서울특별시 종로구 평창문화로 70 (평창동)",
+    "lat": 37.6057568,
+    "lng": 126.9678907,
+    "tel": "02-2287-0500",
+    "homepage": "yego.or.kr"
+  },
+  "FC004981": {
+    "name": "양주문화체육센터",
+    "address": "경상남도 양산시 강변로 322 (남부동)",
+    "lat": 35.328146,
+    "lng": 129.023698,
+    "tel": "",
+    "homepage": "https://www.yssisul.or.kr/stms/yj"
+  },
+  "FC002242": {
+    "name": "초록마술극장",
+    "address": "부산광역시 금정구 기찰로108번길 49 (부곡동)",
+    "lat": 35.2419551,
+    "lng": 129.0956507,
+    "tel": "010-7517-5859",
+    "homepage": "https://blog.naver.com/sillaguy"
+  },
+  "FC000328": {
+    "name": "KT&G 상상마당 라이브홀 [마포]",
+    "address": "서울특별시 마포구 어울마당로 65 (서교동)",
+    "lat": 37.550925,
+    "lng": 126.92114200000003,
+    "tel": "02-2014-2024",
+    "homepage": "http://www.sangsangmadang.com/"
+  },
+  "FC000828": {
+    "name": "영도문화예술회관",
+    "address": "부산광역시 영도구 함지로79번길 6 (동삼동)",
+    "lat": 35.0753352,
+    "lng": 129.06601109999997,
+    "tel": "051-419-5571",
+    "homepage": "http://www.yeongdo.go.kr/culture.web"
+  },
+  "FC004866": {
+    "name": "소극장 성북오름",
+    "address": "서울특별시 성북구 동소문로15길 49 (동소문동6가)",
+    "lat": 37.594726,
+    "lng": 127.013755,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002639": {
+    "name": "뮤직앤아트스튜디오",
+    "address": "서울특별시 동작구 사당로 300 (사당동, 이수자이)",
+    "lat": 37.4843791,
+    "lng": 126.9802816,
+    "tel": "",
+    "homepage": "https://mnas.modoo.at/"
+  },
+  "FC002127": {
+    "name": "프리즘홀 (프리즘플러스)",
+    "address": "서울특별시 마포구 양화로12길 6 (서교동)",
+    "lat": 37.5516588,
+    "lng": 126.9175099,
+    "tel": "070-8150-2979",
+    "homepage": "http://ugcc.net/list/board.php?id=liveclub&page=1&page_num=10&select_arrange=headnum&desc=&sn=on&ss=off&sc=off&keyword=%C5%94%C5%BB%C3%81%C3%B6%C5%BE%C5%BE%C5%BE%C5%BE&category=&no=74"
+  },
+  "FC000567": {
+    "name": "꿈의숲아트센터",
+    "address": "서울특별시 강북구 월계로 173 (번동)",
+    "lat": 37.6214312,
+    "lng": 127.0406246,
+    "tel": "02-2289-5401",
+    "homepage": "http://www.dfac.or.kr/main/main.asp"
+  },
+  "FC000287": {
+    "name": "대구어린이회관 꾀꼬리극장",
+    "address": "대구광역시 수성구 동대구로 176 (황금동)",
+    "lat": 35.845223,
+    "lng": 128.62448199999994,
+    "tel": "053-803-7944",
+    "homepage": "http://www.daegu.go.kr/Childhall/"
+  },
+  "FC004204": {
+    "name": "콘서트홀 나누",
+    "address": "서울특별시 마포구 망원로 66 (망원동)",
+    "lat": 37.5570634,
+    "lng": 126.9042133,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004044": {
+    "name": "백양문화예술회관",
+    "address": "부산광역시 부산진구 당감서로94번길 8 (부암동)",
+    "lat": 35.1688692,
+    "lng": 129.0361856,
+    "tel": "",
+    "homepage": "https://byartscenter.or.kr/"
+  },
+  "FC001485": {
+    "name": "서초문화예술회관(구. 서초구민회관)",
+    "address": "서울특별시 서초구 강남대로 201 (양재동) 서초구민회관",
+    "lat": 37.48181,
+    "lng": 127.03574389999994,
+    "tel": "02-2155-8301",
+    "homepage": "http://www.seocho.go.kr/site/seocho/04/10404021401002015070703.jsp"
+  },
+  "FC001787": {
+    "name": "강릉아트센터 (구. 강릉문화예술관)",
+    "address": "강원도 강릉시 종합운동장길 84 (교동)",
+    "lat": 37.7716846,
+    "lng": 128.895305,
+    "tel": "033-660-6800",
+    "homepage": "http://www.gn.go.kr/artscenter/index.do"
+  },
+  "FC000204": {
+    "name": "수성아트피아",
+    "address": "대구광역시 수성구 무학로 180 (지산동)",
+    "lat": 35.8295426,
+    "lng": 128.62841500000002,
+    "tel": "053-666-3300",
+    "homepage": "http://www.ssartpia.kr"
+  },
+  "FC001975": {
+    "name": "톤스튜디오 서울",
+    "address": "서울특별시 마포구 성미산로 64-5 (성산동)",
+    "lat": 37.5593835,
+    "lng": 126.9154822,
+    "tel": "02-3141-4605",
+    "homepage": "http://tonestudio.co.kr/"
+  },
+  "FC000518": {
+    "name": "구미시문화예술회관",
+    "address": "경상북도 구미시 송정대로 89 (송정동 75)",
+    "lat": 36.1183785442842,
+    "lng": 128.348984109841,
+    "tel": "054-480-4560",
+    "homepage": "www.gumi.go.kr/arts"
+  },
+  "FC000168": {
+    "name": "예림당아트홀",
+    "address": "서울특별시 강남구 언주로 337 (역삼동)",
+    "lat": 37.497839,
+    "lng": 127.04429789999995,
+    "tel": "02-738-8289",
+    "homepage": "http://www.amculture.co.kr/default/index.php"
+  },
+  "FC004692": {
+    "name": "모나밸리",
+    "address": "충청남도 아산시 순천향로 624 (장존동)",
+    "lat": 36.750775,
+    "lng": 126.992291,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000842": {
+    "name": "엠팟홀 (구. 삼익아트홀)",
+    "address": "서울특별시 강남구 학동로 171 (논현동) 삼익악기빌딩 3층",
+    "lat": 37.5139927,
+    "lng": 127.02955880000002,
+    "tel": "02-541-3929",
+    "homepage": "http://www.mpot.co.kr/"
+  },
+  "FC002770": {
+    "name": "성북미디어문화마루 꿈빛극장",
+    "address": "서울특별시 성북구 길음로7길 20 (길음동)",
+    "lat": 37.6037552,
+    "lng": 127.0222037,
+    "tel": "02-6953-3201",
+    "homepage": ""
+  },
+  "FC000406": {
+    "name": "김해칠암문화센터 (칠암도서관)",
+    "address": "경상남도 김해시 활천로285번길 14 (삼방동)",
+    "lat": 35.2445671,
+    "lng": 128.91042730000004,
+    "tel": "055-330-4581",
+    "homepage": "https://www.gimhae.go.kr/00224/00227/00229.web?amode=view&idx=450"
+  },
+  "FC001629": {
+    "name": "일신홀",
+    "address": "서울특별시 용산구 한남대로 98 (한남동)",
+    "lat": 37.5372055,
+    "lng": 127.00552319999997,
+    "tel": "02-790-3364",
+    "homepage": "http://ilshinhall.com/"
+  },
+  "FC004769": {
+    "name": "상상플레이스 전주이룸",
+    "address": "전북특별자치도 전주시 완산구 용머리로 36 (효자동1가)",
+    "lat": 35.805453,
+    "lng": 127.114404,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001193": {
+    "name": "대구콘서트하우스",
+    "address": "대구광역시 중구 태평로 141 (태평로2가)",
+    "lat": 35.8760471,
+    "lng": 128.59384449999993,
+    "tel": "053-250-1400",
+    "homepage": "https://daeguconcerthouse.or.kr/"
+  },
+  "FC000477": {
+    "name": "한국소리문화의전당",
+    "address": "전라북도 전주시 덕진구 소리로 31 (덕진동1가) 소리문화전당",
+    "lat": 35.855245,
+    "lng": 127.13766699999996,
+    "tel": "063-270-8000",
+    "homepage": "http://www.sori21.co.kr/"
+  },
+  "FC001784": {
+    "name": "F1963",
+    "address": "부산광역시 수영구 구락로123번길 20 (망미동)",
+    "lat": 35.177202,
+    "lng": 129.114966,
+    "tel": "051-756-1963",
+    "homepage": "http://www.f1963.org/ko/"
+  },
+  "FC000030": {
+    "name": "국립남도국악원",
+    "address": "전남광주통합특별시 진도군 임회면 진도대로 3818",
+    "lat": 34.3849048,
+    "lng": 126.22479020000003,
+    "tel": "061-540-4033",
+    "homepage": "https://jindo.gugak.go.kr/"
+  },
+  "FC001125": {
+    "name": "국립정동극장 세실 (구.세실극장)",
+    "address": "서울특별시 중구 세종대로19길 16 (정동)",
+    "lat": 37.5667701,
+    "lng": 126.97608230000003,
+    "tel": "02-765-7500",
+    "homepage": "https://www.jeongdong.or.kr/portal/main/main.do"
+  },
+  "FC001179": {
+    "name": "울주문화예술회관",
+    "address": "울산광역시 울주군 범서읍 천상중앙길 36",
+    "lat": 35.5644423,
+    "lng": 129.23207939999998,
+    "tel": "052-229-9500",
+    "homepage": "http://www.uljuart.or.kr/"
+  },
+  "FC000084": {
+    "name": "울산북구문화예술회관",
+    "address": "울산광역시 북구 산업로 1000 (연암동)",
+    "lat": 35.58140119999999,
+    "lng": 129.36140920000003,
+    "tel": "052-241-7350",
+    "homepage": "https://www.bukgu.ulsan.kr/art/main.mo#"
+  },
+  "FC000238": {
+    "name": "양산문화예술회관",
+    "address": "경상남도 양산시 중앙로 39-1 (남부동)",
+    "lat": 35.3336224,
+    "lng": 129.03692249999995,
+    "tel": "055-379-8550",
+    "homepage": "http://www.yangsanart.net/"
+  },
+  "FC003915": {
+    "name": "온맘씨어터",
+    "address": "서울특별시 마포구 어울마당로 94-8 (서교동)",
+    "lat": 37.5531403,
+    "lng": 126.9222208,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000345": {
+    "name": "강릉단오제전수교육관 (구. 단오문화관)",
+    "address": "강원도 강릉시 단오장길 1 (노암동)",
+    "lat": 37.7485741,
+    "lng": 128.89493370000002,
+    "tel": "033-660-3940",
+    "homepage": "http://www.danocenter.kr/"
+  },
+  "FC000110": {
+    "name": "광주시문화예술의전당 (구. 남한산성아트홀)",
+    "address": "경기도 광주시 회안대로 891 (송정동)",
+    "lat": 37.4270408,
+    "lng": 127.25507500000003,
+    "tel": "031-760-4466",
+    "homepage": "https://www.nsart.or.kr"
+  },
+  "FC003150": {
+    "name": "부천아트센터",
+    "address": "경기도 부천시 소향로 165(중동)",
+    "lat": 37.5021641,
+    "lng": 126.7663981,
+    "tel": "00-1533-0202",
+    "homepage": "https://www.bac.or.kr/home/ko/main"
+  },
+  "FC000001": {
+    "name": "예술의전당 [서울]",
+    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
+    "lat": 37.4786896,
+    "lng": 127.01182410000001,
+    "tel": "02-580-1300",
+    "homepage": "http://www.sac.or.kr"
+  },
+  "FC001167": {
+    "name": "군포문화예술회관",
+    "address": "경기도 군포시 고산로 599 (산본동)",
+    "lat": 37.3661695,
+    "lng": 126.92759120000005,
+    "tel": "031-390-3500",
+    "homepage": "http://www.gunpoart.net/?pid=B"
+  },
+  "FC001091": {
+    "name": "대학로 스카이씨어터",
+    "address": "서울특별시 종로구 대학로8가길 52 (동숭동)",
+    "lat": 37.5829439,
+    "lng": 127.00262709999993,
+    "tel": "070-4106-8889",
+    "homepage": ""
+  },
+  "FC003951": {
+    "name": "갤러리 디 아르테 청담",
+    "address": "서울특별시 강남구 영동대로131길 14 (청담동, 청담동테라스)",
+    "lat": 37.5205582,
+    "lng": 127.0551411,
+    "tel": "",
+    "homepage": "https://www.artewith.com/"
+  },
+  "FC003195": {
+    "name": "거암아트홀",
+    "address": "서울특별시 강남구 강남대로 652(신사동)",
+    "lat": 37.5195101,
+    "lng": 127.019106,
+    "tel": "",
+    "homepage": "http://sinsasquare.co.kr/"
+  },
+  "FC000003": {
+    "name": "국립극장",
+    "address": "서울특별시 중구 장충단로 59 (장충동2가)",
+    "lat": 37.5523153,
+    "lng": 126.99963600000001,
+    "tel": "02-2280-4114",
+    "homepage": "http://www.ntok.go.kr"
+  },
+  "FC000142": {
+    "name": "연천수레울아트홀",
+    "address": "경기도 연천군 연천읍 문화로 150",
+    "lat": 38.1090534,
+    "lng": 127.07991620000007,
+    "tel": "031-834-3770",
+    "homepage": "http://sureul.co.kr/company/arthall_intro.jsp"
+  },
+  "FC001203": {
+    "name": "동숭무대소극장",
+    "address": "서울특별시 종로구 혜화로 35 (명륜1가)",
+    "lat": 37.5864426,
+    "lng": 127.00049820000004,
+    "tel": "010-8299-6553",
+    "homepage": "http://cafe.naver.com/dsstage"
+  },
+  "FC001306": {
+    "name": "광주남구문화예술회관",
+    "address": "전남광주통합특별시 남구 봉선로 208 (봉선동)",
+    "lat": 35.1221068,
+    "lng": 126.90795789999993,
+    "tel": "062-670-5060",
+    "homepage": "http://www.nglcc.kr/"
+  },
+  "FC001848": {
+    "name": "오류아트홀",
+    "address": "서울특별시 구로구 경인로20가길 38 (오류동)",
+    "lat": 37.4958396,
+    "lng": 126.84563660000003,
+    "tel": "02-2614-7969",
+    "homepage": "https://www.guroartsvalley.or.kr/user/home.do"
+  },
+  "FC003018": {
+    "name": "서울문화재단 대학로극장 쿼드 (예술청)",
+    "address": "서울특별시 종로구 동숭길 122(동숭동)",
+    "lat": 37.583699,
+    "lng": 127.0037167,
+    "tel": "02-758-2145",
+    "homepage": "https://www.sfac.or.kr/site/SFAC_KOR/09/10911010000002021111611.jsp"
+  },
+  "FC000752": {
+    "name": "드림아트홀 [대전]",
+    "address": "대전광역시 중구 선화서로 2 (대흥동)",
+    "lat": 36.3243771,
+    "lng": 127.42044770000007,
+    "tel": "042-252-0887",
+    "homepage": "https://www.instagram.com/dreamarthall/"
+  },
+  "FC004832": {
+    "name": "NCM STUDIO",
+    "address": "서울특별시 관악구 난곡로 60 (신림동)",
+    "lat": 37.460887,
+    "lng": 126.919341,
+    "tel": "",
+    "homepage": "https://www.ncmstudio.kr/"
+  },
+  "FC001528": {
+    "name": "링크아트센터드림",
+    "address": "서울특별시 종로구 동숭길 123 (동숭동)",
+    "lat": 37.5820171,
+    "lng": 127.00353629999995,
+    "tel": "02-3481-8843",
+    "homepage": "http://blog.naver.com/dreamartcenter"
+  },
+  "FC003954": {
+    "name": "예스24 원더로크홀",
+    "address": "서울특별시 서대문구 신촌로 129 (창천동)",
+    "lat": 37.5565639,
+    "lng": 126.9403281,
+    "tel": "",
+    "homepage": "http://www.wanderlochhall.com"
+  },
+  "FC000362": {
+    "name": "선돌극장",
+    "address": "서울특별시 종로구 혜화로5길 5 (명륜1가)",
+    "lat": 37.5867715,
+    "lng": 126.99974999999995,
+    "tel": "02-747-3226",
+    "homepage": ""
+  },
+  "FC002677": {
+    "name": "소극장 플랫폼74",
+    "address": "서울특별시 종로구 동숭길 74 (동숭동)",
+    "lat": 37.5815333,
+    "lng": 127.0043015,
+    "tel": "010-5150-9402",
+    "homepage": ""
+  },
+  "FC000871": {
+    "name": "안동시청 대동관(구. 안동시민회관)",
+    "address": "경상북도 안동시 퇴계로 115 (명륜동)",
+    "lat": 36.5682946,
+    "lng": 128.72791099999995,
+    "tel": "054-840-3651",
+    "homepage": ""
+  },
+  "FC000380": {
+    "name": "KBS [본관]",
+    "address": "서울특별시 영등포구 여의공원로 13 (여의도동)",
+    "lat": 37.52627349999999,
+    "lng": 126.91548599999999,
+    "tel": "02-781-2283",
+    "homepage": "http://office.kbs.co.kr/kbshall/"
+  },
+  "FC004816": {
+    "name": "음악의집",
+    "address": "서울특별시 서초구 언남길 15-13 (양재동, 파크하우스)",
+    "lat": 37.470973,
+    "lng": 127.040876,
+    "tel": "",
+    "homepage": "https://www.instagram.com/la_casa_dei_suoni"
+  },
+  "FC003016": {
+    "name": "후케즈",
+    "address": "서울특별시 영등포구 경인로 715(문래동2가)",
+    "lat": 37.511907,
+    "lng": 126.893168,
+    "tel": "010-4785-2986",
+    "homepage": "https://www.hukez.com/home"
+  },
+  "FC001757": {
+    "name": "빈티지소극장",
+    "address": "대구광역시 남구 성당로60길 90 (대명동)",
+    "lat": 35.8567725,
+    "lng": 128.57886239999993,
+    "tel": "053-292-0859",
+    "homepage": "https://www.facebook.com/leepetory"
+  },
+  "FC001256": {
+    "name": "포항시청 대잠홀",
+    "address": "경상북도 포항시 남구 시청로 1 (대잠동)",
+    "lat": 36.0191816,
+    "lng": 129.34329830000001,
+    "tel": "054-270-8282",
+    "homepage": "http://www.phcf.or.kr/kr/sub.do?MENU_SEQ=10076&PAGE_SEQ=10158&LANG=ko_KR#none https://www.pohang.go.kr/pohang/index.do"
+  },
+  "FC000018": {
+    "name": "안산문화예술의전당",
+    "address": "경기도 안산시 단원구 화랑로 312 (고잔동)",
+    "lat": 37.3196723,
+    "lng": 126.82255570000007,
+    "tel": "031-481-4000",
+    "homepage": "http://www.ansanart.com/"
+  },
+  "FC001675": {
+    "name": "밀양아리랑아트센터",
+    "address": "경상남도 밀양시 밀양대공원로 112 (교동)",
+    "lat": 35.5036034,
+    "lng": 128.7583247,
+    "tel": "055-359-4500",
+    "homepage": "https://www.mycf.or.kr/main/"
+  },
+  "FC005066": {
+    "name": "시흥아트센터",
+    "address": "경기도 시흥시 서울대학로 255 (배곧동)",
+    "lat": 37.369613,
+    "lng": 126.72345,
+    "tel": "",
+    "homepage": "https://www.siheung.go.kr/sac/main.do"
+  },
+  "FC003855": {
+    "name": "송해아트홀",
+    "address": "서울특별시 구로구 경인로 611-17 (신도림동)",
+    "lat": 37.5069406,
+    "lng": 126.8835704,
+    "tel": "070-7790-0515",
+    "homepage": "http://songhae.kr/?page_id=2509"
+  },
+  "FC004136": {
+    "name": "크레디아 클래식 클럽",
+    "address": "서울특별시 종로구 자하문로9길 8 (통인동)",
+    "lat": 37.5795854,
+    "lng": 126.97067,
+    "tel": "",
+    "homepage": "https://blog.naver.com/crediaclassicclub"
+  },
+  "FC001908": {
+    "name": "고려대학교 화정체육관",
+    "address": "서울특별시 성북구 안암로 145 (안암동5가)",
+    "lat": 37.59294,
+    "lng": 127.024903,
+    "tel": "02-3290-4097",
+    "homepage": "http://hwajung.korea.ac.kr/main.do"
+  },
+  "FC003151": {
+    "name": "한국공예관 문화제조창",
+    "address": "충청북도 청주시 청원구 상당로 314(내덕동)",
+    "lat": 36.6561955,
+    "lng": 127.4923824,
+    "tel": "043-268-0255",
+    "homepage": "https://cjkcm.org/"
+  },
+  "FC001208": {
+    "name": "홍익대 대학로 아트센터",
+    "address": "서울특별시 종로구 대학로 57 (연건동)",
+    "lat": 37.5769696,
+    "lng": 127.00203310000006,
+    "tel": "02-742-0300",
+    "homepage": "http://www.hongikartcenter.com/main.do"
+  },
+  "FC000016": {
+    "name": "성남아트센터",
+    "address": "경기도 성남시 분당구 성남대로 808 (야탑동)",
+    "lat": 37.4027309,
+    "lng": 127.13124349999998,
+    "tel": "031-783-8000",
+    "homepage": "http://www.snart.or.kr/"
+  },
+  "FC000216": {
+    "name": "부평아트센터",
+    "address": "인천광역시 부평구 아트센터로 166 (십정동)",
+    "lat": 37.4819229,
+    "lng": 126.7049151,
+    "tel": "032-500-2000",
+    "homepage": "http://www.bpart.kr/"
+  },
+  "FC000934": {
+    "name": "평택시남부문예회관",
+    "address": "경기도 평택시 중앙로 277 (비전동)",
+    "lat": 36.9909219,
+    "lng": 127.11427630000003,
+    "tel": "031-8024-5411",
+    "homepage": "http://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mId=0601060300"
+  },
+  "FC005060": {
+    "name": "진해아트홀",
+    "address": "경상남도 창원시 진해구 충장로 653 (풍호동)",
+    "lat": 35.131368,
+    "lng": 128.704735,
+    "tel": "",
+    "homepage": "https://www.cwcf.or.kr/facility/facility_jharthall.asp"
+  },
+  "FC003913": {
+    "name": "이들스",
+    "address": "서울특별시 종로구 삼일대로 428 (낙원동)",
+    "lat": 37.572217,
+    "lng": 126.9876446,
+    "tel": "02-763-0921",
+    "homepage": "https://www.instagram.com/edls_official"
+  },
+  "FC003861": {
+    "name": "로데아트센터",
+    "address": "서울특별시 서초구 남부순환로317길 79 (서초동)",
+    "lat": 37.4831337,
+    "lng": 127.0103014,
+    "tel": "",
+    "homepage": ""
+  }
+}

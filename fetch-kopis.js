@@ -41,8 +41,10 @@ function blocks(xml, name) {
 }
 
 async function get(url) {
-  const res = await fetch(url, { headers: { "User-Agent": "FestivalHub/1.0 (+https://festivalhub.kr)" } });
+  // KOPIS 앞단 방화벽이 curl/봇 형태 User-Agent를 "Request Blocked"(400)로 막는다 → 브라우저형 UA 사용 (http만 동작, https는 301)
+  const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 FestivalHub" } });
   const text = await res.text();
+  if (!res.ok) throw new Error(`HTTP ${res.status} ${text.replace(/<[^>]+>/g, " ").trim().slice(0, 80)}`);
   const code = tag(text, "returncode");
   if (code && code !== "00" && code !== "04") throw new Error(`KOPIS 오류 ${code}: ${tag(text, "errmsg") || text.slice(0, 120)}`);
   return text;
@@ -150,8 +152,9 @@ async function main() {
     if (c && c.detail) { p.detail = c.detail; continue; }
     if (filled >= DETAIL_BUDGET) { p.detail = null; continue; }
     p.detail = await fetchDetail(p.id);
+    if (!p.detail) { await sleep(800); p.detail = await fetchDetail(p.id); } // 방화벽이 간헐적으로 막음 → 한 번 더
     filled++;
-    await sleep(100);
+    await sleep(250);
   }
   console.log(`📖 상세: 오늘 ${filled}건 (누적 ${list.filter((p) => p.detail).length}/${list.length})`);
 
@@ -160,9 +163,10 @@ async function main() {
     const fid = p.detail && p.detail.facilityId;
     if (!fid) continue;
     if (!facilities[fid] && facNew < FACILITY_BUDGET) {
-      const f = await fetchFacility(fid);
+      let f = await fetchFacility(fid);
+      if (!f) { await sleep(800); f = await fetchFacility(fid); }
       if (f) { facilities[fid] = f; facNew++; }
-      await sleep(100);
+      await sleep(250);
     }
     const f = facilities[fid];
     if (f) { p.address = f.address; p.lat = f.lat; p.lng = f.lng; p.venueTel = f.tel; p.venueHomepage = f.homepage; }

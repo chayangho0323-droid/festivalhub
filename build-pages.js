@@ -1090,6 +1090,7 @@ if (shows.length >= 10) {
   <title>${esc(s.name)} — ${esc(s.venue)} ${esc(s.genre)} 일정·예매 | FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
   <link rel="canonical" href="${SITE_URL}/show/${s.id}.html" />
+  ${s.detail ? "" : `<meta name="robots" content="noindex,follow" />`}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(s.name)} — ${esc(s.venue)}" />
   <meta property="og:description" content="${esc(description)}" />
@@ -1143,7 +1144,7 @@ if (shows.length >= 10) {
 </body>
 </html>`;
     fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
-    showFiles.push(`show/${s.id}.html`);
+    if (s.detail) showFiles.push(`show/${s.id}.html`); // 상세가 채워진 공연만 사이트맵에 (나머지는 noindex, 매일 400건씩 채워짐)
   }
 
   // 목록 페이지 shows.html — 이번 주 시작 / 장르 칩 / 지역별
