@@ -389,6 +389,15 @@ function buildPage(f, all) {
   const homepage = f.homepage
     ? `<a href="${esc(f.homepage)}" target="_blank" rel="noopener">${esc(f.homepage)}</a>`
     : "";
+  // 방문자 20%가 누르는 1등 기능 → 정보표 안 작은 링크 대신 눈에 띄는 큰 버튼 (GA: click_homepage / click_homepage_search)
+  const festYear = String(f.startDate || "").slice(0, 4);
+  const isMusic = /페스티벌|음악|재즈|락|뮤직|콘서트|jazz|rock|music/i.test(f.name);
+  const homepageButton = f.homepage
+    ? `<a class="dir-btn homepage-btn" target="_blank" rel="noopener" href="${esc(f.homepage)}">🔗 공식 홈페이지에서 ${isMusic ? "라인업·프로그램" : "프로그램·일정"} 보기</a>`
+    : `<a class="dir-btn homepage-search" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?query=${encodeURIComponent(`${f.name.replace(/\d{4}년?/g, "").trim()} ${festYear} 공식`)}">🔎 네이버에서 공식 정보·${isMusic ? "라인업" : "프로그램"} 찾기</a>`;
+  // 검색 결과 제목: 사람들이 찾는 말(일정·장소·입장료·라인업)을 제목에 (네이버 CTR 0.5% 개선용, 2026-09-28)
+  const nameNoYear = f.name.replace(/\s*\d{4}년?\s*/g, " ").replace(/\s+/g, " ").trim();
+  const seoTitle = `${nameNoYear} ${festYear} 일정·장소·입장료${isMusic ? "·라인업" : ""}`;
 
   // ── 내부 연결: 이 지역의 다른 축제 + 비슷한 시기 축제 (각 4개) ──
   // 방문자가 더 둘러보게 하고, 페이지끼리 연결돼 검색엔진 평가에도 좋다
@@ -437,12 +446,12 @@ function buildPage(f, all) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${esc(f.name)} (${period}) — FestivalHub</title>
+  <title>${esc(seoTitle)} | FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
   ${bare ? `<meta name="robots" content="noindex,follow" />` : ""}
   <link rel="canonical" href="${SITE_URL}/festival/${f.contentid}.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="${esc(f.name)} (${period})" />
+  <meta property="og:title" content="${esc(seoTitle)}" />
   <meta property="og:description" content="${esc(description)}" />
   ${f.image ? `<meta property="og:image" content="${esc(f.image)}" />` : ""}
   <meta property="og:url" content="${SITE_URL}/festival/${f.contentid}.html" />
@@ -478,13 +487,14 @@ function buildPage(f, all) {
         ${infoRow("📞", "문의", esc(f.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
-      ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${noteSection}
       ${autoIntro}
+      ${ADFIT_BODY}
+      <div class="dir-buttons homepage-row">${homepageButton}</div>
+      ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${photoCallHtml(f)}
       ${overview}
       ${extraSections}
-      ${ADFIT_BODY}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
@@ -624,7 +634,14 @@ function listCard(f, today) {
 }
 
 // 주말/지역 같은 목록형 페이지 한 장을 통째로 만든다
+const FEST_GUIDES = require("./festival-guides.js");
 function buildListPage({ filename, title, heading, subtitle, description, items, today }) {
+  // 월별 페이지에 그 달의 "에디터 추천" 페이지가 있으면 상단에 안내 띠 (월별 페이지 체류 1분+ → 추천으로 연결)
+  const monthMatch = filename.match(/^month-(\d{4})-(\d{2})\.html$/);
+  const pick = monthMatch ? FEST_GUIDES.PICKS.find((p) => p.slug === `picks-${monthMatch[1]}-${monthMatch[2]}`) : null;
+  const pickBanner = pick
+    ? `<div class="photo-call pick-banner"><span class="photo-call-icon">🍂</span><div class="photo-call-text"><span class="photo-call-title">${esc(pick.title)}</span> ${Number(monthMatch[2])}월 축제 ${items.length}곳 중 FestivalHub가 직접 고른 곳만, 왜 가볼 만한지 한 줄씩.</div><a class="photo-call-btn" href="${pick.slug}.html">추천 보기 →</a></div>`
+    : "";
   // 이미 끝난 축제는 목록 맨 뒤로 (월별 페이지처럼 지난 축제가 섞일 수 있는 곳 대비)
   const sorted = [...items.filter((f) => f.endDate >= today), ...items.filter((f) => f.endDate < today)];
   const cards = sorted.map((f) => listCard(f, today)).join("");
@@ -652,6 +669,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
     <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
   </header>
   ${SITE_NAV}
+  ${pickBanner}
   ${photoCallHtml(null)}
   <p class="result-count">${items.length}개의 축제</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
@@ -1260,8 +1278,9 @@ for (const pk of PICKS) {
       </a>`;
     })
     .filter(Boolean);
+  const pkMonth = pk.slug.match(/picks-(\d{4})-(\d{2})/);
   const bodyHtml = `
-      <section class="overview"><p>${pk.intro}</p></section>
+      <section class="overview"><p>${pk.intro}</p>${pkMonth ? `<p class="guide-tip">🗓️ 15곳 말고 전부 보고 싶다면 <a href="month-${pkMonth[1]}-${pkMonth[2]}.html">${Number(pkMonth[2])}월 축제 전체 일정</a>으로.</p>` : ""}</section>
       <div class="pick-list">${cards.join("")}</div>
       <p class="guide-tip">💡 가기 전에 <a href="guide-checklist.html">준비물 체크리스트</a>와 <a href="guide-parking.html">주차·셔틀 요령</a>도 함께 보세요. 비 예보가 있으면 <a href="guide-rain.html">우천 확인법</a>을.</p>`;
   fs.writeFileSync(filename, articlePage({ filename, title: pk.title, desc: pk.desc, icon: "🍂", bodyHtml }), "utf-8");

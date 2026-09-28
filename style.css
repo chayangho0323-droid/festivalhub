@@ -913,3 +913,12 @@ body {
 /* KOPIS show pages */
 .show-card img { height: 300px; object-fit: cover; object-position: top; }
 .show-poster { max-height: 80vh; object-fit: contain; background: #111; }
+
+/* Big official-homepage button (top action, 20% of visitors click it) */
+.homepage-row { margin: 14px 0 6px; }
+.homepage-row .dir-btn { flex: 1; text-align: center; font-size: 1rem; padding: 14px 18px; }
+.dir-btn.homepage-btn { background: #4756c9; color: #fff; border-color: #4756c9; }
+.dir-btn.homepage-btn:hover { background: #3a46a8; }
+.dir-btn.homepage-search { background: #03c75a; color: #fff; border-color: #03c75a; }
+.dir-btn.homepage-search:hover { background: #02a94c; }
+.pick-banner { background: #fff3e6; border-color: #f5c48f; }

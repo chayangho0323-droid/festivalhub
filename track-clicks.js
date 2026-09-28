@@ -34,7 +34,8 @@
     if (el.closest("#fav-btn, .fav-heart")) return "click_favorite";
     if (el.closest("#share-btn")) return "click_share";
     // 정보 표 안의 홈페이지 링크
-    if (el.closest(".info-value a")) return "click_homepage";
+    if (el.closest(".homepage-search")) return "click_homepage_search"; // 홈페이지 없는 축제의 대체 버튼(네이버 검색)
+    if (el.closest(".homepage-btn, .info-value a")) return "click_homepage";
     return null;
   }
 
