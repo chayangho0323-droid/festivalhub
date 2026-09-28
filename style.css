@@ -844,3 +844,12 @@ body {
 .fest-note h3 { font-size: 1rem; margin: 16px 0 8px; }
 .fest-note ul { padding-left: 20px; line-height: 1.8; }
 .fest-note li { margin-bottom: 4px; }
+
+/* Kakao AdFit ad slot (detail page, below intro) */
+.adfit {
+  display: flex;
+  justify-content: center;
+  margin: 22px 0 6px;
+  min-height: 0;
+}
+.adfit ins { max-width: 100%; }

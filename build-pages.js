@@ -38,6 +38,16 @@ const COUPANG_ITEMS = [
   { name: "🔥 핫팩", url: "https://link.coupang.com/a/gP8J1IrVsW" },
 ];
 
+// 카카오 애드핏 (2026-09-28 매체 등록, 애드센스 재심사와 병행) — 상세 페이지 소개글 아래 1개
+// 광고단위 "festival-본문" 300x250. 스크립트는 광고 위치마다 한 번씩 넣어도 됨(async 로더).
+const ADFIT_UNIT_BODY = "DAN-68NeQPCsAqEEiW25";
+const adfitBlock = (unit, w, h) => `
+      <div class="adfit" aria-label="광고">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="${unit}" data-ad-width="${w}" data-ad-height="${h}"></ins>
+        <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
+      </div>`;
+const ADFIT_BODY = adfitBlock(ADFIT_UNIT_BODY, 300, 250);
+
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 
 // ── 형제 사이트(캠핑허브) 데이터: 상세 페이지 "근처 캠핑장" 섹션용 ──
@@ -382,6 +392,7 @@ function buildPage(f, all) {
       ${noteSection}
       ${overview}
       ${extraSections}
+      ${ADFIT_BODY}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
