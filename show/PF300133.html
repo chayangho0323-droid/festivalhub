@@ -39,8 +39,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300133_260904_114014.png" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF300133.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"로봇 특공대 [인천]","startDate":"2026-09-12","endDate":"2026-10-05","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"아띠홀","address":"인천광역시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300133_260904_114014.png"]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"로봇 특공대 [인천]","startDate":"2026-09-12","endDate":"2026-10-05","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"아띠홀","address":"인천광역시 서구 청라에메랄드로 99 (청라동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300133_260904_114014.png"]}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -62,7 +62,7 @@
       <h1>로봇 특공대 [인천]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.09.12 ~ 2026.10.05</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">아띠홀</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">아띠홀<br /><span style="color:#777">인천광역시 서구 청라에메랄드로 99 (청라동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">토요일 ~ 일요일(13:00,15:00), HOL(13:00,15:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">55분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -70,7 +70,7 @@
         
         
         
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">032-623-4222</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.naver.com/booking/12/bizes/1720655">네이버N예약 예매</a></div></section>
       <section class="overview"><h2>소개</h2><p>[공연소개]<br />춤짱 슈슈의 신나는 댄스와 <br />허당 박사님의 폭발 연구소.<br />2.7m 거대 로봇 &lt;글램봇&gt; 등장!<br />지구 적응 훈련과 환상의 콤비<br />글램봇만 이뻐하자 질투가 난 슈슈<br />금지된 &lt;빨간 시럽&gt;을 마시고 흑화!<br />악당 황소왕과 손을 잡는다.<br />고장 나 버린 글램봇<br />관객과 힘을 모아 글램봇을 살리기 위한<br />발 펌프 풍선 게임!<br />&lt;슈슈야, 사랑해!&gt; <br />관객의 응원으로 진정한 우정과 가족을 <br />찾은 연구소.<br />최고의 감동과 웃음을 전달하는</p></section>
@@ -80,10 +80,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%95%84%EB%9D%A0%ED%99%80">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%95%84%EB%9D%A0%ED%99%80,37.5336658,126.6557291">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%84%9C%EA%B5%AC%20%EC%B2%AD%EB%9D%BC%EC%97%90%EB%A9%94%EB%9E%84%EB%93%9C%EB%A1%9C%2099%20(%EC%B2%AD%EB%9D%BC%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 인천의 다른 뮤지컬</h2><div class="festival-grid">
@@ -169,7 +169,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.5336658, 126.6557291], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([37.5336658, 126.6557291]).addTo(map).bindPopup("아띠홀").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

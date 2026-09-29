@@ -13,8 +13,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300296_260907_143832.gif" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF300296.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"클래식으로 듣는 우리의 밤은 당신의 노래로: 가을날, 삶을 위로하는 음악들 [군위]","startDate":"2026-10-01","endDate":"2026-10-01","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"군위 삼국유사교육문화회관","address":"대구광역시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300296_260907_143832.gif"],"organizer":{"@type":"Organization","name":"대구콘서트하우스"}}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"클래식으로 듣는 우리의 밤은 당신의 노래로: 가을날, 삶을 위로하는 음악들 [군위]","startDate":"2026-10-01","endDate":"2026-10-01","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"군위 삼국유사교육문화회관","address":"경상북도 군위군 군위읍 군청로 158"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300296_260907_143832.gif"],"organizer":{"@type":"Organization","name":"대구콘서트하우스"}}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -36,7 +36,7 @@
       <h1>클래식으로 듣는 우리의 밤은 당신의 노래로: 가을날, 삶을 위로하는 음악들 [군위]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.01 ~ 2026.10.01</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">군위 삼국유사교육문화회관</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">군위 삼국유사교육문화회관<br /><span style="color:#777">경상북도 군위군 군위읍 군청로 158</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">목요일(19:30)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">1시간 30분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">만 7세 이상</div></div>
@@ -44,7 +44,7 @@
         <div class="info-item"><span class="info-label">🎭 출연</span><div class="info-value">김성진, 이현 등</div></div>
         <div class="info-item"><span class="info-label">🎬 제작진</span><div class="info-value">안성진, 강한뫼</div></div>
         <div class="info-item"><span class="info-label">🏢 제작·기획</span><div class="info-value">대구콘서트하우스</div></div>
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">054-380-7212</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012312">놀유니버스 예매</a></div></section>
       
@@ -54,82 +54,82 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B5%B0%EC%9C%84%20%EC%82%BC%EA%B5%AD%EC%9C%A0%EC%82%AC%EA%B5%90%EC%9C%A1%EB%AC%B8%ED%99%94%ED%9A%8C%EA%B4%80">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EA%B5%B0%EC%9C%84%20%EC%82%BC%EA%B5%AD%EC%9C%A0%EC%82%AC%EA%B5%90%EC%9C%A1%EB%AC%B8%ED%99%94%ED%9A%8C%EA%B4%80,36.237268,128.57393809999996">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B2%BD%EC%83%81%EB%B6%81%EB%8F%84%20%EA%B5%B0%EC%9C%84%EA%B5%B0%20%EA%B5%B0%EC%9C%84%EC%9D%8D%20%EA%B5%B0%EC%B2%AD%EB%A1%9C%20158">🧭 네이버지도에서 보기</a>
         </div>
       </section>
-      <section class="nearby-section"><h2>🎭 대구의 다른 서양음악(클래식)</h2><div class="festival-grid">
-      <a class="card-link" href="../show/PF248820.html">
+      <section class="nearby-section"><h2>🎭 경북의 다른 서양음악(클래식)</h2><div class="festival-grid">
+      <a class="card-link" href="../show/PF300652.html">
         <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF248820_241223_114124.jpg" alt="우리가 사랑한 한국 영화 OST 콘서트 [대구] 포스터" loading="lazy" />
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300652_260911_102934.gif" alt="구미시립합창단 기획공연, 한마음 합창제: 구미, 노래로 하나되다 포스터" loading="lazy" />
           <div class="card-body">
             <span class="badge ongoing">공연중</span>
             <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>우리가 사랑한 한국 영화 OST 콘서트 [대구]</h2>
-            <p class="period">📅 2024.11.09 ~ 2026.11.22</p>
-            <p class="address">📍 스테이지엠 (STAGE M) (구.프란츠홀)</p>
-          </div>
-        </article>
-      </a>
-      <a class="card-link" href="../show/PF256370.html">
-        <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF256370_250108_161156.gif" alt="스테이지 M 신년 음악회: 캔들데이 콘서트 [대구] 포스터" loading="lazy" />
-          <div class="card-body">
-            <span class="badge ongoing">공연중</span>
-            <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>스테이지 M 신년 음악회: 캔들데이 콘서트 [대구]</h2>
-            <p class="period">📅 2025.01.17 ~ 2026.12.27</p>
-            <p class="address">📍 스테이지엠 (STAGE M) (구.프란츠홀)</p>
-          </div>
-        </article>
-      </a>
-      <a class="card-link" href="../show/PF274143.html">
-        <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF274143_251128_134208.gif" alt="스테이지엠 크리스마스 영화 음악 &amp; 캐롤 콘서트 [대구] 포스터" loading="lazy" />
-          <div class="card-body">
-            <span class="badge ongoing">공연중</span>
-            <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>스테이지엠 크리스마스 영화 음악 &amp; 캐롤 콘서트 [대구]</h2>
-            <p class="period">📅 2025.12.06 ~ 2026.12.25</p>
-            <p class="address">📍 스테이지엠 (STAGE M) (구.프란츠홀)</p>
-          </div>
-        </article>
-      </a>
-      <a class="card-link" href="../show/PF295351.html">
-        <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF295351_260706_110409.gif" alt="지브리 하우스 콘서트: 그 여름날의 계곡 [대구] 포스터" loading="lazy" />
-          <div class="card-body">
-            <span class="badge ongoing">공연중</span>
-            <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>지브리 하우스 콘서트: 그 여름날의 계곡 [대구]</h2>
-            <p class="period">📅 2026.07.07 ~ 2026.10.20</p>
-            <p class="address">📍 어연히하우스</p>
-          </div>
-        </article>
-      </a>
-      <a class="card-link" href="../show/PF295594.html">
-        <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF295594_260708_130516.gif" alt="지브리 하우스 콘서트: 바다와 함께하는 여름 [대구] 포스터" loading="lazy" />
-          <div class="card-body">
-            <span class="badge ongoing">공연중</span>
-            <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>지브리 하우스 콘서트: 바다와 함께하는 여름 [대구]</h2>
-            <p class="period">📅 2026.07.14 ~ 2026.10.27</p>
-            <p class="address">📍 어연히하우스</p>
-          </div>
-        </article>
-      </a>
-      <a class="card-link" href="../show/PF300042.html">
-        <article class="card show-card">
-          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300042_260903_130737.jpg" alt="대구메세나협회 창립 3주년 기념, 대구 클라리넷 앙상블 정기연주회 포스터" loading="lazy" />
-          <div class="card-body">
-            <span class="badge ongoing">공연중</span>
-            <span class="badge long">🎻 서양음악(클래식)</span>
-            <h2>대구메세나협회 창립 3주년 기념, 대구 클라리넷 앙상블 정기연주회</h2>
+            <h2>구미시립합창단 기획공연, 한마음 합창제: 구미, 노래로 하나되다</h2>
             <p class="period">📅 2026.09.29 ~ 2026.09.29</p>
-            <p class="address">📍 대구콘서트하우스</p>
+            <p class="address">📍 구미시문화예술회관</p>
+          </div>
+        </article>
+      </a>
+      <a class="card-link" href="../show/PF300176.html">
+        <article class="card show-card">
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300176_260904_141435.png" alt="후지타 마오 피아노 리사이틀 [경주] 포스터" loading="lazy" />
+          <div class="card-body">
+            <span class="badge upcoming">공연예정</span>
+            <span class="badge long">🎻 서양음악(클래식)</span>
+            <h2>후지타 마오 피아노 리사이틀 [경주]</h2>
+            <p class="period">📅 2026.10.01 ~ 2026.10.01</p>
+            <p class="address">📍 경주예술의전당</p>
+          </div>
+        </article>
+      </a>
+      <a class="card-link" href="../show/PF293867.html">
+        <article class="card show-card">
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF293867_260616_144005.jpg" alt="안동문화예술의전당 브런치콘서트, 시대별 클래식 시리즈: 낭만주의 감성 Ⅱ 노스텔지어 포스터" loading="lazy" />
+          <div class="card-body">
+            <span class="badge upcoming">공연예정</span>
+            <span class="badge long">🎻 서양음악(클래식)</span>
+            <h2>안동문화예술의전당 브런치콘서트, 시대별 클래식 시리즈: 낭만주의 감성 Ⅱ 노스텔지어</h2>
+            <p class="period">📅 2026.10.07 ~ 2026.10.07</p>
+            <p class="address">📍 안동문화예술의전당</p>
+          </div>
+        </article>
+      </a>
+      <a class="card-link" href="../show/PF294286.html">
+        <article class="card show-card">
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF294286_260622_132730.jpg" alt="아티스트 인 안동, 피아체볼레와 함께하는 음악동화 포스터" loading="lazy" />
+          <div class="card-body">
+            <span class="badge upcoming">공연예정</span>
+            <span class="badge long">🎻 서양음악(클래식)</span>
+            <h2>아티스트 인 안동, 피아체볼레와 함께하는 음악동화</h2>
+            <p class="period">📅 2026.10.09 ~ 2026.10.09</p>
+            <p class="address">📍 안동문화예술의전당</p>
+          </div>
+        </article>
+      </a>
+      <a class="card-link" href="../show/PF301688.html">
+        <article class="card show-card">
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF301688_260923_134211.jpg" alt="제3회 영덕 군민오케스트라 정기연주회 &amp; 교류음악회 with 당진시민오케스트라 [영덕] 포스터" loading="lazy" />
+          <div class="card-body">
+            <span class="badge upcoming">공연예정</span>
+            <span class="badge long">🎻 서양음악(클래식)</span>
+            <h2>제3회 영덕 군민오케스트라 정기연주회 &amp; 교류음악회 with 당진시민오케스트라 [영덕]</h2>
+            <p class="period">📅 2026.10.09 ~ 2026.10.09</p>
+            <p class="address">📍 예주문화예술회관</p>
+          </div>
+        </article>
+      </a>
+      <a class="card-link" href="../show/PF295322.html">
+        <article class="card show-card">
+          <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF295322_260703_145014.png" alt="지브리와 사랑에 빠지다: 지브리 영화음악 콘서트 [경주] 포스터" loading="lazy" />
+          <div class="card-body">
+            <span class="badge upcoming">공연예정</span>
+            <span class="badge long">🎻 서양음악(클래식)</span>
+            <h2>지브리와 사랑에 빠지다: 지브리 영화음악 콘서트 [경주]</h2>
+            <p class="period">📅 2026.10.10 ~ 2026.10.10</p>
+            <p class="address">📍 경주예술의전당</p>
           </div>
         </article>
       </a></div></section>
@@ -143,7 +143,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([36.237268, 128.57393809999996], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([36.237268, 128.57393809999996]).addTo(map).bindPopup("군위 삼국유사교육문화회관").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

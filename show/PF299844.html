@@ -19,8 +19,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF299844_260901_135824.png" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF299844.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"토끼와 거북이: 달려라 거북아! [의정부]","startDate":"2026-09-12","endDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"우리소극장 [의정부]","address":"경기도"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF299844_260901_135824.png"]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"토끼와 거북이: 달려라 거북아! [의정부]","startDate":"2026-09-12","endDate":"2026-11-01","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"우리소극장 [의정부]","address":"경기도 의정부시 용민로 483 (민락동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF299844_260901_135824.png"]}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -42,7 +42,7 @@
       <h1>토끼와 거북이: 달려라 거북아! [의정부]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.09.12 ~ 2026.11.01</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">우리소극장 [의정부]</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">우리소극장 [의정부]<br /><span style="color:#777">경기도 의정부시 용민로 483 (민락동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">토요일(11:00,14:00), 일요일(12:00,15:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">50분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -50,7 +50,7 @@
         <div class="info-item"><span class="info-label">🎭 출연</span><div class="info-value">오정미, 박용우</div></div>
         
         
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">010-3954-5899</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.naver.com/booking/12/bizes/1723146">네이버N예약 예매</a></div></section>
       <section class="overview"><h2>소개</h2><p>[공연소개]<br />달리기 경주에서 이번에는 꼭 이기겠다고 다짐한 토끼는 결승 선을 향해 힘차게 달려간다. 그런데 길에서 울고 있는 다람쥐와 개구리를 만나게 된다. 개구리는 숲 속 구덩이에 빠진 기타와 악기를 찾아 달라고 부탁한다.<br />처음에는 경주가 더 중요하다며 거절하던 토끼. 하지만 친구들의 응원과 도움 요청에 마음이 흔들리고, 결국 다람쥐와 개구리를 돕기로 한다. 토끼와 어린이 관객들은 힘을 합쳐 구덩이 속에 빠진 악기들을 찾아낸다.<br />그 사이 거북이는 토끼를 앞질러 결승 선을 향해 달려가고, 토끼는 또다시 경주에서 질 위기에 놓인다. 하지만 토끼는 길에서 엄마를 잃고 울고 있는 아기 오리를 발견하고, 다시 한 번 경주를 멈추고 아기 오리를 도와준다.<br />결국 결승선에서는거북이가 간발의 차이로 승리한다. 슬퍼하는 토끼에게 거북이는 자신이 받은 우승 메달을 건네는데..<br />'이번 경주의 진짜 1등은 너야. 친구들을 도와주느라 늦은 거잖아!'<br />그러나 토끼는 메달을 다시 거북이에게 돌려주고, 두 친구는 함께 깨닫는다.</p></section>
@@ -60,10 +60,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%9A%B0%EB%A6%AC%EC%86%8C%EA%B7%B9%EC%9E%A5%20%5B%EC%9D%98%EC%A0%95%EB%B6%80%5D">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%9A%B0%EB%A6%AC%EC%86%8C%EA%B7%B9%EC%9E%A5%20%5B%EC%9D%98%EC%A0%95%EB%B6%80%5D,37.7507781,127.1181088">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C%20%EC%9A%A9%EB%AF%BC%EB%A1%9C%20483%20(%EB%AF%BC%EB%9D%BD%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 경기의 다른 연극</h2><div class="festival-grid">
@@ -149,7 +149,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.7507781, 127.1181088], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([37.7507781, 127.1181088]).addTo(map).bindPopup("우리소극장 [의정부]").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

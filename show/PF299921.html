@@ -13,8 +13,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF299921_260916_144342.png" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF299921.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"물속의 달: 오필리어 [대전]","startDate":"2026-10-10","endDate":"2026-10-25","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"상상아트홀 [대전]","address":"대전광역시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF299921_260916_144342.png"],"organizer":{"@type":"Organization","name":"라이노컴퍼니(구. 극단 셰익스피어)"}}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"물속의 달: 오필리어 [대전]","startDate":"2026-10-10","endDate":"2026-10-25","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"상상아트홀 [대전]","address":"대전광역시 중구 대종로505번길 28(선화동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF299921_260916_144342.png"],"organizer":{"@type":"Organization","name":"라이노컴퍼니(구. 극단 셰익스피어)"}}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -36,7 +36,7 @@
       <h1>물속의 달: 오필리어 [대전]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.10 ~ 2026.10.25</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">상상아트홀 [대전]</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">상상아트홀 [대전]<br /><span style="color:#777">대전광역시 중구 대종로505번길 28(선화동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">수요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">1시간 30분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">만 7세 이상</div></div>
@@ -44,7 +44,7 @@
         <div class="info-item"><span class="info-label">🎭 출연</span><div class="info-value">정은선, 이승준, 오해영, 문혜인, 김혁주, 정사사</div></div>
         <div class="info-item"><span class="info-label">🎬 제작진</span><div class="info-value">복영한, 송혜지, 한아름 등</div></div>
         <div class="info-item"><span class="info-label">🏢 제작·기획</span><div class="info-value">라이노컴퍼니(구. 극단 셰익스피어)</div></div>
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">00-1899-4429</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="http://www.ticketlink.co.kr/product/65190">NHN티켓링크 예매</a><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://ticket.yes24.com/Perf/59909">예스24 예매</a><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.kakao.com/detail/ticket/722955">카카오톡예약하기 예매</a><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://timeticket.co.kr/product/7352">타임티켓 예매</a></div></section>
       
@@ -54,10 +54,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%83%81%EC%83%81%EC%95%84%ED%8A%B8%ED%99%80%20%5B%EB%8C%80%EC%A0%84%5D">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%83%81%EC%83%81%EC%95%84%ED%8A%B8%ED%99%80%20%5B%EB%8C%80%EC%A0%84%5D,36.3288066,127.4234165">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%EB%8C%80%EC%A2%85%EB%A1%9C505%EB%B2%88%EA%B8%B8%2028(%EC%84%A0%ED%99%94%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 대전의 다른 뮤지컬</h2><div class="festival-grid">
@@ -143,7 +143,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([36.3288066, 127.4234165], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([36.3288066, 127.4234165]).addTo(map).bindPopup("상상아트홀 [대전]").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>
