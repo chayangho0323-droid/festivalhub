@@ -13,8 +13,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300983_260915_134200.png" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF300983.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"어린이 벌룬쇼, 상상 풍선 마술단 [울산]","startDate":"2026-10-04","endDate":"2026-10-04","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"울산중구문화의전당","address":"울산광역시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300983_260915_134200.png"],"organizer":{"@type":"Organization","name":"(주)상상플레이스"}}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"어린이 벌룬쇼, 상상 풍선 마술단 [울산]","startDate":"2026-10-04","endDate":"2026-10-04","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"울산중구문화의전당","address":"울산광역시 중구 종가로 405 (성안동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300983_260915_134200.png"],"organizer":{"@type":"Organization","name":"(주)상상플레이스"}}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -36,7 +36,7 @@
       <h1>어린이 벌룬쇼, 상상 풍선 마술단 [울산]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.04 ~ 2026.10.04</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">울산중구문화의전당</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">울산중구문화의전당<br /><span style="color:#777">울산광역시 중구 종가로 405 (성안동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">일요일(11:00,13:00,15:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">45분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -44,7 +44,7 @@
         
         
         <div class="info-item"><span class="info-label">🏢 제작·기획</span><div class="info-value">(주)상상플레이스</div></div>
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">052-290-4000</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.naver.com/booking/12/bizes/1110561">네이버N예약 예매</a><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013256">놀유니버스 예매</a><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://timeticket.co.kr/product/7397">타임티켓 예매</a></div></section>
       
@@ -54,10 +54,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%9A%B8%EC%82%B0%EC%A4%91%EA%B5%AC%EB%AC%B8%ED%99%94%EC%9D%98%EC%A0%84%EB%8B%B9">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%9A%B8%EC%82%B0%EC%A4%91%EA%B5%AC%EB%AC%B8%ED%99%94%EC%9D%98%EC%A0%84%EB%8B%B9,35.5675422,129.3215364">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%9A%B8%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%A4%91%EA%B5%AC%20%EC%A2%85%EA%B0%80%EB%A1%9C%20405%20(%EC%84%B1%EC%95%88%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       
@@ -71,7 +71,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([35.5675422, 129.3215364], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([35.5675422, 129.3215364]).addTo(map).bindPopup("울산중구문화의전당").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

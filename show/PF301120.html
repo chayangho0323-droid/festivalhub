@@ -13,8 +13,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF301120_260916_161740.gif" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF301120.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"연극 식당: 매일이 크리스마스 프리뷰","startDate":"2026-10-07","endDate":"2026-10-11","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"남극장(NAM THEATER)","address":"서울특별시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF301120_260916_161740.gif"],"organizer":{"@type":"Organization","name":"컴퍼니 연결"}}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"연극 식당: 매일이 크리스마스 프리뷰","startDate":"2026-10-07","endDate":"2026-10-11","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"남극장(NAM THEATER)","address":"서울특별시 관악구 관악로14나길 13 (봉천동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF301120_260916_161740.gif"],"organizer":{"@type":"Organization","name":"컴퍼니 연결"}}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -36,7 +36,7 @@
       <h1>연극 식당: 매일이 크리스마스 프리뷰</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.07 ~ 2026.10.11</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">남극장(NAM THEATER)</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">남극장(NAM THEATER)<br /><span style="color:#777">서울특별시 관악구 관악로14나길 13 (봉천동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">수요일 ~ 목요일(19:30), 토요일 ~ 일요일(13:00,18:00), HOL(13:00,18:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">1시간 10분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -54,10 +54,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%82%A8%EA%B7%B9%EC%9E%A5(NAM%20THEATER)">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EB%82%A8%EA%B7%B9%EC%9E%A5(NAM%20THEATER),37.477433,126.957441">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B4%80%EC%95%85%EA%B5%AC%20%EA%B4%80%EC%95%85%EB%A1%9C14%EB%82%98%EA%B8%B8%2013%20(%EB%B4%89%EC%B2%9C%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 서울의 다른 연극</h2><div class="festival-grid">
@@ -143,7 +143,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.477433, 126.957441], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([37.477433, 126.957441]).addTo(map).bindPopup("남극장(NAM THEATER)").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

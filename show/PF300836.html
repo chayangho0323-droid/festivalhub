@@ -13,8 +13,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300836_260914_141735.jpg" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF300836.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"알토 포 투 X 자라섬 재즈 페스티벌 연계 공연 [세종]","startDate":"2026-10-11","endDate":"2026-10-11","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"재즈인연구소","address":"세종특별자치시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300836_260914_141735.jpg"]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"알토 포 투 X 자라섬 재즈 페스티벌 연계 공연 [세종]","startDate":"2026-10-11","endDate":"2026-10-11","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"재즈인연구소","address":"세종특별자치시 시청대로 167(보람동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300836_260914_141735.jpg"]}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -36,7 +36,7 @@
       <h1>알토 포 투 X 자라섬 재즈 페스티벌 연계 공연 [세종]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.11 ~ 2026.10.11</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">재즈인연구소</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">재즈인연구소<br /><span style="color:#777">세종특별자치시 시청대로 167(보람동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">일요일(17:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">1시간 10분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">만 7세 이상</div></div>
@@ -44,7 +44,7 @@
         <div class="info-item"><span class="info-label">🎭 출연</span><div class="info-value">이레네 레이그, 키카 스프랑거스, 사비 토레스, 토마스 폴, 홍선미</div></div>
         
         
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">070-8882-3863</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.naver.com/booking/12/bizes/1591746">네이버N예약 예매</a></div></section>
       
@@ -54,10 +54,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%9E%AC%EC%A6%88%EC%9D%B8%EC%97%B0%EA%B5%AC%EC%86%8C">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%9E%AC%EC%A6%88%EC%9D%B8%EC%97%B0%EA%B5%AC%EC%86%8C,36.4813104,127.2898957">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%8B%9C%EC%B2%AD%EB%8C%80%EB%A1%9C%20167(%EB%B3%B4%EB%9E%8C%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 세종의 다른 대중음악</h2><div class="festival-grid">
@@ -131,7 +131,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([36.4813104, 127.2898957], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([36.4813104, 127.2898957]).addTo(map).bindPopup("재즈인연구소").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

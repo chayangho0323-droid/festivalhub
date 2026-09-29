@@ -12,7 +12,12 @@ require("dotenv").config();
 const fs = require("fs");
 
 const KEY = process.env.KOPIS_KEY;
-const BASE = "http://www.kopis.or.kr/openApi/restful";
+// ⚠️ 주소·속도 주의 (2026-09-29 실측): www.kopis.or.kr 앞단 방화벽이 봇형 UA와 빠른 요청을 "Request Blocked"(400)로 막는다.
+//   - 통과 조합: https://kopis.or.kr (www 없음) + 어떤 UA든 OK, 단 **1초에 5회 넘으면 차단**(15초 뒤 해제) → 모든 요청 1초 간격
+//   - 차단(400) 시 20초 쉬고 1회 재시도. GitHub Actions(해외 IP)도 같은 규칙으로 통과 예상 — 첫 실행 로그로 확인.
+const BASE = "https://kopis.or.kr/openApi/restful";
+const REQ_GAP = 1000;   // 요청 간격 (ms) — 속도 제한 방어
+const BLOCK_WAIT = 20000; // 차단(400) 후 대기 (ms)
 const DAYS_AHEAD = 90;        // 오늘부터 90일 안에 열리는(또는 진행 중인) 공연
 const DETAIL_BUDGET = 400;    // 하루에 새로 받을 공연 상세 수
 const FACILITY_BUDGET = 150;  // 하루에 새로 받을 공연장 좌표 수
@@ -41,9 +46,14 @@ function blocks(xml, name) {
 }
 
 async function get(url) {
-  // KOPIS 앞단 방화벽이 curl/봇 형태 User-Agent를 "Request Blocked"(400)로 막는다 → 브라우저형 UA 사용 (http만 동작, https는 301)
-  const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 FestivalHub" } });
-  const text = await res.text();
+  let res = await fetch(url, { headers: { "User-Agent": "Java/17.0.1 FestivalHub (+https://festivalhub.kr)" } });
+  let text = await res.text();
+  if (res.status === 400 && /Request Blocked/i.test(text)) {
+    // 속도 제한에 걸림 → 잠깐 쉬고 한 번 더
+    await sleep(BLOCK_WAIT);
+    res = await fetch(url, { headers: { "User-Agent": "Java/17.0.1 FestivalHub (+https://festivalhub.kr)" } });
+    text = await res.text();
+  }
   if (!res.ok) throw new Error(`HTTP ${res.status} ${text.replace(/<[^>]+>/g, " ").trim().slice(0, 80)}`);
   const code = tag(text, "returncode");
   if (code && code !== "00" && code !== "04") throw new Error(`KOPIS 오류 ${code}: ${tag(text, "errmsg") || text.slice(0, 120)}`);
@@ -80,9 +90,9 @@ async function fetchList() {
         });
       }
       if (dbs.length < 100) break;
-      await sleep(120);
+      await sleep(REQ_GAP);
     }
-    await sleep(120);
+    await sleep(REQ_GAP);
   }
   return [...seen.values()];
 }
@@ -152,9 +162,9 @@ async function main() {
     if (c && c.detail) { p.detail = c.detail; continue; }
     if (filled >= DETAIL_BUDGET) { p.detail = null; continue; }
     p.detail = await fetchDetail(p.id);
-    if (!p.detail) { await sleep(800); p.detail = await fetchDetail(p.id); } // 방화벽이 간헐적으로 막음 → 한 번 더
+    if (!p.detail) { await sleep(BLOCK_WAIT); p.detail = await fetchDetail(p.id); } // 방화벽이 간헐적으로 막음 → 한 번 더
     filled++;
-    await sleep(250);
+    await sleep(REQ_GAP);
   }
   console.log(`📖 상세: 오늘 ${filled}건 (누적 ${list.filter((p) => p.detail).length}/${list.length})`);
 
@@ -164,9 +174,9 @@ async function main() {
     if (!fid) continue;
     if (!facilities[fid] && facNew < FACILITY_BUDGET) {
       let f = await fetchFacility(fid);
-      if (!f) { await sleep(800); f = await fetchFacility(fid); }
+      if (!f) { await sleep(BLOCK_WAIT); f = await fetchFacility(fid); }
       if (f) { facilities[fid] = f; facNew++; }
-      await sleep(250);
+      await sleep(REQ_GAP);
     }
     const f = facilities[fid];
     if (f) { p.address = f.address; p.lat = f.lat; p.lng = f.lng; p.venueTel = f.tel; p.venueHomepage = f.homepage; }

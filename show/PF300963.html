@@ -23,8 +23,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF300963_260915_124205.png" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF300963.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"벌거벗은 임금님 [금천]","startDate":"2026-09-19","endDate":"2026-10-18","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"레미어린이극장 [금천]","address":"서울특별시"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300963_260915_124205.png"]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"벌거벗은 임금님 [금천]","startDate":"2026-09-19","endDate":"2026-10-18","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"레미어린이극장 [금천]","address":"서울특별시 금천구 두산로 71 (독산동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF300963_260915_124205.png"]}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -46,7 +46,7 @@
       <h1>벌거벗은 임금님 [금천]</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.09.19 ~ 2026.10.18</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">레미어린이극장 [금천]</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">레미어린이극장 [금천]<br /><span style="color:#777">서울특별시 금천구 두산로 71 (독산동)</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">토요일 ~ 일요일(14:00), HOL(14:00)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">55분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -54,7 +54,7 @@
         
         
         
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">02-868-5961</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://booking.naver.com/booking/12/bizes/264373">네이버N예약 예매</a></div></section>
       <section class="overview"><h2>소개</h2><p>[공연소개]<br />벌거벗은임금님 - 금천<br />임금은 세상에서 가장 멋있고 아름다운 옷들만 좋아하는 사람이다.<br />왕의 이러한 허영심을 잘 알고 있는 신하들은 왕과 같은 색깔의 옷과 신발은 결코 피해서 입거나 신는다. 그러던 중 임금은 이웃나라에서 옷감 짜는 재단사가 있다는 소문을 듣고 그들을 수소문하여 왕궁으로 불러들인다.<br />재단사들은 모든 신하를 밖으로 내보낸 뒤, 임금에게 남의 눈에 보이지 않는 옷감으로 옷을 지을 수 있다고 거짓말을 한다. 뿐만 아니라, 옷감은 착한사람에게만 보이고, 나쁜사람에게는 보이지도, 만질 수도 없다고 말한다. 신기하여 황홀감에 빠진 임금은 즉시 그들에게 금과 옷감을 주라 명한다.<br />다음날, 그들은 완성된 옷을 들고 왕궁으로 들어간다. 왕을 비롯한 신하들은 보이지 아니하는 옷을 보인다고 말함으로써 그들의 신분과 체통을 유지하려 한다. 계속되는 아부와 거짓말속에서 임금은 보이지 아니 한다는 옷을 입고 지방행렬에 나간다. 임금의 행차를 보기 위해 기다리던 아이들은 아무것도 걸치지 않고 나오는 왕을 보고 임금님이 벌거벗었다 하며 비웃는다.<br />순식간에 창피를 당한 임금은 자신이 어리석었음을 알고 한탄한다.</p></section>
@@ -64,10 +64,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EB%A0%88%EB%AF%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B7%B9%EC%9E%A5%20%5B%EA%B8%88%EC%B2%9C%5D">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EB%A0%88%EB%AF%B8%EC%96%B4%EB%A6%B0%EC%9D%B4%EA%B7%B9%EC%9E%A5%20%5B%EA%B8%88%EC%B2%9C%5D,37.4704705,126.89566919999993">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B8%88%EC%B2%9C%EA%B5%AC%20%EB%91%90%EC%82%B0%EB%A1%9C%2071%20(%EB%8F%85%EC%82%B0%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 서울의 다른 뮤지컬</h2><div class="festival-grid">
@@ -153,7 +153,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.4704705, 126.89566919999993], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([37.4704705, 126.89566919999993]).addTo(map).bindPopup("레미어린이극장 [금천]").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>

@@ -21,8 +21,8 @@
   <meta property="og:image" content="http://www.kopis.or.kr/upload/pfmPoster/PF_PF301112_260916_155203.jpg" />
   <meta property="og:url" content="https://festivalhub.kr/show/PF301112.html" />
   <link rel="stylesheet" href="../style.css" />
-  
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"완주 인형극 페스타, 어둑시니","startDate":"2026-10-14","endDate":"2026-10-15","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"완주향토예술문화회관","address":"전북특별자치도"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF301112_260916_155203.jpg"]}</script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"완주 인형극 페스타, 어둑시니","startDate":"2026-10-14","endDate":"2026-10-15","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"완주향토예술문화회관","address":"전라북도 완주군 삼례읍 삼봉로 215"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF301112_260916_155203.jpg"]}</script>
   
   <!-- Google Analytics (방문자 통계) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3T5H6HSQQ"></script>
@@ -44,7 +44,7 @@
       <h1>완주 인형극 페스타, 어둑시니</h1>
       <div class="info-grid">
         <div class="info-item"><span class="info-label">📅 공연 기간</span><div class="info-value">2026.10.14 ~ 2026.10.15</div></div>
-        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">완주향토예술문화회관</div></div>
+        <div class="info-item"><span class="info-label">🏛️ 공연장</span><div class="info-value">완주향토예술문화회관<br /><span style="color:#777">전라북도 완주군 삼례읍 삼봉로 215</span></div></div>
         <div class="info-item"><span class="info-label">⏰ 공연 시간</span><div class="info-value">수요일(10:30,19:30), 목요일(10:30)</div></div>
         <div class="info-item"><span class="info-label">⌛ 러닝타임</span><div class="info-value">50분</div></div>
         <div class="info-item"><span class="info-label">🔞 관람 연령</span><div class="info-value">전체 관람가</div></div>
@@ -52,7 +52,7 @@
         <div class="info-item"><span class="info-label">🎭 출연</span><div class="info-value">고다희, 최창준, 김동윤, 이진희, 류제원</div></div>
         <div class="info-item"><span class="info-label">🎬 제작진</span><div class="info-value">박성찬, 배미진, 김종석 등</div></div>
         
-        
+        <div class="info-item"><span class="info-label">📞 공연장 문의</span><div class="info-value">063-291-7245</div></div>
       </div>
       <section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons"><a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="https://www.naruculture.co.kr/sub1_detail.html?concertid=tfts0136759">나루컬쳐 예매</a></div></section>
       <section class="overview"><h2>소개</h2><p>[시놉시스]<br />요괴들이 인간 세상에 자유롭게 돌아다닐 수 있는 '귀신의 날', 어둑시니의 이야기를 시작한다!<br />사람들의 관심을 받으면 몸집이 커지고 관심을 받지 못하면 크기가 작아져<br />끝내 그 존재마저 사라지게 되는 요괴 '어둑시니'.<br />세상이 변하면서 거리에 어두운 것은 조금씩 사라지고 자신을 기억하는 사람들도 적어지면서 점점 작아진 '어둑이'는 이렇게 있다가는 자신도 사라질지 모른다는 생각에 안절부절하고 있다.<br />이때, 어딘가 위태롭고 외로워 보이는 인간아이를 발견한다.</p></section>
@@ -62,10 +62,10 @@
         <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-68NeQPCsAqEEiW25" data-ad-width="300" data-ad-height="250"></ins>
         <script type="text/javascript" src="//t1.kakaocdn.net/kas/static/ba.min.js" async></script>
       </div>
-      <section class="map-section"><h2>오시는 길</h2>
+      <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%99%84%EC%A3%BC%ED%96%A5%ED%86%A0%EC%98%88%EC%88%A0%EB%AC%B8%ED%99%94%ED%9A%8C%EA%B4%80">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EC%99%84%EC%A3%BC%ED%96%A5%ED%86%A0%EC%98%88%EC%88%A0%EB%AC%B8%ED%99%94%ED%9A%8C%EA%B4%80,35.919834,127.09297779999997">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%A0%84%EB%9D%BC%EB%B6%81%EB%8F%84%20%EC%99%84%EC%A3%BC%EA%B5%B0%20%EC%82%BC%EB%A1%80%EC%9D%8D%20%EC%82%BC%EB%B4%89%EB%A1%9C%20215">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 전북의 다른 연극</h2><div class="festival-grid">
@@ -151,7 +151,11 @@
     <p>📚 축제 가이드: <a href="../picks-2026-10.html">10월 추천 15선</a> · <a href="../guide-checklist.html">준비물</a> · <a href="../guide-rain.html">비 올 때</a> · <a href="../guide-parking.html">주차·셔틀</a> · <a href="../guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
-  
+  <script>
+    const map = L.map("map", { scrollWheelZoom: false }).setView([35.919834, 127.09297779999997], 15);
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
+    L.marker([35.919834, 127.09297779999997]).addTo(map).bindPopup("완주향토예술문화회관").openPopup();
+  </script>
   <script src="../track-clicks.js"></script>
 </body>
 </html>
