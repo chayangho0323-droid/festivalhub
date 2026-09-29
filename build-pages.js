@@ -71,6 +71,28 @@ const ADFIT_BODY = adfitBlock(ADFIT_UNIT_BODY, 300, 250);
 
 const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 
+// ─── 정정 덧쓰기 (festival-overrides.json) ───
+// 주최 측·방문자가 알려준 수정 사항을 공공데이터 위에 덮어쓴다. 공공데이터는 매일 다시 받아오므로
+// 원본 파일을 고치면 하루 만에 되돌아간다 → 빌드 때마다 여기서 다시 적용. key는 정규화한 축제 이름에 포함되는 문자열.
+//   [{ "key": "광주펫크닉", "note": "누가 언제 요청", "set": { "startDate": "20261017", "tel": "..." } }]
+let festivalOverrides = [];
+try { festivalOverrides = JSON.parse(fs.readFileSync("festival-overrides.json", "utf-8")); } catch {}
+function applyOverrides(list) {
+  let n = 0;
+  for (const f of list) {
+    const key = String(f.name || "").replace(/제\s*\d+\s*회|\d{4}년?|\s|[()\[\]<>〈〉·:,\-]/g, "").toLowerCase();
+    for (const o of festivalOverrides) {
+      if (!o.key || !key.includes(o.key.toLowerCase())) continue;
+      Object.assign(f, o.set);
+      f.corrected = o.note || "주최 측 정정 반영";
+      n++;
+    }
+  }
+  return n;
+}
+const overrideCount = applyOverrides(festivals);
+if (overrideCount) console.log(`✏️ 정정 덧쓰기 ${overrideCount}건 적용 (festival-overrides.json)`);
+
 // ── 형제 사이트(캠핑허브) 데이터: 상세 페이지 "근처 캠핑장" 섹션용 ──
 // 라이브 사이트의 공개 JSON을 가져온다. 실패해도 빌드는 계속 (섹션만 생략)
 const { execSync } = require("child_process");
@@ -487,6 +509,7 @@ function buildPage(f, all) {
         ${infoRow("📞", "문의", esc(f.tel))}
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
+      ${f.corrected ? `<p class="coupang-notice">✏️ 주최 측 요청으로 정보를 정정했습니다 (${esc(String(f.corrected).slice(0, 10))}). 공공데이터와 다를 수 있으며, 이 페이지가 최신입니다.</p>` : ""}
       ${noteSection}
       ${autoIntro}
       ${ADFIT_BODY}
@@ -692,6 +715,7 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 let archivedFestivals = [];
 try {
   archivedFestivals = JSON.parse(fs.readFileSync("festivals-archive.json", "utf-8"));
+  applyOverrides(archivedFestivals);
 } catch {}
 
 // 같은 축제가 새 ID로 현재 목록에 있으면(표준데이터 임시 ID → 관광공사 정식 ID 등)
