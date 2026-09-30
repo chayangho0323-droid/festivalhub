@@ -208,8 +208,8 @@ try {
   festivalNotes = JSON.parse(fs.readFileSync("festival-notes.json", "utf-8"));
 } catch {}
 function findFestivalNote(f) {
-  // 공공데이터 소개글이 이미 충분한 축제에는 붙이지 않는다 (중복 방지)
-  if (stripHtml(f.overview || "").length >= 200 || stripHtml(f.tourOverview || "").length >= 200) return null;
+  // 2026-09-30부터 소개글 길이와 무관하게 붙인다 — 축제 이야기는 유래·볼거리·방문 팁이라 공식 소개와 역할이 다르고,
+  // 노출 큰 대형 축제(지상군·포은문화제 등)에도 원본 콘텐츠가 필요하다 (애드센스 재심사 대비)
   const n = normFestName(f.name);
   return festivalNotes.find((x) => x.key && n.includes(x.key.toLowerCase())) || null;
 }
