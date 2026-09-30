@@ -75,21 +75,7 @@ const festivals = JSON.parse(fs.readFileSync("festivals.json", "utf-8"));
 // 주최 측·방문자가 알려준 수정 사항을 공공데이터 위에 덮어쓴다. 공공데이터는 매일 다시 받아오므로
 // 원본 파일을 고치면 하루 만에 되돌아간다 → 빌드 때마다 여기서 다시 적용. key는 정규화한 축제 이름에 포함되는 문자열.
 //   [{ "key": "광주펫크닉", "note": "누가 언제 요청", "set": { "startDate": "20261017", "tel": "..." } }]
-let festivalOverrides = [];
-try { festivalOverrides = JSON.parse(fs.readFileSync("festival-overrides.json", "utf-8")); } catch {}
-function applyOverrides(list) {
-  let n = 0;
-  for (const f of list) {
-    const key = String(f.name || "").replace(/제\s*\d+\s*회|\d{4}년?|\s|[()\[\]<>〈〉·:,\-]/g, "").toLowerCase();
-    for (const o of festivalOverrides) {
-      if (!o.key || !key.includes(o.key.toLowerCase())) continue;
-      Object.assign(f, o.set);
-      f.corrected = o.note || "주최 측 정정 반영";
-      n++;
-    }
-  }
-  return n;
-}
+const { applyOverrides } = require("./apply-overrides"); // fetch-festivals.js와 같은 모듈 (festivals.json엔 이미 적용돼 있어도 안전)
 const overrideCount = applyOverrides(festivals);
 if (overrideCount) console.log(`✏️ 정정 덧쓰기 ${overrideCount}건 적용 (festival-overrides.json)`);
 

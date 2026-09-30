@@ -648,6 +648,14 @@ async function main() {
     console.log(`⚠️ 아카이브 갱신 실패 (계속 진행): ${err.message}`);
   }
 
+  // 주최 측 정정 요청(festival-overrides.json)을 공공데이터 위에 덮어쓴 뒤 저장 — 랜딩(app.js)이 이 파일을 직접 읽으므로 여기서 적용
+  try {
+    const { applyOverrides } = require("./apply-overrides");
+    const n = applyOverrides(allFestivals);
+    if (n) console.log(`✏️ 정정 덧쓰기 ${n}건 적용`);
+  } catch (err) {
+    console.log(`⚠️ 정정 덧쓰기 실패 (계속 진행): ${err.message}`);
+  }
   fs.writeFileSync(
     "festivals.json",
     JSON.stringify(allFestivals, null, 2), // null, 2 = 사람이 읽기 좋게 들여쓰기
