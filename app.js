@@ -226,9 +226,10 @@ function fillQuickLinks() {
     nav.appendChild(a);
   };
 
-  // 공연·행사는 축제와 다른 성격의 페이지라 전용 스타일(보라색)로 맨 앞에 배치
-  addChip("events.html", "🎭 공연·행사", "chip chip-events",
-    "축제가 아닌 공연·연주회·전시 등 동네 문예회관 행사를 지역별로 모은 페이지입니다.");
+  // 공연은 축제와 다른 성격의 페이지라 전용 스타일(보라색)로 맨 앞에 배치
+  // 2026-09-28부터 KOPIS 공연(뮤지컬·연극·콘서트 3천 건, 포스터·예매처)이 shows.html — 옛 지자체 행사(events.html)는 그 안에서 링크
+  addChip("shows.html", "🎭 공연", "chip chip-events",
+    "뮤지컬·연극·콘서트·클래식 등 앞으로 3개월 안의 전국 공연을 포스터·예매처와 함께 모은 페이지입니다. (KOPIS 공연예술통합전산망)");
 
   // 월별 칩: 이번 달부터 4개월 (build-pages.js가 만드는 파일명과 같은 규칙)
   const now = new Date();
