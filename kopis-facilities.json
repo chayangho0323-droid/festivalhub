@@ -6062,5 +6062,381 @@
     "lng": 127.002454486033,
     "tel": "070-4870-1932",
     "homepage": ""
+  },
+  "FC000849": {
+    "name": "광산문화예술회관",
+    "address": "전남광주통합특별시 광산구 광산로68번길 13 (송정동)",
+    "lat": 35.1404404,
+    "lng": 126.79929249999998,
+    "tel": "062-960-8860",
+    "homepage": "http://art.gwangsan.go.kr/"
+  },
+  "FC004931": {
+    "name": "더퍼포머씨어터 [화성]",
+    "address": "경기도 화성시 동탄구 경기동로 468-5 (장지동)",
+    "lat": 37.152632,
+    "lng": 127.122093,
+    "tel": "",
+    "homepage": "https://www.20magic.com/"
+  },
+  "FC003365": {
+    "name": "수상한창고",
+    "address": "서울특별시 금천구 금하로24길 7(시흥동)",
+    "lat": 37.4506581,
+    "lng": 126.9088159,
+    "tel": "070-8812-2020",
+    "homepage": "https://suscoop.com/"
+  },
+  "FC000394": {
+    "name": "봄내극장",
+    "address": "강원도 춘천시 서부대성로 71 (옥천동)",
+    "lat": 37.8824701,
+    "lng": 127.73133299999995,
+    "tel": "010-7273-8047",
+    "homepage": "http://citf.or.kr/"
+  },
+  "FC004219": {
+    "name": "마산문화예술센터 시민극장",
+    "address": "경상남도 창원시 마산합포구 창동거리길 22 (창동)",
+    "lat": 35.2065363,
+    "lng": 128.5743349,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001361": {
+    "name": "성북마을극장",
+    "address": "서울특별시 성북구 동소문로20다길 10 (동선동1가)",
+    "lat": 37.5915775,
+    "lng": 127.0173297,
+    "tel": "010-3385-4155",
+    "homepage": "http://sbtheater.modoo.at/"
+  },
+  "FC002016": {
+    "name": "우란2경",
+    "address": "서울특별시 성동구 연무장7길 11 (성수동2가)",
+    "lat": 37.5438039,
+    "lng": 127.0544279,
+    "tel": "02-465-1418",
+    "homepage": "http://www.wooranfdn.org/about/space.jsp"
+  },
+  "FC004235": {
+    "name": "에이페이지",
+    "address": "경기도 화성시 효행로1040번길 14 (진안동)",
+    "lat": 37.2125547,
+    "lng": 127.041698,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004794": {
+    "name": "기벌포복합문화센터",
+    "address": "충청남도 서천군 장항읍 장항로161번길 63",
+    "lat": 36.014304,
+    "lng": 126.696234,
+    "tel": "041-956-7905",
+    "homepage": "https://www.seocheonctf.or.kr/rental/facilities_info.do?rentalOrgNo=4"
+  },
+  "FC004998": {
+    "name": "창작공간 BBB",
+    "address": "서울특별시 종로구 이화장길 46 (이화동)",
+    "lat": 37.577362,
+    "lng": 127.004709,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004848": {
+    "name": "비브라토 플러스",
+    "address": "서울특별시 마포구 토정로3길 9 (합정동)",
+    "lat": 37.546035,
+    "lng": 126.914066,
+    "tel": "",
+    "homepage": "https://vibratocompany.com/"
+  },
+  "FC000288": {
+    "name": "대구메트로아트센터",
+    "address": "대구광역시 수성구 달구벌대로 지하 2950 (연호동)",
+    "lat": 35.84260039999999,
+    "lng": 128.68000099999995,
+    "tel": "054-795-0303",
+    "homepage": "https://metroart.modoo.at/"
+  },
+  "FC001683": {
+    "name": "가마골소극장",
+    "address": "부산광역시 기장군 일광면 이천6길 2",
+    "lat": 35.2675636,
+    "lng": 129.23491609999996,
+    "tel": "051-723-0568",
+    "homepage": "www.kamagol.co.kr"
+  },
+  "FC001327": {
+    "name": "소극장 함세상",
+    "address": "대구광역시 남구 명덕로 98 - 2",
+    "lat": 35.8566254,
+    "lng": 128.58077560000004,
+    "tel": "053-625-8251",
+    "homepage": "http://www.hamsesang.com/"
+  },
+  "FC004178": {
+    "name": "플렉스홀 3호점",
+    "address": "서울특별시 마포구 독막로 68 (상수동)",
+    "lat": 37.5475998,
+    "lng": 126.9208586,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002153": {
+    "name": "문화비축기지",
+    "address": "서울특별시 마포구 증산로 87 (성산동)",
+    "lat": 37.5716073,
+    "lng": 126.895369,
+    "tel": "02-376-8410",
+    "homepage": "http://parks.seoul.go.kr/template/sub/culturetank.do"
+  },
+  "FC004947": {
+    "name": "블랙박스 1357",
+    "address": "서울특별시 종로구 대학로 135-7 (명륜4가)",
+    "lat": 37.583127,
+    "lng": 127.001154,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004879": {
+    "name": "사이공 오페라하우스 (Saigon Opera House) [베트남]",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001134": {
+    "name": "아신극장",
+    "address": "대전광역시 중구 대종로 458 (대흥동) 대산빌딩 2-3층",
+    "lat": 36.3256123,
+    "lng": 127.42803779999997,
+    "tel": "00-1599-9210",
+    "homepage": "https://asinartcompany.modoo.at/"
+  },
+  "FC003868": {
+    "name": "대학로 무하아트센터",
+    "address": "서울특별시 종로구 이화장길 72 (동숭동)",
+    "lat": 37.5784995,
+    "lng": 127.0046477,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004354": {
+    "name": "대주아트 엔터뮤직 2호점",
+    "address": "서울특별시 서초구 반포대로7길 20 (서초동)",
+    "lat": 37.4823971,
+    "lng": 127.0109378,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004787": {
+    "name": "서울문화예술교육센터 강북",
+    "address": "서울특별시 강북구 솔샘로48길 14 (미아동)",
+    "lat": 37.61955,
+    "lng": 127.017607,
+    "tel": "02-2105-2319",
+    "homepage": ""
+  },
+  "FC000845": {
+    "name": "인천서해구문화회관(구. 인천서구문화회관)",
+    "address": "인천광역시 서구 서달로 190 (가정동)",
+    "lat": 37.5156728,
+    "lng": 126.6798708,
+    "tel": "032-580-1150",
+    "homepage": "http://www.iscf.kr"
+  },
+  "FC000724": {
+    "name": "한라아트홀",
+    "address": "제주특별자치도 제주시 한라대학로 38 (노형동)",
+    "lat": 33.4762933,
+    "lng": 126.47489870000004,
+    "tel": "064-741-7575",
+    "homepage": "http://www.chu.ac.kr/organization/02organization/sub02/sub02.php"
+  },
+  "FC001390": {
+    "name": "성신여자대학교 운정그린캠퍼스",
+    "address": "서울특별시 강북구 도봉로76가길 55 (미아동)",
+    "lat": 37.5916714,
+    "lng": 127.0212424,
+    "tel": "02-920-7870",
+    "homepage": "https://www.sungshin.ac.kr/sites/main_kor/main.jsp"
+  },
+  "FC002878": {
+    "name": "코스모스아트홀",
+    "address": "서울특별시 서초구 반포대로 27(서초동)",
+    "lat": 37.4828556,
+    "lng": 127.0115575,
+    "tel": "02-522-8844",
+    "homepage": "https://www.cosmosmusic.com/company/cosmoshall.php"
+  },
+  "FC000218": {
+    "name": "도봉구민회관",
+    "address": "서울특별시 도봉구 도봉로 552 (창동)",
+    "lat": 37.6540005,
+    "lng": 127.03860439999994,
+    "tel": "02-901-5160",
+    "homepage": "http://www.dobongsiseol.or.kr/index_hall.html"
+  },
+  "FC003128": {
+    "name": "국립대구과학관",
+    "address": "대구광역시 달성군 유가읍 테크노대로6길 20",
+    "lat": 35.6866551,
+    "lng": 128.4657617,
+    "tel": "053-670-6114",
+    "homepage": "https://www.dnsm.or.kr/"
+  },
+  "FC001761": {
+    "name": "금사락",
+    "address": "부산광역시 금정구 개좌로 162 (회동동) 예술지구 내 금사락",
+    "lat": 35.2257448,
+    "lng": 129.1182007,
+    "tel": "070-4322-3557",
+    "homepage": "http://www.kumsarock.com/"
+  },
+  "FC001261": {
+    "name": "KBS홀 [울산]",
+    "address": "울산광역시 남구 번영로 212 (달동)",
+    "lat": 35.5441989,
+    "lng": 129.3265401,
+    "tel": "052-270-7181",
+    "homepage": "https://kbsbiz.co.kr/kbs%ec%9a%b8%ec%82%b0%ed%99%80/"
+  },
+  "FC001363": {
+    "name": "경북대학교",
+    "address": "대구광역시 북구 대학로 80 (산격동)",
+    "lat": 35.8898417,
+    "lng": 128.61269530000004,
+    "tel": "053-950-7122",
+    "homepage": "http://globalplaza.knu.ac.kr/gp/sub.php?top=2&sub=1&sub2=1&sub3=0&sub4=0"
+  },
+  "FC002348": {
+    "name": "시흥시청 늠내홀",
+    "address": "경기도 시흥시 시청로 20 (장현동)",
+    "lat": 37.3799424,
+    "lng": 126.8031815,
+    "tel": "031-310-2945",
+    "homepage": "https://www.siheung.go.kr/main.do"
+  },
+  "FC003908": {
+    "name": "문기타, 문씨어터 [진주]",
+    "address": "경상남도 진주시 석갑로155번길 17-13 (신안동)",
+    "lat": 35.182892,
+    "lng": 128.0606254,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004800": {
+    "name": "라이언슈퍼클럽(LION SUPER CLUB)",
+    "address": "서울특별시 강남구 도산대로 535 (청담동)",
+    "lat": 37.525085,
+    "lng": 127.051866,
+    "tel": "",
+    "homepage": "http://lionsuperclub.co.kr/club/main"
+  },
+  "FC003565": {
+    "name": "바른아트센터",
+    "address": "경기도 성남시 분당구 야탑로75번길 5 (야탑동)",
+    "lat": 37.4108438,
+    "lng": 127.1268172,
+    "tel": "",
+    "homepage": "http://www.barunsesang.co.kr/m/10_art_center/art_center0101.php?"
+  },
+  "FC002477": {
+    "name": "논현1 문화센터",
+    "address": "서울특별시 강남구 학동로20길 25 (논현동)",
+    "lat": 37.5115175,
+    "lng": 127.0285527,
+    "tel": "02-2176-0610",
+    "homepage": "http://www.gfac.kr/client/reservation/rentalInfo.do"
+  },
+  "FC001699": {
+    "name": "여주시 평생학습센터 (여성회관)",
+    "address": "경기도 여주시 신륵사길 6-6 (천송동)",
+    "lat": 37.3001848,
+    "lng": 127.6523511,
+    "tel": "031-887-3323",
+    "homepage": "http://lll.yeoju.go.kr/open_content/index.jsp"
+  },
+  "FC003164": {
+    "name": "강릉 올림픽파크",
+    "address": "강원도 강릉시 수리골길 100(포남동)",
+    "lat": 37.7788933,
+    "lng": 128.900008,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000711": {
+    "name": "김해 장유문화센터",
+    "address": "경상남도 김해시 대청로176번길 7 (대청동)",
+    "lat": 35.1914593,
+    "lng": 128.79697080000005,
+    "tel": "055-330-7451",
+    "homepage": "https://lib.gimhae.go.kr/jangyu.web"
+  },
+  "FC000244": {
+    "name": "진해문화센터 (진해구민회관)",
+    "address": "경상남도 창원시 진해구 진해대로 325 (태백동) 진해구민센터",
+    "lat": 35.1691187,
+    "lng": 128.65962420000005,
+    "tel": "055-719-7882",
+    "homepage": "https://www.cwcf.or.kr/rental/rental_jhcc.asp"
+  },
+  "FC001591": {
+    "name": "현대백화점 문화홀 [압구정]",
+    "address": "서울특별시 강남구 압구정로29길 21",
+    "lat": 37.527346,
+    "lng": 127.02735499999994,
+    "tel": "02-3449-5390",
+    "homepage": "http://www.ehyundai.com/newCulture/CW/CW000001_V.do"
+  },
+  "FC001832": {
+    "name": "GB가빈아트홀",
+    "address": "서울특별시 강남구 삼성로 534 (삼성동)",
+    "lat": 37.5096777,
+    "lng": 127.0555363,
+    "tel": "02-1544-0609",
+    "homepage": "https://gabin-arthall.com"
+  },
+  "FC000300": {
+    "name": "학산소극장",
+    "address": "인천광역시 남구 인하로 126 (용현동)",
+    "lat": 37.4494551,
+    "lng": 126.661876,
+    "tel": "032-866-3970",
+    "homepage": "http://www.haksanculture.or.kr/theatre/haksantheater.php"
+  },
+  "FC001396": {
+    "name": "남도소리울림터",
+    "address": "전남광주통합특별시 무안군 삼향읍 남악로 222",
+    "lat": 34.8048793,
+    "lng": 126.46175319999998,
+    "tel": "061-981-6688",
+    "homepage": "http://namdosori.or.kr/"
+  },
+  "FC001429": {
+    "name": "김천시립문화회관",
+    "address": "경상북도 김천시 김천로 200 (남산동)",
+    "lat": 36.118733,
+    "lng": 128.12124570000003,
+    "tel": "054-439-9487",
+    "homepage": "https://www.gc.go.kr/gcart/contents.do?mId=0200000000"
+  },
+  "FC001863": {
+    "name": "롯데백화점 문화홀 [평촌]",
+    "address": "경기도 안양시 동안구 시민대로 180 (호계동)",
+    "lat": 37.3918595,
+    "lng": 126.95711549999999,
+    "tel": "031-8086-0728",
+    "homepage": "https://www.lotteshopping.com/branchShopGuide/floorGuideSub"
+  },
+  "FC000850": {
+    "name": "구로구민회관",
+    "address": "서울특별시 구로구 가마산로25길 21 (구로동)",
+    "lat": 37.497057,
+    "lng": 126.88955880000003,
+    "tel": "02-860-2592",
+    "homepage": "https://www.guroartsvalley.or.kr/meetingHall?guroart_menu_cd=U0015"
   }
 }
