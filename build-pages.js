@@ -1096,6 +1096,10 @@ if (shows.length >= 10) {
   if (!fs.existsSync(showDir)) fs.mkdirSync(showDir);
   for (const old of fs.readdirSync(showDir)) if (old.endsWith(".html")) fs.unlinkSync(path.join(showDir, old));
 
+  // 공연 사진 제보 메일 링크 (축제 reportMailto와 같은 모듈, 페이지 주소만 show/)
+  const showReportMailto = (s) => VP.reportMailto(s
+    ? { email: REPORT_EMAIL, siteName: "FestivalHub", name: s.name, where: s.venue, pageUrl: `${SITE_URL}/show/${s.id}.html` }
+    : { email: REPORT_EMAIL, siteName: "FestivalHub 공연" });
   const GENRE_ICON = { 뮤지컬: "🎼", 연극: "🎭", "서양음악(클래식)": "🎻", "한국음악(국악)": "🥁", 대중음악: "🎤", "무용(서양/한국무용)": "🩰", 대중무용: "💃", "서커스/마술": "🎪", 복합: "✨" };
   const gIcon = (g) => GENRE_ICON[g] || "🎫";
   const regionOf = (s) => getRegion(s.address || s.area || "");
@@ -1142,6 +1146,8 @@ if (shows.length >= 10) {
   ${s.poster ? `<meta property="og:image" content="${esc(s.poster)}" />` : ""}
   <meta property="og:url" content="${SITE_URL}/show/${s.id}.html" />
   <link rel="stylesheet" href="../style.css" />
+  ${FONT_LINK}
+  <link rel="stylesheet" href="../report.css" />
   ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>` : ""}
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   ${GA_SNIPPET}
@@ -1166,6 +1172,8 @@ if (shows.length >= 10) {
         ${infoRow("📞", "공연장 문의", esc(s.venueTel))}
       </div>
       ${tickets}
+      ${VP.galleryHtml(visitorPhotos[String(s.id)], { name: s.name, href: showReportMailto(s) })}
+      ${VP.photoCallHtml({ title: "공연 사진 자랑해 주세요!", text: "이 공연 보고 오셨나요? 커튼콜·공연장 앞 인증샷·포스터 사진을 보내주세요 — <strong>닉네임과 함께</strong> 이 페이지에 올려드려요. (공연 중 촬영은 공연장 규정을 따라 주세요)", href: showReportMailto(s) })}
       ${story}
       ${gallery}
       ${ADFIT_BODY}
@@ -1186,6 +1194,7 @@ if (shows.length >= 10) {
     L.marker([${s.lat}, ${s.lng}]).addTo(map).bindPopup(${JSON.stringify(s.venue)}).openPopup();
   </script>` : ""}
   <script src="../track-clicks.js"></script>
+  <script src="../report.js"></script>
 </body>
 </html>`;
     fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
@@ -1210,6 +1219,8 @@ if (shows.length >= 10) {
   <meta property="og:description" content="뮤지컬·연극·콘서트·클래식 ${shows.length}건, 매일 갱신" />
   <meta property="og:url" content="${SITE_URL}/shows.html" />
   <link rel="stylesheet" href="style.css" />
+  ${FONT_LINK}
+  <link rel="stylesheet" href="report.css" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -1224,6 +1235,7 @@ if (shows.length >= 10) {
   <nav class="quick-links">
     ${regionNames.map((r) => `<a class="chip" href="#region-${REGION_SLUGS[r] || "etc"}">${esc(r)} ${byRegion[r].length}</a>`).join("")}
   </nav>
+  <div style="max-width:1200px;margin:0 auto;padding:0 16px">${VP.photoCallHtml({ title: "공연 사진 자랑해 주세요!", text: "공연 보고 오셨나요? 커튼콜·공연장 앞 인증샷·포스터 사진을 보내주세요 — <strong>닉네임과 함께</strong> 공연 페이지에 올려드려요.", href: showReportMailto(null) })}</div>
   ${soon.length ? `<section class="event-region" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>🆕 이번 주 시작하는 공연</h2></section><main class="festival-grid">${soon.map((s) => showCard(s)).join("")}</main>` : ""}
   ${genres.map((g) => `<section class="event-region" id="genre-${encodeURIComponent(g)}" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>${gIcon(g)} ${esc(g)} <span class="event-count">${shows.filter((s) => s.genre === g).length}건</span></h2></section><main class="festival-grid">${shows.filter((s) => s.genre === g).slice(0, 24).map((s) => showCard(s)).join("")}</main>`).join("")}
   ${regionNames.map((r) => `<section class="event-region" id="region-${REGION_SLUGS[r] || "etc"}" style="max-width:1200px;margin:0 auto;padding:0 16px"><h2>📍 ${esc(r)} <span class="event-count">${byRegion[r].length}건</span></h2></section><main class="festival-grid">${byRegion[r].slice(0, 24).map((s) => showCard(s)).join("")}</main>`).join("")}
@@ -1231,6 +1243,7 @@ if (shows.length >= 10) {
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
+  <script src="report.js"></script>
 </body>
 </html>`, "utf-8");
   showFiles.push("shows.html");
