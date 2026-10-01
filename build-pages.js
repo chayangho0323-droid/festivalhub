@@ -175,6 +175,21 @@ function infoRow(icon, label, value) {
 
 // 모든 페이지 하단에 붙는 공통 푸터 (출처 표기는 공공데이터 이용 시 의무사항)
 // prefix: 페이지 위치에 따른 경로 보정 ("" = 루트, "../" = festival/ 폴더 안)
+// 축제 가이드 바로가기 — 푸터만으론 안 보여서(2026-10-01) 메인·목록은 칩 줄, 상세는 홈페이지 버튼 아래 한 줄로 노출
+const GUIDE_LINKS = [
+  ["picks-2026-10.html", "🍂 10월 추천 15선", "chip chip-hot"],
+  ["guide-checklist.html", "🎒 준비물"],
+  ["guide-rain.html", "🌧️ 비 올 때"],
+  ["guide-parking.html", "🚗 주차·셔틀"],
+  ["guide-kids.html", "👨‍👩‍👧 아이와 함께"],
+];
+function guideChips(prefix = "") {
+  return `<nav class="quick-links guide-row" aria-label="축제 가이드"><span class="guide-row-label">📚 축제 가이드</span>${GUIDE_LINKS.map(([h, t, c]) => `<a class="${c || "chip"}" href="${prefix}${h}">${t}</a>`).join("")}</nav>`;
+}
+function guideInline(prefix = "") {
+  return `<p class="guide-inline">📚 가기 전에 — ${GUIDE_LINKS.slice(1).map(([h, t]) => `<a href="${prefix}${h}">${t.replace(/^\S+\s/, "")}</a>`).join(" · ")} · <a href="${prefix}${GUIDE_LINKS[0][0]}">10월 추천 축제</a></p>`;
+}
+
 function footerHtml(prefix = "") {
   return `
   <footer class="site-footer">
@@ -500,6 +515,7 @@ function buildPage(f, all) {
       ${autoIntro}
       ${ADFIT_BODY}
       <div class="dir-buttons homepage-row">${homepageButton}</div>
+      ${guideInline("../")}
       ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${photoCallHtml(f)}
       ${overview}
@@ -680,6 +696,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   ${SITE_NAV}
   ${pickBanner}
   ${photoCallHtml(null)}
+  ${guideChips("")}
   <p class="result-count">${items.length}개의 축제</p>
   <main class="festival-grid">${cards || `<p style="grid-column:1/-1;text-align:center;color:#888;">해당하는 축제가 없습니다.</p>`}</main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>

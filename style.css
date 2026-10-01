@@ -922,3 +922,10 @@ body {
 .dir-btn.homepage-search { background: #03c75a; color: #fff; border-color: #03c75a; }
 .dir-btn.homepage-search:hover { background: #02a94c; }
 .pick-banner { background: #fff3e6; border-color: #f5c48f; }
+
+/* Guide shortcuts: chip row (landing/list) and inline line (detail, under homepage button) */
+.guide-row { padding-top: 0; gap: 6px; align-items: center; }
+.guide-row-label { font-size: 0.85rem; font-weight: 700; color: #5a3d1a; margin-right: 4px; }
+.guide-inline { font-size: 0.88rem; color: #666; margin: 6px 2px 14px; line-height: 1.7; }
+.guide-inline a { color: #4756c9; font-weight: 600; text-decoration: none; }
+.guide-inline a:hover { text-decoration: underline; }
