@@ -29994,91 +29994,6 @@
     "source": "std"
   },
   {
-    "contentid": "szcye3v",
-    "name": "광양전통숯불구이축제",
-    "startDate": "20261001",
-    "endDate": "20261001",
-    "address": "전라남도 광양시 광양읍 칠성리 881-2",
-    "lat": "34.96960493",
-    "lng": "127.5774286",
-    "image": "",
-    "overview": "공연+경연+체험+전시+판매+부대행사",
-    "tourOverview": "",
-    "tel": "061-797-4903",
-    "homepage": "http://www.gwangyang.go.kr/tour_culture",
-    "eventplace": "광양읍 서천변 일원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "전라남도 광양시청",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "광양불고기특화거리",
-        "dist": 147,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/98/2915898_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 서천1길 44  "
-      },
-      {
-        "name": "신재서원",
-        "dist": 1698,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3345083_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 광양읍 신재로 110"
-      },
-      {
-        "name": "광양향교",
-        "dist": 1713,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/33/3345033_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 광양읍 향교길 67"
-      },
-      {
-        "name": "매천 황현 생가",
-        "dist": 2992,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3547839_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 봉강면 서석길 14-3"
-      },
-      {
-        "name": "곡수서원",
-        "dist": 4230,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/29/3346529_image2_1.JPG",
-        "addr": "전남광주통합특별시 순천시 순광로 105-17"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "삼대광양불고기집",
-        "dist": 131,
-        "image": "",
-        "addr": "전남광주통합특별시 광양시 서천1길 52  "
-      },
-      {
-        "name": "매실한우 광양불고기",
-        "dist": 164,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/2861453_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 서천1길 46  "
-      },
-      {
-        "name": "대갓집 숯불직화구이",
-        "dist": 355,
-        "image": "",
-        "addr": "전남광주통합특별시 광양시 광양읍 서천2길 27"
-      },
-      {
-        "name": "백도식당",
-        "dist": 595,
-        "image": "",
-        "addr": "전남광주통합특별시 광양시 광양읍 덕례길 68"
-      },
-      {
-        "name": "광양 소낭구",
-        "dist": 899,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2891269_image2_1.JPG",
-        "addr": "전남광주통합특별시 광양시 광양읍 서평로 40"
-      }
-    ],
-    "source": "std"
-  },
-  {
     "contentid": "s1ac2maj",
     "name": "광양 K-POP 페스티벌",
     "startDate": "20261023",
@@ -33355,86 +33270,86 @@
     "source": "std"
   },
   {
-    "contentid": "s60ohdz",
-    "name": "팔공산 단풍축제",
+    "contentid": "s1p57jsp",
+    "name": "2026년 제25회 팔공산 단풍축제",
     "startDate": "20261030",
     "endDate": "20261101",
-    "address": "대구광역시 동구 용수동 27-5",
-    "lat": "35.9897266",
-    "lng": "128.6964879",
+    "address": "대구광역시 동구 아양로 207",
+    "lat": "35.886807",
+    "lng": "128.636074",
     "image": "",
-    "overview": "순두부 나눔 행사 및 무대공연 등",
+    "overview": "자연생태",
     "tourOverview": "",
-    "tel": "053-000-0000",
-    "homepage": "",
-    "eventplace": "팔공산 갓바위지구광장",
+    "tel": "053-662-2000",
+    "homepage": "https://www.dong.daegu.kr/",
+    "eventplace": "팔공산 갓바위 시설지구 일원",
     "playtime": "",
     "usefee": "",
-    "sponsor": "팔공산갓바위상가번영회",
+    "sponsor": "대구광역시 동구",
     "images": [],
     "extraInfo": [],
     "nearbySpots": [
       {
-        "name": "팔공산국립공원(동화사지구)",
-        "dist": 37,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/81/3586481_image2_1.jpg",
-        "addr": "대구광역시 동구 동화사1길 1"
+        "name": "아양기찻길",
+        "dist": 442,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3570773_image2_1.jpg",
+        "addr": "대구광역시 동구 해동로 82 (지저동)"
       },
       {
-        "name": "팔공산분수광장",
-        "dist": 56,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/24/3564524_image2_1.JPG",
-        "addr": "대구광역시 동구 용수동 27-5"
+        "name": "바운스 트램폴린파크 동대구신세계백화점센터",
+        "dist": 827,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3586450_image2_1.JPG",
+        "addr": "대구광역시 동구 효신로 88 (신암동)"
       },
       {
-        "name": "팔공산 케이블카",
-        "dist": 190,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3572056_image2_1.jpg",
-        "addr": "대구광역시 동구 팔공산로185길 51"
+        "name": "동대구역광장",
+        "dist": 1039,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3521295_image2_1.jpg",
+        "addr": "대구광역시 동구 동대구로 550 (신암동)"
       },
       {
-        "name": "대구시민안전테마파크",
-        "dist": 406,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3541636_image2_1.jpg",
-        "addr": "대구광역시 동구 팔공산로 1155 (용수동)"
+        "name": "옹기종기행복마을",
+        "dist": 1054,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/94/3586494_image2_1.JPG",
+        "addr": "대구광역시 동구 입석동"
       },
       {
-        "name": "동화사(대구)",
-        "dist": 624,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3576785_image2_1.JPG",
-        "addr": "대구광역시 동구 동화사1길 1 (도학동)"
+        "name": "대구 구 동촌역사",
+        "dist": 1279,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3077500_image2_1.JPG",
+        "addr": "대구광역시 동구 동촌역사로3길 35"
       }
     ],
     "nearbyFood": [
       {
-        "name": "가원식당",
-        "dist": 110,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2846082_image2_1.png",
-        "addr": "대구광역시 동구 팔공산로199길 6-3 (용수동)"
+        "name": "해금강",
+        "dist": 824,
+        "image": "",
+        "addr": "대구광역시 동구 신암남로 133"
       },
       {
-        "name": "산중식당",
-        "dist": 187,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/93/2851193_image2_1.jpg",
-        "addr": "대구광역시 동구 팔공산로185길 55 (용수동)"
+        "name": "에녹커피",
+        "dist": 1197,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2846179_image2_1.jpg",
+        "addr": "대구광역시 동구 아양로 344 (입석동)"
       },
       {
-        "name": "탑골식당",
-        "dist": 219,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/29/2856229_image2_1.jpg",
-        "addr": "대구광역시 동구 동화사2길 21-7"
+        "name": "사파키친",
+        "dist": 1209,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/2846163_image2_1.jpg",
+        "addr": "대구광역시 동구 동부로34길 10 (신천동)"
       },
       {
-        "name": "수다레스토랑",
-        "dist": 224,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/21/2856121_image2_1.jpg",
-        "addr": "대구광역시 동구 동화사2길 21-10"
+        "name": "쭈꾸미네",
+        "dist": 1259,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2846204_image2_1.jpg",
+        "addr": "대구광역시 동구 효동로6길 43 (효목동)"
       },
       {
-        "name": "티아이티에프",
-        "dist": 372,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2855990_image2_1.jpg",
-        "addr": "대구광역시 동구 팔공산로 1169 (용수동)"
+        "name": "청담한상",
+        "dist": 1695,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/3450180_image2_1.jpg",
+        "addr": "대구광역시 동구 효동로2길 45 (효목동)"
       }
     ],
     "source": "std"
@@ -38437,91 +38352,6 @@
         "dist": 425,
         "image": "http://tong.visitkorea.or.kr/cms/resource/94/2609794_image2_1.jpg",
         "addr": "대구광역시 중구 국채보상로 602-1 (문화동)"
-      }
-    ],
-    "source": "std"
-  },
-  {
-    "contentid": "s1p57jsp",
-    "name": "2026년 제25회 팔공산 단풍축제",
-    "startDate": "20261030",
-    "endDate": "20261101",
-    "address": "대구광역시 동구 아양로 207",
-    "lat": "35.886807",
-    "lng": "128.636074",
-    "image": "",
-    "overview": "자연생태",
-    "tourOverview": "",
-    "tel": "053-662-2000",
-    "homepage": "https://www.dong.daegu.kr/",
-    "eventplace": "팔공산 갓바위 시설지구 일원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "대구광역시 동구",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "아양기찻길",
-        "dist": 442,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3570773_image2_1.jpg",
-        "addr": "대구광역시 동구 해동로 82 (지저동)"
-      },
-      {
-        "name": "바운스 트램폴린파크 동대구신세계백화점센터",
-        "dist": 827,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3586450_image2_1.JPG",
-        "addr": "대구광역시 동구 효신로 88 (신암동)"
-      },
-      {
-        "name": "동대구역광장",
-        "dist": 1039,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3521295_image2_1.jpg",
-        "addr": "대구광역시 동구 동대구로 550 (신암동)"
-      },
-      {
-        "name": "옹기종기행복마을",
-        "dist": 1054,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/94/3586494_image2_1.JPG",
-        "addr": "대구광역시 동구 입석동"
-      },
-      {
-        "name": "대구 구 동촌역사",
-        "dist": 1279,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3077500_image2_1.JPG",
-        "addr": "대구광역시 동구 동촌역사로3길 35"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "해금강",
-        "dist": 824,
-        "image": "",
-        "addr": "대구광역시 동구 신암남로 133"
-      },
-      {
-        "name": "에녹커피",
-        "dist": 1197,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2846179_image2_1.jpg",
-        "addr": "대구광역시 동구 아양로 344 (입석동)"
-      },
-      {
-        "name": "사파키친",
-        "dist": 1209,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/63/2846163_image2_1.jpg",
-        "addr": "대구광역시 동구 동부로34길 10 (신천동)"
-      },
-      {
-        "name": "쭈꾸미네",
-        "dist": 1259,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2846204_image2_1.jpg",
-        "addr": "대구광역시 동구 효동로6길 43 (효목동)"
-      },
-      {
-        "name": "청담한상",
-        "dist": 1695,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/80/3450180_image2_1.jpg",
-        "addr": "대구광역시 동구 효동로2길 45 (효목동)"
       }
     ],
     "source": "std"

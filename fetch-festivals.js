@@ -617,7 +617,19 @@ async function main() {
     };
   });
 
-  const allFestivals = [...festivals, ...stdFestivals];
+  // 중복 합치기 (같은 이름+기간이 주소 표기 차이 등으로 두 번 들어온 경우 — dedupe-festivals.js)
+  // 사라지는 ID는 festival-merges.json에 기록되어 build-pages.js가 이동 페이지를 만든다.
+  let allFestivals = [...festivals, ...stdFestivals];
+  let mergedIds = new Set();
+  try {
+    const { dedupeFestivals } = require("./dedupe-festivals");
+    const r = dedupeFestivals(allFestivals);
+    allFestivals = r.list;
+    mergedIds = new Set(r.allMerges.map((m) => m.from));
+    if (r.merges.length) console.log(`🔗 중복 축제 ${r.merges.length}건 합침 (${r.merges.map((m) => m.name).join(", ")})`);
+  } catch (err) {
+    console.log(`⚠️ 중복 제거 실패 (계속 진행): ${err.message}`);
+  }
 
   // ── 종료 축제 아카이브 ──────────────────────────────────
   // 목록에서 빠진 축제(끝났거나, 공식 데이터에서 내려갔거나)를 festivals-archive.json에 보존한다.
@@ -636,12 +648,13 @@ async function main() {
       // (2026-09-17: 관광공사가 ID를 바꾸거나 일정을 수정하면 안 끝난 축제도 목록에서 빠져
       //  페이지가 404가 됐음 — 네이버 서치어드바이저 "접근 불가 페이지" 18건의 원인)
       // 같은 축제가 새 ID로 다시 나타난 경우는 build-pages.js가 옛 주소 → 새 주소 이동 페이지를 만든다.
-      if (!curIds.has(f.contentid) && !archIds.has(f.contentid)) {
+      // 중복으로 합쳐져 사라진 ID는 보존하지 않는다 (남는 쪽으로 이동 페이지가 생김)
+      if (!curIds.has(f.contentid) && !archIds.has(f.contentid) && !mergedIds.has(f.contentid)) {
         archive.push(f);
       }
     }
-    // 같은 축제가 다시 현재 목록에 나타나면(내년 개최 등) 아카이브에서 빼서 중복 방지
-    archive = archive.filter((f) => !curIds.has(f.contentid));
+    // 같은 축제가 다시 현재 목록에 나타나면(내년 개최 등) 아카이브에서 빼서 중복 방지. 합쳐진 ID도 제외
+    archive = archive.filter((f) => !curIds.has(f.contentid) && !mergedIds.has(f.contentid));
     fs.writeFileSync("festivals-archive.json", JSON.stringify(archive, null, 2), "utf-8");
     console.log(`🗄️ 종료 축제 아카이브 ${archive.length}건 (색인 보존용)`);
   } catch (err) {

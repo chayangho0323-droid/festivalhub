@@ -737,6 +737,18 @@ archivedFestivals = archivedFestivals.filter((a) => {
   festRedirects.push({ from: a.contentid, to: m.contentid, name: m.name });
   return false;
 });
+// 중복 합치기로 사라진 ID(festival-merges.json) → 남는 축제로 이동 페이지. 아카이브에 남아 있으면 제거.
+try {
+  const merges = JSON.parse(fs.readFileSync("festival-merges.json", "utf-8"));
+  const liveIds = new Set([...festivals, ...archivedFestivals].map((f) => f.contentid));
+  const fromIds = new Set(merges.map((m) => m.from));
+  archivedFestivals = archivedFestivals.filter((a) => !fromIds.has(a.contentid));
+  for (const m of merges) {
+    // 남는 쪽(to)이 살아 있고, 사라지는 쪽(from)이 현재 실제 페이지가 아닐 때만 (데이터가 바뀌어 역방향 기록이 생겨도 실제 페이지를 덮지 않게)
+    if (!liveIds.has(m.to) || m.from === m.to || liveIds.has(m.from)) continue;
+    if (!festRedirects.some((r) => r.from === m.from)) festRedirects.push({ from: m.from, to: m.to, name: m.name });
+  }
+} catch {}
 for (const a of archivedFestivals) a._archived = true; // 상세 페이지 안내문용
 
 // 이전 빌드 결과를 지우고 (현재 + 아카이브 전체를 다시 생성하므로 죽은 파일은 안 남음)
