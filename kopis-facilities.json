@@ -6694,5 +6694,117 @@
     "lng": 127.880927,
     "tel": "",
     "homepage": "https://www.pieplans.kr/playlist"
+  },
+  "FC004773": {
+    "name": "롯데식품관 문화홀 [평촌]",
+    "address": "경기도 안양시 동안구 시민대로160번길 20 (호계동)",
+    "lat": 37.388579,
+    "lng": 126.950187,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000667": {
+    "name": "파주시민회관",
+    "address": "경기도 파주시 시민회관길 33 (금촌동)",
+    "lat": 37.7594363,
+    "lng": 126.78032640000004,
+    "tel": "031-950-1854",
+    "homepage": "http://pajusisul.or.kr/info/info_01_01.php"
+  },
+  "FC001173": {
+    "name": "성수아트홀(성수문화복지회관)",
+    "address": "서울특별시 성동구 뚝섬로1길 43 (성수동1가)",
+    "lat": 37.5443376,
+    "lng": 127.04692750000004,
+    "tel": "02-2204-7571",
+    "homepage": "https://www.sdfac.or.kr/kor/sdfac/sub/contents.do?gotoMenuNo=08020500"
+  },
+  "FC001918": {
+    "name": "김대중컨벤션센터",
+    "address": "전남광주통합특별시 서구 상무누리로 30 (치평동)",
+    "lat": 35.147472,
+    "lng": 126.840268,
+    "tel": "062-611-2221",
+    "homepage": "https://kdjcenter.gjto.or.kr/"
+  },
+  "FC002143": {
+    "name": "송도컨벤시아",
+    "address": "인천광역시 연수구 센트럴로 123 (송도동)",
+    "lat": 37.3881764,
+    "lng": 126.6462177,
+    "tel": "032-210-1021",
+    "homepage": "http://www.songdoconvensia.com/"
+  },
+  "FC005079": {
+    "name": "대전대학교",
+    "address": "대전광역시 동구 대학로 62 (용운동)",
+    "lat": 36.335985,
+    "lng": 127.462942,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001299": {
+    "name": "신한대학교 벧엘관",
+    "address": "경기도 의정부시 호암로 95 (호원동)",
+    "lat": 37.7094314,
+    "lng": 127.04503030000001,
+    "tel": "031-870-3114",
+    "homepage": "http://www.shinhan.ac.kr/"
+  },
+  "FC002857": {
+    "name": "광명문화예술교육지원센터 광명극장",
+    "address": "경기도 광명시 철망산로 2(하안동)",
+    "lat": 37.4667641,
+    "lng": 126.8699008,
+    "tel": "02-2621-8890",
+    "homepage": "http://gm-arte.or.kr/index.php"
+  },
+  "FC002339": {
+    "name": "수원컨벤션센터",
+    "address": "경기도 수원시 영통구 광교중앙로 140 (하동)",
+    "lat": 37.2854538,
+    "lng": 127.0599925,
+    "tel": "031-303-6000",
+    "homepage": "http://www.scc.or.kr/"
+  },
+  "FC002049": {
+    "name": "잠실학생체육관",
+    "address": "서울특별시 송파구 올림픽로 25 (잠실동)",
+    "lat": 37.5164791,
+    "lng": 127.0729996,
+    "tel": "02-422-2285",
+    "homepage": "https://ssg.sen.go.kr/fus/MI000000000000000383/html/cont0010v.do"
+  },
+  "FC001934": {
+    "name": "조선대학교",
+    "address": "전남광주통합특별시 동구 조선대길 146 (서석동)",
+    "lat": 35.142741,
+    "lng": 126.9347238,
+    "tel": "062-230-6689",
+    "homepage": "https://www3.chosun.ac.kr/chosun/324/subview.do"
+  },
+  "FC000405": {
+    "name": "충주시문화회관",
+    "address": "충청북도 충주시 중앙로 128 (성내동)",
+    "lat": 36.9707081,
+    "lng": 127.93725459999996,
+    "tel": "043-850-3914",
+    "homepage": "https://www.chungju.go.kr/culture/"
+  },
+  "FC004780": {
+    "name": "드리운 스튜디오",
+    "address": "경상남도 창원시 성산구 중앙대로 111 (중앙동)",
+    "lat": 35.22484,
+    "lng": 128.67976,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000091": {
+    "name": "양천문화회관",
+    "address": "서울특별시 양천구 목동서로 367 (신정동)",
+    "lat": 37.5164555,
+    "lng": 126.8632321,
+    "tel": "02-2646-5870",
+    "homepage": "http://www.yangcheon.go.kr/art/art/main.do"
   }
 }

@@ -689,19 +689,6 @@
     "homepage": ""
   },
   {
-    "name": "오페라 나비부인",
-    "startDate": "20261002",
-    "endDate": "20261003",
-    "time": "19:30~21:30",
-    "place": "김해문화의전당 마루홀",
-    "address": "경상남도 김해시 김해대로 2060",
-    "charge": "유료",
-    "desc": "푸치니의 오페라 나비부인 공연",
-    "tel": "",
-    "host": "가야오페라단",
-    "homepage": "https://www.gimhae.go.kr/07025/07445/07831.web"
-  },
-  {
     "name": "통영예술제",
     "startDate": "20261002",
     "endDate": "20261005",
@@ -713,32 +700,6 @@
     "tel": "055-645-9975",
     "host": "통영예총",
     "homepage": "http://tyfaco.com/"
-  },
-  {
-    "name": "2026년 주민과 함께하는 산사음악회",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "14:00~18:00",
-    "place": "용수사 전정(예정)",
-    "address": "경상북도 영주시 안정면 용주로891번길 106-70",
-    "charge": "무료",
-    "desc": "예술",
-    "tel": "054-639-6565",
-    "host": "용수사",
-    "homepage": ""
-  },
-  {
-    "name": "달성 100대 피아노",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "19:00~22:00",
-    "place": "사문진상설야외공연장",
-    "address": "대구광역시 달성군 화원읍 사문진로1길 33-18",
-    "charge": "무료",
-    "desc": "100인 피아니트스 공연 및 초청가수 공연 등",
-    "tel": "053-668-4251",
-    "host": "달성문화재단",
-    "homepage": ""
   },
   {
     "name": "2026 통영문화재 야행",
@@ -754,45 +715,6 @@
     "homepage": ""
   },
   {
-    "name": "창극 <흥보마누라 이혼소송 사건>",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "15:00~16:30",
-    "place": "반석아트홀",
-    "address": "경기도 화성시 동탄구 노작로 134",
-    "charge": "유료",
-    "desc": "연극",
-    "tel": "1588-5234",
-    "host": "(재)화성시문화관광재단",
-    "homepage": "https://hac.hcf.or.kr/index.do"
-  },
-  {
-    "name": "Kids Active Classic 거장에게 배우고, 우리가 완성하는 클래식 <수성키즈클래식> 소극장",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "14:00~15:00",
-    "place": "수성아트피아 소극장",
-    "address": "대구광역시 수성구 무학로 180",
-    "charge": "유료",
-    "desc": "음악회",
-    "tel": "053-668-1800",
-    "host": "수성아트피아",
-    "homepage": "http://www.ssartpia.kr"
-  },
-  {
-    "name": "귀향",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "13:00~18:30",
-    "place": "광양문화예술회관",
-    "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
-    "charge": "무료",
-    "desc": "음악",
-    "tel": "",
-    "host": "아트엠컴퍼니",
-    "homepage": ""
-  },
-  {
     "name": "어린이뮤지컬신데렐라",
     "startDate": "20261003",
     "endDate": "20261004",
@@ -804,45 +726,6 @@
     "tel": "",
     "host": "극단 여기",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "로이킴 콘서트",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "09:00~22:00",
-    "place": "대공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "대중공연",
-    "tel": "",
-    "host": "예술나눔",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "2026 샤로수길 클럽데이",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "19:00~21:30",
-    "place": "샤로수길 일대",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5854",
-    "host": "관악문화재단  유재하총동문회  한국콘텐츠진흥원",
-    "homepage": "https://gfac.or.kr/"
-  },
-  {
-    "name": "박물관문화향연",
-    "startDate": "20261003",
-    "endDate": "20261003",
-    "time": "15:00~16:00",
-    "place": "국립중앙박물관 대강당",
-    "address": "서울특별시 용산구 서빙고로 137",
-    "charge": "무료",
-    "desc": "인천시립소년소녀합창단",
-    "tel": "1544-5955",
-    "host": "국립박물관문화재단",
-    "homepage": "https://www.nmf.or.kr/user/performance/month_view.do?show_id=S20260409132210345100&page=1"
   },
   {
     "name": "황매산 억새축제",
