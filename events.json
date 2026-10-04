@@ -650,19 +650,6 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "제53회 청주전국사진공모전 및 제4회 청주관광(기록)공모전",
-    "startDate": "20260928",
-    "endDate": "20261004",
-    "time": "09:00~22:00",
-    "place": "소2전시실",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "청주예총(청주사진작가협회)",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
     "name": "시민과 함께하는 시화전",
     "startDate": "20261001",
     "endDate": "20261008",
@@ -700,32 +687,6 @@
     "tel": "055-645-9975",
     "host": "통영예총",
     "homepage": "http://tyfaco.com/"
-  },
-  {
-    "name": "2026 통영문화재 야행",
-    "startDate": "20261003",
-    "endDate": "20261004",
-    "time": "15:00~22:00",
-    "place": "통영삼도수군통제영+강구안",
-    "address": "경상남도 통영시 중앙로 65(도천동)",
-    "charge": "무료",
-    "desc": "통제영12공방 체험 및 프리마켓+공예품 전시+공연 및 퍼포먼스",
-    "tel": "055-644-5222",
-    "host": "(재)통영문화재단",
-    "homepage": ""
-  },
-  {
-    "name": "어린이뮤지컬신데렐라",
-    "startDate": "20261003",
-    "endDate": "20261004",
-    "time": "09:00~22:00",
-    "place": "아트홀 공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "뮤지컬 및 오페라",
-    "tel": "",
-    "host": "극단 여기",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
     "name": "황매산 억새축제",
