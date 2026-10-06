@@ -1,4 +1,70 @@
 {
+  "617992": {
+    "tier": 1,
+    "query": "광주비엔날레",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/39/1440739.jpg",
+        "title": "광주비엔날레",
+        "keyword": "광주비엔날레, 광주디자인비엔날레, 도가도비상도",
+        "location": "전남광주통합특별시",
+        "month": "201109",
+        "photographer": "한국관광공사 김지호"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/51/1440751.jpg",
+        "title": "광주비엔날레",
+        "keyword": "광주비엔날레, 광주디자인비엔날레, 도가도비상도",
+        "location": "전남광주통합특별시",
+        "month": "201109",
+        "photographer": "한국관광공사 김지호"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/61/1440761.jpg",
+        "title": "광주비엔날레",
+        "keyword": "광주비엔날레, 광주디자인비엔날레, 도가도비상도",
+        "location": "전남광주통합특별시",
+        "month": "201109",
+        "photographer": "한국관광공사 김지호"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/62/1440762.jpg",
+        "title": "광주비엔날레",
+        "keyword": "광주비엔날레, 광주디자인비엔날레, 도가도비상도",
+        "location": "전남광주통합특별시",
+        "month": "201109",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "639648": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "1373481": {
+    "tier": 2,
+    "query": "광한루원",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/10/4062810.JPG",
+        "title": "광한루원",
+        "keyword": "광한루원,전북특별자치도 남원시,전라북도,국가유산,자연유산,명승 제33호,정원,10월 추천여행지,사진기자단,프레임코리아3기",
+        "location": "전북특별자치도 남원시 천거동",
+        "month": "202510",
+        "photographer": "김찬영"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "1748721": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
   "1841539": {
     "tier": 0,
     "query": "",
@@ -10,6 +76,87 @@
     "query": "",
     "photos": [],
     "checked": "20261006"
+  },
+  "2392105": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2434545": {
+    "tier": 2,
+    "query": "새연교",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/99/2704899.jpg",
+        "title": "새연교",
+        "keyword": "새연교 야경, 제주특별자치도 서귀포시, 새섬 새연교 야경, 보도교, 드론촬영, 드론사진, 항공촬영",
+        "location": "제주특별자치도 서귀포시 서홍동",
+        "month": "202011",
+        "photographer": "라이브스튜디오"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "2488793": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2547013": {
+    "tier": 2,
+    "query": "전주한옥마을",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/46/3590946.JPG",
+        "title": "전주한옥마을",
+        "keyword": "전주한옥마을, 전북특별자치도 전주시, 전라북도, 전통마을, 전통가옥, 민속마을, 기와, 거리, 9월 추천여행지, 사진기자단, 프레임코리아3기",
+        "location": "전북특별자치도 전주시 완산구",
+        "month": "202509",
+        "photographer": "김찬영"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "2598331": {
+    "tier": 2,
+    "query": "서울광장",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/88/1509188.jpg",
+        "title": "서울광장",
+        "keyword": "서울광장, 시청광장, 연말연시, 크리스마스, 성탄절, 장식, 회전목마, 서울야경",
+        "location": "서울 ",
+        "month": "201112",
+        "photographer": "한국관광공사 이범수"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "2622679": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2630385": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2666388": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2720203": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
   },
   "2728613": {
     "tier": 2,
@@ -26,11 +173,68 @@
     ],
     "checked": "20261006"
   },
+  "2740046": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2757751": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2767541": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
   "2809535": {
     "tier": 0,
     "query": "",
     "photos": [],
     "checked": "20261006"
+  },
+  "2855326": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2857763": {
+    "tier": 2,
+    "query": "노들섬",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/78/3344078.jpg",
+        "title": "노들섬",
+        "keyword": "노들섬, 서울특별시 용산구, 복합문화공간, 지하철, 피크닉, 돗자리, 63빌딩, 63시티, 63스퀘어, 일몰, 노을, 석양, 6월 버킷, 6월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "서울특별시 용산구 이촌동",
+        "month": "202406",
+        "photographer": "안영관"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "2865136": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2952484": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "2952759": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
   },
   "2990881": {
     "tier": 0,
@@ -38,11 +242,263 @@
     "photos": [],
     "checked": "20261006"
   },
+  "2992829": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3001045": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3006246": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3011280": {
+    "tier": 2,
+    "query": "동대문디자인플라자",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/68/1904468.jpg",
+        "title": "동대문디자인플라자",
+        "keyword": "동대문디자인플라자, 디자인플라자, 디자인시티, 서울시, 서울특별시 동대문",
+        "location": "서울특별시",
+        "month": "201402",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3016265": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3019085": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3020205": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3107059": {
+    "tier": 2,
+    "query": "숭례문",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/44/1812444.jpg",
+        "title": "숭례문(남대문)",
+        "keyword": "남대문 숭례문, 국보1호",
+        "location": "서울특별시",
+        "month": "201305",
+        "photographer": "한국관광공사 이범수"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3113265": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3340301": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3343831": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3355698": {
+    "tier": 2,
+    "query": "가평 자라섬",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/58/3540458.jpg",
+        "title": "자라섬",
+        "keyword": "자라섬, 경기도 가평군, 가평9경 제9경, 2025 자라섬 꽃 페스타, 축제, 남도, 북한강, 드론촬영, 드론사진, 항공촬영",
+        "location": "경기도 가평군 가평읍",
+        "month": "202506",
+        "photographer": "정규진"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3367339": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
   "3368470": {
     "tier": 0,
     "query": "",
     "photos": [],
     "checked": "20261006"
+  },
+  "3369503": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3370452": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3377038": {
+    "tier": 2,
+    "query": "봉은사",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/48/3098348.jpg",
+        "title": "봉은사",
+        "keyword": "봉은사, 서울특별시 강남구, 절, 사찰, 종교, 불교, 미륵대불, 부처상, 불상, 야경, 11월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "서울특별시 강남구 삼성동",
+        "month": "202311",
+        "photographer": "임태원"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3399432": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3400809": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3492276": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3492576": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3495437": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3497353": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3497454": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3512205": {
+    "tier": 2,
+    "query": "이중섭거리",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/82/3460482.jpg",
+        "title": "이중섭거리",
+        "keyword": "이중섭거리, 제주특별자치도 서귀포시, 제주도, 이색거리, 10월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "제주특별자치도 서귀포시 서귀동",
+        "month": "202410",
+        "photographer": "이정수"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3522254": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3522322": {
+    "tier": 2,
+    "query": "인천 아트플랫폼",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/88/1941088.jpg",
+        "title": "인천아트플랫폼",
+        "keyword": "인천아트플랫폼, 아트플랫폼, 문화공간, 인천",
+        "location": "인천시",
+        "month": "201406",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3528062": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3530139": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3542294": {
+    "tier": 2,
+    "query": "진주성",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/27/3362027.jpg",
+        "title": "진주성",
+        "keyword": "진주성, 경상남도 진주시, 국가유산, 문화유산, 사적 제118호, 촉석루, 누각, 남강, 야경, 야간, 7월 버킷, 7월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "경상남도 진주시 본성동",
+        "month": "202407",
+        "photographer": "송희재"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "3546110": {
+    "tier": 2,
+    "query": "북촌문화센터",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/95/1276595.jpg",
+        "title": "북촌문화센터",
+        "keyword": "북촌문화센터, 한옥체험, 대청마루, 전통가옥",
+        "location": "서울",
+        "month": "201104",
+        "photographer": "한국관광공사 이범수"
+      }
+    ],
+    "checked": "20261007"
   },
   "3551206": {
     "tier": 2,
@@ -59,17 +515,212 @@
     ],
     "checked": "20261006"
   },
+  "3552019": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "3560787": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4056606": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4058556": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4062805": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4087092": {
+    "tier": 2,
+    "query": "임진각 평화누리",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/62/2563862.jpg",
+        "title": "평화누리",
+        "keyword": "2018 제46회 대한민국 관광사진 공모전, 입선, 평화누리, 경기도 파주시, 임진각 국민관광지, 임진각 평화누리공원, 임진각관광지, 안보관광지, DMZ 관광, 거인상, 별",
+        "location": "경기도 파주시 문산읍",
+        "month": "201800",
+        "photographer": "박충곤"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "4089090": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4095228": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4095478": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4098134": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4099133": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4106717": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4106719": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4108258": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4108260": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4109218": {
+    "tier": 2,
+    "query": "삼국유사",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/56/3495956.jpg",
+        "title": "삼국유사테마파크",
+        "keyword": "삼국유사테마파크, 대구광역시 군위군, 테마공원, 복합문화공간, 가온누리관, 전시관",
+        "location": "대구광역시 군위군 의흥면",
+        "month": "202503",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "4109730": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4109998": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4110051": {
+    "tier": 2,
+    "query": "남한산성",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/09/2612009.jpg",
+        "title": "남한산성행궁",
+        "keyword": "남한산성행궁, 경기도 광주시, 유네스코 세계문화유산, 유네스코 세계유산, 사적 제480호, 드론촬영, 드론사진, 항공촬영",
+        "location": "경기도 광주시 남한산성면",
+        "month": "201906",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "4113301": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4113826": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
   "4114312": {
     "tier": 0,
     "query": "",
     "photos": [],
     "checked": "20261006"
   },
+  "4114621": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
   "4115096": {
     "tier": 0,
     "query": "",
     "photos": [],
     "checked": "20261006"
+  },
+  "4115201": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4115205": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4115260": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4115269": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4115275": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4116358": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
   },
   "4116376": {
     "tier": 2,
@@ -100,6 +751,30 @@
       }
     ],
     "checked": "20261006"
+  },
+  "4116982": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4116994": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4117084": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "4117505": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
   },
   "s19r73d5": {
     "tier": 0,
@@ -1114,9 +1789,9 @@
   },
   "s4s8h58": {
     "tier": 0,
-    "query": "충장사",
+    "query": "",
     "photos": [],
-    "checked": "20260901"
+    "checked": "20261007"
   },
   "s1oibcpm": {
     "tier": 2,
@@ -1309,5 +1984,215 @@
     "query": "",
     "photos": [],
     "checked": "20261006"
+  },
+  "s12n6i04": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "sahbm42": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s7xddn6": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s190uba0": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1q5eadk": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1opgkuz": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1c5w8h": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1n0mgjy": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "sds5vj5": {
+    "tier": 2,
+    "query": "곡교천 은행나무길",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/62/3472262.jpg",
+        "title": "곡교천 은행나무길",
+        "keyword": "곡교천 은행나무길, 충청남도 아산시, 은행잎, 낙엽, 단풍, 가을, 추경, 산책로, 산책길, 걷기여행, 11월 버킷, 11월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "충청남도 아산시 염치읍",
+        "month": "202411",
+        "photographer": "김영호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "s19u5793": {
+    "tier": 2,
+    "query": "지중해",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/64/2596864.jpg",
+        "title": "아산 지중해마을",
+        "keyword": "아산 지중해마을 전경, 충청남도 아산시, 체험마을, 드론촬영, 드론사진, 항공촬영",
+        "location": "충청남도 아산시 탕정면",
+        "month": "201903",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "s1awhvhl": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1xtky6p": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s169m74w": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s4e8qz0": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s16lc90n": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "ssd6vjh": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1hvq1jz": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s35q53": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s16se2m4": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "smnxc3f": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1v79oae": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "srl0zwv": {
+    "tier": 2,
+    "query": "대학로",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/88/1856788.jpg",
+        "title": "대학로",
+        "keyword": "대학로, 거리풍경, 가을, 은행나무",
+        "location": "서울특별시",
+        "month": "201311",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "s1am00f3": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1a47yzv": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "s1p3azta": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "swm6j5b": {
+    "tier": 2,
+    "query": "대학로",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/88/1856788.jpg",
+        "title": "대학로",
+        "keyword": "대학로, 거리풍경, 가을, 은행나무",
+        "location": "서울특별시",
+        "month": "201311",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261007"
+  },
+  "stcikj0": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "sj2aihk": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
+  },
+  "so5dm3x": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261007"
   }
 }
