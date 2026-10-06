@@ -13,6 +13,8 @@ const path = require("path");
 
 // 배포 주소 (festivalhub.kr 도메인 — 2026-08 구입)
 const SITE_URL = "https://festivalhub.kr";
+// 정적 파일 캐시 무력화 — report.css/report.js에 빌드 날짜가 붙어 고친 날 바로 반영됨 (GitHub Pages 캐시 10분)
+const BUILD_VER = (() => { const d = new Date(Date.now() + 9 * 3600 * 1000); return `${d.getUTCFullYear()}${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`; })();
 
 // ─── 방문자 사진 제보 (공통 모듈 visitor-photos.js — 세 사이트 동일) ───
 // 받은 사진: photos/ 폴더 + photos.json({ "<contentid>": [{image, credit, caption}] }) → 상세 "📸 방문자 사진" 갤러리.
@@ -481,7 +483,7 @@ function buildPage(f, all) {
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="../style.css" />
   ${FONT_LINK}
-  <link rel="stylesheet" href="../report.css" />
+  <link rel="stylesheet" href="../report.css?v=${BUILD_VER}" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
@@ -559,7 +561,7 @@ function buildPage(f, all) {
   </script>
   <script src="../festival-page.js"></script>
   <script src="../track-clicks.js"></script>
-  <script src="../report.js"></script>
+  <script src="../report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
@@ -684,7 +686,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <meta property="og:url" content="${SITE_URL}/${filename}" />
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
-  <link rel="stylesheet" href="report.css" />
+  <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -702,7 +704,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
-  <script src="report.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
 }
@@ -1064,7 +1066,7 @@ try {
   <meta property="og:url" content="${SITE_URL}/events.html" />
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
-  <link rel="stylesheet" href="report.css" />
+  <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -1080,7 +1082,7 @@ try {
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
-  <script src="report.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`,
       "utf-8"
@@ -1159,7 +1161,7 @@ if (shows.length >= 10) {
   <meta property="og:url" content="${SITE_URL}/show/${s.id}.html" />
   <link rel="stylesheet" href="../style.css" />
   ${FONT_LINK}
-  <link rel="stylesheet" href="../report.css" />
+  <link rel="stylesheet" href="../report.css?v=${BUILD_VER}" />
   ${hasCoords ? `<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>` : ""}
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   ${GA_SNIPPET}
@@ -1206,7 +1208,7 @@ if (shows.length >= 10) {
     L.marker([${s.lat}, ${s.lng}]).addTo(map).bindPopup(${JSON.stringify(s.venue)}).openPopup();
   </script>` : ""}
   <script src="../track-clicks.js"></script>
-  <script src="../report.js"></script>
+  <script src="../report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`;
     fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
@@ -1232,7 +1234,7 @@ if (shows.length >= 10) {
   <meta property="og:url" content="${SITE_URL}/shows.html" />
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
-  <link rel="stylesheet" href="report.css" />
+  <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
   ${GA_SNIPPET}
 </head>
 <body>
@@ -1255,7 +1257,7 @@ if (shows.length >= 10) {
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
-  <script src="report.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
 </body>
 </html>`, "utf-8");
   showFiles.push("shows.html");

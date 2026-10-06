@@ -32,6 +32,7 @@ function loadVisitorPhotos(siteUrl, file = "photos.json") {
         credit: x.credit || "",
         caption: x.caption || "",
         date: x.date || "",
+        review: x.review || "",  // 제보자 후기 (한 제보자에 한 번만 쓰면 됨)
       }));
     if (list.length) out[id] = list;
   }
@@ -92,28 +93,48 @@ function photoCallHtml({ title, text, href, button = "사진 보내기 →" }) {
       </div>`;
 }
 
-// 상세 페이지 "방문자 사진" 갤러리 (사진이 없으면 빈 문자열). 영상은 <video>로.
+// 상세 페이지 "방문자 사진" 갤러리 (사진이 없으면 빈 문자열).
+// 제보자(credit)별로 묶어서 "OO 님의 제보 사진" + 사진 아래 "💬 OO 님의 후기"(review 필드). 영상은 <video>로.
+// 사진 클릭은 report.js의 라이트박스가 가로채 페이지 안에서 크게 보여준다 (새 탭 X).
 function galleryHtml(photos, { name, href }) {
   if (!photos || !photos.length) return "";
-  const cap = (ph, icon) => `${ph.credit ? `${icon} ${esc(ph.credit)} 님` : `${icon} 방문자 제보`}${ph.caption ? ` · ${esc(ph.caption)}` : ""}`;
-  const items = photos.map((ph) => ph.video
-    ? `
-        <figure class="visitor-photo is-video">
-          <video controls preload="metadata" playsinline${ph.poster ? ` poster="${esc(ph.poster)}"` : ""} aria-label="${esc(name)} 방문자 영상">
-            <source src="${esc(ph.video)}" type="video/mp4" />
-          </video>
-          <figcaption>${cap(ph, "🎬")}</figcaption>
-        </figure>`
-    : `
-        <figure class="visitor-photo">
-          <a href="${esc(ph.image)}" target="_blank" rel="noopener"><img src="${esc(ph.image)}" alt="${esc(name)} 방문자 사진${ph.credit ? ` — ${esc(ph.credit)} 님` : ""}" loading="lazy" /></a>
-          <figcaption>${cap(ph, "📷")}</figcaption>
-        </figure>`).join("");
+  const groups = [];
+  for (const ph of photos) {
+    const key = ph.credit || "방문자";
+    let g = groups.find((x) => x.credit === key);
+    if (!g) { g = { credit: key, items: [], review: "" }; groups.push(g); }
+    g.items.push(ph);
+    if (ph.review && !g.review) g.review = ph.review;
+  }
+  const total = photos.length;
   const hasVideo = photos.some((x) => x.video);
+  const groupHtml = groups.map((g) => {
+    const items = g.items.map((ph, i) => ph.video
+      ? `
+          <figure class="visitor-photo is-video">
+            <video controls preload="metadata" playsinline${ph.poster ? ` poster="${esc(ph.poster)}"` : ""} aria-label="${esc(name)} ${esc(g.credit)} 님 영상">
+              <source src="${esc(ph.video)}" type="video/mp4" />
+            </video>
+            ${ph.caption ? `<figcaption>🎬 ${esc(ph.caption)}</figcaption>` : ""}
+          </figure>`
+      : `
+          <figure class="visitor-photo">
+            <a class="visitor-open" href="${esc(ph.image)}" data-caption="${esc(ph.caption)}" data-credit="${esc(g.credit)}"><img src="${esc(ph.image)}" alt="${esc(name)} — ${esc(g.credit)} 님 제보 사진${ph.caption ? ` (${esc(ph.caption)})` : ""}" loading="lazy" /></a>
+            ${ph.caption ? `<figcaption>${esc(ph.caption)}</figcaption>` : ""}
+          </figure>`).join("");
+    const vids = g.items.filter((x) => x.video).length, pics = g.items.length - vids;
+    const label = [pics ? `사진 ${pics}장` : "", vids ? `영상 ${vids}개` : ""].filter(Boolean).join(" · ");
+    return `
+        <div class="visitor-group">
+          <h3 class="visitor-group-title">📷 ${esc(g.credit)} 님의 제보 사진 <span class="visitor-meta">${label}</span></h3>
+          <div class="visitor-grid">${items}</div>
+          ${g.review ? `<blockquote class="visitor-review"><strong>💬 ${esc(g.credit)} 님의 후기</strong><p>${esc(g.review)}</p></blockquote>` : ""}
+        </div>`;
+  }).join("");
   return `
       <section class="overview visitor-gallery">
-        <h2>📸 방문자 사진${hasVideo ? "·영상" : ""} <span class="visitor-count">${photos.length}</span></h2>
-        <div class="visitor-grid">${items}</div>
+        <h2>📸 방문자 사진${hasVideo ? "·영상" : ""} <span class="visitor-count">${total}</span></h2>
+        ${groupHtml}
         <p class="photo-credit">방문자분들이 직접 찍어 보내주신 ${hasVideo ? "사진과 영상" : "사진"}이에요. <a class="report-link" href="${esc(href)}">나도 사진 자랑하기 →</a></p>
       </section>`;
 }
