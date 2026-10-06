@@ -6,7 +6,7 @@
 2. 사진은 가로 1200px 이하(용량 300KB 안팎). 영상은 720p·H.264·10MB 이하 (ffmpeg 예:
    `ffmpeg -i 원본.mp4 -vf scale=-2:720 -c:v libx264 -crf 29 -movflags +faststart -c:a aac -b:a 96k photos/<ID>-x.mp4`
    포스터: `ffmpeg -ss 3 -i photos/<ID>-x.mp4 -frames:v 1 photos/<ID>-x.jpg`)
-3. `photos.json`에 추가 (date = 올린 날, 이 날부터 5일간 랜딩 맨 위에 "📸 방문자 사진" 고정 — 끝난 축제도 보임):
+3. `photos.json`에 추가 (date = 올린 날, 이 날부터 7일간 랜딩 맨 위에 "📸 방문자 사진" 고정 — 끝난 축제도 보임):
    ```json
    {
      "574285": [
