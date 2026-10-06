@@ -1137,7 +1137,7 @@ if (shows.length >= 10) {
     const region = regionOf(s);
     const hasCoords = s.lat && s.lng;
     const tickets = (d.tickets || []).length
-      ? `<section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons">${d.tickets.map((t) => `<a class="dir-btn hotel" target="_blank" rel="noopener nofollow" href="${esc(t.url)}">${esc(t.name || "예매처")} 예매</a>`).join("")}</div></section>`
+      ? `<section class="overview"><h2>🎟️ 예매하기</h2><div class="dir-buttons">${d.tickets.map((t) => `<a class="dir-btn ticket" target="_blank" rel="noopener nofollow" href="${esc(t.url)}">${esc(t.name || "예매처")} 예매</a>`).join("")}</div></section>`
       : "";
     const story = d.story ? `<section class="overview"><h2>소개</h2><p>${esc(d.story).replace(/\n+/g, "<br />")}</p></section>` : "";
     const gallery = (d.images || []).length ? `<div class="thumbs">${d.images.slice(0, 6).map((u, i) => `<img src="${esc(u)}" alt="${esc(s.name)} 소개 이미지 ${i + 1}" class="thumb" loading="lazy" />`).join("")}</div>` : "";

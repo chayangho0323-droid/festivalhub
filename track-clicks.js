@@ -21,6 +21,7 @@
   // 클릭된 요소를 보고 어떤 종류인지 판별한다
   function classify(el) {
     if (el.closest(".dir-btn.coupang")) return "click_coupang";
+    if (el.closest(".dir-btn.ticket")) return "click_ticket"; // 공연 예매처 (숙소와 분리 — 10/6까지는 click_hotel에 섞여 집계됨)
     if (el.closest(".dir-btn.hotel")) return "click_hotel";
     if (el.closest(".dir-btn.reserve")) return "click_reserve"; // 캠핑 예약 바로가기
     if (el.closest(".dir-btn.kakao, .dir-btn.naver")) return "click_map";

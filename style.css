@@ -938,3 +938,5 @@ body {
   background: #ff8c42; color: #fff; font-size: .72rem; font-weight: 700;
   padding: 4px 9px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.2);
 }
+
+.dir-btn.ticket { background: #6d3fc4; color: #fff; }
