@@ -120,7 +120,7 @@ function render() {
   const favorites = getFavorites();
 
   let shown = allFestivals.filter((f) => {
-    const notEnded = f.endDate >= today; // 끝난 축제는 다음 데이터 갱신 전이라도 화면에서 바로 제외
+    const notEnded = f.endDate >= today || f._pinned; // 끝난 축제는 바로 제외 (단, 방문자 사진이 막 올라온 축제는 며칠간 예외)
     const matchKeyword = !keyword || f.name.toLowerCase().includes(keyword);
     const matchRegion = !region || getRegion(f.address) === region;
     const matchLong = !hideLongEl.checked || !isLongRunning(f);
@@ -158,6 +158,8 @@ function render() {
   } else {
     shown.sort((a, b) => a.name.localeCompare(b.name, "ko"));
   }
+  // 방문자 사진이 막 올라온 축제는 어떤 정렬이든 맨 위로 (안정 정렬이라 나머지 순서는 유지)
+  shown.sort((a, b) => (b._pinned ? 1 : 0) - (a._pinned ? 1 : 0));
 
   countEl.textContent = `${shown.length}개의 축제`;
 
@@ -167,14 +169,18 @@ function render() {
       const ongoing = f.startDate <= today && today <= f.endDate;
       const dday = daysUntil(f.startDate);
       // 상설·장기 행사는 회색 배지, 나머지는 진행중/디데이 배지
-      const badge = isLongRunning(f)
-        ? `<span class="badge long">상설·장기</span>`
-        : ongoing
-          ? `<span class="badge ongoing">진행중</span>`
-          : `<span class="badge upcoming">D-${dday}</span>`;
+      const ended = f.endDate < today;
+      const badge = f._pinned
+        ? `<span class="badge visitor">📸 방문자 ${f._pinVideo ? "사진·영상" : "사진"}</span> ${ended ? `<span class="badge long">종료</span>` : ongoing ? `<span class="badge ongoing">진행중</span>` : `<span class="badge upcoming">D-${dday}</span>`}`
+        : isLongRunning(f)
+          ? `<span class="badge long">상설·장기</span>`
+          : ongoing
+            ? `<span class="badge ongoing">진행중</span>`
+            : `<span class="badge upcoming">D-${dday}</span>`;
 
-      const img = f.image
-        ? `<img src="${f.image}" alt="${f.name}" loading="lazy" />`
+      const cardImg = (f._pinned && f._pinImage) || f.image;
+      const img = cardImg
+        ? `<img src="${cardImg}" alt="${f.name}" loading="lazy" />`
         : `<div class="no-image">🎪</div>`;
 
       const faved = favorites.includes(f.contentid);
@@ -183,7 +189,8 @@ function render() {
       // 하트 버튼은 카드 위에 겹쳐 놓고, 클릭 시 페이지 이동을 막는다 (아래 이벤트 처리 참고)
       return `
         <a class="card-link" href="festival/${f.contentid}.html">
-          <article class="card">
+          <article class="card${f._pinned ? " pinned" : ""}">
+            ${f._pinned ? `<span class="pin-ribbon">📸 방문자 ${f._pinVideo ? "사진·영상" : "사진"} 도착!</span>` : ""}
             <button class="fav-heart${faved ? " faved" : ""}" data-id="${f.contentid}" aria-label="찜하기">${faved ? "❤️" : "🤍"}</button>
             ${img}
             <div class="card-body">
@@ -283,6 +290,21 @@ async function init() {
     const res = await fetch("festivals.json");
     if (!res.ok) throw new Error(`festivals.json 로드 실패 (${res.status})`);
     allFestivals = await res.json();
+
+    // 최근 방문자 사진·영상이 올라온 축제는 며칠간 맨 위에 고정 (pinned.json — build-pages.js가 생성, 없어도 동작)
+    try {
+      const pr = await fetch("pinned.json");
+      if (pr.ok) {
+        const pins = await pr.json();
+        const today = todayStr();
+        for (const p of pins) {
+          if (!p.pinnedUntil || p.pinnedUntil <= today) continue;
+          const f = allFestivals.find((x) => String(x.contentid) === String(p.contentid));
+          if (f) { f._pinned = true; f._pinImage = p.image; f._pinCount = p.photoCount; f._pinVideo = p.hasVideo; }
+          else allFestivals.push({ ...p, _pinned: true, _pinImage: p.image, _pinCount: p.photoCount, _pinVideo: p.hasVideo });
+        }
+      }
+    } catch (e) { /* 고정 목록이 없어도 랜딩은 정상 동작 */ }
 
     fillRegionOptions();
     fillQuickLinks();

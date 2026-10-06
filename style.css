@@ -929,3 +929,12 @@ body {
 .guide-inline { font-size: 0.88rem; color: #666; margin: 6px 2px 14px; line-height: 1.7; }
 .guide-inline a { color: #4756c9; font-weight: 600; text-decoration: none; }
 .guide-inline a:hover { text-decoration: underline; }
+
+/* Landing: festivals pinned to the top for PIN_DAYS after a visitor photo arrives (pinned.json) */
+.badge.visitor { background: #fff0e6; color: #e8752c; }
+.card.pinned { box-shadow: 0 0 0 2px #ffb37a, 0 1px 4px rgba(0,0,0,.08); }
+.card .pin-ribbon {
+  position: absolute; top: 10px; left: 10px; z-index: 1;
+  background: #ff8c42; color: #fff; font-size: .72rem; font-weight: 700;
+  padding: 4px 9px; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}

@@ -322,7 +322,7 @@ function buildPage(f, all) {
   // ── 사진 갤러리 ──
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
   const vph = visitorPhotos[String(f.contentid)];
-  if (!photos.length && vph) photos.push(vph[0].image);
+  if (!photos.length && vph && VP.firstImage(vph)) photos.push(VP.firstImage(vph));
   const gallery = photos.length
     ? `<img class="hero" id="hero-img" src="${esc(photos[0])}" alt="${esc(f.name)}" />` +
       (photos.length > 1
@@ -1367,6 +1367,27 @@ const sitemap =
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap, "utf-8");
 console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
+
+// ── pinned.json: 최근 PIN_DAYS 안에 방문자 사진·영상이 올라온 축제 → 랜딩 맨 위 고정 (app.js가 읽음) ──
+// 축제에 다녀온 사람이 사진을 보내는 시점엔 축제가 이미 끝난 경우가 많아서, 끝난 축제도 며칠은 맨 위에 보여준다.
+{
+  const pins = VP.pinnedMap(visitorPhotos, todayYmd);
+  const byId = Object.fromEntries([...festivals, ...archivedFestivals].map((f) => [String(f.contentid), f]));
+  const pinned = Object.entries(pins)
+    .map(([id, p]) => {
+      const f = byId[id];
+      if (!f) return null;
+      return {
+        contentid: f.contentid, name: f.name, startDate: f.startDate, endDate: f.endDate,
+        address: f.address, lat: f.lat, lng: f.lng,
+        image: p.image || f.image || "", photoCount: p.count, hasVideo: p.hasVideo, pinnedUntil: p.until,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b.pinnedUntil.localeCompare(a.pinnedUntil));
+  fs.writeFileSync("pinned.json", JSON.stringify(pinned), "utf-8");
+  console.log(`📌 방문자 사진 고정 ${pinned.length}건 (pinned.json, ${VP.PIN_DAYS}일 고정)`);
+}
 
 // ── robots.txt: 검색봇에게 "다 읽어가도 좋고, 지도는 여기 있어요" ──
 fs.writeFileSync(
