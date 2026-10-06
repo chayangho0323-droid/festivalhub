@@ -22776,9 +22776,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/20/3530320_image2_1.JPG",
-      "name": "서울 살곶이 다리",
-      "dist": 97
+      "image": "https://tong.visitkorea.or.kr/cms2/website/24/1466024.jpg",
+      "name": "전곶교(살곶이다리)",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 박성근"
     }
   },
   {
@@ -22866,9 +22867,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/17/3442117_image2_1.JPG",
-      "name": "서울숲 곤충식물원",
-      "dist": 6
+      "image": "https://tong.visitkorea.or.kr/cms2/website/32/3589332.jpg",
+      "name": "서울숲",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 서문교"
     }
   },
   {
@@ -22956,9 +22958,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/34/3501734_image2_1.jpg",
-      "name": "김포 대명항",
-      "dist": 200
+      "image": "https://tong.visitkorea.or.kr/cms2/website/38/2592238.jpg",
+      "name": "김포함상공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한반도관광센터 비켄"
     }
   },
   {
@@ -23139,9 +23142,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/34/3501734_image2_1.jpg",
-      "name": "김포 대명항",
-      "dist": 200
+      "image": "https://tong.visitkorea.or.kr/cms2/website/38/2592238.jpg",
+      "name": "김포함상공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한반도관광센터 비켄"
     }
   },
   {
@@ -23228,7 +23232,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/58/3540458.jpg",
+      "name": "자라섬",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 정규진"
+    }
   },
   {
     "contentid": "spgyva6",
@@ -23463,9 +23472,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/38/3537938_image2_1.jpg",
-      "name": "청와대 세트장",
-      "dist": 5
+      "image": "https://tong.visitkorea.or.kr/cms2/website/70/2650070.jpg",
+      "name": "합천영상테마파크",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
     }
   },
   {
@@ -23553,9 +23563,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/84/3003784_image2_1.jpg",
-      "name": "산정랜드",
-      "dist": 199
+      "image": "https://tong.visitkorea.or.kr/cms2/website/29/2565529.jpg",
+      "name": "산정호수",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
     }
   },
   {
@@ -23642,7 +23653,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/68/4062868.JPG",
+      "name": "순천만습지",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 김찬영"
+    }
   },
   {
     "contentid": "s14960lt",
@@ -23783,7 +23799,12 @@
     ],
     "nearbyFood": [],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/56/3495956.jpg",
+      "name": "삼국유사테마파크",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
+    }
   },
   {
     "contentid": "s1s7942r",
@@ -23929,9 +23950,10 @@
     "nearbyFood": [],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/46/3569946_image2_1.jpg",
-      "name": "인각사(군위)",
-      "dist": 20
+      "image": "https://tong.visitkorea.or.kr/cms2/website/56/3495956.jpg",
+      "name": "삼국유사테마파크",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
     }
   },
   {
@@ -24615,9 +24637,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/91/3057291_image2_1.jpg",
-      "name": "초정약수",
-      "dist": 50
+      "image": "https://tong.visitkorea.or.kr/cms2/website/34/3505934.JPG",
+      "name": "초정행궁",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
     }
   },
   {
@@ -25876,9 +25899,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/24/3049224_image2_1.JPG",
-      "name": "관수옥과 초량왜관 터",
-      "dist": 56
+      "image": "https://tong.visitkorea.or.kr/cms2/website/41/3406741.jpg",
+      "name": "용두산공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 이병현"
     }
   },
   {
@@ -26309,7 +26333,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/44/3035444.jpg",
+      "name": "율동공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 이형찬"
+    }
   },
   {
     "contentid": "s1i7gy3i",
@@ -26395,7 +26424,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/44/3035444.jpg",
+      "name": "율동공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 이형찬"
+    }
   },
   {
     "contentid": "s1thku8g",
@@ -27185,7 +27219,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/32/3020432.jpg",
+      "name": "서울식물원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 김경빈"
+    }
   },
   {
     "contentid": "sj2aihk",
@@ -27358,7 +27397,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/17/2927517.jpg",
+      "name": "삼락생태공원 (2019)",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 부산관광공사"
+    }
   },
   {
     "contentid": "s179q6bh",
@@ -27640,7 +27684,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/20/3590920.jpg",
+      "name": "창녕 우포늪",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 장정수"
+    }
   },
   {
     "contentid": "s1d1n1xy",
@@ -27726,7 +27775,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/72/3033772.jpg",
+      "name": "금정산성",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 신민선"
+    }
   },
   {
     "contentid": "sgum4ie",
@@ -28287,9 +28341,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
-      "name": "한반도생태평화 종합관광센터",
-      "dist": 164
+      "image": "https://tong.visitkorea.or.kr/cms2/website/49/2715649.jpg",
+      "name": "임진각 평화 곤돌라",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
     }
   },
   {
@@ -29080,7 +29135,7 @@
     "address": "부산광역시 중구 자갈치해안로 52",
     "lat": "35.0966394",
     "lng": "129.0305933",
-    "image": "",
+    "image": "https://tong.visitkorea.or.kr/cms2/website/73/2588373.jpg",
     "overview": "개막식+길놀이+체험프로그램 등",
     "tourOverview": "",
     "tel": "051-243-9363",
@@ -29089,7 +29144,12 @@
     "playtime": "",
     "usefee": "",
     "sponsor": "(사)부산자갈치문화관광축제위원회",
-    "images": [],
+    "images": [
+      "https://tong.visitkorea.or.kr/cms2/website/73/2588373.jpg",
+      "https://tong.visitkorea.or.kr/cms2/website/74/2588374.jpg",
+      "https://tong.visitkorea.or.kr/cms2/website/86/2588386.jpg",
+      "https://tong.visitkorea.or.kr/cms2/website/85/2588385.jpg"
+    ],
     "extraInfo": [],
     "nearbySpots": [
       {
@@ -29160,7 +29220,8 @@
       "image": "http://tong.visitkorea.or.kr/cms/resource/46/3049246_image2_1.JPG",
       "name": "용두산 자갈치 관광특구",
       "dist": 3
-    }
+    },
+    "photoCredit": "한국관광공사 포토코리아 · 촬영 라이브스튜디오"
   },
   {
     "contentid": "s50ui2o",
@@ -29860,9 +29921,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/42/3395842_image2_1.JPG",
-      "name": "경인아라뱃길 아라타워 전망대",
-      "dist": 6
+      "image": "https://tong.visitkorea.or.kr/cms2/website/76/3457876.jpg",
+      "name": "정서진",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 안영관"
     }
   },
   {
@@ -30130,7 +30192,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/37/3023737.jpg",
+      "name": "오이도 빨강등대",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 임태진"
+    }
   },
   {
     "contentid": "s1y4ga67",
@@ -30216,7 +30283,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/45/3023745.jpg",
+      "name": "은계호수공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 임태진"
+    }
   },
   {
     "contentid": "s1yrlks9",
@@ -30388,7 +30460,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/33/4064033.jpg",
+      "name": "원주 반계리 은행나무",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 황성훈"
+    }
   },
   {
     "contentid": "svefzt5",
@@ -30650,7 +30727,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/48/3590748.jpg",
+      "name": "보은 법주사",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 이효직"
+    }
   },
   {
     "contentid": "s12y3djr",
@@ -30660,7 +30742,7 @@
     "address": "충청북도 보은군 보은읍 뱃들3길 15",
     "lat": "36.48631553",
     "lng": "127.7234093",
-    "image": "",
+    "image": "https://tong.visitkorea.or.kr/cms2/website/22/2563922.jpg",
     "overview": "대추 및 농특산물 판매, 각종 공연 및 체험",
     "tourOverview": "",
     "tel": "043-540-3392",
@@ -30669,7 +30751,9 @@
     "playtime": "",
     "usefee": "",
     "sponsor": "보은군 축제추진위원회",
-    "images": [],
+    "images": [
+      "https://tong.visitkorea.or.kr/cms2/website/22/2563922.jpg"
+    ],
     "extraInfo": [],
     "nearbySpots": [
       {
@@ -30736,7 +30820,8 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": null,
+    "photoCredit": "한국관광공사 포토코리아 · 촬영 하두철"
   },
   {
     "contentid": "s1hvax50",
@@ -31513,7 +31598,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/54/1308754.jpg",
+      "name": "추령장승촌",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
+    }
   },
   {
     "contentid": "s14tvjkb",
@@ -31599,7 +31689,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/76/3446676.jpg",
+      "name": "변산해수욕장",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 강시몬"
+    }
   },
   {
     "contentid": "sr439yb",
@@ -31857,9 +31952,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/98/3410998_image2_1.jpg",
-      "name": "호미곶 등대",
-      "dist": 292
+      "image": "https://tong.visitkorea.or.kr/cms2/website/39/2939539.jpg",
+      "name": "호미곶 해맞이광장",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
     }
   },
   {
@@ -31946,7 +32042,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/30/4106730.JPG",
+      "name": "월정교",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 비디비디 스튜디오"
+    }
   },
   {
     "contentid": "s3awrzl",
@@ -32409,7 +32510,12 @@
     "nearbySpots": [],
     "nearbyFood": [],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/27/3362027.jpg",
+      "name": "진주성",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 송희재"
+    }
   },
   {
     "contentid": "so5dm3x",
@@ -33338,7 +33444,12 @@
     "nearbySpots": [],
     "nearbyFood": [],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/12/1883212.jpg",
+      "name": "당진 왜목마을",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
+    }
   },
   {
     "contentid": "s6lcjdo",
@@ -33386,7 +33497,12 @@
     "nearbySpots": [],
     "nearbyFood": [],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/20/3543120.jpg",
+      "name": "삽교호 함상공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 김용훈"
+    }
   },
   {
     "contentid": "s1cgbwn",
@@ -33672,7 +33788,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/72/3387172.jpg",
+      "name": "화순 고인돌 유적지",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 강시몬"
+    }
   },
   {
     "contentid": "s9y4olw",
@@ -33886,9 +34007,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/80/3587580_image2_1.jpg",
-      "name": "땅끝항",
-      "dist": 178
+      "image": "https://tong.visitkorea.or.kr/cms2/website/02/2728802.jpg",
+      "name": "땅끝마을",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 송재근"
     }
   },
   {
@@ -34055,7 +34177,12 @@
       }
     ],
     "source": "std",
-    "venuePhoto": null
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/16/3514416.JPG",
+      "name": "황룡강생태공원",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 김찬영"
+    }
   },
   {
     "contentid": "sabealq",
@@ -34835,9 +34962,10 @@
     ],
     "source": "std",
     "venuePhoto": {
-      "image": "http://tong.visitkorea.or.kr/cms/resource/87/3035387_image2_1.jpg",
-      "name": "서귀포해양도립공원",
-      "dist": 3
+      "image": "https://tong.visitkorea.or.kr/cms2/website/99/2704899.jpg",
+      "name": "새연교",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 라이브스튜디오"
     }
   },
   {

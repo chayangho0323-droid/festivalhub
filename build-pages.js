@@ -328,9 +328,14 @@ function buildPage(f, all) {
   // 축제 사진이 하나도 없으면 행사장 300m 안 관광지 사진을 "주변 풍경"으로 보여준다 (fetch-festivals.js venuePhoto)
   const useVenue = !photos.length && f.venuePhoto && f.venuePhoto.image;
   if (useVenue) photos.push(f.venuePhoto.image);
+  // 출처 표기: 포토코리아 사진(fetch-photos.js)은 촬영자까지, 주변 관광지 사진(fetch-festivals.js)은 거리까지
   const venueNote = useVenue
-    ? `<p class="venue-photo-note">📍 축제 사진이 아직 없어 행사장 주변 관광지 <strong>${esc(f.venuePhoto.name)}</strong>(${f.venuePhoto.dist}m)의 모습을 보여드려요 · 사진: 한국관광공사</p>`
-    : "";
+    ? f.venuePhoto.credit
+      ? `<p class="venue-photo-note">📍 축제 사진이 아직 없어 행사장 <strong>${esc(f.venuePhoto.name)}</strong>의 모습을 보여드려요 · 사진: ${esc(f.venuePhoto.credit)}</p>`
+      : `<p class="venue-photo-note">📍 축제 사진이 아직 없어 행사장 주변 관광지 <strong>${esc(f.venuePhoto.name)}</strong>(${f.venuePhoto.dist}m)의 모습을 보여드려요 · 사진: 한국관광공사</p>`
+    : f.photoCredit
+      ? `<p class="venue-photo-note">📷 사진: ${esc(f.photoCredit)} (공공누리 1유형)</p>`
+      : "";
   const gallery = photos.length
     ? `<img class="hero" id="hero-img" src="${esc(photos[0])}" alt="${esc(useVenue ? `${f.name} 행사장 주변 ${f.venuePhoto.name}` : f.name)}" />` + venueNote +
       (photos.length > 1

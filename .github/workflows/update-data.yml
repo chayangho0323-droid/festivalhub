@@ -42,6 +42,12 @@ jobs:
           KOPIS_KEY: ${{ secrets.KOPIS_KEY }}
         continue-on-error: true
 
+      # 4-3. 한국관광공사 관광사진(포토코리아)으로 사진 없는 축제 채우기 (같은 TOUR_API_KEY, 하루 600회 한도, 캐시 photo-cache.json)
+      - run: node fetch-photos.js
+        env:
+          TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
+        continue-on-error: true
+
       # 5. 축제별 정적 페이지 + sitemap 재생성
       - run: node build-pages.js
 
