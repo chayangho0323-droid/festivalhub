@@ -121,7 +121,12 @@ function render() {
 
   let shown = allFestivals.filter((f) => {
     const notEnded = f.endDate >= today || f._pinned; // 끝난 축제는 바로 제외 (단, 방문자 사진이 막 올라온 축제는 며칠간 예외)
-    const matchKeyword = !keyword || f.name.toLowerCase().includes(keyword);
+    // 검색은 이름 + 주소 + 행사장 + 주최 + 별칭(aliases)에서. "공주 백제문화제"처럼 띄어 쓰면 단어마다 전부 맞아야 함
+    // (2026-10-06: 백제문화제는 데이터 주소가 부여라 "공주"로 검색하면 안 나오던 문제)
+    const haystack = [f.name, f.address, f.eventplace, f.sponsor, f.aliases].filter(Boolean).join(" ").toLowerCase();
+    // "축제·페스티벌·행사" 같은 일반 단어는 빼고 비교 ("부여 축제"로 검색해도 이름에 '축제'가 없는 백제문화제가 나오게)
+    const words = keyword.split(/\s+/).filter((w) => w && !["축제", "페스티벌", "행사", "문화제"].includes(w));
+    const matchKeyword = !words.length || words.every((w) => haystack.includes(w));
     const matchRegion = !region || getRegion(f.address) === region;
     const matchLong = !hideLongEl.checked || !isLongRunning(f);
     const matchFav = !onlyFavEl.checked || favorites.includes(f.contentid);
