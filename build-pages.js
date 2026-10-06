@@ -325,8 +325,14 @@ function buildPage(f, all) {
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
   const vph = visitorPhotos[String(f.contentid)];
   if (!photos.length && vph && VP.firstImage(vph)) photos.push(VP.firstImage(vph));
+  // 축제 사진이 하나도 없으면 행사장 300m 안 관광지 사진을 "주변 풍경"으로 보여준다 (fetch-festivals.js venuePhoto)
+  const useVenue = !photos.length && f.venuePhoto && f.venuePhoto.image;
+  if (useVenue) photos.push(f.venuePhoto.image);
+  const venueNote = useVenue
+    ? `<p class="venue-photo-note">📍 축제 사진이 아직 없어 행사장 주변 관광지 <strong>${esc(f.venuePhoto.name)}</strong>(${f.venuePhoto.dist}m)의 모습을 보여드려요 · 사진: 한국관광공사</p>`
+    : "";
   const gallery = photos.length
-    ? `<img class="hero" id="hero-img" src="${esc(photos[0])}" alt="${esc(f.name)}" />` +
+    ? `<img class="hero" id="hero-img" src="${esc(photos[0])}" alt="${esc(useVenue ? `${f.name} 행사장 주변 ${f.venuePhoto.name}` : f.name)}" />` + venueNote +
       (photos.length > 1
         ? `<div class="thumbs">${photos
             .map(
@@ -478,7 +484,7 @@ function buildPage(f, all) {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(seoTitle)}" />
   <meta property="og:description" content="${esc(description)}" />
-  ${f.image ? `<meta property="og:image" content="${esc(f.image)}" />` : ""}
+  ${photos[0] ? `<meta property="og:image" content="${esc(photos[0])}" />` : ""}
   <meta property="og:url" content="${SITE_URL}/festival/${f.contentid}.html" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="../style.css" />
@@ -640,9 +646,12 @@ function listCard(f, today) {
       : ongoing
         ? `<span class="badge ongoing">진행중</span>`
         : `<span class="badge upcoming">D-${dday}</span>`;
+  const venueImg = !f.image && f.venuePhoto && f.venuePhoto.image;
   const img = f.image
     ? `<img src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" />`
-    : `<div class="no-image">🎪</div>`;
+    : venueImg
+      ? `<img src="${esc(venueImg)}" alt="${esc(f.name)} 행사장 주변 ${esc(f.venuePhoto.name)}" loading="lazy" /><span class="venue-tag">📍 행사장 주변 풍경</span>`
+      : `<div class="no-image">🎪</div>`;
 
   return `
     <a class="card-link" href="festival/${f.contentid}.html">
@@ -1317,8 +1326,9 @@ for (const pk of PICKS) {
         .filter((x) => x.endDate >= pickToday && normFestName(x.name).includes(it.key.toLowerCase()))
         .sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0))[0];
       if (!f) return "";
-      const img = f.image
-        ? `<img src="${esc(f.image)}" alt="${esc(f.name)}" loading="lazy" />`
+      const pickImg = f.image || (f.venuePhoto && f.venuePhoto.image);
+      const img = pickImg
+        ? `<img src="${esc(pickImg)}" alt="${esc(f.name)}" loading="lazy" />`
         : `<div class="pick-noimg">🎪</div>`;
       return `
       <a class="pick-card" href="festival/${f.contentid}.html">

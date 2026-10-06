@@ -184,9 +184,13 @@ function render() {
             : `<span class="badge upcoming">D-${dday}</span>`;
 
       const cardImg = (f._pinned && f._pinImage) || f.image;
+      // 축제 사진이 없으면 행사장 300m 안 관광지 사진을 "행사장 주변 풍경" 표시와 함께 보여준다 (fetch-festivals.js venuePhoto)
+      const venueImg = !cardImg && f.venuePhoto && f.venuePhoto.image;
       const img = cardImg
         ? `<img src="${cardImg}" alt="${f.name}" loading="lazy" />`
-        : `<div class="no-image">🎪</div>`;
+        : venueImg
+          ? `<img src="${venueImg}" alt="${f.name} 행사장 주변 ${f.venuePhoto.name}" loading="lazy" /><span class="venue-tag">📍 행사장 주변 풍경</span>`
+          : `<div class="no-image">🎪</div>`;
 
       const faved = favorites.includes(f.contentid);
 

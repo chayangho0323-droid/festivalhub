@@ -595,6 +595,12 @@ async function main() {
       }
     }
 
+    // 축제 사진을 끝내 못 찾았으면 행사장 300m 안 관광지(주변 관광지 데이터)의 사진을 "행사장 주변 풍경"으로 쓴다.
+    // (2026-10-06: 사진 없는 지역 축제 142건 중 34건이 서울숲·초정약수·청주향교·자갈치시장처럼 행사장 자체가 관광지)
+    // image 칸은 비워 두고 venuePhoto에 따로 담아서, 다음 날 관광공사에서 진짜 축제 사진을 다시 찾아보게 한다.
+    const venueSpot = !image ? nearbySpots.filter((s) => s.image && s.dist <= 300).sort((a, b) => a.dist - b.dist)[0] : null;
+    const venuePhoto = venueSpot ? { image: venueSpot.image, name: venueSpot.name, dist: venueSpot.dist } : null;
+
     return {
       contentid: id,
       name: r.fstvlNm,
@@ -602,6 +608,7 @@ async function main() {
       endDate: toYmd(r.fstvlEndDate),
       address: r.rdnmadr || r.lnmadr || "",
       lat, lng,
+      venuePhoto, // 행사장 주변 관광지 사진 (축제 사진이 없을 때만, 페이지엔 "주변 풍경"이라고 표시)
       image, // 관광공사에서 빌려온 사진 (못 찾으면 빈 값 → 🎪 아이콘)
       // 소개글은 더 자세한 쪽을 사용 (관광공사 소개가 보통 훨씬 풍부함)
       overview: tourOverview && tourOverview.length > (r.fstvlCo || "").length ? tourOverview : r.fstvlCo || "",

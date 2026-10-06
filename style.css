@@ -940,3 +940,24 @@ body {
 }
 
 .dir-btn.ticket { background: #6d3fc4; color: #fff; }
+
+/* 축제 사진이 없어 행사장 주변 관광지 사진을 쓴 카드 — 카드 이미지 위 작은 안내 표시 (사진 높이 170px 기준) */
+.card .venue-tag {
+  position: absolute;
+  top: 146px;
+  left: 8px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  pointer-events: none;
+}
+/* 상세 페이지 대표 사진 아래 안내문 */
+.venue-photo-note {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+}
