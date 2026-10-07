@@ -331,11 +331,11 @@ function renderWeatherBanner() {
   const avg = (arr) => (arr.length ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : null);
   const chips = order.filter((s) => bySido[s]).map((s) => {
     const w = bySido[s], slug = REGION_SLUGS[s], tmn = avg(w.tmn), tmx = avg(w.tmx);
-    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷${w.pm}</i>` : "";
+    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}</i>` : "";
     return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${Math.round(w.pop / w.n)}%${w.pm ? ` · 주말 미세먼지 ${w.pm}` : ""} · 축제 개최지 ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${Math.round(w.pop / w.n)}%${tmn != null && tmx != null ? ` ${tmn}°/${tmx}°` : ""}${pm}</a>`;
   }).join("");
   const good = Object.values(bySido).filter((w) => w.grade === "good").length, total = Object.keys(bySido).length;
-  el.innerHTML = `<span class="wx-title">⛅ 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 축제 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 축제 가기 좋은 주말!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 우천 대비"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">카드의 <b>☀️ 축제날</b> 배지는 열흘 안에 열리는 축제의 개최지 시군구 기준 · 상세 페이지에 축제 당일 예보 · 기상청 ${WX.updated} 발표</span>`;
+  el.innerHTML = `<span class="wx-title">⛅ 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 축제 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 축제 가기 좋은 주말!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 우천 대비"}</span><span class="wx-chips">${chips}</span><span class="wx-foot"><b>칩 읽는 법</b> 날씨 · 토요일 비 확률 · 최저/최고 기온 · 😷 주말 미세먼지 &nbsp;|&nbsp; 카드의 <b>☀️ 축제날</b> 배지는 열흘 안에 열리는 축제의 개최지 시군구 기준 · 상세 페이지에 축제 당일 예보 · 기상청 ${WX.updated} 발표</span>`;
 }
 async function loadWeather() {
   try {
