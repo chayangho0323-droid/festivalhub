@@ -228,6 +228,9 @@ try {
 // 축제 기간과 앞으로 10일이 겹치는 날만 보여준다. 겹치는 날이 없으면(먼 축제·끝난 축제) 섹션 자체를 안 만든다.
 let WEATHER = { updated: "", areas: {} };
 try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
+let AIR = { updated: "", areas: {} }; // 에어코리아 미세먼지 예보 (fetch-air.js → air.json: "시도 시군구" → {YYYYMMDD: 좋음|보통|나쁨|매우나쁨})
+try { AIR = JSON.parse(fs.readFileSync("air.json", "utf-8")); } catch {}
+const pmClsOf = (g) => (/매우/.test(g) ? "pm3" : /나쁨/.test(g) ? "pm2" : /보통/.test(g) ? "pm1" : "pm0");
 const weatherKeyOf = (f) => { const t = String(f.address || "").split(" "); return `${t[0] || ""} ${t[1] || ""}`; };
 function weatherHtml(f) {
   const area = WEATHER.areas[weatherKeyOf(f)];
@@ -238,7 +241,8 @@ function weatherHtml(f) {
   const grade = (d) => (d.pty || d.pop >= 60 ? ["rain", "🌧️ 비 예보"] : d.pop >= 30 ? ["soso", "⛅ 보통"] : ["good", "☀️ 좋음"]);
   const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}`;
   const temp = (d) => (d.tmn != null && d.tmx != null ? `${Math.round(d.tmn)}°/${Math.round(d.tmx)}°` : d.tmx != null ? `최고 ${Math.round(d.tmx)}°` : "");
-  const cells = days.map((d) => `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span></div>`).join("");
+  const pmAll = (AIR.areas && AIR.areas[weatherKeyOf(f)]) || {};
+  const cells = days.map((d) => { const pm = pmAll[d.date]; return `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span>${pm ? `<span class="wx-pm ${pmClsOf(pm)}" title="미세먼지 예보 (에어코리아)">😷 ${pm}</span>` : ""}</div>`; }).join("");
   // 한 줄 요약: 축제 첫날(또는 오늘 이후 첫 축제일)과 주말
   const head = days.slice(0, 3).map((d) => { const [cls, label] = grade(d); return `<span class="wx-grade ${cls}">${md(d)}(${d.dow}) ${label}</span> 비 ${d.pop ?? "-"}%`; }).join(" / ");
   const tips = [];
@@ -248,6 +252,7 @@ function weatherHtml(f) {
   if (minT <= 5) tips.push(`🧥 아침·밤 최저 ${Math.round(minT)}°예요. 저녁 공연·불꽃놀이까지 볼 계획이면 두꺼운 겉옷과 담요를 챙기세요.`);
   else if (minT <= 12) tips.push(`🌙 해 지면 ${Math.round(minT)}° 안팎으로 쌀쌀해요. 야간 프로그램엔 겉옷 한 겹 더 준비하세요.`);
   if (maxT >= 28) tips.push(`🥵 낮 최고 ${Math.round(maxT)}°예요. 모자·물·양산을 챙기고 그늘 쉼터 위치를 미리 봐 두세요.`);
+  if (days.some((d) => pmAll[d.date] && /나쁨/.test(pmAll[d.date]))) tips.push("😷 축제 기간에 미세먼지 '나쁨' 예보가 있어요. 야외 행사라면 마스크를 챙기고, 아이·어르신과 가신다면 실내 프로그램 위주로 계획하세요.");
   const mid = days.some((d) => d.src === "mid");
   const ongoing = f.startDate <= todayStr(); // todayYmd는 아래쪽에서 선언돼 여기선 못 씀
   return `
@@ -1510,6 +1515,20 @@ console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
       const avg = (arr) => (arr.length ? Math.round(arr.reduce((s, v) => s + v, 0) / arr.length) : null);
       const grade = a.rain / a.n >= 0.5 ? "rain" : (a.rain + a.soso) / a.n >= 0.5 ? "soso" : "good";
       summary.sido[sido] = { pop: Math.round(a.pop / a.n), grade, tmn: avg(a.tmn), tmx: avg(a.tmx), n: a.n };
+    }
+    // 😷 시도별 주말 미세먼지 (토·일 중 나쁜 쪽, 시군구 중 가장 흔한 등급) — 메인 칩에 표시
+    if (summary.weekend.length && AIR.areas) {
+      const RANK = { 좋음: 0, 보통: 1, 나쁨: 2, 매우나쁨: 3 };
+      const cnt = {};
+      for (const [key, byDate] of Object.entries(AIR.areas)) {
+        const grades = summary.weekend.map((d) => byDate[d.date]).filter(Boolean);
+        if (!grades.length) continue;
+        const worst = grades.sort((a, b) => RANK[b] - RANK[a])[0];
+        const sido = key.split(" ")[0];
+        (cnt[sido] ||= {})[worst] = (cnt[sido][worst] || 0) + 1;
+      }
+      for (const [sido, c] of Object.entries(cnt)) if (summary.sido[sido]) summary.sido[sido].pm = Object.entries(c).sort((a, b) => b[1] - a[1])[0][0];
+      summary.airUpdated = AIR.updated || "";
     }
     fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");
     console.log(`✅ weather-summary.json (시도 ${Object.keys(summary.sido).length}·시군구 ${Object.keys(summary.areas).length}, ${Math.round(JSON.stringify(summary).length / 1024)}KB)`);
