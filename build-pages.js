@@ -260,6 +260,49 @@ function weatherHtml(f) {
       </section>`;
 }
 
+// ─── 목록 페이지용: 카드 "☀️ 축제날 좋음" 배지 + 지역·주말 페이지 상단 시군구별 날씨 칩 (메인 app.js와 같은 기준) ───
+const wxGradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
+const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
+const WX_LABEL = { good: "좋음", soso: "보통", rain: "비 예보" };
+const WX_RANK = { rain: 2, soso: 1, good: 0 };
+function festivalWeatherBadgeStatic(f, today) {
+  const area = WEATHER.areas[weatherKeyOf(f)];
+  if (!area || !f.startDate || !f.endDate) return "";
+  const days = (area.days || []).filter((d) => d.date >= f.startDate && d.date <= f.endDate).slice(0, 3);
+  if (!days.length) return "";
+  const g = days.map(wxGradeOf).sort((a, b) => WX_RANK[b] - WX_RANK[a])[0];
+  const pop = Math.max(...days.map((d) => d.pop ?? 0));
+  const label = f.startDate <= today ? "축제 기간" : "축제날";
+  return `<span class="badge wx wx-${g}" title="${label} 비 확률 최대 ${pop}%">${WX_ICON[g]} ${label} ${WX_LABEL[g]}</span>`;
+}
+// 지역 페이지: 그 지역 축제 개최지 시군구별 주말 날씨 칩 / 주말 페이지: 전국 시군구가 많아 시도별로 묶음
+function regionWeatherHtml(items, label, bySido = false) {
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}(${d.dow})`;
+  const rows = {};
+  let weekendDays = null;
+  for (const f of items) {
+    const area = WEATHER.areas[weatherKeyOf(f)];
+    if (!area) continue;
+    const wk = (area.days || []).filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+    if (!wk.length) continue;
+    weekendDays ||= wk;
+    const name = bySido ? (REGION_PREFIXES.find(([p]) => weatherKeyOf(f).startsWith(p)) || [null, area.sigungu])[1] : area.sigungu;
+    const r = (rows[name] ||= { name, grade: "good", pop: 0, tmn: [], tmx: [] });
+    const g = wk.map(wxGradeOf).sort((a, b) => WX_RANK[b] - WX_RANK[a])[0];
+    if (WX_RANK[g] > WX_RANK[r.grade]) r.grade = g;
+    r.pop = Math.max(r.pop, ...wk.map((d) => d.pop ?? 0));
+    const sat = wk.find((d) => d.dow === "토") || wk[0];
+    if (sat.tmn != null) r.tmn.push(sat.tmn); if (sat.tmx != null) r.tmx.push(sat.tmx);
+  }
+  const list = Object.values(rows).sort((a, b) => a.name.localeCompare(b.name, "ko"));
+  if (!list.length) return "";
+  const avg = (arr) => (arr.length ? Math.round(arr.reduce((s, v) => s + v, 0) / arr.length) : null);
+  const good = list.filter((r) => r.grade === "good").length;
+  const chips = list.map((r) => { const tmn = avg(r.tmn), tmx = avg(r.tmx); return `<span class="wx-chip wx-${r.grade}" title="${esc(r.name)} 주말 비 확률 ${r.pop}%">${WX_ICON[r.grade]} ${esc(r.name)} ${r.pop}%${tmn != null && tmx != null ? ` ${tmn}°/${tmx}°` : ""}</span>`; }).join("");
+  return `
+  <div class="weather-banner"><span class="wx-title">⛅ 이번 주말 <strong>${weekendDays.map(md).join("·")}</strong> ${esc(label)} 축제 날씨</span> <span class="wx-sub">${good === list.length ? "전 지역 좋음 — 축제 가기 좋은 주말!" : good ? `${list.length}개 ${bySido ? "지역" : "시군구"} 중 ${good}곳 좋음` : "비 소식 있어요 — 우천 대비"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">${bySido ? "시도별" : "축제 개최지 시군구별"} 토·일 중 나쁜 쪽 기준 · 카드의 ☀️ 축제날 배지는 그 축제 날짜 기준 · 상세 페이지에 축제 당일 예보 · 기상청 ${esc(WEATHER.updated)} 발표</span></div>`;
+}
+
 function findFestivalNote(f) {
   // 2026-09-30부터 소개글 길이와 무관하게 붙인다 — 축제 이야기는 유래·볼거리·방문 팁이라 공식 소개와 역할이 다르고,
   // 노출 큰 대형 축제(지상군·포은문화제 등)에도 원본 콘텐츠가 필요하다 (애드센스 재심사 대비)
@@ -700,7 +743,7 @@ function listCard(f, today) {
       <article class="card">
         ${img}
         <div class="card-body">
-          ${badge}
+          ${badge} ${festivalWeatherBadgeStatic(f, today)}
           <h2>${esc(f.name)}</h2>
           <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}</p>
           <p class="address">📍 ${esc(f.address) || "주소 정보 없음"}</p>
@@ -748,6 +791,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   </header>
   ${SITE_NAV}
   ${pickBanner}
+  ${filename.startsWith("region-") ? regionWeatherHtml(items, heading.replace(/^📍\s*/, "").replace(/\s*축제$/, "")) : filename === "weekend.html" ? regionWeatherHtml(items, "전국", true) : ""}
   ${photoCallHtml(null)}
   ${guideChips("")}
   <p class="result-count">${items.length}개의 축제</p>
