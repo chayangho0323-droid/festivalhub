@@ -94,7 +94,29 @@
         "image": "",
         "addr": "서울특별시 송파구 송이로 106"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "송파",
+        "lines": [
+          "8호선"
+        ],
+        "dist": 435,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "가락1동주민센터",
+          "dist": 85,
+          "walkMin": 1
+        },
+        {
+          "name": "가락시장.헬리오시티",
+          "dist": 408,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "2746930",
@@ -262,7 +284,21 @@
         "image": "",
         "addr": "충청남도 논산시 해월로 132"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "젓갈전시관",
+          "dist": 24,
+          "walkMin": 1
+        },
+        {
+          "name": "강변타운",
+          "dist": 168,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "1307813",
@@ -363,7 +399,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2841489_image2_1.JPG",
         "addr": "경기도 구리시 아차산로 37 (아천동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "암사역사공원",
+        "lines": [
+          "8호선"
+        ],
+        "dist": 648,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "서울암사동유적",
+          "dist": 37,
+          "walkMin": 1
+        },
+        {
+          "name": "선사마을",
+          "dist": 155,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2930716",
@@ -755,7 +813,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/51/2893051_image2_1.jpeg",
         "addr": "경기도 수원시 팔달구 고화로9번길 1 (매산로2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "수원역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 244,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "수원역환승센터(9승강장)",
+          "dist": 148,
+          "walkMin": 2
+        },
+        {
+          "name": "수원역환승센터(8승강장)",
+          "dist": 149,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "141105",
@@ -856,7 +936,16 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/38/2851638_image2_1.JPG",
         "addr": "경상남도 창원시 마산합포구 창포1길 6"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "당항포",
+          "dist": 766,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "2648460",
@@ -953,7 +1042,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2544557_image2_1.bmp",
         "addr": "서울특별시 종로구 새문안로5가길 7"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "경복궁(정부서울청사)",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 278,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "경복궁",
+          "dist": 183,
+          "walkMin": 3
+        },
+        {
+          "name": "경복궁역(효자로입구)",
+          "dist": 226,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2759249",
@@ -1054,7 +1165,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/72/2859872_image2_1.jpg",
         "addr": "경상북도 경산시 삼성현로 164"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "경산역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 1424,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "삼북주공A 건너",
+          "dist": 228,
+          "walkMin": 3
+        },
+        {
+          "name": "삼북주공A",
+          "dist": 242,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "1725993",
@@ -1152,7 +1285,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/21/2868321_image2_1.jpg",
         "addr": "경기도 고양시 일산동구 호수로 640 (장항동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "정발산역",
+        "lines": [
+          "일산선"
+        ],
+        "dist": 770,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "SK엠시티",
+          "dist": 141,
+          "walkMin": 2
+        },
+        {
+          "name": "일산호수공원관리사무소",
+          "dist": 265,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3383613",
@@ -1253,7 +1408,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/98/2868298_image2_1.jpg",
         "addr": "경기도 고양시 덕양구 원당로 124 (주교동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "원당역",
+        "lines": [
+          "일산선"
+        ],
+        "dist": 908,
+        "walkMin": 14
+      },
+      "stops": [
+        {
+          "name": "어울림마을7단지",
+          "dist": 76,
+          "walkMin": 1
+        },
+        {
+          "name": "고양시청",
+          "dist": 177,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "604454",
@@ -1354,7 +1531,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/00/2904900_image2_1.jpeg",
         "addr": "전북특별자치도 고창군 월암수월길 104-8"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "중앙동",
+          "dist": 180,
+          "walkMin": 3
+        },
+        {
+          "name": "군청사거리",
+          "dist": 190,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2872215",
@@ -1448,7 +1639,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/91/2832491_image2_1.JPG",
         "addr": "전남광주통합특별시 고흥군 고흥로 1896  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "한동",
+          "dist": 124,
+          "walkMin": 2
+        },
+        {
+          "name": "한서",
+          "dist": 260,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "1322668",
@@ -1544,7 +1749,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/10/2873010_image2_1.jpg",
         "addr": "전남광주통합특별시 곡성군 청계동로 409  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "기차마을(하행)",
+          "dist": 62,
+          "walkMin": 1
+        },
+        {
+          "name": "기차마을",
+          "dist": 73,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3551206",
@@ -1638,7 +1857,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/97/2846897_image2_1.JPG",
         "addr": "경기도 광명시 일직로12번길 21 (일직동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광명역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 2007,
+        "walkMin": 30
+      },
+      "stops": [
+        {
+          "name": "뒷골안길",
+          "dist": 255,
+          "walkMin": 4
+        },
+        {
+          "name": "광명동굴",
+          "dist": 442,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "2786391",
@@ -1736,7 +1977,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image2_1.jpg",
         "addr": "부산광역시 수영구 광안해변로307번길 20"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광안",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 668,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "어방축제",
+          "dist": 53,
+          "walkMin": 1
+        },
+        {
+          "name": "광안리해수욕장",
+          "dist": 66,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "692682",
@@ -1837,7 +2100,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/94/2665094_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 문화전당로 43 3층"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "금남로4가",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 153,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "5.18민주화운동기록관",
+          "dist": 97,
+          "walkMin": 1
+        },
+        {
+          "name": "예술의거리입구",
+          "dist": 97,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "604097",
@@ -1938,7 +2223,29 @@
         "image": "",
         "addr": "전남광주통합특별시 서구 시청로20번길 10"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "운천",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 1078,
+        "walkMin": 16
+      },
+      "stops": [
+        {
+          "name": "시청",
+          "dist": 138,
+          "walkMin": 2
+        },
+        {
+          "name": "5.18기념공원",
+          "dist": 366,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2990881",
@@ -2030,7 +2337,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/53/2837753_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 중앙로160번길 16-10  "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 101,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "국립아시아문화전당(구.도청)",
+          "dist": 136,
+          "walkMin": 2
+        },
+        {
+          "name": "문화전당역",
+          "dist": 158,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2561700",
@@ -2130,7 +2459,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/34/2863134_image2_1.jpg",
         "addr": "전남광주통합특별시 서구 상무대로 718  "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "김대중컨벤션센터(마륵)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 1267,
+        "walkMin": 19
+      },
+      "stops": [
+        {
+          "name": "서창사거리",
+          "dist": 242,
+          "walkMin": 4
+        },
+        {
+          "name": "서창입구",
+          "dist": 416,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "3028462",
@@ -2229,7 +2580,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/33/2841033_image2_1.jpg",
         "addr": "경상북도 구미시 송동로 42-36"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "구미역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 129,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "LG정보통신",
+          "dist": 76,
+          "walkMin": 1
+        },
+        {
+          "name": "국민은행",
+          "dist": 117,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3017799",
@@ -2330,7 +2703,29 @@
         "image": "",
         "addr": "경상북도 구미시 구미중앙로9길 16 (원평동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "사곡역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 2051,
+        "walkMin": 31
+      },
+      "stops": [
+        {
+          "name": "송정여중입구",
+          "dist": 108,
+          "walkMin": 2
+        },
+        {
+          "name": "송정여중입구건너",
+          "dist": 114,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4116779",
@@ -2424,7 +2819,21 @@
         "image": "",
         "addr": "전남광주통합특별시 여수시 교동남1길 5-17"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "진남관",
+          "dist": 36,
+          "walkMin": 1
+        },
+        {
+          "name": "진남로 위",
+          "dist": 134,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4114329",
@@ -2510,7 +2919,16 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/75/2855575_image2_1.JPG",
         "addr": "강원특별자치도 철원군 한탄강길 28"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "노동당사",
+          "dist": 66,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4117505",
@@ -2604,7 +3022,21 @@
         "image": "",
         "addr": "충청북도 청주시 상당구 남사로93번길 17"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "용두사지철당간",
+          "dist": 86,
+          "walkMin": 1
+        },
+        {
+          "name": "도청",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4060434",
@@ -2705,7 +3137,29 @@
         "image": "",
         "addr": "서울특별시 종로구 우정국로 38-13 (견지동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "종각",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 371,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "낙원상가",
+          "dist": 185,
+          "walkMin": 3
+        },
+        {
+          "name": "종로사우나",
+          "dist": 212,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3364857",
@@ -2804,7 +3258,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/50/2794350_image2_1.JPG",
         "addr": "전북특별자치도 군산시 구영6길 125-1 (영화동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "백년광장",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "근대역사박물관",
+          "dist": 130,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "1998564",
@@ -2905,7 +3373,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/92/2588392_image2_1.jpg",
         "addr": "서울특별시 종로구 율곡로4길 14"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "경복궁(정부서울청사)",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 442,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "경복궁.국립민속박물관",
+          "dist": 231,
+          "walkMin": 3
+        },
+        {
+          "name": "국립민속박물관",
+          "dist": 233,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2728613",
@@ -2997,7 +3487,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/25/2877725_image2_1.jpg",
         "addr": "제주특별자치도 서귀포시 서광남로115번길 12"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "제주신화월드 테마파크",
+          "dist": 243,
+          "walkMin": 4
+        },
+        {
+          "name": "신화월드리조트",
+          "dist": 343,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "506465",
@@ -3098,7 +3602,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/00/2834400_image2_1.jpg",
         "addr": "충청남도 금산군 금산로 2428 화목가든"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "금산국제인삼유통센터",
+          "dist": 25,
+          "walkMin": 1
+        },
+        {
+          "name": "중도",
+          "dist": 118,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "1275743",
@@ -3197,7 +3715,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2869189_image2_1.jpg",
         "addr": "부산광역시 금정구 금강로 418 (구서동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "장전",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 2930,
+        "walkMin": 44
+      },
+      "stops": [
+        {
+          "name": "산성공해마을3동",
+          "dist": 120,
+          "walkMin": 2
+        },
+        {
+          "name": "공해부락",
+          "dist": 137,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3377995",
@@ -3292,7 +3832,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/18/2832218_image2_1.jpg",
         "addr": "경상북도 김천시 대학로 98"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "운수1리(본리)",
+          "dist": 510,
+          "walkMin": 8
+        },
+        {
+          "name": "직지사",
+          "dist": 657,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "506470",
@@ -3390,7 +3944,21 @@
         "image": "",
         "addr": "경상남도 창원시 의창구 용지로 253-1"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "김해스포츠센터",
+          "dist": 265,
+          "walkMin": 4
+        },
+        {
+          "name": "롯데아울렛",
+          "dist": 334,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2766000",
@@ -3486,7 +4054,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/2627369_image2_1.jpg",
         "addr": "강원특별자치도 원주시 지정면 원양2로 135"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "간현관광지앞",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "레일파크",
+          "dist": 352,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3009344",
@@ -3583,7 +4165,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/77/2892977_image2_1.JPG",
         "addr": "전남광주통합특별시 나주시 황동2길 3-5 (빛가람동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "석산길",
+          "dist": 690,
+          "walkMin": 10
+        },
+        {
+          "name": "용산주공입구",
+          "dist": 706,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "1719667",
@@ -3684,7 +4280,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/40/2854240_image2_1.JPG",
         "addr": "경상남도 김해시 동남로41번길 25-24"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "수정",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 1070,
+        "walkMin": 16
+      },
+      "stops": [
+        {
+          "name": "당리마을입구",
+          "dist": 643,
+          "walkMin": 10
+        },
+        {
+          "name": "구룡사",
+          "dist": 665,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "2809535",
@@ -3779,7 +4397,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/75/2789575_image2_1.jpg",
         "addr": "서울특별시 중구 다동길 36"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "종각",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 69,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "종각역",
+          "dist": 82,
+          "walkMin": 1
+        },
+        {
+          "name": "종로2가",
+          "dist": 124,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2865258",
@@ -3880,7 +4520,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/08/2833408_image2_1.jpg",
         "addr": "서울특별시 노원구 동일로 1020 공릉본점닭한마리"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "하계",
+        "lines": [
+          "7호선"
+        ],
+        "dist": 480,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "하계2동주민센터",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "중현초등학교",
+          "dist": 133,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "1720025",
@@ -3978,7 +4640,21 @@
         "image": "",
         "addr": "경기도 남양주시 조안면 북한강로 121"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "다산정약용유적지.실학박물관",
+          "dist": 134,
+          "walkMin": 2
+        },
+        {
+          "name": "마재성지.능내교회",
+          "dist": 486,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "4115096",
@@ -4070,7 +4746,30 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2852689_image2_1.jpg",
         "addr": "부산광역시 동래구 충렬대로256번길 32 (수안동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "동래",
+        "lines": [
+          "부산 경량도시철도 4호선",
+          "부산 도시철도 1호선"
+        ],
+        "dist": 293,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "구.하이마트",
+          "dist": 102,
+          "walkMin": 2
+        },
+        {
+          "name": "내성중학교",
+          "dist": 117,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4109305",
@@ -4171,7 +4870,29 @@
         "image": "",
         "addr": "부산광역시 부산진구 서면문화로 4"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "부전역",
+        "lines": [
+          "동해선"
+        ],
+        "dist": 400,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "부산진중학교",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "부산시민공원남문",
+          "dist": 135,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3301281",
@@ -4271,7 +4992,29 @@
         "image": "",
         "addr": "대구광역시 달성군 다사읍 부곡2길 7-9"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "대실",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 1790,
+        "walkMin": 27
+      },
+      "stops": [
+        {
+          "name": "강정(종점)",
+          "dist": 202,
+          "walkMin": 3
+        },
+        {
+          "name": "강정보(디아크문화관)입구",
+          "dist": 217,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4109893",
@@ -4372,7 +5115,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/99/2846599_image2_1.JPG",
         "addr": "전남광주통합특별시 담양군 객사3길 15  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "죽녹원",
+          "dist": 293,
+          "walkMin": 4
+        },
+        {
+          "name": "담양군청",
+          "dist": 374,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "3113001",
@@ -4472,7 +5229,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/32/2938932_image2_1.bmp",
         "addr": "대전광역시 중구 대종로480번길 15"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "대전",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 537,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "대전역동광장",
+          "dist": 129,
+          "walkMin": 2
+        },
+        {
+          "name": "대전역광장",
+          "dist": 133,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2488086",
@@ -4573,7 +5352,29 @@
         "image": "",
         "addr": "대전광역시 서구 둔산남로105번길 18"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "정부청사",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 421,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "서구청",
+          "dist": 79,
+          "walkMin": 1
+        },
+        {
+          "name": "을지대학병원",
+          "dist": 120,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3532372",
@@ -4673,7 +5474,29 @@
         "image": "",
         "addr": "대전광역시 중구 대종로460번길 59"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "중구청",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 138,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "중구청",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "중구청역",
+          "dist": 234,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "638576",
@@ -4771,7 +5594,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/98/2616398_image2_1.jpg",
         "addr": "전남광주통합특별시 함평군 함평읍 신기산길 22"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "함평여고",
+          "dist": 156,
+          "walkMin": 2
+        },
+        {
+          "name": "함평중학교",
+          "dist": 465,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "2756396",
@@ -4871,7 +5708,30 @@
         "image": "",
         "addr": "서울특별시 중구 서소문로11길 14"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선",
+          "2호선"
+        ],
+        "dist": 58,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "시청교차로(미정차)",
+          "dist": 59,
+          "walkMin": 1
+        },
+        {
+          "name": "시청역",
+          "dist": 115,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3018924",
@@ -4970,7 +5830,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/45/2847145_image2_1.jpg",
         "addr": "서울특별시 강남구 논현로26길 33"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "매봉",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 447,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "도곡2동주민센터.대치중학교",
+          "dist": 208,
+          "walkMin": 3
+        },
+        {
+          "name": "매봉역입구",
+          "dist": 229,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "229048",
@@ -5071,7 +5953,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/25/2787525_image2_1.jpg",
         "addr": "부산광역시 동래구 명륜로94번길 37 (명륜동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "온천장",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 1006,
+        "walkMin": 15
+      },
+      "stops": [
+        {
+          "name": "동래문화회관",
+          "dist": 110,
+          "walkMin": 2
+        },
+        {
+          "name": "명륜2차아이파크2단지",
+          "dist": 188,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4116560",
@@ -5171,7 +6075,29 @@
         "image": "",
         "addr": "서울특별시 영등포구 여의나루로 71 (여의도동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "국회의사당",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 630,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "여의도순복음교회",
+          "dist": 32,
+          "walkMin": 1
+        },
+        {
+          "name": "켄싱턴호텔.여의도",
+          "dist": 191,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2828537",
@@ -5272,7 +6198,29 @@
         "image": "",
         "addr": "대구광역시 북구 원대로19길 16"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "북구청\r\n(대구iM뱅크파크)",
+        "lines": [
+          "대구 도시철도 3호선"
+        ],
+        "dist": 612,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "대구IM뱅크PARK남편앞",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "시민운동장(야구장앞)",
+          "dist": 17,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2484237",
@@ -5372,7 +6320,29 @@
         "image": "",
         "addr": "부산광역시 금정구 식물원로 27"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "부산대",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 44,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "부산대역",
+          "dist": 94,
+          "walkMin": 1
+        },
+        {
+          "name": "부산대역(부곡2동)",
+          "dist": 140,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "637693",
@@ -5473,7 +6443,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/15/3458515_image2_1.jpg",
         "addr": "경상남도 창원시 마산합포구 완월서2길 8 (완월동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "제일여고입구",
+          "dist": 198,
+          "walkMin": 3
+        },
+        {
+          "name": "연세병원",
+          "dist": 220,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "1841539",
@@ -5567,7 +6551,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/72/2862772_image2_1.jpg",
         "addr": "경기도 평택시 팽성읍 신궁2길 103"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "K-6구정문",
+          "dist": 121,
+          "walkMin": 2
+        },
+        {
+          "name": "K6정문.캠프험프리",
+          "dist": 175,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "574014",
@@ -5665,7 +6663,21 @@
         "image": "",
         "addr": "전남광주통합특별시 목포시 영산로73번길 1-1"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "삼학도입구",
+          "dist": 112,
+          "walkMin": 2
+        },
+        {
+          "name": "동명동사거리(물양장)",
+          "dist": 205,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2598331",
@@ -5757,7 +6769,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/20/2789520_image2_1.jpg",
         "addr": "서울특별시 중구 을지로1길 34 (다동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 141,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "서울광장",
+          "dist": 15,
+          "walkMin": 1
+        },
+        {
+          "name": "시청역더플라자호텔",
+          "dist": 92,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4116358",
@@ -5851,7 +6885,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/67/2914667_image2_1.jpg",
         "addr": "경상남도 밀양시 퇴로3길 2"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "밀양초등학교",
+          "dist": 299,
+          "walkMin": 4
+        },
+        {
+          "name": "여성회관",
+          "dist": 338,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "952988",
@@ -5954,7 +7002,21 @@
       }
     ],
     "aliases": "공주 백제문화제 공산성 금강 미르섬 부여 구드래 백제문화단지",
-    "corrected": "2026-10-06 공주·부여 공동 개최 축제인데 데이터 주소가 부여뿐이라 '공주 백제문화제' 검색이 안 됨 → 검색 별칭 추가 (표시 정보는 그대로)"
+    "corrected": "2026-10-06 공주·부여 공동 개최 축제인데 데이터 주소가 부여뿐이라 '공주 백제문화제' 검색이 안 됨 → 검색 별칭 추가 (표시 정보는 그대로)",
+    "transit": {
+      "stops": [
+        {
+          "name": "정림사지",
+          "dist": 194,
+          "walkMin": 3
+        },
+        {
+          "name": "우체국.성요셉병원",
+          "dist": 204,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2860545",
@@ -6153,7 +7215,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/60/2875660_image2_1.jpg",
         "addr": "경상북도 봉화군 봉성면 미륵골길 3"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "아파트앞",
+          "dist": 159,
+          "walkMin": 2
+        },
+        {
+          "name": "읍사무소앞",
+          "dist": 164,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3532971",
@@ -6251,7 +7327,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/08/2836408_image2_1.jpg",
         "addr": "부산광역시 영도구 절영로 234"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "자갈치",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 2888,
+        "walkMin": 43
+      },
+      "stops": [
+        {
+          "name": "송도혜성아파트·풍림아이원아파트",
+          "dist": 138,
+          "walkMin": 2
+        },
+        {
+          "name": "혜성아파트",
+          "dist": 180,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "235076",
@@ -6352,7 +7450,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image2_1.jpg",
         "addr": "부산광역시 수영구 광안해변로307번길 20"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광안",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 668,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "어방축제",
+          "dist": 53,
+          "walkMin": 1
+        },
+        {
+          "name": "광안리해수욕장",
+          "dist": 66,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4095478",
@@ -6444,7 +7564,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/71/2868571_image2_1.jpg",
         "addr": "부산광역시 수영구 구락로 36 (수영동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "벡스코",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 219,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "시립미술관_벡스코",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "벡스코역.올림픽교차로환승센터",
+          "dist": 187,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3492576",
@@ -6536,7 +7678,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/71/2868571_image2_1.jpg",
         "addr": "부산광역시 수영구 구락로 36 (수영동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "벡스코",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 271,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "시립미술관_벡스코",
+          "dist": 162,
+          "walkMin": 2
+        },
+        {
+          "name": "시립미술관(벡스코)",
+          "dist": 178,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3016659",
@@ -6636,7 +7800,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/14/2773614_image2_1.jpg",
         "addr": "부산광역시 부산진구 중앙대로756번길 24 (부전동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "부전역",
+        "lines": [
+          "동해선"
+        ],
+        "dist": 276,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "부산시민공원남문",
+          "dist": 58,
+          "walkMin": 1
+        },
+        {
+          "name": "부산진중학교",
+          "dist": 148,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "234232",
@@ -6831,7 +8017,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/83/2750483_image2_1.png",
         "addr": "경기도 광주시 곤지암읍 광여로 849-11"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "상품농협앞",
+          "dist": 188,
+          "walkMin": 3
+        },
+        {
+          "name": "상품2리",
+          "dist": 349,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "506600",
@@ -6930,7 +8130,16 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/21/2900621_image2_1.jpg",
         "addr": "경상남도 산청군 웅석봉로 169"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "동의보감촌",
+          "dist": 212,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2434545",
@@ -7024,7 +8233,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/67/2833267_image2_1.png",
         "addr": "제주특별자치도 서귀포시 태평로 406-1 (서귀동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "천지연폭포입구[서]",
+          "dist": 349,
+          "walkMin": 5
+        },
+        {
+          "name": "천지연폭포입구[동]",
+          "dist": 363,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "141236",
@@ -7122,7 +8345,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/95/2767195_image2_1.jpg",
         "addr": "충청북도 진천군 이월면 화산동길 18"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "삼성디지털프라자",
+          "dist": 171,
+          "walkMin": 3
+        },
+        {
+          "name": "진천중앙시장",
+          "dist": 174,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "506616",
@@ -7222,7 +8459,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/63/2800363_image2_1.jpg",
         "addr": "제주특별자치도 서귀포시 중정로 25 (서귀동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "천지연폭포(종점)",
+          "dist": 68,
+          "walkMin": 1
+        },
+        {
+          "name": "천지연폭포",
+          "dist": 69,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "140752",
@@ -7323,7 +8574,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/64/1894264_image2_1.jpg",
         "addr": "충청남도 예산군 덕산면 수덕사안길 38"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "서산고등학교",
+          "dist": 288,
+          "walkMin": 4
+        },
+        {
+          "name": "오학리",
+          "dist": 330,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3521741",
@@ -7420,7 +8685,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/82/2914782_image2_1.jpg",
         "addr": "서울특별시 마포구 월드컵북로54길 17 (상암동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "증미",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 1707,
+        "walkMin": 25
+      },
+      "stops": [
+        {
+          "name": "난지한강공원",
+          "dist": 284,
+          "walkMin": 4
+        },
+        {
+          "name": "난지한강공원(미정차)",
+          "dist": 579,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "292961",
@@ -7521,7 +8808,30 @@
         "image": "",
         "addr": "서울특별시 중구 서소문로11길 14"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선",
+          "2호선"
+        ],
+        "dist": 58,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "시청교차로(미정차)",
+          "dist": 59,
+          "walkMin": 1
+        },
+        {
+          "name": "시청역",
+          "dist": 115,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "229057",
@@ -7622,7 +8932,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/41/2847741_image2_1.jpg",
         "addr": "서울특별시 마포구 동교로27길 60 (연남동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "홍대입구역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 137,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "홍대입구역",
+          "dist": 192,
+          "walkMin": 3
+        },
+        {
+          "name": "홍대입구역(중)",
+          "dist": 196,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4115702",
@@ -7723,7 +9055,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/03/3574303_image2_1.jpg",
         "addr": "서울특별시 서초구 바우뫼로35길 4"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "양재시민의숲(매헌)",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 577,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "문화예술공원",
+          "dist": 30,
+          "walkMin": 1
+        },
+        {
+          "name": "예술공원",
+          "dist": 47,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3501104",
@@ -7824,7 +9178,21 @@
         "image": "",
         "addr": "울산광역시 중구 젊음의거리 105"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "울산시립미술관",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "문화의거리",
+          "dist": 134,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3348362",
@@ -7924,7 +9292,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/35/3578235_image2_1.jpg",
         "addr": "서울특별시 성북구 장월로1길 90"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "돌곶이",
+        "lines": [
+          "6호선"
+        ],
+        "dist": 976,
+        "walkMin": 15
+      },
+      "stops": [
+        {
+          "name": "꿈의숲아이파크아파트",
+          "dist": 25,
+          "walkMin": 1
+        },
+        {
+          "name": "간대어린이공원",
+          "dist": 47,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2756476",
@@ -8025,7 +9415,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/31/2865631_image2_1.jpeg",
         "addr": "경기도 화성시 세자로 426 (안녕동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "융건릉입구",
+          "dist": 126,
+          "walkMin": 2
+        },
+        {
+          "name": "융건릉사거리",
+          "dist": 129,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4109448",
@@ -8123,7 +9527,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/67/2831167_image2_1.jpg",
         "addr": "경기도 양평군 양서면 양수로138번길 51"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "양수역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 714,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "세미원앞",
+          "dist": 131,
+          "walkMin": 2
+        },
+        {
+          "name": "양서도서관",
+          "dist": 162,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "1849007",
@@ -8224,7 +9650,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/94/2869694_image2_1.jpg",
         "addr": "세종특별자치시  한누리대로 288 갤러리밸류시티"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "국립세종도서관",
+          "dist": 214,
+          "walkMin": 3
+        },
+        {
+          "name": "국립세종도서관 정문",
+          "dist": 214,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "914138",
@@ -8325,7 +9765,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/44/2867644_image2_1.jpg",
         "addr": "경기도 수원시 팔달구 창룡대로8번길 6 (팔달로1가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "매교역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 1825,
+        "walkMin": 27
+      },
+      "stops": [
+        {
+          "name": "화성행궁.여민각",
+          "dist": 260,
+          "walkMin": 4
+        },
+        {
+          "name": "팔달구청.화성행궁.수원성지",
+          "dist": 269,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "638241",
@@ -8425,7 +9887,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2837257_image2_1.jpg",
         "addr": "전북특별자치도 순창군 남계로 52 순창시장"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "민속마을",
+          "dist": 168,
+          "walkMin": 3
+        },
+        {
+          "name": "백산마을",
+          "dist": 504,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "4110051",
@@ -8517,7 +9993,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/58/2750658_image2_1.png",
         "addr": "경기도 광주시 남한산성면 남한산성로 745-10"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "마천",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 2989,
+        "walkMin": 45
+      },
+      "stops": [
+        {
+          "name": "남한산성도립공원",
+          "dist": 369,
+          "walkMin": 6
+        },
+        {
+          "name": "남한산성(종점)",
+          "dist": 426,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "2666388",
@@ -8609,7 +10107,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/08/2845008_image2_1.jpg",
         "addr": "서울특별시 송파구 오금로 113 (방이동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "잠실(송파구청)",
+        "lines": [
+          "8호선"
+        ],
+        "dist": 104,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "잠실역1번.11번출구",
+          "dist": 101,
+          "walkMin": 2
+        },
+        {
+          "name": "잠실역9번출구",
+          "dist": 131,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "293030",
@@ -8705,7 +10225,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/92/2862992_image2_1.jpg",
         "addr": "경기도 안성시 금광면 삼흥로 148"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "안성맞춤랜드",
+          "dist": 290,
+          "walkMin": 4
+        },
+        {
+          "name": "공예문화센터",
+          "dist": 354,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2846034",
@@ -8801,7 +10335,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/46/2863346_image2_1.jpg",
         "addr": "경기도 안양시 동안구 시민대로 214 (호계동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "평촌역",
+        "lines": [
+          "안산과천선"
+        ],
+        "dist": 520,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "중앙공원",
+          "dist": 78,
+          "walkMin": 1
+        },
+        {
+          "name": "한림대병원후문",
+          "dist": 113,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "506708",
@@ -8901,7 +10457,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/08/2892408_image2_1.jpg",
         "addr": "강원특별자치도 양양군 동명로 282-4 송월메밀국수"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "남문1리",
+          "dist": 177,
+          "walkMin": 3
+        },
+        {
+          "name": "남문2리",
+          "dist": 300,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3011948",
@@ -8998,7 +10568,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/80/2871580_image2_1.jpg",
         "addr": "서울특별시 강남구 논현로26길 4 (도곡동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "양재시민의숲(매헌)",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 698,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "말죽거리공원사거리",
+          "dist": 243,
+          "walkMin": 4
+        },
+        {
+          "name": "교육개발원입구",
+          "dist": 258,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3400809",
@@ -9092,7 +10684,21 @@
         "image": "",
         "addr": "경상남도 통영시 데메4길 29 (도남동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "남포초등학교",
+          "dist": 42,
+          "walkMin": 1
+        },
+        {
+          "name": "통영전통공예관",
+          "dist": 117,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2874909",
@@ -9190,7 +10796,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/25/2866825_image2_1.jpg",
         "addr": "전남광주통합특별시 여수시 하멜로 78  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "여수엑스포역-L",
+          "dist": 212,
+          "walkMin": 3
+        },
+        {
+          "name": "만덕사거리",
+          "dist": 234,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "1147035",
@@ -9288,7 +10908,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/64/3565864_image2_1.jpg",
         "addr": "경기도 여주시 강변로 134 (상동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "신륵사",
+          "dist": 204,
+          "walkMin": 3
+        },
+        {
+          "name": "여성회관",
+          "dist": 392,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "639993",
@@ -9386,7 +11020,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/18/2834518_image2_1.jpg",
         "addr": "충청남도 논산시 탑정로 872"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "청동리",
+          "dist": 197,
+          "walkMin": 3
+        },
+        {
+          "name": "청동4리.농협공판장앞",
+          "dist": 421,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "2870929",
@@ -9487,7 +11135,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2783189_image2_1.jpg",
         "addr": "경기도 연천군 연천읍 평화로1219번길 42"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "전곡역",
+        "lines": [
+          "경원선"
+        ],
+        "dist": 1308,
+        "walkMin": 20
+      },
+      "stops": [
+        {
+          "name": "전곡리선사유적지입구",
+          "dist": 48,
+          "walkMin": 1
+        },
+        {
+          "name": "전곡리선사유적지",
+          "dist": 60,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2591661",
@@ -9588,7 +11258,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2783189_image2_1.jpg",
         "addr": "경기도 연천군 연천읍 평화로1219번길 42"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "전곡역",
+        "lines": [
+          "경원선"
+        ],
+        "dist": 1400,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "전곡리선사유적지입구",
+          "dist": 160,
+          "walkMin": 2
+        },
+        {
+          "name": "전곡리선사유적지",
+          "dist": 172,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "293084",
@@ -9685,7 +11377,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/46/2795546_image2_1.jpg",
         "addr": "충청북도 영동군 영동읍 영동황간로 662"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "복합문화예술회관",
+          "dist": 70,
+          "walkMin": 1
+        },
+        {
+          "name": "일라이트CC",
+          "dist": 313,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "506766",
@@ -9782,7 +11488,21 @@
         "image": "",
         "addr": "경상북도 영주시 풍기읍 소백로 1933"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "풍기호텔",
+          "dist": 263,
+          "walkMin": 4
+        },
+        {
+          "name": "남원대교 앞",
+          "dist": 267,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "639648",
@@ -9876,7 +11596,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/35/2900135_image2_1.jpg",
         "addr": "충청남도 예산군 관양산길 12-1"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "후사리",
+          "dist": 232,
+          "walkMin": 3
+        },
+        {
+          "name": "후사리입구",
+          "dist": 301,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "2558866",
@@ -9974,7 +11708,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/85/2838985_image2_1.jpg",
         "addr": "충청남도 예산군 입침중촌길 21"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "예산시장",
+          "dist": 75,
+          "walkMin": 1
+        },
+        {
+          "name": "예산시장입구",
+          "dist": 88,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3522322",
@@ -10066,7 +11814,30 @@
         "image": "",
         "addr": "인천광역시 제물포구 차이나타운로 36 만다복 "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "인천역",
+        "lines": [
+          "수인선",
+          "경인선"
+        ],
+        "dist": 487,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "중구청입구",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "중구청",
+          "dist": 86,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2433596",
@@ -10164,7 +11935,17 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/24/2834124_image2_1.jpg",
         "addr": "인천광역시 영종구 마시란로 163 (덕교동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "인천공항2터미널",
+        "lines": [
+          "인천국제공항선"
+        ],
+        "dist": 1252,
+        "walkMin": 19
+      }
+    }
   },
   {
     "contentid": "2855326",
@@ -10258,7 +12039,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/59/2793259_image2_1.jpg",
         "addr": "충청북도 충주시 상방9길 9"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "탄금공원",
+          "dist": 211,
+          "walkMin": 3
+        },
+        {
+          "name": "칠지마을",
+          "dist": 242,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "2952759",
@@ -10350,7 +12145,29 @@
         "image": "",
         "addr": "서울특별시 강북구 한천로 1153 (수유동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "쌍문",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 688,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "한일병원입구",
+          "dist": 125,
+          "walkMin": 2
+        },
+        {
+          "name": "우이1교",
+          "dist": 197,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "553263",
@@ -10448,7 +12265,21 @@
         "image": "",
         "addr": "울산광역시 동구 번덕로 10"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "장생포고래박물관",
+          "dist": 20,
+          "walkMin": 1
+        },
+        {
+          "name": "시티버스-고래박물관",
+          "dist": 34,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2986930",
@@ -10548,7 +12379,21 @@
         "image": "",
         "addr": "울산광역시 중구 중앙시장길 2-9"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "태화",
+          "dist": 136,
+          "walkMin": 2
+        },
+        {
+          "name": "십리대밭교",
+          "dist": 139,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2877244",
@@ -10646,7 +12491,21 @@
         "image": "",
         "addr": "충청남도 공주시 웅진로 145-8"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "신관초사거리(공주대방면)",
+          "dist": 40,
+          "walkMin": 1
+        },
+        {
+          "name": "신관초사거리(법원방면)",
+          "dist": 79,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2561795",
@@ -10747,7 +12606,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/16/2913116_image2_1.jpg",
         "addr": "대전광역시 유성구 대학로76번길 55 (궁동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "월평",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 657,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "유성구청",
+          "dist": 117,
+          "walkMin": 2
+        },
+        {
+          "name": "한빛아파트",
+          "dist": 230,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3544873",
@@ -10845,7 +12726,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/16/2913116_image2_1.jpg",
         "addr": "대전광역시 유성구 대학로76번길 55 (궁동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "월평",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 657,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "유성구청",
+          "dist": 117,
+          "walkMin": 2
+        },
+        {
+          "name": "한빛아파트",
+          "dist": 230,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4098134",
@@ -10937,7 +12840,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/84/2912784_image2_1.jpg",
         "addr": "대전광역시 유성구 온천동로65번길 26 (봉명동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "유성온천",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 577,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "갑천근린공원",
+          "dist": 270,
+          "walkMin": 4
+        },
+        {
+          "name": "만년교",
+          "dist": 304,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3497454",
@@ -11029,7 +12954,29 @@
         "image": "",
         "addr": "서울특별시 종로구 우정국로 56"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광화문(세종문화회관)",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 367,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "경복궁",
+          "dist": 112,
+          "walkMin": 2
+        },
+        {
+          "name": "세종문화회관",
+          "dist": 163,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "1087020",
@@ -11130,7 +13077,21 @@
         "image": "",
         "addr": "충청남도 예산군 오가면 오가중앙로 141"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "대흥중.고등학교",
+          "dist": 227,
+          "walkMin": 3
+        },
+        {
+          "name": "대흥정류소",
+          "dist": 230,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "637276",
@@ -11404,7 +13365,29 @@
         "image": "",
         "addr": "인천광역시 연수구 청량로 61"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "동춘",
+        "lines": [
+          "인천지하철 1호선"
+        ],
+        "dist": 287,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "남동대교(스퀘어원)",
+          "dist": 138,
+          "walkMin": 2
+        },
+        {
+          "name": "남동대교",
+          "dist": 167,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2031318",
@@ -11500,7 +13483,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/70/2839270_image2_1.jpg",
         "addr": "전북특별자치도 임실군 사선2길 46-25"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "담당마을",
+          "dist": 275,
+          "walkMin": 4
+        },
+        {
+          "name": "비슬마을",
+          "dist": 368,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "790211",
@@ -11598,7 +13595,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/20/2849520_image2_1.jpg",
         "addr": "서울특별시 강서구 양천로28길 40"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "마곡나루",
+        "lines": [
+          "인천국제공항선"
+        ],
+        "dist": 66,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "마곡나루역5번출구.서울식물원",
+          "dist": 83,
+          "walkMin": 1
+        },
+        {
+          "name": "마곡나루역5번출구",
+          "dist": 91,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2547013",
@@ -11692,7 +13711,21 @@
         "image": "",
         "addr": "전북특별자치도 전주시 완산구 전라감영5길 19-3"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "전동성당.한옥마을",
+          "dist": 158,
+          "walkMin": 2
+        },
+        {
+          "name": "남부시장",
+          "dist": 189,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "506838",
@@ -11793,7 +13826,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/81/2840181_image2_1.jpg",
         "addr": "전북특별자치도 전주시 완산구 기린대로 104 (남노송동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "CTS전북방송",
+          "dist": 159,
+          "walkMin": 2
+        },
+        {
+          "name": "전북은행경원지점.영화의거리",
+          "dist": 170,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3018117",
@@ -11891,7 +13938,29 @@
         "image": "",
         "addr": "부산광역시 부산진구 서면문화로 4"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "전포",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 306,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "부전도서관",
+          "dist": 104,
+          "walkMin": 2
+        },
+        {
+          "name": "전포사거리",
+          "dist": 191,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "142233",
@@ -11989,7 +14058,30 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/80/2853980_image2_1.jpg",
         "addr": "서울특별시 중구 세종대로 136 (태평로1가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선",
+          "2호선"
+        ],
+        "dist": 261,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "시청앞.덕수궁",
+          "dist": 161,
+          "walkMin": 2
+        },
+        {
+          "name": "시청.덕수궁",
+          "dist": 164,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "627825",
@@ -12087,7 +14179,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/92/2842192_image2_1.jpg",
         "addr": "전북특별자치도 정읍시 우암로 57 양자강 중화식당"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "예술회관",
+          "dist": 154,
+          "walkMin": 2
+        },
+        {
+          "name": "정인대학",
+          "dist": 309,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "4106717",
@@ -12246,7 +14352,21 @@
         "addr": "전남광주통합특별시 북구 대천로 143  "
       }
     ],
-    "photoCredit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
+    "photoCredit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호",
+    "transit": {
+      "stops": [
+        {
+          "name": "비엔날레전시관",
+          "dist": 153,
+          "walkMin": 2
+        },
+        {
+          "name": "비엔날레전시관입구",
+          "dist": 225,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "1075049",
@@ -12347,7 +14467,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/86/2863086_image2_1.jpg",
         "addr": "전남광주통합특별시 서구 상무자유로 32  "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "김대중컨벤션센터(마륵)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 398,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "5.18자유공원",
+          "dist": 125,
+          "walkMin": 2
+        },
+        {
+          "name": "김대중컨벤션센터",
+          "dist": 142,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3528062",
@@ -12439,7 +14581,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/01/3474901_image2_1.jpg",
         "addr": "서울특별시 중구 무교로 16 (무교동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 191,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "시청앞.덕수궁",
+          "dist": 72,
+          "walkMin": 1
+        },
+        {
+          "name": "시청.덕수궁",
+          "dist": 73,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "606549",
@@ -12537,7 +14701,21 @@
         "image": "",
         "addr": "강원특별자치도 영월군 영월읍 영월로 2085"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "석정여자중고등학교",
+          "dist": 90,
+          "walkMin": 1
+        },
+        {
+          "name": "영월군청",
+          "dist": 168,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4111479",
@@ -12716,7 +14894,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/08/2831808_image2_1.png",
         "addr": "경상북도 성주군 지산로 64"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "왜관역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 35,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "왜관역",
+          "dist": 82,
+          "walkMin": 1
+        },
+        {
+          "name": "왜관남부정류장종",
+          "dist": 280,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "2757751",
@@ -12812,7 +15012,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/87/2870787_image2_1.jpg",
         "addr": "전북특별자치도 전주시 완산구 기린대로 121"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "오목대.한옥마을",
+          "dist": 203,
+          "walkMin": 3
+        },
+        {
+          "name": "한벽루자만벽화마을",
+          "dist": 312,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2989642",
@@ -12912,7 +15126,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/78/2629078_image2_1.jpg",
         "addr": "강원특별자치도 춘천시 약사고개길 42 (약사동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "춘천역",
+        "lines": [
+          "경춘선"
+        ],
+        "dist": 1941,
+        "walkMin": 29
+      },
+      "stops": [
+        {
+          "name": "상상마당입구",
+          "dist": 116,
+          "walkMin": 2
+        },
+        {
+          "name": "통일플러스센터",
+          "dist": 282,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "2622679",
@@ -12998,7 +15234,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/56/2831956_image2_1.png",
         "addr": "경상북도 예천군 봉덕로 49 춘하추동"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "도립도서관",
+          "dist": 362,
+          "walkMin": 5
+        },
+        {
+          "name": "중앙상가분수대",
+          "dist": 435,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "2560824",
@@ -13096,7 +15346,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/45/656845_image2_1.jpg",
         "addr": "제주특별자치도 제주시 선덕로5길 20"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "사평마을[남]",
+          "dist": 227,
+          "walkMin": 3
+        },
+        {
+          "name": "연미마을 입구",
+          "dist": 247,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "1365782",
@@ -13197,7 +15461,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/67/2767167_image2_1.jpg",
         "addr": "충청북도 증평군 증평읍 인삼로 408"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "증평군립도서관",
+          "dist": 544,
+          "walkMin": 8
+        },
+        {
+          "name": "증평군수도사업소",
+          "dist": 620,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "506926",
@@ -13298,7 +15576,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/51/2843651_image2_1.JPG",
         "addr": "경상남도 진주시 망경로297번길 8"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "인사광장/진주성",
+          "dist": 128,
+          "walkMin": 2
+        },
+        {
+          "name": "진주초등학교",
+          "dist": 245,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3542294",
@@ -13390,7 +15682,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/78/2629978_image2_1.JPG",
         "addr": "경상남도 진주시 진양호로 553"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "삼성화재",
+          "dist": 111,
+          "walkMin": 2
+        },
+        {
+          "name": "ABL생명",
+          "dist": 128,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4111666",
@@ -13488,7 +15794,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/85/2856985_image2_1.jpg",
         "addr": "충청남도 천안시 동남구 충절로 165"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "천안삼거리공원",
+          "dist": 48,
+          "walkMin": 1
+        },
+        {
+          "name": "원삼거리",
+          "dist": 368,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "4056606",
@@ -13580,7 +15900,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/58/3453258_image2_1.jpg",
         "addr": "경기도 광명시 덕안로77번길 5 (일직동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광명역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 2082,
+        "walkMin": 31
+      },
+      "stops": [
+        {
+          "name": "소하2동행정복지센터.광명동굴길입구",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "미도3차아파트",
+          "dist": 130,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "921212",
@@ -13681,7 +16023,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/73/2900173_image2_1.jpg",
         "addr": "경상북도 청송군 약수길 56"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "청송시장",
+          "dist": 165,
+          "walkMin": 2
+        },
+        {
+          "name": "보건의료원",
+          "dist": 373,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "613316",
@@ -13780,7 +16136,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/29/2741329_image2_1.jpg",
         "addr": "충청북도 청주시 청원구 오창읍 중심상업로 66-9"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "미래지농촌테마공원(한옥마을)",
+          "dist": 278,
+          "walkMin": 4
+        },
+        {
+          "name": "질푼이",
+          "dist": 333,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "4062805",
@@ -13872,7 +16242,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/68/2857068_image2_1.jpg",
         "addr": "충청북도 괴산군 동진천길 165"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "괴강관광지-검승리",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "괴강삼거리",
+          "dist": 254,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3522254",
@@ -13964,7 +16348,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/46/2795546_image2_1.jpg",
         "addr": "충청북도 영동군 영동읍 영동황간로 662"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "영동역 앞",
+          "dist": 337,
+          "walkMin": 5
+        },
+        {
+          "name": "운동장",
+          "dist": 388,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "4046174",
@@ -14060,7 +16458,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/15/2892315_image2_1.jpg",
         "addr": "강원특별자치도 원주시 이화4길 30"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "치악예술관",
+          "dist": 149,
+          "walkMin": 2
+        },
+        {
+          "name": "종합운동장",
+          "dist": 204,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "1844150",
@@ -14161,7 +16573,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/44/2840344_image2_1.jpg",
         "addr": "경상북도 칠곡군 유학로 785-1"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "왜관역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 2964,
+        "walkMin": 44
+      },
+      "stops": [
+        {
+          "name": "호국평화기념관 건너",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "호국평화기념관건너",
+          "dist": 131,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4058556",
@@ -14253,7 +16687,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/17/2906217_image2_1.jpg",
         "addr": "경기도 수원시 영통구 법조로 25 (하동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광교중앙(아주대)",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 166,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "경기도청.광교중심상가",
+          "dist": 136,
+          "walkMin": 2
+        },
+        {
+          "name": "광교중앙.경기도청.아주대역환승센터",
+          "dist": 239,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "4115260",
@@ -14345,7 +16801,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "혜화",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 236,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "혜화역1번출구",
+          "dist": 174,
+          "walkMin": 3
+        },
+        {
+          "name": "혜화역4번출구",
+          "dist": 191,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4115269",
@@ -14437,7 +16915,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "혜화",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 236,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "혜화역1번출구",
+          "dist": 174,
+          "walkMin": 3
+        },
+        {
+          "name": "혜화역4번출구",
+          "dist": 191,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4115275",
@@ -14529,7 +17029,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "혜화",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 236,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "혜화역1번출구",
+          "dist": 174,
+          "walkMin": 3
+        },
+        {
+          "name": "혜화역4번출구",
+          "dist": 191,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4082595",
@@ -14626,7 +17148,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/97/2716897_image2_1.jpg",
         "addr": "서울특별시 종로구 사직로10길 3"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "경복궁(정부서울청사)",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 746,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "청와대",
+          "dist": 64,
+          "walkMin": 1
+        },
+        {
+          "name": "효자동",
+          "dist": 223,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3481597",
@@ -14725,7 +17269,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2544557_image2_1.bmp",
         "addr": "서울특별시 종로구 새문안로5가길 7"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "서대문",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 394,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "서울역사박물관.경희궁앞(중)",
+          "dist": 104,
+          "walkMin": 2
+        },
+        {
+          "name": "서울역사박물관.경희궁앞",
+          "dist": 113,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2867300",
@@ -14824,7 +17390,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/82/2616082_image2_1.jpg",
         "addr": "경기도 평택시 조개터로1번길 71 (합정동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "평택역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 803,
+        "walkMin": 12
+      },
+      "stops": [
+        {
+          "name": "군문주공아파트",
+          "dist": 301,
+          "walkMin": 4
+        },
+        {
+          "name": "군문주공아파트앞",
+          "dist": 304,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "1620571",
@@ -14925,7 +17513,21 @@
         "image": "",
         "addr": "경기도 용인시 처인구 모현읍 능원로132번길 9"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "능원3리노인회관",
+          "dist": 166,
+          "walkMin": 2
+        },
+        {
+          "name": "동림2리",
+          "dist": 417,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "588175",
@@ -15021,7 +17623,21 @@
         "image": "",
         "addr": "경상북도 포항시 북구 해안로 217-1"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "포항여객선터미널",
+          "dist": 103,
+          "walkMin": 2
+        },
+        {
+          "name": "영일대 해수욕장",
+          "dist": 158,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2992829",
@@ -15113,7 +17729,21 @@
         "image": "",
         "addr": "부산광역시 영도구 절영로 355"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "아르떼뮤지엄·미창석유",
+          "dist": 99,
+          "walkMin": 1
+        },
+        {
+          "name": "아르떼뮤지엄부산",
+          "dist": 99,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4060158",
@@ -15212,7 +17842,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/99/2784699_image2_1.png",
         "addr": "서울특별시 서초구 동작대로 350"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "신반포",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 550,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "반포대교남단(미정차)",
+          "dist": 519,
+          "walkMin": 8
+        },
+        {
+          "name": "신반포역.세화여중고",
+          "dist": 532,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "3355698",
@@ -15304,7 +17956,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/44/2852444_image2_1.jpg",
         "addr": "경기도 가평군 가평읍 중촌로 15-47"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "가평역",
+        "lines": [
+          "경춘선"
+        ],
+        "dist": 1069,
+        "walkMin": 16
+      },
+      "stops": [
+        {
+          "name": "가평터미널(미정차)",
+          "dist": 178,
+          "walkMin": 3
+        },
+        {
+          "name": "가평공영버스(시외)",
+          "dist": 179,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3111722",
@@ -15400,7 +18074,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/2854369_image2_1.jpg",
         "addr": "서울특별시 영등포구 여의대방로67길 21 정곡빌딩"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "여의나루",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 104,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "여의나루역",
+          "dist": 145,
+          "walkMin": 2
+        },
+        {
+          "name": "여의나루역2번출구",
+          "dist": 151,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2828431",
@@ -15501,7 +18197,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/2869312_image2_1.jpg",
         "addr": "서울특별시 강남구 압구정로30길 16 (신사동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "압구정",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 748,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "한강버스압구정선착장A",
+          "dist": 144,
+          "walkMin": 2
+        },
+        {
+          "name": "광림교회.현대고등학교",
+          "dist": 482,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "2855626",
@@ -15602,7 +18320,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/27/2832727_image2_1.jpg",
         "addr": "부산광역시 금정구 오시게로 20 (부곡동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "온천장",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 377,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "온천장",
+          "dist": 92,
+          "walkMin": 1
+        },
+        {
+          "name": "(구)온천극장",
+          "dist": 110,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3020205",
@@ -15676,7 +18416,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/62/2859362_image2_1.jpg",
         "addr": "충청북도 옥천군 지전길 14 음식점"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "거포리",
+          "dist": 135,
+          "walkMin": 2
+        },
+        {
+          "name": "무회리.점동",
+          "dist": 524,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "2874329",
@@ -15775,7 +18529,21 @@
         "image": "",
         "addr": "충청남도 홍성군 홍성읍 역재3길 40"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "홍주초삼거리",
+          "dist": 99,
+          "walkMin": 1
+        },
+        {
+          "name": "홍성사회복지관",
+          "dist": 155,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "140911",
@@ -15876,7 +18644,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/43/2834743_image2_1.jpg",
         "addr": "충청남도 서산시 간월도1길 117"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "남당리",
+          "dist": 51,
+          "walkMin": 1
+        },
+        {
+          "name": "남당리주차장",
+          "dist": 466,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "790124",
@@ -15950,7 +18732,21 @@
         "image": "",
         "addr": "강원특별자치도 홍천군 홍천읍 양지말길 12"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "홍천복지관",
+          "dist": 365,
+          "walkMin": 5
+        },
+        {
+          "name": "홍천군청입구",
+          "dist": 378,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "1391363",
@@ -16129,7 +18925,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/03/2852803_image2_1.JPG",
         "addr": "전남광주통합특별시 담양군 반석길 48-8  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "야사",
+          "dist": 179,
+          "walkMin": 3
+        },
+        {
+          "name": "용호",
+          "dist": 316,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3373572",
@@ -16297,7 +19107,21 @@
         "image": "",
         "addr": "강원특별자치도 횡성군 공근면 영서로 243"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "북천리마을회관",
+          "dist": 339,
+          "walkMin": 5
+        },
+        {
+          "name": "횡성실내체육관",
+          "dist": 493,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "1373481",
@@ -16391,7 +19215,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/02/2899202_image2_1.jpg",
         "addr": "전북특별자치도 남원시 요천로 1411 부산집"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "삽다리사가",
+          "dist": 246,
+          "walkMin": 4
+        },
+        {
+          "name": "남문로사가",
+          "dist": 256,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "4112672",
@@ -16492,7 +19330,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "혜화",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 42,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "대학로",
+          "dist": 15,
+          "walkMin": 1
+        },
+        {
+          "name": "혜화역2번출구.마로니에공원",
+          "dist": 81,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "2987791",
@@ -16588,7 +19448,29 @@
         "image": "",
         "addr": "경기도 파주시 문산읍 임진나루길 133-12"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "임진강역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 443,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "임진각",
+          "dist": 323,
+          "walkMin": 5
+        },
+        {
+          "name": "임진강역",
+          "dist": 417,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "4087092",
@@ -16684,7 +19566,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/56/2832456_image2_1.jpg",
         "addr": "경기도 파주시 문산읍 방촌로 1779-40"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "임진강역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 445,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "임진각",
+          "dist": 327,
+          "walkMin": 5
+        },
+        {
+          "name": "임진강역",
+          "dist": 418,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "4117084",
@@ -16776,7 +19680,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/31/2836531_image2_1.jpg",
         "addr": "경기도 동두천시 장고갯로 157 (생연동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "보산역",
+        "lines": [
+          "경원선"
+        ],
+        "dist": 151,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "보산역사거리",
+          "dist": 183,
+          "walkMin": 3
+        },
+        {
+          "name": "한빛누리중고등학교.은성교회",
+          "dist": 200,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4108260",
@@ -16868,7 +19794,29 @@
         "image": "",
         "addr": "서울특별시 마포구 망원로 52"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "월드컵경기장(성산)",
+        "lines": [
+          "6호선"
+        ],
+        "dist": 455,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "마포농수산물시장.월드컵경기장",
+          "dist": 73,
+          "walkMin": 1
+        },
+        {
+          "name": "마포농수산물시장.월드컵공원",
+          "dist": 84,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "1250585",
@@ -16969,7 +19917,17 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/31/2843531_image2_1.jpg",
         "addr": "경기도 이천시 마장면 서이천로634번길 51"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "이천역",
+        "lines": [
+          "경강선"
+        ],
+        "dist": 2156,
+        "walkMin": 32
+      }
+    }
   },
   {
     "contentid": "2987489",
@@ -17050,7 +20008,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/54/2861354_image2_1.JPG",
         "addr": "전남광주통합특별시 고흥군 대신로 122  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "녹동바다정원",
+          "dist": 121,
+          "walkMin": 2
+        },
+        {
+          "name": "녹동항",
+          "dist": 201,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4114185",
@@ -17147,7 +20119,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/53/2837753_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 중앙로160번길 16-10  "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 50,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "문화전당역",
+          "dist": 132,
+          "walkMin": 2
+        },
+        {
+          "name": "동구청",
+          "dist": 165,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3369503",
@@ -17246,7 +20240,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/43/2665143_image2_1.jpg",
         "addr": "전남광주통합특별시 남구 백운로 67-2"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 911,
+        "walkMin": 14
+      },
+      "stops": [
+        {
+          "name": "사직공원앞",
+          "dist": 310,
+          "walkMin": 5
+        },
+        {
+          "name": "향교",
+          "dist": 433,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "3488421",
@@ -17344,7 +20360,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/2855912_image2_1.JPG",
         "addr": "경기도 파주시 탄현면 필승로 490"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "헤이리사거리",
+          "dist": 288,
+          "walkMin": 4
+        },
+        {
+          "name": "민족화해센터",
+          "dist": 305,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3377038",
@@ -17438,7 +20468,29 @@
         "image": "",
         "addr": "서울특별시 강남구 삼성로108길 8 (삼성동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "봉은사",
+        "lines": [
+          "수도권  도시철도 9호선"
+        ],
+        "dist": 285,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "봉은사.삼성1파출소앞",
+          "dist": 172,
+          "walkMin": 3
+        },
+        {
+          "name": "봉은사.코엑스북문",
+          "dist": 208,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3478890",
@@ -17535,7 +20587,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/53/2837753_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 중앙로160번길 16-10  "
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 229,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "국립아시아문화전당(구.도청)",
+          "dist": 44,
+          "walkMin": 1
+        },
+        {
+          "name": "문화전당역",
+          "dist": 236,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "4095228",
@@ -17627,7 +20701,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/88/2871688_image2_1.jpg",
         "addr": "전남광주통합특별시 여수시 웅천4길 12-7  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "문수로타리",
+          "dist": 18,
+          "walkMin": 1
+        },
+        {
+          "name": "해양경찰서",
+          "dist": 47,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4106719",
@@ -17719,7 +20807,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/15/2735315_image2_1.jpg",
         "addr": "대전광역시 유성구 원신흥남로41번길 66 (원신흥동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "트리풀시티레이크포레",
+          "dist": 295,
+          "walkMin": 4
+        },
+        {
+          "name": "옥녀봉네거리",
+          "dist": 561,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "2392105",
@@ -17811,7 +20913,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/54/2856254_image2_1.jpg",
         "addr": "대구광역시 달서구 성서공단로15길 10 (호림동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "대실",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 1790,
+        "walkMin": 27
+      },
+      "stops": [
+        {
+          "name": "강정(종점)",
+          "dist": 202,
+          "walkMin": 3
+        },
+        {
+          "name": "강정보(디아크문화관)입구",
+          "dist": 217,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4115201",
@@ -17903,7 +21027,29 @@
         "image": "",
         "addr": "대전광역시 서구 만년로18번길 9 (만년동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "정부청사",
+        "lines": [
+          "대전 도시철도 1호선"
+        ],
+        "dist": 1161,
+        "walkMin": 17
+      },
+      "stops": [
+        {
+          "name": "한밭수목원",
+          "dist": 183,
+          "walkMin": 3
+        },
+        {
+          "name": "대전예술의전당",
+          "dist": 254,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3343831",
@@ -17997,7 +21143,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/51/2893051_image2_1.jpeg",
         "addr": "경기도 수원시 팔달구 고화로9번길 1 (매산로2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "수원역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 310,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "수원역환승센터(5승강장)",
+          "dist": 162,
+          "walkMin": 2
+        },
+        {
+          "name": "수원역환승센터(6승강장)",
+          "dist": 168,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2754710",
@@ -18093,7 +21261,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/79/2856979_image2_1.jpg",
         "addr": "충청북도 청주시 청원구 내덕로 33"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "충북학생교육문화원",
+          "dist": 146,
+          "walkMin": 2
+        },
+        {
+          "name": "충청북도교육문화원",
+          "dist": 166,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4114621",
@@ -18185,7 +21367,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/59/2843859_image2_1.jpg",
         "addr": "제주특별자치도 서귀포시 신서로32번길 14 (강정동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "국토교통부 인재개발원",
+          "dist": 114,
+          "walkMin": 2
+        },
+        {
+          "name": "국토교통인재개발원[남]",
+          "dist": 205,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3359994",
@@ -18282,7 +21478,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/88/2869388_image2_1.jpg",
         "addr": "부산광역시 동구 중앙대로209번길 12 (초량동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "초량",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 708,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "부산항국제여객터미널",
+          "dist": 101,
+          "walkMin": 2
+        },
+        {
+          "name": "부산항국제여객터미널입구",
+          "dist": 143,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2767541",
@@ -18374,7 +21592,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/45/2867045_image2_1.jpg",
         "addr": "전북특별자치도 전주시 완산구 쑥고개로 247 (효자동2가)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "전주대학교정문",
+          "dist": 100,
+          "walkMin": 1
+        },
+        {
+          "name": "영생고 전주대사대부고",
+          "dist": 143,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2865136",
@@ -18466,7 +21698,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/41/3454441_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 문화전당로 38 (광산동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 296,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "국립아시아문화전당(구.도청)",
+          "dist": 154,
+          "walkMin": 2
+        },
+        {
+          "name": "문화전당역",
+          "dist": 225,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "4113301",
@@ -18650,7 +21904,30 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/14/2843814_image2_1.jpg",
         "addr": "서울특별시 마포구 연남로 25 (연남동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "홍대입구",
+        "lines": [
+          "인천국제공항선",
+          "2호선"
+        ],
+        "dist": 577,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "하모니마트사거리",
+          "dist": 57,
+          "walkMin": 1
+        },
+        {
+          "name": "대명아파트",
+          "dist": 107,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3492276",
@@ -18744,7 +22021,29 @@
         "image": "",
         "addr": "인천광역시 제물포구 화도진로91번길 27"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "동인천역",
+        "lines": [
+          "경인선"
+        ],
+        "dist": 102,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "동인천역북광장",
+          "dist": 21,
+          "walkMin": 1
+        },
+        {
+          "name": "동인천역",
+          "dist": 141,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3488655",
@@ -18840,7 +22139,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/47/2791147_image2_1.JPG",
         "addr": "전남광주통합특별시 북구 설죽로471번길 12"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "체육고.폴리텍대학",
+          "dist": 330,
+          "walkMin": 5
+        },
+        {
+          "name": "광주예술의전당후문",
+          "dist": 471,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "3495437",
@@ -18920,7 +22233,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/89/2783189_image2_1.jpg",
         "addr": "경기도 연천군 연천읍 평화로1219번길 42"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "삼곳리",
+          "dist": 289,
+          "walkMin": 4
+        },
+        {
+          "name": "중면면사무소",
+          "dist": 714,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "3006246",
@@ -19012,7 +22339,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/53/2800253_image2_1.jpg",
         "addr": "부산광역시 수영구 좌수영로 161-10 (망미동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "센텀시티",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 592,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "SK텔레콤",
+          "dist": 66,
+          "walkMin": 1
+        },
+        {
+          "name": "영화의전당",
+          "dist": 190,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3497353",
@@ -19104,7 +22453,29 @@
         "image": "",
         "addr": "부산광역시 사하구 낙동대로324번길 2"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "다대포해수욕장",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 247,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "다대포해수욕장역",
+          "dist": 258,
+          "walkMin": 4
+        },
+        {
+          "name": "다대포해수욕장",
+          "dist": 266,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3552019",
@@ -19196,7 +22567,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/02/2747202_image2_1.jpg",
         "addr": "경기도 수원시 영통구 센트럴타운로 85"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광교중앙(아주대)",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 640,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "수원컨벤션센터.롯데몰",
+          "dist": 170,
+          "walkMin": 3
+        },
+        {
+          "name": "수원컨벤션센터.광교갤러리아백화점.중흥s클래스",
+          "dist": 257,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "2952484",
@@ -19290,7 +22683,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/65/2856765_image2_1.jpg",
         "addr": "충청남도 천안시 서북구 불당21로 67-12 퍼스트프라자"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "봉명역",
+        "lines": [
+          "장항선"
+        ],
+        "dist": 2974,
+        "walkMin": 44
+      },
+      "stops": [
+        {
+          "name": "종합운동장",
+          "dist": 121,
+          "walkMin": 2
+        },
+        {
+          "name": "시청앞사거리",
+          "dist": 357,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3512205",
@@ -19385,7 +22800,21 @@
         "image": "",
         "addr": "제주특별자치도 서귀포시 솔동산로 6-1"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "제주은행[북]",
+          "dist": 133,
+          "walkMin": 2
+        },
+        {
+          "name": "NH농협 남제주지점",
+          "dist": 158,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4115205",
@@ -19477,7 +22906,29 @@
         "image": "",
         "addr": "서울특별시 마포구 마포나루길 332"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "마포구청",
+        "lines": [
+          "6호선"
+        ],
+        "dist": 481,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "마포16번종점",
+          "dist": 277,
+          "walkMin": 4
+        },
+        {
+          "name": "마포농수산물시장.월드컵공원",
+          "dist": 314,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2720203",
@@ -19569,7 +23020,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2544557_image2_1.bmp",
         "addr": "서울특별시 종로구 새문안로5가길 7"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "광화문(세종문화회관)",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 20,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "광화문역2번출구.KT광화문지사",
+          "dist": 95,
+          "walkMin": 1
+        },
+        {
+          "name": "세종문화회관",
+          "dist": 120,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2488793",
@@ -19661,7 +23134,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/34/2894734_image2_1.jpg",
         "addr": "서울특별시 성동구 왕십리로 66-33 (성수동1가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "서울숲역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 263,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "서울숲2번출입구",
+          "dist": 84,
+          "walkMin": 1
+        },
+        {
+          "name": "언더스탠드에비뉴",
+          "dist": 103,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3011280",
@@ -19753,7 +23248,30 @@
         "image": "",
         "addr": "서울특별시 중구 퇴계로76길 50 (신당동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "동대문역사문화공원(DDP)",
+        "lines": [
+          "2호선",
+          "4호선"
+        ],
+        "dist": 314,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "동대문역사문화공원동문",
+          "dist": 105,
+          "walkMin": 2
+        },
+        {
+          "name": "동대문디자인플라자DDP",
+          "dist": 150,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "2857763",
@@ -19849,7 +23367,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/60/3446560_image2_1.jpg",
         "addr": "서울특별시 용산구 한강대로23길 55 (한강로3가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "노들",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 701,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "노들섬",
+          "dist": 53,
+          "walkMin": 1
+        },
+        {
+          "name": "한강대교남단(미정차)",
+          "dist": 396,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "3021908",
@@ -19946,7 +23486,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/51/2844951_image2_1.jpg",
         "addr": "서울특별시 송파구 삼학사로 66 (석촌동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "석촌고분",
+        "lines": [
+          "수도권  도시철도 9호선"
+        ],
+        "dist": 507,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "석촌호수서호사거리",
+          "dist": 54,
+          "walkMin": 1
+        },
+        {
+          "name": "레이크팰리스아파트",
+          "dist": 182,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3546110",
@@ -20038,7 +23600,29 @@
         "image": "",
         "addr": "서울특별시 종로구 인사동12길 18 (관훈동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "안국",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 292,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "현대사거리",
+          "dist": 44,
+          "walkMin": 1
+        },
+        {
+          "name": "재동초등학교",
+          "dist": 119,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4067214",
@@ -20134,7 +23718,21 @@
         "image": "",
         "addr": "전남광주통합특별시 여수시 통제영4길 12 (중앙동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "중앙선어시장",
+          "dist": 65,
+          "walkMin": 1
+        },
+        {
+          "name": "진남관",
+          "dist": 101,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3370452",
@@ -20226,7 +23824,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/37/2766637_image2_1.jpg",
         "addr": "대구광역시 수성구 동대구로14길 15-6"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "수성못(TBC)",
+        "lines": [
+          "대구 도시철도 3호선"
+        ],
+        "dist": 324,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "대구공공시설관리공단동부사업소앞",
+          "dist": 41,
+          "walkMin": 1
+        },
+        {
+          "name": "두산동행정복지센터앞",
+          "dist": 41,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3107059",
@@ -20321,7 +23941,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/48/2661548_image2_1.jpg",
         "addr": "서울특별시 중구 남대문로 29"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "회현(남대문시장)",
+        "lines": [
+          "4호선"
+        ],
+        "dist": 297,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "숭례문교차로(미정차)",
+          "dist": 49,
+          "walkMin": 1
+        },
+        {
+          "name": "숭례문(미정차)",
+          "dist": 57,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3560787",
@@ -20413,7 +24055,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/33/3458233_image2_1.jpg",
         "addr": "경기도 양평군 강상면 양평대교길 90-1"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "양평역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 1219,
+        "walkMin": 18
+      },
+      "stops": [
+        {
+          "name": "창대2리.양평생활체육공원",
+          "dist": 100,
+          "walkMin": 1
+        },
+        {
+          "name": "레미콘",
+          "dist": 456,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "3367339",
@@ -20505,7 +24169,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/3422169_image2_1.jpg",
         "addr": "경기도 고양시 일산서구 호수로 817 (대화동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "대화역",
+        "lines": [
+          "일산선"
+        ],
+        "dist": 792,
+        "walkMin": 12
+      },
+      "stops": [
+        {
+          "name": "킨텍스삼거리",
+          "dist": 259,
+          "walkMin": 4
+        },
+        {
+          "name": "킨텍스후문",
+          "dist": 286,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "4109998",
@@ -20599,7 +24285,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/97/2794897_image2_1.jpg",
         "addr": "울산광역시 동구 해수욕장4길 8 (일산동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "동진성끝",
+          "dist": 169,
+          "walkMin": 3
+        },
+        {
+          "name": "동진수협",
+          "dist": 528,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "3016265",
@@ -20691,7 +24391,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/72/2859872_image2_1.jpg",
         "addr": "경상북도 경산시 삼성현로 164"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "임당",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 416,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "중방e편한세상(구.세왕주유소)",
+          "dist": 98,
+          "walkMin": 1
+        },
+        {
+          "name": "중방e편한세상 건너",
+          "dist": 133,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3019085",
@@ -20783,7 +24505,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/61/2847461_image2_1.jpg",
         "addr": "경기도 이천시 둔터로162번길 3"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "고척3리",
+          "dist": 330,
+          "walkMin": 5
+        },
+        {
+          "name": "저수지입구",
+          "dist": 338,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3550990",
@@ -20880,7 +24616,29 @@
         "image": "",
         "addr": "인천광역시 미추홀구 경인남길30번길 45-1"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "인하대역",
+        "lines": [
+          "수인선"
+        ],
+        "dist": 1169,
+        "walkMin": 17
+      },
+      "stops": [
+        {
+          "name": "옹진군청",
+          "dist": 79,
+          "walkMin": 1
+        },
+        {
+          "name": "한국아파트",
+          "dist": 119,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "3399432",
@@ -20972,7 +24730,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/95/2870895_image2_1.jpg",
         "addr": "제주특별자치도 제주시 수목원길 51 (연동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "제주도립미술관입구",
+          "dist": 326,
+          "walkMin": 5
+        },
+        {
+          "name": "주르레마을[동]",
+          "dist": 382,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "1074568",
@@ -21073,7 +24845,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/53/3396953_image2_1.jpg",
         "addr": "제주특별자치도 제주시 조천읍 조함해안로 428-4"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "조천체육관",
+          "dist": 71,
+          "walkMin": 1
+        },
+        {
+          "name": "조천체육관(종점)",
+          "dist": 112,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4113826",
@@ -21233,7 +25019,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/2876369_image2_1.jpg",
         "addr": "충청남도 예산군 덕산온천로 318"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "내포신도시버스정류소",
+          "dist": 223,
+          "walkMin": 3
+        },
+        {
+          "name": "내포신도시환승센터도청앞",
+          "dist": 224,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "3011445",
@@ -21332,7 +25132,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/46/2900746_image2_1.jpg",
         "addr": "서울특별시 성동구 아차산로 135 (성수동2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "성수",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 405,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "경수중학교입구",
+          "dist": 124,
+          "walkMin": 2
+        },
+        {
+          "name": "성수사거리",
+          "dist": 256,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "3340301",
@@ -21424,7 +25246,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/80/2783480_image2_1.jpg",
         "addr": "전남광주통합특별시 구례군 마산면 화엄사로 336"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "보건의료원",
+          "dist": 188,
+          "walkMin": 3
+        },
+        {
+          "name": "의료원앞",
+          "dist": 501,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "1748721",
@@ -21519,7 +25355,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/45/2834245_image2_1.png",
         "addr": "경상북도 포항시 북구 불종로 48"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "롯데백화점",
+          "dist": 61,
+          "walkMin": 1
+        },
+        {
+          "name": "포항세관",
+          "dist": 306,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "3001045",
@@ -21611,7 +25461,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/70/2855170_image2_1.jpg",
         "addr": "서울특별시 영등포구 국제금융로 86 (여의도동, 롯데캐슬 아이비)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "여의나루",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 504,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "여의도중학교",
+          "dist": 160,
+          "walkMin": 2
+        },
+        {
+          "name": "63빌딩.한강유람선",
+          "dist": 439,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "4108258",
@@ -21703,7 +25575,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/36/2871436_image2_1.jpg",
         "addr": "세종특별자치시 나성남로 7-16 (나성동)"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "세종예술고등학교",
+          "dist": 166,
+          "walkMin": 2
+        },
+        {
+          "name": "국립박물관단지",
+          "dist": 207,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2740046",
@@ -21795,7 +25681,29 @@
         "image": "",
         "addr": "서울특별시 용산구 한강대로39길 10"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "이촌역",
+        "lines": [
+          "경원선"
+        ],
+        "dist": 425,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "이촌역",
+          "dist": 405,
+          "walkMin": 6
+        },
+        {
+          "name": "국립중앙박물관용산가족공원",
+          "dist": 419,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "2657619",
@@ -21892,7 +25800,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/88/3424688_image2_1.jpg",
         "addr": "경기도 수원시 팔달구 정조로801번길 31 (남창동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "매교역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 1815,
+        "walkMin": 27
+      },
+      "stops": [
+        {
+          "name": "화성행궁.여민각",
+          "dist": 85,
+          "walkMin": 1
+        },
+        {
+          "name": "팔달문.이안과",
+          "dist": 211,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "2737313",
@@ -21990,7 +25920,21 @@
         "image": "",
         "addr": "전남광주통합특별시 구례군 구례읍 서시천로 85"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "압록사거리(하행)",
+          "dist": 345,
+          "walkMin": 5
+        },
+        {
+          "name": "압록사거리",
+          "dist": 345,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "2630385",
@@ -22082,7 +26026,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/96/3474896_image2_1.jpg",
         "addr": "서울특별시 중구 남대문로 52-5 (명동2가)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "을지로입구",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 289,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "명동.롯데영플라자",
+          "dist": 83,
+          "walkMin": 1
+        },
+        {
+          "name": "명동입구",
+          "dist": 97,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "4101384",
@@ -22180,7 +26146,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/01/3474901_image2_1.jpg",
         "addr": "서울특별시 중구 무교로 16 (무교동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 315,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "광화문코리아나호텔",
+          "dist": 109,
+          "walkMin": 2
+        },
+        {
+          "name": "조선일보",
+          "dist": 132,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4109730",
@@ -22333,7 +26321,29 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/54/2892754_image2_1.jpg",
         "addr": "경기도 안양시 만안구 삼막로24번길 115 (석수동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "관악역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 1514,
+        "walkMin": 23
+      },
+      "stops": [
+        {
+          "name": "안양예술공원종점.갈메산기도원입구",
+          "dist": 461,
+          "walkMin": 7
+        },
+        {
+          "name": "안양박물관.김중업건축박물관.아르테자이정문",
+          "dist": 695,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "3473295",
@@ -22430,7 +26440,30 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/34/2853934_image2_1.jpg",
         "addr": "서울특별시 중구 다산로 221 (신당동)"
       }
-    ]
+    ],
+    "transit": {
+      "station": {
+        "name": "동대문역사문화공원(DDP)",
+        "lines": [
+          "2호선",
+          "4호선"
+        ],
+        "dist": 65,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "광희동.동대문역사문화공원역",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "동대문역사문화공원",
+          "dist": 79,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "3536325",
@@ -22528,7 +26561,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/32/2831732_image2_1.jpg",
         "addr": "경상북도 경주시 경감로 375-16"
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "엑스포삼거리건너",
+          "dist": 85,
+          "walkMin": 1
+        },
+        {
+          "name": "경주세계문화엑스포공원.신라밀레니엄파크",
+          "dist": 110,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "4116994",
@@ -22810,7 +26857,21 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/98/2837798_image2_1.jpg",
         "addr": "전남광주통합특별시 북구 일곡택지로99번길 33  "
       }
-    ]
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "국립광주박물관",
+          "dist": 357,
+          "walkMin": 5
+        },
+        {
+          "name": "시립역사민속박물관",
+          "dist": 378,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "4109218",
@@ -22871,7 +26932,21 @@
         "addr": "대구광역시 군위군 삼국유사면 화북리"
       }
     ],
-    "nearbyFood": []
+    "nearbyFood": [],
+    "transit": {
+      "stops": [
+        {
+          "name": "인각사",
+          "dist": 41,
+          "walkMin": 1
+        },
+        {
+          "name": "화북1리",
+          "dist": 499,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s19r73d5",
@@ -22957,7 +27032,29 @@
         "addr": "서울특별시 용산구 녹사평대로40길 33"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "이태원",
+        "lines": [
+          "6호선"
+        ],
+        "dist": 411,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "외빈차고",
+          "dist": 170,
+          "walkMin": 3
+        },
+        {
+          "name": "용산구청.이태원시장",
+          "dist": 189,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1x1m4br",
@@ -23048,7 +27145,29 @@
         "addr": "서울특별시 성동구 왕십리로 136 (성수동1가)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "한양대",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 397,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "상원",
+          "dist": 149,
+          "walkMin": 2
+        },
+        {
+          "name": "행당중학교",
+          "dist": 330,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s1ltsbgx",
@@ -23139,7 +27258,29 @@
         "addr": "서울특별시 성동구 왕십리로 66-33 (성수동1가)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서울숲역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 262,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "서울숲2번출입구",
+          "dist": 84,
+          "walkMin": 1
+        },
+        {
+          "name": "언더스탠드에비뉴",
+          "dist": 103,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s12n6i04",
@@ -23278,7 +27419,21 @@
         "addr": "충청북도 청주시 청원구 도원세교로 222-6"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "초정삼거리(초정행궁)",
+          "dist": 92,
+          "walkMin": 1
+        },
+        {
+          "name": "초정약수종점",
+          "dist": 303,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s13z5kh1",
@@ -23364,7 +27519,21 @@
         "addr": "충청북도 청주시 흥덕구 강내면 태성탑연로 422"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "오송파출소",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "점촌어린이공원",
+          "dist": 146,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s7xddn6",
@@ -23450,7 +27619,21 @@
         "addr": "충청북도 청주시 청원구 1순환로 219"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "청주문화산업단지입구",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "청주시문화산업단지정문",
+          "dist": 164,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s190uba0",
@@ -23536,7 +27719,21 @@
         "addr": "충청북도 청주시 청원구 1순환로 219"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "청주문화산업단지입구",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "청주시문화산업단지정문",
+          "dist": 164,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sljj568",
@@ -23626,7 +27823,21 @@
         "addr": "충청북도 청주시 상당구 수동로5번길 32"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "탑대성동행정복지센터",
+          "dist": 572,
+          "walkMin": 9
+        },
+        {
+          "name": "우성아파트",
+          "dist": 600,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "s1q5eadk",
@@ -23813,7 +28024,29 @@
         "addr": "충청남도 아산시 온양역길 124"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "온양온천역",
+        "lines": [
+          "장항선"
+        ],
+        "dist": 1561,
+        "walkMin": 23
+      },
+      "stops": [
+        {
+          "name": "권곡주공아파트",
+          "dist": 79,
+          "walkMin": 1
+        },
+        {
+          "name": "권곡주공아파트 건너",
+          "dist": 92,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s19u5793",
@@ -23904,7 +28137,29 @@
         "addr": "충청남도 아산시 북수로 125"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "탕정역",
+        "lines": [
+          "장항선"
+        ],
+        "dist": 2248,
+        "walkMin": 34
+      },
+      "stops": [
+        {
+          "name": "지중해마을 출구",
+          "dist": 167,
+          "walkMin": 2
+        },
+        {
+          "name": "탕정면사무소",
+          "dist": 220,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s146oqvt",
@@ -23990,7 +28245,21 @@
         "addr": "경상북도 포항시 남구 효자동길10번길 33"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "문화예술회관",
+          "dist": 110,
+          "walkMin": 2
+        },
+        {
+          "name": "종합운동장",
+          "dist": 265,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1w0oczx",
@@ -24081,7 +28350,21 @@
         "addr": "경상북도 포항시 남구 구룡포읍 호미로 259-1"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "호미곶 해맞이광장",
+          "dist": 49,
+          "walkMin": 1
+        },
+        {
+          "name": "대보중학교",
+          "dist": 149,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1awhvhl",
@@ -24239,7 +28522,21 @@
         "addr": "충청남도 보령시 한내여중길 67"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "농협중앙회보령시지구",
+          "dist": 42,
+          "walkMin": 1
+        },
+        {
+          "name": "명문당사거리",
+          "dist": 138,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sxxum5m",
@@ -24330,7 +28627,21 @@
         "addr": "경기도 김포시 대곶면 약암로 907"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "대명항",
+          "dist": 453,
+          "walkMin": 7
+        },
+        {
+          "name": "약암호텔",
+          "dist": 781,
+          "walkMin": 12
+        }
+      ]
+    }
   },
   {
     "contentid": "s15ofca",
@@ -24424,7 +28735,29 @@
         "addr": "경기도 김포시 전원로 1 (운양동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "장기역",
+        "lines": [
+          "김포도시철도"
+        ],
+        "dist": 520,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "운양중학교",
+          "dist": 161,
+          "walkMin": 2
+        },
+        {
+          "name": "중앙공원",
+          "dist": 192,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "sggef0h",
@@ -24515,7 +28848,21 @@
         "addr": "경기도 김포시 대곶면 약암로 907"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "대명항",
+          "dist": 453,
+          "walkMin": 7
+        },
+        {
+          "name": "약암호텔",
+          "dist": 781,
+          "walkMin": 12
+        }
+      ]
+    }
   },
   {
     "contentid": "s9y3gaw",
@@ -24606,7 +28953,29 @@
         "addr": "경기도 가평군 북한강변로 1080"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "가평역",
+        "lines": [
+          "경춘선"
+        ],
+        "dist": 1152,
+        "walkMin": 17
+      },
+      "stops": [
+        {
+          "name": "자라섬",
+          "dist": 42,
+          "walkMin": 1
+        },
+        {
+          "name": "자라섬회전교차로",
+          "dist": 331,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "spgyva6",
@@ -24692,7 +29061,21 @@
         "addr": "경상남도 창녕군 영산계성로 490"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "창녕경찰서",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "한국전력공사",
+          "dist": 331,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s1yfohz1",
@@ -24783,7 +29166,21 @@
         "addr": "경상남도 합천군 합천읍 핫들1로 8"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "가호리",
+          "dist": 219,
+          "walkMin": 3
+        },
+        {
+          "name": "둔덕",
+          "dist": 739,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "s1h0tj9k",
@@ -24874,7 +29271,21 @@
         "addr": "경기도 포천시 이동면 성장로 1287-13"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "산정호수상동주차장",
+          "dist": 266,
+          "walkMin": 4
+        },
+        {
+          "name": "산정호수.상동주차장",
+          "dist": 274,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1rgtcxb",
@@ -25051,7 +29462,21 @@
         "addr": "경상북도 문경시 새재로 458-9"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "문경새재도립공원",
+          "dist": 329,
+          "walkMin": 5
+        },
+        {
+          "name": "하초리",
+          "dist": 547,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "s11nauuw",
@@ -25111,7 +29536,21 @@
       }
     ],
     "nearbyFood": [],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "삼국유사테마파크앞",
+          "dist": 679,
+          "walkMin": 10
+        },
+        {
+          "name": "삼국유사테마파크건너",
+          "dist": 682,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "s1s7942r",
@@ -25201,7 +29640,21 @@
         "addr": "경상북도 의성군 봉양면 도리원3길 41"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "용대리",
+          "dist": 112,
+          "walkMin": 2
+        },
+        {
+          "name": "용대3길",
+          "dist": 654,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "s1vel64g",
@@ -25261,7 +29714,21 @@
       }
     ],
     "nearbyFood": [],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "인각사",
+          "dist": 69,
+          "walkMin": 1
+        },
+        {
+          "name": "화북1리",
+          "dist": 574,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "sc5m1m7",
@@ -25365,7 +29832,21 @@
         "addr": "경상남도 합천군 합천읍 핫들1로 8"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "금강예식장",
+          "dist": 138,
+          "walkMin": 2
+        },
+        {
+          "name": "정양",
+          "dist": 620,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "s1d3y1y5",
@@ -25460,7 +29941,21 @@
         "addr": "경상남도 합천군 야로면 가야산로 664"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "대장경파크 입구",
+          "dist": 221,
+          "walkMin": 3
+        },
+        {
+          "name": "황산",
+          "dist": 677,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "s1wrwbuv",
@@ -25546,7 +30041,21 @@
         "addr": "경상북도 김천시 대학로 98"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "한신아파트",
+          "dist": 72,
+          "walkMin": 1
+        },
+        {
+          "name": "황금동시장",
+          "dist": 134,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sks716w",
@@ -25632,7 +30141,21 @@
         "addr": "경상북도 김천시 대학로 98"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "한신아파트",
+          "dist": 86,
+          "walkMin": 1
+        },
+        {
+          "name": "황금동시장",
+          "dist": 97,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "smqy8t7",
@@ -25718,7 +30241,21 @@
         "addr": "경상북도 김천시 대학로 98"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "김천역",
+          "dist": 31,
+          "walkMin": 1
+        },
+        {
+          "name": "역전우체국",
+          "dist": 210,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "sbo4194",
@@ -25804,7 +30341,21 @@
         "addr": "경상북도 김천시 아랫장터5길 15"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "대곡동행정복지센",
+          "dist": 23,
+          "walkMin": 1
+        },
+        {
+          "name": "주공아파트",
+          "dist": 140,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1r4zuvb",
@@ -25914,7 +30465,21 @@
         "addr": "경상북도 문경시 새재로 458-9"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "문경새재도립공원",
+          "dist": 329,
+          "walkMin": 5
+        },
+        {
+          "name": "하초리",
+          "dist": 547,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "sdbv4zq",
@@ -26006,7 +30571,21 @@
         "addr": "강원특별자치도 춘천시 서면 박사로 890"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "인형극장앞",
+          "dist": 79,
+          "walkMin": 1
+        },
+        {
+          "name": "인형극장",
+          "dist": 135,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1222ynm",
@@ -26096,7 +30675,29 @@
         "addr": "강원특별자치도 춘천시 당간지주길 76 (근화동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "춘천역",
+        "lines": [
+          "경춘선"
+        ],
+        "dist": 1312,
+        "walkMin": 20
+      },
+      "stops": [
+        {
+          "name": "춘천시청별관",
+          "dist": 140,
+          "walkMin": 2
+        },
+        {
+          "name": "춘천시청",
+          "dist": 178,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1rnx2j5",
@@ -26186,7 +30787,29 @@
         "addr": "강원특별자치도 춘천시 춘천로 19"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "남춘천역",
+        "lines": [
+          "경춘선"
+        ],
+        "dist": 1069,
+        "walkMin": 16
+      },
+      "stops": [
+        {
+          "name": "문화예술회관",
+          "dist": 189,
+          "walkMin": 3
+        },
+        {
+          "name": "현진에버빌3차",
+          "dist": 256,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "se6pw2h",
@@ -26272,7 +30895,21 @@
         "addr": "충청북도 괴산군 모래재로 1579"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "성모병원",
+          "dist": 447,
+          "walkMin": 7
+        },
+        {
+          "name": "북중학교",
+          "dist": 656,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "s13s8pnq",
@@ -26358,7 +30995,29 @@
         "addr": "경기도 평택시 장안웃길 56-84 (장안동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "진위역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 2501,
+        "walkMin": 37
+      },
+      "stops": [
+        {
+          "name": "송탄정수장",
+          "dist": 301,
+          "walkMin": 4
+        },
+        {
+          "name": "진위초등학교",
+          "dist": 303,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s78vqy6",
@@ -26444,7 +31103,21 @@
         "addr": "전남광주통합특별시 함평군 함평읍 신기산길 22"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "함평여고",
+          "dist": 259,
+          "walkMin": 4
+        },
+        {
+          "name": "함평터미널",
+          "dist": 417,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "ss0yyw2",
@@ -26534,7 +31207,29 @@
         "addr": "전남광주통합특별시 동구 중앙로160번길 16-10  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 228,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "국립아시아문화전당(구.도청)",
+          "dist": 43,
+          "walkMin": 1
+        },
+        {
+          "name": "문화전당역",
+          "dist": 235,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "stcikj0",
@@ -26645,7 +31340,29 @@
         "addr": "경기도 부천시 원미구 중동로254번길 90 (중동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "부천시청",
+        "lines": [
+          "도시철도 7호선"
+        ],
+        "dist": 250,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "부천시청역1번출구.부천아트센터",
+          "dist": 86,
+          "walkMin": 1
+        },
+        {
+          "name": "부천시청역1번출구",
+          "dist": 92,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "sykpa4p",
@@ -26731,7 +31448,29 @@
         "addr": "경기도 부천시 원미구 중동로254번길 90 (중동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "부천시청",
+        "lines": [
+          "도시철도 7호선"
+        ],
+        "dist": 250,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "부천시청역1번출구.부천아트센터",
+          "dist": 86,
+          "walkMin": 1
+        },
+        {
+          "name": "부천시청역1번출구",
+          "dist": 92,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "srdvrbp",
@@ -26822,7 +31561,29 @@
         "addr": "부산광역시 중구 대교로 135 (중앙동5가)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "남포",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 350,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "비프광장",
+          "dist": 236,
+          "walkMin": 4
+        },
+        {
+          "name": "남포동",
+          "dist": 253,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1ac2maj",
@@ -26908,7 +31669,21 @@
         "addr": "전남광주통합특별시 광양시 희양현로 30  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "실내체육관.광양고",
+          "dist": 234,
+          "walkMin": 3
+        },
+        {
+          "name": "실내체육관(수영장)",
+          "dist": 255,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1bv6qf5",
@@ -26994,7 +31769,29 @@
         "addr": "경기도 성남시 수정구 설개로21번길 18-1 (시흥동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "모란역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 856,
+        "walkMin": 13
+      },
+      "stops": [
+        {
+          "name": "성남IC출입(미정차)",
+          "dist": 241,
+          "walkMin": 4
+        },
+        {
+          "name": "성남IC진입(미정차)",
+          "dist": 272,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "ssiz8i3",
@@ -27080,7 +31877,29 @@
         "addr": "경기도 성남시 분당구 양현로 453 (야탑동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "모란역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 375,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "모란시장",
+          "dist": 72,
+          "walkMin": 1
+        },
+        {
+          "name": "성남IC진입(미정차)",
+          "dist": 217,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1ddwzp4",
@@ -27171,7 +31990,29 @@
         "addr": "경기도 성남시 분당구 새마을로177번길 7-7 (율동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서현역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 2740,
+        "walkMin": 41
+      },
+      "stops": [
+        {
+          "name": "율동공원",
+          "dist": 641,
+          "walkMin": 10
+        },
+        {
+          "name": "공원마을",
+          "dist": 713,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "s1i7gy3i",
@@ -27262,7 +32103,29 @@
         "addr": "경기도 성남시 분당구 새마을로177번길 7-7 (율동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서현역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 2740,
+        "walkMin": 41
+      },
+      "stops": [
+        {
+          "name": "율동공원",
+          "dist": 641,
+          "walkMin": 10
+        },
+        {
+          "name": "공원마을",
+          "dist": 713,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "s1thku8g",
@@ -27348,7 +32211,29 @@
         "addr": "경기도 성남시 분당구 장미로100번길 20 (야탑동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "야탑역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 508,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "탄천종합운동장",
+          "dist": 58,
+          "walkMin": 1
+        },
+        {
+          "name": "탑마을대우아파트.선경아파트",
+          "dist": 293,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "sh6d3f9",
@@ -27443,7 +32328,29 @@
         "addr": "경기도 성남시 분당구 동판교로52번길 17-5"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "판교",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 36,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "판교역북편",
+          "dist": 84,
+          "walkMin": 1
+        },
+        {
+          "name": "판교역서편",
+          "dist": 110,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1myyo5x",
@@ -27529,7 +32436,29 @@
         "addr": "경기도 성남시 분당구 장미로100번길 20 (야탑동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "야탑역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 1007,
+        "walkMin": 15
+      },
+      "stops": [
+        {
+          "name": "성남시청후문뒤",
+          "dist": 133,
+          "walkMin": 2
+        },
+        {
+          "name": "성남시청후문앞",
+          "dist": 150,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "scgy147",
@@ -27619,7 +32548,21 @@
         "addr": "울산광역시 중구 중앙길 171-1"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "시티버스-시계탑사거리(울산시립미술관)",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "시계탑사거리",
+          "dist": 81,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1cuc9uu",
@@ -27705,7 +32648,29 @@
         "addr": "경기도 성남시 수정구 탄천로307번길 6 (사송동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "야탑역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 721,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "탄천종합운동장",
+          "dist": 170,
+          "walkMin": 3
+        },
+        {
+          "name": "분당야탑물류센터",
+          "dist": 386,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "s1q2ctg1",
@@ -27795,7 +32760,29 @@
         "addr": "경기도 성남시 분당구 서현로210번길 2 (서현동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서현역",
+        "lines": [
+          "분당선"
+        ],
+        "dist": 546,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "분당구청.중앙공원후문",
+          "dist": 118,
+          "walkMin": 2
+        },
+        {
+          "name": "중앙공원.양지마을금호아파트",
+          "dist": 185,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1myaj9",
@@ -27881,7 +32868,21 @@
         "addr": "부산광역시 기장군 철마면 개좌로 763"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "와여마을",
+          "dist": 424,
+          "walkMin": 6
+        },
+        {
+          "name": "구림마을",
+          "dist": 567,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "s6lju0g",
@@ -27967,7 +32968,21 @@
         "addr": "부산광역시 기장군 정관읍 병산로 221-19"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "덕산마을",
+          "dist": 120,
+          "walkMin": 2
+        },
+        {
+          "name": "중앙중학교",
+          "dist": 232,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s16lc90n",
@@ -28053,7 +33068,29 @@
         "addr": "서울특별시 강서구 화곡로64길 72"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "염창",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 370,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "팔복부동산.목동교회",
+          "dist": 308,
+          "walkMin": 5
+        },
+        {
+          "name": "목2동주민센터",
+          "dist": 362,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "ssd6vjh",
@@ -28139,7 +33176,29 @@
         "addr": "서울특별시 강서구 강서로5길 10 오션파라다이스"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "신정네거리",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 1751,
+        "walkMin": 26
+      },
+      "stops": [
+        {
+          "name": "신월시영아파트.강월초등학교",
+          "dist": 250,
+          "walkMin": 4
+        },
+        {
+          "name": "신월문화체육센터",
+          "dist": 321,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s1hvq1jz",
@@ -28225,7 +33284,29 @@
         "addr": "경기도 부천시 오정구 고리울로8번길 77 (고강동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "신정네거리",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 1074,
+        "walkMin": 16
+      },
+      "stops": [
+        {
+          "name": "강서초등학교.신월4동주민센터",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "한빛종합사회복지관",
+          "dist": 200,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s35q53",
@@ -28311,7 +33392,29 @@
         "addr": "서울특별시 구로구 경인로 398 (고척동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "신정네거리",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 975,
+        "walkMin": 15
+      },
+      "stops": [
+        {
+          "name": "대림.수정아파트",
+          "dist": 312,
+          "walkMin": 5
+        },
+        {
+          "name": "한성교회.백암고",
+          "dist": 363,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s16se2m4",
@@ -28397,7 +33500,29 @@
         "addr": "경기도 부천시 오정구 고리울로8번길 77 (고강동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "화곡",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 1409,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "양서중학교",
+          "dist": 90,
+          "walkMin": 1
+        },
+        {
+          "name": "신월1동주민센터.신월보건지소",
+          "dist": 175,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "smnxc3f",
@@ -28483,7 +33608,29 @@
         "addr": "서울특별시 구로구 경인로 398 (고척동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "양천구청",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 468,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "목동아파트1102동앞",
+          "dist": 57,
+          "walkMin": 1
+        },
+        {
+          "name": "목동아파트1216동앞",
+          "dist": 169,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1v79oae",
@@ -28569,7 +33716,29 @@
         "addr": "서울특별시 구로구 경인로 398 (고척동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "양천구청",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 468,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "목동아파트1102동앞",
+          "dist": 57,
+          "walkMin": 1
+        },
+        {
+          "name": "목동아파트1216동앞",
+          "dist": 169,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s9cih6l",
@@ -28664,7 +33833,29 @@
         "addr": "서울특별시 양천구 목동동로10길 24 (신정동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "신정네거리",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 25,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "신정네거리역",
+          "dist": 16,
+          "walkMin": 1
+        },
+        {
+          "name": "신정네거리역4번출구",
+          "dist": 76,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1k1idz5",
@@ -28755,7 +33946,29 @@
         "addr": "서울특별시 강서구 양천로28길 40"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "마곡나루(서울식물원)",
+        "lines": [
+          "서울 도시철도 9호선"
+        ],
+        "dist": 769,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "마곡실내배드민턴장",
+          "dist": 91,
+          "walkMin": 1
+        },
+        {
+          "name": "롯데R&D센터",
+          "dist": 402,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "sj2aihk",
@@ -28843,7 +34056,29 @@
         "addr": "부산광역시 영도구 절영로49번길 25"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "자갈치",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 2438,
+        "walkMin": 36
+      },
+      "stops": [
+        {
+          "name": "송도구름산책로",
+          "dist": 154,
+          "walkMin": 2
+        },
+        {
+          "name": "송도교차로",
+          "dist": 170,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1vdwmew",
@@ -28934,7 +34169,29 @@
         "addr": "부산광역시 사상구 대동로 224 (학장동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "괘법르네시떼",
+        "lines": [
+          "부산김해경전철"
+        ],
+        "dist": 638,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "삼락생태공원",
+          "dist": 352,
+          "walkMin": 5
+        },
+        {
+          "name": "사상강변동원아파트",
+          "dist": 456,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s179q6bh",
@@ -29020,7 +34277,29 @@
         "addr": "서울특별시 강서구 강서로54길 11"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "발산",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 165,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "발산역9번출구",
+          "dist": 85,
+          "walkMin": 1
+        },
+        {
+          "name": "이대서울병원",
+          "dist": 157,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1b0mudb",
@@ -29106,7 +34385,21 @@
         "addr": "경상북도 예천군 행복7길 10 예천축산농협 경북도청점"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "예천천막사앞",
+          "dist": 138,
+          "walkMin": 2
+        },
+        {
+          "name": "농협앞",
+          "dist": 158,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sqgyn51",
@@ -29130,7 +34423,21 @@
     "extraInfo": [],
     "nearbySpots": [],
     "nearbyFood": [],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "분천산타마을",
+          "dist": 235,
+          "walkMin": 4
+        },
+        {
+          "name": "평지",
+          "dist": 795,
+          "walkMin": 12
+        }
+      ]
+    }
   },
   {
     "contentid": "sujdi27",
@@ -29221,7 +34528,16 @@
         "addr": "경상남도 창녕군 창녕읍 화왕산로 64"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "우포늪",
+          "dist": 96,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "sgum4ie",
@@ -29307,7 +34623,29 @@
         "addr": "대구광역시 서구 서대구로 118 (평리동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서대구역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 1583,
+        "walkMin": 24
+      },
+      "stops": [
+        {
+          "name": "새방지하도2",
+          "dist": 396,
+          "walkMin": 6
+        },
+        {
+          "name": "새방지하도1",
+          "dist": 407,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "s10cnp4u",
@@ -29393,7 +34731,29 @@
         "addr": "대구광역시 서구 달구벌대로375길 31 (내당동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서대구역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 937,
+        "walkMin": 14
+      },
+      "stops": [
+        {
+          "name": "이현자동차검사소건너",
+          "dist": 353,
+          "walkMin": 5
+        },
+        {
+          "name": "서구문화회관앞",
+          "dist": 359,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "slu4ewp",
@@ -29479,7 +34839,29 @@
         "addr": "대구광역시 서구 평리로35길 28-10"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "내당",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 1431,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "서구청앞",
+          "dist": 119,
+          "walkMin": 2
+        },
+        {
+          "name": "서구청건너",
+          "dist": 173,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "stnabv2",
@@ -29553,7 +34935,21 @@
         "addr": "충청남도 보령시 주포면 밖강술길 15"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "관천읍약국앞",
+          "dist": 95,
+          "walkMin": 1
+        },
+        {
+          "name": "광천시장입구",
+          "dist": 99,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1cn1vxz",
@@ -29696,7 +35092,29 @@
         "addr": "서울특별시 강북구 도봉로68길 36 (미아동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "화계",
+        "lines": [
+          "우이신설선"
+        ],
+        "dist": 410,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "한신대학교",
+          "dist": 42,
+          "walkMin": 1
+        },
+        {
+          "name": "유진슈퍼",
+          "dist": 65,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1iuy6lt",
@@ -29787,7 +35205,29 @@
         "addr": "경기도 파주시 문산읍 방촌로 1779-40"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "임진강역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 593,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "임진각",
+          "dist": 337,
+          "walkMin": 5
+        },
+        {
+          "name": "임진강역",
+          "dist": 637,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "s1wi7kw0",
@@ -29877,7 +35317,21 @@
         "addr": "경기도 파주시 돌곶이길 182 (서패동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "은석교사거리",
+          "dist": 211,
+          "walkMin": 3
+        },
+        {
+          "name": "다산교앞",
+          "dist": 236,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s98tcao",
@@ -29967,7 +35421,21 @@
         "addr": "경기도 파주시 율곡로 829 두포나루터"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "자운서원",
+          "dist": 286,
+          "walkMin": 4
+        },
+        {
+          "name": "동문리",
+          "dist": 619,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "swsb7br",
@@ -30062,7 +35530,29 @@
         "addr": "경기도 파주시 운정벌판길 24-22 (상지석동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "야당역",
+        "lines": [
+          "경의중앙선"
+        ],
+        "dist": 828,
+        "walkMin": 12
+      },
+      "stops": [
+        {
+          "name": "운정호수교차로",
+          "dist": 357,
+          "walkMin": 5
+        },
+        {
+          "name": "운정역진입전(미정차)",
+          "dist": 416,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "s88yfrw",
@@ -30148,7 +35638,29 @@
         "addr": "서울특별시 동대문구 장한로26가길 29 (장안동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "용마산(용마폭포공원)",
+        "lines": [
+          "7호선"
+        ],
+        "dist": 210,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "용마산역",
+          "dist": 216,
+          "walkMin": 3
+        },
+        {
+          "name": "용마폭포공원",
+          "dist": 264,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1vpilyv",
@@ -30234,7 +35746,30 @@
         "addr": "서울특별시 중랑구 용마공원로2길 8"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "망우역",
+        "lines": [
+          "경춘선",
+          "경의중앙선"
+        ],
+        "dist": 734,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "중랑구청",
+          "dist": 89,
+          "walkMin": 1
+        },
+        {
+          "name": "신현중학교",
+          "dist": 163,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "swoe9vw",
@@ -30320,7 +35855,29 @@
         "addr": "서울특별시 은평구 녹번로1길 13 (녹번동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "새절(신사)",
+        "lines": [
+          "6호선"
+        ],
+        "dist": 256,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "신사초등학교",
+          "dist": 80,
+          "walkMin": 1
+        },
+        {
+          "name": "신사초등학교.새절역",
+          "dist": 86,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1go8znc",
@@ -30454,7 +36011,29 @@
         "addr": "경기도 광명시 오리로619번길 27 (하안동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "금천구청역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 208,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "금천구종합청사.금천구청역",
+          "dist": 91,
+          "walkMin": 1
+        },
+        {
+          "name": "무지개아파트",
+          "dist": 224,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s6t8r1",
@@ -30568,7 +36147,29 @@
         "addr": "서울특별시 관악구 관악로14길 16 (봉천동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "낙성대(강감찬)",
+        "lines": [
+          "2호선"
+        ],
+        "dist": 683,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "낙성대공원.다시가는캠퍼스",
+          "dist": 59,
+          "walkMin": 1
+        },
+        {
+          "name": "낙성대현대아파트",
+          "dist": 273,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "srl0zwv",
@@ -30659,7 +36260,29 @@
         "addr": "서울특별시 중구 서소문로11길 14"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서대문",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 387,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "강북삼성병원",
+          "dist": 50,
+          "walkMin": 1
+        },
+        {
+          "name": "삼성강북병원.경교장",
+          "dist": 81,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1hvf22m",
@@ -30751,7 +36374,29 @@
       }
     ],
     "source": "std",
-    "photoCredit": "한국관광공사 포토코리아 · 촬영 라이브스튜디오"
+    "photoCredit": "한국관광공사 포토코리아 · 촬영 라이브스튜디오",
+    "transit": {
+      "station": {
+        "name": "자갈치",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 346,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "신동아시장",
+          "dist": 125,
+          "walkMin": 2
+        },
+        {
+          "name": "자갈치시장",
+          "dist": 176,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s50ui2o",
@@ -30841,7 +36486,29 @@
         "addr": "부산광역시 중구 중구로29번길 17 (부평동1가)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "남포",
+        "lines": [
+          "부산 도시철도 1호선"
+        ],
+        "dist": 355,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "비프광장",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "남포동",
+          "dist": 183,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s2cf992",
@@ -30935,7 +36602,21 @@
         "addr": "부산광역시 영도구 와치로 65 산새소리유치원"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "국립해양박물관",
+          "dist": 277,
+          "walkMin": 4
+        },
+        {
+          "name": "해양대승선생활관",
+          "dist": 439,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s1p57jsp",
@@ -31025,7 +36706,29 @@
         "addr": "대구광역시 동구 효동로2길 45 (효목동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "아양교(대구국제공항입구)",
+        "lines": [
+          "대구 도시철도 1호선"
+        ],
+        "dist": 318,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "동구청건너",
+          "dist": 163,
+          "walkMin": 2
+        },
+        {
+          "name": "동구청앞",
+          "dist": 164,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1wb8p2m",
@@ -31111,7 +36814,29 @@
         "addr": "대구광역시 동구 효동로2길 45 (효목동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "동구청(큰고개)",
+        "lines": [
+          "대구 도시철도 1호선"
+        ],
+        "dist": 269,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "동구청건너",
+          "dist": 13,
+          "walkMin": 1
+        },
+        {
+          "name": "동구청앞",
+          "dist": 38,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s7id9wl",
@@ -31197,7 +36922,17 @@
         "addr": "대구광역시 동구 율하동로24길 31"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "고산",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 983,
+        "walkMin": 15
+      }
+    }
   },
   {
     "contentid": "s189pb1t",
@@ -31283,7 +37018,29 @@
         "addr": "대구광역시 서구 와룡로66길 57"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "용산(서부법원․검찰청입구)",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 830,
+        "walkMin": 12
+      },
+      "stops": [
+        {
+          "name": "달서아트센터앞",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "웃는얼굴아트센터1",
+          "dist": 85,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1am00f3",
@@ -31369,7 +37126,29 @@
         "addr": "인천광역시 미추홀구 소성로326번길 4 (문학동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "선학",
+        "lines": [
+          "인천지하철 1호선"
+        ],
+        "dist": 454,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "아주아파트",
+          "dist": 256,
+          "walkMin": 4
+        },
+        {
+          "name": "뉴서울아파트",
+          "dist": 325,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "sh961vb",
@@ -31455,7 +37234,29 @@
         "addr": "인천광역시 연수구 청량로 67"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "동춘",
+        "lines": [
+          "인천지하철 1호선"
+        ],
+        "dist": 579,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "연수구청",
+          "dist": 64,
+          "walkMin": 1
+        },
+        {
+          "name": "연수구청입구",
+          "dist": 162,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1apw0ka",
@@ -31546,7 +37347,29 @@
         "addr": "인천광역시 서해구 청라커낼로319번길 3-14 (청라동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "청라국제도시",
+        "lines": [
+          "인천국제공항선"
+        ],
+        "dist": 1537,
+        "walkMin": 23
+      },
+      "stops": [
+        {
+          "name": "경인아라뱃길여객터미널",
+          "dist": 79,
+          "walkMin": 1
+        },
+        {
+          "name": "인천여객터미널",
+          "dist": 145,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s3odbrf",
@@ -31636,7 +37459,21 @@
         "addr": "경기도 남양주시 진접읍 금강로 1580"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "봉선사입구",
+          "dist": 409,
+          "walkMin": 6
+        },
+        {
+          "name": "부대앞",
+          "dist": 714,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "s1czsyb2",
@@ -31728,7 +37565,21 @@
         "addr": "경기도 남양주시 조안면 북한강로 121"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "다산정약용유적지.실학박물관",
+          "dist": 68,
+          "walkMin": 1
+        },
+        {
+          "name": "마재성지.능내교회",
+          "dist": 473,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s1a47yzv",
@@ -31814,7 +37665,29 @@
         "addr": "경기도 시흥시 동서로 213 (월곶동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "월곶역",
+        "lines": [
+          "수인선"
+        ],
+        "dist": 548,
+        "walkMin": 8
+      },
+      "stops": [
+        {
+          "name": "월포초등학교",
+          "dist": 116,
+          "walkMin": 2
+        },
+        {
+          "name": "월곶동주민센터.월곶포구",
+          "dist": 138,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1evzeu",
@@ -31905,7 +37778,21 @@
         "addr": "경기도 시흥시 오이도로 237 (정왕동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "오이도빨강등대",
+          "dist": 24,
+          "walkMin": 1
+        },
+        {
+          "name": "오이도종합어시장",
+          "dist": 201,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1y4ga67",
@@ -31996,7 +37883,29 @@
         "addr": "경기도 시흥시 비둘기공원로 21 (대야동, 대야하이빌)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "시흥대야역",
+        "lines": [
+          "서해선"
+        ],
+        "dist": 1423,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "은행고",
+          "dist": 298,
+          "walkMin": 4
+        },
+        {
+          "name": "은계우미린더퍼스트.제일풍경채",
+          "dist": 470,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s1yrlks9",
@@ -32082,7 +37991,21 @@
         "addr": "강원특별자치도 횡성군 한우로 1406"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "소초면행정복지센터",
+          "dist": 141,
+          "walkMin": 2
+        },
+        {
+          "name": "현촌",
+          "dist": 207,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1junnrh",
@@ -32173,7 +38096,21 @@
         "addr": "강원특별자치도 원주시 문막읍 큰애니길 3"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "남도동",
+          "dist": 344,
+          "walkMin": 5
+        },
+        {
+          "name": "벌무내기",
+          "dist": 688,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "svefzt5",
@@ -32263,7 +38200,21 @@
         "addr": "강원특별자치도 원주시 지정면 원양2로 135"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "간현관광지앞",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "레일파크",
+          "dist": 352,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "sgw2b1p",
@@ -32349,7 +38300,21 @@
         "addr": "강원특별자치도 원주시 양지로 20"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "행구수변공원",
+          "dist": 175,
+          "walkMin": 3
+        },
+        {
+          "name": "덕현길입구",
+          "dist": 235,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "sjzr7bp",
@@ -32440,7 +38405,21 @@
         "addr": "경상북도 상주시 화북면 속리산로 2348"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "속리산",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "청주식당앞",
+          "dist": 589,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "s12y3djr",
@@ -32529,7 +38508,21 @@
       }
     ],
     "source": "std",
-    "photoCredit": "한국관광공사 포토코리아 · 촬영 하두철"
+    "photoCredit": "한국관광공사 포토코리아 · 촬영 하두철",
+    "transit": {
+      "stops": [
+        {
+          "name": "뱃들공원앞",
+          "dist": 44,
+          "walkMin": 1
+        },
+        {
+          "name": "이평리.뱃들공원",
+          "dist": 56,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1hvax50",
@@ -32615,7 +38608,21 @@
         "addr": "충청남도 예산군 덕산면 수덕사안길 38"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "고북",
+          "dist": 330,
+          "walkMin": 5
+        },
+        {
+          "name": "고북면소재지",
+          "dist": 332,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s1l4u5o0",
@@ -32701,7 +38708,21 @@
         "addr": "충청남도 태안군 남면 천수만로 365-23"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "간월도",
+          "dist": 415,
+          "walkMin": 6
+        },
+        {
+          "name": "간월도리",
+          "dist": 452,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "ssdn21w",
@@ -32791,7 +38812,21 @@
         "addr": "충청남도 논산시 탑정로 872"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "청동리",
+          "dist": 187,
+          "walkMin": 3
+        },
+        {
+          "name": "청동4리.농협공판장앞",
+          "dist": 419,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "s1tg3zj9",
@@ -32883,7 +38918,21 @@
         "addr": "충청남도 금산군 태고사로 422"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "채광리",
+          "dist": 307,
+          "walkMin": 5
+        },
+        {
+          "name": "인천4리",
+          "dist": 520,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "s1p3azta",
@@ -32973,7 +39022,29 @@
         "addr": "서울특별시 종로구 자하문로16길 5-5"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "경복궁(정부서울청사)",
+        "lines": [
+          "3호선"
+        ],
+        "dist": 685,
+        "walkMin": 10
+      },
+      "stops": [
+        {
+          "name": "단군성전앞",
+          "dist": 56,
+          "walkMin": 1
+        },
+        {
+          "name": "황학정앞",
+          "dist": 110,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "swm6j5b",
@@ -33064,7 +39135,29 @@
         "addr": "서울특별시 중구 서소문로11길 14"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서대문",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 387,
+        "walkMin": 6
+      },
+      "stops": [
+        {
+          "name": "강북삼성병원",
+          "dist": 50,
+          "walkMin": 1
+        },
+        {
+          "name": "삼성강북병원.경교장",
+          "dist": 81,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1d1dkcf",
@@ -33144,7 +39237,21 @@
         "addr": "전북특별자치도 진안군 상전면 금지1길 18-20"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "홍삼한방센터",
+          "dist": 62,
+          "walkMin": 1
+        },
+        {
+          "name": "진안군의료원",
+          "dist": 143,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s194s5q0",
@@ -33230,7 +39337,21 @@
         "addr": "전북특별자치도 임실군 관촌면 사선2길 46-12"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "담당마을",
+          "dist": 413,
+          "walkMin": 6
+        },
+        {
+          "name": "비슬마을",
+          "dist": 426,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "smp0ljp",
@@ -33316,7 +39437,21 @@
         "addr": "전북특별자치도 임실군 성수면 도인2길 45"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "두류",
+          "dist": 355,
+          "walkMin": 5
+        },
+        {
+          "name": "호양",
+          "dist": 550,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "spp0fsp",
@@ -33402,7 +39537,21 @@
         "addr": "전북특별자치도 순창군 남계로 52 순창시장"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "민속마을",
+          "dist": 75,
+          "walkMin": 1
+        },
+        {
+          "name": "백산마을",
+          "dist": 716,
+          "walkMin": 11
+        }
+      ]
+    }
   },
   {
     "contentid": "s1wenbl7",
@@ -33493,7 +39642,21 @@
         "addr": "전북특별자치도 정읍시 내장산로 920"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "정산.율평",
+          "dist": 89,
+          "walkMin": 1
+        },
+        {
+          "name": "북흥",
+          "dist": 193,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s14tvjkb",
@@ -33584,7 +39747,21 @@
         "addr": "전북특별자치도 부안군 변산면 채석강길 27"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "변산해수욕장",
+          "dist": 56,
+          "walkMin": 1
+        },
+        {
+          "name": "자미.변산해수욕장",
+          "dist": 250,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s1k7bb8m",
@@ -33675,7 +39852,21 @@
         "addr": "경상북도 경주시 봉황로 89"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "시청",
+          "dist": 43,
+          "walkMin": 1
+        },
+        {
+          "name": "우방아파트입구",
+          "dist": 135,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sc8saml",
@@ -33761,7 +39952,29 @@
         "addr": "경상북도 경산시 삼성현로 558"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "경산역",
+        "lines": [
+          "대경선"
+        ],
+        "dist": 1830,
+        "walkMin": 27
+      },
+      "stops": [
+        {
+          "name": "시민회관앞",
+          "dist": 106,
+          "walkMin": 2
+        },
+        {
+          "name": "시민회관 건너",
+          "dist": 118,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1i7lot8",
@@ -33847,7 +40060,29 @@
         "addr": "대구광역시 동구 대경로 1 (숙천동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "하양(대구가톨릭대)",
+        "lines": [
+          "대구 도시철도 1호선"
+        ],
+        "dist": 2340,
+        "walkMin": 35
+      },
+      "stops": [
+        {
+          "name": "비호생활관",
+          "dist": 231,
+          "walkMin": 3
+        },
+        {
+          "name": "비호생활관 건너",
+          "dist": 242,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s6132so",
@@ -33940,7 +40175,21 @@
         "addr": "경상북도 청도군 화양읍 산성강변길 432"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "국민체육센터",
+          "dist": 342,
+          "walkMin": 5
+        },
+        {
+          "name": "범곡1리-범실",
+          "dist": 774,
+          "walkMin": 12
+        }
+      ]
+    }
   },
   {
     "contentid": "s1mq0c1x",
@@ -34030,7 +40279,21 @@
         "addr": "경상북도 청도군 화양읍 산성강변길 432"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "국민체육센터",
+          "dist": 342,
+          "walkMin": 5
+        },
+        {
+          "name": "범곡1리-범실",
+          "dist": 774,
+          "walkMin": 12
+        }
+      ]
+    }
   },
   {
     "contentid": "s13no325",
@@ -34217,7 +40480,29 @@
         "addr": "경상남도 김해시 흥동로 142"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "박물관",
+        "lines": [
+          "부산김해경전철"
+        ],
+        "dist": 465,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "김해문화의전당",
+          "dist": 94,
+          "walkMin": 1
+        },
+        {
+          "name": "문화의전당 정문",
+          "dist": 148,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1oxbanv",
@@ -34303,7 +40588,21 @@
         "addr": "경상남도 거제시 계룡로 68 (고현동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "거제식물원",
+          "dist": 208,
+          "walkMin": 3
+        },
+        {
+          "name": "농업기술센터",
+          "dist": 240,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "s6f56y",
@@ -34389,7 +40688,21 @@
         "addr": "경상남도 거제시 신부로1길 12"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "한일비치",
+          "dist": 124,
+          "walkMin": 2
+        },
+        {
+          "name": "문화예술회관",
+          "dist": 138,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s1jb1l2w",
@@ -34475,7 +40788,21 @@
         "addr": "경상남도 거제시 동부면 거제대로 910"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "학동",
+          "dist": 91,
+          "walkMin": 1
+        },
+        {
+          "name": "학동삼거리",
+          "dist": 226,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s19w8rnd",
@@ -34561,7 +40888,21 @@
         "addr": "경상남도 함양군 용평길 31-3"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "상림공원",
+          "dist": 456,
+          "walkMin": 7
+        },
+        {
+          "name": "함양여중후문",
+          "dist": 494,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "skqrw6m",
@@ -34647,7 +40988,29 @@
         "addr": "경기도 화성시 동탄반송2길 41-7 (반송동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "서동탄역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 1702,
+        "walkMin": 25
+      },
+      "stops": [
+        {
+          "name": "능동은행사거리.동탄시티병원",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "자연앤아너스빌",
+          "dist": 98,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "s1mfkje4",
@@ -34737,7 +41100,21 @@
         "addr": "경기도 화성시 동탄기흥로257번나길 34-11 (방교동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "경기도시공사동탄사업단",
+          "dist": 168,
+          "walkMin": 3
+        },
+        {
+          "name": "동탄그랑파사쥬",
+          "dist": 234,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s7mkwkv",
@@ -34823,7 +41200,21 @@
         "addr": "경상남도 창원시 의창구 의안로17번길 12"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "경남테크노파크",
+          "dist": 93,
+          "walkMin": 1
+        },
+        {
+          "name": "창원역",
+          "dist": 166,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s4s8h58",
@@ -35072,7 +41463,29 @@
         "addr": "전남광주통합특별시 동구 충장로안길 26"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "문화전당(구도청)",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 282,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "동구청",
+          "dist": 116,
+          "walkMin": 2
+        },
+        {
+          "name": "서남동행정복지센터",
+          "dist": 142,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s129i8jn",
@@ -35162,7 +41575,29 @@
         "addr": "전남광주통합특별시 동구 문화전당로 43 3층"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "남광주",
+        "lines": [
+          "광주도시철도 1호선"
+        ],
+        "dist": 634,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "양림교",
+          "dist": 126,
+          "walkMin": 2
+        },
+        {
+          "name": "학강초교",
+          "dist": 246,
+          "walkMin": 4
+        }
+      ]
+    }
   },
   {
     "contentid": "sk7mto8",
@@ -35253,7 +41688,21 @@
         "addr": "전남광주통합특별시 화순군 안양산로 72  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "교육청",
+          "dist": 124,
+          "walkMin": 2
+        },
+        {
+          "name": "화순군청",
+          "dist": 142,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s9y4olw",
@@ -35346,7 +41795,21 @@
         "addr": "전남광주통합특별시 화순군 천태로 1020  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "능주면사무소",
+          "dist": 54,
+          "walkMin": 1
+        },
+        {
+          "name": "능주초교",
+          "dist": 155,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s3tgj9i",
@@ -35472,7 +41935,21 @@
         "addr": "전남광주통합특별시 해남군 송지면 땅끝마을길 100"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "땅끝마을",
+          "dist": 134,
+          "walkMin": 2
+        },
+        {
+          "name": "광명사",
+          "dist": 572,
+          "walkMin": 9
+        }
+      ]
+    }
   },
   {
     "contentid": "s1y2impe",
@@ -35552,7 +42029,16 @@
         "addr": "전남광주통합특별시 무안군 일로읍 일로신흥길 59"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "신촌",
+          "dist": 669,
+          "walkMin": 10
+        }
+      ]
+    }
   },
   {
     "contentid": "sjpkrok",
@@ -35643,7 +42129,21 @@
         "addr": "전남광주통합특별시 장성군 황룡면 홍길동로 388-10"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "장재",
+          "dist": 353,
+          "walkMin": 5
+        },
+        {
+          "name": "장성병원",
+          "dist": 515,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "sabealq",
@@ -35729,7 +42229,21 @@
         "addr": "전남광주통합특별시 장성군 구대해길 65-7  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "광명공업사",
+          "dist": 71,
+          "walkMin": 1
+        },
+        {
+          "name": "하사",
+          "dist": 217,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1a2lusm",
@@ -35815,7 +42329,21 @@
         "addr": "전남광주통합특별시 장성군 행복1길 2  "
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "동화농공단지",
+          "dist": 318,
+          "walkMin": 5
+        },
+        {
+          "name": "화곡",
+          "dist": 458,
+          "walkMin": 7
+        }
+      ]
+    }
   },
   {
     "contentid": "s1wt0zfi",
@@ -35901,7 +42429,21 @@
         "addr": "전남광주통합특별시 진도군 진도읍 남동1길 55"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "진도읍",
+          "dist": 244,
+          "walkMin": 4
+        },
+        {
+          "name": "우체국",
+          "dist": 376,
+          "walkMin": 6
+        }
+      ]
+    }
   },
   {
     "contentid": "s1ls2pd5",
@@ -35987,7 +42529,29 @@
         "addr": "대구광역시 중구 국채보상로 602-1 (문화동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "칠성시장",
+        "lines": [
+          "대구 도시철도 1호선"
+        ],
+        "dist": 609,
+        "walkMin": 9
+      },
+      "stops": [
+        {
+          "name": "대구광역시청건너",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "대구시동인청사건너",
+          "dist": 64,
+          "walkMin": 1
+        }
+      ]
+    }
   },
   {
     "contentid": "skwlsmo",
@@ -36073,7 +42637,29 @@
         "addr": "대구광역시 중구 달구벌대로389길 70 (대신동, 협화아파트)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "내당",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 1375,
+        "walkMin": 21
+      },
+      "stops": [
+        {
+          "name": "서구청앞",
+          "dist": 56,
+          "walkMin": 1
+        },
+        {
+          "name": "서구청건너",
+          "dist": 115,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sf5920z",
@@ -36165,7 +42751,29 @@
         "addr": "대구광역시 수성구 동원로 6 (만촌동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "범어",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 455,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "수성구청건너",
+          "dist": 77,
+          "walkMin": 1
+        },
+        {
+          "name": "수성구청앞",
+          "dist": 133,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sp5kdnb",
@@ -36251,7 +42859,21 @@
         "addr": "제주특별자치도 제주시 관덕로 32-1 (삼도이동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "중앙로 제민신협본점[서]",
+          "dist": 156,
+          "walkMin": 2
+        },
+        {
+          "name": "중앙로(현대약국)[동]",
+          "dist": 172,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "sqbfz8d",
@@ -36337,7 +42959,21 @@
         "addr": "제주특별자치도 제주시 관덕로13길 13 (일도일동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "탐라광장/제주여성가족연구원[북]",
+          "dist": 63,
+          "walkMin": 1
+        },
+        {
+          "name": "탐라광장/제주여성가족연구원",
+          "dist": 122,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "sdk9jym",
@@ -36428,7 +43064,21 @@
         "addr": "제주특별자치도 서귀포시 태평로 406-1 (서귀동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "천지연폭포입구[서]",
+          "dist": 324,
+          "walkMin": 5
+        },
+        {
+          "name": "천지연폭포입구[동]",
+          "dist": 339,
+          "walkMin": 5
+        }
+      ]
+    }
   },
   {
     "contentid": "s1xjmlj7",
@@ -36514,7 +43164,21 @@
         "addr": "제주특별자치도 제주시 중앙로12길 21 (삼도이동)"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "탑동입구[서]",
+          "dist": 185,
+          "walkMin": 3
+        },
+        {
+          "name": "탑동입구[동]",
+          "dist": 233,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s1nwr0iz",
@@ -36600,7 +43264,21 @@
         "addr": "제주특별자치도 제주시 관덕로8길 31"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "관덕정[남]",
+          "dist": 116,
+          "walkMin": 2
+        },
+        {
+          "name": "관덕정[북]",
+          "dist": 148,
+          "walkMin": 2
+        }
+      ]
+    }
   },
   {
     "contentid": "s19kdfb3",
@@ -36686,7 +43364,21 @@
         "addr": "제주특별자치도 제주시 중앙로 63-11"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "동문로터리, 동문시장[북]",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "탑동입구[서]",
+          "dist": 196,
+          "walkMin": 3
+        }
+      ]
+    }
   },
   {
     "contentid": "s67c7n1",
@@ -36772,6 +43464,20 @@
         "addr": "제주특별자치도 제주시 칠성로길 29-1"
       }
     ],
-    "source": "std"
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "동문로터리, 동문시장[남]",
+          "dist": 16,
+          "walkMin": 1
+        },
+        {
+          "name": "동문로터리, 동문시장[북]",
+          "dist": 77,
+          "walkMin": 1
+        }
+      ]
+    }
   }
 ]

@@ -452,6 +452,19 @@ function buildPage(f, all) {
       })()}
     </div>`;
 
+  // ── 🚇 대중교통으로 가는 법 (fetch-transit.js: 3km 안 지하철역 + 800m 안 버스정류장, 직선거리·도보 환산) ──
+  const t = f.transit || {};
+  const transitHtml = t.station || (t.stops && t.stops.length)
+    ? `<div class="transit-box">
+        <h3>🚇 대중교통으로 가는 법</h3>
+        <ul>
+          ${t.station ? `<li>🚈 <strong>${esc(t.station.name)}역</strong> (${t.station.lines.map(esc).join("·")}) 에서 <strong>${t.station.dist >= 1000 ? (t.station.dist / 1000).toFixed(1) + "km" : t.station.dist + "m"}</strong> · 도보 약 ${t.station.walkMin}분${t.station.dist > 1500 ? " (멀어서 역에서 버스·택시 환승 권장)" : ""}</li>` : ""}
+          ${(t.stops || []).map((s) => `<li>🚌 <strong>${esc(s.name)}</strong> 정류장 ${s.dist}m · 도보 약 ${s.walkMin}분</li>`).join("")}
+        </ul>
+        <p class="coupang-notice">행사장 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 노선·배차는 네이버지도에서 정류장 이름으로 검색하세요. 역 정보 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10).</p>
+      </div>`
+    : "";
+
   // ── 소개/행사내용 섹션 (중복 제거) ──
   const normalize = (s) => String(s || "").replace(/<[^>]*>/g, "").replace(/\s+/g, "");
   const overview = f.overview
@@ -618,7 +631,7 @@ function buildPage(f, all) {
       ${photoCallHtml(f)}
       ${overview}
       ${extraSections}
-      <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}</section>
+      <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}${transitHtml}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
       ${campSection}

@@ -36,6 +36,9 @@ jobs:
         env:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
 
+      # 4-1b. 축제마다 가까운 지하철역·버스정류장 계산 (API 없음 — data/stations.json, data/busstops.json.gz 사용)
+      - run: node fetch-transit.js
+
       # 4-2. KOPIS 공연 데이터 (Secrets에 KOPIS_KEY가 있을 때만 수집, 없으면 건너뜀)
       - run: node fetch-kopis.js
         env:
