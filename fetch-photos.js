@@ -28,16 +28,24 @@ const todayYmd = kst.toISOString().slice(0, 10).replace(/-/g, "");
 const daysAgo = (n) => new Date(kst.getTime() - n * 86400000).toISOString().slice(0, 10).replace(/-/g, "");
 
 let calls = 0;
-async function searchPhotos(keyword) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// 관광공사 API는 초당 요청 제한(코드 23)과 일일 한도(코드 22)가 있다 (2026-10-07 캠핑허브에서 연속 호출로 빈 결과가 캐시된 사고)
+// → 호출 사이 0.7초 간격, 초당 제한이면 3초 쉬고 최대 3번 재시도, 일일 한도면 오늘은 중단(캐시에 남기지 않음)
+const REQ_GAP_MS = 700;
+async function searchPhotos(keyword, attempt = 1) {
   if (calls >= DAILY_BUDGET) return null; // null = 예산 소진 (0건과 구분)
-  calls++;
+  if (attempt === 1) calls++;
+  await sleep(attempt === 1 ? REQ_GAP_MS : 3000);
   const params = new URLSearchParams({ serviceKey: KEY, numOfRows: "30", pageNo: "1", MobileOS: "ETC", MobileApp: "FestivalHub", _type: "json", arrange: "A", keyword });
   try {
     const res = await fetch(`https://apis.data.go.kr/B551011/PhotoGalleryService1/gallerySearchList1?${params}`, { signal: AbortSignal.timeout(20000) });
     const text = await res.text();
     if (!text.trim().startsWith("{")) throw new Error("JSON 아님: " + text.slice(0, 80));
     const data = JSON.parse(text);
-    if (data?.response?.header?.resultCode !== "0000") throw new Error(data?.response?.header?.resultMsg || data?.resultMsg || "API 에러");
+    const code = data?.OpenAPI_ServiceResponse?.cmmMsgHeader?.returnReasonCode;
+    if (code === "23" && attempt < 3) return searchPhotos(keyword, attempt + 1);
+    if (code === "22") throw new Error("일일 한도 초과 — 오늘은 중단");
+    if (data?.response?.header?.resultCode !== "0000") throw new Error(data?.response?.header?.resultMsg || data?.OpenAPI_ServiceResponse?.cmmMsgHeader?.errMsg || "API 에러");
     let items = data.response.body?.items?.item ?? [];
     if (!Array.isArray(items)) items = [items];
     return items.map((i) => ({
@@ -50,6 +58,8 @@ async function searchPhotos(keyword) {
     })).filter((i) => /^https?:\/\//.test(i.url));
   } catch (err) {
     console.log(`   ⚠️ 검색 실패 "${keyword}": ${err.message}`);
+    // 한도·제한 에러는 "결과 없음"이 아니라 "오늘은 못 찾음" → null로 돌려 캐시에 남기지 않고 루프를 멈춘다
+    if (/한도|제한|EXCEEDS/i.test(err.message)) { calls = DAILY_BUDGET; return null; }
     return [];
   }
 }
