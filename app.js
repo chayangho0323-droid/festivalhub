@@ -183,6 +183,7 @@ function render() {
             ? `<span class="badge ongoing">진행중</span>`
             : `<span class="badge upcoming">D-${dday}</span>`;
 
+      const wxBadge = festivalWeatherBadge(f);
       const cardImg = (f._pinned && f._pinImage) || f.image;
       // 축제 사진이 없으면 행사장 300m 안 관광지 사진을 "행사장 주변 풍경" 표시와 함께 보여준다 (fetch-festivals.js venuePhoto)
       const venueImg = !cardImg && f.venuePhoto && f.venuePhoto.image;
@@ -203,7 +204,7 @@ function render() {
             <button class="fav-heart${faved ? " faved" : ""}" data-id="${f.contentid}" aria-label="찜하기">${faved ? "❤️" : "🤍"}</button>
             ${img}
             <div class="card-body">
-              ${badge}
+              ${badge} ${wxBadge}
               <h2>${f.name}</h2>
               <p class="period">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)}</p>
               <p class="address">📍 ${f.address || "주소 정보 없음"}${
@@ -293,6 +294,53 @@ function fillRegionOptions() {
 }
 
 // ─── 시작: 데이터 불러오기 ──────────────────────────────────
+
+// ─── 축제 날씨 (build-pages.js가 만든 weather-summary.json: 개최지 시군구별 10일 + 시도별 주말 요약) ───
+// 카드에 "☀️ 축제날 좋음" 배지(축제 기간과 열흘 예보가 겹치는 날 중 나쁜 쪽), 상단에 "이번 주말 축제 날씨" 시도 칩
+let WX = null;
+const WX_ICON = { good: "☀️", soso: "⛅", rain: "🌧️" };
+const WX_LABEL = { good: "좋음", soso: "보통", rain: "비 예보" };
+const weatherKeyOf = (f) => { const t = String(f.address || "").split(" "); return `${t[0] || ""} ${t[1] || ""}`; };
+function festivalWeatherBadge(f) {
+  if (!WX || !f.startDate || !f.endDate) return "";
+  const days = (WX.areas[weatherKeyOf(f)] || []).filter((d) => d[0] >= f.startDate && d[0] <= f.endDate).slice(0, 3);
+  if (!days.length) return "";
+  const rank = { rain: 2, soso: 1, good: 0 };
+  const g = days.map((d) => d[2]).sort((x, y) => rank[y] - rank[x])[0];
+  const pop = Math.max(...days.map((d) => d[1] ?? 0));
+  const label = f.startDate <= todayStr() ? "축제 기간" : "축제날";
+  return `<span class="badge wx wx-${g}" title="${label} 비 확률 최대 ${pop}% (${days[0][0].slice(4, 6)}/${days[0][0].slice(6)}~)">${WX_ICON[g]} ${label} ${WX_LABEL[g]}</span>`;
+}
+function renderWeatherBanner() {
+  const el = document.getElementById("weather-banner");
+  if (!el || !WX || !WX.weekend.length) return;
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}(${d.dow})`;
+  const shortOf = (head) => { const hit = REGION_PREFIXES.find(([p]) => head.startsWith(p)); return hit ? hit[1] : head; };
+  const order = ["서울", "경기", "인천", "강원", "충북", "충남", "대전", "세종", "전북", "전남·광주", "경북", "대구", "경남", "부산", "울산", "제주"];
+  const bySido = {};
+  for (const [head, w] of Object.entries(WX.sido)) {
+    const s = shortOf(head);
+    const acc = (bySido[s] ||= { pop: 0, n: 0, grade: "good", tmn: [], tmx: [] });
+    acc.pop += w.pop * w.n; acc.n += w.n;
+    const rank = { rain: 2, soso: 1, good: 0 };
+    if (rank[w.grade] > rank[acc.grade]) acc.grade = w.grade;
+    if (w.tmn != null) acc.tmn.push(w.tmn); if (w.tmx != null) acc.tmx.push(w.tmx);
+  }
+  const avg = (arr) => (arr.length ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : null);
+  const chips = order.filter((s) => bySido[s]).map((s) => {
+    const w = bySido[s], slug = REGION_SLUGS[s], tmn = avg(w.tmn), tmx = avg(w.tmx);
+    return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${Math.round(w.pop / w.n)}% · 축제 개최지 ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${Math.round(w.pop / w.n)}%${tmn != null && tmx != null ? ` ${tmn}°/${tmx}°` : ""}</a>`;
+  }).join("");
+  const good = Object.values(bySido).filter((w) => w.grade === "good").length, total = Object.keys(bySido).length;
+  el.innerHTML = `<span class="wx-title">⛅ 이번 주말 <strong>${WX.weekend.map(md).join("·")}</strong> 축제 날씨</span> <span class="wx-sub">${good === total ? "전국 맑음 — 축제 가기 좋은 주말!" : good ? `${total}개 지역 중 ${good}곳 좋음` : "비 소식 있어요 — 우천 대비"}</span><span class="wx-chips">${chips}</span><span class="wx-foot">카드의 <b>☀️ 축제날</b> 배지는 열흘 안에 열리는 축제의 개최지 시군구 기준 · 상세 페이지에 축제 당일 예보 · 기상청 ${WX.updated} 발표</span>`;
+}
+async function loadWeather() {
+  try {
+    const res = await fetch("weather-summary.json");
+    if (res.ok) { WX = await res.json(); renderWeatherBanner(); if (allFestivals.length) render(); }
+  } catch (e) {}
+}
+loadWeather();
 
 async function init() {
   try {

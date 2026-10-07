@@ -224,6 +224,42 @@ let festivalNotes = [];
 try {
   festivalNotes = JSON.parse(fs.readFileSync("festival-notes.json", "utf-8"));
 } catch {}
+// ─── 축제 당일 날씨 (fetch-weather.js → weather.json, 개최지 시군구별 10일. 캠핑·펫트립과 같은 구조) ───
+// 축제 기간과 앞으로 10일이 겹치는 날만 보여준다. 겹치는 날이 없으면(먼 축제·끝난 축제) 섹션 자체를 안 만든다.
+let WEATHER = { updated: "", areas: {} };
+try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
+const weatherKeyOf = (f) => { const t = String(f.address || "").split(" "); return `${t[0] || ""} ${t[1] || ""}`; };
+function weatherHtml(f) {
+  const area = WEATHER.areas[weatherKeyOf(f)];
+  if (!area || !area.days || !f.startDate || !f.endDate) return "";
+  const days = area.days.filter((d) => d.date >= f.startDate && d.date <= f.endDate).slice(0, 7);
+  if (!days.length) return "";
+  const icon = (d) => (d.pty ? (/눈/.test(d.sky) ? "🌨️" : "🌧️") : d.pop >= 60 ? "🌧️" : d.sky === "맑음" ? "☀️" : d.sky === "흐림" ? "☁️" : "⛅");
+  const grade = (d) => (d.pty || d.pop >= 60 ? ["rain", "🌧️ 비 예보"] : d.pop >= 30 ? ["soso", "⛅ 보통"] : ["good", "☀️ 좋음"]);
+  const md = (d) => `${Number(d.date.slice(4, 6))}/${Number(d.date.slice(6))}`;
+  const temp = (d) => (d.tmn != null && d.tmx != null ? `${Math.round(d.tmn)}°/${Math.round(d.tmx)}°` : d.tmx != null ? `최고 ${Math.round(d.tmx)}°` : "");
+  const cells = days.map((d) => `<div class="wx-day${d.dow === "토" || d.dow === "일" ? " wx-weekend" : ""}"><span class="wx-dow">${md(d)} ${d.dow}</span><span class="wx-icon">${icon(d)}</span><span class="wx-pop">💧${d.pop != null ? d.pop + "%" : "-"}</span><span class="wx-temp">${temp(d)}</span></div>`).join("");
+  // 한 줄 요약: 축제 첫날(또는 오늘 이후 첫 축제일)과 주말
+  const head = days.slice(0, 3).map((d) => { const [cls, label] = grade(d); return `<span class="wx-grade ${cls}">${md(d)}(${d.dow}) ${label}</span> 비 ${d.pop ?? "-"}%`; }).join(" / ");
+  const tips = [];
+  if (days.some((d) => d.pty || d.pop >= 60)) tips.push(`☔ 축제 기간에 비 소식이 있어요. 야외 축제는 우천 시 프로그램이 취소·연기될 수 있으니 출발 전 공식 안내를 확인하고, <a href="../guide-rain.html">비 올 때 축제 가이드</a>를 참고하세요.`);
+  const minT = Math.min(...days.map((d) => (d.tmn != null ? d.tmn : 99)));
+  const maxT = Math.max(...days.map((d) => (d.tmx != null ? d.tmx : -99)));
+  if (minT <= 5) tips.push(`🧥 아침·밤 최저 ${Math.round(minT)}°예요. 저녁 공연·불꽃놀이까지 볼 계획이면 두꺼운 겉옷과 담요를 챙기세요.`);
+  else if (minT <= 12) tips.push(`🌙 해 지면 ${Math.round(minT)}° 안팎으로 쌀쌀해요. 야간 프로그램엔 겉옷 한 겹 더 준비하세요.`);
+  if (maxT >= 28) tips.push(`🥵 낮 최고 ${Math.round(maxT)}°예요. 모자·물·양산을 챙기고 그늘 쉼터 위치를 미리 봐 두세요.`);
+  const mid = days.some((d) => d.src === "mid");
+  const ongoing = f.startDate <= todayStr(); // todayYmd는 아래쪽에서 선언돼 여기선 못 씀
+  return `
+      <section class="overview weather-box">
+        <h2>⛅ 축제 ${ongoing ? "기간" : "당일"} 날씨 <span class="wx-where">(${esc(area.sigungu)} 기준)</span></h2>
+        <div class="wx-strip">${cells}</div>
+        <p class="wx-weekend-line">🎪 <strong>${ongoing ? "앞으로 축제일" : "축제 첫날부터"}</strong> — ${head}</p>
+        ${tips.map((t) => `<p class="wx-tip">${t}</p>`).join("")}
+        <p class="coupang-notice">기상청 단기·중기예보 (${esc(WEATHER.updated)} 발표) · ${esc(area.sigungu)} 기준이라 행사장 위치에 따라 다를 수 있어요${mid ? " · 4일 뒤부터는 권역 예보라 대략적인 값입니다" : ""}. 매일 새벽 갱신.</p>
+      </section>`;
+}
+
 function findFestivalNote(f) {
   // 2026-09-30부터 소개글 길이와 무관하게 붙인다 — 축제 이야기는 유래·볼거리·방문 팁이라 공식 소개와 역할이 다르고,
   // 노출 큰 대형 축제(지상군·포은문화제 등)에도 원본 콘텐츠가 필요하다 (애드센스 재심사 대비)
@@ -524,6 +560,7 @@ function buildPage(f, all) {
         ${infoRow("🔗", "홈페이지", homepage)}
       </div>
       ${f.corrected ? `<p class="coupang-notice">✏️ 주최 측 요청으로 정보를 정정했습니다 (${esc(String(f.corrected).slice(0, 10))}). 공공데이터와 다를 수 있으며, 이 페이지가 최신입니다.</p>` : ""}
+      ${weatherHtml(f)}
       ${noteSection}
       ${autoIntro}
       ${ADFIT_BODY}
@@ -1403,6 +1440,36 @@ console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
     .filter(Boolean)
     .sort((a, b) => b.pinnedUntil.localeCompare(a.pinnedUntil));
   fs.writeFileSync("pinned.json", JSON.stringify(pinned), "utf-8");
+
+  // ─── 메인 페이지용 날씨 요약 (weather-summary.json) — app.js가 카드 "☀️ 축제날 좋음" 배지와 상단 주말 띠를 그린다 ───
+  // areas: 시군구별 10일 [날짜, 비확률, 등급, 최저, 최고] / sido: 주말(토·일) 요약
+  {
+    const gradeOf = (d) => (d.pty || d.pop >= 60 ? "rain" : d.pop >= 30 ? "soso" : "good");
+    const summary = { updated: WEATHER.updated || "", weekend: [], areas: {}, sido: {} };
+    const sidoAcc = {};
+    for (const [key, area] of Object.entries(WEATHER.areas || {})) {
+      const days = area.days || [];
+      if (!days.length) continue;
+      summary.areas[key] = days.map((d) => [d.date, d.pop, gradeOf(d), d.tmn != null ? Math.round(d.tmn) : null, d.tmx != null ? Math.round(d.tmx) : null]);
+      const wk = days.filter((d) => d.dow === "토" || d.dow === "일").slice(0, 2);
+      if (!wk.length) continue;
+      if (!summary.weekend.length) summary.weekend = wk.map((d) => ({ date: d.date, dow: d.dow }));
+      const sido = key.split(" ")[0];
+      const acc = (sidoAcc[sido] ||= { pop: 0, n: 0, rain: 0, soso: 0, tmn: [], tmx: [] });
+      const rep = wk[0];
+      acc.pop += rep.pop || 0; acc.n++;
+      const g = wk.some((d) => gradeOf(d) === "rain") ? "rain" : wk.some((d) => gradeOf(d) === "soso") ? "soso" : "good";
+      if (g === "rain") acc.rain++; else if (g === "soso") acc.soso++;
+      if (rep.tmn != null) acc.tmn.push(rep.tmn); if (rep.tmx != null) acc.tmx.push(rep.tmx);
+    }
+    for (const [sido, a] of Object.entries(sidoAcc)) {
+      const avg = (arr) => (arr.length ? Math.round(arr.reduce((s, v) => s + v, 0) / arr.length) : null);
+      const grade = a.rain / a.n >= 0.5 ? "rain" : (a.rain + a.soso) / a.n >= 0.5 ? "soso" : "good";
+      summary.sido[sido] = { pop: Math.round(a.pop / a.n), grade, tmn: avg(a.tmn), tmx: avg(a.tmx), n: a.n };
+    }
+    fs.writeFileSync("weather-summary.json", JSON.stringify(summary), "utf-8");
+    console.log(`✅ weather-summary.json (시도 ${Object.keys(summary.sido).length}·시군구 ${Object.keys(summary.areas).length}, ${Math.round(JSON.stringify(summary).length / 1024)}KB)`);
+  }
   console.log(`📌 방문자 사진 고정 ${pinned.length}건 (pinned.json, ${VP.PIN_DAYS}일 고정)`);
 }
 
