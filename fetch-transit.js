@@ -11,6 +11,7 @@ const zlib = require("zlib");
 
 const STATION_MAX_M = 3000;
 const STOP_MAX_M = 800;
+const PARKING_MAX_M = 1500; // 주차장: 걸어서 20분 안
 
 const rad = (d) => (d * Math.PI) / 180;
 function distM(lat1, lng1, lat2, lng2) {
@@ -45,10 +46,14 @@ function main() {
   let stations = [], stops = [];
   try { stations = JSON.parse(fs.readFileSync("data/stations.json", "utf-8")); } catch { console.log("ℹ️ data/stations.json 없음 — 지하철역 생략"); }
   try { stops = JSON.parse(zlib.gunzipSync(fs.readFileSync("data/busstops.json.gz")).toString("utf-8")).stops; } catch { console.log("ℹ️ data/busstops.json.gz 없음 — 버스정류장 생략"); }
+  // 주차장: 전국주차장정보표준데이터 (fetch-parking.js → data/parking.json.gz) [이름,위도,경도,구분,유형,면수,요금,운영시간,운영일,전화]
+  let lots = [];
+  try { lots = JSON.parse(zlib.gunzipSync(fs.readFileSync("data/parking.json.gz")).toString("utf-8")).lots; } catch { console.log("ℹ️ data/parking.json.gz 없음 — 주차장 생략"); }
   const sg = buildGrid(stations, (s) => s.lat, (s) => s.lng);
   const bg = buildGrid(stops, (s) => s[1], (s) => s[2]);
+  const pg = buildGrid(lots, (s) => s[1], (s) => s[2]);
 
-  let withStation = 0, withStop = 0, cleared = 0;
+  let withStation = 0, withStop = 0, withLot = 0, cleared = 0;
   for (const f of festivals) {
     const lat = Number(f.lat), lng = Number(f.lng);
     if (!(lat > 33 && lng > 124)) { if (f.transit) { delete f.transit; cleared++; } continue; }
@@ -66,10 +71,16 @@ function main() {
     const seen = new Set(), picked = [];
     for (const x of bs) { if (seen.has(x.item[0])) continue; seen.add(x.item[0]); picked.push({ name: x.item[0], dist: x.dist, walkMin: Math.max(1, Math.round(x.dist / 67)) }); if (picked.length >= 2) break; }
     if (picked.length) { transit.stops = picked; withStop++; }
-    if (transit.station || transit.stops) f.transit = transit; else delete f.transit;
+    // 주차장: 1.5km 안 3곳. 같은 거리면 공영 우선 (민영은 300m 손해를 주고 정렬), 노상(길가) 주차는 뒤로
+    const pl = nearby(pg, lots, (s) => s[1], (s) => s[2], lat, lng, PARKING_MAX_M)
+      .sort((a, b) => (a.dist + (a.item[3] === "공영" ? 0 : 300) + (a.item[4] === "노상" ? 150 : 0)) - (b.dist + (b.item[3] === "공영" ? 0 : 300) + (b.item[4] === "노상" ? 150 : 0)))
+      .slice(0, 3)
+      .map((x) => ({ name: x.item[0], se: x.item[3], type: x.item[4], cap: x.item[5], fee: x.item[6], hours: x.item[7], days: x.item[8], tel: x.item[9], dist: x.dist, walkMin: Math.max(1, Math.round(x.dist / 67)) }));
+    if (pl.length) { transit.parking = pl; withLot++; }
+    if (transit.station || transit.stops || transit.parking) f.transit = transit; else delete f.transit;
   }
   fs.writeFileSync("festivals.json", JSON.stringify(festivals, null, 2), "utf-8");
-  console.log(`✅ 대중교통: 축제 ${festivals.length}건 중 지하철역(3km) ${withStation}건 · 버스정류장(800m) ${withStop}건${cleared ? ` · 좌표 없어 제거 ${cleared}` : ""}`);
+  console.log(`✅ 대중교통·주차: 축제 ${festivals.length}건 중 지하철역(3km) ${withStation}건 · 버스정류장(800m) ${withStop}건 · 주차장(1.5km) ${withLot}건${cleared ? ` · 좌표 없어 제거 ${cleared}` : ""}`);
 }
 
 try { main(); } catch (err) { console.error("❌ 대중교통 계산 실패 (기존 데이터는 그대로):", err.message); process.exit(0); }

@@ -454,14 +454,25 @@ function buildPage(f, all) {
 
   // ── 🚇 대중교통으로 가는 법 (fetch-transit.js: 3km 안 지하철역 + 800m 안 버스정류장, 직선거리·도보 환산) ──
   const t = f.transit || {};
-  const transitHtml = t.station || (t.stops && t.stops.length)
-    ? `<div class="transit-box">
-        <h3>🚇 대중교통으로 가는 법</h3>
+  // 이름을 누르면 네이버지도 검색 (track-clicks.js가 .transit-link → click_transit, .parking-link → click_parking 으로 집계)
+  const mapLink = (q, cls) => `<a class="${cls}" target="_blank" rel="noopener" href="https://map.naver.com/p/search/${encodeURIComponent(q)}">`;
+  const km = (m) => (m >= 1000 ? (m / 1000).toFixed(1) + "km" : m + "m");
+  const sigunguOf = (String(f.address || "").split(" ").slice(0, 2).join(" "));
+  const parkingHtml = t.parking && t.parking.length
+    ? `<h3>🅿️ 가까운 주차장</h3>
         <ul>
-          ${t.station ? `<li>🚈 <strong>${esc(t.station.name)}역</strong> (${t.station.lines.map(esc).join("·")}) 에서 <strong>${t.station.dist >= 1000 ? (t.station.dist / 1000).toFixed(1) + "km" : t.station.dist + "m"}</strong> · 도보 약 ${t.station.walkMin}분${t.station.dist > 1500 ? " (멀어서 역에서 버스·택시 환승 권장)" : ""}</li>` : ""}
-          ${(t.stops || []).map((s) => `<li>🚌 <strong>${esc(s.name)}</strong> 정류장 ${s.dist}m · 도보 약 ${s.walkMin}분</li>`).join("")}
-        </ul>
-        <p class="coupang-notice">행사장 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 노선·배차는 네이버지도에서 정류장 이름으로 검색하세요. 역 정보 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10).</p>
+          ${t.parking.map((p) => `<li>${mapLink(`${sigunguOf} ${p.name}`, "parking-link")}<strong>${esc(p.name)}</strong></a> <span class="transit-tag">${esc(p.se)}${p.type ? "·" + esc(p.type) : ""}</span> ${km(p.dist)} · 도보 약 ${p.walkMin}분${p.cap ? ` · ${p.cap}면` : ""}${p.fee ? ` · <b>${esc(p.fee)}</b>` : ""}${p.hours ? ` · ${esc(p.hours)}` : ""}</li>`).join("")}
+        </ul>`
+    : "";
+  const transitHtml = t.station || (t.stops && t.stops.length) || parkingHtml
+    ? `<div class="transit-box">
+        ${t.station || (t.stops && t.stops.length) ? `<h3>🚇 대중교통으로 가는 법</h3>
+        <ul>
+          ${t.station ? `<li>🚈 ${mapLink(`${t.station.name}역`, "transit-link")}<strong>${esc(t.station.name)}역</strong></a> (${t.station.lines.map(esc).join("·")}) 에서 <strong>${km(t.station.dist)}</strong> · 도보 약 ${t.station.walkMin}분${t.station.dist > 1500 ? " (멀어서 역에서 버스·택시 환승 권장)" : ""}</li>` : ""}
+          ${(t.stops || []).map((s) => `<li>🚌 ${mapLink(`${sigunguOf} ${s.name} 정류장`, "transit-link")}<strong>${esc(s.name)}</strong></a> 정류장 ${s.dist}m · 도보 약 ${s.walkMin}분</li>`).join("")}
+        </ul>` : ""}
+        ${parkingHtml}
+        <p class="coupang-notice">행사장 좌표 기준 직선거리라 실제 걷는 거리는 더 길 수 있어요. 이름을 누르면 네이버지도에서 위치·노선을 볼 수 있습니다. 축제 기간엔 임시 주차장·셔틀이 따로 운영되기도 하니 공식 안내를 먼저 확인하세요. 역 철도산업정보센터(2026.6) · 정류장 국토교통부(2025.10) · 주차장 행정안전부 전국주차장정보표준데이터(2026.4).</p>
       </div>`
     : "";
 
