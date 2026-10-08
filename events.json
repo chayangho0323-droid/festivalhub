@@ -481,19 +481,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "울주 Sing Sing 가요무대(3학기)",
-    "startDate": "20260826",
-    "endDate": "20261007",
-    "time": "15:00~16:30",
-    "place": "서울주문화센터 공연장",
-    "address": "울산광역시 울주군 언양읍 언양로 40-7",
-    "charge": "유료",
-    "desc": "매주 수요일, 가수 수근과 함께하는 노래교실과 미니 콘서트",
-    "tel": "052-980-2240",
-    "host": "울주문화재단",
-    "homepage": "http://www.ucf.or.kr"
-  },
-  {
     "name": "2026 지역전시 활성화 특별전시 《PYO Selection》",
     "startDate": "20260827",
     "endDate": "20261018",
@@ -726,58 +713,6 @@
     "tel": "",
     "host": "청주예총(청주미술협회)",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "평택시문화재단  - 마티네콘서트 (4회차)",
-    "startDate": "20261007",
-    "endDate": "20261007",
-    "time": "11:00~12:00",
-    "place": "북부문화예술회관 소극장",
-    "address": "경기도 평택시 경기대로 1366",
-    "charge": "유료",
-    "desc": "정오의 음악회",
-    "tel": "031-8053-3531",
-    "host": "평택시문화재단",
-    "homepage": "https://www.pccf.or.kr/main.do"
-  },
-  {
-    "name": "마티네 콘서트: 김영하 작가의 <여행의 이유, 그리고 음악>Ⅳ",
-    "startDate": "20261007",
-    "endDate": "20261007",
-    "time": "11:00~12:10",
-    "place": "강동아트센터 대극장 한강",
-    "address": "서울특별시 강동구 동남로 870",
-    "charge": "유료",
-    "desc": "클래식 음악과 함께 하는 마티네 콘서트",
-    "tel": "02-440-0500",
-    "host": "강동문화재단",
-    "homepage": "https://www.gdfac.or.kr/product/performance/258392"
-  },
-  {
-    "name": "제21회 소리아띠 국악단 정기연주회",
-    "startDate": "20261007",
-    "endDate": "20261007",
-    "time": "09:00~22:00",
-    "place": "대공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "소리아띠",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제942회 금정수요음악회 <호흡과 울림 - 오보에, 바순, 피아노 트리오>",
-    "startDate": "20261007",
-    "endDate": "20261007",
-    "time": "19:30~21:00",
-    "place": "금정문화회관 은빛샘홀",
-    "address": "부산광역시 금정구 체육공원로7",
-    "charge": "유료",
-    "desc": "실내악공연",
-    "tel": "051-519-5664",
-    "host": "금정문화회관",
-    "homepage": "http://art.geumjeong.go.kr/"
   },
   {
     "name": "원주시향 제205회 정기연주회",
