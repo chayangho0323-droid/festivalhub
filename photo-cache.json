@@ -404,6 +404,12 @@
     ],
     "checked": "20261007"
   },
+  "3382929": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
+  },
   "3399432": {
     "tier": 0,
     "query": "",
@@ -550,6 +556,12 @@
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "3554702": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
   },
   "3560787": {
     "tier": 0,
@@ -2245,5 +2257,59 @@
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "s4rq9kh": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
+  },
+  "s1uo2x0v": {
+    "tier": 2,
+    "query": "국향대전",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/16/1757316.jpg",
+        "title": "함평국향대전",
+        "keyword": "함평국화대전, 국화축제, 함평국향대전",
+        "location": "전남광주통합특별시 함평",
+        "month": "201211",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261009"
+  },
+  "stw3xf8": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
+  },
+  "s27t9vg": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
+  },
+  "sgpo9np": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261009"
+  },
+  "s1y939ad": {
+    "tier": 2,
+    "query": "강진만 생태공원",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/95/4070095.jpg",
+        "title": "강진만생태공원",
+        "keyword": "강진만생태공원,전라남도 강진군,자연생태관광지",
+        "location": "전남광주통합특별시 강진군 강진읍",
+        "month": "202506",
+        "photographer": "김지호"
+      }
+    ],
+    "checked": "20261009"
   }
 }

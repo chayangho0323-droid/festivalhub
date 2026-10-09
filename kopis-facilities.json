@@ -7254,5 +7254,125 @@
     "lng": 126.99308329999997,
     "tel": "02-760-1068",
     "homepage": "http://hall.skku.edu"
+  },
+  "FC002990": {
+    "name": "음악공간 중력장",
+    "address": "서울특별시 동작구 현충로 104(흑석동)",
+    "lat": 37.5074916,
+    "lng": 126.965005,
+    "tel": "010-8738-7721",
+    "homepage": "https://blog.naver.com/musicspacegf"
+  },
+  "FC003649": {
+    "name": "만천명월예술인가",
+    "address": "서울특별시 금천구 은행나무로 44 (시흥동)",
+    "lat": 37.4506977,
+    "lng": 126.9074454,
+    "tel": "02-6953-3490",
+    "homepage": "https://www.mcmw.art/"
+  },
+  "FC000426": {
+    "name": "보령문화예술회관",
+    "address": "충청남도 보령시 성주산로 101 (명천동)",
+    "lat": 36.3338172,
+    "lng": 126.61456599999997,
+    "tel": "",
+    "homepage": "https://www.brcn.go.kr/art.do"
+  },
+  "FC003441": {
+    "name": "공간울림연주홀",
+    "address": "대구광역시 수성구 범안로64길 18-9 (삼덕동)",
+    "lat": 35.8280059,
+    "lng": 128.6688245,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000755": {
+    "name": "철원군 화강문화센터",
+    "address": "강원도 철원군 서면 약수로 3 화강문화센터",
+    "lat": 38.2451525,
+    "lng": 127.42645429999993,
+    "tel": "033-450-5591",
+    "homepage": "https://hwagang.or.kr"
+  },
+  "FC001197": {
+    "name": "의성문화회관",
+    "address": "경상북도 의성군 의성읍 충효로 88",
+    "lat": 36.3554517,
+    "lng": 128.70273480000003,
+    "tel": "054-830-6931",
+    "homepage": "https://www.usc.go.kr/tour/sights/detail.tc?idx=27"
+  },
+  "FC004324": {
+    "name": "인천여관1965",
+    "address": "인천광역시 중구 신포로31번길 20 (관동3가)",
+    "lat": 37.4723417,
+    "lng": 126.6246791,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005114": {
+    "name": "국립부경대학교 대연캠퍼스",
+    "address": "부산광역시 남구 용소로 45 (대연동)",
+    "lat": 35.133998,
+    "lng": 129.105551,
+    "tel": "",
+    "homepage": "https://www.pknu.ac.kr/main"
+  },
+  "FC000161": {
+    "name": "민속극장풍류",
+    "address": "서울특별시 강남구 봉은사로 406 (삼성동)",
+    "lat": 37.5101779,
+    "lng": 127.04462250000006,
+    "tel": "02-3011-2178",
+    "homepage": "http://www.chf.or.kr/c4/sub1.jsp"
+  },
+  "FC000050": {
+    "name": "영주문화예술회관",
+    "address": "경상북도 영주시 가흥로 257 (가흥동)",
+    "lat": 36.8184005,
+    "lng": 128.60536649999995,
+    "tel": "054-639-5951",
+    "homepage": "http://art.yeongju.go.kr/"
+  },
+  "FC000738": {
+    "name": "부암아트홀",
+    "address": "서울특별시 종로구 자하문로 242 (부암동)",
+    "lat": 37.595711,
+    "lng": 126.9640743,
+    "tel": "02-391-9631",
+    "homepage": ""
+  },
+  "FC005043": {
+    "name": "서일대학교 배양관",
+    "address": "서울특별시 중랑구 용마산로90길 28 (면목동)",
+    "lat": 37.585636,
+    "lng": 127.09711,
+    "tel": "",
+    "homepage": "https://www.seoil.ac.kr/campusMap/seoil/4/view.do#this"
+  },
+  "FC002854": {
+    "name": "초록씨어터",
+    "address": "서울특별시 종로구 대학로 128(동숭동)",
+    "lat": 37.5827051,
+    "lng": 127.0021572,
+    "tel": "070-4870-1931",
+    "homepage": "https://parangtheatre.modoo.at/"
+  },
+  "FC001338": {
+    "name": "CJB미디어센터",
+    "address": "충청북도 청주시 서원구 1순환로 854",
+    "lat": 36.6199693,
+    "lng": 127.4679175,
+    "tel": "043-279-3845",
+    "homepage": "http://www.cjbmediacenter.co.kr"
+  },
+  "FC001444": {
+    "name": "GB성암아트홀",
+    "address": "서울특별시 강남구 선릉로111길 6 (논현동)",
+    "lat": 37.5110252,
+    "lng": 127.04299979999996,
+    "tel": "02-543-0826",
+    "homepage": "http://www.saart.co/kr/main.php"
   }
 }
