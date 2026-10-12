@@ -93,6 +93,16 @@ try {
 } catch (e) {
   console.log("⚠️ 캠핑허브 데이터를 가져오지 못해 이번 빌드는 근처 캠핑장 섹션을 생략합니다");
 }
+// ── 형제 사이트(펫트립허브) 데이터: 상세 페이지 "근처 애견동반 카페·식당" 섹션용 (2026-10-12, 펫트립 유입 끌어오기) ──
+let crossPets = [];
+try {
+  crossPets = JSON.parse(
+    execSync("curl -s -m 30 https://pettriphub.kr/pets-list.json", { maxBuffer: 20 * 1024 * 1024 }).toString("utf8")
+  ).filter((p) => p.lat && p.lng);
+  console.log(`🐾 펫트립허브 데이터 ${crossPets.length}곳 로드 (근처 애견동반 섹션용)`);
+} catch (e) {
+  console.log("⚠️ 펫트립허브 데이터를 가져오지 못해 이번 빌드는 근처 애견동반 섹션을 생략합니다");
+}
 
 // ── 아고다 제휴 (Site ID = 파트너센터의 추적 번호) ──
 // agoda-cities.json: 시군구 → [아고다 도시 ID, 호텔 수] 매핑 (2026-08-31 수집)
@@ -530,6 +540,28 @@ function buildPage(f, all) {
         .join("")}</div></section>`
     : "";
 
+  // ── 형제 사이트 연결: 근처 애견동반 카페·식당 (펫트립허브, 5km 안 4곳 — 사진 있는 곳·식약처 등록 우선) ──
+  const nearPets = hasCoords
+    ? crossPets
+        .map((p) => ({ ...p, dist: distKm(Number(f.lat), Number(f.lng), p.lat, p.lng) }))
+        .filter((p) => p.dist <= 5)
+        .sort((a, b) => (b.image ? 1 : 0) - (a.image ? 1 : 0) || (b.official ? 1 : 0) - (a.official ? 1 : 0) || a.dist - b.dist)
+        .slice(0, 4)
+    : [];
+  const petSection = nearPets.length
+    ? `<section class="nearby-section"><h2>🐾 근처 애견동반 카페·식당</h2><div class="nearby-row">${nearPets
+        .map(
+          (p) => `
+        <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener"
+           href="https://pettriphub.kr/place/${p.id}.html" title="펫트립허브에서 보기">
+          ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.name)}" loading="lazy" />` : `<div class="nearby-noimg">🐾</div>`}
+          <div class="nearby-name">${esc(p.name)}</div>
+          <div class="nearby-dist">📍 ${p.dist < 10 ? p.dist.toFixed(1) : Math.round(p.dist)}km · ${esc(p.category || "")}${p.official ? " · 식약처 등록" : ""} ↗</div>
+        </a>`
+        )
+        .join("")}</div><p class="coupang-notice">강아지와 축제에 왔다면 — 식약처에 반려동물 동반 음식점으로 등록된 곳 위주로 골랐어요. 자세한 동반 조건은 펫트립허브에서 확인하세요.</p></section>`
+    : "";
+
   const homepage = f.homepage
     ? `<a href="${esc(f.homepage)}" target="_blank" rel="noopener">${esc(f.homepage)}</a>`
     : "";
@@ -646,6 +678,7 @@ function buildPage(f, all) {
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
       ${nearbySection("주변 맛집", "🍜", f.nearbyFood)}
       ${campSection}
+      ${petSection}
       ${relatedSection(`${region} 지역의 다른 축제`, "🗺️", sameRegion)}
       ${relatedSection("비슷한 시기에 열리는 축제", "🗓️", similarTime)}
       ${
