@@ -626,7 +626,19 @@ async function main() {
 
   // 중복 합치기 (같은 이름+기간이 주소 표기 차이 등으로 두 번 들어온 경우 — dedupe-festivals.js)
   // 사라지는 ID는 festival-merges.json에 기록되어 build-pages.js가 이동 페이지를 만든다.
-  let allFestivals = [...festivals, ...stdFestivals];
+  // ── 수동 등록 축제 (manual-festivals.json) ──
+  // 관광공사·표준데이터 어디에도 없는 축제(제1회 신설 축제 등)를 우리 스키마 그대로 적어 두면 매일 합쳐진다.
+  // 2026-10-12: 방문자 사진 제보가 온 "제1회 여주 골목대빵축제"가 두 공공데이터 모두에 없어서 도입.
+  // 같은 contentid가 공공데이터에 생기면 공공데이터 쪽을 쓰고 수동 항목은 건너뛴다.
+  let manualFestivals = [];
+  try {
+    const seen = new Set([...festivals, ...stdFestivals].map((f) => String(f.contentid)));
+    manualFestivals = JSON.parse(fs.readFileSync("manual-festivals.json", "utf-8"))
+      .filter((m) => m.contentid && m.name && m.startDate && m.endDate && !seen.has(String(m.contentid)))
+      .map((m) => ({ images: [], extraInfo: [], nearbySpots: [], nearbyFood: [], playtime: "", usefee: "", tel: "", homepage: "", eventplace: "", sponsor: "", image: "", overview: "", ...m, source: "manual" }));
+    if (manualFestivals.length) console.log(`✍️ 수동 등록 축제 ${manualFestivals.length}건 합침`);
+  } catch {}
+  let allFestivals = [...festivals, ...stdFestivals, ...manualFestivals];
   let mergedIds = new Set();
   try {
     const { dedupeFestivals } = require("./dedupe-festivals");
