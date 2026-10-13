@@ -331,7 +331,7 @@ function renderWeatherBanner() {
   const avg = (arr) => (arr.length ? Math.round(arr.reduce((a, b) => a + b, 0) / arr.length) : null);
   const chips = order.filter((s) => bySido[s]).map((s) => {
     const w = bySido[s], slug = REGION_SLUGS[s], tmn = avg(w.tmn), tmx = avg(w.tmx);
-    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}</i>` : "";
+    const pm = w.pm ? ` <i class="wx-pm-mini ${/매우/.test(w.pm) ? "pm3" : /나쁨/.test(w.pm) ? "pm2" : /보통/.test(w.pm) ? "pm1" : "pm0"}">😷 먼지 ${w.pm}${w.pmBasis ? ` (${["일","월","화","수","목","금","토"][new Date(w.pmBasis.slice(0,4)+"-"+w.pmBasis.slice(4,6)+"-"+w.pmBasis.slice(6)+"T00:00:00").getDay()]} 기준)` : ""}</i>` : "";
     return `<a class="wx-chip wx-${w.grade}" href="${slug ? `region-${slug}.html` : "#"}" title="${s} 토요일 비 확률 ${Math.round(w.pop / w.n)}%${w.pm ? ` · 주말 미세먼지 ${w.pm}` : ""} · 축제 개최지 ${w.n}개 시군구 기준">${WX_ICON[w.grade]} ${s} ${Math.round(w.pop / w.n)}%${tmn != null && tmx != null ? ` ${tmn}°/${tmx}°` : ""}${pm}</a>`;
   }).join("");
   const good = Object.values(bySido).filter((w) => w.grade === "good").length, total = Object.keys(bySido).length;
