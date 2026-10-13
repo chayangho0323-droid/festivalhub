@@ -1493,6 +1493,9 @@ for (const g of GUIDE_PAGES) {
     const captions = items.map((p) => p.caption).filter(Boolean);
     const photoN = items.filter((p) => !p.video).length, videoN = items.filter((p) => p.video).length;
     const body = review || captions.slice(0, 2).join(" · ") || `${esc(f.name)} 현장 사진`;
+    // 촬영 장소(place)가 있으면 데이터 주소 대신 그걸 보여준다 — 백제문화제처럼 공주·부여 두 곳에서 열리는 축제용
+    const place = (items.find((p) => p.place) || {}).place || "";
+    const where = place || String(f.address || "").split(" ").slice(0, 2).join(" ");
     return `
       <article class="vp-card" id="p-${i}" data-fest="${esc(id)}" tabindex="0" role="button" aria-label="${esc(credit)} 님의 ${esc(f.name)} 제보 보기">
         <div class="vp-head">
@@ -1500,7 +1503,7 @@ for (const g of GUIDE_PAGES) {
           <div class="vp-who">
             <p class="vp-name">${esc(credit)} <span>님</span></p>
             <p class="vp-fest">🎪 ${esc(f.name)}</p>
-            <p class="vp-count">📷 사진 ${photoN}장${videoN ? ` · 🎬 영상 ${videoN}개` : ""}</p>
+            <p class="vp-count">📍 ${esc(where)} · 📷 ${photoN}장${videoN ? ` · 🎬 ${videoN}개` : ""}</p>
           </div>
         </div>
         <div class="vp-body">
@@ -1510,7 +1513,7 @@ for (const g of GUIDE_PAGES) {
         <template class="vp-tpl">
           <div class="vp-modal-head">
             <h2>${esc(f.name)}</h2>
-            <p class="gc-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""} · 제보 ${fmtD(String(date))}</p>
+            <p class="gc-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(where)}${f.endDate < todayYmd ? " · 종료" : ""} · 제보 ${fmtD(String(date))}</p>
           </div>
           ${VP.galleryHtml(items, { name: f.name, href: reportMailto(f) })}
           <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a></p>
