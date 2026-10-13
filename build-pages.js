@@ -206,7 +206,7 @@ function footerHtml(prefix = "") {
   return `
   <footer class="site-footer">
     <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
-    <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a></p>
+    <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a> · <a href="${prefix}gallery.html">📸 방문자 사진·후기</a></p>
     <p>📚 축제 가이드: <a href="${prefix}picks-2026-10.html">10월 추천 15선</a> · <a href="${prefix}guide-checklist.html">준비물</a> · <a href="${prefix}guide-rain.html">비 올 때</a> · <a href="${prefix}guide-parking.html">주차·셔틀</a> · <a href="${prefix}guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>`;
@@ -963,6 +963,7 @@ const todayYmd = todayStr();
   SITE_NAV = `
   <nav class="quick-links sticky-desktop">
     <a class="chip chip-hot" href="weekend.html">🔥 이번 주말</a>
+    <a class="chip chip-photo" href="gallery.html">📸 방문자 사진</a>
     ${fs.existsSync(path.join(__dirname, "performances.json")) ? `<a class="chip chip-events" href="shows.html">🎭 공연</a>` : fs.existsSync(path.join(__dirname, "events.json")) ? `<a class="chip chip-events" href="events.html">🎭 공연·행사</a>` : ""}
     ${navMonths.map((d) => `<a class="chip" href="month-${d.y}-${d.mm}.html">${d.m}월</a>`).join("")}
     ${navThemes.map((t) => `<a class="chip" href="theme-${t.slug}.html">${t.icon} ${t.chip}</a>`).join("")}
@@ -1464,6 +1465,64 @@ for (const g of GUIDE_PAGES) {
   fs.writeFileSync(filename, articlePage({ filename, title: g.title, desc: g.desc, icon: g.icon, bodyHtml: g.body }), "utf-8");
   guideFiles.push(filename);
 }
+// ─── 📸 방문자 사진·후기 모음 (gallery.html) ───
+// 7일 상단 고정이 끝난 제보도 사라지지 않고 여기 쌓인다 (2026-10-12 사용자 요청). 최근 제보 축제가 위.
+{
+  const byId = Object.fromEntries([...festivals, ...archivedFestivals].map((f) => [String(f.contentid), f]));
+  const entries = Object.entries(visitorPhotos)
+    .map(([id, list]) => ({ id, f: byId[id], list: Array.isArray(list) ? list : [list], latest: Math.max(...(Array.isArray(list) ? list : [list]).map((p) => Number(p.date || 0))) }))
+    .filter((e) => e.f && e.list.length)
+    .sort((a, b) => b.latest - a.latest);
+  const totalPhotos = entries.reduce((s, e) => s + e.list.length, 0);
+  const contributors = new Set(entries.flatMap((e) => e.list.map((p) => p.credit).filter(Boolean))).size;
+  const fmtD = (d) => (d ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6, 8)}` : "");
+  const sections = entries.map(({ id, f, list, latest }) => `
+      <section class="gallery-fest" id="f-${esc(id)}">
+        <h2><a href="festival/${esc(id)}.html">${esc(f.name)}</a> <span class="gallery-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""}</span></h2>
+        <p class="gallery-when">제보 ${fmtD(String(latest))} · 사진 ${list.filter((p) => !p.video).length}장${list.some((p) => p.video) ? " · 영상 포함" : ""}</p>
+        ${VP.galleryHtml(list, { name: f.name, href: reportMailto(f) })}
+        <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a></p>
+      </section>`).join("");
+  const desc = `축제에 다녀온 분들이 보내주신 현장 사진과 후기 ${totalPhotos}장을 축제별로 모았습니다. 공공데이터에 없는 진짜 현장 분위기를 확인하세요.`;
+  fs.writeFileSync("gallery.html", `<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>방문자 사진·후기 모음 — 다녀온 분들이 보내준 축제 현장 | FestivalHub</title>
+  <meta name="description" content="${esc(desc)}" />
+  <link rel="canonical" href="${SITE_URL}/gallery.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="방문자 사진·후기 모음 | FestivalHub" />
+  <meta property="og:description" content="${esc(desc)}" />
+  <meta property="og:url" content="${SITE_URL}/gallery.html" />
+  ${entries[0] ? `<meta property="og:image" content="${esc(VP.firstImage(entries[0].list) || "")}" />` : ""}
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
+  ${GA_SNIPPET}
+</head>
+<body>
+  <header class="site-header">
+    <h1>📸 방문자 사진·후기</h1>
+    <p class="subtitle">다녀온 분들이 보내주신 축제 현장 — ${entries.length}개 축제, 사진 ${totalPhotos}장, 제보자 ${contributors}명</p>
+    <p class="home-link"><a href="index.html">← 전체 축제 보기</a></p>
+  </header>
+  ${SITE_NAV}
+  <main class="detail-container gallery-page">
+    <p class="gallery-intro">축제 페이지 상단에 7일 동안 고정됐던 제보 사진이 여기에 계속 남습니다. 사진을 누르면 크게 볼 수 있고, 닉네임은 제보해 주신 분이 정한 이름이에요. 내 사진도 올리고 싶다면 아래 띠의 버튼을 눌러 보내 주세요.</p>
+    ${photoCallHtml(null)}
+    ${sections || `<p class="gallery-intro">아직 제보 사진이 없어요. 첫 제보의 주인공이 되어 주세요!</p>`}
+  </main>
+  <a class="to-top" href="#" aria-label="맨 위로">↑</a>
+  ${footerHtml("")}
+  <script src="track-clicks.js"></script>
+  <script src="report.js?v=${BUILD_VER}"></script>
+</body>
+</html>`, "utf-8");
+  guideFiles.push("gallery.html"); // 사이트맵 포함
+  console.log(`✅ gallery.html (방문자 사진 ${totalPhotos}장, 축제 ${entries.length}개)`);
+}
+
 // 에디터 추천: 키로 현재 데이터에서 축제를 찾아 카드로 (종료·미수집 축제는 건너뜀)
 const pickToday = todayStr();
 for (const pk of PICKS) {

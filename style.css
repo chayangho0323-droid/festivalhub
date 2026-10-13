@@ -1023,3 +1023,16 @@ body {
 .transit-box a:hover { text-decoration: underline; }
 .transit-box .transit-tag { display: inline-block; padding: 0 6px; border-radius: 999px; background: #e3e9f5; color: #2c3e8f; font-size: .78rem; }
 .transit-box h3 + ul { margin-bottom: 10px; }
+
+/* 📸 방문자 사진·후기 모음 페이지 (gallery.html) */
+.chip.chip-photo { background: #fff3e0; border-color: #ffcc80; color: #a0522d; }
+.gallery-page { max-width: 900px; margin: 0 auto; padding: 0 16px 40px; }
+.gallery-intro { background: #fff; border-radius: 12px; padding: 14px 18px; line-height: 1.75; color: #444; margin: 0 0 14px; }
+.gallery-fest { background: #fff; border-radius: 14px; padding: 18px 20px 14px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,.05); }
+.gallery-fest h2 { font-size: 1.15rem; margin: 0 0 4px; line-height: 1.5; }
+.gallery-fest h2 a { color: #1f2937; text-decoration: none; }
+.gallery-fest h2 a:hover { text-decoration: underline; }
+.gallery-fest .gallery-meta { display: block; font-size: .85rem; font-weight: 400; color: #667; margin-top: 2px; }
+.gallery-fest .gallery-when { margin: 0 0 8px; font-size: .82rem; color: #889; }
+.gallery-fest .gallery-link { margin: 10px 0 0; text-align: right; }
+.gallery-fest .gallery-link a { color: #4756c9; font-weight: 600; text-decoration: none; font-size: .92rem; }
