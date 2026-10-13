@@ -2922,5 +2922,42 @@
   "status": 200,
   "checkedAt": "2026-10-13T07:59:47.832Z",
   "final": "https://www.bsseogu.go.kr/tour/index.bsseogu"
+ },
+ "https://blog.naver.com/dgdonggu/224428311829": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-13T23:36:19.638Z"
+ },
+ "https://blog.naver.com/onon0313": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-13T23:36:19.638Z"
+ },
+ "https://yctf.kr/festivals/ywaf2026": {
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-13T23:36:19.638Z"
+ },
+ "https://daedeokfestival.com/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-13T23:36:19.638Z"
+ },
+ "https://www.instagram.com/culture__art/": {
+  "state": "unknown",
+  "status": 429,
+  "checkedAt": "2026-10-13T23:36:19.638Z"
+ },
+ "https://www.visitbusan.net/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-13T23:36:19.638Z",
+  "final": "http://www.visitbusan.net/index.do"
+ },
+ "https://wj.nonghyup.com/": {
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-10-13T23:36:19.638Z",
+  "error": "20"
  }
 }

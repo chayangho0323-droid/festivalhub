@@ -7558,5 +7558,173 @@
     "lng": null,
     "tel": "",
     "homepage": "https://www.kyoceradome-osaka.jp/"
+  },
+  "FC000742": {
+    "name": "고흥문화회관",
+    "address": "전남광주통합특별시 고흥군 고흥읍 고흥로 1892-67",
+    "lat": 34.6128268,
+    "lng": 127.29753310000001,
+    "tel": "061-830-6712",
+    "homepage": "https://www.goheung.go.kr/culture/contentsView.do?pageId=culture2"
+  },
+  "FC002946": {
+    "name": "라이브클럽 빵",
+    "address": "서울특별시 마포구 와우산로29길 12(서교동)",
+    "lat": 37.5548556,
+    "lng": 126.9292978,
+    "tel": "02-6081-1089",
+    "homepage": "https://www.facebook.com/Clubbbang"
+  },
+  "FC005124": {
+    "name": "아이코닉미디어",
+    "address": "서울특별시 강남구 도산대로28길 36 (논현동)",
+    "lat": 37.517007,
+    "lng": 127.028682,
+    "tel": "",
+    "homepage": "https://www.instagram.com/iconicmedialive/"
+  },
+  "FC003143": {
+    "name": "살판마을극장",
+    "address": "경기도 의정부시 신흥로258번길 25(의정부동)",
+    "lat": 37.739338,
+    "lng": 127.0448628,
+    "tel": "031-871-2953",
+    "homepage": "www.salpan.com"
+  },
+  "FC003903": {
+    "name": "CLUB VICTIM",
+    "address": "서울특별시 마포구 와우산로 53 (상수동)",
+    "lat": 37.5492543,
+    "lng": 126.9228672,
+    "tel": "02-322-8487",
+    "homepage": ""
+  },
+  "FC002273": {
+    "name": "더 바이널 언더그라운드",
+    "address": "부산광역시 남구 수영로322번길 32 (대연동)",
+    "lat": 35.1363864,
+    "lng": 129.1019273,
+    "tel": "051-628-0223",
+    "homepage": ""
+  },
+  "FC000274": {
+    "name": "부산가톨릭센터",
+    "address": "부산광역시 중구 중구로 71 (대청동4가)",
+    "lat": 35.1042682,
+    "lng": 129.02854819999993,
+    "tel": "051-462-1870",
+    "homepage": "http://www.bccenter.or.kr/"
+  },
+  "FC005047": {
+    "name": "스케네웨이 [홍대]",
+    "address": "서울특별시 마포구 와우산로 76 (서교동)",
+    "lat": 37.551129,
+    "lng": 126.923539,
+    "tel": "",
+    "homepage": "https://www.instagram.com/skene_way"
+  },
+  "FC004608": {
+    "name": "듈스튜디오",
+    "address": "서울특별시 마포구 잔다리로 20 (서교동)",
+    "lat": 37.550944,
+    "lng": 126.920832,
+    "tel": "",
+    "homepage": "https://blog.naver.com/dulestudio"
+  },
+  "FC002232": {
+    "name": "울진군문화센터",
+    "address": "경상북도 울진군 울진읍 연호로 47",
+    "lat": 36.994688,
+    "lng": 129.4064616,
+    "tel": "054-789-5483",
+    "homepage": ""
+  },
+  "FC005122": {
+    "name": "허밋",
+    "address": "서울특별시 마포구 양화로6길 27 (서교동)",
+    "lat": 37.549174,
+    "lng": 126.915675,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004302": {
+    "name": "스페이스 고도",
+    "address": "부산광역시 중구 40계단길 7 (중앙동4가)",
+    "lat": 35.1040668,
+    "lng": 129.0350862,
+    "tel": "",
+    "homepage": "https://www.instagram.com/tcgodot/"
+  },
+  "FC002241": {
+    "name": "오방가르드",
+    "address": "부산광역시 남구 용소로7번길 15-1 (대연동)",
+    "lat": 35.1372204,
+    "lng": 129.1010229,
+    "tel": "",
+    "homepage": "https://www.facebook.com/Ovantgarde/"
+  },
+  "FC005121": {
+    "name": "태안문화원",
+    "address": "충청남도 태안군 태안읍 백화로 192",
+    "lat": 36.755136,
+    "lng": 126.311187,
+    "tel": "",
+    "homepage": "https://www.cnkccf.or.kr/taean/kor/main.do"
+  },
+  "FC005120": {
+    "name": "카페 카르마 [경산]",
+    "address": "경상북도 경산시 장산로 217 (계양동)",
+    "lat": 35.819335,
+    "lng": 128.748516,
+    "tel": "",
+    "homepage": "https://www.instagram.com/lounge_karma/"
+  },
+  "FC005119": {
+    "name": "중앙선 1942 안동역",
+    "address": "경상북도 안동시 경동로 684 (운흥동)",
+    "lat": 36.562708,
+    "lng": 128.732932,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001207": {
+    "name": "컬쳐씨어터(구. 휴먼시어터)",
+    "address": "서울특별시 종로구 대학로8가길 80 (동숭동)",
+    "lat": 37.5824518,
+    "lng": 127.00325190000001,
+    "tel": "010-9012-6001",
+    "homepage": ""
+  },
+  "FC000841": {
+    "name": "콘텐츠박스(구. 르메이에르 씨어터)",
+    "address": "서울특별시 종로구 동숭길 55 (동숭동)",
+    "lat": 37.5807178,
+    "lng": 127.00416599999994,
+    "tel": "02-747-2232",
+    "homepage": ""
+  },
+  "FC003396": {
+    "name": "오마이갓 전용관",
+    "address": "서울특별시 종로구 동숭길 68 (동숭동)",
+    "lat": 37.5813131,
+    "lng": 127.0043055,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002313": {
+    "name": "순천시 문화건강센터",
+    "address": "전남광주통합특별시 순천시 중앙로 232 (석현동)",
+    "lat": 34.966737,
+    "lng": 127.4865367,
+    "tel": "061-749-6784",
+    "homepage": "https://www.schc.go.kr/sclc/index.jsp"
+  },
+  "FC000474": {
+    "name": "천안시청 봉서홀",
+    "address": "충청남도 천안시 서북구 번영로 156 (불당동)",
+    "lat": 36.8156927,
+    "lng": 127.11368679999998,
+    "tel": "00-1577-3900",
+    "homepage": ""
   }
 }

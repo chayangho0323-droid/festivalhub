@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
-  <link rel="stylesheet" href="../report.css?v=20261013" />
+  <link rel="stylesheet" href="../report.css?v=20261014" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Festival","name":"연천율무축제","startDate":"2026-10-23","endDate":"2026-10-25","description":"연천율무축제는 연천군의 대표 농특산물인 율무와 지역의 다양한 청정 먹거리를 주제로 열리는 지역 축제이다. 남쪽의 비옥한 토지와 북쪽의 깨끗한 물에서 정성껏 생산된 연천 율무를 비롯한 농특산물을 한자리에서 소개하고 판매하는 행사이다. 축제장에서는 농산물 판매와 함께 농경","image":["https://tong.visitkorea.or.kr/cms/resource/82/4105782_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/81/4105781_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/83/4105783_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/84/4105784_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/85/4105785_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/86/4105786_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/87/4105787_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/88/4105788_image2_1.jpg","https://tong.visitkorea.or.kr/cms/resource/89/4105789_image2_1.jpg"],"url":"https://festivalhub.kr/festival/2591661.html","location":{"@type":"Place","name":"연천 전곡리 선사유적지","address":"경기도 연천군 전곡읍 전곡리","geo":{"@type":"GeoCoordinates","latitude":38.014587,"longitude":127.061362}}}</script>
@@ -40,7 +40,7 @@
     <div class="detail-body">
       <span class="badge upcoming">예정</span>
       <h1>연천율무축제</h1>
-      <p class="coupang-notice">ℹ️ 이 축제는 한국관광공사 공식 목록에서 내려갔거나 일정이 변경된 상태일 수 있어요. 방문 전 주최 측에 일정을 꼭 확인해 주세요.</p>
+      
       <div class="actions">
         <button id="fav-btn" class="action-btn">🤍 찜하기</button>
         <a class="action-btn" id="cal-btn" href="#" target="_blank" rel="noopener">📆 캘린더에 추가</a>
@@ -58,6 +58,13 @@
       </div>
       
       
+      <section class="overview weather-box">
+        <h2>⛅ 축제 당일 날씨 <span class="wx-where">(연천군 기준)</span></h2>
+        <div class="wx-strip"><div class="wx-day"><span class="wx-dow">10/23 금</span><span class="wx-icon">☀️</span><span class="wx-pop">💧10%</span><span class="wx-temp">7°/17°</span></div></div>
+        <p class="wx-weekend-line">🎪 <strong>축제 첫날부터</strong> — <span class="wx-grade good">10/23(금) ☀️ 좋음</span> 비 10%</p>
+        <p class="wx-tip">🌙 해 지면 7° 안팎으로 쌀쌀해요. 야간 프로그램엔 겉옷 한 겹 더 준비하세요.</p>
+        <p class="coupang-notice">기상청 단기·중기예보 (2026-10-14 08:00 발표) · 연천군 기준이라 행사장 위치에 따라 다를 수 있어요 · 4일 뒤부터는 권역 예보라 대략적인 값입니다. 매일 새벽 갱신.</p>
+      </section>
       
       
       
@@ -101,12 +108,6 @@
       </div></section>
       <section class="nearby-section"><h2>🏞️ 주변 관광지</h2><div class="nearby-row">
         <a class="nearby-card nearby-link" target="_blank" rel="noopener"
-           href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%ED%95%9C%ED%83%84%EA%B0%95%20%EA%B4%80%EA%B4%91%EC%A7%80" title="네이버지도에서 보기">
-          <img src="http://tong.visitkorea.or.kr/cms/resource/51/3390051_image2_1.JPG" alt="한탄강 관광지" loading="lazy" />
-          <div class="nearby-name">한탄강 관광지</div>
-          <div class="nearby-dist">📍 665m · 지도 보기</div>
-        </a>
-        <a class="nearby-card nearby-link" target="_blank" rel="noopener"
            href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%EC%97%B4%EB%91%90%EA%B0%9C%EC%9A%B8" title="네이버지도에서 보기">
           <img src="http://tong.visitkorea.or.kr/cms/resource/47/3537547_image2_1.jpg" alt="열두개울" loading="lazy" />
           <div class="nearby-name">열두개울</div>
@@ -129,6 +130,12 @@
           <img src="http://tong.visitkorea.or.kr/cms/resource/93/2616493_image2_1.bmp" alt="좌상바위 (한탄강 유네스코 세계지질공원)" loading="lazy" />
           <div class="nearby-name">좌상바위 (한탄강 유네스코 세계지질공원)</div>
           <div class="nearby-dist">📍 4.5km · 지도 보기</div>
+        </a>
+        <a class="nearby-card nearby-link" target="_blank" rel="noopener"
+           href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%ED%91%B8%EB%A5%B4%EB%82%B4%EB%A7%88%EC%9D%84%20%5B%EB%86%8D%EC%B4%8C%EC%B2%B4%ED%97%98%5D" title="네이버지도에서 보기">
+          <img src="http://tong.visitkorea.or.kr/cms/resource/22/2566722_image2_1.jpg" alt="푸르내마을 [농촌체험]" loading="lazy" />
+          <div class="nearby-name">푸르내마을 [농촌체험]</div>
+          <div class="nearby-dist">📍 4.6km · 지도 보기</div>
         </a></div></section>
       <section class="nearby-section"><h2>🍜 주변 맛집</h2><div class="nearby-row">
         <a class="nearby-card nearby-link" target="_blank" rel="noopener"
@@ -156,10 +163,10 @@
           <div class="nearby-dist">📍 4.2km · 지도 보기</div>
         </a>
         <a class="nearby-card nearby-link" target="_blank" rel="noopener"
-           href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%EC%97%B0%EC%B2%9C%ED%9A%8C%EA%B4%80" title="네이버지도에서 보기">
-          <img src="http://tong.visitkorea.or.kr/cms/resource/89/2783189_image2_1.jpg" alt="연천회관" loading="lazy" />
-          <div class="nearby-name">연천회관</div>
-          <div class="nearby-dist">📍 7.1km · 지도 보기</div>
+           href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%97%B0%EC%B2%9C%EA%B5%B0%20%EB%B6%88%ED%83%84%EC%86%8C%EA%B0%80%EB%93%A0" title="네이버지도에서 보기">
+          <img src="http://tong.visitkorea.or.kr/cms/resource/78/2833678_image2_1.jpg" alt="불탄소가든" loading="lazy" />
+          <div class="nearby-name">불탄소가든</div>
+          <div class="nearby-dist">📍 7.6km · 지도 보기</div>
         </a></div></section>
       <section class="nearby-section"><h2>🏕️ 근처 캠핑장</h2><div class="nearby-row">
         <a class="nearby-card nearby-link cross-link" target="_blank" rel="noopener"
@@ -199,6 +206,11 @@
         <div class="nearby-name">여주오곡나루축제</div>
         <div class="nearby-dist">2026.10.23 ~</div>
       </a>
+      <a class="nearby-card nearby-link" href="3547712.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/91/4118191_image2_1.jpg" alt="한미친선 문화 한마당" loading="lazy" />
+        <div class="nearby-name">한미친선 문화 한마당</div>
+        <div class="nearby-dist">2026.10.24 ~</div>
+      </a>
       <a class="nearby-card nearby-link" href="3019085.html">
         <img src="https://tong.visitkorea.or.kr/cms/resource/07/4111607_image2_1.jpg" alt="2026 이천펫축제" loading="lazy" />
         <div class="nearby-name">2026 이천펫축제</div>
@@ -207,11 +219,6 @@
       <a class="nearby-card nearby-link" href="sggef0h.html">
         <div class="nearby-noimg">🎪</div>
         <div class="nearby-name">2026 김포 선셋 페스타</div>
-        <div class="nearby-dist">2026.10.24 ~</div>
-      </a>
-      <a class="nearby-card nearby-link" href="stw3xf8.html">
-        <div class="nearby-noimg">🎪</div>
-        <div class="nearby-name">평택 원평나루 억새축제</div>
         <div class="nearby-dist">2026.10.24 ~</div>
       </a></div></section>
       <section class="nearby-section"><h2>🗓️ 비슷한 시기에 열리는 축제</h2><div class="nearby-row">
@@ -225,14 +232,14 @@
         <div class="nearby-name">김천김밥축제</div>
         <div class="nearby-dist">2026.10.23 ~</div>
       </a>
-      <a class="nearby-card nearby-link" href="2484237.html">
-        <img src="https://tong.visitkorea.or.kr/cms/resource/94/4110494_image2_1.jpg" alt="라라라 페스티벌" loading="lazy" />
-        <div class="nearby-name">라라라 페스티벌</div>
+      <a class="nearby-card nearby-link" href="2952467.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/33/4119933_image2_1.jpg" alt="대덕대청호물결축제" loading="lazy" />
+        <div class="nearby-name">대덕대청호물결축제</div>
         <div class="nearby-dist">2026.10.23 ~</div>
       </a>
-      <a class="nearby-card nearby-link" href="506616.html">
-        <img src="https://tong.visitkorea.or.kr/cms/resource/11/4039211_image2_1.jpg" alt="서귀포칠십리축제" loading="lazy" />
-        <div class="nearby-name">서귀포칠십리축제</div>
+      <a class="nearby-card nearby-link" href="638576.html">
+        <img src="https://tong.visitkorea.or.kr/cms/resource/06/4114406_image2_1.JPG" alt="대한민국 국향대전" loading="lazy" />
+        <div class="nearby-name">대한민국 국향대전</div>
         <div class="nearby-dist">2026.10.23 ~</div>
       </a></div></section>
       <section class="nearby-section coupang-section">
@@ -258,6 +265,6 @@
   </script>
   <script src="../festival-page.js"></script>
   <script src="../track-clicks.js"></script>
-  <script src="../report.js?v=20261013"></script>
+  <script src="../report.js?v=20261014"></script>
 </body>
 </html>
