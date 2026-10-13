@@ -908,6 +908,39 @@ try {
     if (!festRedirects.some((r) => r.from === m.from)) festRedirects.push({ from: m.from, to: m.to, name: m.name });
   }
 } catch {}
+// 아카이브 안의 같은 축제 중복(관광공사 ID + 표준데이터 임시 ID가 둘 다 보존된 경우, 또는 같은 ID가 두 번) 정리.
+// 2026-10-13 애드센스 재신청 점검에서 51그룹·108쪽 발견 — 소개 10~80자짜리 얇은 쪽을 풍부한 쪽으로 이동 페이지 처리 ("복제 콘텐츠" 신호 제거)
+{
+  const seenIds = new Set();
+  archivedFestivals = archivedFestivals.filter((a) => (seenIds.has(a.contentid) ? false : (seenIds.add(a.contentid), true)));
+  const richness = (f) => stripHtml(f.overview || "").length + (f.image ? 200 : 0) + (f.homepage ? 50 : 0) + (/^\d+$/.test(String(f.contentid)) ? 10 : 0);
+  const overlap = (a, b) => a.startDate <= b.endDate && b.startDate <= a.endDate;
+  const groups = new Map();
+  for (const a of archivedFestivals) {
+    const an = normFestName(a.name);
+    if (an.length < 3) continue;
+    const key = `${an}|${getRegion(a.address)}`;
+    (groups.get(key) || groups.set(key, []).get(key)).push(a);
+  }
+  const drop = new Set();
+  for (const list of groups.values()) {
+    if (list.length < 2) continue;
+    // 기간이 겹치는 것끼리만 같은 회차로 본다 (해마다 열리는 축제의 작년/올해 페이지는 둘 다 유지)
+    const rest = [...list].sort((x, y) => richness(y) - richness(x));
+    while (rest.length) {
+      const keeper = rest.shift();
+      for (let i = rest.length - 1; i >= 0; i--) {
+        if (overlap(keeper, rest[i])) {
+          const dup = rest.splice(i, 1)[0];
+          drop.add(dup.contentid);
+          if (!festRedirects.some((r) => r.from === dup.contentid)) festRedirects.push({ from: dup.contentid, to: keeper.contentid, name: keeper.name });
+        }
+      }
+    }
+  }
+  if (drop.size) console.log(`🧹 아카이브 중복 ${drop.size}쪽 → 이동 페이지로 정리`);
+  archivedFestivals = archivedFestivals.filter((a) => !drop.has(a.contentid));
+}
 for (const a of archivedFestivals) a._archived = true; // 상세 페이지 안내문용
 
 // 이전 빌드 결과를 지우고 (현재 + 아카이브 전체를 다시 생성하므로 죽은 파일은 안 남음)
