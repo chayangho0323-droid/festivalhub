@@ -624,19 +624,6 @@
     "homepage": ""
   },
   {
-    "name": "황매산 억새축제",
-    "startDate": "20261004",
-    "endDate": "20261012",
-    "time": "09:00~18:00",
-    "place": "황매산군립공원",
-    "address": "경상남도 합천군 가회면 황매산공원길 331",
-    "charge": "혼합",
-    "desc": "개막 축하 공연 등",
-    "tel": "055-930-4753",
-    "host": "황매산축제위원회",
-    "homepage": "https://www.hc.go.kr/hwangmaesan.web"
-  },
-  {
     "name": "2026년 대한민국국악관현악축제",
     "startDate": "20261006",
     "endDate": "20261017",
@@ -661,19 +648,6 @@
     "tel": "02-399-1111",
     "host": "재단법인 세종문화회관",
     "homepage": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37421&menuNo=200320"
-  },
-  {
-    "name": "2026 청주국제아트페어",
-    "startDate": "20261006",
-    "endDate": "20261012",
-    "time": "09:00~22:00",
-    "place": "소2전시실외2건",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "청주예총(청주미술협회)",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
     "name": "허준축제 기념 특별전<k-beauty, 처방에서 일상으로>",

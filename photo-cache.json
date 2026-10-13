@@ -338,6 +338,12 @@
     "photos": [],
     "checked": "20261007"
   },
+  "3315407": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261013"
+  },
   "3340301": {
     "tier": 0,
     "query": "",
@@ -388,6 +394,12 @@
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "3373104": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261013"
   },
   "3377038": {
     "tier": 2,
@@ -838,6 +850,12 @@
       }
     ],
     "checked": "20261008"
+  },
+  "4120452": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261013"
   },
   "s19r73d5": {
     "tier": 0,
@@ -2311,5 +2329,26 @@
       }
     ],
     "checked": "20261009"
+  },
+  "s17a7bnw": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261013"
+  },
+  "m1yeojubread": {
+    "tier": 2,
+    "query": "여주 남한강 출렁다리",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/39/4072939.jpg",
+        "title": "여주 남한강 출렁다리",
+        "keyword": "여주 남한강 출렁다리,경기도 여주시,보행교,교량",
+        "location": "경기도 여주시 천송동",
+        "month": "202507",
+        "photographer": "김지호"
+      }
+    ],
+    "checked": "20261013"
   }
 }

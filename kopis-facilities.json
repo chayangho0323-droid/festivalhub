@@ -7374,5 +7374,189 @@
     "lng": 127.04299979999996,
     "tel": "02-543-0826",
     "homepage": "http://www.saart.co/kr/main.php"
+  },
+  "FC001745": {
+    "name": "청송문화예술회관",
+    "address": "경상북도 청송군 청송읍 금월로 244-30",
+    "lat": 36.4295305,
+    "lng": 129.05953249999993,
+    "tel": "054-870-6070",
+    "homepage": "https://www.cs.go.kr/countyOffice/culture/00003360.web"
+  },
+  "FC001386": {
+    "name": "문래예술공장",
+    "address": "서울특별시 영등포구 경인로88길 5-4 (문래동1가) 문래예술공장",
+    "lat": 37.5130462,
+    "lng": 126.9001786,
+    "tel": "02-2676-4300",
+    "homepage": "https://www.sfac.or.kr/artspace/artspace/mullae_main.do"
+  },
+  "FC003658": {
+    "name": "상상플레이스 여순광점(여수 웅천 트리마제벨마레 2305호)",
+    "address": "전남광주통합특별시 여수시 여문문화1길 36 (여서동)",
+    "lat": 34.752993,
+    "lng": 127.703683,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001182": {
+    "name": "논산아트센터(구. 논산문화예술회관)",
+    "address": "충청남도 논산시 시민로 270 (내동)",
+    "lat": 36.1909178,
+    "lng": 127.09514979999994,
+    "tel": "041-746-5950",
+    "homepage": "https://www.nonsan.go.kr/arthall/"
+  },
+  "FC005116": {
+    "name": "시흥 블랙인화이트",
+    "address": "경기도 시흥시 수인로3413번길 6 (신천동)",
+    "lat": 37.441641,
+    "lng": 126.779465,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004504": {
+    "name": "하우스오브레퓨즈(House of Refuge)",
+    "address": "제주특별자치도 제주시 애월읍 하소로 735",
+    "lat": 33.419291,
+    "lng": 126.396035,
+    "tel": "",
+    "homepage": "https://www.instagram.com/hofrefuge/"
+  },
+  "FC004869": {
+    "name": "양평군도서관",
+    "address": "경기도 양평군 양평읍 마유산로 1",
+    "lat": 37.496936,
+    "lng": 127.484593,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001279": {
+    "name": "중앙청소년문화의집",
+    "address": "강원도 원주시 중앙로 89 (중앙동)",
+    "lat": 37.3489059,
+    "lng": 127.95101010000008,
+    "tel": "033-734-3688",
+    "homepage": "http://www.wjyc.or.kr/"
+  },
+  "FC004616": {
+    "name": "펍지 성수(PUBG 성수)",
+    "address": "서울특별시 성동구 왕십리로4길 5 (성수동1가)",
+    "lat": 37.545801,
+    "lng": 127.045555,
+    "tel": "",
+    "homepage": "https://www.instagram.com/pubg.seongsu/"
+  },
+  "FC000408": {
+    "name": "하늘바람소극장",
+    "address": "부산광역시 남구 용소로13번길 17 (대연동)",
+    "lat": 35.1367436,
+    "lng": 129.10148430000004,
+    "tel": "",
+    "homepage": "http://cafe.naver.com/habaso"
+  },
+  "FC002421": {
+    "name": "팔복예술공장",
+    "address": "전라북도 전주시 덕진구 구렛들1길 46 (팔복동1가)",
+    "lat": 35.8602586,
+    "lng": 127.1012239,
+    "tel": "063-211-0288",
+    "homepage": "https://www.palbokart.kr/main/inner.php?sMenu=main"
+  },
+  "FC004456": {
+    "name": "매직라이브펍",
+    "address": "서울특별시 종로구 창경궁로26길 41-3 (명륜4가)",
+    "lat": 37.582097,
+    "lng": 126.999728,
+    "tel": "",
+    "homepage": "https://www.instagram.com/magiclivepub"
+  },
+  "FC001425": {
+    "name": "스튜디오 QDA(구. 춤공장)",
+    "address": "서울특별시 영등포구 도림로126길 1 (문래동3가)",
+    "lat": 37.5176033,
+    "lng": 126.89528900000005,
+    "tel": "010-6228-5952",
+    "homepage": "http://blog.daum.net/ironworksplay"
+  },
+  "FC000949": {
+    "name": "문화공간 새벽 (구. 연극창고 새벽)",
+    "address": "충청북도 청주시 서원구 수곡로 28 (수곡동)",
+    "lat": 36.6148911,
+    "lng": 127.4745811,
+    "tel": "043-286-7979",
+    "homepage": "http://cafe.daum.net/sabyuk/"
+  },
+  "FC002814": {
+    "name": "아트팩토리 봄",
+    "address": "강원도 춘천시 신동면 풍류1길 34",
+    "lat": 37.8179712,
+    "lng": 127.7197078,
+    "tel": "033-263-7222",
+    "homepage": ""
+  },
+  "FC001325": {
+    "name": "창작소극장",
+    "address": "전라북도 전주시 완산구 동문길 100 (경원동1가)",
+    "lat": 35.8181057,
+    "lng": 127.14857289999998,
+    "tel": "063-282-1810",
+    "homepage": "https://blog.naver.com/changjaktheater"
+  },
+  "FC001479": {
+    "name": "창조문화활력센터 소극장 624",
+    "address": "부산광역시 북구 백양대로 1167 (구포동)",
+    "lat": 35.20643889999999,
+    "lng": 129.0044021,
+    "tel": "051-336-8521",
+    "homepage": "https://cafe.naver.com/bswindow.cafe"
+  },
+  "FC000055": {
+    "name": "윤당아트홀",
+    "address": "서울특별시 강남구 언주로 844 (신사동)",
+    "lat": 37.5256519,
+    "lng": 127.03371519999996,
+    "tel": "02-546-8095",
+    "homepage": "http://www.ydart.co.kr/"
+  },
+  "FC004391": {
+    "name": "매키탄 호텔",
+    "address": "서울특별시 중구 퇴계로 212 (필동2가)",
+    "lat": 37.5610813,
+    "lng": 126.9953564,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003460": {
+    "name": "사천세계아트서커스 (사천세계문화컨텐츠)",
+    "address": "경상남도 사천시 노을길 146 (실안동)",
+    "lat": 34.9443346,
+    "lng": 128.0400005,
+    "tel": "",
+    "homepage": "http://www.sacheoncircus.co.kr/"
+  },
+  "FC000506": {
+    "name": "진남문예회관",
+    "address": "전남광주통합특별시 여수시 좌수영로 69 (광무동)",
+    "lat": 34.747093351712,
+    "lng": 127.72793172676,
+    "tel": "061-659-3770",
+    "homepage": ""
+  },
+  "FC003569": {
+    "name": "대구MH컨벤션",
+    "address": "대구광역시 동구 동대구로 418 (신천동)",
+    "lat": 35.8678764,
+    "lng": 128.6272017,
+    "tel": "053-756-1100",
+    "homepage": "http://www.mhwed.co.kr/doc/hall04.html"
+  },
+  "FC004010": {
+    "name": "교세라 돔 오사카 (KYOCERA DOME OSAKA)",
+    "address": "-",
+    "lat": null,
+    "lng": null,
+    "tel": "",
+    "homepage": "https://www.kyoceradome-osaka.jp/"
   }
 }
