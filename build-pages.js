@@ -570,7 +570,7 @@ function buildPage(f, all) {
   const isMusic = /페스티벌|음악|재즈|락|뮤직|콘서트|jazz|rock|music/i.test(f.name);
   const homepageButton = f.homepage
     ? `<a class="dir-btn homepage-btn" target="_blank" rel="noopener" href="${esc(f.homepage)}">🔗 공식 홈페이지에서 ${isMusic ? "라인업·프로그램" : "프로그램·일정"} 보기</a>`
-    : `<a class="dir-btn homepage-search" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?query=${encodeURIComponent(`${f.name.replace(/\d{4}년?/g, "").trim()} ${festYear} 공식`)}">🔎 네이버에서 공식 정보·${isMusic ? "라인업" : "프로그램"} 찾기</a>`;
+    : `<a class="dir-btn homepage-search" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?query=${encodeURIComponent(`${f.name.replace(/\d{4}년?/g, "").trim()} ${festYear} 공식`)}">🔎 네이버에서 공식 정보·${isMusic ? "라인업" : "프로그램"} 찾기</a>${f.homepageDead ? `<p class="coupang-notice">⚠️ 공공데이터에 등록된 홈페이지 주소가 현재 열리지 않아요(사이트 이전·폐쇄 추정). 네이버 검색으로 안내합니다. 새 주소를 아시면 제보해 주세요.</p>` : ""}`;
   // 검색 결과 제목: 사람들이 찾는 말(일정·장소·입장료·라인업)을 제목에 (네이버 CTR 0.5% 개선용, 2026-09-28)
   const nameNoYear = f.name.replace(/\s*\d{4}년?\s*/g, " ").replace(/\s+/g, " ").trim();
   const seoTitle = `${nameNoYear} ${festYear} 일정·장소·입장료${isMusic ? "·라인업" : ""}`;
@@ -879,6 +879,19 @@ try {
   archivedFestivals = JSON.parse(fs.readFileSync("festivals-archive.json", "utf-8"));
   applyOverrides(archivedFestivals);
 } catch {}
+
+// 홈페이지 링크 생존 검사 결과(check-links.js → link-status.json): dead(404·5xx·접속 불가 확정)인 홈페이지는 비워서
+// 버튼이 자동으로 "네이버에서 공식 정보 찾기"로 바뀌게 하고, 안내문을 위해 homepageDead에 원래 주소를 남긴다 (2026-10-13, 캠핑허브와 같은 방식)
+{
+  let LINKS = {};
+  try { LINKS = JSON.parse(fs.readFileSync("link-status.json", "utf-8")); } catch {}
+  let deadN = 0;
+  for (const f of [...festivals, ...archivedFestivals]) {
+    const u = String(f.homepage || "").trim();
+    if (u && LINKS[u] && LINKS[u].state === "dead") { f.homepageDead = u; f.homepage = ""; deadN++; }
+  }
+  if (deadN) console.log(`🔗 열리지 않는 홈페이지 ${deadN}건 → 네이버 검색 버튼으로 대체`);
+}
 
 // 같은 축제가 새 ID로 현재 목록에 있으면(표준데이터 임시 ID → 관광공사 정식 ID 등)
 // 보존 페이지 대신 "옛 주소 → 새 주소" 이동 페이지를 만든다. (중복 페이지 방지 + 옛 주소 404 방지)
