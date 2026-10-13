@@ -1036,3 +1036,31 @@ body {
 .gallery-fest .gallery-when { margin: 0 0 8px; font-size: .82rem; color: #889; }
 .gallery-fest .gallery-link { margin: 10px 0 0; text-align: right; }
 .gallery-fest .gallery-link a { color: #4756c9; font-weight: 600; text-decoration: none; font-size: .92rem; }
+
+/* 📸 방문자 사진 모음 — 바둑판 카드 → 펼치면 전체 사진 (details) */
+.gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 14px; }
+@media (max-width: 760px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; } }
+@media (max-width: 420px) { .gallery-grid { grid-template-columns: 1fr; } }
+.gallery-card { background: #fff; border-radius: 14px; box-shadow: 0 1px 4px rgba(0,0,0,.06); overflow: hidden; }
+.gallery-card > summary { list-style: none; cursor: pointer; display: block; }
+.gallery-card > summary::-webkit-details-marker { display: none; }
+.gallery-card .gc-cover { position: relative; aspect-ratio: 4 / 3; background: #e9ecf1; }
+.gallery-card .gc-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gallery-card .gc-noimg { display: flex; align-items: center; justify-content: center; height: 100%; font-size: 2rem; color: #99a; }
+.gallery-card .gc-count { position: absolute; left: 8px; bottom: 8px; padding: 2px 8px; border-radius: 999px; background: rgba(0,0,0,.55); color: #fff; font-size: .74rem; }
+.gallery-card .gc-body { padding: 10px 12px 12px; }
+.gallery-card .gc-body h2 { font-size: 1rem; margin: 0 0 4px; line-height: 1.4; }
+.gallery-card .gc-meta, .gallery-card .gc-credit { margin: 0; font-size: .78rem; color: #667; line-height: 1.5; }
+.gallery-card .gc-review { margin: 6px 0 0; font-size: .84rem; color: #444; line-height: 1.55; }
+.gallery-card .gc-more { display: inline-block; margin-top: 8px; font-size: .82rem; color: #4756c9; font-weight: 600; }
+.gallery-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,.1); }
+/* 펼치면 가로 전체 차지 + 대표 사진은 옆으로 작게 */
+.gallery-card[open] { grid-column: 1 / -1; }
+.gallery-card[open] > summary { display: flex; gap: 14px; align-items: flex-start; padding: 12px 14px 0; }
+.gallery-card[open] .gc-cover { width: 140px; flex: 0 0 140px; aspect-ratio: 1 / 1; border-radius: 10px; overflow: hidden; }
+.gallery-card[open] .gc-body { padding: 0; }
+.gallery-card[open] .gc-more { display: none; }
+.gallery-card .gc-detail { padding: 6px 14px 14px; border-top: 1px solid #eef0f4; margin-top: 10px; }
+.gallery-card .gc-close { margin-left: 10px; border: 1px solid #cfd6e4; background: #fff; color: #556; border-radius: 999px; padding: 2px 10px; font-size: .82rem; cursor: pointer; }
+.gallery-card .gallery-link { margin: 10px 0 0; text-align: right; }
+.gallery-card .gallery-link a { color: #4756c9; font-weight: 600; text-decoration: none; font-size: .92rem; }

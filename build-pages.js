@@ -1476,13 +1476,30 @@ for (const g of GUIDE_PAGES) {
   const totalPhotos = entries.reduce((s, e) => s + e.list.length, 0);
   const contributors = new Set(entries.flatMap((e) => e.list.map((p) => p.credit).filter(Boolean))).size;
   const fmtD = (d) => (d ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6, 8)}` : "");
-  const sections = entries.map(({ id, f, list, latest }) => `
-      <section class="gallery-fest" id="f-${esc(id)}">
-        <h2><a href="festival/${esc(id)}.html">${esc(f.name)}</a> <span class="gallery-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""}</span></h2>
-        <p class="gallery-when">제보 ${fmtD(String(latest))} · 사진 ${list.filter((p) => !p.video).length}장${list.some((p) => p.video) ? " · 영상 포함" : ""}</p>
-        ${VP.galleryHtml(list, { name: f.name, href: reportMailto(f) })}
-        <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a></p>
-      </section>`).join("");
+  // 바둑판 카드(대표 사진·축제명·사진 수·후기 한 줄) → 누르면 그 자리에서 전체 사진·후기가 펼쳐짐 (<details>, 열리면 가로 전체 차지)
+  const sections = entries.map(({ id, f, list, latest }) => {
+    const cover = VP.firstImage(list) || f.image || "";
+    const credits = [...new Set(list.map((p) => p.credit).filter(Boolean))];
+    const firstReview = (list.find((p) => p.review) || {}).review || "";
+    const photoN = list.filter((p) => !p.video).length, videoN = list.filter((p) => p.video).length;
+    return `
+      <details class="gallery-card" id="f-${esc(id)}">
+        <summary>
+          <div class="gc-cover">${cover ? `<img src="${esc(cover)}" alt="${esc(f.name)} 방문자 사진" loading="lazy" />` : `<div class="gc-noimg">📸</div>`}<span class="gc-count">📷 ${photoN}${videoN ? ` · 🎬 ${videoN}` : ""}</span></div>
+          <div class="gc-body">
+            <h2>${esc(f.name)}</h2>
+            <p class="gc-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""}</p>
+            <p class="gc-credit">제보 ${fmtD(String(latest))} · ${credits.map((c) => esc(c) + " 님").join(", ")}</p>
+            ${firstReview ? `<p class="gc-review">💬 ${esc(firstReview.length > 70 ? firstReview.slice(0, 70) + "…" : firstReview)}</p>` : ""}
+            <span class="gc-more">사진·후기 전체 보기 ▾</span>
+          </div>
+        </summary>
+        <div class="gc-detail">
+          ${VP.galleryHtml(list, { name: f.name, href: reportMailto(f) })}
+          <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a> <button type="button" class="gc-close">접기 ▴</button></p>
+        </div>
+      </details>`;
+  }).join("");
   const desc = `축제에 다녀온 분들이 보내주신 현장 사진과 후기 ${totalPhotos}장을 축제별로 모았습니다. 공공데이터에 없는 진짜 현장 분위기를 확인하세요.`;
   fs.writeFileSync("gallery.html", `<!DOCTYPE html>
 <html lang="ko">
@@ -1511,12 +1528,25 @@ for (const g of GUIDE_PAGES) {
   <main class="detail-container gallery-page">
     <p class="gallery-intro">축제 페이지 상단에 7일 동안 고정됐던 제보 사진이 여기에 계속 남습니다. 사진을 누르면 크게 볼 수 있고, 닉네임은 제보해 주신 분이 정한 이름이에요. 내 사진도 올리고 싶다면 아래 띠의 버튼을 눌러 보내 주세요.</p>
     ${photoCallHtml(null)}
-    ${sections || `<p class="gallery-intro">아직 제보 사진이 없어요. 첫 제보의 주인공이 되어 주세요!</p>`}
+    ${sections ? `<div class="gallery-grid">${sections}</div>` : `<p class="gallery-intro">아직 제보 사진이 없어요. 첫 제보의 주인공이 되어 주세요!</p>`}
   </main>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
   <script src="report.js?v=${BUILD_VER}"></script>
+  <script>
+    // 카드를 펼치면 그 카드로 스크롤, '접기' 버튼, 주소에 #f-아이디가 있으면 자동으로 펼침 (축제 페이지·공유 링크에서 바로 오는 경우)
+    (function () {
+      var cards = document.querySelectorAll("details.gallery-card");
+      cards.forEach(function (d) {
+        d.addEventListener("toggle", function () { if (d.open) setTimeout(function () { d.scrollIntoView({ behavior: "smooth", block: "start" }); }, 50); });
+        var btn = d.querySelector(".gc-close");
+        if (btn) btn.addEventListener("click", function () { d.open = false; d.scrollIntoView({ behavior: "smooth", block: "start" }); });
+      });
+      function openHash() { var t = location.hash && document.getElementById(location.hash.slice(1)); if (t && t.tagName === "DETAILS") t.open = true; }
+      openHash(); window.addEventListener("hashchange", openHash);
+    })();
+  </script>
 </body>
 </html>`, "utf-8");
   guideFiles.push("gallery.html"); // 사이트맵 포함
