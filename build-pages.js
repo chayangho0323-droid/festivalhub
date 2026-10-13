@@ -1476,29 +1476,46 @@ for (const g of GUIDE_PAGES) {
   const totalPhotos = entries.reduce((s, e) => s + e.list.length, 0);
   const contributors = new Set(entries.flatMap((e) => e.list.map((p) => p.credit).filter(Boolean))).size;
   const fmtD = (d) => (d ? `${d.slice(0, 4)}.${d.slice(4, 6)}.${d.slice(6, 8)}` : "");
-  // 바둑판 카드(대표 사진·축제명·사진 수·후기 한 줄) → 누르면 그 자리에서 전체 사진·후기가 펼쳐짐 (<details>, 열리면 가로 전체 차지)
-  const sections = entries.map(({ id, f, list, latest }) => {
-    const cover = VP.firstImage(list) || f.image || "";
-    const credits = [...new Set(list.map((p) => p.credit).filter(Boolean))];
-    const firstReview = (list.find((p) => p.review) || {}).review || "";
-    const photoN = list.filter((p) => !p.video).length, videoN = list.filter((p) => p.video).length;
+  // 제보 한 건(축제×닉네임) = 카드 한 장. 똑같은 크기의 카드를 바둑판에 깔고, 누르면 창(모달)이 떠서 그 제보의 사진·영상·후기를 본다.
+  // (2026-10-13 사용자 요청: 회사 감사 게시판처럼 카드 하나하나 → 클릭하면 후기와 사진)
+  const posts = [];
+  for (const { id, f, list } of entries) {
+    const groups = new Map();
+    for (const p of list) { const k = p.credit || "방문자"; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(p); }
+    for (const [credit, items] of groups) {
+      posts.push({ id, f, credit, items, date: Math.max(...items.map((p) => Number(p.date || 0))) });
+    }
+  }
+  posts.sort((a, b) => b.date - a.date);
+  const sections = posts.map(({ id, f, credit, items, date }, i) => {
+    const cover = VP.firstImage(items) || f.image || "";
+    const review = (items.find((p) => p.review) || {}).review || "";
+    const captions = items.map((p) => p.caption).filter(Boolean);
+    const photoN = items.filter((p) => !p.video).length, videoN = items.filter((p) => p.video).length;
+    const body = review || captions.slice(0, 2).join(" · ") || `${esc(f.name)} 현장 사진`;
     return `
-      <details class="gallery-card" id="f-${esc(id)}">
-        <summary>
-          <div class="gc-cover">${cover ? `<img src="${esc(cover)}" alt="${esc(f.name)} 방문자 사진" loading="lazy" />` : `<div class="gc-noimg">📸</div>`}<span class="gc-count">📷 ${photoN}${videoN ? ` · 🎬 ${videoN}` : ""}</span></div>
-          <div class="gc-body">
-            <h2>${esc(f.name)}</h2>
-            <p class="gc-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""}</p>
-            <p class="gc-credit">제보 ${fmtD(String(latest))} · ${credits.map((c) => esc(c) + " 님").join(", ")}</p>
-            ${firstReview ? `<p class="gc-review">💬 ${esc(firstReview.length > 70 ? firstReview.slice(0, 70) + "…" : firstReview)}</p>` : ""}
-            <span class="gc-more">사진·후기 전체 보기 ▾</span>
+      <article class="vp-card" id="p-${i}" data-fest="${esc(id)}" tabindex="0" role="button" aria-label="${esc(credit)} 님의 ${esc(f.name)} 제보 보기">
+        <div class="vp-head">
+          <div class="vp-avatar">${cover ? `<img src="${esc(cover)}" alt="" loading="lazy" />` : "📸"}</div>
+          <div class="vp-who">
+            <p class="vp-name">${esc(credit)} <span>님</span></p>
+            <p class="vp-fest">🎪 ${esc(f.name)}</p>
+            <p class="vp-count">📷 사진 ${photoN}장${videoN ? ` · 🎬 영상 ${videoN}개` : ""}</p>
           </div>
-        </summary>
-        <div class="gc-detail">
-          ${VP.galleryHtml(list, { name: f.name, href: reportMailto(f) })}
-          <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a> <button type="button" class="gc-close">접기 ▴</button></p>
         </div>
-      </details>`;
+        <div class="vp-body">
+          <p class="vp-text">${esc(body.length > 90 ? body.slice(0, 90) + "…" : body)}</p>
+          <p class="vp-foot"><span>${fmtD(String(date))}</span><span class="vp-open">사진·후기 보기 →</span></p>
+        </div>
+        <template class="vp-tpl">
+          <div class="vp-modal-head">
+            <h2>${esc(f.name)}</h2>
+            <p class="gc-meta">📅 ${formatDate(f.startDate)} ~ ${formatDate(f.endDate)} · 📍 ${esc(String(f.address || "").split(" ").slice(0, 2).join(" "))}${f.endDate < todayYmd ? " · 종료" : ""} · 제보 ${fmtD(String(date))}</p>
+          </div>
+          ${VP.galleryHtml(items, { name: f.name, href: reportMailto(f) })}
+          <p class="gallery-link"><a href="festival/${esc(id)}.html">축제 정보·대중교통·날씨 보러 가기 →</a></p>
+        </template>
+      </article>`;
   }).join("");
   const desc = `축제에 다녀온 분들이 보내주신 현장 사진과 후기 ${totalPhotos}장을 축제별로 모았습니다. 공공데이터에 없는 진짜 현장 분위기를 확인하세요.`;
   fs.writeFileSync("gallery.html", `<!DOCTYPE html>
@@ -1528,23 +1545,40 @@ for (const g of GUIDE_PAGES) {
   <main class="detail-container gallery-page">
     <p class="gallery-intro">축제 페이지 상단에 7일 동안 고정됐던 제보 사진이 여기에 계속 남습니다. 사진을 누르면 크게 볼 수 있고, 닉네임은 제보해 주신 분이 정한 이름이에요. 내 사진도 올리고 싶다면 아래 띠의 버튼을 눌러 보내 주세요.</p>
     ${photoCallHtml(null)}
-    ${sections ? `<div class="gallery-grid">${sections}</div>` : `<p class="gallery-intro">아직 제보 사진이 없어요. 첫 제보의 주인공이 되어 주세요!</p>`}
+    ${sections ? `<div class="vp-grid">${sections}</div>` : `<p class="gallery-intro">아직 제보 사진이 없어요. 첫 제보의 주인공이 되어 주세요!</p>`}
   </main>
+  <div class="vp-modal" id="vp-modal" hidden>
+    <div class="vp-modal-box" role="dialog" aria-modal="true" aria-label="방문자 사진·후기">
+      <button type="button" class="vp-modal-close" aria-label="닫기">✕</button>
+      <div class="vp-modal-content"></div>
+    </div>
+  </div>
   <a class="to-top" href="#" aria-label="맨 위로">↑</a>
   ${footerHtml("")}
   <script src="track-clicks.js"></script>
   <script src="report.js?v=${BUILD_VER}"></script>
   <script>
-    // 카드를 펼치면 그 카드로 스크롤, '접기' 버튼, 주소에 #f-아이디가 있으면 자동으로 펼침 (축제 페이지·공유 링크에서 바로 오는 경우)
+    // 카드를 누르면 창(모달)에 그 제보의 사진·후기를 채워 띄운다. ✕·바깥 클릭·ESC로 닫힘. #f-축제아이디로 오면 그 축제의 첫 카드 자동 열기.
     (function () {
-      var cards = document.querySelectorAll("details.gallery-card");
-      cards.forEach(function (d) {
-        d.addEventListener("toggle", function () { if (d.open) setTimeout(function () { d.scrollIntoView({ behavior: "smooth", block: "start" }); }, 50); });
-        var btn = d.querySelector(".gc-close");
-        if (btn) btn.addEventListener("click", function () { d.open = false; d.scrollIntoView({ behavior: "smooth", block: "start" }); });
+      var modal = document.getElementById("vp-modal"), box = modal.querySelector(".vp-modal-content");
+      function open(card) {
+        var tpl = card.querySelector("template.vp-tpl");
+        if (!tpl) return;
+        box.innerHTML = ""; box.appendChild(tpl.content.cloneNode(true));
+        modal.hidden = false; document.body.style.overflow = "hidden";
+        modal.querySelector(".vp-modal-box").scrollTop = 0;
+        if (typeof gtag === "function") gtag("event", "open_visitor_post", { item_name: card.getAttribute("aria-label") || "" });
+      }
+      function close() { modal.hidden = true; box.innerHTML = ""; document.body.style.overflow = ""; }
+      document.querySelectorAll(".vp-card").forEach(function (card) {
+        card.addEventListener("click", function () { open(card); });
+        card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(card); } });
       });
-      function openHash() { var t = location.hash && document.getElementById(location.hash.slice(1)); if (t && t.tagName === "DETAILS") t.open = true; }
-      openHash(); window.addEventListener("hashchange", openHash);
+      modal.querySelector(".vp-modal-close").addEventListener("click", close);
+      modal.addEventListener("click", function (e) { if (e.target === modal) close(); });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !modal.hidden && !document.querySelector(".report-lightbox, .lightbox")) close(); });
+      var m = location.hash.match(/^#f-(.+)$/);
+      if (m) { var first = document.querySelector('.vp-card[data-fest="' + m[1] + '"]'); if (first) { first.scrollIntoView({ block: "center" }); open(first); } }
     })();
   </script>
 </body>
