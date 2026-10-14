@@ -2959,5 +2959,43 @@
   "status": 0,
   "checkedAt": "2026-10-13T23:36:19.638Z",
   "error": "20"
+ },
+ "https://www.mamf.co.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z"
+ },
+ "https://jejuma.festimap.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z"
+ },
+ "https://www.buyeo.go.kr/html/bcfestival/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z"
+ },
+ "https://yeongdeokwellnessfesta2026.com/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z"
+ },
+ "https://www.instagram.com/siumsium.morning/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsiumsium.morning%2F&is_from_rle"
+ },
+ "https://www.yangju.go.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-14T22:52:57.946Z",
+  "final": "https://www.yangju.go.kr/www/index.do"
+ },
+ "https://www.suncheon.go.kr/nagan/page02/0002/0001/": {
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-10-14T22:52:57.946Z",
+  "error": "20"
  }
 }

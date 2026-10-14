@@ -780,45 +780,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "전시회",
-    "startDate": "20261010",
-    "endDate": "20261014",
-    "time": "10:00~17:00",
-    "place": "광양문화예술회관",
-    "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "사진협회",
-    "homepage": ""
-  },
-  {
-    "name": "수요재즈플러스(10월)",
-    "startDate": "20261014",
-    "endDate": "20261014",
-    "time": "19:00~20:00",
-    "place": "과천시민회관 3층 스테이지",
-    "address": "경기도 과천시 통영로 5",
-    "charge": "무료",
-    "desc": "복합",
-    "tel": "02-2009-9700",
-    "host": "과천문화재단",
-    "homepage": "https://www.gcart.or.kr"
-  },
-  {
-    "name": "울주공연배달",
-    "startDate": "20261014",
-    "endDate": "20261014",
-    "time": "10:30~11:00",
-    "place": "하늘소자연과학 어린이집",
-    "address": "울산광역시 울주군 온양읍 발리동상로 35",
-    "charge": "무료",
-    "desc": "공공·복지·생활공간 등으로 찾아가는 공연배달",
-    "tel": "052-980-2223",
-    "host": "울주문화재단",
-    "homepage": "http://www.ucf.or.kr"
-  },
-  {
     "name": "2026 무용과 함께하는 축제",
     "startDate": "20261014",
     "endDate": "20261015",
@@ -843,19 +804,6 @@
     "tel": "",
     "host": "(사)충북민예총 전통미술위원회",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제943회 금정수요음악회 <낭만과 현대 사이>",
-    "startDate": "20261014",
-    "endDate": "20261014",
-    "time": "19:30~21:00",
-    "place": "금정문화회관 은빛샘홀",
-    "address": "부산광역시 금정구 체육공원로7",
-    "charge": "유료",
-    "desc": "실내악공연",
-    "tel": "051-519-5664",
-    "host": "금정문화회관",
-    "homepage": "http://art.geumjeong.go.kr/"
   },
   {
     "name": "1234 콘서트",
