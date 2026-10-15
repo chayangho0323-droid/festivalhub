@@ -2997,5 +2997,46 @@
   "status": 0,
   "checkedAt": "2026-10-14T22:52:57.946Z",
   "error": "20"
+ },
+ "https://moonlightwalk.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://gimjang.kr": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z",
+  "final": "https://gimjang.kr/"
+ },
+ "https://www.ydpcf.or.kr/festival/seonyudo.do": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://www.yeongdo.go.kr/ydfestival.web": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://mandufestival.co.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://xn--6i4bu3f7scxtw.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://ygcf.or.kr/Festival/F60000/index": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
+ },
+ "https://www.btac.co.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-15T22:55:18.032Z"
  }
 }

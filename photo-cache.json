@@ -881,6 +881,18 @@
     "photos": [],
     "checked": "20261015"
   },
+  "4126037": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261016"
+  },
+  "4126870": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261016"
+  },
   "s19r73d5": {
     "tier": 0,
     "query": "",
@@ -2374,5 +2386,20 @@
       }
     ],
     "checked": "20261013"
+  },
+  "s1e6jsyu": {
+    "tier": 2,
+    "query": "홍주읍성",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/05/2048405.jpg",
+        "title": "홍주읍성",
+        "keyword": "홍주읍성, 충청남도 홍성, 사적 제231호, 유적지, 읍성, 홍화문, 성벽",
+        "location": "충청남도 홍성군",
+        "month": "201510",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261016"
   }
 }
