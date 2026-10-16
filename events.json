@@ -455,19 +455,6 @@
     "homepage": "https://garts.kr/"
   },
   {
-    "name": "병오창의 120주년 기념 특별전시",
-    "startDate": "20260728",
-    "endDate": "20261015",
-    "time": "09:00~18:00",
-    "place": "순창장류박물관",
-    "address": "전북특별자치도 순창군 순창읍 장류로 43",
-    "charge": "무료",
-    "desc": "병오창의 120주년 기념 특별전시",
-    "tel": "063-650-1627",
-    "host": "(사)전북특별자치도박물관미술관협의회",
-    "homepage": ""
-  },
-  {
     "name": "제38회 춘천인형극제",
     "startDate": "20260731",
     "endDate": "20261226",
@@ -689,19 +676,6 @@
     "homepage": "http://www.dino-expo.com"
   },
   {
-    "name": "2026년 인예뜰 정기전  예술로 피어나는 뜰",
-    "startDate": "20260929",
-    "endDate": "20261016",
-    "time": "10:00~18:00",
-    "place": "인천광역시 교육청평생학습관 갤러리나무",
-    "address": "인천광역시 연수구 경원대로 73",
-    "charge": "무료",
-    "desc": "회화",
-    "tel": "",
-    "host": "인천광역시 교육청평생학습관",
-    "homepage": ""
-  },
-  {
     "name": "창원조각비엔날레",
     "startDate": "20260930",
     "endDate": "20261115",
@@ -780,19 +754,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "2026 무용과 함께하는 축제",
-    "startDate": "20261014",
-    "endDate": "20261015",
-    "time": "09:00~22:00",
-    "place": "소공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "순수공연",
-    "tel": "",
-    "host": "청주예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
     "name": "(사)충북민예총 전통미술위우언회 정기전",
     "startDate": "20261014",
     "endDate": "20261020",
@@ -806,58 +767,6 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "1234 콘서트",
-    "startDate": "20261015",
-    "endDate": "20261015",
-    "time": "12:34~14:14",
-    "place": "부천아트센터 콘서트홀",
-    "address": "경기도 부천시 원미구 소향로 165",
-    "charge": "유료",
-    "desc": "부천필하모닉오케스트라 연주회",
-    "tel": "032-327-7523",
-    "host": "부천시립예술단",
-    "homepage": "https://www.bucheonphil.or.kr/"
-  },
-  {
-    "name": "찾아가는 연주회 <2026 문화의 날 기념식>",
-    "startDate": "20261015",
-    "endDate": "20261015",
-    "time": "13:00~14:00",
-    "place": "평택시청 대회의실",
-    "address": "경기도 평택시 경기대로 245",
-    "charge": "무료",
-    "desc": "국악",
-    "tel": "031-669-0854",
-    "host": "평택시문화재단",
-    "homepage": ""
-  },
-  {
-    "name": "2026 추억의 명화 10월 왕과 나",
-    "startDate": "20261015",
-    "endDate": "20261015",
-    "time": "14:00~16:00",
-    "place": "서빛마루문화예술회관",
-    "address": "전남광주통합특별시 서구 풍암공원로 30",
-    "charge": "무료",
-    "desc": "영화상영",
-    "tel": "062-350-4564",
-    "host": "전남광주통합특별시 서구",
-    "homepage": ""
-  },
-  {
-    "name": "아티스트 IN 과천 - 별주부랑 창극으로 노닐다",
-    "startDate": "20261016",
-    "endDate": "20261016",
-    "time": "17:00~18:00",
-    "place": "과천시민회관 소극장",
-    "address": "경기도 과천시 통영로 5",
-    "charge": "무료",
-    "desc": "창극",
-    "tel": "02-2009-9736",
-    "host": "사단법인 연극놀이터 해마루",
-    "homepage": "https://www.gcart.or.kr"
-  },
-  {
     "name": "2026 제8회 BMF",
     "startDate": "20261016",
     "endDate": "20261017",
@@ -869,19 +778,6 @@
     "tel": "031-850-5141",
     "host": "재단법인 의정부문화관광재단",
     "homepage": "https://www.uac.or.kr"
-  },
-  {
-    "name": "유리상자X이상우X015B 콘서트",
-    "startDate": "20261016",
-    "endDate": "20261016",
-    "time": "19:00~21:00",
-    "place": "보령문화예술회관 대공연장",
-    "address": "충청남도 보령시 성주산로 101",
-    "charge": "유료",
-    "desc": "콘서트",
-    "tel": "041-930-3427",
-    "host": "충청남도 보령시청",
-    "homepage": ""
   },
   {
     "name": "제작오페라 <정미소연가>",

@@ -518,6 +518,12 @@
     "photos": [],
     "checked": "20261007"
   },
+  "3537267": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261017"
+  },
   "3540329": {
     "tier": 0,
     "query": "",
@@ -892,6 +898,27 @@
     "query": "",
     "photos": [],
     "checked": "20261016"
+  },
+  "4127746": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261017"
+  },
+  "4127769": {
+    "tier": 2,
+    "query": "강릉 월화거리",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/51/2943651.jpg",
+        "title": "강릉 월화거리",
+        "keyword": "강릉 월화거리, 강원도 강릉시, 문화거리, 이색거리",
+        "location": "강원도 강릉시 임당동",
+        "month": "202212",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261017"
   },
   "s19r73d5": {
     "tier": 0,
