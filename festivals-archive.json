@@ -40931,165 +40931,6 @@
     }
   },
   {
-    "contentid": "2867300",
-    "name": "평택 원평나루 억새축제",
-    "startDate": "20261024",
-    "endDate": "20261024",
-    "address": "경기도 평택시 평택동 238-2",
-    "lat": "36.9842467192",
-    "lng": "127.0810967851",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/71/4116771_image2_1.jpg",
-    "overview": "2026 평택 원평나루 억새축제는 군문교 아래 억새밭 일대에서 열리는 가을 축제이다. 행사일은 10월 24일이며, 운영시간은 오전 11시부터 오후 9시까지이다. 원평나루의 억새 경관을 배경으로 공연과 체험 프로그램을 운영하는 행사이다. 주요 프로그램은 억새콘서트와 체험부스이며, 억새밭을 배경으로 사진 촬영용 포토존도 마련되는 축제이다. 먹거리를 판매하는 푸드트럭도 운영하는 행사이다. 낮부터 저녁까지 이어지는 일정으로 억새밭 관람과 공연 관람, 체험 참여가 가능한 축제이다. 원평나루의 풍경과 문화 프로그램, 먹거리를 한자리에서 만날 수 있는 축제이다.",
-    "tel": "031-669-0965",
-    "homepage": "https://www.pccf.or.kr/",
-    "eventplace": "군문교 아래 억새밭(노을생태문화공원)",
-    "playtime": "11:00~21:00",
-    "usefee": "무료",
-    "sponsor": "평택시",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/68/3534768_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/72/4116772_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/73/4116773_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/74/4116774_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/75/4116775_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/76/4116776_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 평택 원평나루 억새축제는 군문교 아래 억새밭 일대에서 열리는 가을 축제이다. 행사일은 10월 24일이며, 운영시간은 오전 11시부터 오후 9시까지이다. 원평나루의 억새 경관을 배경으로 공연과 체험 프로그램을 운영하는 행사이다. 주요 프로그램은 억새콘서트와 체험부스이며, 억새밭을 배경으로 사진 촬영용 포토존도 마련되는 축제이다. 먹거리를 판매하는 푸드트럭도 운영하는 행사이다. 낮부터 저녁까지 이어지는 일정으로 억새밭 관람과 공연 관람, 체험 참여가 가능한 축제이다. 원평나루의 풍경과 문화 프로그램, 먹거리를 한자리에서 만날 수 있는 축제이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 공연프로그램\n- 억새콘서트, 주민자치&예술인 공연\n2. 체험프로그램\n- 가족친화형 체험부스 운영\n3. 먹거리프로그램\n- 푸드트럭 운영\n4. 전시프로그램\n- 억새길 포토존"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "신대레포츠공원",
-        "dist": 1761,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3541037_image2_1.jpg",
-        "addr": "경기도 평택시 신대동"
-      },
-      {
-        "name": "팽성레포츠공원",
-        "dist": 2153,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3541045_image2_1.jpg",
-        "addr": "경기도 평택시 팽성읍 안정로 238-31"
-      },
-      {
-        "name": "평택향교",
-        "dist": 3052,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/04/3558804_image2_1.jpg",
-        "addr": "경기도 평택시 팽성읍 부용로17번길 40"
-      },
-      {
-        "name": "공주 우금치 전적",
-        "dist": 3253,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/21/3334021_image2_1.jpg",
-        "addr": "충청남도 공주시 금학동"
-      },
-      {
-        "name": "배다리지",
-        "dist": 3771,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3521456_image2_1.jpg",
-        "addr": "경기도 평택시 죽백동"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "역전육회",
-        "dist": 795,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/47/2859147_image2_1.jpg",
-        "addr": "경기도 평택시 원평로52번길 19"
-      },
-      {
-        "name": "정육식당평궁",
-        "dist": 814,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2862772_image2_1.jpg",
-        "addr": "경기도 평택시 팽성읍 신궁2길 103"
-      },
-      {
-        "name": "40호베트남쌀국수",
-        "dist": 1429,
-        "image": "",
-        "addr": "경기도 평택시 통복시장2로9번길 7"
-      },
-      {
-        "name": "재홍분식",
-        "dist": 1633,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/2857936_image2_1.jpg",
-        "addr": "경기도 평택시 평택3로56번길 13 (비전동)"
-      },
-      {
-        "name": "고복수평양냉면",
-        "dist": 1766,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2616082_image2_1.jpg",
-        "addr": "경기도 평택시 조개터로1번길 71 (합정동)"
-      }
-    ],
-    "transit": {
-      "station": {
-        "name": "평택역",
-        "lines": [
-          "경부선"
-        ],
-        "dist": 803,
-        "walkMin": 12
-      },
-      "stops": [
-        {
-          "name": "군문주공아파트",
-          "dist": 301,
-          "walkMin": 4
-        },
-        {
-          "name": "군문주공아파트앞",
-          "dist": 304,
-          "walkMin": 5
-        }
-      ],
-      "parking": [
-        {
-          "name": "군문동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 25,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8024-4993",
-          "dist": 670,
-          "walkMin": 10
-        },
-        {
-          "name": "원평제1공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 165,
-          "fee": "기본 30분 800원 · 추가 10분 300원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8024-4993",
-          "dist": 675,
-          "walkMin": 10
-        },
-        {
-          "name": "원평제2공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 63,
-          "fee": "기본 30분 800원 · 추가 10분 300원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8024-4993",
-          "dist": 770,
-          "walkMin": 11
-        }
-      ]
-    }
-  },
-  {
     "contentid": "sk7mto8",
     "name": "2026 화순 고인돌 가을꽃 축제",
     "startDate": "20261017",
@@ -57756,159 +57597,6 @@
     }
   },
   {
-    "contentid": "3113995",
-    "name": "경기‧양주‧지작사 드론봇 페스티벌",
-    "startDate": "20261030",
-    "endDate": "20261101",
-    "address": "경기도 양주시 광적면 삼일로 52",
-    "lat": "37.8335530000",
-    "lng": "126.9897980000",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/54/4124654_image2_1.JPG",
-    "overview": "경기‧양주‧지작사 드론봇 페스티벌은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2026년 10월 30일부터 11월 1일까지 3일간 양주시 광적면 가납리비행장에서 개최된다. 본 축제는 「양주시 드론산업 육성 및 지원에 관한 조례」와 「가납리 비행장 민·관·군 상생발전을 위한 업무협약」을 근거로 서부권 대표 축제를 육성하고, 드론 산업 기반을 마련하여 지역 균형발전을 도모하는 것이 목적이다. 총사업비 612억 원이 투입되며, 육군의 드론봇 전투체계 시연, 주한미군 전투장비 전시, 국내외 첨단 드론·로봇 기업 전시, 드론봇 경연대회, 다채로운 군문화 공연 및 시민 체험 프로그램을 통해 첨단 국방력과 4차 산업의 미래를 조망하는 행사이다.",
-    "tel": "031-8082-6161",
-    "homepage": "https://www.yangju.go.kr/",
-    "eventplace": "가납리비행장",
-    "playtime": "09:00~21:00",
-    "usefee": "무료 (일부 체험 관련 유료)",
-    "sponsor": "경기도, 양주시, 지상작전사령부",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/45/4124645_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/46/4124646_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/47/4124647_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/48/4124648_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/49/4124649_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/50/4124650_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/51/4124651_image2_1.JPG",
-      "https://tong.visitkorea.or.kr/cms/resource/52/4124652_image2_1.JPG"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "경기‧양주‧지작사 드론봇 페스티벌은 경기도, 양주시, 지상작전사령부가 공동 주최하는 민ㆍ관ㆍ군 상생 페스티벌이다. 2026년 10월 30일부터 11월 1일까지 3일간 양주시 광적면 가납리비행장에서 개최된다. 본 축제는 「양주시 드론산업 육성 및 지원에 관한 조례」와 「가납리 비행장 민·관·군 상생발전을 위한 업무협약」을 근거로 서부권 대표 축제를 육성하고, 드론 산업 기반을 마련하여 지역 균형발전을 도모하는 것이 목적이다. 총사업비 612억 원이 투입되며, 육군의 드론봇 전투체계 시연, 주한미군 전투장비 전시, 국내외 첨단 드론·로봇 기업 전시, 드론봇 경연대회, 다채로운 군문화 공연 및 시민 체험 프로그램을 통해 첨단 국방력과 4차 산업의 미래를 조망하는 행사이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인 프로그램: 개ㆍ폐막식, 드론 전술시범, 육군항공대 축하비행, 민ㆍ군 상생음악회, 드론라이트쇼, 경기도지사ㆍ지상작전사령관배 드론봇 경연대회\n2. 부대 프로그램: 주한미군(M1전차 등) 및 국군(K-2전차 등) 전투장비 전시, 첨단 드론ㆍ로봇 기업 제품 전시, 수방사 MC퍼레이드, 특공무술 및 육군 의장대ㆍ군악대 시범 공연, 드론봇 발전 세미나\n3. 소비자 참여 프로그램: KUH-1 수리온 헬기 및 K200A1 장갑차 탑승 체험, 워리어플랫폼 장비 체험, 드론봇 체험부스 (드론 조종, 시뮬레이터 등), 먹거리장터, 경찰ㆍ소방 장비 체험 등\n4. 기타 내용: 임시주차장 및 셔틀버스 운행 (백석체육공원, 양주문예회관 ↔ 행사장), 의료부스, 이동식 화장실 등 편의시설 운영"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "백석생활체육공원",
-        "dist": 2313,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2751396_image2_1.jpg",
-        "addr": "경기도 양주시 백석읍 백은로 185"
-      },
-      {
-        "name": "불곡산",
-        "dist": 5205,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3067723_image2_1.jpg",
-        "addr": "경기도 양주시 유양동"
-      },
-      {
-        "name": "백화암(양주)",
-        "dist": 5423,
-        "image": "",
-        "addr": "경기도 양주시 백화암길 191 (유양동)"
-      },
-      {
-        "name": "양주 대모산성",
-        "dist": 5526,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/01/3496401_image2_1.jpg",
-        "addr": "경기도 양주시 백석읍 방성리"
-      },
-      {
-        "name": "양주 관아지",
-        "dist": 6433,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3541591_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1399번길 15 (유양동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "강경숯불바베큐",
-        "dist": 576,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/02/2788302_image2_1.jpg",
-        "addr": "경기도 양주시 광적면 삼일로 123-74"
-      },
-      {
-        "name": "플레이스 지안",
-        "dist": 4404,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/27/2831127_image2_1.jpg",
-        "addr": "경기도 양주시 백석읍 중앙로 164-22"
-      },
-      {
-        "name": "[백년가게]덕화원",
-        "dist": 6572,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/94/2629394_image2_1.jpg",
-        "addr": "경기도 양주시 덕정길 4 (덕정동)"
-      },
-      {
-        "name": "브루다",
-        "dist": 6755,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/17/2764417_image2_1.jpg",
-        "addr": "경기도 양주시 백석읍 권율로 909"
-      },
-      {
-        "name": "성북돈까스",
-        "dist": 6841,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2751437_image2_1.jpg",
-        "addr": "경기도 양주시 부흥로1398번길 81-7 (유양동)"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "장수슈퍼",
-          "dist": 170,
-          "walkMin": 3
-        },
-        {
-          "name": "유명식당",
-          "dist": 177,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "가석지구 공영주차장(5)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 7,
-          "fee": "무료",
-          "hours": "09:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8082-6624",
-          "dist": 1021,
-          "walkMin": 15
-        },
-        {
-          "name": "광적 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 74,
-          "fee": "기본 30분 600원 · 추가 10분 200원 · 1일 7,000원",
-          "hours": "09:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8082-6624",
-          "dist": 1249,
-          "walkMin": 19
-        },
-        {
-          "name": "가석지구 공영주차장(1)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 28,
-          "fee": "무료",
-          "hours": "09:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8082-6624",
-          "dist": 1307,
-          "walkMin": 20
-        }
-      ]
-    }
-  },
-  {
     "contentid": "3383613",
     "name": "고양행주한우 숯불구이축제",
     "startDate": "20261031",
@@ -58224,159 +57912,6 @@
           "days": "평일+토요일+공휴일",
           "tel": "051-749-4887",
           "dist": 547,
-          "walkMin": 8
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "3012116",
-    "name": "부여국화축제",
-    "startDate": "20261030",
-    "endDate": "20261108",
-    "address": "충청남도 부여군 부여읍 동남리",
-    "lat": "36.2697860000",
-    "lng": "126.9122930000",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/69/4124969_image2_1.jpg",
-    "overview": "제23회 부여국화축제가 2026년 10월 30일에서 11월 8일까지 10일간 부여의 대표 명소인 궁남지 일원에서 화려하게 펼쳐진다. “국화, 가을의 조각들을 맞추다”를 주제로 꾸며져, 국화의 아름다움과 백제의 역사·문화가 어우러지는 특별한 시간을 선사한다. 축제장은 역사의 조각, 풍경의 조각, 인연의 조각, 향기의 조각, 치유의 조각 등 5개의 테마공간으로 나누어져 있어, 다양한 국화 기획 작품들과 금동대향로, 사비문 등 오직 부여에서만 볼 수 있는 국화 조형물들이 다수 전시되어 있다. 이외에도 각종 홍보·판촉, 푸드트럭, 국화 관련 체험 등이 자리 잡고 있어 다채로운 즐길거리와 볼거리가 마련되어 있다.",
-    "tel": "041-830-2591",
-    "homepage": "https://www.buyeo.go.kr/html/bcfestival/",
-    "eventplace": "부여 궁남지 일원",
-    "playtime": "09:00~21:00",
-    "usefee": "무료",
-    "sponsor": "부여군",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/66/4124966_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/67/4124967_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/68/4124968_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/70/4124970_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/73/4124973_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/74/4124974_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/75/4124975_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/77/4124977_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "제23회 부여국화축제가 2026년 10월 30일에서 11월 8일까지 10일간 부여의 대표 명소인 궁남지 일원에서 화려하게 펼쳐진다. “국화, 가을의 조각들을 맞추다”를 주제로 꾸며져, 국화의 아름다움과 백제의 역사·문화가 어우러지는 특별한 시간을 선사한다. 축제장은 역사의 조각, 풍경의 조각, 인연의 조각, 향기의 조각, 치유의 조각 등 5개의 테마공간으로 나누어져 있어, 다양한 국화 기획 작품들과 금동대향로, 사비문 등 오직 부여에서만 볼 수 있는 국화 조형물들이 다수 전시되어 있다. 이외에도 각종 홍보·판촉, 푸드트럭, 국화 관련 체험 등이 자리 잡고 있어 다채로운 즐길거리와 볼거리가 마련되어 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인프로그램 : 부여국화축제 국화 작품 전시\n2. 부대프로그램 : 개막행사\n3. 소비자 참여 프로그램 : 국화 다도 및 체험부스운영, 지역 특산물 판매, 소규모 버스킹 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "백제 오천결사대 충혼탑",
-        "dist": 140,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3348679_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 동남리"
-      },
-      {
-        "name": "부여 군수리 사지",
-        "dist": 257,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/22/3336422_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 군수리"
-      },
-      {
-        "name": "조왕사(부여)",
-        "dist": 1193,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3568163_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 계백로 334-47"
-      },
-      {
-        "name": "부여향교",
-        "dist": 1205,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3356332_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 의열로 21-4"
-      },
-      {
-        "name": "의열사 (부여)",
-        "dist": 1240,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/51/3336351_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 동남리 산3"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "연꽃이야기",
-        "dist": 523,
-        "image": "",
-        "addr": "충청남도 부여군 부여읍 성왕로 22"
-      },
-      {
-        "name": "백제고을 누룽지백숙",
-        "dist": 998,
-        "image": "",
-        "addr": "충청남도 부여군 부여읍 정림로 96"
-      },
-      {
-        "name": "하늘채 황금수라",
-        "dist": 1271,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2800539_image2_1.jpg",
-        "addr": "충청남도 부여군 부여읍 계백로 373"
-      },
-      {
-        "name": "백제의집",
-        "dist": 1487,
-        "image": "",
-        "addr": "충청남도 부여군 부여읍 성왕로 248"
-      },
-      {
-        "name": "엄가네곰탕",
-        "dist": 1655,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/84/2877384_image2_1.jpg",
-        "addr": "충청남도 부여군 나루터로 21-4"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "군수2리",
-          "dist": 655,
-          "walkMin": 10
-        },
-        {
-          "name": "동남아파트앞",
-          "dist": 729,
-          "walkMin": 11
-        }
-      ],
-      "parking": [
-        {
-          "name": "군수1리 제1쌈지주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 9,
-          "fee": "무료",
-          "hours": "08:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-830-2284",
-          "dist": 516,
-          "walkMin": 8
-        },
-        {
-          "name": "동남3리 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 5,
-          "fee": "무료",
-          "hours": "09:00~18:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-830-2284",
-          "dist": 522,
-          "walkMin": 8
-        },
-        {
-          "name": "동남3리 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 5,
-          "fee": "무료",
-          "hours": "08:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-830-2284",
-          "dist": 535,
           "walkMin": 8
         }
       ]
@@ -72726,5 +72261,581 @@
     "nearbySpots": [],
     "nearbyFood": [],
     "source": "std"
+  },
+  {
+    "contentid": "604454",
+    "name": "고창모양성제",
+    "startDate": "20261015",
+    "endDate": "20261019",
+    "address": "전북특별자치도 고창군 고창읍 모양성로 11",
+    "lat": "35.4331479316",
+    "lng": "126.7035018266",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/3519730_image2_1.jpg",
+    "overview": "고창모양성제는 국내에서 가장 원형이 잘 보존된 모양성을 주제로 한 역사문화축제이다. 대표프로그램은 답성놀이로서 한바퀴 돌면 다릿병이 낫고, 두바퀴돌면 무병장수하며, 세 바퀴돌면 극락승천 한다는 전설을 체험형 프로그램으로 개발했다. 이 외에도, 답성놀이와 강강술래를 혼합하여 군민과 관광객이 함께 어우러진 야간답성강강술래달밤, 과거현재미래를 표현한 주민 1,000여명이 참여하는 거리 퍼레이드, 과거로의 여행을 주제로 하여 고창읍성 내부를 누비며 즐길 수 있는 리턴즈1453, 그리고 고창지역의 특산물을 활용한 먹거리와 직거래장터 등을 운영한다.",
+    "tel": "063-560-2949",
+    "homepage": "https://www.xn--v52bo3j80dp4c.com/",
+    "eventplace": "",
+    "playtime": "10:00~22:00",
+    "usefee": "무료",
+    "sponsor": "고창군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/28/3519728_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/3519729_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/3519731_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/32/3519732_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/32/3519732_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/33/3519733_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/34/3519734_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/35/3519735_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "고창모양성제는 국내에서 가장 원형이 잘 보존된 모양성을 주제로 한 역사문화축제이다. 대표프로그램은 답성놀이로서 한바퀴 돌면 다릿병이 낫고, 두바퀴돌면 무병장수하며, 세 바퀴돌면 극락승천 한다는 전설을 체험형 프로그램으로 개발했다. 이 외에도, 답성놀이와 강강술래를 혼합하여 군민과 관광객이 함께 어우러진 야간답성강강술래달밤, 과거현재미래를 표현한 주민 1,000여명이 참여하는 거리 퍼레이드, 과거로의 여행을 주제로 하여 고창읍성 내부를 누비며 즐길 수 있는 리턴즈1453, 그리고 고창지역의 특산물을 활용한 먹거리와 직거래장터 등을 운영한다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램\n- 답성놀이, 야간 답성놀이, 강강술래 달BAM, 거리퍼레이드, 리턴즈1453\n2. 부대프로그램\n- 플리마켓, 드론쇼, 패밀리존, 먹거리부스, 직거래장터, 주막\n3. 소비자 참여 프로그램\n- 어린이 당근마켓, 전통놀이 체험, 체험프로그램"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "고창읍성 도예체험장",
+        "dist": 190,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3518628_image2_1.jpg",
+        "addr": "전북특별자치도 고창군 고창읍 동리로 120"
+      },
+      {
+        "name": "고창오거리당산",
+        "dist": 428,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3560765_image2_1.jpg",
+        "addr": "전북특별자치도 고창군 고창읍 읍내리"
+      },
+      {
+        "name": "고창향교",
+        "dist": 485,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3357941_image2_1.JPG",
+        "addr": "전북특별자치도 고창군 고창읍 향교길 27-3"
+      },
+      {
+        "name": "월암서원(고창)",
+        "dist": 2402,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3357950_image2_1.JPG",
+        "addr": "전북특별자치도 고창군 고창읍 월암길 75"
+      },
+      {
+        "name": "정산사",
+        "dist": 2433,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/3357993_image2_1.JPG",
+        "addr": "전북특별자치도 고창군 고창읍 월암안길 8"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "태흥갈비",
+        "dist": 495,
+        "image": "",
+        "addr": "전북특별자치도 고창군 고창읍 중앙로 306-4"
+      },
+      {
+        "name": "나래궁",
+        "dist": 596,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2904608_image2_1.jpg",
+        "addr": "전북특별자치도 고창군 동리로 41 나래궁"
+      },
+      {
+        "name": "고창부안축협한우명품관참예우",
+        "dist": 695,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2870383_image2_1.jpg",
+        "addr": "전북특별자치도 고창군 성산1길 13 고창부안축협한우명품관"
+      },
+      {
+        "name": "길뜨락",
+        "dist": 1455,
+        "image": "",
+        "addr": "전북특별자치도 고창군 상원사길 1-6 길뜨락"
+      },
+      {
+        "name": "퓨전한정식마실",
+        "dist": 1748,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/2904900_image2_1.jpeg",
+        "addr": "전북특별자치도 고창군 월암수월길 104-8"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "중앙동",
+          "dist": 180,
+          "walkMin": 3
+        },
+        {
+          "name": "군청사거리",
+          "dist": 190,
+          "walkMin": 3
+        }
+      ],
+      "parking": [
+        {
+          "name": "고창읍사무소",
+          "se": "공영",
+          "type": "노외",
+          "cap": 56,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "063-560-2573",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "모양성 서문 앞",
+          "se": "공영",
+          "type": "노외",
+          "cap": 17,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "063-560-2573",
+          "dist": 160,
+          "walkMin": 2
+        },
+        {
+          "name": "고창읍성",
+          "se": "공영",
+          "type": "노외",
+          "cap": 158,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "063-560-2573",
+          "dist": 160,
+          "walkMin": 2
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "3014969",
+    "name": "2026 문화의 달 여수",
+    "startDate": "20261016",
+    "endDate": "20261019",
+    "address": "전남광주통합특별시 여수시 이순신광장로 188-1 (종화동)",
+    "lat": "34.7379516191",
+    "lng": "127.7441674961",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/99/4119199_image2_1.jpg",
+    "overview": "문화체육관광부와 전남광주통합특별시, 여수시가 주최하는 ‘2026 문화의 달’ 행사가 오는 10월 16일(금)부터 19일(월)까지 4일간, 해양공원과 여수시 일원에서 개최된다. 1990년부터 이어져 온 ‘문화의 달 행사’는 지역의 고유한 문화와 매력을 알리고, 국민 누구나 문화예술을 함께 즐길 수 있도록 마련된 문화축제이다. 올해는 ‘여수밤바다, 낭만과 문화의 항해’를 주제로, 바다와 섬의 아름다움에 여수의 역사와 예술을 더해 시민과 방문객이 함께 즐기고 공감하는 문화의 장을 마련한다. 박혜원과 지올팍의 초청공연을 비롯해 다채로운 공연·전시·체험과 생활문화 프로그램이 어우러져 여수만의 매력을 선사할 예정이다. 올 가을, 여수가 무대가 되는 4일간. 밤바다의 낭만과 문화예술의 감동을 만나는 특별한 항해가 시작된다.",
+    "tel": "1833-6912",
+    "homepage": "http://www.culturemonth2026.com/",
+    "eventplace": "해양공원 및 여수시 일원",
+    "playtime": "12:00~22:00",
+    "usefee": "무료",
+    "sponsor": "문화체육관광부, 전남광주통합특별시, 여수시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/97/4119197_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/98/4119198_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "문화체육관광부와 전남광주통합특별시, 여수시가 주최하는 ‘2026 문화의 달’ 행사가 오는 10월 16일(금)부터 19일(월)까지 4일간, 해양공원과 여수시 일원에서 개최된다. 1990년부터 이어져 온 ‘문화의 달 행사’는 지역의 고유한 문화와 매력을 알리고, 국민 누구나 문화예술을 함께 즐길 수 있도록 마련된 문화축제이다. 올해는 ‘여수밤바다, 낭만과 문화의 항해’를 주제로, 바다와 섬의 아름다움에 여수의 역사와 예술을 더해 시민과 방문객이 함께 즐기고 공감하는 문화의 장을 마련한다. 박혜원과 지올팍의 초청공연을 비롯해 다채로운 공연·전시·체험과 생활문화 프로그램이 어우러져 여수만의 매력을 선사할 예정이다. 올 가을, 여수가 무대가 되는 4일간. 밤바다의 낭만과 문화예술의 감동을 만나는 특별한 항해가 시작된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 2026 문화의 달 개막식(기념식·주제공연·초청공연·불꽃쇼) / 지올팍·박혜원 초청공연, 버스킹 페스티벌 / EDM 페스타 / YK댄스페스타 / 폐막식(풍류페스타·폐막행사) 등\n- 부대 행사 및 프로그램 : 프린지 거리공연 / 창작극 / 게릴라 버스킹 / 추억의 DJ / 해양 빛 테마거리 / 국제 그래피티 작가 초청전 / 지역예술인 작품 전시 / 바다영화관 / 생활문화동호회 공연 ‘물결스테이지’ / 체험부스 ‘365 취향존’ / 동호인 전시·교류 ‘이음스튜디오&이음라운지’, ‘윤슬마켓&팔도한입’ / LED우산·키링·아크릴 체험 / 그래피티 라이브 드로잉쇼·시민체험존 / 서시장 특화프로그램(DJ 뮤직온·지역 버스커 공연·현장 이벤트·경관조명·그래피티 벽화) / 금오도 찾아가는 문화공연 / 개도 찾아가는 문화공연 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "여수구항 해양공원",
+        "dist": 329,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3372723_image2_1.JPG",
+        "addr": "전남광주통합특별시 여수시 중앙동"
+      },
+      {
+        "name": "낭만포차거리",
+        "dist": 499,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/3422947_image2_1.png",
+        "addr": "전남광주통합특별시 여수시 하멜로 102"
+      },
+      {
+        "name": "거북선대교",
+        "dist": 504,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/65/3373465_image2_1.JPG",
+        "addr": "전남광주통합특별시 여수시 종화동"
+      },
+      {
+        "name": "여수 타루비",
+        "dist": 528,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/71/3027571_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 고소3길 13 (고소동)"
+      },
+      {
+        "name": "이순신광장",
+        "dist": 780,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/07/3351107_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 중앙로 74"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "삼학집",
+        "dist": 165,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/97/2787597_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 이순신광장로 200-3"
+      },
+      {
+        "name": "카페 모카힐",
+        "dist": 169,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2866641_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 고소3길 70  "
+      },
+      {
+        "name": "오성회관",
+        "dist": 185,
+        "image": "",
+        "addr": "전남광주통합특별시 여수시 이순신광장로 206"
+      },
+      {
+        "name": "낭만24포차",
+        "dist": 256,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/2866825_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 하멜로 78  "
+      },
+      {
+        "name": "낭만카페",
+        "dist": 349,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/44/2866844_image2_1.jpg",
+        "addr": "전남광주통합특별시 여수시 고소5길 11  "
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "여수연합항운(여수해양공원)",
+          "dist": 71,
+          "walkMin": 1
+        },
+        {
+          "name": "종화동사거리",
+          "dist": 178,
+          "walkMin": 3
+        }
+      ],
+      "parking": [
+        {
+          "name": "종화동 물양장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 229,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 21,
+          "walkMin": 1
+        },
+        {
+          "name": "이순신광장로(3)",
+          "se": "공영",
+          "type": "노상",
+          "cap": 51,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "08:00~20:00",
+          "days": "평일",
+          "tel": "",
+          "dist": 232,
+          "walkMin": 3
+        },
+        {
+          "name": "이순신광장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 102,
+          "fee": "유료 (요금 현장 확인)",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 801,
+          "walkMin": 12
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "stw3xf8",
+    "name": "평택 원평나루 억새축제",
+    "startDate": "20261024",
+    "endDate": "20261024",
+    "address": "경기도 평택시 평택동 219-3",
+    "lat": "36.984436",
+    "lng": "127.081452",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "공연+상설공연+체험+먹거리",
+    "tourOverview": "",
+    "tel": "031-669-0965",
+    "homepage": "https://www.pccf.or.kr/",
+    "eventplace": "군문교 아래 억새밭(노을생태문화공원)",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "경기도 평택시청",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "신대레포츠공원",
+        "dist": 1774,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3541037_image2_1.jpg",
+        "addr": "경기도 평택시 신대동"
+      },
+      {
+        "name": "팽성레포츠공원",
+        "dist": 2189,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3541045_image2_1.jpg",
+        "addr": "경기도 평택시 팽성읍 안정로 238-31"
+      },
+      {
+        "name": "평택향교",
+        "dist": 3089,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/3558804_image2_1.jpg",
+        "addr": "경기도 평택시 팽성읍 부용로17번길 40"
+      },
+      {
+        "name": "공주 우금치 전적",
+        "dist": 3215,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/21/3334021_image2_1.jpg",
+        "addr": "충청남도 공주시 금학동"
+      },
+      {
+        "name": "배다리지",
+        "dist": 3733,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/56/3521456_image2_1.jpg",
+        "addr": "경기도 평택시 죽백동"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "역전육회",
+        "dist": 766,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/2859147_image2_1.jpg",
+        "addr": "경기도 평택시 원평로52번길 19"
+      },
+      {
+        "name": "정육식당평궁",
+        "dist": 847,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2862772_image2_1.jpg",
+        "addr": "경기도 평택시 팽성읍 신궁2길 103"
+      },
+      {
+        "name": "40호베트남쌀국수",
+        "dist": 1402,
+        "image": "",
+        "addr": "경기도 평택시 통복시장2로9번길 7"
+      },
+      {
+        "name": "재홍분식",
+        "dist": 1596,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/2857936_image2_1.jpg",
+        "addr": "경기도 평택시 평택3로56번길 13 (비전동)"
+      },
+      {
+        "name": "고복수평양냉면",
+        "dist": 1729,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/2616082_image2_1.jpg",
+        "addr": "경기도 평택시 조개터로1번길 71 (합정동)"
+      }
+    ],
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "평택역",
+        "lines": [
+          "경부선"
+        ],
+        "dist": 770,
+        "walkMin": 11
+      },
+      "stops": [
+        {
+          "name": "군문주공아파트",
+          "dist": 286,
+          "walkMin": 4
+        },
+        {
+          "name": "군문주공아파트앞",
+          "dist": 288,
+          "walkMin": 4
+        }
+      ],
+      "parking": [
+        {
+          "name": "군문동 공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 25,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-8024-4993",
+          "dist": 633,
+          "walkMin": 9
+        },
+        {
+          "name": "원평제1공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 165,
+          "fee": "기본 30분 800원 · 추가 10분 300원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-8024-4993",
+          "dist": 638,
+          "walkMin": 10
+        },
+        {
+          "name": "원평제2공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 63,
+          "fee": "기본 30분 800원 · 추가 10분 300원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-8024-4993",
+          "dist": 739,
+          "walkMin": 11
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "svefzt5",
+    "name": "섬강축제",
+    "startDate": "20261018",
+    "endDate": "20261019",
+    "address": "강원특별자치도 원주시 소금산길 12",
+    "lat": "37.36457641",
+    "lng": "127.834038",
+    "venuePhoto": {
+      "image": "http://tong.visitkorea.or.kr/cms/resource/72/3388672_image2_1.JPG",
+      "name": "간현관광지",
+      "dist": 6
+    },
+    "image": "",
+    "overview": "버스킹 공연+농특산물 직거래 장터 운영 등",
+    "tourOverview": "",
+    "tel": "033-737-5504",
+    "homepage": "",
+    "eventplace": "간현관광지 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "섬강축제위원회",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "간현관광지",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3388672_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 소금산길 12"
+      },
+      {
+        "name": "판대천",
+        "dist": 1767,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/63/3375763_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 판대리"
+      },
+      {
+        "name": "원주 조엄묘역",
+        "dist": 2023,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3557112_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 간현리"
+      },
+      {
+        "name": "의민공사우",
+        "dist": 2591,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3375720_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 지정로 626"
+      },
+      {
+        "name": "김제남 신도비",
+        "dist": 2714,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3376528_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 흥법사지길 18"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "훈이꽃게장",
+        "dist": 2387,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/87/2891687_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 지정면 조엄로 186"
+      },
+      {
+        "name": "하얀집가든",
+        "dist": 3308,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2891672_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 작압길 70"
+      },
+      {
+        "name": "A.zel",
+        "dist": 4041,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3455100_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 지정면 보통안길 71-5"
+      },
+      {
+        "name": "장어의힘터_원주문막",
+        "dist": 4157,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3452120_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 문막읍 원문로 1379"
+      },
+      {
+        "name": "아뜰리에안",
+        "dist": 4473,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2627369_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 지정면 원양2로 135"
+      }
+    ],
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "간현관광지앞",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "레일파크",
+          "dist": 352,
+          "walkMin": 5
+        }
+      ],
+      "parking": [
+        {
+          "name": "간현관광지 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 344,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "033-737-5134",
+          "dist": 90,
+          "walkMin": 1
+        },
+        {
+          "name": "지정면 간이주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 10,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "033-737-3543",
+          "dist": 536,
+          "walkMin": 8
+        }
+      ]
+    }
   }
 ]

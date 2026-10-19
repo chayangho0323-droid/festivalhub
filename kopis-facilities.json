@@ -8006,5 +8006,141 @@
     "lng": 127.0000961,
     "tel": "",
     "homepage": ""
+  },
+  "FC001310": {
+    "name": "인천아트플랫폼",
+    "address": "인천광역시 중구 제물량로218번길 3 - 0 인천아트플랫폼",
+    "lat": 37.4729295,
+    "lng": 126.62004730000001,
+    "tel": "032-760-1000",
+    "homepage": "http://www.inartplatform.kr"
+  },
+  "FC004806": {
+    "name": "안단테음악학원",
+    "address": "충청북도 청주시 흥덕구 송화로108번길 30 (송절동)",
+    "lat": 36.661752,
+    "lng": 127.449118,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001375": {
+    "name": "떼아뜨르 다락 소극장",
+    "address": "인천광역시 중구 신포로27번길 3 (중앙동4가)",
+    "lat": 37.4714118,
+    "lng": 126.62473279999995,
+    "tel": "032-777-1959",
+    "homepage": "http://cafe.daum.net/theatre-dalak"
+  },
+  "FC004106": {
+    "name": "춘천시공연예술창업지원센터",
+    "address": "강원특별자치도 춘천시 영서로 3035 (사농동)",
+    "lat": 37.9231818,
+    "lng": 127.7205112,
+    "tel": "033-259-5892",
+    "homepage": "https://www.thehab.co.kr/html/main/index.php"
+  },
+  "FC002332": {
+    "name": "효자아트홀",
+    "address": "경상북도 포항시 남구 행복길 120 (효자동)",
+    "lat": 36.0123651,
+    "lng": 129.3307251,
+    "tel": "054-221-9755",
+    "homepage": "https://www.posco.co.kr/homepage/docs/kor6/jsp/common/posco/s91a1000013c.jsp"
+  },
+  "FC000714": {
+    "name": "현장아트홀",
+    "address": "경상남도 진주시 진주대로 1038 (동성동)",
+    "lat": 35.1922893,
+    "lng": 128.08497349999993,
+    "tel": "055-746-7411",
+    "homepage": "https://www.ihyunjang.com/hj/main/index"
+  },
+  "FC001854": {
+    "name": "신촌문화발전소",
+    "address": "서울특별시 서대문구 연세로2나길 57 (창천동)",
+    "lat": 37.5578945,
+    "lng": 126.93978519999996,
+    "tel": "02-330-4393",
+    "homepage": "https://www.scas.or.kr/"
+  },
+  "FC004925": {
+    "name": "스페이스노들케이",
+    "address": "서울특별시 동작구 현충로 11 (본동)",
+    "lat": 37.510083,
+    "lng": 126.951983,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003127": {
+    "name": "스튜디오 리움",
+    "address": "서울특별시 서대문구 성산로 533(대신동)",
+    "lat": 37.564146,
+    "lng": 126.9445671,
+    "tel": "",
+    "homepage": "https://www.lyum.co.kr/"
+  },
+  "FC005133": {
+    "name": "Brillia HALL Minoh(Minoh City Cultural Arts Theate",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001380": {
+    "name": "옵신 스페이스(구. 서촌공간 서로)",
+    "address": "서울특별시 종로구 필운대로7길 12 (옥인동)",
+    "lat": 37.5815528,
+    "lng": 126.967847,
+    "tel": "02-730-2502",
+    "homepage": "http://spaceseoro.com/main/index.html"
+  },
+  "FC002372": {
+    "name": "쌍벽루아트홀",
+    "address": "경상남도 양산시 신기강변로 26 (신기동)",
+    "lat": 35.3501902,
+    "lng": 129.0339852,
+    "tel": "055-379-8560",
+    "homepage": "https://www.yssisul.or.kr/stms/art/complexIntro"
+  },
+  "FC001615": {
+    "name": "아트브릿지",
+    "address": "대전광역시 서구 둔산대로117번길 22 (만년동)",
+    "lat": 36.3658988,
+    "lng": 127.38256430000001,
+    "tel": "042-482-4463",
+    "homepage": "http://www.artbridge.co.kr/"
+  },
+  "FC004664": {
+    "name": "청주 오스코",
+    "address": "충청북도 청주시 흥덕구 오송읍 오송생명로 250",
+    "lat": 36.6264,
+    "lng": 127.335534,
+    "tel": "043-230-4000",
+    "homepage": "https://osco.or.kr/"
+  },
+  "FC004939": {
+    "name": "TACHIKAWA STAGE GARDEN(타치카와 스테이지 가든)[일본 도쿄]",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001867": {
+    "name": "보령문화의전당",
+    "address": "충청남도 보령시 대흥로 63 (대천동)",
+    "lat": 36.364963,
+    "lng": 126.59509400000002,
+    "tel": "041-930-3433",
+    "homepage": "https://www.brcn.go.kr/culture/"
+  },
+  "FC000468": {
+    "name": "대전중구문화원",
+    "address": "대전광역시 중구 대흥로 109 (대흥동)",
+    "lat": 36.3233627,
+    "lng": 127.42427859999998,
+    "tel": "042-256-3684",
+    "homepage": "http://www.djcc.or.kr/"
   }
 }
