@@ -8142,5 +8142,77 @@
     "lng": 127.42427859999998,
     "tel": "042-256-3684",
     "homepage": "http://www.djcc.or.kr/"
+  },
+  "FC005137": {
+    "name": "녹터널2049스튜디오",
+    "address": "서울특별시 광진구 광나루로 532 (구의동)",
+    "lat": 37.544701,
+    "lng": 127.088505,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002248": {
+    "name": "경동교회",
+    "address": "서울특별시 중구 장충단로 204 (장충동1가)",
+    "lat": 37.56313,
+    "lng": 127.0072167,
+    "tel": "02-2274-0161",
+    "homepage": "http://www.kdchurch.or.kr/"
+  },
+  "FC001954": {
+    "name": "서울교육대학교",
+    "address": "서울특별시 서초구 서초중앙로 96 (서초동)",
+    "lat": 37.4903779,
+    "lng": 127.0168607,
+    "tel": "02-3475-2114",
+    "homepage": "http://www.snue.ac.kr/index.do"
+  },
+  "FC005135": {
+    "name": "축제",
+    "address": "서울특별시 중구 수표로6길 10 (충무로3가)",
+    "lat": 37.562728,
+    "lng": 126.990957,
+    "tel": "",
+    "homepage": "https://www.instagram.com/festivalfestivalseoul"
+  },
+  "FC005134": {
+    "name": "로얄앵커 [울산]",
+    "address": "울산광역시 중구 문화의거리 9 (성남동)",
+    "lat": 35.555761,
+    "lng": 129.321583,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004855": {
+    "name": "동대문구 아르코(DDM ARCO)",
+    "address": "서울특별시 동대문구 왕산로 200 (전농동)",
+    "lat": 37.579875,
+    "lng": 127.046368,
+    "tel": "",
+    "homepage": "https://www.ddmac.or.kr/sub01/sub12.php"
+  },
+  "FC003934": {
+    "name": "영주선비세상",
+    "address": "경상북도 영주시 순흥면 선비세상로 1",
+    "lat": 36.9317423,
+    "lng": 128.5838457,
+    "tel": "054-630-9700",
+    "homepage": "https://sunbeeworld.kr/"
+  },
+  "FC005138": {
+    "name": "경기예술고등학교",
+    "address": "경기도 부천시 원미구 석천로209번길 37 (중동)",
+    "lat": 37.505909,
+    "lng": 126.761271,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003425": {
+    "name": "신포아트홀",
+    "address": "인천광역시 중구 신포로31번길 6 (관동3가)",
+    "lat": 37.4719449,
+    "lng": 126.6252219,
+    "tel": "032-514-2150",
+    "homepage": "https://blog.naver.com/n9016"
   }
 }

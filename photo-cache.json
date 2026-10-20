@@ -329,6 +329,21 @@
     "photos": [],
     "checked": "20261007"
   },
+  "3021814": {
+    "tier": 2,
+    "query": "독립기념관",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/86/3473186.jpg",
+        "title": "독립기념관",
+        "keyword": "독립기념관, 충청남도 천안시, 박물관, 전시관, 천안8경, 제1경, 야간, 야경, 단풍나무숲길, 산책로, 산책길, 걷기여행, 11월 버킷, 11월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "충청남도 천안시 동남구",
+        "month": "202411",
+        "photographer": "김영호"
+      }
+    ],
+    "checked": "20261021"
+  },
   "3107059": {
     "tier": 2,
     "query": "숭례문",
@@ -349,6 +364,12 @@
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "3306590": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261021"
   },
   "3315407": {
     "tier": 0,
@@ -461,11 +482,32 @@
     "photos": [],
     "checked": "20261007"
   },
+  "3399435": {
+    "tier": 2,
+    "query": "안성맞춤",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/33/2717833.jpg",
+        "title": "안성맞춤랜드",
+        "keyword": "안성맞춤랜드, 경기도 안성시, 테마공원, 수변공원, 드론촬영, 드론사진, 항공촬영",
+        "location": "경기도 안성시 보개면",
+        "month": "202105",
+        "photographer": "한국관광공사 이범수"
+      }
+    ],
+    "checked": "20261021"
+  },
   "3400809": {
     "tier": 0,
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "3437916": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261021"
   },
   "3492276": {
     "tier": 0,
@@ -587,6 +629,21 @@
     ],
     "checked": "20261007"
   },
+  "3551000": {
+    "tier": 2,
+    "query": "왕송호수공원",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/62/3024762.JPG",
+        "title": "왕송호수공원",
+        "keyword": "왕송호수공원, 경기도 의왕시, 테마파크, 레솔레파크, 분수, 8월 버킷, 8월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "경기도 의왕시 월암동",
+        "month": "202308",
+        "photographer": "최민희"
+      }
+    ],
+    "checked": "20261021"
+  },
   "3551206": {
     "tier": 2,
     "query": "광명동굴",
@@ -619,6 +676,21 @@
     "query": "",
     "photos": [],
     "checked": "20261007"
+  },
+  "3563389": {
+    "tier": 2,
+    "query": "죽변항",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/26/2643126.jpg",
+        "title": "죽변항",
+        "keyword": "죽변항, 경상북도 울진군, 대게",
+        "location": "경상북도 울진군 죽변면",
+        "month": "201911",
+        "photographer": "한국관광공사 김지호"
+      }
+    ],
+    "checked": "20261021"
   },
   "4056606": {
     "tier": 0,
@@ -2461,5 +2533,11 @@
       }
     ],
     "checked": "20261016"
+  },
+  "s1c8ptck": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261021"
   }
 }

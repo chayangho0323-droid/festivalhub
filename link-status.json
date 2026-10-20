@@ -7,12 +7,12 @@
  "https://www.coffeefestival.net/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.nonsan.go.kr/ggfestival/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gdsunsa.com": {
   "state": "ok",
@@ -29,18 +29,18 @@
  "https://www.kh.or.kr/short/g6cX": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.kh.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=110615&searchCategory1=600&searchCategory2=617&searchCategory3=&searchCategory6=&searchField=all&searchDate=202609&weekSel=&searchType=&year=2026&month=09&searchText="
  },
  "https://gsctf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.goheungyuja.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gm.go.kr/": {
   "state": "ok",
@@ -61,12 +61,12 @@
  "https://cjculturenight.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gwangallimdrone.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://gyfestival.kr/": {
   "state": "ok",
@@ -76,7 +76,7 @@
  "https://www.gumiramyun.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gumifoodfestival.com/": {
   "state": "unknown",
@@ -86,19 +86,18 @@
  "https://kimchi.gwangju.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://kimchi.gwangju.go.kr/index.php?"
  },
  "http://festival.buncheong.co.kr/main.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://gimbapcity.kr/main/main.html": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://gimbapcity.kr/main/main.html"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.ggcfest.com/": {
   "state": "ok",
@@ -109,13 +108,13 @@
  "https://cms.wfmc.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://cms.wfmc.kr/web/index.do;jsessionid=52B048036CD6331DA33383C525F40265"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://cms.wfmc.kr/web/index.do;jsessionid=1AEC076FD6B84060E97BB5BB79154A16"
  },
  "https://namsanbongsu.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.nowonlib.kr/": {
   "state": "ok",
@@ -129,9 +128,10 @@
   "final": "https://www.kh.or.kr/cont/view/all/month/menu/363?thisPage=1&idx=110623&searchCategory1=&searchCategory2=&searchCategory3=&searchCategory6=B&searchField=all&searchDate=202608&weekSel=&searchType=&year=2026&month=08&searchText="
  },
  "https://www.instagram.com/jeju_ghost/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fjeju_ghost%2F&is_from_rle"
  },
  "https://www.nyj.go.kr/thinkj/index.do": {
   "state": "ok",
@@ -147,12 +147,12 @@
  "https://jijidaeak.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://dalbambusan.com/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.bsbukgu.go.kr/": {
   "state": "ok",
@@ -163,7 +163,9 @@
  "https://lib.ddc.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://heritage-night.jung.daegu.kr/": {
   "state": "ok",
@@ -178,7 +180,7 @@
  "https://www.pccf.or.kr/evnt/evntView.do?evntSn=2609040001": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.dongnae.go.kr/festival/index.dongnae": {
   "state": "ok",
@@ -199,7 +201,7 @@
  "https://cultureseoul.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://cultureseoul.co.kr/"
  },
  "https://www.mokpo.go.kr/tour/festival/harbor": {
@@ -210,7 +212,7 @@
  "https://www.mgapple.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://bhftf.or.kr/festival/pine_mushroom_festival/index.php": {
   "state": "ok",
@@ -220,32 +222,33 @@
  "https://busangde.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://busanfireworks.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://busanmarathon.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/seogwipo_tourism/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fseogwipo_tourism%2F&is_from_rle"
  },
  "https://www.busanfolkartfestival.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://iksan-treasure.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://iksan-treasure.kr/main/inner.php?sMenu=main"
  },
  "https://www.buanmasil.com/buansunset/main.php": {
@@ -256,23 +259,23 @@
  "https://busanillustrationfair.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://busanillustrationfair.co.kr/"
  },
  "https://www.seogwipo.go.kr/tourismculture/destination/festival/70ri.htm": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.xn--4k0b720a3lcv6j.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jrtf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://dadafesta.github.io/": {
   "state": "ok",
@@ -282,13 +285,13 @@
  "http://www.royalguard.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.royalguard.kr/"
  },
  "https://www.semiwon.or.kr/bbs/board.php?bo_table=notice&wr_id=120": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://wowlab.or.kr/wowbook-festival/2026-wowfestival/": {
   "state": "ok",
@@ -303,7 +306,7 @@
  "https://lavender-alibi-20b.notion.site/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://seochoai.kr/": {
   "state": "ok",
@@ -313,7 +316,7 @@
  "https://yangjaeartsalon.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.jangfestival.co.kr": {
   "state": "ok",
@@ -324,18 +327,22 @@
  "https://www.hwasun.go.kr/festival/index.do?S=S11": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.kh.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.kh.or.kr/kha"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.kh.or.kr/kha",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://yangjae.seocholib.or.kr/NoticeInfoDetail/26288": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://yyfestival.com/": {
   "state": "ok",
@@ -345,7 +352,9 @@
  "https://www.yjfestival.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.bsseogu.go.kr": {
   "state": "ok",
@@ -354,9 +363,10 @@
   "final": "https://www.bsseogu.go.kr/index.bsseogu"
  },
  "https://www.instagram.com/ohslowmarket": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fohslowmarket&is_from_rle"
  },
  "http://ydnan-gye.co.kr/": {
   "state": "ok",
@@ -392,7 +402,7 @@
  "https://cafe.naver.com/ujbj2025": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.zippul.co.kr/": {
   "state": "ok",
@@ -417,14 +427,15 @@
  "https://www.anseong.go.kr/tourPortal/namsadang": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.anseong.go.kr/tourPortal/namsadang/main.do"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.anseong.go.kr/tourPortal/namsadang/main.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.ifwk.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.ifwk.co.kr/"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.yeosu.go.kr/ysff": {
   "state": "ok",
@@ -434,12 +445,13 @@
  "https://www.adf.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/transmedia2026/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Ftransmedia2026%2F&is_from_rle"
  },
  "https://aplusfestival.or.kr/": {
   "state": "ok",
@@ -459,7 +471,7 @@
  "https://www.jeju.go.kr/lib/open/notice.htm?page=2&act=view&seq=2036410": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://xn--hq1bz1nqxfv2f5qg4nb.kr/": {
   "state": "ok",
@@ -474,22 +486,23 @@
  "https://yu-on.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://csapplefestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/gyeonggi_jang": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgyeonggi_jang&is_from_rle"
  },
  "http://www.tamnafestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.quad.or.kr/": {
   "state": "dead",
@@ -506,13 +519,13 @@
  "https://cwdsarangchae.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://cwdsarangchae.kr/ko/main/index.kto"
  },
  "https://www.thepainters.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://pcfac.or.kr/sub03/sub07-1.php?type=view&uid=1817323": {
   "state": "ok",
@@ -522,12 +535,12 @@
  "https://www.hapgood.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://youmustchangeyourlife.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://pajufair.com/": {
   "state": "ok",
@@ -537,12 +550,12 @@
  "http://chudofilm.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://blog.naver.com/official_namdang": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hanriver.or.kr/ecology/20110_info.php5": {
   "state": "dead",
@@ -552,7 +565,7 @@
  "https://www.kisportsfestival.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://festival.phcf.or.kr/fireWorks/intro.do": {
   "state": "dead",
@@ -567,7 +580,9 @@
  "https://www.hc.go.kr/09418/09428/09429.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.songpa.go.kr/hanseong/index.do": {
   "state": "ok",
@@ -582,12 +597,12 @@
  "https://www.seoul.go.kr/festa/hangang/y2026": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.pocheon-gardenfesta.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.helloddc.co.kr/": {
   "state": "ok",
@@ -595,14 +610,15 @@
   "checkedAt": "2026-10-13T07:59:47.832Z"
  },
  "https://www.instagram.com/dmzopen_official/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fdmzopen_official%2F&is_from_rle"
  },
  "https://www.gcbiennale.org": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.gcbiennale.org/"
  },
  "https://www.pohang.go.kr/": {
@@ -614,33 +630,34 @@
  "https://artgwangju.kr/ko/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://nokdongdrone.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://nokdongdrone.co.kr/"
  },
  "https://www.ntok.go.kr/sasc": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/walkinging_festa": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fwalkinging_festa&is_from_rle"
  },
  "https://hugrun.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://seonmeditationsummit.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://blog.naver.com/sbculture1/": {
   "state": "ok",
@@ -650,7 +667,8 @@
  "https://ysgarden.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://ysgarden.kr/"
  },
  "https://dcaf.or.kr/": {
   "state": "ok",
@@ -660,12 +678,12 @@
  "https://namsannightfestival.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://smalltheater.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/kaica.gcon/": {
   "state": "unknown",
@@ -675,7 +693,7 @@
  "http://jeju-garden-expo.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/cj.forest.official/": {
   "state": "unknown",
@@ -690,18 +708,22 @@
  "https://온시민에너지걷기한마당.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://xn--269as6am3d4uc81numd8pq3wftwa42zek7a.com/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://xn--269as6am3d4uc81numd8pq3wftwa42zek7a.com/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.instagram.com/sg_youngmic/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsg_youngmic%2F&is_from_rle"
  },
  "https://www.instagram.com/chungjang_zip/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fchungjang_zip%2F&is_from_rle"
  },
  "http://www.culturemonth2026.com/": {
   "state": "ok",
@@ -709,14 +731,15 @@
   "checkedAt": "2026-10-13T07:59:47.832Z"
  },
  "https://www.instagram.com/seoulbusking/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fseoulbusking%2F&is_from_rle"
  },
  "https://beautysumkorea.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://jbsf.co.kr/": {
   "state": "ok",
@@ -732,7 +755,7 @@
  "http://www.boardgamefesta.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.boardgamefesta.com/"
  },
  "https://agro-cityseoul.co.kr/": {
@@ -743,40 +766,42 @@
  "https://ccmicsynergy2026.imweb.me/index": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://seoul-design.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.royalguard.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.royalguard.kr/"
  },
  "http://youngmic.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://youngmic.com/"
  },
  "https://petlympic.imweb.me/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.visitisland.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.visitisland.kr/"
  },
  "https://www.suseong.kr/urbanism/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.seoulballetfestival.com/": {
   "state": "ok",
@@ -786,7 +811,7 @@
  "https://indef.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://unicakorea.org/": {
   "state": "ok",
@@ -801,13 +826,13 @@
  "http://www.seoulmusicfestival.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.seoulmusicfestival.co.kr/2026/index.php"
  },
  "https://contents.ollepass.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.visitjeju.or.kr/": {
   "state": "ok",
@@ -817,22 +842,25 @@
  "https://www.kcdf.or.kr/hanbokcultureweek/main": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.k-ricefesta.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://en.koreagrandsale.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.instagram.com/artchosun_space/": {
-  "state": "unknown",
-  "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fartchosun_space%2F&is_from_rle"
  },
  "https://www.chungnam.go.kr": {
   "state": "ok",
@@ -843,18 +871,20 @@
  "http://www.jejubiennale.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.jejubiennale.org/"
  },
  "https://wondermedium.com/woojoo-goesan/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://jirisantrail.kr/wp/?page_id=32592": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.shyouth.or.kr/": {
   "state": "ok",
@@ -864,12 +894,12 @@
  "https://www.swcf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gwangju.museum.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://gwangju.museum.go.kr/"
  },
  "http://pr.nsmall.com": {
@@ -881,7 +911,9 @@
  "https://www.sd.go.kr/tour/contents.do?key=3947&": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.hc.go.kr/06573/08250.web(개시전-작년자료)": {
   "state": "ok",
@@ -892,34 +924,36 @@
  "http://군위걷기대회.com//": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://xn--269als7r67m652ayvu.com//"
  },
  "https://k-dronewf.com/": {
   "state": "unknown",
   "status": 403,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.sd.go.kr/tour/contents.do?key=3948&": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "http://www.phcf.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://phcf.or.kr/"
  },
  "https://www.pccf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.sieaf.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://sieaf.com/"
  },
  "https://www.hc.go.kr/06573/06623/10013.web": {
@@ -930,51 +964,53 @@
  "https://www.apap.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.apap.or.kr:446/index.asp"
  },
  "https://www.cultureexpo.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.cultureexpo.or.kr/open.content/ko/"
  },
  "https://festivalbusan.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hpftf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://citf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.pajucf.or.kr/main/main.php": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hongseong.go.kr/tour/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://tour.paju.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://tour.paju.go.kr/user/tour/main/index.do"
  },
  "http://www.gwangyang.go.kr/tour_culture": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://gwangyang.go.kr/tour/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://gwangyang.go.kr/tour/",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.mapo.go.kr/site/maponarusf/content/mss240101": {
   "state": "ok",
@@ -984,8 +1020,10 @@
  "http://www.dgs.go.kr/tour/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "http://dgs.go.kr/tour/main.do"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://dgs.go.kr/tour/main.do",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.yeongdo.go.kr/ydfestival.web": {
   "state": "ok",
@@ -1002,12 +1040,12 @@
  "https://www.yeonsu.go.kr/tour/festival/christmas/info.asp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.dong.daegu.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.dong.daegu.kr/main.do"
  },
  "https://www.swcf.or.kr/hlfl/": {
@@ -1018,7 +1056,7 @@
  "https://www.nyj.go.kr/gff/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.ep.go.kr": {
   "state": "ok",
@@ -1029,18 +1067,20 @@
  "https://www.inscc.kr/user/index.php": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://ddp.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.ddp.or.kr//?menuno=228"
  },
  "https://www.cng.go.kr/01659/02144/03803.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.cng.go.kr/01659/02139/03797.web": {
   "state": "ok",
@@ -1050,29 +1090,33 @@
  "http://blog.naver.com/lgb301": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://blog.naver.com/NBlogTop.naver?isHttpsRedirect=true&blogId=lgb301"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://blog.naver.com/NBlogTop.naver?isHttpsRedirect=true&blogId=lgb301",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.seosan.go.kr/tour/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://jinankimchi.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.청도코아페.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.xn--hq1bx54atmfwzcbqh.kr/"
  },
  "https://www.jinju.go.kr/agrex": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.hsscf.kr/": {
   "state": "dead",
@@ -1083,7 +1127,7 @@
  "https://www.buk.daegu.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gaecheonart.com": {
   "state": "ok",
@@ -1094,24 +1138,28 @@
  "https://www.suseong.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.suseong.kr/"
  },
  "https://www.jindo.go.kr/tour/tour/info/festival.cs?act=view&infoId=99&searchCondition=&searchKeyword=&pageIndex=1": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.geoje.go.kr/flower/index.geoje": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.geoje.go.kr/flower/index.geoje"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.geoje.go.kr/flower/index.geoje",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "http://ulsanstorynightmarket.com/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://ygcf.or.kr/Festival/": {
   "state": "dead",
@@ -1121,66 +1169,75 @@
  "https://cafe.naver.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://section.cafe.naver.com/ca-fe/"
  },
  "https://www.ddmac.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gtp.ghct.or.kr/home/main": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.daegu.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.daegu.go.kr/"
  },
  "https://www.geoje.go.kr/marinesports/index.geoje": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://garts.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://garts.kr/index.do"
  },
  "https://www.instagram.com/ansan_esports": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://lhagit.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.cnkccf.or.kr/dangjin.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "http://www.cnkccf.or.kr/dangjin/kor/main.do"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://www.cnkccf.or.kr/dangjin/kor/main.do",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://www.gijang.go.kr/tour/index.gijang?menuCd=DOM_000000302004000000": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.k-illustrationfair.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.k-illustrationfair.com/"
  },
  "https://www.suseong.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.kdfo.org": {
   "state": "ok",
@@ -1191,137 +1248,137 @@
  "https://www.instagram.com/gamtanroad.popup/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gncn.or.kr/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.yeonsu.go.kr/tour/festival/beach/info.asp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.semiwon.or.kr/bbs/board.php?bo_table=notice&wr_id=106": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://hangang.seoul.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.creatorfesta.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1375&": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://yahaeng.ydstay.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.3004palpo.co.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.3004palpo.co.kr/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://www.3004palpo.co.kr/"
  },
  "http://www.sasangculture.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.dsff.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://oar-museum.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://oar-museum.com/"
  },
  "https://www.hpftf.or.kr/contentsView.do?pageId=www167": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://100beer.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.hansanf.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.hansanf.org/main/main.php"
  },
  "https://www.ghheritage.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://hoonent.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://hoonent.com/m/"
  },
  "https://bicfest.org/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://sunflowerfestival.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://pcfac.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.sccf.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.sccf.or.kr/"
  },
  "https://www.instagram.com/p/Db1wcLSgbjp/?img_index=1": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gongju-culturenight.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.worldcf.co.kr/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.seoulup.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://sblibfest2026.github.io/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jungnang.go.kr/portal/main.do": {
   "state": "dead",
@@ -1332,203 +1389,215 @@
  "https://www.instagram.com/2026_gwlc/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hello-maker.org": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.hello-maker.org/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.hello-maker.org/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.ggac.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.ggac.or.kr/intro.do"
  },
  "https://gmmall.cyso.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.2026전국장애학생e페스티벌.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.xn--2026e-d30tf53fsvhb7d6xiu0gs6ay06gf6bmwk.com/"
  },
  "https://www.kcultureexpo.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.kcultureexpo.com/kor/"
  },
  "https://hongju.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.geojefesta.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.cng.go.kr/01659/02141/03799.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.firefly.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gangjin.go.kr/culture/festival/gangjinman_reed": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.gangjin.go.kr/culture/festival/gangjinman_reed"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.gangjin.go.kr/culture/festival/gangjinman_reed",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "http://www.jimff.org": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.jimff.org/eng/default.asp"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.jimff.org/eng/default.asp",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://nam.daegu.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.noel.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gxg.world/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://nowonarts.kr/channels/festival/programs/1037": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://kculturepaju.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://mudfestival.or.kr/festival/event/list?level=2&menuNo=86": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.wjculturenight.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://djjunggunight.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://shnesquetour.com/Yongsan_Festival": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.3to.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.michuhol.go.kr/culture/content.do?sq=996": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gangjin.go.kr/culture/festival/hamelchon": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.gangjin.go.kr/culture/festival/hamelchon"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.gangjin.go.kr/culture/festival/hamelchon",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://wfac.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jangsufestival.com/Jfest/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://seoulheritagefestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://jejulhfestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.cctf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.mldc.kr/web/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://mldc.kr/"
  },
  "https://www.swyft.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hyoseok.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://칠갑마루.com/_festa": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://xn--539an7vgta625d.com/_festa"
  },
  "https://www.iusm.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://dmzdocs.com": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://dmzdocs.com/"
  },
  "https://www.hc.go.kr/06573/06623/06628.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://lib.wonju.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://lib.wonju.go.kr/portal/main;jsessionid=4EAC3EB8ACDE8E4CA9418F59FF5AB014"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://lib.wonju.go.kr/portal/main;jsessionid=F58E958F8AF7AAA7D4D111F234B3062C"
  },
  "https://www.heyri.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.heyri.net/"
  },
  "https://www.siwf.or.kr": {
@@ -1539,116 +1608,120 @@
  "https://www.uwfest.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.araje.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://yangju2022.quv.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.festa-ddooddoo.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://seocheon-yahaeng.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://busanyouthweek.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jangheung.go.kr/tour/festival/autumn/hoeryeongpo": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "http://www.ssfestival.net/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://bipc.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://bipc.kr/"
  },
  "https://www.incheon.go.kr/incheon_rf/index": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://ysfesta.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.bicf.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.bicf.kr/"
  },
  "https://culture.asan.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://culture.asan.go.kr/_culture/new/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://culture.asan.go.kr/_culture/new/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://youthcoffee.co.kr/120": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.seocheon.go.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.seocheon.go.kr/kor.do"
  },
  "http://mmdfestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.yulteo.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gochanggut.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gangwhastar.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jjbook.kr/?mode=homepage": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://blog.naver.com/wonjurooftop": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.xn--299a618bujas2x.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://deodeok.info/": {
   "state": "dead",
@@ -1659,152 +1732,158 @@
  "https://urbansports.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.l4d.or.kr/intro/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://litt.ly/timingus?ref=qr.litt.ly": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.seo.incheon.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gchf.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://spicy-fe.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://xn--2026-ee6ql6e22tga227lcoaz25c8gk.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.yahaeng.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://festivalbusan.com/seafestival/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.instagram.com/acefair_gwangjur": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.ycc50.org/": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "state": "unknown",
+  "status": 403,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://everywherefest.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.pccf.or.kr/festival/festivalView.do?evntSn=2606180001&pageIndex=1&sw=&sc_tharAreaCd=&orderBy=deadline": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://yahang.imweb.me/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://litt.ly/yoorari_dryseafood_beer": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.baekjeculturalfestival.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.gylaf.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.gylaf.kr/"
  },
  "https://xn--539an7vgta625d.com/_festa": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.hwasun.go.kr/festival/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.hc.go.kr/06573/08250.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.hc.go.kr/06573/06623/08250.web"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.hc.go.kr/06573/06623/08250.web",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.yeonsu.go.kr/tour/festival/neungheodae_festival/info.asp": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.ydgrape.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gwangjubiennale.org/gb/index.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://sidfest.imweb.me/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://festivalgm.or.kr/2025/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://festivalgm.or.kr/2025/"
  },
  "http://www.gcfest.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.gcfest.or.kr/"
  },
  "https://www.ikcc.or.kr/ko/index": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://www.청도반시축제.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://xn--hq1bz1nqxfv2f5qg4nb.kr/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://www.xn--hq1bz1nqxfv2f5qg4nb.kr/"
  },
  "https://www.jangseong.go.kr/home/tour_new/festival/festival_04/festival_04_04": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://kncdc.kr/ko/performance/": {
   "state": "dead",
@@ -1814,142 +1893,147 @@
  "https://www.wcf.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gangjin.go.kr/culture/festival/hamelchon": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.sfac.or.kr/seoulautumnfesta/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.seoulphil.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://djsangnok.org": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://djsangnok.org/"
  },
  "https://gmlib.gm.go.kr/front/index.php?g_page=event&m_page=event15": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.haksanculture.or.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.haksanculture.or.kr/"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.haksanculture.or.kr/",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1372&": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jnfac.or.kr/contents/1335": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.nowon.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://www.nowon.kr/www/index.do"
  },
  "https://blog.naver.com/nyjyouth7/224390651015": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.yongsan.go.kr/portal/bbs/B0000270/view.do?nttId=746218&menuNo=201375": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "fetch failed"
  },
  "https://blog.naver.com/gwangjin_b/224391984691": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://visitgangnam.net/cultural-events/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://visitgangnam.net/events"
  },
  "https://dfx.dicia.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://dfx.dicia.or.kr/2026/"
  },
  "http://수원재즈페스티벌.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "http://www.xn--pk3bl5h9ly1lp5av0fwzymhb.com/"
  },
  "https://hongju.or.kr/home/main.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://sscf2016.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.storyg.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://localvibehub.com/treasure-hunter": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.visitbusan.net": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.visitbusan.net/index.do"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "http://www.visitbusan.net/index.do"
  },
  "https://gsctf.or.kr/user/festival/festival/view?boardIdx=1476": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.jung.daegu.kr": {
-  "state": "ok",
-  "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
-  "final": "https://www.jung.daegu.kr/"
+  "state": "unknown",
+  "status": 400,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://mokpowshow.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://mokpowshow.co.kr/"
  },
  "http://visit-hangang.seoul.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z",
+  "checkedAt": "2026-10-20T22:53:29.185Z",
   "final": "https://visit-hangang.seoul.kr/Default.asp"
  },
  "https://www.richrichfestival.com/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gimje.go.kr/heritagenight/index.gimje": {
   "state": "ok",
@@ -1969,12 +2053,12 @@
  "https://www.instagram.com/gj_geumridan/": {
   "state": "unknown",
   "status": 429,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://gceducation281360343.imweb.me/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.daegumakerfesta.com/": {
   "state": "ok",
@@ -2026,7 +2110,7 @@
  "https://anitoyfestival.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://ssaf.or.kr/index": {
   "state": "ok",
@@ -2167,7 +2251,7 @@
  "https://gangnam-youth-2026.netlify.app/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gicon.or.kr/menu.es?mid=a11003020200": {
   "state": "ok",
@@ -2182,7 +2266,7 @@
  "https://www.iksan.go.kr/gukhwa/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gomsofestival.com/": {
   "state": "ok",
@@ -2396,7 +2480,7 @@
  "https://jipf.jeonju.go.kr/main/idx": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://arirangfestival.kr/": {
   "state": "ok",
@@ -2554,12 +2638,14 @@
  "https://www.yeoncheon.go.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://www.gangjin.go.kr/culture/festival/gangjinman_reed": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.dobong.or.kr/main/main.php?categoryid=02&menuid=02&groupid=01": {
   "state": "ok",
@@ -2579,7 +2665,7 @@
  "https://linktr.ee/2026rokus.pief": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-13T07:59:47.832Z"
+  "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "http://airshow.sacheon.go.kr": {
   "state": "ok",
@@ -3126,5 +3212,54 @@
   "state": "unknown",
   "status": 429,
   "checkedAt": "2026-10-19T23:19:24.230Z"
+ },
+ "https://www.gimpo.go.kr/u/53850": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
+ },
+ "https://www.seogu.go.kr/library/wolpyeonglib/contents/learning/board/09/board.09.001.motion?nttId=27324&bmode=detail&bbsId=BBSMSTR_000000000408&mnucd=MENU0600041": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
+ },
+ "https://tour.muan.go.kr/tour/festival/yd_festival/introduce": {
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "error": "20"
+ },
+ "https://www.instagram.com/cc_youngmic": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fcc_youngmic&is_from_rle"
+ },
+ "https://www.pajucf.or.kr/business/02_3_view.php?no=182&page=1": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
+ },
+ "https://litt.ly/christmasvillagebusan": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
+ },
+ "https://www.uljin.go.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.uljin.go.kr/index.uljin"
+ },
+ "https://hopedreamfair.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z"
+ },
+ "http://www.eduuiwang.com/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-20T22:53:29.185Z",
+  "final": "https://www.eduuiwang.com/"
  }
 }
