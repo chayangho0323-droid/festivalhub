@@ -188,8 +188,19 @@ function infoRow(icon, label, value) {
 // 모든 페이지 하단에 붙는 공통 푸터 (출처 표기는 공공데이터 이용 시 의무사항)
 // prefix: 페이지 위치에 따른 경로 보정 ("" = 루트, "../" = festival/ 폴더 안)
 // 축제 가이드 바로가기 — 푸터만으론 안 보여서(2026-10-01) 메인·목록은 칩 줄, 상세는 홈페이지 버튼 아래 한 줄로 노출
+// 월별 추천 칩은 festival-guides.js PICKS에서 자동: 이번 달과 다음 달 것만 (지난 달 추천은 칩에서 빠지고 페이지·월별 띠에는 남음). 2026-10-20 11월 15선 추가
+const PICK_LINKS = (() => {
+  const d = new Date(Date.now() + 9 * 3600 * 1000);
+  const cur = d.getUTCFullYear() * 100 + (d.getUTCMonth() + 1);
+  const icons = { 10: "🍂", 11: "🍁", 12: "⛄", 1: "🎍", 2: "❄️", 3: "🌱", 4: "🌸", 5: "🌿", 6: "☀️", 7: "🏖️", 8: "🌻", 9: "🌾" };
+  return require("./festival-guides.js").PICKS
+    .map((pk) => { const m = pk.slug.match(/picks-(\d{4})-(\d{2})/); return m ? { pk, ym: Number(m[1]) * 100 + Number(m[2]), mon: Number(m[2]) } : null; })
+    .filter((x) => x && x.ym >= cur && x.ym <= cur + 1)
+    .sort((a, b) => a.ym - b.ym)
+    .map(({ pk, mon }) => [`${pk.slug}.html`, `${icons[mon] || "🎪"} ${mon}월 추천 15선`, "chip chip-hot"]);
+})();
 const GUIDE_LINKS = [
-  ["picks-2026-10.html", "🍂 10월 추천 15선", "chip chip-hot"],
+  ...PICK_LINKS,
   ["guide-checklist.html", "🎒 준비물"],
   ["guide-rain.html", "🌧️ 비 올 때"],
   ["guide-parking.html", "🚗 주차·셔틀"],
@@ -199,7 +210,8 @@ function guideChips(prefix = "") {
   return `<nav class="quick-links guide-row" aria-label="축제 가이드"><span class="guide-row-label">📚 축제 가이드</span>${GUIDE_LINKS.map(([h, t, c]) => `<a class="${c || "chip"}" href="${prefix}${h}">${t}</a>`).join("")}</nav>`;
 }
 function guideInline(prefix = "") {
-  return `<p class="guide-inline">📚 가기 전에 — ${GUIDE_LINKS.slice(1).map(([h, t]) => `<a href="${prefix}${h}">${t.replace(/^\S+\s/, "")}</a>`).join(" · ")} · <a href="${prefix}${GUIDE_LINKS[0][0]}">10월 추천 축제</a></p>`;
+  const guides = GUIDE_LINKS.filter(([h]) => !h.startsWith("picks-"));
+  return `<p class="guide-inline">📚 가기 전에 — ${guides.map(([h, t]) => `<a href="${prefix}${h}">${t.replace(/^\S+\s/, "")}</a>`).join(" · ")}${PICK_LINKS.map(([h, t]) => ` · <a href="${prefix}${h}">${t.replace(/^\S+\s/, "").replace(" 15선", " 축제")}</a>`).join("")}</p>`;
 }
 
 function footerHtml(prefix = "") {
@@ -207,7 +219,7 @@ function footerHtml(prefix = "") {
   <footer class="site-footer">
     <p>축제 정보 출처: 한국관광공사 TourAPI (공공데이터) · 매일 새벽 자동 갱신</p>
     <p><a href="${prefix}about.html">사이트 소개</a> · <a href="${prefix}privacy.html">개인정보처리방침</a> · <a href="${prefix}index.html">전체 축제</a> · <a href="${prefix}weekend.html">이번 주말 축제</a> · <a href="${prefix}gallery.html">📸 방문자 사진·후기</a></p>
-    <p>📚 축제 가이드: <a href="${prefix}picks-2026-10.html">10월 추천 15선</a> · <a href="${prefix}guide-checklist.html">준비물</a> · <a href="${prefix}guide-rain.html">비 올 때</a> · <a href="${prefix}guide-parking.html">주차·셔틀</a> · <a href="${prefix}guide-kids.html">아이와 함께</a></p>
+    <p>📚 축제 가이드: ${PICK_LINKS.map(([h, t]) => `<a href="${prefix}${h}">${t.replace(/^\S+\s/, "")}</a> · `).join("")}<a href="${prefix}guide-checklist.html">준비물</a> · <a href="${prefix}guide-rain.html">비 올 때</a> · <a href="${prefix}guide-parking.html">주차·셔틀</a> · <a href="${prefix}guide-kids.html">아이와 함께</a></p>
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>`;
 }
@@ -672,6 +684,7 @@ function buildPage(f, all) {
       ${guideInline("../")}
       ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${photoCallHtml(f)}
+      <p class="guide-tip gallery-cta">📸 <a class="gallery-link" href="../gallery.html">다른 방문자들이 보낸 축제 사진·후기 보기 →</a> <span class="muted">지평선축제·여주 골목대빵축제·백제문화제 현장 사진</span></p>
       ${overview}
       ${extraSections}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}${transitHtml}</section>
