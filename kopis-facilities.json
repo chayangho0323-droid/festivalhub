@@ -8214,5 +8214,133 @@
     "lng": 126.6252219,
     "tel": "032-514-2150",
     "homepage": "https://blog.naver.com/n9016"
+  },
+  "FC000485": {
+    "name": "나주문화예술회관",
+    "address": "전남광주통합특별시 나주시 예향로 4137 (송월동)",
+    "lat": 35.0224762,
+    "lng": 126.71239530000003,
+    "tel": "061-339-2531",
+    "homepage": "http://najuart.naju.go.kr/"
+  },
+  "FC002099": {
+    "name": "화도수동행정복지센터",
+    "address": "경기도 남양주시 화도읍 비룡로 59 (마석우리)",
+    "lat": 37.6577326,
+    "lng": 127.300796,
+    "tel": "031-590-5498",
+    "homepage": "https://www.nyj.go.kr/town/355"
+  },
+  "FC004482": {
+    "name": "광복극장",
+    "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
+    "lat": 37.583886,
+    "lng": 126.997156,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005143": {
+    "name": "몽골문화촌",
+    "address": "경기도 남양주시 수동면 비룡로 1635",
+    "lat": 37.757923,
+    "lng": 127.27535,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001185": {
+    "name": "목포문화예술회관",
+    "address": "전남광주통합특별시 목포시 남농로 102 (용해동)",
+    "lat": 34.7913967,
+    "lng": 126.41699100000005,
+    "tel": "061-270-4038",
+    "homepage": "https://www.mokpo.go.kr/art/"
+  },
+  "FC005142": {
+    "name": "카페 다시점",
+    "address": "서울특별시 마포구 월드컵로29길 51 (망원동)",
+    "lat": 37.559094,
+    "lng": 126.903513,
+    "tel": "",
+    "homepage": "https://www.instagram.com/dasijeom"
+  },
+  "FC005140": {
+    "name": "1967호서극장",
+    "address": "충청남도 공주시 감영길 21 (중동)",
+    "lat": 36.453045,
+    "lng": 127.123796,
+    "tel": "041-854-5006",
+    "homepage": "https://www.1967hs.org/hs.do"
+  },
+  "FC001336": {
+    "name": "후용공연예술센터",
+    "address": "강원도 원주시 문막읍 비야동길 11",
+    "lat": 37.312596,
+    "lng": 127.81722890000003,
+    "tel": "033-732-0827",
+    "homepage": "http://www.hooyongartscentre.com/main.php"
+  },
+  "FC000839": {
+    "name": "그랜드 워커힐 서울 (비스타 워커힐 서울)",
+    "address": "서울특별시 광진구 워커힐로 177 (광장동)",
+    "lat": 37.5557741,
+    "lng": 127.11091179999994,
+    "tel": "02-455-5000",
+    "homepage": "http://www.sheratonwalkerhill.co.kr/meetings/specialFacilities.wh"
+  },
+  "FC002266": {
+    "name": "별빛도서관",
+    "address": "경기도 남양주시 별내중앙로 102 (별내동)",
+    "lat": 37.6531518,
+    "lng": 127.1184073,
+    "tel": "031-590-5349",
+    "homepage": "https://lib.nyj.go.kr/bbit/index.jsp"
+  },
+  "FC002164": {
+    "name": "평내도서관",
+    "address": "경기도 남양주시 의안로 134 (평내동)",
+    "lat": 37.6417575,
+    "lng": 127.2388813,
+    "tel": "031-590-8560",
+    "homepage": "https://lib.nyj.go.kr/pynae/index.jsp"
+  },
+  "FC002725": {
+    "name": "정약용도서관",
+    "address": "경기도 남양주시 다산중앙로82번안길 138 (다산동)",
+    "lat": 37.6121577,
+    "lng": 127.1673571,
+    "tel": "031-590-2586",
+    "homepage": "https://lib.nyj.go.kr/jyy/index.do"
+  },
+  "FC000730": {
+    "name": "국립부산국악원",
+    "address": "부산광역시 부산진구 국악로 2 (연지동)",
+    "lat": 35.1713329,
+    "lng": 129.05431039999996,
+    "tel": "051-811-0114",
+    "homepage": "http://busan.gugak.go.kr/portal/contents.do?mId=0505000000"
+  },
+  "FC003778": {
+    "name": "이석영 뉴미디어 도서관",
+    "address": "경기도 남양주시 화도읍 맷돌로 84",
+    "lat": 37.6581598,
+    "lng": 127.2995319,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002119": {
+    "name": "와부읍주민자치센터",
+    "address": "경기도 남양주시 와부읍 월문천로 35 (덕소리)",
+    "lat": 37.5854341,
+    "lng": 127.2169723,
+    "tel": "031-521-6801",
+    "homepage": "http://www.wabujumin.or.kr/"
+  },
+  "FC005141": {
+    "name": "리베포레스트",
+    "address": "서울특별시 중구 다산로 110 (신당동)",
+    "lat": 37.553547,
+    "lng": 127.010207,
+    "tel": "",
+    "homepage": "https://www.instagram.com/liebeforest/"
   }
 }
