@@ -3134,43 +3134,43 @@
  "https://moonlightwalk.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://gimjang.kr": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z",
+  "checkedAt": "2026-10-22T22:59:41.762Z",
   "final": "https://gimjang.kr/"
  },
  "https://www.ydpcf.or.kr/festival/seonyudo.do": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://www.yeongdo.go.kr/ydfestival.web": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://mandufestival.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://xn--6i4bu3f7scxtw.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://ygcf.or.kr/Festival/F60000/index": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://www.btac.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-15T22:55:18.032Z"
+  "checkedAt": "2026-10-22T22:59:41.762Z"
  },
  "https://www.100night.com/": {
   "state": "ok",
@@ -3320,5 +3320,37 @@
   "status": 200,
   "checkedAt": "2026-10-21T23:00:39.403Z",
   "final": "https://i815.or.kr/"
+ },
+ "https://www.runbusanrun.com/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-22T22:59:41.762Z"
+ },
+ "https://asv-2026-delta.vercel.app/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-22T22:59:41.762Z"
+ },
+ "https://public.seocholib.or.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-22T22:59:41.762Z"
+ },
+ "https://www.science.go.kr/mps/0/bbs/431/moveBbsNttDetail.do?nttSn=49788": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-22T22:59:41.762Z"
+ },
+ "https://www.suwon.go.kr": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-22T22:59:41.762Z",
+  "final": "https://www.suwon.go.kr/"
+ },
+ "https://peaceon.oopy.io/": {
+  "state": "dead",
+  "status": 0,
+  "checkedAt": "2026-10-22T22:59:41.762Z",
+  "error": "fetch failed"
  }
 }

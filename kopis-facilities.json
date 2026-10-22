@@ -8342,5 +8342,125 @@
     "lng": 127.010207,
     "tel": "",
     "homepage": "https://www.instagram.com/liebeforest/"
+  },
+  "FC002794": {
+    "name": "콜링아트센터",
+    "address": "서울특별시 관악구 관악로14길 110 (봉천동)",
+    "lat": 37.4777141,
+    "lng": 126.9584144,
+    "tel": "02-545-4083",
+    "homepage": "https://callingartcenter.modoo.at/"
+  },
+  "FC003446": {
+    "name": "김천시립율곡도서관",
+    "address": "경상북도 김천시 용전1로1길 17 (율곡동)",
+    "lat": 36.1221659,
+    "lng": 128.1888068,
+    "tel": "054-421-0200",
+    "homepage": "https://www.gcl.go.kr/#secondPage"
+  },
+  "FC003267": {
+    "name": "스페이스T (SPACE T)(경계없는예술센터)",
+    "address": "서울특별시 영등포구 당산로 34(문래동3가)",
+    "lat": 37.5174631,
+    "lng": 126.8964937,
+    "tel": "",
+    "homepage": "https://www.casf.or.kr/"
+  },
+  "FC004916": {
+    "name": "퍼플노이즈 라이브홀",
+    "address": "서울특별시 서초구 효령로31길 28 (방배동)",
+    "lat": 37.482459,
+    "lng": 126.996241,
+    "tel": "010-2982-6017",
+    "homepage": "https://purplenoiselivehall.imweb.me/"
+  },
+  "FC003806": {
+    "name": "SPACE SODA2002",
+    "address": "서울특별시 마포구 희우정로5길 29 (합정동)",
+    "lat": 37.5499775,
+    "lng": 126.905081,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005146": {
+    "name": "카시나 도산",
+    "address": "서울특별시 강남구 압구정로42길 27 (신사동)",
+    "lat": 37.527018,
+    "lng": 127.035286,
+    "tel": "",
+    "homepage": "https://www.kasina.co.kr/community/55803"
+  },
+  "FC005145": {
+    "name": "전시공간 영영",
+    "address": "부산광역시 수영구 망미번영로52번길 5 (수영동)",
+    "lat": 35.171815,
+    "lng": 129.110077,
+    "tel": "",
+    "homepage": "https://www.instagram.com/space.youngyoung/"
+  },
+  "FC003927": {
+    "name": "LDK",
+    "address": "서울특별시 용산구 대사관로20길 8 (한남동)",
+    "lat": 37.533128,
+    "lng": 127.0035086,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004307": {
+    "name": "센텀아트홀",
+    "address": "부산광역시 해운대구 센텀중앙로 97 (재송동)",
+    "lat": 35.1751629,
+    "lng": 129.1245061,
+    "tel": "",
+    "homepage": "https://centumarthall.com/"
+  },
+  "FC001512": {
+    "name": "세이레아트센터",
+    "address": "제주특별자치도 제주시 서광로 182-6 (삼도일동)",
+    "lat": 33.4991191,
+    "lng": 126.51603879999993,
+    "tel": "064-744-8911",
+    "homepage": "https://sayre21.tistory.com"
+  },
+  "FC002898": {
+    "name": "문화공간 이룸 [전주]",
+    "address": "전라북도 전주시 완산구 용머리로 36(효자동1가)",
+    "lat": 35.8055148,
+    "lng": 127.1144693,
+    "tel": "063-223-5323",
+    "homepage": "https://arterum.imweb.me/"
+  },
+  "FC000769": {
+    "name": "대학로 마로니에소극장(플레이더씨어터)",
+    "address": "서울특별시 종로구 동숭길 50 (동숭동)",
+    "lat": 37.5805247,
+    "lng": 127.00456029999998,
+    "tel": "02-764-0686",
+    "homepage": "http://cafe.naver.com/artfactoryshow"
+  },
+  "FC002087": {
+    "name": "에보니홀",
+    "address": "경기도 수원시 영통구 반달로7번길 40 (영통동)",
+    "lat": 37.2535195,
+    "lng": 127.0752024,
+    "tel": "070-4131-9021",
+    "homepage": "https://blog.naver.com/theebonyhall"
+  },
+  "FC001403": {
+    "name": "영등포 타임스퀘어",
+    "address": "서울특별시 영등포구 영중로 15 (영등포동4가)",
+    "lat": 37.5171639,
+    "lng": 126.90317579999999,
+    "tel": "00-1899-8778",
+    "homepage": "http://www.timessquare.co.kr/?controller=category&action=selectShopDetailInfoView&shopCd=00000152"
+  },
+  "FC002296": {
+    "name": "그랜드 인터컨티넨탈 서울 파르나스",
+    "address": "서울특별시 강남구 테헤란로 521 (삼성동)",
+    "lat": 37.5090473,
+    "lng": 127.0608948,
+    "tel": "02-559-7778",
+    "homepage": "https://seoul.intercontinental.com/grandicparnas/"
   }
 }
