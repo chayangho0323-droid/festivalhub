@@ -515,13 +515,13 @@
  "https://www.quad.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "https://www.quad.or.kr/product/performance/1278": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "https://cwdsarangchae.kr": {
@@ -568,7 +568,7 @@
  "https://www.hanriver.or.kr/ecology/20110_info.php5": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://www.kisportsfestival.com/": {
   "state": "ok",
@@ -578,7 +578,7 @@
  "https://festival.phcf.or.kr/fireWorks/intro.do": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://hongju.or.kr/home/content.do?menu_cd=000064": {
   "state": "ok",
@@ -1140,7 +1140,7 @@
  "http://www.hsscf.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "https://www.buk.daegu.kr/": {
@@ -1183,7 +1183,7 @@
  "https://ygcf.or.kr/Festival/": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://cafe.naver.com": {
   "state": "ok",
@@ -1402,7 +1402,7 @@
  "https://www.jungnang.go.kr/portal/main.do": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "https://www.instagram.com/2026_gwlc/": {
@@ -1622,7 +1622,7 @@
  "https://www.siwf.or.kr": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://www.uwfest.com/": {
   "state": "ok",
@@ -1745,7 +1745,7 @@
  "https://deodeok.info/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "https://urbansports.kr/": {
@@ -1907,7 +1907,7 @@
  "https://kncdc.kr/ko/performance/": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://www.wcf.or.kr/": {
   "state": "ok",
@@ -2486,7 +2486,7 @@
  "https://youth.yongin.go.kr/web/main/": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://www.yongin.go.kr/event/2026_festival/": {
   "state": "ok",
@@ -2767,8 +2767,8 @@
  "https://jjhanji.or.kr/main/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
-  "error": "fetch failed"
+  "checkedAt": "2026-10-23T06:31:17.346Z",
+  "error": "20"
  },
  "https://www.gimhae.go.kr/edu.web": {
   "state": "ok",
@@ -2788,7 +2788,7 @@
  "https://www.buskingworldcup.com/kor/": {
   "state": "dead",
   "status": 404,
-  "checkedAt": "2026-10-19T23:19:24.230Z"
+  "checkedAt": "2026-10-23T06:31:17.346Z"
  },
  "https://www.kh.or.kr/fest": {
   "state": "ok",
@@ -2820,7 +2820,7 @@
  "https://www.gokseong.go.kr/tour/festivity/simcheong": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-19T23:19:24.230Z",
+  "checkedAt": "2026-10-23T06:31:17.346Z",
   "error": "fetch failed"
  },
  "http://tour.muan.go.kr/": {
