@@ -36,6 +36,15 @@ jobs:
         env:
           TOUR_API_KEY: ${{ secrets.TOUR_API_KEY }}
 
+      # 4-1a. 네이버 블로그 검색(NAVER API HUB) → 축제별 '다녀온 사람 글' 3개 reviews.json (하루 300곳, 14일마다 재검색 — 펫트립과 같은 키·코드)
+      #   Secrets에 NAVER_CLIENT_ID / NAVER_CLIENT_SECRET 등록 필요. 없거나 실패하면 전날 reviews.json으로 빌드 계속
+      - run: node fetch-reviews.js
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          REVIEW_BUDGET: "300"
+        continue-on-error: true
+
       # 4-1b. 축제마다 가까운 지하철역·버스정류장 계산 (API 없음 — data/stations.json, data/busstops.json.gz 사용)
       - run: node fetch-transit.js
 

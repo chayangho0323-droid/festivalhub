@@ -250,7 +250,34 @@ try {
 // 축제 기간과 앞으로 10일이 겹치는 날만 보여준다. 겹치는 날이 없으면(먼 축제·끝난 축제) 섹션 자체를 안 만든다.
 let WEATHER = { updated: "", areas: {} };
 try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
-let AIR = { updated: "", areas: {} }; // 에어코리아 미세먼지 예보 (fetch-air.js → air.json: "시도 시군구" → {YYYYMMDD: 좋음|보통|나쁨|매우나쁨})
+let AIR = { updated: "", areas: {} };
+// ─── 📝 블로그 후기 (fetch-reviews.js → reviews.json: contentid → {at, q, items:[{t,l,d,b,dt}]}) — 펫트립 이식 2026-10-23 ───
+// 네이버 블로그 검색 결과 중 축제 이름이 실제로 들어간 최신 글 3개. 본문은 가져오지 않고 제목·한 줄 요약·링크만.
+// 축제는 지난해 글이 섞이는 게 오히려 유용("작년엔 어땠나") → 글 날짜가 올해보다 앞이면 "작년 후기" 꼬리표.
+let REVIEWS = { updated: "", places: {} };
+try { REVIEWS = JSON.parse(fs.readFileSync("reviews.json", "utf-8")); } catch {}
+const fmtPostDate = (s) => (s && s.length === 8 ? `${s.slice(0, 4)}.${s.slice(4, 6)}.${s.slice(6, 8)}` : "");
+function reviewsHtml(f) {
+  const r = REVIEWS.places && REVIEWS.places[String(f.contentid)];
+  if (!r || !r.items || !r.items.length) return "";
+  const thisYear = String(f.startDate || "").slice(0, 4);
+  const moreQ = encodeURIComponent(r.q || f.name);
+  return `
+      <section class="overview review-box" id="reviews">
+        <h2>📝 다녀온 사람들의 블로그 후기</h2>
+        <ul class="review-list">
+          ${r.items.map((it) => `<li>
+            <a class="blog-review-link" target="_blank" rel="noopener nofollow" href="${esc(it.l)}"><strong>${esc(it.t)}</strong></a>
+            <span class="review-meta">${esc(it.b)}${it.dt ? ` · ${fmtPostDate(it.dt)}` : ""}${thisYear && it.dt && it.dt.slice(0, 4) < thisYear ? ` · <em class="review-old">${esc(it.dt.slice(0, 4))}년 후기</em>` : ""}</span>
+            ${it.d ? `<p class="review-desc">${esc(it.d)}…</p>` : ""}
+          </li>`).join("")}
+        </ul>
+        <div class="dir-buttons">
+          <a class="dir-btn hotel blog-review-more" target="_blank" rel="noopener" href="https://search.naver.com/search.naver?where=blog&query=${moreQ}">네이버 블로그에서 더 보기</a>
+        </div>
+        <p class="coupang-notice">네이버 블로그 검색 결과예요. 제목을 누르면 글쓴이의 블로그로 이동하며, 내용은 각 글쓴이의 의견입니다. 이름이 같은 다른 행사 글이 섞일 수 있어요. (${fmtPostDate(r.at)} 기준)</p>
+      </section>`;
+} // 에어코리아 미세먼지 예보 (fetch-air.js → air.json: "시도 시군구" → {YYYYMMDD: 좋음|보통|나쁨|매우나쁨})
 try { AIR = JSON.parse(fs.readFileSync("air.json", "utf-8")); } catch {}
 const pmClsOf = (g) => (/매우/.test(g) ? "pm3" : /나쁨/.test(g) ? "pm2" : /보통/.test(g) ? "pm1" : "pm0");
 const weatherKeyOf = (f) => { const t = String(f.address || "").split(" "); return `${t[0] || ""} ${t[1] || ""}`; };
@@ -498,15 +525,33 @@ function buildPage(f, all) {
       </div>`
     : "";
 
-  // ── 소개/행사내용 섹션 (중복 제거) ──
+  // ── 소개/행사내용 섹션 → "공식 소개 요약" 한 칸 (2026-10-23 애드센스 2차 거절 대응) ──
+  // 관광공사 소개문 전문을 그대로 싣던 걸 앞 2~3문장 요약 + 출처 링크로 바꿈. 같은 글이 visitkorea·다른 사이트에 그대로 있어
+  // "복제된 콘텐츠" 사유의 핵심이었음. 우리가 쓴 축제 이야기·한눈에 보기·날씨·교통·후기가 본문 주인공이 되도록.
   const normalize = (s) => String(s || "").replace(/<[^>]*>/g, "").replace(/\s+/g, "");
-  const overview = f.overview
-    ? `<section class="overview"><h2>소개</h2><p>${f.overview}</p></section>`
+  const briefOf = (html, max = 220) => {
+    const text = stripHtml(String(html || "")).replace(/\s+/g, " ").trim();
+    if (!text) return "";
+    const parts = text.match(/[^.!?。]+[.!?。]?\s*/g) || [text];
+    let out = "";
+    for (const part of parts) { if (out.length >= 120 || (out + part).length > max) break; out += part; }
+    out = (out || text.slice(0, max)).trim();
+    return out.length < text.length ? out.replace(/[,，·\s]+$/, "") + "…" : out;
+  };
+  const officialMore = f.homepage && /^https?:\/\//i.test(f.homepage)
+    ? `<a target="_blank" rel="noopener" href="${esc(f.homepage)}">공식 홈페이지</a>`
+    : `<a target="_blank" rel="noopener" href="https://korean.visitkorea.or.kr/search/search_list.do?keyword=${encodeURIComponent(f.name)}">대한민국 구석구석</a>`;
+  const briefItems = [
+    ...(f.overview ? [{ name: "소개", text: f.overview }] : []),
+    ...(f.extraInfo || []).filter((info) => normalize(info.text) !== normalize(f.overview)),
+  ].map((info) => ({ name: info.name, brief: briefOf(info.text, info.name === "소개" ? 220 : 160) })).filter((x) => x.brief);
+  const overview = briefItems.length
+    ? `<section class="overview official-brief"><h2>📄 공식 소개 요약</h2>
+        ${briefItems.map((x) => `<p>${x.name !== "소개" ? `<strong>${esc(x.name)}</strong> · ` : ""}${esc(x.brief)}</p>`).join("")}
+        <p class="coupang-notice">한국관광공사 TourAPI 소개문을 FestivalHub가 요약했어요. 전문·최신 안내는 ${officialMore}에서 확인하세요.</p>
+      </section>`
     : "";
-  const extraSections = (f.extraInfo || [])
-    .filter((info) => normalize(info.text) !== normalize(f.overview))
-    .map((info) => `<section class="overview"><h2>${esc(info.name)}</h2><p>${info.text}</p></section>`)
-    .join("");
+  const extraSections = "";
 
   // ── 주변 관광지/맛집 ──
   // 카드를 클릭하면 네이버지도에서 그 장소를 검색한 화면이 새 탭으로 열린다.
@@ -686,6 +731,7 @@ function buildPage(f, all) {
       ${photoCallHtml(f)}
       <p class="guide-tip gallery-cta">📸 <a class="gallery-link" href="../gallery.html">다른 방문자들이 보낸 축제 사진·후기 보기 →</a> <span class="muted">지평선축제·여주 골목대빵축제·백제문화제 현장 사진</span></p>
       ${overview}
+      ${reviewsHtml(f)}
       ${extraSections}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}${directions}${transitHtml}</section>
       ${nearbySection("주변 관광지", "🏞️", f.nearbySpots)}
