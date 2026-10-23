@@ -1064,6 +1064,18 @@
     "photos": [],
     "checked": "20261023"
   },
+  "4134805": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261024"
+  },
+  "4134876": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261024"
+  },
   "s19r73d5": {
     "tier": 0,
     "query": "",
@@ -2578,5 +2590,56 @@
     "query": "",
     "photos": [],
     "checked": "20261021"
+  },
+  "smjtze3": {
+    "tier": 1,
+    "query": "부산불꽃축제",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/59/3097259.jpg",
+        "title": "부산불꽃축제",
+        "keyword": "부산불꽃축제, 부산광역시 수영구, 광안리해수욕장, 광안대교, 불꽃놀이, 야경, 11월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "부산광역시 수영구 광안동",
+        "month": "202311",
+        "photographer": "김효서"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/72/3097272.jpg",
+        "title": "부산불꽃축제",
+        "keyword": "부산불꽃축제, 부산광역시 수영구, 광안리해수욕장, 광안대교, 불꽃놀이, 야경, 11월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "부산광역시 수영구 광안동",
+        "month": "202311",
+        "photographer": "김효서"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/69/3097269.jpg",
+        "title": "부산불꽃축제",
+        "keyword": "부산불꽃축제, 부산광역시 수영구, 광안리해수욕장, 광안대교, 불꽃놀이, 야경, 11월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "부산광역시 수영구 광안동",
+        "month": "202311",
+        "photographer": "김효서"
+      },
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/63/3097263.jpg",
+        "title": "부산불꽃축제",
+        "keyword": "부산불꽃축제, 부산광역시 수영구, 광안리해수욕장, 광안대교, 불꽃놀이, 야경, 11월 추천여행지, 사진기자단, 프레임코리아1기",
+        "location": "부산광역시 수영구 광안동",
+        "month": "202311",
+        "photographer": "김효서"
+      }
+    ],
+    "checked": "20261024"
+  },
+  "shk8w2i": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261024"
+  },
+  "shl9o7p": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261024"
   }
 }
