@@ -3092,7 +3092,7 @@
  "https://wj.nonghyup.com/": {
   "state": "unknown",
   "status": 400,
-  "checkedAt": "2026-10-17T21:54:45.238Z"
+  "checkedAt": "2026-10-24T22:09:02.969Z"
  },
  "https://www.mamf.co.kr/": {
   "state": "ok",
@@ -3272,10 +3272,9 @@
   "checkedAt": "2026-10-20T22:53:29.185Z"
  },
  "https://tour.muan.go.kr/tour/festival/yd_festival/introduce": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-10-20T22:53:29.185Z",
-  "error": "20"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-10-24T22:09:02.969Z"
  },
  "https://www.instagram.com/cc_youngmic": {
   "state": "ok",
