@@ -2868,7 +2868,7 @@
  "http://pgginsengfestival.co.kr": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-21T23:00:39.403Z",
+  "checkedAt": "2026-10-25T22:13:26.951Z",
   "error": "fetch failed"
  },
  "https://jjambbong.kr/": {
@@ -3128,7 +3128,7 @@
  "https://www.suncheon.go.kr/nagan/page02/0002/0001/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-21T23:00:39.403Z",
+  "checkedAt": "2026-10-25T22:13:26.951Z",
   "error": "20"
  },
  "https://moonlightwalk.kr/": {
