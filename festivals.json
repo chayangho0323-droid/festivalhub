@@ -1,5 +1,165 @@
 [
   {
+    "contentid": "3360113",
+    "name": "게임문화축제",
+    "startDate": "20261119",
+    "endDate": "20261122",
+    "address": "부산광역시 해운대구 APEC로 30 (우동)",
+    "lat": "35.1657825587",
+    "lng": "129.1350266435",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image2_1.png",
+    "overview": "'2026 게임문화축제'는 게임의 문화적 가치를 확산하고, 남녀노소 누구나 즐겁게 몰입할 수 있는 다채로운 체험과 향유의 기회를 제공하는 대한민국 대표 게임 페스티벌이다. 올해 축제는 세계인의 마음을 사로잡은 K-컬쳐 대표 게임IP전시부터, 웅장한 국악 선율로 재탄생하는 감동적인 게임OST 라이브 공연까지 다채로운 볼거리와 즐길 거리를 선보인다. 또한, 온 가족이 함께 소통하며 추억쌓는 게임 체험존과 손에 땀을 쥐게하는 박진감 넘치는 e스포츠 대회, 누구나 참여할 수 있는 다양한 이벤트 프로그램이 현장을 가득 채운다. 단순한 플레이를 넘어 예술과 문화, 세대 간 소통으로 이어지는 특별한 경험! 즐거움 그 이상의 감동이 있는 '2026 게임문화축제'에서 느껴볼 수 있다.",
+    "tel": "02-546-7378",
+    "homepage": "https://kgcf.kr/",
+    "eventplace": "부산 벡스코(BEXCO) 제2전시장 / T1 베이스캠프 해운대점",
+    "playtime": "10:00~18:00",
+    "usefee": "무료",
+    "sponsor": "문화체육관광부",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/20/4135920_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/24/4135924_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/23/4135923_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/22/4135922_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4135927_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/21/4135921_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/25/4135925_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "'2026 게임문화축제'는 게임의 문화적 가치를 확산하고, 남녀노소 누구나 즐겁게 몰입할 수 있는 다채로운 체험과 향유의 기회를 제공하는 대한민국 대표 게임 페스티벌이다. 올해 축제는 세계인의 마음을 사로잡은 K-컬쳐 대표 게임IP전시부터, 웅장한 국악 선율로 재탄생하는 감동적인 게임OST 라이브 공연까지 다채로운 볼거리와 즐길 거리를 선보인다. 또한, 온 가족이 함께 소통하며 추억쌓는 게임 체험존과 손에 땀을 쥐게하는 박진감 넘치는 e스포츠 대회, 누구나 참여할 수 있는 다양한 이벤트 프로그램이 현장을 가득 채운다. 단순한 플레이를 넘어 예술과 문화, 세대 간 소통으로 이어지는 특별한 경험! 즐거움 그 이상의 감동이 있는 '2026 게임문화축제'에서 느껴볼 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 주요 프로그램\n- 게임 IP 전시 체험관 (국내외 인기 게임의 세계관을 반영한 몰입형 체험존에서 게임 콘텐츠 전시 및 체험)\n2. 부대 프로그램\n- 게임 OST 공연(11/19, 주요 게임사의 OST를 국악과 대중음악으로 재해석한 라이브 공연), 이스포츠대회(11/21, 발로란트 아마추어 본선 대회)\n3. 이벤트 프로그램\n- 스탬프 투어 리워드, 만족도 조사 리워드 등 미션 게임을 통한 기념품 배포(프로그램 완료한 분들 대상으로 제공 등), 게릴라 이벤트(실루엣 퀴즈, 3초 퀴즈, OX퀴즈 등), 타임 이벤트(K-GAME 퀴즈, 럭키드로우), 이스포츠 뷰잉 파티(발로란트 아마추어 대회 중계), IP 스페셜 이벤트(게스트 토크, 팬 퀴즈 등)"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "옥련선원",
+        "dist": 894,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/3589758_image2_1.jpg",
+        "addr": "부산광역시 수영구 광남로257번길 58"
+      },
+      {
+        "name": "부산 영화의 전당",
+        "dist": 901,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3035052_image2_1.jpg",
+        "addr": "부산광역시 해운대구 수영강변대로 120"
+      },
+      {
+        "name": "영화의전당 라이브러리 자료실",
+        "dist": 914,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/99/3453999_image2_1.jpg",
+        "addr": "부산광역시 해운대구 수영강변대로 120 (우동)"
+      },
+      {
+        "name": "마린시티",
+        "dist": 1327,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/89/3575989_image2_1.jpg",
+        "addr": "부산광역시 해운대구 우동"
+      },
+      {
+        "name": "부산 영화의 거리",
+        "dist": 1465,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2947043_image2_1.jpg",
+        "addr": "부산광역시 해운대구 마린시티1로 91 (우동, 마린시티두산위브포세이돈)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "그랜드애플",
+        "dist": 279,
+        "image": "",
+        "addr": "부산광역시 해운대구 센텀1로 25"
+      },
+      {
+        "name": "외식1번가",
+        "dist": 592,
+        "image": "",
+        "addr": "부산광역시 해운대구 해운대로 425"
+      },
+      {
+        "name": "비스포레",
+        "dist": 609,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2868740_image2_1.jpg",
+        "addr": "부산광역시 수영구 민락수변로239번길 4 (민락동)"
+      },
+      {
+        "name": "요이쿠마 본점",
+        "dist": 1141,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image2_1.jpg",
+        "addr": "부산광역시 수영구 광안해변로307번길 20"
+      },
+      {
+        "name": "자매국밥",
+        "dist": 1170,
+        "image": "",
+        "addr": "부산광역시 수영구 민락본동로27번길 56"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "센텀시티",
+        "lines": [
+          "부산 도시철도 2호선"
+        ],
+        "dist": 458,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "벡스코제2전시장",
+          "dist": 127,
+          "walkMin": 2
+        },
+        {
+          "name": "시립미술관(벡스코)",
+          "dist": 212,
+          "walkMin": 3
+        }
+      ],
+      "parking": [
+        {
+          "name": "APEC 나루공원 공영",
+          "se": "공영",
+          "type": "노외",
+          "cap": 49,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "00:01~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4885",
+          "dist": 739,
+          "walkMin": 11
+        },
+        {
+          "name": "센텀Q주차장",
+          "se": "민영",
+          "type": "노외",
+          "cap": 399,
+          "fee": "기본 60분 2,000원 · 1일 10,000원",
+          "hours": "10:00~22:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-749-4887",
+          "dist": 857,
+          "walkMin": 13
+        },
+        {
+          "name": "민락수변공원 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 43,
+          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
+          "hours": "11:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "051-610-4552",
+          "dist": 1243,
+          "walkMin": 19
+        }
+      ]
+    }
+  },
+  {
     "contentid": "3113995",
     "name": "경기‧양주‧지작사 드론봇 페스티벌",
     "startDate": "20261030",
@@ -7561,6 +7721,172 @@
     }
   },
   {
+    "contentid": "3522322",
+    "name": "오슬로우 빈티지 크리스마스 마켓",
+    "startDate": "20261204",
+    "endDate": "20261220",
+    "address": "인천광역시 제물포구 월미로 33 (북성동1가)",
+    "lat": "37.4765685240",
+    "lng": "126.6144291728",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/24/4136124_image2_1.jpg",
+    "overview": "빈티지의 낭만과 크리스마스의 설렘이 만나는 특별한 겨울! 올겨울, 인천 상상플랫폼에서 초대형 실내 크리스마스 마켓이 펼쳐진다. 전국에서 모인 개성 넘치는 빈티지·패션·앤틱·라이프스타일 브랜드부터 크리스마스 감성 가득한 공간 연출과 대형 포토존, 재즈·샹송·시티팝·어쿠스틱·DJ 등 다채로운 라이브 공연까지 빈티지 쇼핑의 즐거움과 크리스마스의 낭만을 한자리에서 만날 수 있는 특별한 연말 축제이다.",
+    "tel": "010-2258-9475",
+    "homepage": "https://ohslowmarket.com/",
+    "eventplace": "인천 상상플랫폼 1관·2관·라운지",
+    "playtime": "11:00~19:00",
+    "usefee": "- 10,000원(초등학생 이하 무료)※ 사전예매 50% 할인",
+    "sponsor": "한국빈티지문화협회",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/31/4136131_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/32/4136132_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4136130_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4136129_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4136127_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/28/4136128_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/25/4136125_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4136126_image2_1.png"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "빈티지의 낭만과 크리스마스의 설렘이 만나는 특별한 겨울! 올겨울, 인천 상상플랫폼에서 초대형 실내 크리스마스 마켓이 펼쳐진다. 전국에서 모인 개성 넘치는 빈티지·패션·앤틱·라이프스타일 브랜드부터 크리스마스 감성 가득한 공간 연출과 대형 포토존, 재즈·샹송·시티팝·어쿠스틱·DJ 등 다채로운 라이브 공연까지 빈티지 쇼핑의 즐거움과 크리스마스의 낭만을 한자리에서 만날 수 있는 특별한 연말 축제이다."
+      },
+      {
+        "name": "출연",
+        "text": "DJ TOWNDRUM, 피크닉재즈밴드, 재즈 리브레, 쌀로, 레인어클락, 사운드힐즈, 샹송제이 & 데이브 유, 밴드 화목, 온음, 모틴, 기수네 문방구"
+      },
+      {
+        "name": "행사내용",
+        "text": "- 기간 : 2026. 12. 4.(금) ~ 12. 20.(일), 매주 금·토·일 (총 9일)\n- 시간 : 11:00~19:00\n- 장소 : 인천 상상플랫폼 1관·2관·라운지\n- 주요 프로그램 : 빈티지 의류, 패션 잡화, 소품 및 공예품 전시·판매\n- 부대 행사 및 프로그램 : 공연 프로그램 (재즈·어쿠스틱·시티팝·프렌치 샹송·라틴 음악·DJ 공연) / 크리스마스 포토존 운영 / F&B 판매 / 크리스마스 오너먼트 만들기 체험 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "구 일본우선주식회사 인천지점",
+        "dist": 691,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3530025_image2_1.jpg",
+        "addr": "인천광역시 제물포구 제물량로218번길 3 (해안동1가)"
+      },
+      {
+        "name": "인천중구청(구 인천부 청사)",
+        "dist": 705,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/66/3395966_image2_1.JPG",
+        "addr": "인천광역시 제물포구 신포로27번길 80"
+      },
+      {
+        "name": "북성포구",
+        "dist": 735,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/3352647_image2_1.jpg",
+        "addr": "인천광역시 제물포구 북성포길 49"
+      },
+      {
+        "name": "(구)인천일본제58은행지점",
+        "dist": 742,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3047225_image2_1.jpg",
+        "addr": "인천광역시 제물포구 신포로23번길 69-1 제물포구음식업지부 "
+      },
+      {
+        "name": "제물포고등학교 강당",
+        "dist": 838,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/24/3396024_image2_1.JPG",
+        "addr": "인천광역시 제물포구 자유공원로 58-9"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "스토리지 인천",
+        "dist": 52,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/49/3443949_image2_1.jpg",
+        "addr": "인천광역시 제물포구 월미로 33 (북성동1가)"
+      },
+      {
+        "name": "아키라커피 본점",
+        "dist": 393,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2848739_image2_1.jpg",
+        "addr": "인천광역시 제물포구 차이나타운로44번길 16-24  "
+      },
+      {
+        "name": "만다복",
+        "dist": 434,
+        "image": "",
+        "addr": "인천광역시 제물포구 차이나타운로 36 만다복 "
+      },
+      {
+        "name": "공화춘",
+        "dist": 475,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/2781425_image2_1.jpg",
+        "addr": "인천광역시 제물포구 차이나타운로 43"
+      },
+      {
+        "name": "태림봉",
+        "dist": 533,
+        "image": "",
+        "addr": "인천광역시 제물포구 차이나타운로59번길 23"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "인천역",
+        "lines": [
+          "경인선",
+          "수인선"
+        ],
+        "dist": 222,
+        "walkMin": 3
+      },
+      "stops": [
+        {
+          "name": "8부두",
+          "dist": 81,
+          "walkMin": 1
+        },
+        {
+          "name": "동일아파트",
+          "dist": 86,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "라이언경로당앞공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 16,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "032-760-7689",
+          "dist": 175,
+          "walkMin": 3
+        },
+        {
+          "name": "차이나타운공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 186,
+          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
+          "hours": "09:00~21:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "032-763-8146",
+          "dist": 351,
+          "walkMin": 5
+        },
+        {
+          "name": "월미로50번길제2노상주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 21,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "032-760-7689",
+          "dist": 244,
+          "walkMin": 4
+        }
+      ]
+    }
+  },
+  {
     "contentid": "3113222",
     "name": "온 가족 책 잔치",
     "startDate": "20261107",
@@ -12510,6 +12836,157 @@
     }
   },
   {
+    "contentid": "2874329",
+    "name": "홍성글로벌바비큐페스티벌",
+    "startDate": "20261029",
+    "endDate": "20261101",
+    "address": "충청남도 홍성군 홍성읍 아문길 27",
+    "lat": "36.6017210412",
+    "lng": "126.6613891711",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/30/4103630_image2_1.jpg",
+    "overview": "홍성글로벌바비큐페스티벌은 홍성의 대표 특산물인 홍성 한우와 한돈을 중심으로 다양한 바비큐 요리를 맛보고 즐길 수 있는 대한민국 대표 미식축제이다. 홍성의 우수한 축산자원과 바비큐 콘텐츠를 결합하여 차별화된 먹거리와 볼거리, 체험 프로그램을 선보이고 있다. 특히 테마파크 바비큐를 비롯해 글로벌 바비큐, 난로회 바비큐 등 다채로운 먹거리 콘텐츠를 통해 국내외 방문객에게 홍성의 맛과 매력을 알리고 있다. 또한 대형 바비큐 그릴을 제작하고 활용하여 화려한 볼거리도 제공하여 단순한 먹거리 축제를 넘어 오감을 만족시키는 관광형 축제로 발전하고 있다. 바비큐의 성지 홍성의 우수한 품질의 한우와 한돈 그리고 지역의 특산물을 바비큐로 하여 홍성의 맛과 문화를 경험할 수 있는 특별한 축제의 장을 선보일 예정이다.",
+    "tel": "041-634-8705",
+    "homepage": "https://hongju.or.kr/home/content.do?menu_cd=000064",
+    "eventplace": "홍성 홍주읍성 일원",
+    "playtime": "10:00~21:00",
+    "usefee": "입장 무료",
+    "sponsor": "홍성군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/25/4103625_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/21/4116721_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/28/4103628_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/27/4103627_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4103629_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/26/4103626_image2_1.JPG"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "홍성글로벌바비큐페스티벌은 홍성의 대표 특산물인 홍성 한우와 한돈을 중심으로 다양한 바비큐 요리를 맛보고 즐길 수 있는 대한민국 대표 미식축제이다. 홍성의 우수한 축산자원과 바비큐 콘텐츠를 결합하여 차별화된 먹거리와 볼거리, 체험 프로그램을 선보이고 있다. 특히 테마파크 바비큐를 비롯해 글로벌 바비큐, 난로회 바비큐 등 다채로운 먹거리 콘텐츠를 통해 국내외 방문객에게 홍성의 맛과 매력을 알리고 있다. 또한 대형 바비큐 그릴을 제작하고 활용하여 화려한 볼거리도 제공하여 단순한 먹거리 축제를 넘어 오감을 만족시키는 관광형 축제로 발전하고 있다. 바비큐의 성지 홍성의 우수한 품질의 한우와 한돈 그리고 지역의 특산물을 바비큐로 하여 홍성의 맛과 문화를 경험할 수 있는 특별한 축제의 장을 선보일 예정이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 바비큐 프로그램 : 테마파크 바비큐, 홍성 랜드마크 바비큐, 홍성 닭 바비큐, K-바비큐, 글로벌 바비큐, 난로회 바비큐, 유튜버 바비큐 등\n2. 먹거리 프로그램 : 홍성 푸드존, 상설시장 구이존, 한우 숯불구이존 등\n3. 체험 프로그램 : 지역 대학교 문화 체험, 공예 체험, 조양문 포토존 등\n4. 공연 프로그램 : 개/폐막 공연, 힙합&EDM 공연, K-POP 공연, 지역 예술인 공연 등\n5. 홍보/판매 프로그램 : 홍성한우&한돈존, 홍성 농/특산품 홍보관 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "조양문",
+        "dist": 203,
+        "image": "",
+        "addr": "충청남도 홍성군 홍성읍 오관리"
+      },
+      {
+        "name": "홍주성 천년여행길",
+        "dist": 1670,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2678977_image2_1.bmp",
+        "addr": "충청남도 홍성군 홍성읍 조양로 272"
+      },
+      {
+        "name": "충령사",
+        "dist": 2975,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3091083_image2_1.jpg",
+        "addr": "충청남도 홍성군 홍성읍 충서로 1121-43"
+      },
+      {
+        "name": "이응노의 집 고암이응노생가기념관",
+        "dist": 3514,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/3453604_image2_1.jpg",
+        "addr": "충청남도 홍성군 홍북읍 이응노로 61-7"
+      },
+      {
+        "name": "구절암(홍성)",
+        "dist": 4804,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/58/3079458_image2_1.jpg",
+        "addr": "충청남도 홍성군 구항면 거북로218번길 163"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "내당한우",
+        "dist": 257,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/33/2735133_image2_1.jpg",
+        "addr": "충청남도 홍성군 홍성읍 아문길52번길 6"
+      },
+      {
+        "name": "70년소머리국밥",
+        "dist": 607,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/42/2850142_image2_1.jpg",
+        "addr": "충청남도 홍성군 의사로43번길 27-9"
+      },
+      {
+        "name": "까쎄 토라도",
+        "dist": 813,
+        "image": "",
+        "addr": "충청남도 홍성군 홍성읍 문화로80번길 12"
+      },
+      {
+        "name": "지구에서 너뿐",
+        "dist": 1588,
+        "image": "",
+        "addr": "충청남도 홍성군 홍성읍 역재3길 40"
+      },
+      {
+        "name": "내포해물촌",
+        "dist": 1796,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/62/2850162_image2_1.jpg",
+        "addr": "충청남도 홍성군 조양로246번길 80"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "홍주초삼거리",
+          "dist": 99,
+          "walkMin": 1
+        },
+        {
+          "name": "홍성사회복지관",
+          "dist": 155,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "오관리 90-2 주차장(도시재생과뒤)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 27,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "041-630-1898",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "오관1리 쌈지 공영주차장(도시재생과 뒤)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 18,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "041-630-1898",
+          "dist": 37,
+          "walkMin": 1
+        },
+        {
+          "name": "오관리 89-5 주차장(도시재생과뒤)",
+          "se": "공영",
+          "type": "노외",
+          "cap": 10,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "041-630-1898",
+          "dist": 48,
+          "walkMin": 1
+        }
+      ]
+    }
+  },
+  {
     "contentid": "140911",
     "name": "홍성남당항 대하축제",
     "startDate": "20260904",
@@ -14508,6 +14985,159 @@
           "tel": "042-288-4120",
           "dist": 1019,
           "walkMin": 15
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "2854855",
+    "name": "2026 대한민국 관광기념품 박람회",
+    "startDate": "20261120",
+    "endDate": "20261122",
+    "address": "서울특별시 중구 을지로 281 (을지로7가)",
+    "lat": "37.5660539726",
+    "lng": "127.0095547691",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
+    "overview": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 140개 기업이 참여해 다양한 관광기념품을 선보이며, 2026 대한민국 관광공모전 기념품 부문 수상작 25점을 비롯해 K-굿즈 쇼핑과 체험형 이벤트, 무대 프로그램 등을 즐길 수 있다. 전통의 멋과 겨울의 설렘을 담은 K-굿즈 마을에서 취향에 맞는 기념품과 특별한 연말 선물을 찾아볼 수 있다.",
+    "tel": "010-3489-3637",
+    "homepage": "https://kto.visitkorea.or.kr/",
+    "eventplace": "동대문디자인플라자 아트홀 1·2관",
+    "playtime": "[11/20~11/21]- 10:00~19:00- 입장 마감 18:30[11/22]- 10:00~18:00- 입장 마감 17:30",
+    "usefee": "무료",
+    "sponsor": "문화체육관광부",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 140개 기업이 참여해 다양한 관광기념품을 선보이며, 2026 대한민국 관광공모전 기념품 부문 수상작 25점을 비롯해 K-굿즈 쇼핑과 체험형 이벤트, 무대 프로그램 등을 즐길 수 있다. 전통의 멋과 겨울의 설렘을 담은 K-굿즈 마을에서 취향에 맞는 기념품과 특별한 연말 선물을 찾아볼 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 기간 : 11.20.(금)~11.21.(토) 10:00~19:00 / 11.22.(일) 10:00~18:00\n- 주요 프로그램 : 관광기념품 전시 및 판매 / 2026 대한민국 관광공모전 기념품 부문 시상식 / 수상작 25점 전시 / 온·오프라인 B2B 상담\n- 부대 행사 및 프로그램 : K-굿즈 수집 미션 / 수상작 엽서 배포 / 산타대감 캐릭터 퀴즈 및 기념촬영 / 키캡 키링 만들기 체험/ 무대 프로그램"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "동대문역사문화공원",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3566337_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로 281 (을지로7가)"
+      },
+      {
+        "name": "동대문디자인플라자(DDP)",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/3539606_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로 281 (을지로7가)"
+      },
+      {
+        "name": "훈련원공원",
+        "dist": 556,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3077783_image2_1.JPG",
+        "addr": "서울특별시 중구 을지로 227 (을지로5가)"
+      },
+      {
+        "name": "신당동 떡볶이타운",
+        "dist": 559,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/3589993_image2_1.jpg",
+        "addr": "서울특별시 중구 다산로33길 10-18 (신당동)"
+      },
+      {
+        "name": "장충동 족발 골목",
+        "dist": 718,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3589072_image2_1.jpg",
+        "addr": "서울특별시 중구 장충단로 174 (장충동1가)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "삼대할먼네",
+        "dist": 560,
+        "image": "",
+        "addr": "서울특별시 중구 퇴계로76길 50 (신당동)"
+      },
+      {
+        "name": "진옥화할매원조닭한마리",
+        "dist": 594,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3082739_image2_1.png",
+        "addr": "서울특별시 종로구 종로40가길 18 (종로5가)"
+      },
+      {
+        "name": "마복림할머니 막내아들네",
+        "dist": 600,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/34/2853934_image2_1.jpg",
+        "addr": "서울특별시 중구 다산로 221 (신당동)"
+      },
+      {
+        "name": "하니칼국수",
+        "dist": 679,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/2719792_image2_1.jpg",
+        "addr": "서울특별시 중구 퇴계로 411-15 (흥인동)"
+      },
+      {
+        "name": "평안도족발집",
+        "dist": 708,
+        "image": "",
+        "addr": "서울특별시 중구 장충단로 174-6 (장충동1가)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "동대문역사문화공원(DDP)",
+        "lines": [
+          "2호선",
+          "4호선"
+        ],
+        "dist": 65,
+        "walkMin": 1
+      },
+      "stops": [
+        {
+          "name": "광희동.동대문역사문화공원역",
+          "dist": 74,
+          "walkMin": 1
+        },
+        {
+          "name": "동대문역사문화공원",
+          "dist": 79,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "동대문",
+          "se": "공영",
+          "type": "노외",
+          "cap": 1092,
+          "fee": "기본 5분 360원 · 추가 5분 360원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2254-4901",
+          "dist": 256,
+          "walkMin": 4
+        },
+        {
+          "name": "DDP동측(양쪽)",
+          "se": "공영",
+          "type": "노상",
+          "cap": 20,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2290-6437",
+          "dist": 263,
+          "walkMin": 4
+        },
+        {
+          "name": "중구구민회관 부설주차장",
+          "se": "공영",
+          "type": "부설",
+          "cap": 71,
+          "fee": "기본 5분 250원 · 추가 5분 250원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2265-7765",
+          "dist": 465,
+          "walkMin": 7
         }
       ]
     }
@@ -17329,154 +17959,145 @@
     }
   },
   {
-    "contentid": "1074568",
-    "name": "2026 제주올레걷기축제",
-    "startDate": "20261105",
-    "endDate": "20261107",
-    "address": "제주특별자치도 제주시 조천읍 조천리 1141",
-    "lat": "33.5405232248",
-    "lng": "126.6421943052",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/20/4096920_image2_1.jpg",
-    "overview": "제주의 자연이 가장 빛나는 가을, 제주올레 길 위에서 특별한 축제가 펼쳐진다. 매년 11월 열리는 제주올레걷기축제는 3일 동안 제주 올레 길을 걸으며 다양한 문화예술공연과 전통놀이 및 마을 프로그램, 제주 먹거리를 즐기는 이동형 축제이다. 때로는 파도소리를 배경으로 음악회가, 때로는 축제 들판을 배경으로 한 제주 전통공연이 펼쳐지며, 축제가 열리는 지역 농수산물로 만든 오감만족 먹거리 또한 즐길 수 있다. 매년 1만여 명의 올레꾼이 참가하는 제주올레걷기축제는 해를 거듭할수록 중국, 대만, 일본, 미국, 영국,캐나다 등에서 온 외국인 참가자가 늘어나며 세계인의 걷기 축제로 거듭나고 있다.",
-    "tel": "064-762-2190",
-    "homepage": "https://contents.ollepass.org/",
-    "eventplace": "조천만세동산",
-    "playtime": "08:00-16:00",
-    "usefee": "- 일반 30,000원- 할인 25,000원※ 할인대상 : 단체(20인이상)/장애인/국가유공자/청소년(2008년 이후 출생자)",
+    "contentid": "4135564",
+    "name": "2026 제6회 제주환경교육한마당",
+    "startDate": "20261030",
+    "endDate": "20261031",
+    "address": "제주특별자치도 제주시 청귤로5길 6-9 (이도이동)",
+    "lat": "33.4997528923",
+    "lng": "126.5396874056",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/65/4135565_image2_1.jpg",
+    "overview": "2026년 제6회 제주환경교육한마당은 제주특별자치도가 주최하고 제주특별자치도 환경교육센터가 주관하는 종합 환경 교육 행사이다. 개최 장소는 제주벤처마루, 제주경제통상진흥원, 수운근린공원 일대이며 행사 일시는 2026년 10월 30일부터 10월31일까지이다. 30일에는 특별강연과 31일에는 명사특강 및 제주환경교육 배움터가 진행될 예정이다. 본 행사는 제주도민과 환경교육에 관심 있는 누구나 무료로 참여할 수 있다. 주요 프로그램으로는 제주환경교육 배움터 운영, 다양한 주제별 체험 부스, 전시 마당, 실천 다짐 포토존 등이 다채롭게 마련되어 있다. 제주특별자치도가 주최하고 제주특별자치도 환경교육센터가 주관하면 공동기획 및 운영으로 제주특별자치도교육청과 제주환경교육네트워크 회원단체(22개)가 있다. 지역 내 환경 교육 활성화와 도민의 환경 감수성 함양을 목적으로 한다. 다양한 현장 체험과 프로그램을 통해 환경 보전의 중요성과 일상 속 지속가능한 실천 방법을 공유하는 장이다.",
+    "tel": "064-722-9431",
+    "homepage": "https://jeec.or.kr/index.php",
+    "eventplace": "수운근린공원",
+    "playtime": "11:00~16:00",
+    "usefee": "무료",
     "sponsor": "제주특별자치도",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/83/4097383_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/85/4097385_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/86/4097386_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/87/4097387_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/88/4097388_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/89/4097389_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/90/4097390_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/91/4097391_image2_1.jpg"
-    ],
+    "images": [],
     "extraInfo": [
       {
         "name": "행사소개",
-        "text": "제주의 자연이 가장 빛나는 가을, 제주올레 길 위에서 특별한 축제가 펼쳐진다. 매년 11월 열리는 제주올레걷기축제는 3일 동안 제주 올레 길을 걸으며 다양한 문화예술공연과 전통놀이 및 마을 프로그램, 제주 먹거리를 즐기는 이동형 축제이다. 때로는 파도소리를 배경으로 음악회가, 때로는 축제 들판을 배경으로 한 제주 전통공연이 펼쳐지며, 축제가 열리는 지역 농수산물로 만든 오감만족 먹거리 또한 즐길 수 있다. 매년 1만여 명의 올레꾼이 참가하는 제주올레걷기축제는 해를 거듭할수록 중국, 대만, 일본, 미국, 영국,캐나다 등에서 온 외국인 참가자가 늘어나며 세계인의 걷기 축제로 거듭나고 있다."
+        "text": "2026년 제6회 제주환경교육한마당은 제주특별자치도가 주최하고 제주특별자치도 환경교육센터가 주관하는 종합 환경 교육 행사이다. 개최 장소는 제주벤처마루, 제주경제통상진흥원, 수운근린공원 일대이며 행사 일시는 2026년 10월 30일부터 10월31일까지이다. 30일에는 특별강연과 31일에는 명사특강 및 제주환경교육 배움터가 진행될 예정이다. 본 행사는 제주도민과 환경교육에 관심 있는 누구나 무료로 참여할 수 있다. 주요 프로그램으로는 제주환경교육 배움터 운영, 다양한 주제별 체험 부스, 전시 마당, 실천 다짐 포토존 등이 다채롭게 마련되어 있다. 제주특별자치도가 주최하고 제주특별자치도 환경교육센터가 주관하면 공동기획 및 운영으로 제주특별자치도교육청과 제주환경교육네트워크 회원단체(22개)가 있다. 지역 내 환경 교육 활성화와 도민의 환경 감수성 함양을 목적으로 한다. 다양한 현장 체험과 프로그램을 통해 환경 보전의 중요성과 일상 속 지속가능한 실천 방법을 공유하는 장이다."
       },
       {
         "name": "행사내용",
-        "text": "- 주요 프로그램 : 길 위에서 만나는 공연 / 전통놀이 체험 / 바당길 깨끗하길 캠페인\n- 부대 행사 및 프로그램 : 올레체조 / 제주올레 OX퀴즈 / QR 스탬프 투어 / 꼬닥꼬닥 멋내기"
+        "text": "- 주요 프로그램 : 제주도민과 함께하는 환경 특별강연 / 환경교육 명사 특강 / 식전공연(동광꿈담합창단) / 개회식 / 시상식 / 환경교육체험부스 운영(31개소) / 환경포토에세이 수상작 전시 / 제주 플로깅"
       }
     ],
     "nearbySpots": [
       {
-        "name": "연북정",
-        "dist": 554,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/47/3556247_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 조천리"
+        "name": "보덕사(제주)",
+        "dist": 1099,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/66/3407066_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 독짓골8길 26"
       },
       {
-        "name": "방사탑(제주)",
-        "dist": 1072,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/40/3384840_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 신흥로1길 25"
+        "name": "두맹이골목",
+        "dist": 1429,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3384820_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 동문로16길 17-4 (일도이동)"
       },
       {
-        "name": "평화통일 불사리탑",
-        "dist": 1087,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3384918_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 일주동로 884"
+        "name": "제주성지",
+        "dist": 1715,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3556191_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 오현길 61"
       },
       {
-        "name": "신촌향사",
-        "dist": 1963,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/44/3555044_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 신촌5길 27"
+        "name": "모충사",
+        "dist": 1892,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/24/3555224_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 건입동"
       },
       {
-        "name": "함덕해수욕장 (함덕 서우봉 해변)",
-        "dist": 2356,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/00/3354600_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 조함해안로 519-10"
+        "name": "사라봉공원",
+        "dist": 1898,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/84/3026884_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 사라봉길 75 (건입동)"
       }
     ],
     "nearbyFood": [
       {
-        "name": "딜레탕트",
-        "dist": 1362,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2904641_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 신북로 144"
+        "name": "남춘식당",
+        "dist": 192,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/2860693_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 청귤로 12 (이도이동)"
       },
       {
-        "name": "문개항아리 조천본점",
-        "dist": 1453,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2796240_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 조함해안로 217-1"
+        "name": "제주미담",
+        "dist": 361,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2854260_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 가령로 19 (이도이동)"
       },
       {
-        "name": "무거버거",
-        "dist": 1500,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2899610_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 조함해안로 356"
+        "name": "블루메베이글",
+        "dist": 673,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2899560_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 가령로4길 3"
       },
       {
-        "name": "흑본오겹 함덕점",
-        "dist": 1510,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/16/2899416_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 신북로 454"
+        "name": "시골길",
+        "dist": 700,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/2854070_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 오복2길 23 (이도이동)"
       },
       {
-        "name": "다래향",
-        "dist": 1749,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/3396953_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 조천읍 조함해안로 428-4"
+        "name": "장모식탁",
+        "dist": 720,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2861960_image2_1.JPG",
+        "addr": "제주특별자치도 제주시 연신로 51 (이도이동)"
       }
     ],
     "transit": {
       "stops": [
         {
-          "name": "조천체육관",
-          "dist": 71,
+          "name": "경제통상진흥원[북]",
+          "dist": 94,
           "walkMin": 1
         },
         {
-          "name": "조천체육관(종점)",
-          "dist": 112,
+          "name": "경제통상진흥원[남]",
+          "dist": 122,
           "walkMin": 2
         }
       ],
       "parking": [
         {
-          "name": "조천리 2653-1",
+          "name": "이도이동 375",
           "se": "공영",
           "type": "노외",
-          "cap": 22,
+          "cap": 16,
           "fee": "무료",
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 318,
-          "walkMin": 5
+          "dist": 168,
+          "walkMin": 3
         },
         {
-          "name": "조천리 1328-6",
+          "name": "청귤로 31-1, 31-5",
           "se": "공영",
-          "type": "노외",
-          "cap": 6,
+          "type": "노상",
+          "cap": 5,
           "fee": "무료",
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 421,
-          "walkMin": 6
+          "dist": 72,
+          "walkMin": 1
         },
         {
-          "name": "조천리 2804-1",
+          "name": "청귤로5길 4, 6길 3",
           "se": "공영",
-          "type": "노외",
-          "cap": 23,
+          "type": "노상",
+          "cap": 5,
           "fee": "무료",
           "hours": "00:00~23:59",
           "days": "평일+토요일+공휴일",
           "tel": "",
-          "dist": 433,
-          "walkMin": 6
+          "dist": 94,
+          "walkMin": 1
         }
       ]
     }
@@ -22112,132 +22733,6 @@
     }
   },
   {
-    "contentid": "s1myaj9",
-    "name": "철마한우불고기축제",
-    "startDate": "20261022",
-    "endDate": "20261026",
-    "address": "부산광역시 기장군 철마면 개좌로 789",
-    "lat": "35.27716009",
-    "lng": "129.1561995",
-    "venuePhoto": null,
-    "image": "",
-    "overview": "철마한우가요제+전통 놀이 체험+풍물패 길놀이+철마한우고기 할인판매+청정 농특산물 직거래판매 등",
-    "tourOverview": "",
-    "tel": "051-709-2891",
-    "homepage": "https://www.gijang.go.kr/tour/index.gijang?menuCd=DOM_000000302004000000",
-    "eventplace": "철마도시농업공원 일원(철마면 개좌로 789)",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "철마한우불고기축제추진위원회",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "아홉산숲",
-        "dist": 1758,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3309791_image2_1.jpg",
-        "addr": "부산광역시 기장군 철마면 미동길 37-1"
-      },
-      {
-        "name": "곰내연밭",
-        "dist": 2348,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/58/2794158_image2_1.jpg",
-        "addr": "부산광역시 기장군 철마면 웅천리 254-4"
-      },
-      {
-        "name": "스포원파크",
-        "dist": 4566,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3409925_image2_1.jpg",
-        "addr": "부산광역시 금정구 체육공원로399번길 324"
-      },
-      {
-        "name": "땅뫼산",
-        "dist": 4783,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3552430_image2_1.jpg",
-        "addr": "부산광역시 금정구 오륜대로 260-1"
-      },
-      {
-        "name": "홍법사(부산)",
-        "dist": 5004,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/87/3561487_image2_1.jpg",
-        "addr": "부산광역시 금정구 두구로33번길 202 (두구동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "우남정",
-        "dist": 721,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/2872573_image2_1.JPG",
-        "addr": "부산광역시 기장군 철마면 곰내길 115"
-      },
-      {
-        "name": "철마대가한우직판장",
-        "dist": 894,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/2852230_image2_1.jpg",
-        "addr": "부산광역시 기장군 철마면 난들길 8"
-      },
-      {
-        "name": "브라운피크닉",
-        "dist": 1110,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/15/2753515_image2_1.jpg",
-        "addr": "부산광역시 기장군 철마면 개좌로 763-25"
-      },
-      {
-        "name": "밤나무집",
-        "dist": 1123,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/16/2865916_image2_1.jpg",
-        "addr": "부산광역시 기장군 철마면 개좌로 763-25"
-      },
-      {
-        "name": "철마원조추어탕",
-        "dist": 1134,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2875296_image2_1.JPG",
-        "addr": "부산광역시 기장군 철마면 개좌로 763"
-      }
-    ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "와여마을",
-          "dist": 424,
-          "walkMin": 6
-        },
-        {
-          "name": "구림마을",
-          "dist": 567,
-          "walkMin": 8
-        }
-      ],
-      "parking": [
-        {
-          "name": "백길마을 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 25,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-709-2486",
-          "dist": 713,
-          "walkMin": 11
-        },
-        {
-          "name": "마지마을 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 29,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-709-2486",
-          "dist": 871,
-          "walkMin": 13
-        }
-      ]
-    }
-  },
-  {
     "contentid": "s179q6bh",
     "name": "마곡위시빌리지",
     "startDate": "20261127",
@@ -22379,149 +22874,6 @@
           "tel": "02-2607-9113",
           "dist": 1012,
           "walkMin": 15
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "s1e6jsyu",
-    "name": "홍성글로벌바비큐페스티벌",
-    "startDate": "20261029",
-    "endDate": "20261101",
-    "address": "충청남도 홍성군 홍성읍 아문길 27",
-    "lat": "36.60172104",
-    "lng": "126.6613892",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/05/2048405.jpg",
-      "name": "홍주읍성",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
-    },
-    "image": "",
-    "overview": "홍성 농특산물을 이용한 바비큐 판매 및 체험",
-    "tourOverview": "",
-    "tel": "041-634-8705",
-    "homepage": "https://hongju.or.kr/home/main.do",
-    "eventplace": "홍주읍성",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "충청남도 홍성군",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "안회당과 여하정",
-        "dist": 31,
-        "image": "",
-        "addr": "충청남도 홍성군 홍성읍 아문길 27"
-      },
-      {
-        "name": "조양문",
-        "dist": 203,
-        "image": "",
-        "addr": "충청남도 홍성군 홍성읍 오관리"
-      },
-      {
-        "name": "홍주향교",
-        "dist": 995,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/60/3340160_image2_1.jpg",
-        "addr": "충청남도 홍성군 홍성읍 충서로1575번길 93"
-      },
-      {
-        "name": "홍주성 천년여행길",
-        "dist": 1670,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/77/2678977_image2_1.bmp",
-        "addr": "충청남도 홍성군 홍성읍 조양로 272"
-      },
-      {
-        "name": "충령사",
-        "dist": 2975,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3091083_image2_1.jpg",
-        "addr": "충청남도 홍성군 홍성읍 충서로 1121-43"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "[백년가게]동해루",
-        "dist": 228,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/84/2630884_image2_1.JPG",
-        "addr": "충청남도 홍성군 홍성읍 아문길29번길 48"
-      },
-      {
-        "name": "내당한우",
-        "dist": 257,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/33/2735133_image2_1.jpg",
-        "addr": "충청남도 홍성군 홍성읍 아문길52번길 6"
-      },
-      {
-        "name": "70년소머리국밥",
-        "dist": 607,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/2850142_image2_1.jpg",
-        "addr": "충청남도 홍성군 의사로43번길 27-9"
-      },
-      {
-        "name": "까쎄 토라도",
-        "dist": 813,
-        "image": "",
-        "addr": "충청남도 홍성군 홍성읍 문화로80번길 12"
-      },
-      {
-        "name": "지구에서 너뿐",
-        "dist": 1588,
-        "image": "",
-        "addr": "충청남도 홍성군 홍성읍 역재3길 40"
-      }
-    ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "홍주초삼거리",
-          "dist": 99,
-          "walkMin": 1
-        },
-        {
-          "name": "홍성사회복지관",
-          "dist": 155,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "오관리 90-2 주차장(도시재생과뒤)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 27,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-630-1898",
-          "dist": 17,
-          "walkMin": 1
-        },
-        {
-          "name": "오관1리 쌈지 공영주차장(도시재생과 뒤)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 18,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-630-1898",
-          "dist": 37,
-          "walkMin": 1
-        },
-        {
-          "name": "오관리 89-5 주차장(도시재생과뒤)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 10,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-630-1898",
-          "dist": 48,
-          "walkMin": 1
         }
       ]
     }
@@ -22969,30 +23321,6 @@
     "playtime": "",
     "usefee": "",
     "sponsor": "서울특별시 마포구",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [],
-    "nearbyFood": [],
-    "source": "std"
-  },
-  {
-    "contentid": "s6t8r1",
-    "name": "도심속바다축제",
-    "startDate": "20261025",
-    "endDate": "20261026",
-    "address": "서울특별시 동작구 노들로 688",
-    "lat": "",
-    "lng": "",
-    "venuePhoto": null,
-    "image": "",
-    "overview": "문화예술공연+먹거리부스운영+체험프로그램",
-    "tourOverview": "",
-    "tel": "02-820-9401",
-    "homepage": "",
-    "eventplace": "노량진축구장 및 야구장",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "서울특별시 동작구청 문화정책과+수협노량진수산(주)",
     "images": [],
     "extraInfo": [],
     "nearbySpots": [],
