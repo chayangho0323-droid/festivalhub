@@ -8566,5 +8566,149 @@
     "lng": 128.16853,
     "tel": "",
     "homepage": ""
+  },
+  "FC005159": {
+    "name": "의담재",
+    "address": "전남광주통합특별시 남구 서서평길 21-2 (양림동)",
+    "lat": 35.141129,
+    "lng": 126.915119,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004051": {
+    "name": "피카디리플러스",
+    "address": "서울특별시 종로구 돈화문로5가길 1 (돈의동)",
+    "lat": 37.5710275,
+    "lng": 126.9912303,
+    "tel": "",
+    "homepage": "서울 종로구 돈화문로5가길 1 3층 304호"
+  },
+  "FC005151": {
+    "name": "아르케아트홀",
+    "address": "경기도 수원시 권선구 금곡로 205 (금곡동)",
+    "lat": 37.274317,
+    "lng": 126.953146,
+    "tel": "",
+    "homepage": "https://www.instagram.com/arke_art_hall"
+  },
+  "FC003254": {
+    "name": "스페이스한강",
+    "address": "서울특별시 마포구 와우산로 128(창전동)",
+    "lat": 37.5533112,
+    "lng": 126.9276554,
+    "tel": "",
+    "homepage": "https://www.instagram.com/space_hangang/"
+  },
+  "FC002721": {
+    "name": "클럽 샤프",
+    "address": "서울특별시 마포구 동교로 63 (망원동)",
+    "lat": 37.5536153,
+    "lng": 126.9092543,
+    "tel": "010-9941-5296",
+    "homepage": "https://www.facebook.com/clubsharp2016/"
+  },
+  "FC002517": {
+    "name": "선릉아트홀",
+    "address": "서울특별시 강남구 테헤란로 337 (역삼동)",
+    "lat": 37.5047895,
+    "lng": 127.0484597,
+    "tel": "02-553-0067",
+    "homepage": "http://www.gayatarthall.com/"
+  },
+  "FC005158": {
+    "name": "인천여관X루비살롱",
+    "address": "인천광역시 제물포구 신포로35번길 17 (관동3가)",
+    "lat": 37.472383,
+    "lng": 126.624759,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005157": {
+    "name": "001라이브홀",
+    "address": "서울특별시 마포구 월드컵로 140 (성산동)",
+    "lat": 37.560524,
+    "lng": 126.906507,
+    "tel": "",
+    "homepage": "https://cafe.naver.com/001livehall"
+  },
+  "FC003156": {
+    "name": "경상오페라센터",
+    "address": "경상남도 진주시 금산면 중천로 20",
+    "lat": 35.2156951,
+    "lng": 128.1417076,
+    "tel": "",
+    "homepage": "https://vkart.co.kr/shopinfo/facility.html"
+  },
+  "FC004312": {
+    "name": "누구의 집",
+    "address": "인천광역시 남동구 인주대로591번길 32 (구월동)",
+    "lat": 37.4516155,
+    "lng": 126.7029729,
+    "tel": "",
+    "homepage": "https://www.instagram.com/noogoo_jeeb"
+  },
+  "FC004173": {
+    "name": "부암동 제비꽃다방",
+    "address": "서울특별시 종로구 창의문로 146 (부암동)",
+    "lat": 37.592945,
+    "lng": 126.9644738,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004652": {
+    "name": "호텔스카이파크 킹스타운 동대문점",
+    "address": "서울특별시 중구 장충단로13길 20 (을지로6가)",
+    "lat": 37.568724,
+    "lng": 127.007688,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC001828": {
+    "name": "아트벙커",
+    "address": "대구광역시 남구 현충로 262 (대명동)",
+    "lat": 35.8557096,
+    "lng": 128.58320249999997,
+    "tel": "053-421-2223",
+    "homepage": "https://www.facebook.com/groups/1109711122479798/about/"
+  },
+  "FC001573": {
+    "name": "국립부여박물관",
+    "address": "충청남도 부여군 부여읍 금성로 5",
+    "lat": 36.2765515,
+    "lng": 126.91678849999994,
+    "tel": "041-833-8563",
+    "homepage": "http://buyeo.museum.go.kr/contents/sabiMain.do"
+  },
+  "FC005139": {
+    "name": "마천로 127",
+    "address": "서울특별시 송파구 마천로 127 (오금동)",
+    "lat": 37.505145,
+    "lng": 127.133875,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002763": {
+    "name": "어댑터씨어터 1관 (구.어댑터플레이스)",
+    "address": "부산광역시 수영구 광안해변로 193 (광안동)",
+    "lat": 35.1516557,
+    "lng": 129.1167408,
+    "tel": "051-911-1447",
+    "homepage": "http://www.adapter.theater"
+  },
+  "FC005156": {
+    "name": "인피니티뮤직",
+    "address": "서울특별시 금천구 가산디지털1로 19 (가산동)",
+    "lat": 37.467608,
+    "lng": 126.886493,
+    "tel": "",
+    "homepage": "https://www.infinitymusic.co.kr/"
+  },
+  "FC005155": {
+    "name": "라브리애",
+    "address": "경상남도 진주시 금산면 월아산로 1539-1",
+    "lat": 35.197129,
+    "lng": 128.16464,
+    "tel": "",
+    "homepage": ""
   }
 }

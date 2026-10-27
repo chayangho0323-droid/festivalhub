@@ -16,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&display=swap" />
-  <link rel="stylesheet" href="../report.css?v=20261027" />
+  <link rel="stylesheet" href="../report.css?v=20261028" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Event","name":"신해경 단독 콘서트: 나의 가역반응 사가 [서울]","startDate":"2026-11-15","endDate":"2026-11-15","eventStatus":"https://schema.org/EventScheduled","location":{"@type":"Place","name":"KT&G 상상마당 라이브홀 [마포]","address":"서울특별시 마포구 어울마당로 65 (서교동)"},"image":["http://www.kopis.or.kr/upload/pfmPoster/PF_PF304184_261022_135804.png"],"organizer":{"@type":"Organization","name":"KT&G 상상마당 [부산]"}}</script>
   
@@ -70,8 +70,8 @@
       </div>
       <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%EA%B0%95%EB%82%A8%EC%94%A8%EC%96%B4%ED%84%B0,37.495188,127.03321630000005">🚗 카카오맵 길찾기</a>
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EB%82%A8%EA%B5%AC%20%EC%97%AD%EC%82%BC%EB%A1%9C7%EA%B8%B8%2016%20(%EC%97%AD%EC%82%BC%EB%8F%99)">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/KT%26G%20%EC%83%81%EC%83%81%EB%A7%88%EB%8B%B9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%99%80%20%5B%EB%A7%88%ED%8F%AC%5D,37.550925,126.92114200000003">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%96%B4%EC%9A%B8%EB%A7%88%EB%8B%B9%EB%A1%9C%2065%20(%EC%84%9C%EA%B5%90%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 서울의 다른 대중음악</h2><div class="festival-grid">
@@ -158,11 +158,11 @@
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
   <script>
-    const map = L.map("map", { scrollWheelZoom: false }).setView([37.495188, 127.03321630000005], 15);
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.550925, 126.92114200000003], 15);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
-    L.marker([37.495188, 127.03321630000005]).addTo(map).bindPopup("강남씨어터").openPopup();
+    L.marker([37.550925, 126.92114200000003]).addTo(map).bindPopup("KT&G 상상마당 라이브홀 [마포]").openPopup();
   </script>
   <script src="../track-clicks.js"></script>
-  <script src="../report.js?v=20261027"></script>
+  <script src="../report.js?v=20261028"></script>
 </body>
 </html>
