@@ -8806,5 +8806,37 @@
     "lng": 128.6737892,
     "tel": "010-7145-6672",
     "homepage": "https://variousconcerthall.modoo.at/"
+  },
+  "FC005044": {
+    "name": "팝티스트 홀(POPTIST HALL)",
+    "address": "서울특별시 종로구 자하문로 307 (홍지동)",
+    "lat": 37.599112,
+    "lng": 126.958848,
+    "tel": "",
+    "homepage": "https://poptist.kr/"
+  },
+  "FC005163": {
+    "name": "잭스바",
+    "address": "서울특별시 용산구 이태원로27가길 52 (이태원동)",
+    "lat": 37.535086,
+    "lng": 126.992396,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000046": {
+    "name": "노원문화예술회관",
+    "address": "서울특별시 노원구 중계로 181 (중계동)",
+    "lat": 37.6501653,
+    "lng": 127.08026270000005,
+    "tel": "02-951-3355",
+    "homepage": "http://www.nowonart.kr/"
+  },
+  "FC001472": {
+    "name": "CTS아트홀",
+    "address": "서울특별시 동작구 노량진로 100 (노량진동)",
+    "lat": 37.5129255,
+    "lng": 126.93698640000002,
+    "tel": "02-6333-1071",
+    "homepage": "http://rent.ctsart.co.kr/"
   }
 }

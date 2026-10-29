@@ -65,19 +65,6 @@
     "homepage": "https://www.osan.go.kr/main.do"
   },
   {
-    "name": "소프라노 정선경 독창회 <젊은 예술가 리사이틀>",
-    "startDate": "20251030",
-    "endDate": "20261029",
-    "time": "19:30~21:00",
-    "place": "수성아트피아 소극장",
-    "address": "대구광역시 수성구 무학로 180",
-    "charge": "유료",
-    "desc": "음악회",
-    "tel": "053-668-1800",
-    "host": "수성아트피아",
-    "homepage": "http://www.ssartpia.kr"
-  },
-  {
     "name": "[실감 미디어아트 체험전 리뉴얼] NEW The 경주;경주연대기",
     "startDate": "20251202",
     "endDate": "20261231",
@@ -702,19 +689,6 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "목요예술무대 III <우리동네 명작극장, 명색이 아프레걸>",
-    "startDate": "20261029",
-    "endDate": "20261029",
-    "time": "19:30~21:20",
-    "place": "강동아트센터 소극장 드림",
-    "address": "서울특별시 강동구 동남로 870",
-    "charge": "무료",
-    "desc": "고전의 현대적 해석이 돋보이는 연극, 접근성을 높인 청소년극, 한국 최초 여성 영화감독의 삶을 조망한 음악극과 한국의 미학을 담은 무용 작품",
-    "tel": "02-440-0500",
-    "host": "강동문화재단",
-    "homepage": "https://www.gdfac.or.kr/product/performance/258416"
-  },
-  {
     "name": "전시프로젝트 어린이 작가들",
     "startDate": "20261029",
     "endDate": "20261031",
@@ -725,32 +699,6 @@
     "desc": "전시",
     "tel": "",
     "host": "서울특별시 제2호 거점형 키움센터",
-    "homepage": ""
-  },
-  {
-    "name": "오페라_우리아빠 <구로창의아트홀>",
-    "startDate": "20261029",
-    "endDate": "20261029",
-    "time": "19:30~20:35",
-    "place": "구로창의아트홀",
-    "address": "서울특별시 구로구 경인로 416 4층",
-    "charge": "유료",
-    "desc": "오페라+가족",
-    "tel": "02-742-1500",
-    "host": "구로문화재단",
-    "homepage": "https://www.guroartsvalley.or.kr/"
-  },
-  {
-    "name": "시립국악단 정기연주회",
-    "startDate": "20261029",
-    "endDate": "20261029",
-    "time": "19:30~21:00",
-    "place": "김천시문화예술회관",
-    "address": "경상북도 김천시 운동장길3",
-    "charge": "무료",
-    "desc": "음악회",
-    "tel": "054-420-7827",
-    "host": "경상북도 김천시",
     "homepage": ""
   },
   {
