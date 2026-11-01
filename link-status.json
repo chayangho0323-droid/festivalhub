@@ -122,14 +122,14 @@
  "https://www.nowonlib.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "https://www.kh.or.kr/short/M3K4": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "fetch failed"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-01T23:15:12.075Z",
+  "final": "https://www.kh.or.kr/cont/view/all/month/menu/363?thisPage=1&idx=110623&searchCategory1=&searchCategory2=&searchCategory3=&searchCategory6=B&searchField=all&searchDate=202608&weekSel=&searchType=&year=2026&month=08&searchText="
  },
  "https://www.instagram.com/jeju_ghost/": {
   "state": "ok",
@@ -306,7 +306,7 @@
  "https://www.suncheon.go.kr/food/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "https://lavender-alibi-20b.notion.site/": {
@@ -692,7 +692,7 @@
  "https://kmse.co.kr/html/main/main.php": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "fetch failed"
  },
  "https://온시민에너지걷기한마당.com/": {
@@ -889,7 +889,7 @@
  "http://pr.nsmall.com": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "fetch failed"
  },
  "https://www.sd.go.kr/tour/contents.do?key=3947&": {
@@ -1064,7 +1064,7 @@
  "https://www.cng.go.kr/01659/02139/03797.web": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "http://blog.naver.com/lgb301": {
@@ -1092,8 +1092,8 @@
  "https://www.jinju.go.kr/agrex": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "20"
+  "checkedAt": "2026-11-01T23:15:12.075Z",
+  "error": "fetch failed"
  },
  "http://www.hsscf.kr/": {
   "state": "dead",
@@ -2018,7 +2018,7 @@
  "https://dhfesta.or.kr/dmrf/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "http://www.xn--289aq8y96dmuf78bt4dz86akob.kr/": {
@@ -2102,7 +2102,7 @@
  "https://www.ydplib.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "http://tuntunpetfesta.com/": {
@@ -2264,7 +2264,7 @@
  "https://www.sd.go.kr/tour/contents.do?key=3946&": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "fetch failed"
  },
  "http://www.울산공업축제.kr": {
@@ -2318,8 +2318,8 @@
  "https://cccc.or.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "20"
+  "checkedAt": "2026-11-01T23:15:12.075Z",
+  "error": "fetch failed"
  },
  "https://flowerfesta.co.kr/": {
   "state": "ok",
@@ -2473,10 +2473,9 @@
   "checkedAt": "2026-10-28T23:49:16.772Z"
  },
  "https://www.anseong.go.kr/": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "20"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-01T23:15:12.075Z"
  },
  "http://festival.gimje.go.kr/": {
   "state": "ok",
@@ -2509,10 +2508,9 @@
   "checkedAt": "2026-10-28T23:49:16.772Z"
  },
  "https://www.wando.go.kr/tour/index.cs": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "20"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-01T23:15:12.075Z"
  },
  "https://armyfest.or.kr": {
   "state": "ok",
@@ -2528,7 +2526,7 @@
  "https://www.uiryeong.go.kr/festival/index.uiryeong": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "https://www.visitgangnam.net/festival": {
@@ -2606,7 +2604,7 @@
  "https://www.dobong.or.kr/main/main.php?categoryid=02&menuid=02&groupid=01": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "fetch failed"
  },
  "http://www.jchf.or.kr/": {
@@ -2709,10 +2707,9 @@
   "checkedAt": "2026-10-29T23:47:40.995Z"
  },
  "https://www.kh.or.kr/fest": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "fetch failed"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-01T23:15:12.075Z"
  },
  "https://www.naju.go.kr/tour/festival/river": {
   "state": "ok",
@@ -2785,7 +2782,7 @@
  "http://pgginsengfestival.co.kr": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "fetch failed"
  },
  "https://jjambbong.kr/": {
@@ -2827,7 +2824,7 @@
  "https://jaf.suhyup.co.kr/jaf/kor/contents.do?menuPos=45": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "http://www.cjart.or.kr/": {
@@ -2912,8 +2909,8 @@
  "https://www.jinju.go.kr/02793/02259/02323.web": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
-  "error": "20"
+  "checkedAt": "2026-11-01T23:15:12.075Z",
+  "error": "fetch failed"
  },
  "https://litt.ly/hscoktober": {
   "state": "ok",
@@ -3041,7 +3038,7 @@
  "https://www.suncheon.go.kr/nagan/page02/0002/0001/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-10-28T23:49:16.772Z",
+  "checkedAt": "2026-11-01T23:15:12.075Z",
   "error": "20"
  },
  "https://moonlightwalk.kr/": {

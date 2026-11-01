@@ -429,19 +429,6 @@
     "homepage": "https://garts.kr/"
   },
   {
-    "name": "2026경남고성공룡세계엑스포",
-    "startDate": "20260923",
-    "endDate": "20261101",
-    "time": "09:00~18:00",
-    "place": "당항포관광지",
-    "address": "경상남도 고성군 회화면 당항만로 1116",
-    "charge": "유료",
-    "desc": "전시+판매+공연+퍼레이드",
-    "tel": "055-670-7400",
-    "host": "고성문화관광재단",
-    "homepage": "http://www.dino-expo.com"
-  },
-  {
     "name": "창원조각비엔날레",
     "startDate": "20260930",
     "endDate": "20261115",
@@ -559,19 +546,6 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "경산시립극단 제16회 정기공연",
-    "startDate": "20261030",
-    "endDate": "20261101",
-    "time": "19:30~21:00",
-    "place": "경산시민회관",
-    "address": "경상북도 경산시 계양로 28",
-    "charge": "무료",
-    "desc": "경산시립극단 제16회 정기공연 효녀 청이",
-    "tel": "053-819-0326",
-    "host": "경산시립극단",
-    "homepage": ""
-  },
-  {
     "name": "제 68회 충북예술제",
     "startDate": "20261030",
     "endDate": "20261103",
@@ -624,45 +598,6 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
-    "name": "당진Arte 11 - 11월",
-    "startDate": "20261101",
-    "endDate": "20261101",
-    "time": "00:00~23:59",
-    "place": "당진문예의전당 소공연장",
-    "address": "충청남도 당진시 무수동2길 25-21",
-    "charge": "유료",
-    "desc": "인문학",
-    "tel": "041-350-2911",
-    "host": "(재)당진문화재단·당진문예의전당",
-    "homepage": ""
-  },
-  {
-    "name": "뮤지컬 <장수탕 선녀님>",
-    "startDate": "20261101",
-    "endDate": "20261101",
-    "time": "00:00~23:59",
-    "place": "당진문예의전당 대공연장",
-    "address": "충청남도 당진시 무수동2길 25-21",
-    "charge": "유료",
-    "desc": "뮤지컬",
-    "tel": "041-350-2911",
-    "host": "(재)당진문화재단·당진문예의전당",
-    "homepage": ""
-  },
-  {
-    "name": "인생은 아름다워 <일요음악회>",
-    "startDate": "20261101",
-    "endDate": "20261101",
-    "time": "17:00~18:30",
-    "place": "수성아트피아 소극장",
-    "address": "대구광역시 수성구 무학로 180",
-    "charge": "유료",
-    "desc": "음악회",
-    "tel": "053-668-1800",
-    "host": "수성아트피아",
-    "homepage": "http://www.ssartpia.kr"
-  },
-  {
     "name": "김지안 전시",
     "startDate": "20261101",
     "endDate": "20261105",
@@ -674,19 +609,6 @@
     "tel": "",
     "host": "김지안",
     "homepage": ""
-  },
-  {
-    "name": "한문연 공모사업 3 - 송소희",
-    "startDate": "20261101",
-    "endDate": "20261101",
-    "time": "17:00~19:00",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5857",
-    "host": "관악문화재단",
-    "homepage": "https://gfac.or.kr/"
   },
   {
     "name": "2026 윤이상국제음악콩구르",
