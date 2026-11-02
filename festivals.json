@@ -287,338 +287,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/37/2868937_image2_1.jpg",
         "addr": "부산광역시 수영구 광안해변로307번길 20"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "광안",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 668,
-        "walkMin": 10
-      },
-      "stops": [
-        {
-          "name": "어방축제",
-          "dist": 53,
-          "walkMin": 1
-        },
-        {
-          "name": "광안리해수욕장",
-          "dist": 66,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "광안리해수욕장 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 54,
-          "fee": "기본 10분 500원 · 추가 10분 500원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-610-4552",
-          "dist": 341,
-          "walkMin": 5
-        },
-        {
-          "name": "민락해변공원 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 26,
-          "fee": "기본 10분 300원 · 추가 10분 300원",
-          "hours": "09:00~01:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-610-4552",
-          "dist": 545,
-          "walkMin": 8
-        },
-        {
-          "name": "민락 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 314,
-          "fee": "기본 10분 300원 · 추가 10분 300원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-610-4552",
-          "dist": 796,
-          "walkMin": 12
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "3035607",
-    "name": "광화문 마켓",
-    "startDate": "20261211",
-    "endDate": "20270110",
-    "address": "서울특별시 종로구 세종대로 지하172 (세종로)",
-    "lat": "37.5716249337",
-    "lng": "126.9767679222",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image2_1.jpg",
-    "overview": "서울의 겨울밤을 밝히는 「광화문 마켓」이 올해도 광화문광장을 찾아온다. 5회차를 맞이한 올해는 「시간이 멈춘 산타마을」을 주제로, 바쁜 일상 속 잠시 머물러 크리스마스의 설렘을 만끽할 수 있는 특별한 겨울 풍경을 선보인다. 대형 트리와 마켓 빌리지를 중심으로 크리스마스 시즌 소품과 따뜻한 먹거리를 한자리에서 만나볼 수 있으며, 오감을 자극하는 몰입형 포토존과 다채로운 체험 프로그램도 곳곳에 마련 될 예정이다. 크리스마스의 설렘이 머무는 곳, 올 겨울 광화문 마켓에서 특별한 겨울밤을 만날 수 있다.",
-    "tel": "02-3788-8105",
-    "homepage": "https://www.stolantern.com/",
-    "eventplace": "광화문광장 및 세종로공원 일대",
-    "playtime": "17:30~23:00",
-    "usefee": "무료",
-    "sponsor": "서울관광재단",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/82/4140182_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/84/4140184_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/81/4140181_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "서울의 겨울밤을 밝히는 「광화문 마켓」이 올해도 광화문광장을 찾아온다. 5회차를 맞이한 올해는 「시간이 멈춘 산타마을」을 주제로, 바쁜 일상 속 잠시 머물러 크리스마스의 설렘을 만끽할 수 있는 특별한 겨울 풍경을 선보인다. 대형 트리와 마켓 빌리지를 중심으로 크리스마스 시즌 소품과 따뜻한 먹거리를 한자리에서 만나볼 수 있으며, 오감을 자극하는 몰입형 포토존과 다채로운 체험 프로그램도 곳곳에 마련 될 예정이다. 크리스마스의 설렘이 머무는 곳, 올 겨울 광화문 마켓에서 특별한 겨울밤을 만날 수 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 크리스마스 시즌 소품 판매\n- 부대 행사 및 프로그램 : 먹거리 부스 / 글로벌 협업 부스 / 체험 프로그램 / 몰입형 포토존 운영 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "충무공 이순신 동상",
-        "dist": 65,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3590045_image2_1.jpg",
-        "addr": "서울특별시 종로구 세종로"
-      },
-      {
-        "name": "세종대왕 동상",
-        "dist": 148,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3590038_image2_1.jpg",
-        "addr": "서울특별시 종로구 세종로"
-      },
-      {
-        "name": "서울 종로 낙지볶음 골목",
-        "dist": 293,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3478546_image2_1.jpg",
-        "addr": "서울특별시 종로구 종로 19 (종로1가)"
-      },
-      {
-        "name": "경성 부민관 폭탄 의거지",
-        "dist": 451,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3077530_image2_1.JPG",
-        "addr": "서울특별시 중구 세종대로 125 (태평로1가)"
-      },
-      {
-        "name": "대한성공회 서울주교좌성당",
-        "dist": 471,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568354_image2_1.jpg",
-        "addr": "서울특별시 중구 세종대로21길 15 (정동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "동경우동",
-        "dist": 97,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/2789814_image2_1.jpg",
-        "addr": "서울특별시 종로구 새문안로9길 28 (도렴동)"
-      },
-      {
-        "name": "광화문 세종클럽",
-        "dist": 276,
-        "image": "",
-        "addr": "서울특별시 종로구 새문안로5가길 7 (내수동)"
-      },
-      {
-        "name": "오양회참치",
-        "dist": 329,
-        "image": "",
-        "addr": "서울특별시 중구 세종대로21길 49 (태평로1가)"
-      },
-      {
-        "name": "디라이프스타일키친 광화문점",
-        "dist": 372,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2853904_image2_1.jpg",
-        "addr": "서울특별시 중구 세종대로 136 파이낸스빌딩"
-      },
-      {
-        "name": "붓처스컷 광화문점",
-        "dist": 372,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2853980_image2_1.jpg",
-        "addr": "서울특별시 중구 세종대로 136 (태평로1가)"
-      }
-    ],
-    "transit": {
-      "station": {
-        "name": "광화문(세종문화회관)",
-        "lines": [
-          "5호선"
-        ],
-        "dist": 18,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "광화문역2번출구.KT광화문지사",
-          "dist": 96,
-          "walkMin": 1
-        },
-        {
-          "name": "세종문화회관",
-          "dist": 119,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "세종로",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1260,
-          "fee": "기본 5분 430원 · 추가 5분 430원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6567",
-          "dist": 210,
-          "walkMin": 3
-        },
-        {
-          "name": "서울글로벌센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-720-9862",
-          "dist": 461,
-          "walkMin": 7
-        },
-        {
-          "name": "뉴국제호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 423,
-          "walkMin": 6
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "2754421",
-    "name": "괴산김장축제",
-    "startDate": "20261105",
-    "endDate": "20261108",
-    "address": "충청북도 괴산군 괴산읍 임꺽정로 92",
-    "lat": "36.8145153033",
-    "lng": "127.7865237323",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/64/4127264_image2_1.jpg",
-    "overview": "2026 괴산김장축제는 2026년 11월 5일부터 8일까지 나흘간 충청북도 괴산군 유기농엑스포광장과 괴산종합운동장 일원에서 개최되는 김장문화 축제이다. 괴산에서 재배한 배추와 청결고추 등 지역 농산물을 김장 재료로 활용하여 참가자가 직접 김치를 담그는 행사이다. 대표 프로그램은 유기농엑스포광장에서 참가자가 사전예약한 절임배추와 속재료로 김치를 버무려 가져가는 ‘원-스톱 김장담그기’와 괴산종합운동장 내 개별 부스에 차량을 주차하고 김장을 담근 뒤 완성한 김치를 실어가는 ‘드라이브스루 김장’이다. 어린이와 청소년이 직접 김장을 체험하는 ‘어린이·청소년 김장체험’, 김장 명인이 참여하는 ‘명인의 김장간’, 여러 나라의 김치를 맛보는 ‘세계의 김치맛 시식회’도 마련되는 축제이다. 이 밖에도 K레드푸드스트릿, 구워먹기존, 대한민국김장경연대회 등이 주요 행사로 구성되며, 축제장 행사와 별도로 11월 한 달간 괴산 지역 마을에서 김장을 직접 담그는 ‘마을김장체험’도 진행되는 축제이다.",
-    "tel": "043-830-3463",
-    "homepage": "https://gimjang.kr",
-    "eventplace": "괴산유기농엑스포광장 일원",
-    "playtime": "10:00~20:00",
-    "usefee": "무료 (일부 체험비 부분유료 5,000원)",
-    "sponsor": "괴산군",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/71/4127271_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/72/4127272_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/70/4127270_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/69/4127269_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/68/4127268_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/65/4127265_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/63/4127263_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/62/4127262_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 괴산김장축제는 2026년 11월 5일부터 8일까지 나흘간 충청북도 괴산군 유기농엑스포광장과 괴산종합운동장 일원에서 개최되는 김장문화 축제이다. 괴산에서 재배한 배추와 청결고추 등 지역 농산물을 김장 재료로 활용하여 참가자가 직접 김치를 담그는 행사이다. 대표 프로그램은 유기농엑스포광장에서 참가자가 사전예약한 절임배추와 속재료로 김치를 버무려 가져가는 ‘원-스톱 김장담그기’와 괴산종합운동장 내 개별 부스에 차량을 주차하고 김장을 담근 뒤 완성한 김치를 실어가는 ‘드라이브스루 김장’이다. 어린이와 청소년이 직접 김장을 체험하는 ‘어린이·청소년 김장체험’, 김장 명인이 참여하는 ‘명인의 김장간’, 여러 나라의 김치를 맛보는 ‘세계의 김치맛 시식회’도 마련되는 축제이다. 이 밖에도 K레드푸드스트릿, 구워먹기존, 대한민국김장경연대회 등이 주요 행사로 구성되며, 축제장 행사와 별도로 11월 한 달간 괴산 지역 마을에서 김장을 직접 담그는 ‘마을김장체험’도 진행되는 축제이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 원-스톱 김장담그기\n- 드라이브스루 김장담그기\n- 어린이/청소년 김장체험\n- 명인의 김장간\n- 세계의 김치 맛 시식회\n- 마을김장체험"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "괴산동헌",
-        "dist": 698,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/85/3334585_image2_1.JPG",
-        "addr": "충청북도 괴산군 괴산읍 읍내로2길 65-20"
-      },
-      {
-        "name": "개심사 목조여래좌상과 목조관음보살좌상",
-        "dist": 741,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/35/3338935_image2_1.JPG",
-        "addr": "충청북도 괴산군 괴산읍 역말길 22"
-      },
-      {
-        "name": "일완홍범식고택",
-        "dist": 762,
-        "image": "",
-        "addr": "충청북도 괴산군 괴산읍 임꺽정로 16"
-      },
-      {
-        "name": "괴산군수 관사",
-        "dist": 819,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3571228_image2_1.jpg",
-        "addr": "충청북도 괴산군 괴산읍 읍내로13길 12"
-      },
-      {
-        "name": "괴산 올갱이국 거리",
-        "dist": 1018,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3058978_image2_1.JPG",
-        "addr": "충청북도 괴산군 괴산읍 괴강로 12"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "다래정",
-        "dist": 403,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/68/2857068_image2_1.jpg",
-        "addr": "충청북도 괴산군 동진천길 165"
-      },
-      {
-        "name": "남촌식당",
-        "dist": 945,
-        "image": "",
-        "addr": "충청북도 괴산군 괴산읍 읍내로19길 6"
-      },
-      {
-        "name": "한남불고기",
-        "dist": 2025,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/35/2857135_image2_1.jpg",
-        "addr": "충청북도 괴산군 모래재로 1579"
-      },
-      {
-        "name": "팜바라기 cafe",
-        "dist": 4369,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3442826_image2_1.jpg",
-        "addr": "충청북도 괴산군 괴산읍 자연식품길 31"
-      },
-      {
-        "name": "한옥정원 숲",
-        "dist": 5927,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/84/2857584_image2_1.jpg",
-        "addr": "충청북도 괴산군 명태재로송동5길 67-35"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "성모병원",
-          "dist": 238,
-          "walkMin": 4
-        },
-        {
-          "name": "북중학교",
-          "dist": 446,
-          "walkMin": 7
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3035607",
@@ -914,67 +583,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/33/2841033_image2_1.jpg",
         "addr": "경상북도 구미시 송동로 42-36"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "구미역",
-        "lines": [
-          "대경선"
-        ],
-        "dist": 321,
-        "walkMin": 5
-      },
-      "stops": [
-        {
-          "name": "LG정보통신",
-          "dist": 117,
-          "walkMin": 2
-        },
-        {
-          "name": "국민은행",
-          "dist": 262,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "구미새마을중앙시장 제2주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 25,
-          "fee": "기본 30분 400원 · 추가 10분 200원 · 1일 5,000원",
-          "hours": "11:00~17:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 248,
-          "walkMin": 4
-        },
-        {
-          "name": "시민행복주차장(중앙시장 네거리)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 19,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 289,
-          "walkMin": 4
-        },
-        {
-          "name": "공영주차장(아이파크 인근)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 19,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 306,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4116779",
@@ -1068,59 +677,7 @@
         "image": "",
         "addr": "전남광주통합특별시 여수시 교동남1길 5-17"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "진남관",
-          "dist": 36,
-          "walkMin": 1
-        },
-        {
-          "name": "진남로 위",
-          "dist": 134,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "진남관",
-          "se": "공영",
-          "type": "노외",
-          "cap": 95,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 37,
-          "walkMin": 1
-        },
-        {
-          "name": "진남상가",
-          "se": "공영",
-          "type": "노외",
-          "cap": 100,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 142,
-          "walkMin": 2
-        },
-        {
-          "name": "이순신광장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 102,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 183,
-          "walkMin": 3
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4060434",
@@ -1318,30 +875,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/72/2872872_image2_1.jpg",
         "addr": "인천광역시 강화군 길상로25번길 28"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "대명항",
-          "dist": 482,
-          "walkMin": 7
-        }
-      ],
-      "parking": [
-        {
-          "name": "초지진주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 56,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-930-3366",
-          "dist": 1039,
-          "walkMin": 16
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "506470",
@@ -1534,67 +1068,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/75/2789575_image2_1.jpg",
         "addr": "서울특별시 중구 다동길 36"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "종각",
-        "lines": [
-          "1호선"
-        ],
-        "dist": 69,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "종각역",
-          "dist": 82,
-          "walkMin": 1
-        },
-        {
-          "name": "종로2가",
-          "dist": 124,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "서울글로벌센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-720-9862",
-          "dist": 194,
-          "walkMin": 3
-        },
-        {
-          "name": "동국제강",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 280,
-          "walkMin": 4
-        },
-        {
-          "name": "관철동",
-          "se": "공영",
-          "type": "노상",
-          "cap": 7,
-          "fee": "기본 5분 430원 · 추가 5분 430원",
-          "hours": "09:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-738-0909",
-          "dist": 306,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2862358",
@@ -1693,220 +1167,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/14/2842514_image2_1.jpg",
         "addr": "서울특별시 노원구 공릉로 208 (공릉동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "중계",
-        "lines": [
-          "7호선"
-        ],
-        "dist": 508,
-        "walkMin": 8
-      },
-      "stops": [
-        {
-          "name": "상명초등학교",
-          "dist": 256,
-          "walkMin": 4
-        },
-        {
-          "name": "백병원.한국성서대학교",
-          "dist": 293,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "주공4-6단지주변주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 15,
-          "fee": "추가 5분 250원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2289-6723",
-          "dist": 438,
-          "walkMin": 7
-        },
-        {
-          "name": "주공6단지상가주변주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 38,
-          "fee": "추가 5분 400원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2289-6723",
-          "dist": 528,
-          "walkMin": 8
-        },
-        {
-          "name": "마들스타디움(근린공원)주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 225,
-          "fee": "추가 5분 150원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2289-6723",
-          "dist": 826,
-          "walkMin": 12
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "2995190",
-    "name": "누들대전축제",
-    "startDate": "20261113",
-    "endDate": "20261115",
-    "address": "대전광역시 중구 계룡로904번길 30 (문화동)",
-    "lat": "36.3209285835",
-    "lng": "127.4119234684",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/35/4138635_image2_1.jpg",
-    "overview": "누들대전축제는 대전일보사가 주최하고 대전광역시가 후원하는 대전의 대표 미식축제이다. 대전의 새로운 관광자원 발굴을 위해 기획된 이 축제는 전국 최대 규모를 자랑하는 칼국수, 그리고 세대를 이어온 원조의 맛까지 다양한 면요리를 한자리에서 즐길 수 있는 특별한 장으로 마련된다. 올해 축제에서는 세계 각국의 면요리를 맛볼 수 있는 ‘글로벌 누들존’, 지역 조리학과 학생들의 창의적 도전을 확인할 수 있는 ‘누들마스터경연대회’, 역대 누들축제 주제관, 그리고 유명 셰프들이 선보이는 화려한 ‘스타셰프 쿠킹쇼’ 와 모두가 즐길수 있는 다채로운 프로그램이 마련되어 있다.",
-    "tel": "042-251-3801",
-    "homepage": "https://noodle-dj.com/",
-    "eventplace": "대전 서대전시민광장",
-    "playtime": "16:00~21:00 / 14~15일 12:00~21:00",
-    "usefee": "무료 (먹거리존 및 일부 소상공인 연계 체험프로그램 유료)",
-    "sponsor": "대전일보사",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/33/4138633_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/46/4138646_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/34/4138634_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/99/3547499_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/98/3547498_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/00/3547500_image2_1.png"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "누들대전축제는 대전일보사가 주최하고 대전광역시가 후원하는 대전의 대표 미식축제이다. 대전의 새로운 관광자원 발굴을 위해 기획된 이 축제는 전국 최대 규모를 자랑하는 칼국수, 그리고 세대를 이어온 원조의 맛까지 다양한 면요리를 한자리에서 즐길 수 있는 특별한 장으로 마련된다. 올해 축제에서는 세계 각국의 면요리를 맛볼 수 있는 ‘글로벌 누들존’, 지역 조리학과 학생들의 창의적 도전을 확인할 수 있는 ‘누들마스터경연대회’, 역대 누들축제 주제관, 그리고 유명 셰프들이 선보이는 화려한 ‘스타셰프 쿠킹쇼’ 와 모두가 즐길수 있는 다채로운 프로그램이 마련되어 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인프로그램\n- 글로벌 누들존\n2. 부대프로그램\n- 스타셰프쿠킹쇼, 누들주제관, 누들마스터경연대회, 푸드트럭존\n3. 소비자 참여 프로그램\n- 무대 레크레이션(라면 맞추기, 누들컵쌓기 등) 및 전연령 체험형 프로그램 (페이스페인팅, 누들컵 만들기, 나만의 젓가락 만들기, 누들네컷(인생네컷), 주제관 퀴즈크레인 등)"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "이시직공정려각",
-        "dist": 5168,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/75/3033275_image2_1.JPG",
-        "addr": "대전광역시 대덕구 송촌동"
-      },
-      {
-        "name": "꿀잼도시 대전홍보관",
-        "dist": 6582,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/96/3452996_image2_1.jpg",
-        "addr": "대전광역시 유성구 엑스포로 1 (도룡동)"
-      },
-      {
-        "name": "구절사",
-        "dist": 8044,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/13/3064213_image2_1.JPG",
-        "addr": "충청북도 옥천군 상중길 226 문화재(전통사찰-구절사)"
-      },
-      {
-        "name": "대청호 마산동 쉼터",
-        "dist": 8954,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2911872_image2_1.jpg",
-        "addr": "대전광역시 동구 마산동"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "미르식당",
-        "dist": 436,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/88/2827888_image2_1.jpg",
-        "addr": "대전광역시 중구 계룡로869번길 34 (용두동)"
-      },
-      {
-        "name": "모습",
-        "dist": 914,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/68/2869368_image2_1.png",
-        "addr": "대전광역시 중구 보문산로 331 (문화동)"
-      },
-      {
-        "name": "카라멜",
-        "dist": 1297,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/37/2869337_image2_1.jpg",
-        "addr": "대전광역시 중구 보문로288번길 19 (선화동)"
-      },
-      {
-        "name": "대전 별리달리돈까스",
-        "dist": 1579,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3446878_image2_1.jpg",
-        "addr": "대전광역시 중구 중앙로156번길 28 (은행동)"
-      },
-      {
-        "name": "동소예",
-        "dist": 1665,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/29/2867129_image2_1.jpg",
-        "addr": "대전광역시 중구 충무로 125 (대사동)"
-      }
-    ],
-    "transit": {
-      "station": {
-        "name": "서대전네거리",
-        "lines": [
-          "대전 도시철도 1호선"
-        ],
-        "dist": 174,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "서대전네거리역1번출구",
-          "dist": 160,
-          "walkMin": 2
-        },
-        {
-          "name": "서대전네거리역3번출구",
-          "dist": 175,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "문화1동제2노상",
-          "se": "공영",
-          "type": "노상",
-          "cap": 22,
-          "fee": "기본 10분 300원 · 추가 10분 200원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-606-6853",
-          "dist": 0,
-          "walkMin": 1
-        },
-        {
-          "name": "문화1동제3노상",
-          "se": "공영",
-          "type": "노상",
-          "cap": 28,
-          "fee": "기본 10분 300원 · 추가 10분 200원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-606-6853",
-          "dist": 145,
-          "walkMin": 2
-        },
-        {
-          "name": "오류동제1노외",
-          "se": "공영",
-          "type": "노외",
-          "cap": 7,
-          "fee": "기본 10분 150원 · 추가 10분 150원 · 1일 6,500원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-606-6853",
-          "dist": 309,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2995190",
@@ -2087,47 +1348,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/74/2868974_image2_1.jpg",
         "addr": "충청남도 천안시 동남구 교천지산길 104"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "독립기념관 동문",
-          "dist": 276,
-          "walkMin": 4
-        },
-        {
-          "name": "목천중고등학교",
-          "dist": 295,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "목천읍사무소주차장",
-          "se": "공영",
-          "type": "부설",
-          "cap": 30,
-          "fee": "무료",
-          "hours": "09:00~18:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-521-4671",
-          "dist": 525,
-          "walkMin": 8
-        },
-        {
-          "name": "이동녕선생기념관주차장",
-          "se": "공영",
-          "type": "부설",
-          "cap": 34,
-          "fee": "무료",
-          "hours": "09:00~18:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-521-2823",
-          "dist": 1224,
-          "walkMin": 18
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4115096",
@@ -2219,67 +1440,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/79/2870379_image2_1.JPG",
         "addr": "부산광역시 동구 초량중로 86"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "부산역",
-        "lines": [
-          "부산 도시철도 1호선"
-        ],
-        "dist": 617,
-        "walkMin": 9
-      },
-      "stops": [
-        {
-          "name": "부산역후문",
-          "dist": 215,
-          "walkMin": 3
-        },
-        {
-          "name": "부산항국제여객터미널입구",
-          "dist": 372,
-          "walkMin": 6
-        }
-      ],
-      "parking": [
-        {
-          "name": "동구공영주차빌딩",
-          "se": "공영",
-          "type": "노외",
-          "cap": 152,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-440-4742",
-          "dist": 574,
-          "walkMin": 9
-        },
-        {
-          "name": "중앙대로236번길 제4노상",
-          "se": "공영",
-          "type": "노상",
-          "cap": 14,
-          "fee": "기본 10분 500원 · 추가 10분 500원",
-          "hours": "08:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-440-4742",
-          "dist": 477,
-          "walkMin": 7
-        },
-        {
-          "name": "중앙대로196번길 노상",
-          "se": "공영",
-          "type": "노상",
-          "cap": 14,
-          "fee": "기본 10분 500원 · 추가 10분 500원",
-          "hours": "08:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-440-4742",
-          "dist": 522,
-          "walkMin": 8
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4109305",
@@ -2380,55 +1541,7 @@
         "image": "",
         "addr": "부산광역시 부산진구 서면문화로 4"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "부전역",
-        "lines": [
-          "동해선"
-        ],
-        "dist": 400,
-        "walkMin": 6
-      },
-      "stops": [
-        {
-          "name": "부산진중학교",
-          "dist": 74,
-          "walkMin": 1
-        },
-        {
-          "name": "부산시민공원남문",
-          "dist": 135,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "유원오피스텔 뒤",
-          "se": "공영",
-          "type": "노외",
-          "cap": 12,
-          "fee": "기본 10분 700원 · 추가 10분 700원 · 1일 21,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-605-5886",
-          "dist": 649,
-          "walkMin": 10
-        },
-        {
-          "name": "경남공고 뒤",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일",
-          "tel": "051-605-5886",
-          "dist": 1488,
-          "walkMin": 22
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "1118296",
@@ -2716,47 +1829,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/15/3458515_image2_1.jpg",
         "addr": "경상남도 창원시 마산합포구 완월서2길 8 (완월동)"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "제일여고입구",
-          "dist": 198,
-          "walkMin": 3
-        },
-        {
-          "name": "연세병원",
-          "dist": 220,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "마산보건소 앞",
-          "se": "공영",
-          "type": "노상",
-          "cap": 26,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 6,000원",
-          "hours": "08:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-220-4436",
-          "dist": 456,
-          "walkMin": 7
-        },
-        {
-          "name": "장군동 주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 43,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 6,000원",
-          "hours": "08:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-220-4436",
-          "dist": 1173,
-          "walkMin": 18
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4127761",
@@ -3045,67 +2118,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/20/2789520_image2_1.jpg",
         "addr": "서울특별시 중구 을지로1길 34 (다동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "시청",
-        "lines": [
-          "1호선"
-        ],
-        "dist": 141,
-        "walkMin": 2
-      },
-      "stops": [
-        {
-          "name": "서울광장",
-          "dist": 15,
-          "walkMin": 1
-        },
-        {
-          "name": "시청역더플라자호텔",
-          "dist": 92,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "뉴국제호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 287,
-          "walkMin": 4
-        },
-        {
-          "name": "조선호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 4,
-          "fee": "추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 292,
-          "walkMin": 4
-        },
-        {
-          "name": "다동쉼터 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 7,
-          "fee": "기본 5분 500원 · 추가 5분 600원",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 304,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "235076",
@@ -3298,67 +2311,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/71/2868571_image2_1.jpg",
         "addr": "부산광역시 수영구 구락로 36 (수영동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "벡스코",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 219,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "시립미술관_벡스코",
-          "dist": 152,
-          "walkMin": 2
-        },
-        {
-          "name": "벡스코역.올림픽교차로환승센터",
-          "dist": 187,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "APEC 나루공원 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 49,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:01~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4885",
-          "dist": 801,
-          "walkMin": 12
-        },
-        {
-          "name": "센텀Q주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 399,
-          "fee": "기본 60분 2,000원 · 1일 10,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 591,
-          "walkMin": 9
-        },
-        {
-          "name": "지에스타임즈스테이션센텀필주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 290,
-          "fee": "기본 30분 1,000원 · 추가 30분 1,000원 · 1일 20,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 1204,
-          "walkMin": 18
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3492576",
@@ -3450,67 +2403,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/71/2868571_image2_1.jpg",
         "addr": "부산광역시 수영구 구락로 36 (수영동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "벡스코",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 271,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "시립미술관_벡스코",
-          "dist": 162,
-          "walkMin": 2
-        },
-        {
-          "name": "시립미술관(벡스코)",
-          "dist": 178,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "APEC 나루공원 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 49,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:01~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4885",
-          "dist": 748,
-          "walkMin": 11
-        },
-        {
-          "name": "센텀Q주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 399,
-          "fee": "기본 60분 2,000원 · 1일 10,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 591,
-          "walkMin": 9
-        },
-        {
-          "name": "지에스타임즈스테이션센텀필주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 290,
-          "fee": "기본 30분 1,000원 · 추가 30분 1,000원 · 1일 20,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 1199,
-          "walkMin": 18
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3016659",
@@ -3611,55 +2504,7 @@
         "image": "",
         "addr": "부산광역시 부산진구 서면문화로 4"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "부전역",
-        "lines": [
-          "동해선"
-        ],
-        "dist": 276,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "부산시민공원남문",
-          "dist": 58,
-          "walkMin": 1
-        },
-        {
-          "name": "부산진중학교",
-          "dist": 148,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "유원오피스텔 뒤",
-          "se": "공영",
-          "type": "노외",
-          "cap": 12,
-          "fee": "기본 10분 700원 · 추가 10분 700원 · 1일 21,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-605-5886",
-          "dist": 659,
-          "walkMin": 10
-        },
-        {
-          "name": "경남공고 뒤",
-          "se": "공영",
-          "type": "노상",
-          "cap": 27,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일",
-          "tel": "051-605-5886",
-          "dist": 1420,
-          "walkMin": 21
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3012116",
@@ -3955,68 +2800,7 @@
         "image": "",
         "addr": "서울특별시 중구 서소문로11길 14"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "시청",
-        "lines": [
-          "1호선",
-          "2호선"
-        ],
-        "dist": 58,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "시청교차로(미정차)",
-          "dist": 59,
-          "walkMin": 1
-        },
-        {
-          "name": "시청역",
-          "dist": 115,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "뉴국제호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 346,
-          "walkMin": 5
-        },
-        {
-          "name": "해운센터앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 9,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 395,
-          "walkMin": 6
-        },
-        {
-          "name": "조선호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 4,
-          "fee": "추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 439,
-          "walkMin": 7
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3395188",
@@ -4213,21 +2997,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/92/2862992_image2_1.jpg",
         "addr": "경기도 안성시 금광면 삼흥로 148"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "안성맞춤랜드",
-          "dist": 290,
-          "walkMin": 4
-        },
-        {
-          "name": "공예문화센터",
-          "dist": 354,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4120802",
@@ -4328,67 +3098,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/85/2855885_image2_1.jpg",
         "addr": "서울특별시 서초구 양재천로 147-1 (양재동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "양재시민의숲(매헌)",
-        "lines": [
-          "신분당선"
-        ],
-        "dist": 523,
-        "walkMin": 8
-      },
-      "stops": [
-        {
-          "name": "우성아파트",
-          "dist": 126,
-          "walkMin": 2
-        },
-        {
-          "name": "우성아파트.양재초등학교",
-          "dist": 129,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "매헌시민의숲동측",
-          "se": "공영",
-          "type": "노외",
-          "cap": 143,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7284",
-          "dist": 434,
-          "walkMin": 6
-        },
-        {
-          "name": "매헌시민의숲(매헌)역",
-          "se": "공영",
-          "type": "노외",
-          "cap": 46,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7284",
-          "dist": 563,
-          "walkMin": 8
-        },
-        {
-          "name": "양재2동주민센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 32,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
-          "hours": "07:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7268",
-          "dist": 758,
-          "walkMin": 11
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3400809",
@@ -4482,47 +3192,7 @@
         "image": "",
         "addr": "경상남도 통영시 데메4길 29 (도남동)"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "남포초등학교",
-          "dist": 42,
-          "walkMin": 1
-        },
-        {
-          "name": "통영전통공예관",
-          "dist": 117,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "유람선터미널주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 207,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 2,500원",
-          "hours": "07:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-650-0542",
-          "dist": 315,
-          "walkMin": 5
-        },
-        {
-          "name": "미륵공원주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 383,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-650-5335",
-          "dist": 1044,
-          "walkMin": 16
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "507599",
@@ -4710,68 +3380,7 @@
         "image": "",
         "addr": "인천광역시 제물포구 차이나타운로59번길 23"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "인천역",
-        "lines": [
-          "경인선",
-          "수인선"
-        ],
-        "dist": 222,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "8부두",
-          "dist": 81,
-          "walkMin": 1
-        },
-        {
-          "name": "동일아파트",
-          "dist": 86,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "라이언경로당앞공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-760-7689",
-          "dist": 175,
-          "walkMin": 3
-        },
-        {
-          "name": "차이나타운공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 186,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-763-8146",
-          "dist": 351,
-          "walkMin": 5
-        },
-        {
-          "name": "월미로50번길제2노상주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 21,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-760-7689",
-          "dist": 244,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3113222",
@@ -4870,67 +3479,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/05/2705105_image2_1.jpg",
         "addr": "서울특별시 종로구 인사동16길 3-6"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "안국",
-        "lines": [
-          "3호선"
-        ],
-        "dist": 442,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "정독도서관",
-          "dist": 212,
-          "walkMin": 3
-        },
-        {
-          "name": "가회동주민센터",
-          "dist": 231,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "세종로",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1260,
-          "fee": "기본 5분 430원 · 추가 5분 430원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6567",
-          "dist": 898,
-          "walkMin": 13
-        },
-        {
-          "name": "서울글로벌센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-720-9862",
-          "dist": 1098,
-          "walkMin": 16
-        },
-        {
-          "name": "탑골공원",
-          "se": "공영",
-          "type": "노상",
-          "cap": 2,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 1127,
-          "walkMin": 17
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2433596",
@@ -5028,17 +3577,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/24/2834124_image2_1.jpg",
         "addr": "인천광역시 영종구 마시란로 163 (덕교동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "인천공항2터미널",
-        "lines": [
-          "인천국제공항선"
-        ],
-        "dist": 1252,
-        "walkMin": 19
-      }
-    }
+    ]
   },
   {
     "contentid": "2789700",
@@ -5586,55 +4125,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/58/3453258_image2_1.jpg",
         "addr": "경기도 광명시 덕안로77번길 5 (일직동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "광명역",
-        "lines": [
-          "경부선"
-        ],
-        "dist": 2082,
-        "walkMin": 31
-      },
-      "stops": [
-        {
-          "name": "소하2동행정복지센터.광명동굴길입구",
-          "dist": 130,
-          "walkMin": 2
-        },
-        {
-          "name": "미도3차아파트",
-          "dist": 130,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "광명동굴 제3",
-          "se": "공영",
-          "type": "노외",
-          "cap": 162,
-          "fee": "기본 30분 800원 · 1일 13,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2610-7390",
-          "dist": 208,
-          "walkMin": 3
-        },
-        {
-          "name": "개운어린이공원",
-          "se": "공영",
-          "type": "노외",
-          "cap": 46,
-          "fee": "기본 30분 800원 · 1일 13,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2610-7390",
-          "dist": 339,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "921212",
@@ -5735,59 +4226,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/73/2900173_image2_1.jpg",
         "addr": "경상북도 청송군 약수길 56"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "청송시장",
-          "dist": 165,
-          "walkMin": 2
-        },
-        {
-          "name": "보건의료원",
-          "dist": 373,
-          "walkMin": 6
-        }
-      ],
-      "parking": [
-        {
-          "name": "청송시장주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 24,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-870-6144",
-          "dist": 114,
-          "walkMin": 2
-        },
-        {
-          "name": "국골구거복개주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 47,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-870-6144",
-          "dist": 117,
-          "walkMin": 2
-        },
-        {
-          "name": "소헌공원주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 21,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-870-6144",
-          "dist": 273,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "506627",
@@ -5888,59 +4327,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/2873669_image2_1.jpg",
         "addr": "제주특별자치도 서귀포시 대정읍 상모로 257"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "모슬포항",
-          "dist": 225,
-          "walkMin": 3
-        },
-        {
-          "name": "하모체육공원",
-          "dist": 441,
-          "walkMin": 7
-        }
-      ],
-      "parking": [
-        {
-          "name": "하모리 홍마트 북측 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-4092",
-          "dist": 622,
-          "walkMin": 9
-        },
-        {
-          "name": "하모리 삼성의원 앞 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 6,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 657,
-          "walkMin": 10
-        },
-        {
-          "name": "하모리 제주은행 맞은편 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 17,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 758,
-          "walkMin": 11
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4062805",
@@ -6032,21 +4419,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/68/2857068_image2_1.jpg",
         "addr": "충청북도 괴산군 동진천길 165"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "괴강관광지-검승리",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "괴강삼거리",
-          "dist": 254,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4058556",
@@ -6331,67 +4704,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "혜화",
-        "lines": [
-          "4호선"
-        ],
-        "dist": 236,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "혜화역1번출구",
-          "dist": 174,
-          "walkMin": 3
-        },
-        {
-          "name": "혜화역4번출구",
-          "dist": 191,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "삼선동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 133,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 343,
-          "walkMin": 5
-        },
-        {
-          "name": "경동고",
-          "se": "공영",
-          "type": "노외",
-          "cap": 123,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1156,
-          "walkMin": 17
-        },
-        {
-          "name": "구청사부설",
-          "se": "공영",
-          "type": "부설",
-          "cap": 200,
-          "fee": "기본 30분 1,000원 · 추가 5분 250원 · 1일 15,000원",
-          "hours": "06:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1323,
-          "walkMin": 20
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4115269",
@@ -6483,67 +4796,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "혜화",
-        "lines": [
-          "4호선"
-        ],
-        "dist": 236,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "혜화역1번출구",
-          "dist": 174,
-          "walkMin": 3
-        },
-        {
-          "name": "혜화역4번출구",
-          "dist": 191,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "삼선동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 133,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 343,
-          "walkMin": 5
-        },
-        {
-          "name": "경동고",
-          "se": "공영",
-          "type": "노외",
-          "cap": 123,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1156,
-          "walkMin": 17
-        },
-        {
-          "name": "구청사부설",
-          "se": "공영",
-          "type": "부설",
-          "cap": 200,
-          "fee": "기본 30분 1,000원 · 추가 5분 250원 · 1일 15,000원",
-          "hours": "06:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1323,
-          "walkMin": 20
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4115275",
@@ -6635,67 +4888,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/3094112_image2_1.jpg",
         "addr": "서울특별시 종로구 성균관로 9-1 (명륜2가)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "혜화",
-        "lines": [
-          "4호선"
-        ],
-        "dist": 236,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "혜화역1번출구",
-          "dist": 174,
-          "walkMin": 3
-        },
-        {
-          "name": "혜화역4번출구",
-          "dist": 191,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "삼선동",
-          "se": "공영",
-          "type": "노외",
-          "cap": 133,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 343,
-          "walkMin": 5
-        },
-        {
-          "name": "경동고",
-          "se": "공영",
-          "type": "노외",
-          "cap": 123,
-          "fee": "기본 5분 150원 · 추가 5분 150원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1156,
-          "walkMin": 17
-        },
-        {
-          "name": "구청사부설",
-          "se": "공영",
-          "type": "부설",
-          "cap": 200,
-          "fee": "기본 30분 1,000원 · 추가 5분 250원 · 1일 15,000원",
-          "hours": "06:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-6925-0023",
-          "dist": 1323,
-          "walkMin": 20
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3437916",
@@ -6787,67 +4980,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/22/2838422_image2_1.jpg",
         "addr": "부산광역시 수영구 수영로680번길 39"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "센텀시티",
-        "lines": [
-          "부산 도시철도 2호선"
-        ],
-        "dist": 486,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "영화의전당",
-          "dist": 114,
-          "walkMin": 2
-        },
-        {
-          "name": "시청자미디어센터",
-          "dist": 284,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "APEC 나루공원 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 49,
-          "fee": "기본 10분 300원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "00:01~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4885",
-          "dist": 340,
-          "walkMin": 5
-        },
-        {
-          "name": "센텀Q주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 399,
-          "fee": "기본 60분 2,000원 · 1일 10,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 469,
-          "walkMin": 7
-        },
-        {
-          "name": "지에스타임즈스테이션센텀필주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 290,
-          "fee": "기본 30분 1,000원 · 추가 30분 1,000원 · 1일 20,000원",
-          "hours": "10:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "051-749-4887",
-          "dist": 628,
-          "walkMin": 9
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4082595",
@@ -6944,43 +5077,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/97/2716897_image2_1.jpg",
         "addr": "서울특별시 종로구 사직로10길 3"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "경복궁(정부서울청사)",
-        "lines": [
-          "3호선"
-        ],
-        "dist": 746,
-        "walkMin": 11
-      },
-      "stops": [
-        {
-          "name": "청와대",
-          "dist": 64,
-          "walkMin": 1
-        },
-        {
-          "name": "효자동",
-          "dist": 223,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "세종로",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1260,
-          "fee": "기본 5분 430원 · 추가 5분 430원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6567",
-          "dist": 1049,
-          "walkMin": 16
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3481597",
@@ -7079,67 +5176,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2544557_image2_1.bmp",
         "addr": "서울특별시 종로구 새문안로5가길 7"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "서대문",
-        "lines": [
-          "5호선"
-        ],
-        "dist": 394,
-        "walkMin": 6
-      },
-      "stops": [
-        {
-          "name": "서울역사박물관.경희궁앞(중)",
-          "dist": 104,
-          "walkMin": 2
-        },
-        {
-          "name": "서울역사박물관.경희궁앞",
-          "dist": 113,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "이화여고앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 290,
-          "walkMin": 4
-        },
-        {
-          "name": "충현동 제1공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 63,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-360-8542",
-          "dist": 596,
-          "walkMin": 9
-        },
-        {
-          "name": "미근동 공영",
-          "se": "공영",
-          "type": "노외",
-          "cap": 27,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-360-8542",
-          "dist": 681,
-          "walkMin": 10
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4063702",
@@ -7329,59 +5366,7 @@
         "image": "",
         "addr": "경상북도 포항시 북구 해안로 217-1"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "포항여객선터미널",
-          "dist": 103,
-          "walkMin": 2
-        },
-        {
-          "name": "영일대 해수욕장",
-          "dist": 158,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "항구동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 353,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 104,
-          "walkMin": 2
-        },
-        {
-          "name": "북부해수욕장 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 12,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 122,
-          "walkMin": 2
-        },
-        {
-          "name": "중앙동 노상4",
-          "se": "공영",
-          "type": "노상",
-          "cap": 25,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 69,
-          "walkMin": 1
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3524290",
@@ -7473,59 +5458,7 @@
         "image": "",
         "addr": "충청남도 공주시 금강공원길 9 (금성동)"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "대통교(중동사거리 방면)",
-          "dist": 72,
-          "walkMin": 1
-        },
-        {
-          "name": "대통교",
-          "dist": 79,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "반죽동 쌈지주차장(17)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 6,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-840-7773",
-          "dist": 121,
-          "walkMin": 2
-        },
-        {
-          "name": "사대부고 임시공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 9,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-840-7773",
-          "dist": 178,
-          "walkMin": 3
-        },
-        {
-          "name": "반죽동 쌈지주차장(19)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 14,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-840-7773",
-          "dist": 198,
-          "walkMin": 3
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3355698",
@@ -7617,67 +5550,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/44/2852444_image2_1.jpg",
         "addr": "경기도 가평군 가평읍 중촌로 15-47"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "가평역",
-        "lines": [
-          "경춘선"
-        ],
-        "dist": 1069,
-        "walkMin": 16
-      },
-      "stops": [
-        {
-          "name": "가평터미널(미정차)",
-          "dist": 178,
-          "walkMin": 3
-        },
-        {
-          "name": "가평공영버스(시외)",
-          "dist": 179,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "자투리주차장(2)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-580-2075",
-          "dist": 249,
-          "walkMin": 4
-        },
-        {
-          "name": "어린이음악놀이터 옆 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 43,
-          "fee": "추가 30분 500원 · 1일 5,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-580-2075",
-          "dist": 266,
-          "walkMin": 4
-        },
-        {
-          "name": "가평읍 노상주차장 7구간",
-          "se": "공영",
-          "type": "노상",
-          "cap": 15,
-          "fee": "추가 30분 500원 · 1일 5,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-580-2075",
-          "dist": 350,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3111722",
@@ -7874,47 +5747,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/43/2834743_image2_1.jpg",
         "addr": "충청남도 서산시 간월도1길 117"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "남당리",
-          "dist": 51,
-          "walkMin": 1
-        },
-        {
-          "name": "남당리주차장",
-          "dist": 466,
-          "walkMin": 7
-        }
-      ],
-      "parking": [
-        {
-          "name": "서부 남당주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 239,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-630-1898",
-          "dist": 352,
-          "walkMin": 5
-        },
-        {
-          "name": "서부면 어사리 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 169,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "041-630-1898",
-          "dist": 1434,
-          "walkMin": 21
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2987791",
@@ -8010,29 +5843,7 @@
         "image": "",
         "addr": "경기도 파주시 문산읍 임진나루길 133-12"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "임진강역",
-        "lines": [
-          "경의중앙선"
-        ],
-        "dist": 443,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "임진각",
-          "dist": 323,
-          "walkMin": 5
-        },
-        {
-          "name": "임진강역",
-          "dist": 417,
-          "walkMin": 6
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4108260",
@@ -8316,203 +6127,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/12/2855912_image2_1.JPG",
         "addr": "경기도 파주시 탄현면 필승로 490"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "헤이리사거리",
-          "dist": 288,
-          "walkMin": 4
-        },
-        {
-          "name": "민족화해센터",
-          "dist": 305,
-          "walkMin": 5
-        }
-      ],
-      "parking": [
-        {
-          "name": "탄현1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 100,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-940-4783",
-          "dist": 405,
-          "walkMin": 6
-        },
-        {
-          "name": "헤이리 GATE 1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 189,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-940-4783",
-          "dist": 553,
-          "walkMin": 8
-        },
-        {
-          "name": "통일동산",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1248,
-          "fee": "무료",
-          "hours": "09:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-909-6312",
-          "dist": 932,
-          "walkMin": 14
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "4137577",
-    "name": "2026 국민건강 리부트 마음건강 걷기대회",
-    "startDate": "20261114",
-    "endDate": "20261114",
-    "address": "세종특별자치시 중앙공원로 60 (세종동)",
-    "lat": "36.4917742203",
-    "lng": "127.2717369032",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/78/4137578_image2_1.jpg",
-    "overview": "2026 국민건강 리부트! 마음건강 걷기대회는 국민건강보험공단 대전세종충청지역본부가 주최하는 시민 참여형 건강증진 행사로 2026년 11월 14일(토) 세종중앙공원 도시축제마당 일원에서 개최하는 행사이다. 세종시민을 비롯한 누구나 참여할 수 있으며, 약 800명을 대상으로 진행할 예정이다. 이번 행사는 일상 속 걷기 실천을 통해 신체적·정신적 건강의 중요성을 알리고, 시민들의 건강한 생활습관 형성과 마음건강 증진을 도모하기 위한 것이다. 참가자들은 세종중앙공원에서 출발해 국립세종수목원을 포함한 약 5km의 걷기코스를 함께 걸으며 자연 속에서 몸과 마음을 환기하는 시간을 갖게 된다. 또한 국립세종수목원 무료입장 혜택과 기념품을 제공하고, 건강·복지 관련 체험 및 홍보부스와 참여형 이벤트 등 다채로운 프로그램을 운영할 계획이다. 이를 통해 시민들의 건강관리의 중요성을 자연스럽게 체감하고, 건강보험의 예방중심 건강관리 서비스를 경험하도록 하는 데 목적이 있다.",
-    "tel": "044-251-7113",
-    "homepage": "",
-    "eventplace": "세종중앙공원 도시축제마당",
-    "playtime": "09:00~13:00",
-    "usefee": "무료",
-    "sponsor": "국민건강보험공단 대전세종충청지역본부",
-    "images": [],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 국민건강 리부트! 마음건강 걷기대회는 국민건강보험공단 대전세종충청지역본부가 주최하는 시민 참여형 건강증진 행사로 2026년 11월 14일(토) 세종중앙공원 도시축제마당 일원에서 개최하는 행사이다. 세종시민을 비롯한 누구나 참여할 수 있으며, 약 800명을 대상으로 진행할 예정이다. 이번 행사는 일상 속 걷기 실천을 통해 신체적·정신적 건강의 중요성을 알리고, 시민들의 건강한 생활습관 형성과 마음건강 증진을 도모하기 위한 것이다. 참가자들은 세종중앙공원에서 출발해 국립세종수목원을 포함한 약 5km의 걷기코스를 함께 걸으며 자연 속에서 몸과 마음을 환기하는 시간을 갖게 된다. 또한 국립세종수목원 무료입장 혜택과 기념품을 제공하고, 건강·복지 관련 체험 및 홍보부스와 참여형 이벤트 등 다채로운 프로그램을 운영할 계획이다. 이를 통해 시민들의 건강관리의 중요성을 자연스럽게 체감하고, 건강보험의 예방중심 건강관리 서비스를 경험하도록 하는 데 목적이 있다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 걷기 행사\n- 부대 행사 및 프로그램 : 공연 프로그램 (바이올린·차노을 초등래퍼) / 풍선 활용 무료 이벤트 / 캘리그라피 퍼포먼스 / 체험 프로그램 (자살예방 체험 부스·상담전화 인증 이벤트) / 홍보 부스 운영 등\n\n※ 부대 프로그램은 걷기 프로그램 미참여 방문객도 관람 가능"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "세종호수공원",
-        "dist": 814,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/76/3353976_image2_1.jpg",
-        "addr": "세종특별자치시 다솜로 216 (세종동)"
-      },
-      {
-        "name": "밀마루전망대",
-        "dist": 2074,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3008609_image2_1.jpg",
-        "addr": "세종특별자치시 도움3로 58"
-      },
-      {
-        "name": "우주측지관측센터",
-        "dist": 4298,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3333372_image2_1.jpg",
-        "addr": "세종특별자치시 월산공단로 276-73 (세종동)"
-      },
-      {
-        "name": "금남 백로 서식지",
-        "dist": 5735,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/69/3562269_image2_1.jpg",
-        "addr": "세종특별자치시 금남면 감성리"
-      },
-      {
-        "name": "연기향교",
-        "dist": 5791,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/70/3342770_image2_1.JPG",
-        "addr": "세종특별자치시 연기면 교촌3길 13"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "밥상차려주는집(세종)",
-        "dist": 744,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/08/2740508_image2_1.jpg",
-        "addr": "세종특별자치시 가름로 232 (어진동)"
-      },
-      {
-        "name": "꿈앤카페 세종호수공원점 (송담만리)",
-        "dist": 814,
-        "image": "",
-        "addr": "세종특별자치시 다솜로 216 (세종동)"
-      },
-      {
-        "name": "에이트",
-        "dist": 1315,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/94/2869694_image2_1.jpg",
-        "addr": "세종특별자치시  한누리대로 288 갤러리밸류시티"
-      },
-      {
-        "name": "세종장어대가",
-        "dist": 1338,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/2871436_image2_1.jpg",
-        "addr": "세종특별자치시 나성남로 7-16 (나성동)"
-      },
-      {
-        "name": "광화문미진",
-        "dist": 1387,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/53/2767353_image2_1.jpg",
-        "addr": "세종특별자치시 한누리대로 194 (나성동)"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "세종예술고등학교",
-          "dist": 166,
-          "walkMin": 2
-        },
-        {
-          "name": "국립박물관단지",
-          "dist": 207,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "어진동(C47)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 208,
-          "fee": "무료",
-          "hours": "07:00~23:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "044-300-5533",
-          "dist": 728,
-          "walkMin": 11
-        },
-        {
-          "name": "나성동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 71,
-          "fee": "기본 30분 500원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "044-850-1295",
-          "dist": 986,
-          "walkMin": 15
-        },
-        {
-          "name": "나성동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 71,
-          "fee": "기본 30분 500원 · 추가 10분 300원 · 1일 8,000원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "044-850-1295",
-          "dist": 986,
-          "walkMin": 15
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4137577",
@@ -8680,67 +6295,7 @@
         "image": "",
         "addr": "서울특별시 강남구 삼성로108길 8 (삼성동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "봉은사",
-        "lines": [
-          "수도권  도시철도 9호선"
-        ],
-        "dist": 285,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "봉은사.삼성1파출소앞",
-          "dist": 172,
-          "walkMin": 3
-        },
-        {
-          "name": "봉은사.코엑스북문",
-          "dist": 208,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "삼성1동문화센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 66,
-          "fee": "기본 5분 400원 · 추가 5분 400원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "1544-3113",
-          "dist": 462,
-          "walkMin": 7
-        },
-        {
-          "name": "삼성로별관 부설",
-          "se": "공영",
-          "type": "부설",
-          "cap": 42,
-          "fee": "기본 5분 300원 · 추가 5분 300원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "1544-3113",
-          "dist": 495,
-          "walkMin": 7
-        },
-        {
-          "name": "영동대로106길",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 300원 · 추가 5분 300원",
-          "hours": "09:00~19:00",
-          "days": "평일",
-          "tel": "1544-3113",
-          "dist": 541,
-          "walkMin": 8
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3478890",
@@ -8929,67 +6484,7 @@
         "image": "",
         "addr": "서울특별시 중구 소파로 95 (예장동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "회현(남대문시장)",
-        "lines": [
-          "4호선"
-        ],
-        "dist": 438,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "백범광장",
-          "dist": 126,
-          "walkMin": 2
-        },
-        {
-          "name": "남산공원.구힐튼호텔",
-          "dist": 292,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "남산공원 소월로",
-          "se": "공영",
-          "type": "노상",
-          "cap": 12,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 50,
-          "walkMin": 1
-        },
-        {
-          "name": "남산공원 소파로",
-          "se": "공영",
-          "type": "노상",
-          "cap": 21,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6437",
-          "dist": 156,
-          "walkMin": 2
-        },
-        {
-          "name": "남산파출소",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "기본 5분 340원 · 추가 5분 340원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 234,
-          "walkMin": 3
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4127746",
@@ -9081,68 +6576,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/55/2848055_image2_1.jpg",
         "addr": "서울특별시 중구 을지로 124 (을지로3가)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "충무로",
-        "lines": [
-          "4호선",
-          "3호선"
-        ],
-        "dist": 202,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "충무로역2번출구",
-          "dist": 189,
-          "walkMin": 3
-        },
-        {
-          "name": "충무로역.호텔피제이",
-          "dist": 253,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "남산한옥마을",
-          "se": "공영",
-          "type": "노상",
-          "cap": 16,
-          "fee": "기본 5분 500원 · 추가 5분 500원",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 151,
-          "walkMin": 2
-        },
-        {
-          "name": "필동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 47,
-          "fee": "기본 5분 200원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2280-8360",
-          "dist": 342,
-          "walkMin": 5
-        },
-        {
-          "name": "남산예장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 39,
-          "fee": "기본 5분 500원 · 추가 5분 500원",
-          "hours": "06:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-7227",
-          "dist": 512,
-          "walkMin": 8
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2853386",
@@ -9234,47 +6668,7 @@
         "image": "",
         "addr": "강원특별자치도 강릉시 강변로 270 (노암동, 신화아파트)"
       }
-    ],
-    "transit": {
-      "parking": [
-        {
-          "name": "은마 연립주택 근처 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 3,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 280,
-          "walkMin": 4
-        },
-        {
-          "name": "성내동 광장 주차장(택시부광장 주차장)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 56,
-          "fee": "유료 (요금 현장 확인)",
-          "hours": "10:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 359,
-          "walkMin": 5
-        },
-        {
-          "name": "명주동 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "무료",
-          "hours": "08:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 366,
-          "walkMin": 5
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4115201",
@@ -9366,67 +6760,99 @@
         "image": "",
         "addr": "대전광역시 서구 만년로18번길 9 (만년동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "정부청사",
-        "lines": [
-          "대전 도시철도 1호선"
-        ],
-        "dist": 1161,
-        "walkMin": 17
+    ]
+  },
+  {
+    "contentid": "2854855",
+    "name": "2026 대한민국 관광기념품 박람회",
+    "startDate": "20261120",
+    "endDate": "20261122",
+    "address": "서울특별시 중구 을지로 281 (을지로7가)",
+    "lat": "37.5660539726",
+    "lng": "127.0095547691",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
+    "overview": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 140개 기업이 참여해 다양한 관광기념품을 선보이며, 2026 대한민국 관광공모전 기념품 부문 수상작 25점을 비롯해 K-굿즈 쇼핑과 체험형 이벤트, 무대 프로그램 등을 즐길 수 있다. 전통의 멋과 겨울의 설렘을 담은 K-굿즈 마을에서 취향에 맞는 기념품과 특별한 연말 선물을 찾아볼 수 있다.",
+    "tel": "010-3489-3637",
+    "homepage": "https://kto.visitkorea.or.kr/",
+    "eventplace": "동대문디자인플라자 아트홀 1·2관",
+    "playtime": "[11/20~11/21]- 10:00~19:00- 입장 마감 18:30[11/22]- 10:00~18:00- 입장 마감 17:30",
+    "usefee": "무료",
+    "sponsor": "문화체육관광부",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 140개 기업이 참여해 다양한 관광기념품을 선보이며, 2026 대한민국 관광공모전 기념품 부문 수상작 25점을 비롯해 K-굿즈 쇼핑과 체험형 이벤트, 무대 프로그램 등을 즐길 수 있다. 전통의 멋과 겨울의 설렘을 담은 K-굿즈 마을에서 취향에 맞는 기념품과 특별한 연말 선물을 찾아볼 수 있다."
       },
-      "stops": [
-        {
-          "name": "한밭수목원",
-          "dist": 183,
-          "walkMin": 3
-        },
-        {
-          "name": "대전예술의전당",
-          "dist": 254,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "만년동서구보건소주변",
-          "se": "공영",
-          "type": "노상",
-          "cap": 111,
-          "fee": "기본 10분 300원 · 추가 10분 200원",
-          "hours": "11:00~20:00",
-          "days": "평일",
-          "tel": "042-288-4120",
-          "dist": 625,
-          "walkMin": 9
-        },
-        {
-          "name": "무궁화아파트 주변 노상주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 32,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "042-288-4120",
-          "dist": 1012,
-          "walkMin": 15
-        },
-        {
-          "name": "선사유적지 옆",
-          "se": "공영",
-          "type": "노상",
-          "cap": 15,
-          "fee": "기본 10분 400원 · 추가 10분 300원",
-          "hours": "08:00~22:00",
-          "days": "평일",
-          "tel": "042-288-4120",
-          "dist": 1019,
-          "walkMin": 15
-        }
-      ]
-    }
+      {
+        "name": "행사내용",
+        "text": "- 기간 : 11.20.(금)~11.21.(토) 10:00~19:00 / 11.22.(일) 10:00~18:00\n- 주요 프로그램 : 관광기념품 전시 및 판매 / 2026 대한민국 관광공모전 기념품 부문 시상식 / 수상작 25점 전시 / 온·오프라인 B2B 상담\n- 부대 행사 및 프로그램 : K-굿즈 수집 미션 / 수상작 엽서 배포 / 산타대감 캐릭터 퀴즈 및 기념촬영 / 키캡 키링 만들기 체험/ 무대 프로그램"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "동대문역사문화공원",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/37/3566337_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로 281 (을지로7가)"
+      },
+      {
+        "name": "동대문디자인플라자(DDP)",
+        "dist": 6,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/3539606_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로 281 (을지로7가)"
+      },
+      {
+        "name": "훈련원공원",
+        "dist": 556,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3077783_image2_1.JPG",
+        "addr": "서울특별시 중구 을지로 227 (을지로5가)"
+      },
+      {
+        "name": "신당동 떡볶이타운",
+        "dist": 559,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/3589993_image2_1.jpg",
+        "addr": "서울특별시 중구 다산로33길 10-18 (신당동)"
+      },
+      {
+        "name": "장충동 족발 골목",
+        "dist": 718,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3589072_image2_1.jpg",
+        "addr": "서울특별시 중구 장충단로 174 (장충동1가)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "삼대할먼네",
+        "dist": 560,
+        "image": "",
+        "addr": "서울특별시 중구 퇴계로76길 50 (신당동)"
+      },
+      {
+        "name": "진옥화할매원조닭한마리",
+        "dist": 594,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3082739_image2_1.png",
+        "addr": "서울특별시 종로구 종로40가길 18 (종로5가)"
+      },
+      {
+        "name": "마복림할머니 막내아들네",
+        "dist": 600,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/34/2853934_image2_1.jpg",
+        "addr": "서울특별시 중구 다산로 221 (신당동)"
+      },
+      {
+        "name": "하니칼국수",
+        "dist": 679,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/2719792_image2_1.jpg",
+        "addr": "서울특별시 중구 퇴계로 411-15 (흥인동)"
+      },
+      {
+        "name": "평안도족발집",
+        "dist": 708,
+        "image": "",
+        "addr": "서울특별시 중구 장충단로 174-6 (장충동1가)"
+      }
+    ]
   },
   {
     "contentid": "2769990",
@@ -9518,67 +6944,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/40/2869140_image2_1.JPG",
         "addr": "서울특별시 강남구 개포로22길 16 (개포동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "양재시민의숲(매헌)",
-        "lines": [
-          "신분당선"
-        ],
-        "dist": 452,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "AT센터.양재꽃시장",
-          "dist": 179,
-          "walkMin": 3
-        },
-        {
-          "name": "매헌시민의숲",
-          "dist": 241,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "양재2동주민센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 32,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
-          "hours": "07:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7268",
-          "dist": 370,
-          "walkMin": 6
-        },
-        {
-          "name": "매헌시민의숲(매헌)역",
-          "se": "공영",
-          "type": "노외",
-          "cap": 46,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7284",
-          "dist": 397,
-          "walkMin": 6
-        },
-        {
-          "name": "동산마을",
-          "se": "공영",
-          "type": "노외",
-          "cap": 121,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2155-7268",
-          "dist": 438,
-          "walkMin": 7
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4114621",
@@ -9670,59 +7036,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/59/2843859_image2_1.jpg",
         "addr": "제주특별자치도 서귀포시 신서로32번길 14 (강정동)"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "국토교통부 인재개발원",
-          "dist": 114,
-          "walkMin": 2
-        },
-        {
-          "name": "국토교통인재개발원[남]",
-          "dist": 205,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "국토교통인재개발원 동측 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 110,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "월드컵경기장 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 723,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3602",
-          "dist": 1022,
-          "walkMin": 15
-        },
-        {
-          "name": "신시가지 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 10,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 1168,
-          "walkMin": 17
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2865136",
@@ -9813,302 +7127,6 @@
         "dist": 256,
         "image": "http://tong.visitkorea.or.kr/cms/resource/41/3454441_image2_1.jpg",
         "addr": "전남광주통합특별시 동구 문화전당로 38 (광산동)"
-      }
-    ],
-    "transit": {
-      "station": {
-        "name": "문화전당(구도청)",
-        "lines": [
-          "광주도시철도 1호선"
-        ],
-        "dist": 296,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "국립아시아문화전당(구.도청)",
-          "dist": 154,
-          "walkMin": 2
-        },
-        {
-          "name": "문화전당역",
-          "dist": 225,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "금남지하상가 지하주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 107,
-          "fee": "기본 30분 800원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-608-2914",
-          "dist": 283,
-          "walkMin": 4
-        },
-        {
-          "name": "황금주차장",
-          "se": "민영",
-          "type": "부설",
-          "cap": 301,
-          "fee": "기본 30분 1,500원 · 추가 15분 750원 · 1일 20,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-222-2077",
-          "dist": 115,
-          "walkMin": 2
-        },
-        {
-          "name": "삼성주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "기본 30분 800원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-608-2914",
-          "dist": 121,
-          "walkMin": 2
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "3470738",
-    "name": "2026 런트립 남해! FALL & FUN",
-    "startDate": "20261121",
-    "endDate": "20261121",
-    "address": "경상남도 남해군 삼동면 독일로 182",
-    "lat": "34.8042619080",
-    "lng": "128.0312711393",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/48/4136448_image2_1.png",
-    "overview": "정원의 섬, 남해에서 펼쳐지는 가을빛 레이스. 「2026 런트립 남해! FALL & FUN」은 내산 단풍길을 배경으로 펼쳐지는 관광형 마라톤이다. 남해의 가을을 만끽할 수 있는 10㎞ 비경쟁 마라톤과 함께 다양한 체험과 전시를 즐길 수 있다. 참가자를 대상으로 한 남해군 주요 관광지 무료 입장, 숙박 할인권 제공 등 혜택을 제공한다.",
-    "tel": "051-740-4116",
-    "homepage": "http://www.namhaerun.com/",
-    "eventplace": "삼동공설운동장",
-    "playtime": "12:00~17:00",
-    "usefee": "40,000원",
-    "sponsor": "남해군체육회",
-    "images": [],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "정원의 섬, 남해에서 펼쳐지는 가을빛 레이스. 「2026 런트립 남해! FALL & FUN」은 내산 단풍길을 배경으로 펼쳐지는 관광형 마라톤이다. 남해의 가을을 만끽할 수 있는 10㎞ 비경쟁 마라톤과 함께 다양한 체험과 전시를 즐길 수 있다. 참가자를 대상으로 한 남해군 주요 관광지 무료 입장, 숙박 할인권 제공 등 혜택을 제공한다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 주요 프로그램 : 마라톤(내산단풍길을 배경으로 한 10㎞ 비경쟁코스)\n- 부대 행사 및 프로그램 : 체험프로그램(타투스티커·파크골프체험 등) / 독일마을 플리마켓 연계행사 / 공연프로그램(DJ퍼포먼스·난타공연) / 이벤트(경품·참여형이벤트) / 푸드트럭 운영 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "원예예술촌",
-        "dist": 451,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/76/3399476_image2_1.jpg",
-        "addr": "경상남도 남해군 삼동면 예술길 39"
-      },
-      {
-        "name": "물건항",
-        "dist": 2359,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3374323_image2_1.JPG",
-        "addr": "경상남도 남해군 삼동면 동부대로1030번길 42-34"
-      },
-      {
-        "name": "은점어촌체험마을",
-        "dist": 2740,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3554391_image2_1.jpg",
-        "addr": "경상남도 남해군 삼동면 동부대로942번길 34-9"
-      },
-      {
-        "name": "금왕사",
-        "dist": 6191,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/87/3410787_image2_1.jpg",
-        "addr": "경상남도 남해군 이동면 보리암로 65-23"
-      },
-      {
-        "name": "신흥해바리마을",
-        "dist": 6569,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/97/3553997_image2_1.jpg",
-        "addr": "경상남도 남해군 창선면 서부로 255-4"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "남해의숲",
-        "dist": 287,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2834541_image2_1.jpg",
-        "addr": "경상남도 남해군 삼동면 독일로 152-8"
-      },
-      {
-        "name": "은성쌈밥",
-        "dist": 641,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/49/2766849_image2_1.jpg",
-        "addr": "경상남도 남해군 삼동면 동부대로 1305"
-      },
-      {
-        "name": "쿤스트라운지",
-        "dist": 1265,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/11/2877911_image2_1.jpg",
-        "addr": "경상남도 남해군 독일로 34"
-      },
-      {
-        "name": "완벽한인생 브루어리",
-        "dist": 1324,
-        "image": "",
-        "addr": "경상남도 남해군 삼동면 독일로 30"
-      },
-      {
-        "name": "풍운정",
-        "dist": 2731,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/14/2877914_image2_1.jpg",
-        "addr": "경상남도 남해군 삼동면 동부대로 1587"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "화암",
-          "dist": 82,
-          "walkMin": 1
-        },
-        {
-          "name": "동천삼거리",
-          "dist": 415,
-          "walkMin": 6
-        }
-      ],
-      "parking": [
-        {
-          "name": "화암 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 249,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일",
-          "tel": "055-860-3455",
-          "dist": 221,
-          "walkMin": 3
-        },
-        {
-          "name": "원예예술촌 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 130,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일",
-          "tel": "055-860-3455",
-          "dist": 672,
-          "walkMin": 10
-        },
-        {
-          "name": "독일마을 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 91,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일",
-          "tel": "055-860-3455",
-          "dist": 753,
-          "walkMin": 11
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "4113301",
-    "name": "2026 렉키의 수상한 피크닉",
-    "startDate": "20261113",
-    "endDate": "20261114",
-    "address": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
-    "lat": "35.1782828634",
-    "lng": "128.5809535308",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/84/4113384_image2_1.jpg",
-    "overview": "렉키의 수상한 피크닉은 창원 돝섬해상유원지 일원을 배경으로 한 체험형 미션투어 콘텐츠이다. 1980~90년대 돝섬 야유회의 정서를 현대적으로 재해석한 레트로 콘셉트를 바탕으로, 잔디광장 피크닉존과 미션투어, 요트 체험 등 다양한 프로그램이 함께 운영된다.\n참가자는 별도의 앱 설치 없이 웹 기반 플랫폼(Trace247)에 접속하며, 돝섬 내 지정된 장소를 이동하며 단서를 찾아 미션을 수행한다. 안내데스크에서 참가 등록 후 식별 아이템을 지급받아 게임을 시작하며, 섬 곳곳에 숨겨진 단서를 조합해 최종 미션을 완료하는 방식으로 진행된다.\n행사 콘텐츠는 레트로 야유회 콘셉트의 무료 피크닉 프로그램, 지도 기반 오리엔티어링 체험(무료, 3코스), 유료 미션투어(Trace247), 요트 체험, 수상한 매점, 한복 체험 등으로 구성된다. 창원시가 섭외한 작은음악회 등 연계 프로그램과 함께 운영되어, 하루 종일 머무르며 즐길 수 있는 체류형 콘텐츠로 기획되었다.",
-    "tel": "0507-1393-7113",
-    "homepage": "",
-    "eventplace": "창원 돝섬",
-    "playtime": "11:00~17:00",
-    "usefee": "- 입장료 무료 - 돝섬 입도 유람선 도선료 9,000원 (행사기간 한정 할인가, 정상가 12,000원) - Trace247 미션투어(1인) 5,000원 - 요트 체험 프로그램(1인) 15,000원 (11/14~15 한정 운영)",
-    "sponsor": "한국관광공사 부울경지사, 창원시",
-    "images": [],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "렉키의 수상한 피크닉은 창원 돝섬해상유원지 일원을 배경으로 한 체험형 미션투어 콘텐츠이다. 1980~90년대 돝섬 야유회의 정서를 현대적으로 재해석한 레트로 콘셉트를 바탕으로, 잔디광장 피크닉존과 미션투어, 요트 체험 등 다양한 프로그램이 함께 운영된다.\n참가자는 별도의 앱 설치 없이 웹 기반 플랫폼(Trace247)에 접속하며, 돝섬 내 지정된 장소를 이동하며 단서를 찾아 미션을 수행한다. 안내데스크에서 참가 등록 후 식별 아이템을 지급받아 게임을 시작하며, 섬 곳곳에 숨겨진 단서를 조합해 최종 미션을 완료하는 방식으로 진행된다.\n행사 콘텐츠는 레트로 야유회 콘셉트의 무료 피크닉 프로그램, 지도 기반 오리엔티어링 체험(무료, 3코스), 유료 미션투어(Trace247), 요트 체험, 수상한 매점, 한복 체험 등으로 구성된다. 창원시가 섭외한 작은음악회 등 연계 프로그램과 함께 운영되어, 하루 종일 머무르며 즐길 수 있는 체류형 콘텐츠로 기획되었다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 피크닉 프로그램\n\nRest in the 피크닉 — 잔디광장 캠핑·피크닉 테마 프로그램 \nFun in the 피크닉 — 운동회·야유회 컨셉의 현장 참여형 레크레이션\nPlay in the 피크닉 — 가족 단위 관광객을 위한 놀이소품 플레이존\nMelody in the 피크닉 — 작은음악회 및 하모니 콘서트\n\n2. 지도 기반 DX 프로그램\n\nTrace247 — 웹앱 기반 추리 해결형 미션투어 (유료, 1인 5,000원)\nRace247 — 웹앱 기반 도보투어 프로그램 (무료)\n\n\n3. 수상한 매점 \n경남관광기업지원센터·관광스타트업 홍보 팝업 운영\n\n4. 기타 프로그램\n요트투어, 한복체험, 포토존 등"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "월영연못공원",
-        "dist": 1654,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/48/3453448_image2_1.jpg",
-        "addr": "경상남도 창원시 마산합포구 가포로 96 (월영동)"
-      },
-      {
-        "name": "마산항",
-        "dist": 1813,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/11/2794311_image2_1.jpg",
-        "addr": "경상남도 창원시 마산합포구 월포동 1-4"
-      },
-      {
-        "name": "임항선 그린웨이",
-        "dist": 1902,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/2520073_image2_1.jpg",
-        "addr": "경상남도 창원시 마산합포구 월포동"
-      },
-      {
-        "name": "마산항중앙부두공원",
-        "dist": 2005,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/61/3432961_image2_1.JPG",
-        "addr": "경상남도 창원시 마산합포구 해안대로 224-35 (신포동1가)"
-      },
-      {
-        "name": "월영광장",
-        "dist": 2069,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/77/3458977_image2_1.jpg",
-        "addr": "경상남도 창원시 마산합포구 밤밭고개로 446 (해운동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "가포영도장어구이전문점",
-        "dist": 1232,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2844169_image2_1.JPG",
-        "addr": "경상남도 창원시 마산합포구 가포해안길 47 가포영도장어구이"
-      },
-      {
-        "name": "동굴집",
-        "dist": 1252,
-        "image": "",
-        "addr": "경상남도 창원시 마산합포구 가포해안길 35"
-      },
-      {
-        "name": "상하이717",
-        "dist": 1722,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/98/2864998_image2_1.JPG",
-        "addr": "경상남도 창원시 성산구 삼귀로 167"
-      },
-      {
-        "name": "백두봉삼계탕",
-        "dist": 1898,
-        "image": "",
-        "addr": "경상남도 창원시 마산합포구 문화동로 11"
-      },
-      {
-        "name": "포브커피",
-        "dist": 2023,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/65/2865865_image2_1.JPG",
-        "addr": "경상남도 창원시 성산구 삼귀로 201"
       }
     ]
   },
@@ -10388,67 +7406,7 @@
         "image": "",
         "addr": "인천광역시 제물포구 화도진로91번길 27"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "동인천역",
-        "lines": [
-          "경인선"
-        ],
-        "dist": 102,
-        "walkMin": 2
-      },
-      "stops": [
-        {
-          "name": "동인천역북광장",
-          "dist": 21,
-          "walkMin": 1
-        },
-        {
-          "name": "동인천역",
-          "dist": 141,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "송현시장 부근",
-          "se": "공영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-770-6593",
-          "dist": 203,
-          "walkMin": 3
-        },
-        {
-          "name": "솔마루어린이공원공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 67,
-          "fee": "기본 0.5분 400원 · 추가 0.25분 200원 · 1일 4,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-770-6594",
-          "dist": 245,
-          "walkMin": 4
-        },
-        {
-          "name": "구인천여고",
-          "se": "공영",
-          "type": "노외",
-          "cap": 90,
-          "fee": "기본 30분 400원 · 추가 15분 200원 · 1일 4,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 264,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3488655",
@@ -10636,67 +7594,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/83/2869683_image2_1.JPG",
         "addr": "서울특별시 강남구 테헤란로98길 28 (대치동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "학여울",
-        "lines": [
-          "3호선"
-        ],
-        "dist": 84,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "학여울역",
-          "dist": 86,
-          "walkMin": 1
-        },
-        {
-          "name": "쌍용아파트",
-          "dist": 246,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "학여울역",
-          "se": "공영",
-          "type": "노외",
-          "cap": 180,
-          "fee": "기본 5분 370원 · 추가 5분 370원",
-          "hours": "05:00~01:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-3405-4074",
-          "dist": 110,
-          "walkMin": 2
-        },
-        {
-          "name": "영동6교밑",
-          "se": "공영",
-          "type": "노상",
-          "cap": 39,
-          "fee": "기본 5분 370원 · 추가 5분 370원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 111,
-          "walkMin": 2
-        },
-        {
-          "name": "개포동공원",
-          "se": "공영",
-          "type": "노외",
-          "cap": 146,
-          "fee": "기본 5분 200원 · 추가 5분 200원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "1544-3113",
-          "dist": 736,
-          "walkMin": 11
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3552019",
@@ -10880,67 +7778,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/57/2544557_image2_1.bmp",
         "addr": "서울특별시 종로구 새문안로5가길 7"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "광화문(세종문화회관)",
-        "lines": [
-          "5호선"
-        ],
-        "dist": 20,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "광화문역2번출구.KT광화문지사",
-          "dist": 95,
-          "walkMin": 1
-        },
-        {
-          "name": "세종문화회관",
-          "dist": 120,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "세종로",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1260,
-          "fee": "기본 5분 430원 · 추가 5분 430원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6567",
-          "dist": 211,
-          "walkMin": 3
-        },
-        {
-          "name": "서울글로벌센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-720-9862",
-          "dist": 459,
-          "walkMin": 7
-        },
-        {
-          "name": "뉴국제호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 422,
-          "walkMin": 6
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4067214",
@@ -11128,67 +7966,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/37/2766637_image2_1.jpg",
         "addr": "대구광역시 수성구 동대구로14길 15-6"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "수성못(TBC)",
-        "lines": [
-          "대구 도시철도 3호선"
-        ],
-        "dist": 324,
-        "walkMin": 5
-      },
-      "stops": [
-        {
-          "name": "대구공공시설관리공단동부사업소앞",
-          "dist": 41,
-          "walkMin": 1
-        },
-        {
-          "name": "두산동행정복지센터앞",
-          "dist": 41,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "두산동 끝동공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 364,
-          "walkMin": 5
-        },
-        {
-          "name": "울루루광장공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 66,
-          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 6,000원",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 525,
-          "walkMin": 8
-        },
-        {
-          "name": "상동덕화공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 12,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 787,
-          "walkMin": 12
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3107059",
@@ -11283,67 +8061,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/48/2661548_image2_1.jpg",
         "addr": "서울특별시 중구 남대문로 29"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "회현(남대문시장)",
-        "lines": [
-          "4호선"
-        ],
-        "dist": 297,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "숭례문교차로(미정차)",
-          "dist": 49,
-          "walkMin": 1
-        },
-        {
-          "name": "숭례문(미정차)",
-          "dist": 57,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "서소문삼성생명뒤 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 23,
-          "fee": "기본 5분 450원 · 추가 5분 400원 · 1일 20,000원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-310-9588",
-          "dist": 163,
-          "walkMin": 2
-        },
-        {
-          "name": "진양상가 인공도로 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 14,
-          "fee": "기본 5분 500원 · 추가 5분 500원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 163,
-          "walkMin": 2
-        },
-        {
-          "name": "남평화시장앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 32,
-          "fee": "기본 5분 500원 · 추가 5분 500원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2280-8360",
-          "dist": 163,
-          "walkMin": 2
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4124907",
@@ -11435,68 +8153,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/85/2838185_image2_1.jpg",
         "addr": "서울특별시 강동구 올림픽로 803"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "천호(풍납토성)",
-        "lines": [
-          "5호선",
-          "8호선"
-        ],
-        "dist": 890,
-        "walkMin": 13
-      },
-      "stops": [
-        {
-          "name": "천호대교남단(미정차)",
-          "dist": 425,
-          "walkMin": 6
-        },
-        {
-          "name": "서울현대요양병원",
-          "dist": 653,
-          "walkMin": 10
-        }
-      ],
-      "parking": [
-        {
-          "name": "천호유수지 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 168,
-          "fee": "기본 5분 150원 · 추가 5분 150원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-478-6147",
-          "dist": 347,
-          "walkMin": 5
-        },
-        {
-          "name": "천호2동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 13,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "09:00~18:00",
-          "days": "평일+토요일",
-          "tel": "02-478-6147",
-          "dist": 704,
-          "walkMin": 11
-        },
-        {
-          "name": "천호2동 제2노상공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 7,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-478-6147",
-          "dist": 761,
-          "walkMin": 11
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3399435",
@@ -11588,21 +8245,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/84/2758984_image2_1.png",
         "addr": "경기도 안성시 일죽면 내둔길 16"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "설동",
-          "dist": 117,
-          "walkMin": 2
-        },
-        {
-          "name": "공연장",
-          "dist": 238,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3367339",
@@ -11694,67 +8337,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/69/3422169_image2_1.jpg",
         "addr": "경기도 고양시 일산서구 호수로 817 (대화동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "대화역",
-        "lines": [
-          "일산선"
-        ],
-        "dist": 792,
-        "walkMin": 12
-      },
-      "stops": [
-        {
-          "name": "킨텍스삼거리",
-          "dist": 259,
-          "walkMin": 4
-        },
-        {
-          "name": "킨텍스후문",
-          "dist": 286,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "전시장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 255,
-          "fee": "기본 30분 500원 · 추가 5분 100원 · 1일 6,000원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-929-4850",
-          "dist": 208,
-          "walkMin": 3
-        },
-        {
-          "name": "일산서구청 부설",
-          "se": "공영",
-          "type": "부설",
-          "cap": 366,
-          "fee": "추가 5분 170원",
-          "hours": "08:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-929-4847",
-          "dist": 1006,
-          "walkMin": 15
-        },
-        {
-          "name": "종합운동장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 500,
-          "fee": "기본 30분 500원 · 추가 5분 100원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8075-2924",
-          "dist": 1040,
-          "walkMin": 16
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "2918621",
@@ -11846,59 +8429,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/77/2871377_image2_1.JPG",
         "addr": "울산광역시 울주군 언양읍 남문길 35-1"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "울산전시컨벤션센터(UECO)",
-          "dist": 112,
-          "walkMin": 2
-        },
-        {
-          "name": "동문디이스트",
-          "dist": 256,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "언양강변공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 339,
-          "fee": "기본 120분 600원 · 추가 60분 100원 · 1일 3,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-211-2225",
-          "dist": 633,
-          "walkMin": 9
-        },
-        {
-          "name": "구언양터미널임시",
-          "se": "공영",
-          "type": "노외",
-          "cap": 128,
-          "fee": "기본 120분 600원 · 추가 10분 200원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-211-2225",
-          "dist": 989,
-          "walkMin": 15
-        },
-        {
-          "name": "구언양터미널임시",
-          "se": "공영",
-          "type": "노외",
-          "cap": 128,
-          "fee": "기본 120분 600원 · 추가 10분 200원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "052-211-2225",
-          "dist": 989,
-          "walkMin": 15
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "1129018",
@@ -11990,67 +8521,7 @@
         "image": "",
         "addr": "인천광역시 미추홀구 인주대로 404"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "예술회관",
-        "lines": [
-          "인천지하철 1호선"
-        ],
-        "dist": 209,
-        "walkMin": 3
-      },
-      "stops": [
-        {
-          "name": "문화예술회관",
-          "dist": 107,
-          "walkMin": 2
-        },
-        {
-          "name": "예술회관역",
-          "dist": 135,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "문화예술회관부설주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 779,
-          "fee": "기본 30분 600원 · 추가 15분 300원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-446-2701",
-          "dist": 4,
-          "walkMin": 1
-        },
-        {
-          "name": "문예회관",
-          "se": "공영",
-          "type": "노외",
-          "cap": 779,
-          "fee": "기본 30분 600원 · 추가 15분 300원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-446-2701",
-          "dist": 61,
-          "walkMin": 1
-        },
-        {
-          "name": "문화서제3호(정기차량전용)",
-          "se": "공영",
-          "type": "노외",
-          "cap": 18,
-          "fee": "기본 30분 400원 · 추가 15분 200원 · 1일 4,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-460-0530",
-          "dist": 292,
-          "walkMin": 4
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3399432",
@@ -12142,21 +8613,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/95/2870895_image2_1.jpg",
         "addr": "제주특별자치도 제주시 수목원길 51 (연동)"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "제주도립미술관입구",
-          "dist": 326,
-          "walkMin": 5
-        },
-        {
-          "name": "주르레마을[동]",
-          "dist": 382,
-          "walkMin": 6
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "1738695",
@@ -12252,59 +8709,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/31/2864731_image2_1.JPG",
         "addr": "경상남도 진주시 월아산로 1539-1"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "종합경기장/중소벤처진흥공단",
-          "dist": 276,
-          "walkMin": 4
-        },
-        {
-          "name": "트레젠웰가/롯데몰",
-          "dist": 582,
-          "walkMin": 9
-        }
-      ],
-      "parking": [
-        {
-          "name": "충무공5주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "기본 30분 500원 · 추가 10분 200원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-749-8725",
-          "dist": 963,
-          "walkMin": 14
-        },
-        {
-          "name": "하대5주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 11,
-          "fee": "기본 30분 500원 · 추가 10분 200원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-749-8725",
-          "dist": 1274,
-          "walkMin": 19
-        },
-        {
-          "name": "충무공4주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 9,
-          "fee": "기본 30분 500원 · 추가 10분 200원",
-          "hours": "10:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-749-8725",
-          "dist": 1348,
-          "walkMin": 20
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "1748721",
@@ -12399,59 +8804,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/45/2834245_image2_1.png",
         "addr": "경상북도 포항시 북구 불종로 48"
       }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "롯데백화점",
-          "dist": 61,
-          "walkMin": 1
-        },
-        {
-          "name": "포항세관",
-          "dist": 306,
-          "walkMin": 5
-        }
-      ],
-      "parking": [
-        {
-          "name": "중앙동 노상10",
-          "se": "공영",
-          "type": "노상",
-          "cap": 18,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 167,
-          "walkMin": 2
-        },
-        {
-          "name": "중앙동 노상5",
-          "se": "공영",
-          "type": "노상",
-          "cap": 6,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 283,
-          "walkMin": 4
-        },
-        {
-          "name": "학산유료주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 12,
-          "fee": "기본 30분 1,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 134,
-          "walkMin": 2
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4108258",
@@ -12731,67 +9084,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/96/3474896_image2_1.jpg",
         "addr": "서울특별시 중구 남대문로 52-5 (명동2가)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "을지로입구",
-        "lines": [
-          "2호선"
-        ],
-        "dist": 289,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "명동.롯데영플라자",
-          "dist": 83,
-          "walkMin": 1
-        },
-        {
-          "name": "명동입구",
-          "dist": 97,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "조선호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 4,
-          "fee": "추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 148,
-          "walkMin": 2
-        },
-        {
-          "name": "남산동 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 48,
-          "fee": "기본 5분 300원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-755-7004",
-          "dist": 519,
-          "walkMin": 8
-        },
-        {
-          "name": "동국제강",
-          "se": "공영",
-          "type": "노상",
-          "cap": 13,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 430,
-          "walkMin": 6
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4101384",
@@ -12889,67 +9182,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/01/3474901_image2_1.jpg",
         "addr": "서울특별시 중구 무교로 16 (무교동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "시청",
-        "lines": [
-          "1호선"
-        ],
-        "dist": 315,
-        "walkMin": 5
-      },
-      "stops": [
-        {
-          "name": "광화문코리아나호텔",
-          "dist": 109,
-          "walkMin": 2
-        },
-        {
-          "name": "조선일보",
-          "dist": 132,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "뉴국제호텔앞 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 19,
-          "fee": "기본 5분 600원 · 추가 5분 600원",
-          "hours": "08:00~22:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 186,
-          "walkMin": 3
-        },
-        {
-          "name": "다동쉼터 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 7,
-          "fee": "기본 5분 500원 · 추가 5분 600원",
-          "hours": "09:00~20:00",
-          "days": "평일+토요일",
-          "tel": "02-2280-8360",
-          "dist": 361,
-          "walkMin": 5
-        },
-        {
-          "name": "서울글로벌센터",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 5분 700원 · 추가 5분 700원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "02-720-9862",
-          "dist": 539,
-          "walkMin": 8
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4109730",
@@ -13102,67 +9335,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/54/2892754_image2_1.jpg",
         "addr": "경기도 안양시 만안구 삼막로24번길 115 (석수동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "관악역",
-        "lines": [
-          "경부선"
-        ],
-        "dist": 1514,
-        "walkMin": 23
-      },
-      "stops": [
-        {
-          "name": "안양예술공원종점.갈메산기도원입구",
-          "dist": 461,
-          "walkMin": 7
-        },
-        {
-          "name": "안양박물관.김중업건축박물관.아르테자이정문",
-          "dist": 695,
-          "walkMin": 10
-        }
-      ],
-      "parking": [
-        {
-          "name": "예술공원노외 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 168,
-          "fee": "기본 30분 400원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8045-5255",
-          "dist": 518,
-          "walkMin": 8
-        },
-        {
-          "name": "수목원입구노외 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "기본 30분 400원",
-          "hours": "09:00~21:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8045-5255",
-          "dist": 649,
-          "walkMin": 10
-        },
-        {
-          "name": "김중업건축박물관 뒤 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 56,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "031-8045-5255",
-          "dist": 655,
-          "walkMin": 10
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "3473295",
@@ -13259,68 +9432,7 @@
         "image": "http://tong.visitkorea.or.kr/cms/resource/34/2853934_image2_1.jpg",
         "addr": "서울특별시 중구 다산로 221 (신당동)"
       }
-    ],
-    "transit": {
-      "station": {
-        "name": "동대문역사문화공원(DDP)",
-        "lines": [
-          "2호선",
-          "4호선"
-        ],
-        "dist": 65,
-        "walkMin": 1
-      },
-      "stops": [
-        {
-          "name": "광희동.동대문역사문화공원역",
-          "dist": 74,
-          "walkMin": 1
-        },
-        {
-          "name": "동대문역사문화공원",
-          "dist": 79,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "동대문",
-          "se": "공영",
-          "type": "노외",
-          "cap": 1092,
-          "fee": "기본 5분 360원 · 추가 5분 360원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2254-4901",
-          "dist": 256,
-          "walkMin": 4
-        },
-        {
-          "name": "DDP동측(양쪽)",
-          "se": "공영",
-          "type": "노상",
-          "cap": 20,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2290-6437",
-          "dist": 263,
-          "walkMin": 4
-        },
-        {
-          "name": "중구구민회관 부설주차장",
-          "se": "공영",
-          "type": "부설",
-          "cap": 71,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2265-7765",
-          "dist": 465,
-          "walkMin": 7
-        }
-      ]
-    }
+    ]
   },
   {
     "contentid": "4127713",
@@ -13617,59 +9729,7 @@
         "addr": "경상북도 포항시 남구 효자동길10번길 33"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "문화예술회관",
-          "dist": 110,
-          "walkMin": 2
-        },
-        {
-          "name": "종합운동장",
-          "dist": 265,
-          "walkMin": 4
-        }
-      ],
-      "parking": [
-        {
-          "name": "상대로 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 54,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 563,
-          "walkMin": 8
-        },
-        {
-          "name": "상대동 노상34",
-          "se": "공영",
-          "type": "노상",
-          "cap": 17,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 429,
-          "walkMin": 6
-        },
-        {
-          "name": "상대동 노상23",
-          "se": "공영",
-          "type": "노상",
-          "cap": 18,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 461,
-          "walkMin": 7
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1w0oczx",
@@ -13680,10 +9740,9 @@
     "lat": "36.07608308",
     "lng": "129.5665319",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/39/2939539.jpg",
-      "name": "호미곶 해맞이광장",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/98/3410998_image2_1.jpg",
+      "name": "호미곶 등대",
+      "dist": 292
     },
     "image": "",
     "overview": "호미곶등대 미디어파사드+호랑이탈춤 및 만들기 체험 등",
@@ -13770,12 +9829,7 @@
     "address": "전남광주통합특별시 순천시 안풍동 1174-55",
     "lat": "34.8758361",
     "lng": "127.5032028",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/68/4062868.JPG",
-      "name": "순천만습지",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 김찬영"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "남파랑길 61·62코스 완주",
     "tourOverview": "",
@@ -13961,59 +10015,7 @@
         "addr": "경상북도 김천시 대학로 98"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "한신아파트",
-          "dist": 86,
-          "walkMin": 1
-        },
-        {
-          "name": "황금동시장",
-          "dist": 97,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "황금시장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 36,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 5,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 0,
-          "walkMin": 1
-        },
-        {
-          "name": "중앙시장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 44,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 223,
-          "walkMin": 3
-        },
-        {
-          "name": "황금시장 ~ 한신아파트 앞",
-          "se": "공영",
-          "type": "노상",
-          "cap": 59,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 5,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 92,
-          "walkMin": 1
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "smqy8t7",
@@ -14099,59 +10101,7 @@
         "addr": "경상북도 김천시 대학로 98"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "김천역",
-          "dist": 31,
-          "walkMin": 1
-        },
-        {
-          "name": "역전우체국",
-          "dist": 210,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "평화시장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 63,
-          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 5,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 157,
-          "walkMin": 2
-        },
-        {
-          "name": "구름다리5길",
-          "se": "공영",
-          "type": "노외",
-          "cap": 42,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 364,
-          "walkMin": 5
-        },
-        {
-          "name": "김천역 ~ 열린안경",
-          "se": "공영",
-          "type": "노상",
-          "cap": 50,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-420-6843",
-          "dist": 267,
-          "walkMin": 4
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sdbv4zq",
@@ -14243,21 +10193,7 @@
         "addr": "강원특별자치도 춘천시 서면 박사로 890"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "인형극장앞",
-          "dist": 79,
-          "walkMin": 1
-        },
-        {
-          "name": "인형극장",
-          "dist": 135,
-          "walkMin": 2
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1222ynm",
@@ -14444,10 +10380,9 @@
     "lat": "35.100209",
     "lng": "129.032278",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/41/3406741.jpg",
-      "name": "용두산공원",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 이병현"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/24/3049224_image2_1.JPG",
+      "name": "관수옥과 초량왜관 터",
+      "dist": 56
     },
     "image": "",
     "overview": "시민의종 타종+문화공연",
@@ -14610,67 +10545,7 @@
         "addr": "서울특별시 강서구 강서로54길 11"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "발산",
-        "lines": [
-          "5호선"
-        ],
-        "dist": 165,
-        "walkMin": 2
-      },
-      "stops": [
-        {
-          "name": "발산역9번출구",
-          "dist": 85,
-          "walkMin": 1
-        },
-        {
-          "name": "이대서울병원",
-          "dist": 157,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "등촌3동 구암길",
-          "se": "공영",
-          "type": "노상",
-          "cap": 49,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2607-9113",
-          "dist": 764,
-          "walkMin": 11
-        },
-        {
-          "name": "마곡안전체험관",
-          "se": "공영",
-          "type": "부설",
-          "cap": 36,
-          "fee": "기본 5분 100원 · 추가 5분 100원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "02-2065-1575",
-          "dist": 1075,
-          "walkMin": 16
-        },
-        {
-          "name": "등촌3동 꿈나무길",
-          "se": "공영",
-          "type": "노상",
-          "cap": 60,
-          "fee": "기본 5분 250원 · 추가 5분 250원",
-          "hours": "09:00~19:00",
-          "days": "평일+토요일",
-          "tel": "02-2607-9113",
-          "dist": 1012,
-          "walkMin": 15
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sqgyn51",
@@ -14694,35 +10569,7 @@
     "extraInfo": [],
     "nearbySpots": [],
     "nearbyFood": [],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "분천산타마을",
-          "dist": 235,
-          "walkMin": 4
-        },
-        {
-          "name": "평지",
-          "dist": 795,
-          "walkMin": 12
-        }
-      ],
-      "parking": [
-        {
-          "name": "소천면 분천역 주변",
-          "se": "공영",
-          "type": "노외",
-          "cap": 57,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "054-679-6293",
-          "dist": 137,
-          "walkMin": 2
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sujdi27",
@@ -14732,12 +10579,7 @@
     "address": "경상남도 창녕군 유어면 세진리 193",
     "lat": "35.54466399",
     "lng": "128.4181995",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/20/3590920.jpg",
-      "name": "창녕 우포늪",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 장정수"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "식전행사+개회식+우포늪 생명길 걷기+경품추첨",
     "tourOverview": "",
@@ -14813,30 +10655,7 @@
         "addr": "경상남도 창녕군 창녕읍 화왕산로 64"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "우포늪",
-          "dist": 96,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "대대마을 공동주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 15,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "055-530-1723",
-          "dist": 1002,
-          "walkMin": 15
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sgum4ie",
@@ -14922,67 +10741,7 @@
         "addr": "대구광역시 서구 서대구로 118 (평리동)"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "서대구역",
-        "lines": [
-          "대경선"
-        ],
-        "dist": 1583,
-        "walkMin": 24
-      },
-      "stops": [
-        {
-          "name": "새방지하도2",
-          "dist": 396,
-          "walkMin": 6
-        },
-        {
-          "name": "새방지하도1",
-          "dist": 407,
-          "walkMin": 6
-        }
-      ],
-      "parking": [
-        {
-          "name": "새방로27길인근 노상공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 3,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-663-3034",
-          "dist": 350,
-          "walkMin": 5
-        },
-        {
-          "name": "새방로25길인근 노상공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 21,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-663-3034",
-          "dist": 374,
-          "walkMin": 6
-        },
-        {
-          "name": "상리공원주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 47,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-663-3034",
-          "dist": 1011,
-          "walkMin": 15
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1iuy6lt",
@@ -14993,10 +10752,9 @@
     "lat": "37.88953876",
     "lng": "126.7401859",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/49/2715649.jpg",
-      "name": "임진각 평화 곤돌라",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/65/3046365_image2_1.jpg",
+      "name": "한반도생태평화 종합관광센터",
+      "dist": 164
     },
     "image": "",
     "overview": "파주장단콩 전시 및 판매+농특산물 홍보 및 판매+각종 공연+체험행사 등",
@@ -15073,29 +10831,7 @@
         "addr": "경기도 파주시 문산읍 방촌로 1779-40"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "임진강역",
-        "lines": [
-          "경의중앙선"
-        ],
-        "dist": 593,
-        "walkMin": 9
-      },
-      "stops": [
-        {
-          "name": "임진각",
-          "dist": 337,
-          "walkMin": 5
-        },
-        {
-          "name": "임진강역",
-          "dist": 637,
-          "walkMin": 10
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1p0m9i5",
@@ -15295,55 +11031,7 @@
         "addr": "대구광역시 동구 율하동로24길 31"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "고산",
-        "lines": [
-          "대구 도시철도 2호선"
-        ],
-        "dist": 983,
-        "walkMin": 15
-      },
-      "parking": [
-        {
-          "name": "매호동임시공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 46,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 1223,
-          "walkMin": 18
-        },
-        {
-          "name": "노변공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 64,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 1362,
-          "walkMin": 20
-        },
-        {
-          "name": "율하3 공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 38,
-          "fee": "기본 30분 400원 · 추가 10분 200원 · 1일 4,000원",
-          "hours": "09:00~19:30",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-662-3596",
-          "dist": 1238,
-          "walkMin": 18
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sh961vb",
@@ -15429,67 +11117,7 @@
         "addr": "인천광역시 연수구 청량로 67"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "동춘",
-        "lines": [
-          "인천지하철 1호선"
-        ],
-        "dist": 579,
-        "walkMin": 9
-      },
-      "stops": [
-        {
-          "name": "연수구청",
-          "dist": 64,
-          "walkMin": 1
-        },
-        {
-          "name": "연수구청입구",
-          "dist": 162,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "맛고을길 임시주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 43,
-          "fee": "기본 30분 400원 · 추가 15분 200원 · 1일 4,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-830-8073",
-          "dist": 398,
-          "walkMin": 6
-        },
-        {
-          "name": "늘봄공원지하주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 65,
-          "fee": "기본 30분 600원 · 추가 15분 300원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 412,
-          "walkMin": 6
-        },
-        {
-          "name": "늘봄공원",
-          "se": "공영",
-          "type": "노외",
-          "cap": 63,
-          "fee": "기본 30분 600원 · 추가 15분 300원 · 1일 6,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "032-579-2701",
-          "dist": 412,
-          "walkMin": 6
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1apw0ka",
@@ -15500,10 +11128,9 @@
     "lat": "37.55843603",
     "lng": "126.6074644",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/76/3457876.jpg",
-      "name": "정서진",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 안영관"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/42/3395842_image2_1.JPG",
+      "name": "경인아라뱃길 아라타워 전망대",
+      "dist": 6
     },
     "image": "",
     "overview": "경관조명행사 + 체험프로그램",
@@ -15590,12 +11217,7 @@
     "address": "강원특별자치도 원주시 문막읍 반계리 1495-1",
     "lat": "37.2942081",
     "lng": "127.7884224",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/33/4064033.jpg",
-      "name": "원주 반계리 은행나무",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 황성훈"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "기획전시+체험프로그램 운영 등",
     "tourOverview": "",
@@ -15671,21 +11293,7 @@
         "addr": "강원특별자치도 원주시 문막읍 큰애니길 3"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "남도동",
-          "dist": 344,
-          "walkMin": 5
-        },
-        {
-          "name": "벌무내기",
-          "dist": 688,
-          "walkMin": 10
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sjzr7bp",
@@ -15695,12 +11303,7 @@
     "address": "충청북도 보은군 보은읍 교사삼산길 20-4",
     "lat": "36.532721",
     "lng": "127.8248196",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/48/3590748.jpg",
-      "name": "보은 법주사",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 이효직"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "속리산 전통문화 보존과 지역경제 활성화를 위한 축제개최",
     "tourOverview": "",
@@ -15776,21 +11379,7 @@
         "addr": "경상북도 상주시 화북면 속리산로 2348"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "속리산",
-          "dist": 63,
-          "walkMin": 1
-        },
-        {
-          "name": "청주식당앞",
-          "dist": 589,
-          "walkMin": 9
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s12y3djr",
@@ -15878,60 +11467,7 @@
         "addr": "충청북도 보은군 안내보은로 1273-3 일반음식점"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "뱃들공원앞",
-          "dist": 44,
-          "walkMin": 1
-        },
-        {
-          "name": "이평리.뱃들공원",
-          "dist": 56,
-          "walkMin": 1
-        }
-      ],
-      "parking": [
-        {
-          "name": "동다리하상",
-          "se": "공영",
-          "type": "노외",
-          "cap": 97,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "043-540-3095",
-          "dist": 164,
-          "walkMin": 2
-        },
-        {
-          "name": "교사리 시가지 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 26,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "043-540-3095",
-          "dist": 319,
-          "walkMin": 5
-        },
-        {
-          "name": "보은전통시장 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 22,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "043-540-3095",
-          "dist": 364,
-          "walkMin": 5
-        }
-      ]
-    },
-    "photoCredit": "한국관광공사 포토코리아 · 촬영 하두철"
+    "source": "std"
   },
   {
     "contentid": "s1hvax50",
@@ -16017,59 +11553,7 @@
         "addr": "충청남도 예산군 덕산면 수덕사안길 38"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "고북",
-          "dist": 330,
-          "walkMin": 5
-        },
-        {
-          "name": "고북면소재지",
-          "dist": 332,
-          "walkMin": 5
-        }
-      ],
-      "parking": [
-        {
-          "name": "가구리무료공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 52,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 471,
-          "walkMin": 7
-        },
-        {
-          "name": "기포리무료공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 24,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 472,
-          "walkMin": 7
-        },
-        {
-          "name": "양천1리운동장옆무료공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 15,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 1141,
-          "walkMin": 17
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1l4u5o0",
@@ -16155,47 +11639,7 @@
         "addr": "충청남도 태안군 남면 천수만로 365-23"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "간월도",
-          "dist": 415,
-          "walkMin": 6
-        },
-        {
-          "name": "간월도리",
-          "dist": 452,
-          "walkMin": 7
-        }
-      ],
-      "parking": [
-        {
-          "name": "부석면 간월도리 679-1 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 69,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 457,
-          "walkMin": 7
-        },
-        {
-          "name": "부석면 간월도리 685-8 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 70,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 1055,
-          "walkMin": 16
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1tg3zj9",
@@ -16391,59 +11835,7 @@
         "addr": "전북특별자치도 진안군 상전면 금지1길 18-20"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "홍삼한방센터",
-          "dist": 62,
-          "walkMin": 1
-        },
-        {
-          "name": "진안군의료원",
-          "dist": 143,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "고원3 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 22,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 211,
-          "walkMin": 3
-        },
-        {
-          "name": "중앙3 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 27,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 381,
-          "walkMin": 6
-        },
-        {
-          "name": "고원2 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 121,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 487,
-          "walkMin": 7
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s194s5q0",
@@ -16701,21 +12093,7 @@
         "addr": "경상남도 거제시 계룡로 68 (고현동)"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "거제식물원",
-          "dist": 208,
-          "walkMin": 3
-        },
-        {
-          "name": "농업기술센터",
-          "dist": 240,
-          "walkMin": 4
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s6f56y",
@@ -16801,21 +12179,7 @@
         "addr": "경상남도 거제시 신부로1길 12"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "한일비치",
-          "dist": 124,
-          "walkMin": 2
-        },
-        {
-          "name": "문화예술회관",
-          "dist": 138,
-          "walkMin": 2
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1jb1l2w",
@@ -16911,12 +12275,7 @@
     "address": "충청남도 당진시 석문면 왜목길 27",
     "lat": "",
     "lng": "",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/12/1883212.jpg",
-      "name": "당진 왜목마을",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "소원제",
     "tourOverview": "",
@@ -17064,67 +12423,7 @@
         "addr": "전남광주통합특별시 동구 충장로안길 26"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "문화전당(구도청)",
-        "lines": [
-          "광주도시철도 1호선"
-        ],
-        "dist": 282,
-        "walkMin": 4
-      },
-      "stops": [
-        {
-          "name": "동구청",
-          "dist": 116,
-          "walkMin": 2
-        },
-        {
-          "name": "서남동행정복지센터",
-          "dist": 142,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "금남지하상가 지하주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 107,
-          "fee": "기본 30분 800원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-608-2914",
-          "dist": 337,
-          "walkMin": 5
-        },
-        {
-          "name": "도원주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 16,
-          "fee": "기본 30분 800원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-608-2914",
-          "dist": 127,
-          "walkMin": 2
-        },
-        {
-          "name": "서광주차장",
-          "se": "민영",
-          "type": "노외",
-          "cap": 20,
-          "fee": "기본 30분 800원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "062-608-2914",
-          "dist": 149,
-          "walkMin": 2
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s129i8jn",
@@ -17318,10 +12617,9 @@
     "lat": "34.29977814",
     "lng": "126.5285887",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/02/2728802.jpg",
-      "name": "땅끝마을",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 송재근"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/80/3587580_image2_1.jpg",
+      "name": "땅끝항",
+      "dist": 178
     },
     "image": "",
     "overview": "땅끝음악회+체험행사+먹거리 등",
@@ -17374,21 +12672,7 @@
         "addr": "전남광주통합특별시 해남군 송지면 땅끝마을길 100"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "땅끝마을",
-          "dist": 134,
-          "walkMin": 2
-        },
-        {
-          "name": "광명사",
-          "dist": 572,
-          "walkMin": 9
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s1wt0zfi",
@@ -17566,67 +12850,7 @@
         "addr": "대구광역시 수성구 동원로 6 (만촌동)"
       }
     ],
-    "source": "std",
-    "transit": {
-      "station": {
-        "name": "범어",
-        "lines": [
-          "대구 도시철도 2호선"
-        ],
-        "dist": 455,
-        "walkMin": 7
-      },
-      "stops": [
-        {
-          "name": "수성구청건너",
-          "dist": 77,
-          "walkMin": 1
-        },
-        {
-          "name": "수성구청앞",
-          "dist": 133,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "범어공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 62,
-          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 6,000원",
-          "hours": "08:00~19:30",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 281,
-          "walkMin": 4
-        },
-        {
-          "name": "대구여고북편노상공영주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 71,
-          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 6,000원",
-          "hours": "08:00~20:00",
-          "days": "평일+토요일+공휴일",
-          "tel": "053-666-3043",
-          "dist": 192,
-          "walkMin": 3
-        },
-        {
-          "name": "대구은행범어동지점주차장",
-          "se": "공영",
-          "type": "노상",
-          "cap": 72,
-          "fee": "기본 10분 600원 · 추가 10분 600원 · 1일 14,000원",
-          "hours": "09:00~18:00",
-          "days": "평일",
-          "tel": "053-603-4064",
-          "dist": 598,
-          "walkMin": 9
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sp5kdnb",
@@ -17712,59 +12936,7 @@
         "addr": "제주특별자치도 제주시 관덕로 32-1 (삼도이동)"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "중앙로 제민신협본점[서]",
-          "dist": 156,
-          "walkMin": 2
-        },
-        {
-          "name": "중앙로(현대약국)[동]",
-          "dist": 172,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "중앙로상점가",
-          "se": "공영",
-          "type": "노외",
-          "cap": 67,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 122,
-          "walkMin": 2
-        },
-        {
-          "name": "제주중앙지하상가",
-          "se": "공영",
-          "type": "노외",
-          "cap": 24,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 146,
-          "walkMin": 2
-        },
-        {
-          "name": "삼도이동 830-2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 8,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 200,
-          "walkMin": 3
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "sqbfz8d",
@@ -17936,59 +13108,7 @@
         "addr": "제주특별자치도 제주시 관덕로8길 31"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "관덕정[남]",
-          "dist": 116,
-          "walkMin": 2
-        },
-        {
-          "name": "관덕정[북]",
-          "dist": 148,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "삼도이동 830-2",
-          "se": "공영",
-          "type": "노외",
-          "cap": 8,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 125,
-          "walkMin": 2
-        },
-        {
-          "name": "성내",
-          "se": "공영",
-          "type": "노외",
-          "cap": 34,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 147,
-          "walkMin": 2
-        },
-        {
-          "name": "제주중앙지하상가",
-          "se": "공영",
-          "type": "노외",
-          "cap": 24,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 174,
-          "walkMin": 3
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "contentid": "s19kdfb3",
@@ -18074,59 +13194,7 @@
         "addr": "제주특별자치도 제주시 중앙로 63-11"
       }
     ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "동문로터리, 동문시장[북]",
-          "dist": 152,
-          "walkMin": 2
-        },
-        {
-          "name": "탑동입구[서]",
-          "dist": 196,
-          "walkMin": 3
-        }
-      ],
-      "parking": [
-        {
-          "name": "칠성상가1",
-          "se": "공영",
-          "type": "노외",
-          "cap": 19,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 88,
-          "walkMin": 1
-        },
-        {
-          "name": "일도일동 1476-33",
-          "se": "공영",
-          "type": "노외",
-          "cap": 13,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 99,
-          "walkMin": 1
-        },
-        {
-          "name": "제일주차빌딩",
-          "se": "공영",
-          "type": "노외",
-          "cap": 13,
-          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 99,
-          "walkMin": 1
-        }
-      ]
-    }
+    "source": "std"
   },
   {
     "images": [],
@@ -18149,13 +13217,7 @@
     "lat": "37.28917",
     "lng": "127.67138",
     "note": "2026-10-12 방문자 '어따던져' 님 사진 제보로 수동 등록. 관광공사·표준데이터 양쪽에 없던 신설 축제. 내년 2회가 공공데이터에 올라오면 그쪽 ID로 이동 페이지 필요.",
-    "source": "manual",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/39/4072939.jpg",
-      "name": "여주 남한강 출렁다리",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 김지호"
-    }
+    "source": "manual"
   },
   {
     "images": [],
@@ -18187,9 +13249,9 @@
     "nearbyFood": [],
     "playtime": "11월 7일(토) 09:30 ~ 15:00",
     "usefee": "",
-    "tel": "033-734-5966",
+    "tel": "033-748-5966",
     "homepage": "",
-    "eventplace": "치악산 일원(구.드림랜드 주차장)",
+    "eventplace": "치악산 구룡사 제1주차장",
     "sponsor": "치악산왕발걸음축제추진위원회",
     "image": "",
     "overview": "걷기행사+작은음악회 등",
@@ -18197,11 +13259,11 @@
     "name": "치악산왕발걸음축제",
     "startDate": "20261107",
     "endDate": "20261107",
-    "address": "강원특별자치도 원주시 소초면 평장동길 86-16",
-    "lat": "37.4186377",
-    "lng": "128.0031734",
-    "corrected": "2026-11-02 원주시청 정보통신과 정정 요청 반영 — 일정 11월 1일 → 11월 7일(토) 09:30~15:00",
-    "note": "2026-11-02 원주시청 노서현 주무관 메일: 표준데이터 10/22 수정(11/7 09:30~15:00). data.go.kr API는 아직 7/3 기준(11/1)이라 같은 ID로 수동 등록. API가 11/7로 갱신되면 새 ID가 생겨 dedupe로 합쳐질 것 — 그때 이 항목 삭제.",
+    "address": "강원특별자치도 원주시 소초면 구룡사로 245 (치악산 구룡사 제1주차장)",
+    "lat": "37.41830",
+    "lng": "128.05198",
+    "corrected": "2026-11-02 원주시청·치악산왕발걸음축제위원회 정정 요청 반영 — 일정 11월 7일(토) 09:30~15:00, 장소 치악산 구룡사 제1주차장(구룡사로 245), 전화 033-748-5966",
+    "note": "2026-11-02 원주시청 노서현 주무관 메일: 표준데이터 10/22 수정(11/7 09:30~15:00). data.go.kr API는 아직 7/3 기준(11/1)이라 같은 ID로 수동 등록. API가 11/7로 갱신되면 새 ID가 생겨 dedupe로 합쳐질 것 — 그때 이 항목 삭제. 11/2 축제위원회 김자영(jy3478@korea.kr) 메일로 장소(구.드림랜드 주차장→구룡사 제1주차장, 구룡사로 245)·전화(033-734-5966→033-748-5966)도 정정. 좌표 VWorld 도로명.",
     "source": "manual"
   }
 ]

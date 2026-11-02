@@ -70,8 +70,8 @@
       </div>
       <section class="map-section"><h2>오시는 길</h2><div id="map"></div>
         <div class="dir-buttons">
-          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/%ED%81%B4%EB%9F%BD%20%EC%83%A4%ED%94%84,37.5536153,126.9092543">🚗 카카오맵 길찾기</a>
-          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EB%8F%99%EA%B5%90%EB%A1%9C%2063%20(%EB%A7%9D%EC%9B%90%EB%8F%99)">🧭 네이버지도에서 보기</a>
+          <a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/KT%26G%20%EC%83%81%EC%83%81%EB%A7%88%EB%8B%B9%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%ED%99%80%20%5B%EB%A7%88%ED%8F%AC%5D,37.550925,126.92114200000003">🚗 카카오맵 길찾기</a>
+          <a class="dir-btn naver" target="_blank" rel="noopener" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EB%A7%88%ED%8F%AC%EA%B5%AC%20%EC%96%B4%EC%9A%B8%EB%A7%88%EB%8B%B9%EB%A1%9C%2065%20(%EC%84%9C%EA%B5%90%EB%8F%99)">🧭 네이버지도에서 보기</a>
         </div>
       </section>
       <section class="nearby-section"><h2>🎭 서울의 다른 대중음악</h2><div class="festival-grid">
@@ -115,7 +115,7 @@
         <article class="card show-card">
           <img src="http://www.kopis.or.kr/upload/pfmPoster/PF_PF303847_261020_103512.jpg" alt="라라라온 [서울 구름아래소극장] 포스터" loading="lazy" />
           <div class="card-body">
-            <span class="badge upcoming">공연예정</span>
+            <span class="badge ongoing">공연중</span>
             <span class="badge long">🎤 대중음악</span>
             <h2>라라라온 [서울 구름아래소극장]</h2>
             <p class="period">📅 2026.11.02 ~ 2026.11.02</p>
@@ -158,9 +158,9 @@
     <p><a class="cross-link" href="https://campinghub.kr" target="_blank" rel="noopener">🏕️ 전국 캠핑장이 궁금하다면 — 캠핑허브</a></p>
   </footer>
   <script>
-    const map = L.map("map", { scrollWheelZoom: false }).setView([37.5536153, 126.9092543], 15);
+    const map = L.map("map", { scrollWheelZoom: false }).setView([37.550925, 126.92114200000003], 15);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap" }).addTo(map);
-    L.marker([37.5536153, 126.9092543]).addTo(map).bindPopup("클럽 샤프").openPopup();
+    L.marker([37.550925, 126.92114200000003]).addTo(map).bindPopup("KT&G 상상마당 라이브홀 [마포]").openPopup();
   </script>
   <script src="../track-clicks.js"></script>
   <script src="../report.js?v=20261102"></script>
