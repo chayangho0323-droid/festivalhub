@@ -940,6 +940,7 @@ try {
   applyOverrides(archivedFestivals);
 } catch {}
 
+const isModoo = (u) => /^https?:\/\/[^/]*modoo\.at(\/|$)/i.test(String(u || "").trim()); // 네이버 modoo! 종료(2025-06-26) → 항상 죽은 링크 취급
 // 홈페이지 링크 생존 검사 결과(check-links.js → link-status.json): dead(404·5xx·접속 불가 확정)인 홈페이지는 비워서
 // 버튼이 자동으로 "네이버에서 공식 정보 찾기"로 바뀌게 하고, 안내문을 위해 homepageDead에 원래 주소를 남긴다 (2026-10-13, 캠핑허브와 같은 방식)
 {
@@ -948,7 +949,7 @@ try {
   let deadN = 0;
   for (const f of [...festivals, ...archivedFestivals]) {
     const u = String(f.homepage || "").trim();
-    if (u && LINKS[u] && LINKS[u].state === "dead") { f.homepageDead = u; f.homepage = ""; deadN++; }
+    if (u && (isModoo(u) || (LINKS[u] && LINKS[u].state === "dead"))) { f.homepageDead = u; f.homepage = ""; deadN++; }
   }
   if (deadN) console.log(`🔗 열리지 않는 홈페이지 ${deadN}건 → 네이버 검색 버튼으로 대체`);
 }
