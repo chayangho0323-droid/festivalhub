@@ -205,6 +205,7 @@ const GUIDE_LINKS = [
   ["guide-rain.html", "🌧️ 비 올 때"],
   ["guide-parking.html", "🚗 주차·셔틀"],
   ["guide-kids.html", "👨‍👩‍👧 아이와 함께"],
+  ["guide-sunrise.html", "🌅 해맞이"],
 ];
 function guideChips(prefix = "") {
   return `<nav class="quick-links guide-row" aria-label="축제 가이드"><span class="guide-row-label">📚 축제 가이드</span>${GUIDE_LINKS.map(([h, t, c]) => `<a class="${c || "chip"}" href="${prefix}${h}">${t}</a>`).join("")}</nav>`;
@@ -729,7 +730,7 @@ function buildPage(f, all) {
       ${guideInline("../")}
       ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
       ${photoCallHtml(f)}
-      <p class="guide-tip gallery-cta">📸 <a class="gallery-link" href="../gallery.html">다른 방문자들이 보낸 축제 사진·후기 보기 →</a> <span class="muted">지평선축제·여주 골목대빵축제·백제문화제 현장 사진</span></p>
+      <p class="guide-tip gallery-cta">📸 <a class="gallery-link" href="../gallery.html">다른 방문자들이 보낸 축제 사진·후기 보기 →</a> <span class="muted">익산 천만송이 국화축제·지평선축제·여주 골목대빵축제·백제문화제 현장 사진</span></p>
       ${overview}
       ${reviewsHtml(f)}
       ${extraSections}
@@ -1158,10 +1159,10 @@ for (const i of monthOffsets) {
     filename,
     buildListPage({
       filename,
-      title: `${y}년 ${m}월 축제 일정 총정리 (${items.length}곳) — FestivalHub`,
+      title: `${y}년 ${m}월 축제 추천·일정 총정리 (전국 ${items.length}곳, 날짜순) — FestivalHub`,
       heading: `🗓️ ${y}년 ${m}월 축제`,
       subtitle: `${m}월에 열리는 전국 축제 ${items.length}곳 — 날짜순 정리 (상설 행사 제외)`,
-      description: `${y}년 ${m}월 전국 축제 일정 모음. ${items.slice(0, 5).map((f) => f.name).join(", ")} 등 ${items.length}곳의 기간·장소·사진 정보.`,
+      description: `${y}년 ${m}월 전국 축제 ${items.length}곳 날짜순 정리 — ${items.slice(0, 5).map((f) => f.name).join(", ")} 등. 기간·장소·입장료·사진과 이번 주말 일정, 에디터 추천 15선까지 한 페이지에.`,
       items,
       today: todayYmd,
     }),
