@@ -296,6 +296,12 @@
     ],
     "checked": "20261031"
   },
+  "2868776": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
   "2918621": {
     "tier": 0,
     "query": "",
@@ -1120,6 +1126,12 @@
     "query": "",
     "photos": [],
     "checked": "20261028"
+  },
+  "4142164": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
   },
   "s19r73d5": {
     "tier": 0,
@@ -2698,5 +2710,104 @@
     "query": "",
     "photos": [],
     "checked": "20261028"
+  },
+  "ssyltv5": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "s2tjwj6": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "srin8kx": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "szx2i2j": {
+    "tier": 2,
+    "query": "변산해수욕장",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/76/3446676.jpg",
+        "title": "변산해수욕장",
+        "keyword": "변산해수욕장, 전북특별자치도 부안군, 전라북도, 변산해변, 바닷가, 바다, 일몰, 노을, 석양, 드론촬영, 드론사진, 항공촬영, 10월 버킷, 10월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "전북특별자치도 부안군 변산면",
+        "month": "202410",
+        "photographer": "강시몬"
+      }
+    ],
+    "checked": "20261103"
+  },
+  "s5oy8sb": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "s180vyzb": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "s1u6b6q5": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "s1gwlo7x": {
+    "tier": 2,
+    "query": "김포함상공원",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/38/2592238.jpg",
+        "title": "김포함상공원",
+        "keyword": "김포함상공원, 경기도 김포시, DMZ 관광, DMZ 투어, 안보관광지, 테마공원, 상륙함",
+        "location": "경기도 김포시 대곶면",
+        "month": "201811",
+        "photographer": "한반도관광센터 비켄"
+      }
+    ],
+    "checked": "20261103"
+  },
+  "sdf7sj8": {
+    "tier": 2,
+    "query": "반계리 은행나무",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/33/4064033.jpg",
+        "title": "원주 반계리 은행나무",
+        "keyword": "원주 반계리 은행나무,강원특별자치도 영월군,강원도,국가유산,자연유산,천연기념물 제167호,은행잎,보호수,고목,가을,단풍,추경,11월 추천여행지,사진기자단,프레임코리아3기",
+        "location": "강원특별자치도 원주시 문막읍",
+        "month": "202511",
+        "photographer": "황성훈"
+      }
+    ],
+    "checked": "20261103"
+  },
+  "so4htkv": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "sn85zvk": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
+  },
+  "s1ub39x9": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261103"
   }
 }

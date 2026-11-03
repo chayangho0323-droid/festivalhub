@@ -77938,155 +77938,6 @@
     }
   },
   {
-    "contentid": "2997830",
-    "name": "제주 반려동물 문화산업 한마당",
-    "startDate": "20261106",
-    "endDate": "20261108",
-    "address": "제주특별자치도 제주시 서광로2길 24 (오라일동)",
-    "lat": "33.4950628705",
-    "lng": "126.5187972389",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4132213_image2_1.jpg",
-    "overview": "2026 제주 반려동물 문화산업 한마당에서는 기존에 진행하던 제주 반려동물 문화축제와 제주펫페어가 동시에 개최된다. ''2026 제주 반려동물 문화축제''는 올바른 반려동물 문화 정착으로 사람과 동물이 행복한 제주를 위한 축제이다. 펫티켓 교육, 성숙한 반려동물 문화 홍보 캠페인부터 각종 반려동물 관련 체험 프로그램까지 반려인과 일반인을 포함한 모든 사람이 함께 즐길 수 있는 다양한 프로그램이 진행될 예정이며 ''2026 제주펫페어'' 는 약 70여 개의 반려동물 산업 관련 업체가 참여하여 펫푸드, 펫용품, 펫서비스 등 다양한 전시 품목을 선보일 예정이며, 다양한 이벤트가 진행 될 예정이다.",
-    "tel": "064-711-1002",
-    "homepage": "",
-    "eventplace": "한라체육관 일원",
-    "playtime": "10:00~18:00",
-    "usefee": "무료",
-    "sponsor": "제주특별자치도",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/12/4132212_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/14/4132214_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/15/4132215_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/16/4132216_image2_1.png"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 제주 반려동물 문화산업 한마당에서는 기존에 진행하던 제주 반려동물 문화축제와 제주펫페어가 동시에 개최된다. ''2026 제주 반려동물 문화축제''는 올바른 반려동물 문화 정착으로 사람과 동물이 행복한 제주를 위한 축제이다. 펫티켓 교육, 성숙한 반려동물 문화 홍보 캠페인부터 각종 반려동물 관련 체험 프로그램까지 반려인과 일반인을 포함한 모든 사람이 함께 즐길 수 있는 다양한 프로그램이 진행될 예정이며 ''2026 제주펫페어'' 는 약 70여 개의 반려동물 산업 관련 업체가 참여하여 펫푸드, 펫용품, 펫서비스 등 다양한 전시 품목을 선보일 예정이며, 다양한 이벤트가 진행 될 예정이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 10월 6일 윤영민 교수 강연\n- 10월 7일 윤홍준 수의사 강연\n- 10월 8일 강형욱 훈련사 강연\n- 반려동물과 함께 멍때리기 대회\n- 유기견과 함께하는 나눔행사\n- 미로 대탈출\n- 어질리티\n- 인생네컷\n- 셀프미용 배우기\n- 캐리커처\n- 제주대학교 아로타 체험 프로그램 \n- 컬러워크 \n- 제주펫페어"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "보덕사(제주)",
-        "dist": 1273,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/66/3407066_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 독짓골8길 26"
-      },
-      {
-        "name": "가새기오름",
-        "dist": 1471,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3477882_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 오라삼동"
-      },
-      {
-        "name": "제주성지",
-        "dist": 1795,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3556191_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 오현길 61"
-      },
-      {
-        "name": "용두암",
-        "dist": 2259,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/68/3011868_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 용두암길 15 (용담이동)"
-      },
-      {
-        "name": "복신미륵",
-        "dist": 2295,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3555142_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 동한두기길 7-6 (용담일동)"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "만세국수",
-        "dist": 103,
-        "image": "",
-        "addr": "제주특별자치도 제주시 오라로 152"
-      },
-      {
-        "name": "그옛맛",
-        "dist": 381,
-        "image": "",
-        "addr": "제주특별자치도 제주시 서사로24길 12"
-      },
-      {
-        "name": "행복밀",
-        "dist": 626,
-        "image": "",
-        "addr": "제주특별자치도 제주시 서광로 239 (삼도일동)"
-      },
-      {
-        "name": "도남오거리식당",
-        "dist": 672,
-        "image": "",
-        "addr": "제주특별자치도 제주시 도남로6길 16"
-      },
-      {
-        "name": "효퇴국수국밥",
-        "dist": 725,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/62/2860562_image2_1.jpg",
-        "addr": "제주특별자치도 제주시 서사로 122-1"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "게이트볼장[서]",
-          "dist": 85,
-          "walkMin": 1
-        },
-        {
-          "name": "게이트볼장[동]",
-          "dist": 101,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "오라일동 2454-3",
-          "se": "공영",
-          "type": "노외",
-          "cap": 24,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 138,
-          "walkMin": 2
-        },
-        {
-          "name": "오라일동 2453-132453-14",
-          "se": "공영",
-          "type": "노외",
-          "cap": 10,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 232,
-          "walkMin": 3
-        },
-        {
-          "name": "공설로5길 20",
-          "se": "공영",
-          "type": "노상",
-          "cap": 2,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 319,
-          "walkMin": 5
-        }
-      ]
-    }
-  },
-  {
     "contentid": "3349628",
     "name": "제주독서대전",
     "startDate": "20261024",
@@ -88300,107 +88151,6 @@
     ]
   },
   {
-    "contentid": "3545306",
-    "name": "포천펫스타",
-    "startDate": "20261114",
-    "endDate": "20261114",
-    "address": "경기도 포천시 신북면 아트밸리로 234",
-    "lat": "37.9234466507",
-    "lng": "127.2365009490",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/07/4133507_image2_1.jpg",
-    "overview": "2026 포천 펫스타 in 아트밸리는 반려가족 그리고 반려동물을 사랑하는 누구나 함께 즐길 수 있는 참여형 반려문화 축제이다. 아름다운 한탄강 생태경관단지를 배경으로 반려견과 함께 걷는 댕댕트레킹을 비롯하여 펫니스 요가 클래스, 반려견 올림픽 등 반려견과 함께 즐길 수 있는 프로그램 외에도 대형견 도감 LIVE, 키즈 어질리티 챌린지 등 비반려인도 참여 가능한 프로그램들 그리고 다양한 체험부스와 펫페어존을 통해 반려동물 관련 정보와 즐길거리를 동시에 제공한다. 반려인과 비반려인이 함께 어울리는 열린 축제로 지역 사회와 반려문화가 함께 성장하는 계기를 마련하고자 하며, 자연 속에서 가족, 친구, 반려견과 함께 즐거운 추억을 만들 수 있는 봄맞이 힐링 축제이다.",
-    "tel": "0502-1949-0514",
-    "homepage": "",
-    "eventplace": "포천 아트밸리",
-    "playtime": "10:00~ 18:00",
-    "usefee": "무료",
-    "sponsor": "포천시청",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/08/4059408_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/09/4059409_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/10/4059410_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/11/4059411_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/12/4059412_image2_1.jpeg",
-      "https://tong.visitkorea.or.kr/cms/resource/13/4059413_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/15/4059415_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/16/4059416_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "2026 포천 펫스타 in 아트밸리는 반려가족 그리고 반려동물을 사랑하는 누구나 함께 즐길 수 있는 참여형 반려문화 축제이다. 아름다운 한탄강 생태경관단지를 배경으로 반려견과 함께 걷는 댕댕트레킹을 비롯하여 펫니스 요가 클래스, 반려견 올림픽 등 반려견과 함께 즐길 수 있는 프로그램 외에도 대형견 도감 LIVE, 키즈 어질리티 챌린지 등 비반려인도 참여 가능한 프로그램들 그리고 다양한 체험부스와 펫페어존을 통해 반려동물 관련 정보와 즐길거리를 동시에 제공한다. 반려인과 비반려인이 함께 어울리는 열린 축제로 지역 사회와 반려문화가 함께 성장하는 계기를 마련하고자 하며, 자연 속에서 가족, 친구, 반려견과 함께 즐거운 추억을 만들 수 있는 봄맞이 힐링 축제이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "1. 메인 프로그램\n- 댕댕이 도전! 미션 멍-파서블, 설채현 수의사 토크콘서트, 포천 펫트립(아트밸리 힐링숲 트레킹)\n\n2. 체험 프로그램\n- 펫림픽, 도그 필라테스, 피크닉 공연\n\n3. 부대 프로그램\n- 반려동물 참여형 이벤트 및 현장 체험 프로그램"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "국립 운악산자연휴양림",
-        "dist": 7664,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/93/3024393_image2_1.jpg",
-        "addr": "경기도 포천시 화현면 화동로184번길 39"
-      },
-      {
-        "name": "포천수원산정상전망대",
-        "dist": 7763,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3003832_image2_1.jpg",
-        "addr": "경기도 포천시 군내면 청군로 2485"
-      },
-      {
-        "name": "힐데루시 자연치유 협동조합",
-        "dist": 8003,
-        "image": "",
-        "addr": "경기도 포천시 신북면 청신로1341번길 10-20"
-      },
-      {
-        "name": "나남수목원",
-        "dist": 8098,
-        "image": "",
-        "addr": "경기도 포천시 신북면 청신로1196번길 56"
-      },
-      {
-        "name": "청계호수",
-        "dist": 9448,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/83/3519783_image2_1.jpg",
-        "addr": "경기도 포천시 일동면 기산리"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "시골식당",
-        "dist": 1287,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/98/2855898_image2_1.jpg",
-        "addr": "경기도 포천시 신북면 호국로 2006"
-      },
-      {
-        "name": "모내기",
-        "dist": 4148,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/66/2853366_image2_1.jpg",
-        "addr": "경기도 포천시 포천로 1495 토속촌"
-      },
-      {
-        "name": "포천뚝배기",
-        "dist": 4430,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2853643_image2_1.jpg",
-        "addr": "경기도 포천시 군내면 청군로 3348"
-      },
-      {
-        "name": "홀인원참숯갈비",
-        "dist": 4472,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2853360_image2_1.jpg",
-        "addr": "경기도 포천시 군내면 청군로 3249"
-      },
-      {
-        "name": "포천버섯육개장",
-        "dist": 4492,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/55/2853355_image2_1.jpg",
-        "addr": "경기도 포천시 청군로 3351"
-      }
-    ]
-  },
-  {
     "contentid": "2491545",
     "name": "포항 해병대문화 축제",
     "startDate": "20261114",
@@ -91834,6 +91584,460 @@
         "dist": 261,
         "image": "http://tong.visitkorea.or.kr/cms/resource/49/2877749_image2_1.JPG",
         "addr": "제주특별자치도 제주시 중앙로12길 21 (삼도이동)"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "sc5m1m7",
+    "name": "빛으로 만나는 문화축제",
+    "startDate": "20261224",
+    "endDate": "20270131",
+    "address": "경상남도 고성군 고성읍 동외리 312-34",
+    "lat": "",
+    "lng": "",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "전시",
+    "tourOverview": "",
+    "tel": "",
+    "homepage": "",
+    "eventplace": "동외광장",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "고성군트리축제위원회",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [],
+    "nearbyFood": [],
+    "source": "std"
+  },
+  {
+    "contentid": "s1junnrh",
+    "name": "반계리 은행나무축제",
+    "startDate": "20261030",
+    "endDate": "20261112",
+    "address": "강원특별자치도 원주시 문막읍 반계리 1495-1",
+    "lat": "37.2942081",
+    "lng": "127.7884224",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "기획전시+체험프로그램 운영 등",
+    "tourOverview": "",
+    "tel": "033-737-5124",
+    "homepage": "",
+    "eventplace": "반계리 은행나무광장",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "강원특별자치도 원주시청",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "여주 해바라기마을",
+        "dist": 4395,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/27/3382127_image2_1.jpg",
+        "addr": "경기도 여주시 강천면 부평로 368"
+      },
+      {
+        "name": "비두리 귀부 및 이수",
+        "dist": 5984,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/78/3577578_image2_1.jpg",
+        "addr": "강원특별자치도 원주시 문막읍 귀문로 1008"
+      },
+      {
+        "name": "김제남 신도비",
+        "dist": 6089,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3376528_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 흥법사지길 18"
+      },
+      {
+        "name": "의민공사우",
+        "dist": 6210,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3375720_image2_1.JPG",
+        "addr": "강원특별자치도 원주시 지정면 지정로 626"
+      },
+      {
+        "name": "여주참숯마을",
+        "dist": 7953,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/3383432_image2_1.jpg",
+        "addr": "경기도 여주시 강천면 걸촌동길 40"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "도깨비정원",
+        "dist": 4539,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/13/2863313_image2_1.jpg",
+        "addr": "경기도 여주시 강천면 부평로 407"
+      },
+      {
+        "name": "설원다식",
+        "dist": 4553,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/07/2760007_image2_1.jpeg",
+        "addr": "경기도 여주시 강천면 운무실길 14-4"
+      },
+      {
+        "name": "홀인원그늘집",
+        "dist": 4629,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/2863148_image2_1.jpg",
+        "addr": "경기도 여주시 강천면 강문로 1047"
+      },
+      {
+        "name": "들꽃가든 한정식",
+        "dist": 4663,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2840772_image2_1.jpg",
+        "addr": "경기도 여주시 강천면 부평로 283"
+      },
+      {
+        "name": "섬강막국수",
+        "dist": 5271,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/2892270_image2_1.jpeg",
+        "addr": "강원특별자치도 원주시 문막읍 큰애니길 3"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "s194s5q0",
+    "name": "산타축제",
+    "startDate": "20261224",
+    "endDate": "20261227",
+    "address": "전북특별자치도 임실군 성수면 도인2길 50",
+    "lat": "35.63310329",
+    "lng": "127.3012599",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "산타 및 겨울 관련 공연 이벤트 체험행사 등",
+    "tourOverview": "",
+    "tel": "063-643-8850",
+    "homepage": "",
+    "eventplace": "임실치즈테마파크",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "(재)임실치즈테마파크",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "임실 치즈마을",
+        "dist": 669,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/31/3557431_image2_1.jpg",
+        "addr": "전북특별자치도 임실군 임실읍 치즈마을1길 4"
+      },
+      {
+        "name": "운수사(임실)",
+        "dist": 2089,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/74/3536874_image2_1.jpg",
+        "addr": "전북특별자치도 임실군 임실읍 봉황10길 109"
+      },
+      {
+        "name": "3.1동산",
+        "dist": 2502,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3361625_image2_1.JPG",
+        "addr": "전북특별자치도 임실군 임실읍"
+      },
+      {
+        "name": "임실향교",
+        "dist": 2638,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/3363848_image2_1.JPG",
+        "addr": "전북특별자치도 임실군 임실읍 봉황7길 23"
+      },
+      {
+        "name": "죽림암(임실)",
+        "dist": 3316,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/68/3363868_image2_1.JPG",
+        "addr": "전북특별자치도 임실군 임실읍 호반로 79-53"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "임실맛소",
+        "dist": 206,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/74/3423874_image2_1.jpg",
+        "addr": "전북특별자치도 임실군 성수면 도인2길 45"
+      },
+      {
+        "name": "치즈밸리참나무집",
+        "dist": 229,
+        "image": "",
+        "addr": "전북특별자치도 임실군 성수면 도인2길 36"
+      },
+      {
+        "name": "청정임실 성미당",
+        "dist": 2993,
+        "image": "",
+        "addr": "전북특별자치도 임실군 임실읍 중동로 16"
+      },
+      {
+        "name": "포레드노드",
+        "dist": 4753,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/70/2839270_image2_1.jpg",
+        "addr": "전북특별자치도 임실군 사선2길 46-25"
+      },
+      {
+        "name": "호수정",
+        "dist": 4796,
+        "image": "",
+        "addr": "전북특별자치도 임실군 관촌면 사선2길 46-12"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "s1oxbanv",
+    "name": "거제 섬꽃축제",
+    "startDate": "20261031",
+    "endDate": "20261108",
+    "address": "경상남도 거제시 거제면 거제남서로 3577",
+    "lat": "34.856464",
+    "lng": "128.579127",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "가을꽃 전시+농업기술 홍보+문화예술 전시 등",
+    "tourOverview": "",
+    "tel": "055-639-6443",
+    "homepage": "http://www.geoje.go.kr/flower/index.geoje",
+    "eventplace": "거제시 농업기술센터 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "거제시농업기술센터 농업지원과",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "반곡서원(거제)",
+        "dist": 1572,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/88/3039888_image2_1.JPG",
+        "addr": "경상남도 거제시 동상3길 31-8 반곡서원"
+      },
+      {
+        "name": "죽림해수욕장",
+        "dist": 2117,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/47/3039847_image2_1.JPG",
+        "addr": "경상남도 거제시 거제면 오수리"
+      },
+      {
+        "name": "억새군락지",
+        "dist": 3144,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/2794841_image2_1.jpg",
+        "addr": "경상남도 거제시 동부면 산촌리 761"
+      },
+      {
+        "name": "옥산성지",
+        "dist": 3880,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3532030_image2_1.jpg",
+        "addr": "경상남도 거제시 삼동동"
+      },
+      {
+        "name": "산방산(거제)",
+        "dist": 4016,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/3576148_image2_1.JPG",
+        "addr": "경상남도 거제시 둔덕면 산방리"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "박가네 돌판찜",
+        "dist": 1003,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/78/2915678_image2_1.jpg",
+        "addr": "경상남도 거제시 읍내로 80-1"
+      },
+      {
+        "name": "금성라사",
+        "dist": 1132,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/16/2891816_image2_1.jpg",
+        "addr": "경상남도 거제시 읍내로 66"
+      },
+      {
+        "name": "원조거제굴구이",
+        "dist": 2116,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2787190_image2_1.jpg",
+        "addr": "경상남도 거제시 거제면 거제남서로 3854"
+      },
+      {
+        "name": "포로수용소굴구이",
+        "dist": 4585,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/2900552_image2_1.jpg",
+        "addr": "경상남도 거제시 계룡로7길 7"
+      },
+      {
+        "name": "생생이",
+        "dist": 4714,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/71/2755771_image2_1.jpg",
+        "addr": "경상남도 거제시 계룡로 68 (고현동)"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "s1jb1l2w",
+    "name": "거제몽돌해변불꽃축제",
+    "startDate": "20261107",
+    "endDate": "20261107",
+    "address": "경상남도 거제시 동부면 학동6길 18-1",
+    "lat": "34.77330415",
+    "lng": "128.6402426",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "체험행사+공연+불꽃 퍼레이드 등",
+    "tourOverview": "",
+    "tel": "055-639-6492",
+    "homepage": "",
+    "eventplace": "학동흑진주몽돌해변 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "동부면",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "학동 내촐 유채꽃밭",
+        "dist": 832,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/35/3576035_image2_1.jpg",
+        "addr": "경상남도 거제시 동부면 학동리"
+      },
+      {
+        "name": "노자산",
+        "dist": 2534,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/82/3576082_image2_1.jpg",
+        "addr": "경상남도 거제시 동부면 구천리"
+      },
+      {
+        "name": "바람의 언덕",
+        "dist": 3839,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/3368081_image2_1.jpg",
+        "addr": "경상남도 거제시 남부면 도장포마을"
+      },
+      {
+        "name": "함목몽돌해변",
+        "dist": 3843,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3372326_image2_1.JPG",
+        "addr": "경상남도 거제시 남부면 갈곶리"
+      },
+      {
+        "name": "도장포유람선",
+        "dist": 3989,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/3039950_image2_1.JPG",
+        "addr": "경상남도 거제시 남부면 도장포1길 55"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "학동 1박2일맛있는집",
+        "dist": 101,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2923796_image2_1.jpg",
+        "addr": "경상남도 거제시 학동4길 8"
+      },
+      {
+        "name": "몽그레식당 학동본점",
+        "dist": 109,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/60/2899860_image2_1.jpg",
+        "addr": "경상남도 거제시 학동4길 6-1"
+      },
+      {
+        "name": "몽돌 바다맛선장집",
+        "dist": 137,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2914785_image2_1.jpg",
+        "addr": "경상남도 거제시 거제대로 921"
+      },
+      {
+        "name": "티파니횟집",
+        "dist": 184,
+        "image": "",
+        "addr": "경상남도 거제시 동부면 거제중앙로 3"
+      },
+      {
+        "name": "대박난맛집",
+        "dist": 235,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/2787167_image2_1.jpg",
+        "addr": "경상남도 거제시 동부면 거제대로 910"
+      }
+    ],
+    "source": "std"
+  },
+  {
+    "contentid": "s1wt0zfi",
+    "name": "진도군 보배섬 문화예술제",
+    "startDate": "20261031",
+    "endDate": "20261102",
+    "address": "전남광주통합특별시 진도군 진도읍 진도대로 7197",
+    "lat": "34.47975717",
+    "lng": "126.2685772",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "개막공연+강강술래 한마당 잔치+진도북놀이 페스티벌 등",
+    "tourOverview": "",
+    "tel": "061-540-3072",
+    "homepage": "https://www.jindo.go.kr/tour/tour/info/festival.cs?act=view&infoId=99&searchCondition=&searchKeyword=&pageIndex=1",
+    "eventplace": "진도향토문화회관 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "전남광주통합특별시 진도군",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "철마공원",
+        "dist": 759,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/3382023_image2_1.JPG",
+        "addr": "전남광주통합특별시 진도군 진도읍 철마길 17"
+      },
+      {
+        "name": "진도읍성",
+        "dist": 766,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/3557981_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 진도읍 군강공원길 18"
+      },
+      {
+        "name": "진도개테마파크",
+        "dist": 936,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2732639_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 진도읍 성죽골길 30"
+      },
+      {
+        "name": "진도향교",
+        "dist": 1389,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/28/3381328_image2_1.JPG",
+        "addr": "전남광주통합특별시 진도군 진도읍 진도향교길 68-5"
+      },
+      {
+        "name": "진도 의신사천마을 [농촌체험휴양마을]",
+        "dist": 3031,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/75/3557775_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 의신면 의신사천길 26"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "진도아리랑회센터",
+        "dist": 182,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2868085_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 진도읍 쌍정1길 8-6"
+      },
+      {
+        "name": "자영이네",
+        "dist": 281,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/61/2844161_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 쌍정2길 15-7  "
+      },
+      {
+        "name": "신호등회관",
+        "dist": 294,
+        "image": "",
+        "addr": "전남광주통합특별시 진도군 진도읍 남동1길 66"
+      },
+      {
+        "name": "사랑방",
+        "dist": 356,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/74/1023774_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 진도읍 쌍정2길 22"
+      },
+      {
+        "name": "이화식당",
+        "dist": 407,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/2904822_image2_1.jpg",
+        "addr": "전남광주통합특별시 진도군 진도읍 남동1길 55"
       }
     ],
     "source": "std"

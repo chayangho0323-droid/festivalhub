@@ -52,19 +52,6 @@
     "homepage": ""
   },
   {
-    "name": "공연이 있는 날",
-    "startDate": "20250523",
-    "endDate": "20261231",
-    "time": "16:00~18:00",
-    "place": "고인돌공원",
-    "address": "경기도 오산시 수목원로 449",
-    "charge": "무료",
-    "desc": "야외 상설 공연 진행",
-    "tel": "031-8036-7614",
-    "host": "경기도 오산시청 문화예술과",
-    "homepage": "https://www.osan.go.kr/main.do"
-  },
-  {
     "name": "[실감 미디어아트 체험전 리뉴얼] NEW The 경주;경주연대기",
     "startDate": "20251202",
     "endDate": "20261231",
@@ -91,19 +78,6 @@
     "homepage": "https://www.bsbukgu.go.kr/reservation/board/list.bsbukgu?boardId=BBS_0000174&menuCd=DOM_000001802001000000&contentsSid=1483&cpath=2Freservation"
   },
   {
-    "name": "문화가 있는 날",
-    "startDate": "20260101",
-    "endDate": "20261231",
-    "time": "10:00~15:00",
-    "place": "허준박물관",
-    "address": "서울특별시 강서구 허준로 87",
-    "charge": "유료",
-    "desc": "비누만들기",
-    "tel": "02-3661-8686",
-    "host": "허준박물관",
-    "homepage": "https://culture.gangseo.seoul.kr"
-  },
-  {
     "name": "서초금요음악회",
     "startDate": "20260101",
     "endDate": "20261231",
@@ -117,6 +91,19 @@
     "homepage": "https://www.seocho.go.kr/site/seocho/ex/reservation/re00401.do"
   },
   {
+    "name": "문화가 있는 날",
+    "startDate": "20260101",
+    "endDate": "20261231",
+    "time": "10:00~15:00",
+    "place": "허준박물관",
+    "address": "서울특별시 강서구 허준로 87",
+    "charge": "유료",
+    "desc": "비누만들기",
+    "tel": "02-3661-8686",
+    "host": "허준박물관",
+    "homepage": "https://culture.gangseo.seoul.kr"
+  },
+  {
     "name": "2026 토요명품",
     "startDate": "20260103",
     "endDate": "20261226",
@@ -126,6 +113,19 @@
     "charge": "유료",
     "desc": "토요상설",
     "tel": "02-580-3300",
+    "host": "국립국악원",
+    "homepage": ""
+  },
+  {
+    "name": "[Gugak Museum] English Tours",
+    "startDate": "20260103",
+    "endDate": "20261226",
+    "time": "14:00~14:40",
+    "place": "국악박물관",
+    "address": "서울특별시 서초구 남부순환로 2364",
+    "charge": "무료",
+    "desc": "기타",
+    "tel": "02-580-3130",
     "host": "국립국악원",
     "homepage": ""
   },
@@ -260,6 +260,19 @@
     "homepage": "http://www.jacf.or.kr/"
   },
   {
+    "name": "토요국악동화",
+    "startDate": "20260404",
+    "endDate": "20261128",
+    "time": "14:00~15:00",
+    "place": "풍류사랑방",
+    "address": "서울특별시 서초구 남부순환로 2364",
+    "charge": "유료",
+    "desc": "상설공연",
+    "tel": "02-580-3300",
+    "host": "국립국악원",
+    "homepage": ""
+  },
+  {
     "name": "2026년 목요국악",
     "startDate": "20260409",
     "endDate": "20261217",
@@ -281,7 +294,7 @@
     "address": "경기도 오산시 오산천로 52",
     "charge": "무료",
     "desc": "야외 상설 공연 진행",
-    "tel": "031-8036-7614",
+    "tel": "031-8036-7613",
     "host": "경기도 오산시청 문화예술과",
     "homepage": "https://www.osan.go.kr/main.do"
   },
@@ -312,6 +325,19 @@
     "homepage": ""
   },
   {
+    "name": "공연이 있는 날",
+    "startDate": "20260523",
+    "endDate": "20261231",
+    "time": "16:00~18:00",
+    "place": "고인돌공원",
+    "address": "경기도 오산시 수목원로 449",
+    "charge": "무료",
+    "desc": "야외 상설 공연 진행",
+    "tel": "031-8036-7613",
+    "host": "경기도 오산시청 문화예술과",
+    "homepage": "https://www.osan.go.kr/main.do"
+  },
+  {
     "name": "제38회 춘천인형극제",
     "startDate": "20260731",
     "endDate": "20261226",
@@ -336,6 +362,19 @@
     "tel": "055-650-4514",
     "host": "통영예총",
     "homepage": ""
+  },
+  {
+    "name": "성동구민대학 가을학기 수강생 모집",
+    "startDate": "20260831",
+    "endDate": "20261121",
+    "time": "19:30~21:30",
+    "place": "구민대학",
+    "address": "서울특별시 성동구 왕십리로 281",
+    "charge": "유료",
+    "desc": "문화강좌",
+    "tel": "02-2204-7550",
+    "host": "성동문화재단",
+    "homepage": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1496"
   },
   {
     "name": "렉처 퍼포먼스  삶을 연극으로",
@@ -429,6 +468,19 @@
     "homepage": "https://garts.kr/"
   },
   {
+    "name": "2026 국립민속국악원 국악스테이지",
+    "startDate": "20260912",
+    "endDate": "20261226",
+    "time": "15:00~16:00",
+    "place": "예음헌",
+    "address": "서울특별시 서초구 남부순환로 2364",
+    "charge": "무료",
+    "desc": "정기.기획",
+    "tel": "063-620-2329",
+    "host": "국립국악원",
+    "homepage": ""
+  },
+  {
     "name": "창원조각비엔날레",
     "startDate": "20260930",
     "endDate": "20261115",
@@ -453,6 +505,32 @@
     "tel": "02-3661-8686",
     "host": "허준박물관",
     "homepage": "https://culture.gangseo.seoul.kr"
+  },
+  {
+    "name": "2026 기획전시_블랙큐브개관기념시리즈Ⅵ 「이다 작가초청」",
+    "startDate": "20261013",
+    "endDate": "20261128",
+    "time": "10:00~18:00",
+    "place": "블랙큐브",
+    "address": "대구광역시 남구 앞산순환로 478",
+    "charge": "무료",
+    "desc": "블랙큐브 전시실 개관기념의 미디어 작품 전시",
+    "tel": "053-664-3118",
+    "host": "대구광역시남구대덕문화전당",
+    "homepage": "https://nam.daegu.kr/culturalcenter/main/"
+  },
+  {
+    "name": "Snap, Share, Save 우리에게 남을 것은 사랑이야",
+    "startDate": "20261024",
+    "endDate": "20261130",
+    "time": "10:00~18:00",
+    "place": "거제문화예술회관 전시실1,2",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "무료",
+    "desc": "멸종위기 동물을 주제로한 전시",
+    "tel": "055-680-1014",
+    "host": "사비나미술관",
+    "homepage": "https://www.geojeart.or.kr/"
   },
   {
     "name": "2026 평택시문화재단 기획전시 《평택아트브릿지》",
@@ -598,6 +676,19 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
+    "name": "공연이 있는 날",
+    "startDate": "20261031",
+    "endDate": "20261231",
+    "time": "14:00~15:30",
+    "place": "오산대역 일원",
+    "address": "경기도 오산시 내삼미로79번길 19",
+    "charge": "무료",
+    "desc": "야외 상설 공연 진행",
+    "tel": "031-8036-7613",
+    "host": "경기도 오산시청 문화예술과",
+    "homepage": "https://www.osan.go.kr/main.do"
+  },
+  {
     "name": "김지안 전시",
     "startDate": "20261101",
     "endDate": "20261105",
@@ -651,9 +742,9 @@
   },
   {
     "name": "법정실무교육",
-    "startDate": "20261102",
-    "endDate": "20261102",
-    "time": "13:00~17:00",
+    "startDate": "20261103",
+    "endDate": "20261103",
+    "time": "09:00~18:00",
     "place": "광양문화예술회관",
     "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
     "charge": "무료",
@@ -676,17 +767,17 @@
     "homepage": "http://www.geumsan.go.kr/daragwon/"
   },
   {
-    "name": "법정실무교육",
-    "startDate": "20261103",
-    "endDate": "20261103",
-    "time": "09:00~18:00",
-    "place": "광양문화예술회관",
-    "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
-    "charge": "무료",
-    "desc": "교육",
-    "tel": "",
-    "host": "한국소방안전원",
-    "homepage": ""
+    "name": "제946회 금정수요음악회 <(사)한국전통정가연구회 발표회>",
+    "startDate": "20261104",
+    "endDate": "20261104",
+    "time": "19:30~21:00",
+    "place": "금정문화회관 은빛샘홀",
+    "address": "부산광역시 금정구 체육공원로7",
+    "charge": "유료",
+    "desc": "국악공연",
+    "tel": "051-519-5664",
+    "host": "금정문화회관",
+    "homepage": "http://art.geumjeong.go.kr/"
   },
   {
     "name": "수요재즈플러스(11월)",
@@ -700,19 +791,6 @@
     "tel": "02-2009-9700",
     "host": "과천문화재단",
     "homepage": "https://www.gcart.or.kr"
-  },
-  {
-    "name": "제946회 금정수요음악회 <(사)한국전통정가연구회 발표회>",
-    "startDate": "20261104",
-    "endDate": "20261104",
-    "time": "19:30~21:00",
-    "place": "금정문화회관 은빛샘홀",
-    "address": "부산광역시 금정구 체육공원로7",
-    "charge": "유료",
-    "desc": "국악공연",
-    "tel": "051-519-5664",
-    "host": "금정문화회관",
-    "homepage": "http://art.geumjeong.go.kr/"
   },
   {
     "name": "아티스트 IN 과천 - 팔도거리 풍류",
@@ -897,19 +975,6 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "한문연 공모사업 4 - 유재하 전야제",
-    "startDate": "20261106",
-    "endDate": "20261106",
-    "time": "19:30~21:30",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5858",
-    "host": "관악문화재단 유재하총동문회",
-    "homepage": "https://gfac.or.kr/"
-  },
-  {
     "name": "마애삼존불 보존을 위한 문화행사",
     "startDate": "20261107",
     "endDate": "20261107",
@@ -921,6 +986,19 @@
     "tel": "054-639-6565",
     "host": "영주불교신행단체협의회",
     "homepage": ""
+  },
+  {
+    "name": "Re:buoy 떠오르는 빛",
+    "startDate": "20261107",
+    "endDate": "20261108",
+    "time": "15:00~16:00",
+    "place": "김정문화회관",
+    "address": "제주특별자치도 서귀포시 김정문화로 36",
+    "charge": "유료",
+    "desc": "전통예술",
+    "tel": "064-760-3792",
+    "host": "김정문화회관 (사)마로",
+    "homepage": "https://culture.seogwipo.go.kr/kimjeong/"
   },
   {
     "name": "꿈의 극단 인천 서해구 제2회 정기공연",
@@ -1001,6 +1079,19 @@
     "homepage": "https://culture.gangseo.seoul.kr"
   },
   {
+    "name": "[김포 PICK 스테이지] (주)더 이루리 <해설이 있는 크로스오버 콘서트 : 시네마 & 팝스>",
+    "startDate": "20261107",
+    "endDate": "20261107",
+    "time": "14:00~15:00",
+    "place": "김포아트빌리지 야외공연장",
+    "address": "경기도 김포시 모담공원로 170",
+    "charge": "무료",
+    "desc": "크로스오버",
+    "tel": "031-999-3968",
+    "host": "김포문화재단",
+    "homepage": ""
+  },
+  {
     "name": "시민 희망 공감 연주회",
     "startDate": "20261108",
     "endDate": "20261108",
@@ -1012,6 +1103,32 @@
     "tel": "",
     "host": "조은색소폰앙상블",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "[2026 경기예술활동지원사업 <모든예술31_김포> 지원작] 매직댄스컬 <명화배달부>",
+    "startDate": "20261108",
+    "endDate": "20261108",
+    "time": "14:00~15:00",
+    "place": "김포아트홀 공연장",
+    "address": "경기도 김포시 돌문로 26",
+    "charge": "유료",
+    "desc": "매직댄스컬",
+    "tel": "070-8287-1191",
+    "host": "김포문화재단",
+    "homepage": ""
+  },
+  {
+    "name": "2026 꿈의 댄스팀 정기공연 관악 으라차찬",
+    "startDate": "20261108",
+    "endDate": "20261108",
+    "time": "15:00~17:00",
+    "place": "관악아트홀 공연장",
+    "address": "서울특별시 관악구 신림로3길 35",
+    "charge": "무료",
+    "desc": "2026 꿈의 댄스팀 단원 정기공연",
+    "tel": "02-828-5765",
+    "host": "문화체육관광부+서울특별시 관악구",
+    "homepage": "https://gfac.or.kr/"
   },
   {
     "name": "더드림 향상음악회",
@@ -1053,19 +1170,6 @@
     "homepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/openinfo_15_01"
   },
   {
-    "name": "북구합창단 제23회  정기연주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "time": "19:30~21:00",
-    "place": "광주예의전당",
-    "address": "전남광주통합특별시 북구 북문대로 60",
-    "charge": "무료",
-    "desc": "북구합창단 합창공연 및 특별 출연진 공연",
-    "tel": "062-410-8479",
-    "host": "전남광주통합특별시 북구청",
-    "homepage": ""
-  },
-  {
     "name": "김연준 가곡 고성현",
     "startDate": "20261110",
     "endDate": "20261110",
@@ -1077,6 +1181,19 @@
     "tel": "053-320-5120",
     "host": "(재)행복북구문화재단",
     "homepage": "http://www.hbcf.or.kr/front/"
+  },
+  {
+    "name": "북구합창단 제23회  정기연주회",
+    "startDate": "20261110",
+    "endDate": "20261110",
+    "time": "19:30~21:00",
+    "place": "광주예술의전당",
+    "address": "전남광주통합특별시 북구 북문대로 60",
+    "charge": "무료",
+    "desc": "북구합창단 합창공연 및 특별 출연진 공연",
+    "tel": "062-410-8479",
+    "host": "전남광주통합특별시 북구청",
+    "homepage": ""
   },
   {
     "name": "평택시문화재단  - 마티네콘서트 (5회차)",
@@ -1157,19 +1274,6 @@
     "homepage": ""
   },
   {
-    "name": "수상한 집주인",
-    "startDate": "20261112",
-    "endDate": "20261112",
-    "time": "19:00~20:30",
-    "place": "보성군문화예술회관",
-    "address": "전남광주통합특별시 보성군 보성읍 송재로 281-9",
-    "charge": "유료",
-    "desc": "연극",
-    "tel": "061-850-8662",
-    "host": "전남광주통합특별시 보성군",
-    "homepage": "http://www.boseong.go.kr"
-  },
-  {
     "name": "원주시향 제206회 정기연주회",
     "startDate": "20261112",
     "endDate": "20261112",
@@ -1222,6 +1326,32 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
+    "name": "2시 음악 살롱(시리즈 공연)",
+    "startDate": "20261112",
+    "endDate": "20261112",
+    "time": "14:00~15:30",
+    "place": "거제문화예술회관 소극장",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "무료",
+    "desc": "월별로 오후 2시마다 개최되는 클래식 음악 연주회",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단",
+    "homepage": "https://www.geojeart.or.kr/"
+  },
+  {
+    "name": "수상한 집주인",
+    "startDate": "20261112",
+    "endDate": "20261112",
+    "time": "19:00~20:30",
+    "place": "보성군문화예술회관",
+    "address": "전남광주통합특별시 보성군 보성읍 송재로 281-9",
+    "charge": "유료",
+    "desc": "연극",
+    "tel": "061-850-8662",
+    "host": "전남광주통합특별시 보성군",
+    "homepage": "http://www.boseong.go.kr"
+  },
+  {
     "name": "강규림 개인전",
     "startDate": "20261113",
     "endDate": "20261119",
@@ -1261,6 +1391,19 @@
     "homepage": ""
   },
   {
+    "name": "디바",
+    "startDate": "20261113",
+    "endDate": "20261114",
+    "time": "19:30~21:10",
+    "place": "소공연장",
+    "address": "경상북도 문경시 신흥로 103",
+    "charge": "유료",
+    "desc": "뮤지컬",
+    "tel": "054-550-8395",
+    "host": "경상북도 문경시",
+    "homepage": ""
+  },
+  {
     "name": "2026 둥둥제",
     "startDate": "20261113",
     "endDate": "20261128",
@@ -1287,6 +1430,32 @@
     "homepage": ""
   },
   {
+    "name": "서울그랜드필하모닉 오케스트라 <모차르트콘서트> With 피아노 백건우",
+    "startDate": "20261113",
+    "endDate": "20261113",
+    "time": "19:30~20:50",
+    "place": "거제문화예술회관 대극장",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "유료",
+    "desc": "피아니스트 백건우와 서울그랜드필하모닉오케스트라의 합연 콘서트",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단, 서울그랜드필하모닉오케스트라",
+    "homepage": "https://www.geojeart.or.kr/"
+  },
+  {
+    "name": "2026 놓칠 수 없는 국공립예술단 모음.ZIP 5. 2026 경기아트센터 예술즐겨찾기 〈경기필하모닉 클래식 콘서트〉",
+    "startDate": "20261113",
+    "endDate": "20261113",
+    "time": "19:30~21:00",
+    "place": "김포아트홀 공연장",
+    "address": "경기도 김포시 돌문로 26",
+    "charge": "무료",
+    "desc": "연극",
+    "tel": "031-999-3961",
+    "host": "김포문화재단",
+    "homepage": ""
+  },
+  {
     "name": "이상한 나라의 앨리스",
     "startDate": "20261114",
     "endDate": "20261114",
@@ -1298,6 +1467,32 @@
     "tel": "",
     "host": "유아교육진흥원",
     "homepage": ""
+  },
+  {
+    "name": "오페라 피가로의 결혼",
+    "startDate": "20261114",
+    "endDate": "20261114",
+    "time": "14:00~18:00",
+    "place": "서귀포예술의전당 대극장",
+    "address": "제주특별자치도 서귀포시 태평로 270",
+    "charge": "무료",
+    "desc": "오페라",
+    "tel": "064-760-3365",
+    "host": "서귀포예술의전당",
+    "homepage": ""
+  },
+  {
+    "name": "여자의 일생",
+    "startDate": "20261114",
+    "endDate": "20261114",
+    "time": "15:00~16:30",
+    "place": "김정문화회관",
+    "address": "제주특별자치도 서귀포시 김정문화로 36",
+    "charge": "무료",
+    "desc": "연극",
+    "tel": "064-760-3792",
+    "host": "김정문화회관",
+    "homepage": "https://culture.seogwipo.go.kr/kimjeong/"
   },
   {
     "name": "반구대 오디세이, 아기장수의 귀환",
@@ -1337,6 +1532,19 @@
     "tel": "053-668-1800",
     "host": "수성아트피아",
     "homepage": "http://www.ssartpia.kr"
+  },
+  {
+    "name": "나의 박물관 : 타악",
+    "startDate": "20261114",
+    "endDate": "20261114",
+    "time": "15:00~16:00",
+    "place": "국립김해박물관 강당",
+    "address": "경상남도 김해시 가야의길 190",
+    "charge": "무료",
+    "desc": "아트컴퍼니 구승",
+    "tel": "1544-5955",
+    "host": "국립박물관문화재단+국립김해박물관",
+    "homepage": "https://www.nmf.or.kr/user/performance/month_view.do?show_id=S20260407110337053100&page=1"
   },
   {
     "name": "2026년 11월 공연 <더 매직 서커스>(1회)",
@@ -1417,17 +1625,69 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
-    "name": "나의 박물관 : 타악",
+    "name": "[김포 PICK 스테이지] 아띠클래식 <오페라 딜라이트>",
     "startDate": "20261114",
     "endDate": "20261114",
-    "time": "15:00~16:00",
-    "place": "국립김해박물관 강당",
-    "address": "경상남도 김해시 가야의길 190",
+    "time": "14:00~15:00",
+    "place": "김포아트빌리지 야외공연장",
+    "address": "경기도 김포시 모담공원로 170",
     "charge": "무료",
-    "desc": "아트컴퍼니 구승",
-    "tel": "1544-5955",
-    "host": "국립박물관문화재단+국립김해박물관",
-    "homepage": "https://www.nmf.or.kr/user/performance/month_view.do?show_id=S20260407110337053100&page=1"
+    "desc": "클래식",
+    "tel": "031-999-3968",
+    "host": "김포문화재단",
+    "homepage": ""
+  },
+  {
+    "name": "상주단체시리즈 : 청춘 18대1",
+    "startDate": "20261114",
+    "endDate": "20261115",
+    "time": "18:00~19:30",
+    "place": "관악아트홀 전시실",
+    "address": "서울특별시 관악구 신림로3길 35",
+    "charge": "무료",
+    "desc": "관악아트홀 기획공연",
+    "tel": "02-828-5861",
+    "host": "관악문화재단  극단죽도록달린다",
+    "homepage": "https://gfac.or.kr/"
+  },
+  {
+    "name": "제주 타악의 울림",
+    "startDate": "20261115",
+    "endDate": "20261115",
+    "time": "17:00~18:00",
+    "place": "김정문화회관",
+    "address": "제주특별자치도 서귀포시 김정문화로 36",
+    "charge": "무료",
+    "desc": "연주회",
+    "tel": "064-760-3792",
+    "host": "김정문화회관",
+    "homepage": "https://culture.seogwipo.go.kr/kimjeong/"
+  },
+  {
+    "name": "[대관] La Reserve Label Concert",
+    "startDate": "20261115",
+    "endDate": "20261115",
+    "time": "19:30~21:30",
+    "place": "소월아트홀",
+    "address": "서울특별시 성동구 왕십리로 281",
+    "charge": "유료",
+    "desc": "재즈+라이브콘서트",
+    "tel": "",
+    "host": "성동문화재단",
+    "homepage": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1640"
+  },
+  {
+    "name": "업사이클 뮤직 〈숨의기억(Breath of Memory)〉",
+    "startDate": "20261115",
+    "endDate": "20261115",
+    "time": "11:00~13:00",
+    "place": "싱글벙글교육센터",
+    "address": "서울특별시 관악구 신림로3길 35",
+    "charge": "무료",
+    "desc": "관악아트홀 기획공연",
+    "tel": "02-828-5853",
+    "host": "한국지역문화재단총연합회",
+    "homepage": "https://gfac.or.kr/"
   },
   {
     "name": "2026 전국환경사진대전 입상작 전시회 및 시상식",
@@ -1508,6 +1768,19 @@
     "homepage": "http://art.geumjeong.go.kr/"
   },
   {
+    "name": "<처음 만나는 극장 - 시니어 스테이지> 제주성주풀이 : 새집지어오람구나",
+    "startDate": "20261118",
+    "endDate": "20261118",
+    "time": "19:30~20:40",
+    "place": "통진두레문화센터",
+    "address": "경기도 김포시 통진읍 김포대로 2347-8",
+    "charge": "무료",
+    "desc": "창작음악극",
+    "tel": "031-999-3988",
+    "host": "전통공연예술진흥재단, 김포문화재단",
+    "homepage": ""
+  },
+  {
     "name": "2026 영은회 인물화전",
     "startDate": "20261119",
     "endDate": "20261123",
@@ -1519,6 +1792,19 @@
     "tel": "054-639-6565",
     "host": "영은회",
     "homepage": ""
+  },
+  {
+    "name": "서천꽃밭 이야기",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "time": "19:30~20:20",
+    "place": "김정문화회관",
+    "address": "제주특별자치도 서귀포시 김정문화로 36",
+    "charge": "무료",
+    "desc": "전통예술",
+    "tel": "064-760-3792",
+    "host": "김정문화회관 (재)국립정동극장",
+    "homepage": "https://culture.seogwipo.go.kr/kimjeong/"
   },
   {
     "name": "1234 콘서트 <오르간과 합창음악>",
@@ -1675,6 +1961,19 @@
     "tel": "02-2629-2250",
     "host": "영등포문화재단",
     "homepage": "https://www.ydpcf.or.kr/artexhibit/artexhibit.do"
+  },
+  {
+    "name": "2026년 고성군 청소년 야시장",
+    "startDate": "20261120",
+    "endDate": "20261120",
+    "time": "17:00~20:00",
+    "place": "고성송학동고분군",
+    "address": "경상남도 고성군 고성읍 송학리 470",
+    "charge": "무료",
+    "desc": "전시+판매+공연",
+    "tel": "055-670-5936",
+    "host": "경상남도 고성군청",
+    "homepage": ""
   },
   {
     "name": "리틀엔젤스 하모니",
@@ -1885,11 +2184,24 @@
     "homepage": "https://cs.sscmc.or.kr/bahcs/81"
   },
   {
+    "name": "키즈 마티네 콘서트 - 11월 <레전드 애니메이션의 세계로 퐁당>",
+    "startDate": "20261121",
+    "endDate": "20261121",
+    "time": "11:00~12:00",
+    "place": "김포아트홀 공연장",
+    "address": "경기도 김포시 돌문로 26",
+    "charge": "유료",
+    "desc": "어린이",
+    "tel": "031-999-3968",
+    "host": "김포문화재단",
+    "homepage": ""
+  },
+  {
     "name": "꿈의극단",
     "startDate": "20261121",
     "endDate": "20261121",
-    "time": "17:00~19:00",
-    "place": "관악아트홀 공연장",
+    "time": "15:00~17:00",
+    "place": "관악아트홀 전시실",
     "address": "서울특별시 관악구 신림로3길 35",
     "charge": "무료",
     "desc": "2026 꿈의 극단 단원 정기공연",
@@ -1909,6 +2221,19 @@
     "tel": "1551-2313",
     "host": "(재)화성시문화관광재단",
     "homepage": "https://hac.hcf.or.kr/index.do"
+  },
+  {
+    "name": "골벌소국의 별",
+    "startDate": "20261122",
+    "endDate": "20261122",
+    "time": "14:00~15:00",
+    "place": "영천시민회관",
+    "address": "경상북도 영천시 시청로 17",
+    "charge": "유료",
+    "desc": "시민회관 기획공연",
+    "tel": "054-330-6650",
+    "host": "경상북도 영천시",
+    "homepage": "https://ycac.yc.go.kr:448/"
   },
   {
     "name": "수험생 음악회",
@@ -2093,6 +2418,32 @@
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
   },
   {
+    "name": "트롯:포맨 콘서트",
+    "startDate": "20261126",
+    "endDate": "20261126",
+    "time": "19:30~21:30",
+    "place": "거제문화예술회관 대극장",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "유료",
+    "desc": "트로트 가수 김수찬, 김준수, 안성훈, 신성의 콘서트",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단, 공감엔피엠",
+    "homepage": "https://www.geojeart.or.kr/"
+  },
+  {
+    "name": "피리부는 사나이",
+    "startDate": "20261126",
+    "endDate": "20261127",
+    "time": "19:00~20:55",
+    "place": "보성군문화예술회관",
+    "address": "전남광주통합특별시 보성군 보성읍 송재로 281-9",
+    "charge": "유료",
+    "desc": "뮤지컬",
+    "tel": "061-850-8662",
+    "host": "전남광주통합특별시 보성군",
+    "homepage": "http://www.boseong.go.kr"
+  },
+  {
     "name": "The Colors(구,물빛회) 열다섯번째 정기전시회",
     "startDate": "20261127",
     "endDate": "20261203",
@@ -2103,6 +2454,19 @@
     "desc": "전시",
     "tel": "",
     "host": "the colors(구 물빛회)",
+    "homepage": ""
+  },
+  {
+    "name": "국립극단스카팽",
+    "startDate": "20261127",
+    "endDate": "20261129",
+    "time": "19:30~21:30",
+    "place": "서귀포예술의전당 대극장",
+    "address": "제주특별자치도 서귀포시 태평로 270",
+    "charge": "유료",
+    "desc": "연극",
+    "tel": "064-760-3365",
+    "host": "서귀포예술의전당",
     "homepage": ""
   },
   {
@@ -2169,6 +2533,19 @@
     "tel": "02-2009-9700",
     "host": "경기도 과천시",
     "homepage": "https://www.gcart.or.kr"
+  },
+  {
+    "name": "노인의꿈",
+    "startDate": "20261127",
+    "endDate": "20261128",
+    "time": "19:30~21:10",
+    "place": "대공연장",
+    "address": "경상북도 문경시 신흥로 85",
+    "charge": "유료",
+    "desc": "연극",
+    "tel": "054-550-8395",
+    "host": "경상북도 문경시",
+    "homepage": ""
   },
   {
     "name": "수험생 힐링 콘서트",
@@ -2273,6 +2650,19 @@
     "tel": "",
     "host": "알리오페라단",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "페인터즈",
+    "startDate": "20261127",
+    "endDate": "20261127",
+    "time": "11:00~12:30",
+    "place": "영천시민회관",
+    "address": "경상북도 영천시 시청로 17",
+    "charge": "유료",
+    "desc": "시민회관 기획공연",
+    "tel": "054-330-6650",
+    "host": "펜타토닉",
+    "homepage": "https://ycac.yc.go.kr:448/"
   },
   {
     "name": "영호남 상생교류전",
@@ -2392,19 +2782,6 @@
     "homepage": "https://cs.sscmc.or.kr/bahcs/81"
   },
   {
-    "name": "2026 꿈의 댄스팀 정기공연 관악 으라차찬",
-    "startDate": "20261128",
-    "endDate": "20261128",
-    "time": "15:00~17:00",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "무료",
-    "desc": "2026 꿈의 댄스팀 단원 정기공연",
-    "tel": "02-828-5763",
-    "host": "문화체육관광부+서울특별시 관악구",
-    "homepage": "https://gfac.or.kr/"
-  },
-  {
     "name": "Musical on Stage",
     "startDate": "20261128",
     "endDate": "20261128",
@@ -2496,19 +2873,6 @@
     "homepage": "http://www.ucf.or.kr"
   },
   {
-    "name": "김원준 쇼",
-    "startDate": "20261201",
-    "endDate": "20261201",
-    "time": "19:00~20:10",
-    "place": "금산다락원 생명의집",
-    "address": "충청남도 금산군 금산읍 금산로 1559",
-    "charge": "유료",
-    "desc": "김원준의 대표 히트곡과 유쾌한 토크가 어우러진 추억의 라이브 콘서트.",
-    "tel": "041-750-3493",
-    "host": "충청남도 금산군청+금산다락원",
-    "homepage": "http://www.geumsan.go.kr/daragwon/"
-  },
-  {
     "name": "연극<브릴리언트>",
     "startDate": "20261201",
     "endDate": "20261205",
@@ -2546,6 +2910,19 @@
     "tel": "",
     "host": "연제호",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "name": "김원준 쇼",
+    "startDate": "20261201",
+    "endDate": "20261201",
+    "time": "19:00~20:10",
+    "place": "금산다락원 생명의집",
+    "address": "충청남도 금산군 금산읍 금산로 1559",
+    "charge": "유료",
+    "desc": "김원준의 대표 히트곡과 유쾌한 토크가 어우러진 추억의 라이브 콘서트.",
+    "tel": "041-750-3493",
+    "host": "충청남도 금산군청+금산다락원",
+    "homepage": "http://www.geumsan.go.kr/daragwon/"
   },
   {
     "name": "경산시립합창단 제32회 정기연주회",
@@ -2624,6 +3001,19 @@
     "tel": "02-440-0500",
     "host": "강동문화재단",
     "homepage": "https://www.gdfac.or.kr/product/performance/258417"
+  },
+  {
+    "name": "2시 음악 살롱(시리즈 공연)",
+    "startDate": "20261203",
+    "endDate": "20261203",
+    "time": "14:00~15:30",
+    "place": "거제문화예술회관 소극장",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "무료",
+    "desc": "월별로 오후 2시마다 개최되는 클래식 음악 연주회",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단",
+    "homepage": "https://www.geojeart.or.kr/"
   },
   {
     "name": "기획전시(미술협회)",
@@ -2834,17 +3224,17 @@
     "homepage": ""
   },
   {
-    "name": "송년시리즈 <불세출 밤쪄>",
+    "name": "뮤지컬<빨래>",
     "startDate": "20261205",
     "endDate": "20261205",
-    "time": "16:00~18:00",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
+    "time": "14:00~15:30",
+    "place": "거제문화예술회관 대극장",
+    "address": "경상남도 거제시 장승로 145",
     "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5854",
-    "host": "관악문화재단",
-    "homepage": "https://gfac.or.kr/"
+    "desc": "2005년 국립극창 초연으로 시작한 인기 뮤지컬",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단, 씨에이치수박",
+    "homepage": "https://www.geojeart.or.kr/"
   },
   {
     "name": "별의 서재",
@@ -2925,6 +3315,32 @@
     "homepage": "http://art.geumjeong.go.kr/"
   },
   {
+    "name": "중구 송년음악회",
+    "startDate": "20261209",
+    "endDate": "20261209",
+    "time": "18:30~20:00",
+    "place": "롯데백화점 광복점 문화홀",
+    "address": "부산광역시 중구 중앙대로 2",
+    "charge": "무료",
+    "desc": "오케스트라+구립합창단+특별출연진 문화공연",
+    "tel": "051-600-4065",
+    "host": "부산광역시 중구청 문화관광과",
+    "homepage": "http://www.bsjunggu.go.kr/tour/board/list.junggu?boardId=BBS_0000069&menuCd=DOM_000000203002000000&contentsSid=570&cpath=2Ftour"
+  },
+  {
+    "name": "클래식어린왕자",
+    "startDate": "20261209",
+    "endDate": "20261209",
+    "time": "19:00~20:00",
+    "place": "영천시민회관",
+    "address": "경상북도 영천시 시청로 17",
+    "charge": "무료",
+    "desc": "시민회관 기획공연",
+    "tel": "054-330-6650",
+    "host": "벨라미치연구소",
+    "homepage": "https://ycac.yc.go.kr:448/"
+  },
+  {
     "name": "원주시향 제208회·원주시립합창단 제121회 정기연주회",
     "startDate": "20261210",
     "endDate": "20261210",
@@ -2988,6 +3404,19 @@
     "tel": "02-2009-9700",
     "host": "과천문화재단",
     "homepage": "https://www.gcart.or.kr"
+  },
+  {
+    "name": "크로키키 브라더스",
+    "startDate": "20261211",
+    "endDate": "20261212",
+    "time": "19:30~20:30",
+    "place": "소공연장",
+    "address": "경상북도 문경시 신흥로 103",
+    "charge": "유료",
+    "desc": "다원",
+    "tel": "054-550-8395",
+    "host": "경상북도 문경시",
+    "homepage": ""
   },
   {
     "name": "송년 콘서트",
@@ -3328,6 +3757,19 @@
     "homepage": "https://www.gcart.or.kr"
   },
   {
+    "name": "공동기획 2026 송년음악회",
+    "startDate": "20261217",
+    "endDate": "20261217",
+    "time": "19:30~21:00",
+    "place": "서귀포예술의전당 대극장",
+    "address": "제주특별자치도 서귀포시 태평로 270",
+    "charge": "유료",
+    "desc": "음악회",
+    "tel": "064-760-3365",
+    "host": "서귀포예술의전당",
+    "homepage": ""
+  },
+  {
     "name": "마티네콘서트 <겨울나그네>",
     "startDate": "20261217",
     "endDate": "20261217",
@@ -3341,19 +3783,6 @@
     "homepage": "http://www.ssartpia.kr"
   },
   {
-    "name": "파리나무십자가 내한공연",
-    "startDate": "20261217",
-    "endDate": "20261217",
-    "time": "19:00~20:30",
-    "place": "금산다락원 생명의집",
-    "address": "충청남도 금산군 금산읍 금산로 1559",
-    "charge": "유료",
-    "desc": "천상의 하모니로 전 세계를 감동시킨 파리나무십자가 소년합창단의 내한공연.",
-    "tel": "041-750-3493",
-    "host": "충청남도 금산군청+금산다락원",
-    "homepage": "http://www.geumsan.go.kr/daragwon/"
-  },
-  {
     "name": "2026 추억의 명화 12월 버킷 리스트",
     "startDate": "20261217",
     "endDate": "20261217",
@@ -3365,6 +3794,19 @@
     "tel": "062-350-4564",
     "host": "전남광주통합특별시 서구",
     "homepage": ""
+  },
+  {
+    "name": "파리나무십자가 내한공연",
+    "startDate": "20261217",
+    "endDate": "20261217",
+    "time": "19:00~20:30",
+    "place": "금산다락원 생명의집",
+    "address": "충청남도 금산군 금산읍 금산로 1559",
+    "charge": "유료",
+    "desc": "천상의 하모니로 전 세계를 감동시킨 파리나무십자가 소년합창단의 내한공연.",
+    "tel": "041-750-3493",
+    "host": "충청남도 금산군청+금산다락원",
+    "homepage": "http://www.geumsan.go.kr/daragwon/"
   },
   {
     "name": "해비치아트 전시",
@@ -3549,17 +3991,17 @@
     "homepage": "http://www.hbcf.or.kr/front/"
   },
   {
-    "name": "송년시리즈 <춤이 말하다: 문소리x리아킴>",
+    "name": "세향국악오케스트라 송년음악회 with 김덕수",
     "startDate": "20261219",
     "endDate": "20261219",
-    "time": "17:00~18:20",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
+    "time": "17:00~18:30",
+    "place": "거제문화예술회관 대극장",
+    "address": "경상남도 거제시 장승로 145",
     "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5855",
-    "host": "관악문화재단",
-    "homepage": "https://gfac.or.kr/"
+    "desc": "김덕수의 송년음악회 공연",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단, 세향국악오케스트라",
+    "homepage": "https://www.geojeart.or.kr/"
   },
   {
     "name": "2026년 서구 청소년오케스트라 정기연주회(예정)",
@@ -3572,6 +4014,19 @@
     "desc": "정기연주회",
     "tel": "051-240-4065",
     "host": "부산광역시 서구",
+    "homepage": ""
+  },
+  {
+    "name": "키즈 마티네 콘서트 - 12월 <빠라빠빰 신나는 브라스 콘서트>",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "time": "11:00~12:00",
+    "place": "김포아트홀 공연장",
+    "address": "경기도 김포시 돌문로 26",
+    "charge": "유료",
+    "desc": "클래식",
+    "tel": "031-999-3968",
+    "host": "김포문화재단",
     "homepage": ""
   },
   {
@@ -3757,19 +4212,6 @@
     "homepage": ""
   },
   {
-    "name": "송년시리즈 <세비야의 이발사>",
-    "startDate": "20261224",
-    "endDate": "20261224",
-    "time": "19:30~21:30",
-    "place": "관악아트홀 공연장",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "유료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5854",
-    "host": "관악문화재단",
-    "homepage": "https://gfac.or.kr/"
-  },
-  {
     "name": "스테이지엠 크리스마스 영화음악  캐롤 콘서트 2026 - 인천",
     "startDate": "20261225",
     "endDate": "20261225",
@@ -3781,6 +4223,19 @@
     "tel": "",
     "host": "스테이지 M(스테이지엠)",
     "homepage": ""
+  },
+  {
+    "name": "광주시립발레단<호두까기 인형> 인 크리스마스",
+    "startDate": "20261225",
+    "endDate": "20261225",
+    "time": "15:00~16:30",
+    "place": "거제문화예술회관 대극장",
+    "address": "경상남도 거제시 장승로 145",
+    "charge": "유료",
+    "desc": "광주시립발레단의 호두까기 인형 공연",
+    "tel": "055-680-1051",
+    "host": "거제시문화예술재단, 광주시립발레단",
+    "homepage": "https://www.geojeart.or.kr/"
   },
   {
     "name": "2026 송년음악회",

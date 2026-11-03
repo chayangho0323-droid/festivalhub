@@ -8878,5 +8878,61 @@
     "lng": 126.78387429999998,
     "tel": "032-655-8815",
     "homepage": "http://blog.naver.com/yaegitheatre"
+  },
+  "FC004829": {
+    "name": "삼매소",
+    "address": "서울특별시 중구 창경궁로8길 11 (주교동)",
+    "lat": 37.56865,
+    "lng": 126.998684,
+    "tel": "",
+    "homepage": "https://www.instagram.com/samadi.lounge"
+  },
+  "FC000138": {
+    "name": "성미산마을극장 향",
+    "address": "서울특별시 마포구 월드컵로26길 39 (성산동)",
+    "lat": 37.5594242,
+    "lng": 126.90989319999994,
+    "tel": "02-322-0345",
+    "homepage": "http://cafe.naver.com/sungmisantheater.cafe"
+  },
+  "FC004412": {
+    "name": "레이어 스튜디오 7 (LAYER 7)",
+    "address": "서울특별시 용산구 한강대로98가길 7 (갈월동)",
+    "lat": 37.5480004,
+    "lng": 126.9732492,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000212": {
+    "name": "예술나무씨어터(구. 상상나눔씨어터)",
+    "address": "서울특별시 구로구 구로중앙로 134 (구로동, 신구로자이나인스에비뉴)",
+    "lat": 37.5000786,
+    "lng": 126.8840596,
+    "tel": "02-1661-5054",
+    "homepage": "https://cafe.naver.com/purifycompany"
+  },
+  "FC004069": {
+    "name": "쇼킹 케이팝 센터 (ShowKing K-POP Center)",
+    "address": "서울특별시 마포구 월드컵북로54길 25 (상암동)",
+    "lat": 37.5820926,
+    "lng": 126.8889847,
+    "tel": "02-515-0915",
+    "homepage": "https://showkingkpopcenter.modoo.at/"
+  },
+  "FC005165": {
+    "name": "문래창작소극장",
+    "address": "서울특별시 영등포구 경인로77길 2-1 (문래동2가)",
+    "lat": 37.512483,
+    "lng": 126.893748,
+    "tel": "",
+    "homepage": "https://www.ljh-festival.com/hall/"
+  },
+  "FC005167": {
+    "name": "아이와 함께 크는 나무 어린이 서점",
+    "address": "서울특별시 강동구 양재대로89길 16 (성내동, 파크프라자)",
+    "lat": 37.526882,
+    "lng": 127.134695,
+    "tel": "",
+    "homepage": "https://www.instagram.com/tree_bookstore"
   }
 }
