@@ -1760,6 +1760,22 @@ const sitemap =
 fs.writeFileSync("sitemap.xml", sitemap, "utf-8");
 console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
 
+// ── sitemap-core.xml: 핵심 페이지만 담은 작은 사이트맵 (2026-11-03, 구글 색인 우선순위용) ──
+// 전체 sitemap.xml은 3,700쪽이라 구글이 우선순위를 못 잡는다 → 허브·가이드·이야기/사진/정정/추천이 붙은 상세만 따로 제출
+{
+  const pickKeys = PICKS.flatMap((pk) => pk.items.map((it) => it.key.toLowerCase()));
+  const isCore = (f) => !!(findFestivalNote(f) || visitorPhotos[String(f.contentid)] || f.corrected || pickKeys.some((k) => normFestName(f.name).includes(k)));
+  const coreUrls = [
+    `${SITE_URL}/`, `${SITE_URL}/about.html`, `${SITE_URL}/weekend.html`,
+    ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
+    ...[...guideFiles, ...monthFiles, ...themeFiles, ...regionFiles].map((f) => `${SITE_URL}/${f}`),
+    ...festivals.filter((f) => !isBarePage(f) && isCore(f)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
+    ...archivedFestivals.filter((f) => !isBarePage(f) && (visitorPhotos[String(f.contentid)] || findFestivalNote(f))).map((f) => `${SITE_URL}/festival/${f.contentid}.html`), // 끝난 축제도 이야기가 붙은 건 내년 검색 자산
+  ];
+  fs.writeFileSync("sitemap-core.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` + coreUrls.map((u) => `  <url><loc>${u}</loc><lastmod>${today}</lastmod></url>`).join("\n") + `\n</urlset>\n`, "utf-8");
+  console.log(`✅ sitemap-core.xml (핵심 ${coreUrls.length}개 주소)`);
+}
+
 // ── pinned.json: 최근 PIN_DAYS 안에 방문자 사진·영상이 올라온 축제 → 랜딩 맨 위 고정 (app.js가 읽음) ──
 // 축제에 다녀온 사람이 사진을 보내는 시점엔 축제가 이미 끝난 경우가 많아서, 끝난 축제도 며칠은 맨 위에 보여준다.
 {
@@ -1832,7 +1848,7 @@ console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
 // ── robots.txt: 검색봇에게 "다 읽어가도 좋고, 지도는 여기 있어요" ──
 fs.writeFileSync(
   "robots.txt",
-  `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`,
+  `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap-core.xml\nSitemap: ${SITE_URL}/sitemap.xml\n`,
   "utf-8"
 );
 console.log("✅ robots.txt 생성");
