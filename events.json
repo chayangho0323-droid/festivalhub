@@ -574,19 +574,6 @@
   {
     "name": "제68회 충북예술제",
     "startDate": "20261029",
-    "endDate": "20261103",
-    "time": "09:00~22:00",
-    "place": "소공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "기타",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제68회 충북예술제",
-    "startDate": "20261029",
     "endDate": "20261105",
     "time": "09:00~22:00",
     "place": "제4전시실외3건",
@@ -606,32 +593,6 @@
     "address": "충청북도 청주시 서원구 흥덕로 69",
     "charge": "무료",
     "desc": "전시",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제68회 충북예술제",
-    "startDate": "20261030",
-    "endDate": "20261103",
-    "time": "09:00~22:00",
-    "place": "아트홀 공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "기타",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제 68회 충북예술제",
-    "startDate": "20261030",
-    "endDate": "20261103",
-    "time": "09:00~22:00",
-    "place": "대회의실",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "기타",
     "tel": "",
     "host": "충북예총",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
@@ -739,32 +700,6 @@
     "tel": "",
     "host": "한국사진작가협회 영등포지부",
     "homepage": ""
-  },
-  {
-    "name": "법정실무교육",
-    "startDate": "20261103",
-    "endDate": "20261103",
-    "time": "09:00~18:00",
-    "place": "광양문화예술회관",
-    "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
-    "charge": "무료",
-    "desc": "교육",
-    "tel": "",
-    "host": "한국소방안전원",
-    "homepage": ""
-  },
-  {
-    "name": "리틀라이온",
-    "startDate": "20261103",
-    "endDate": "20261103",
-    "time": "10:30~11:30",
-    "place": "금산다락원 생명의집",
-    "address": "충청남도 금산군 금산읍 금산로 1559",
-    "charge": "유료",
-    "desc": "용기와 우정, 가족의 소중함을 신나는 음악과 함께 전하는 어린이 뮤지컬.",
-    "tel": "041-750-3493",
-    "host": "충청남도 금산군청+금산다락원",
-    "homepage": "http://www.geumsan.go.kr/daragwon/"
   },
   {
     "name": "제946회 금정수요음악회 <(사)한국전통정가연구회 발표회>",
