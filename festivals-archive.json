@@ -92041,5 +92041,279 @@
       }
     ],
     "source": "std"
+  },
+  {
+    "contentid": "3401306",
+    "name": "김포 해병대 문화축제 in 대명항",
+    "startDate": "20261107",
+    "endDate": "20261107",
+    "address": "경기도 김포시 대곶면 대명항1로 110-36",
+    "lat": "37.6400140918",
+    "lng": "126.5394517250",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
+    "overview": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회, 군번줄·팔각모 만들기 등 다양한 프로그램이 펼쳐지며, 시민들이 해병대 문화를 직접 보고 느끼며 소통할 수 있는 자리가 마련된다. 또한 수산물직판장 옥상 광장에서는 제철 수산물과 로컬푸드, 셀프 바비큐 등 김포의 먹거리를 즐길 수 있는 '선셋야장'이 함께 운영된다. 해 질 무렵 대명항의 노을을 배경으로 야시장 분위기의 먹거리장터와 버스킹이 이어진다. 낮에는 해병대 문화를, 밤에는 노을과 먹거리를 즐기는 두 가지 테마의 축제를 한 공간에서 모두 만날 수 있는 특별한 시간이다.",
+    "tel": "031-980-5110",
+    "homepage": "https://www.gimpo.go.kr/u/53850",
+    "eventplace": "김포함상공원 및 대명항 일원",
+    "playtime": "11:00~19:00",
+    "usefee": "무료",
+    "sponsor": "김포시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/70/4131170_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/72/4131172_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/73/4131173_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/74/4131174_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회, 군번줄·팔각모 만들기 등 다양한 프로그램이 펼쳐지며, 시민들이 해병대 문화를 직접 보고 느끼며 소통할 수 있는 자리가 마련된다. 또한 수산물직판장 옥상 광장에서는 제철 수산물과 로컬푸드, 셀프 바비큐 등 김포의 먹거리를 즐길 수 있는 '선셋야장'이 함께 운영된다. 해 질 무렵 대명항의 노을을 배경으로 야시장 분위기의 먹거리장터와 버스킹이 이어진다. 낮에는 해병대 문화를, 밤에는 노을과 먹거리를 즐기는 두 가지 테마의 축제를 한 공간에서 모두 만날 수 있는 특별한 시간이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 주요 프로그램\n- 해병대 장비 전시 및 체험, 군악대·의장대 공연, 선셋야장(대명항 직판장 옥상) 등\n2. 부대 행사 및 프로그램\n- 군복체험, 군번줄 만들기, 팔각모 만들기, 레이저 사격 체험 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "초지대교",
+        "dist": 1417,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3350618_image2_1.JPG",
+        "addr": "인천광역시 강화군 길상면 초지로 141"
+      },
+      {
+        "name": "정족산",
+        "dist": 5315,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3559339_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상면 온수리"
+      },
+      {
+        "name": "연등국제선원",
+        "dist": 6053,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3388426_image2_1.JPG",
+        "addr": "인천광역시 강화군 길상면 강화동로 349-60"
+      },
+      {
+        "name": "마송중앙공원",
+        "dist": 7388,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/2853091_image2_1.jpg",
+        "addr": "경기도 김포시 통진읍 마송공원길 50"
+      },
+      {
+        "name": "강화 사기리 탱자나무",
+        "dist": 7804,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/33/3383833_image2_1.JPG",
+        "addr": "인천광역시 강화군 화도면 해안남로1114번길 6"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "마레 616",
+        "dist": 903,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2872846_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상면 해안동로 96-29"
+      },
+      {
+        "name": "더 라두",
+        "dist": 937,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/94/2872794_image2_1.jpg",
+        "addr": "인천광역시 강화군 해안동로 112-12"
+      },
+      {
+        "name": "약암육개장",
+        "dist": 1380,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/2853148_image2_1.jpg",
+        "addr": "경기도 김포시 대곶면 약암로 907"
+      },
+      {
+        "name": "황촌집",
+        "dist": 1568,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2853183_image2_1.jpg",
+        "addr": "경기도 김포시 약암로 853"
+      },
+      {
+        "name": "매화마름",
+        "dist": 1856,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2872872_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상로25번길 28"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "대명항",
+          "dist": 482,
+          "walkMin": 7
+        }
+      ],
+      "parking": [
+        {
+          "name": "초지진주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 56,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "032-930-3366",
+          "dist": 1039,
+          "walkMin": 16
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "2622167",
+    "name": "2026 경북사과홍보행사",
+    "startDate": "20261102",
+    "endDate": "20261104",
+    "address": "서울특별시 중구 을지로 지하12 (을지로1가)",
+    "lat": "37.5654483550",
+    "lng": "126.9787818353",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/12/4132112_image2_1.jpg",
+    "overview": "2026 경북사과 홍보행사는 경북사과의 우수한 품질과 가치를 알리고 소비 촉진을 도모하기 위해 마련된 행사이다. 11월 2일부터 4일까지 3일간 서울광장에서 개최되며, ‘가을 왕국이 선택한 가장 빛나는 결실, 경북사과’를 슬로건으로 동화 속 왕실정원을 주제로 한 다양한 프로그램이 운영된다.\n행사장에는 경북 14개 사과주산지의 대표 사과와 다양한 품종을 소개하는 경북사과 명품관을 비롯해 지역별 홍보·판매관, 시음·시식 공간, 포토존 등이 마련된다. 또한 경북사과 왕실 경매쇼, 청춘 버스킹, 문화공연, 직장인 참여 이벤트, 어린이 그림그리기 등 다채로운 프로그램이 진행된다. 11월 3일에는 공식 개막식과 기념 퍼포먼스, 축하공연을 통해 경북사과의 가치와 가을 수확의 의미를 시민들과 함께 나누는 자리로 구성된다.",
+    "tel": "대경사과원예농협 053-740-3033경상북도 스마트농업혁신과 054-880-3376",
+    "homepage": "",
+    "eventplace": "서울광장",
+    "playtime": "10:00~17:00",
+    "usefee": "무료",
+    "sponsor": "경상북도, 사과주산지시장군수협의회",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/13/4132113_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 경북사과 홍보행사는 경북사과의 우수한 품질과 가치를 알리고 소비 촉진을 도모하기 위해 마련된 행사이다. 11월 2일부터 4일까지 3일간 서울광장에서 개최되며, ‘가을 왕국이 선택한 가장 빛나는 결실, 경북사과’를 슬로건으로 동화 속 왕실정원을 주제로 한 다양한 프로그램이 운영된다.\n행사장에는 경북 14개 사과주산지의 대표 사과와 다양한 품종을 소개하는 경북사과 명품관을 비롯해 지역별 홍보·판매관, 시음·시식 공간, 포토존 등이 마련된다. 또한 경북사과 왕실 경매쇼, 청춘 버스킹, 문화공연, 직장인 참여 이벤트, 어린이 그림그리기 등 다채로운 프로그램이 진행된다. 11월 3일에는 공식 개막식과 기념 퍼포먼스, 축하공연을 통해 경북사과의 가치와 가을 수확의 의미를 시민들과 함께 나누는 자리로 구성된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 2026 경북사과 홍보행사 개막식 / 기념 퍼포먼스 / 경북사과 홍보·판매관 운영 / 경북사과 왕실 경매쇼\n- 부대 행사 및 프로그램 : 경북 왕실정원 환영공연 및 개막 축하공연 / 청춘 버스킹 및 문화공연 / 소비자 참여 프로그램(K-직장인 현생탈출 사과타임, 어린이그림그리기, 레크리에이션, 시음·시식 및 현장구매) / 포토존 운영"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "덕수궁 대한문",
+        "dist": 198,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3384991_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 99 (정동)"
+      },
+      {
+        "name": "경성 부민관 폭탄 의거지",
+        "dist": 293,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3077530_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 125 (태평로1가)"
+      },
+      {
+        "name": "대한성공회 서울주교좌성당",
+        "dist": 328,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568354_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로21길 15 (정동)"
+      },
+      {
+        "name": "덕수궁 돌담길",
+        "dist": 353,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2658350_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 지하 101"
+      },
+      {
+        "name": "서울 종로 낙지볶음 골목",
+        "dist": 614,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3478546_image2_1.jpg",
+        "addr": "서울특별시 종로구 종로 19 (종로1가)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "라칸티나",
+        "dist": 146,
+        "image": "",
+        "addr": "서울특별시 중구 을지로 19 (을지로1가)"
+      },
+      {
+        "name": "이북만두",
+        "dist": 207,
+        "image": "",
+        "addr": "서울특별시 중구 무교로 17-13 (무교동)"
+      },
+      {
+        "name": "낙동강",
+        "dist": 267,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/2789520_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로1길 34 (다동)"
+      },
+      {
+        "name": "무교동 북어국집",
+        "dist": 278,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/3083872_image2_1.JPG",
+        "addr": "서울특별시 중구 을지로1길 38 (다동)"
+      },
+      {
+        "name": "바캉스커피",
+        "dist": 311,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2798283_image2_1.jpg",
+        "addr": "서울특별시 중구 남대문로9길 12 (다동)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "시청",
+        "lines": [
+          "1호선"
+        ],
+        "dist": 141,
+        "walkMin": 2
+      },
+      "stops": [
+        {
+          "name": "서울광장",
+          "dist": 15,
+          "walkMin": 1
+        },
+        {
+          "name": "시청역더플라자호텔",
+          "dist": 92,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "뉴국제호텔앞 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 19,
+          "fee": "기본 5분 600원 · 추가 5분 600원",
+          "hours": "08:00~22:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 287,
+          "walkMin": 4
+        },
+        {
+          "name": "조선호텔앞 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 4,
+          "fee": "추가 5분 600원",
+          "hours": "08:00~22:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 292,
+          "walkMin": 4
+        },
+        {
+          "name": "다동쉼터 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 7,
+          "fee": "기본 5분 500원 · 추가 5분 600원",
+          "hours": "09:00~20:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 304,
+          "walkMin": 5
+        }
+      ]
+    }
   }
 ]
