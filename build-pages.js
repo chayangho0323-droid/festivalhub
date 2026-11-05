@@ -47,8 +47,11 @@ const GA_SNIPPET = `
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-Q3T5H6HSQQ');
-  </script>
-  <!-- Google AdSense (사이트 소유 확인 + 광고 게재) -->
+  </script>`;
+
+// 애드센스 로더 — 2026-11-05 재심사 대응: 모든 페이지가 아니라 "우리가 쓴 내용이 있는 페이지"에만 넣는다.
+// (10/23 축제 "복제된 콘텐츠 화면에 광고·가치 낮은 콘텐츠", 11/2 캠핑 "가치 낮은 콘텐츠" 사유. 얇은 페이지·끝난 행사 데이터 페이지엔 광고도 색인도 없음)
+const ADSENSE_SNIPPET = `
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5951913667078413" crossorigin="anonymous"></script>`;
 
 // 쿠팡 파트너스 링크 목록 — 상품을 늘리려면 여기에 한 줄씩 추가하면 된다.
@@ -253,7 +256,7 @@ let WEATHER = { updated: "", areas: {} };
 try { WEATHER = JSON.parse(fs.readFileSync("weather.json", "utf-8")); } catch {}
 let AIR = { updated: "", areas: {} };
 // ─── 📝 블로그 후기 (fetch-reviews.js → reviews.json: contentid → {at, q, items:[{t,l,d,b,dt}]}) — 펫트립 이식 2026-10-23 ───
-// 네이버 블로그 검색 결과 중 축제 이름이 실제로 들어간 최신 글 3개. 본문은 가져오지 않고 제목·한 줄 요약·링크만.
+// 네이버 블로그 검색 결과 중 축제 이름이 실제로 들어간 최신 글 3개. 제목·글쓴이·날짜·링크만 (2026-11-05: 한 줄 발췌도 '복제된 콘텐츠'라 제거).
 // 축제는 지난해 글이 섞이는 게 오히려 유용("작년엔 어땠나") → 글 날짜가 올해보다 앞이면 "작년 후기" 꼬리표.
 let REVIEWS = { updated: "", places: {} };
 try { REVIEWS = JSON.parse(fs.readFileSync("reviews.json", "utf-8")); } catch {}
@@ -270,7 +273,6 @@ function reviewsHtml(f) {
           ${r.items.map((it) => `<li>
             <a class="blog-review-link" target="_blank" rel="noopener nofollow" href="${esc(it.l)}"><strong>${esc(it.t)}</strong></a>
             <span class="review-meta">${esc(it.b)}${it.dt ? ` · ${fmtPostDate(it.dt)}` : ""}${thisYear && it.dt && it.dt.slice(0, 4) < thisYear ? ` · <em class="review-old">${esc(it.dt.slice(0, 4))}년 후기</em>` : ""}</span>
-            ${it.d ? `<p class="review-desc">${esc(it.d)}…</p>` : ""}
           </li>`).join("")}
         </ul>
         <div class="dir-buttons">
@@ -458,6 +460,12 @@ function buildPage(f, all) {
   // ── 사진 갤러리 ──
   const photos = [...new Set([f.image, ...(f.images || [])])].filter(Boolean);
   const vph = visitorPhotos[String(f.contentid)];
+  // ── 색인·광고 등급 (2026-11-05 애드센스 재심사) ──
+  // own: 축제 이야기·방문자 사진·주최 측 정정 = 우리만 가진 내용. 끝난 축제는 own이 없으면 공공데이터 사본일 뿐이라 색인·광고 모두 제외.
+  // 진행·예정 축제는 own이 없어도 소개가 충분하면(thin 아님) 광고 허용, 소개까지 얇으면 광고 없이 정보만.
+  const own = !!(note || vph || f.corrected);
+  const lowValue = bare || (f._archived && !own);
+  const showAds = !lowValue && (own || !thin);
   if (!photos.length && vph && VP.firstImage(vph)) photos.push(VP.firstImage(vph));
   // 축제 사진이 하나도 없으면 행사장 300m 안 관광지 사진을 "주변 풍경"으로 보여준다 (fetch-festivals.js venuePhoto)
   const useVenue = !photos.length && f.venuePhoto && f.venuePhoto.image;
@@ -682,7 +690,7 @@ function buildPage(f, all) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>${esc(seoTitle)} | FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
-  ${bare ? `<meta name="robots" content="noindex,follow" />` : ""}
+  ${bare ? `<meta name="robots" content="noindex,follow" />` : lowValue ? `<meta name="googlebot" content="noindex,follow" /><!-- 구글만 제외: 네이버 검색 유입(작년 축제 검색)은 유지 -->` : ""}
   <link rel="canonical" href="${SITE_URL}/festival/${f.contentid}.html" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(seoTitle)}" />
@@ -696,7 +704,7 @@ function buildPage(f, all) {
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${showAds ? ADSENSE_SNIPPET : ""}
 </head>
 <body>
   <main class="detail-container">
@@ -725,7 +733,7 @@ function buildPage(f, all) {
       ${weatherHtml(f)}
       ${noteSection}
       ${autoIntro}
-      ${ADFIT_BODY}
+      ${showAds ? ADFIT_BODY : ""}
       <div class="dir-buttons homepage-row">${homepageButton}</div>
       ${guideInline("../")}
       ${VP.galleryHtml(vph, { name: f.name, href: reportMailto(f) })}
@@ -903,7 +911,7 @@ function buildListPage({ filename, title, heading, subtitle, description, items,
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
   <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${ADSENSE_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -1332,7 +1340,7 @@ try {
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
   <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${ADSENSE_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -1418,7 +1426,7 @@ if (shows.length >= 10) {
   <title>${esc(s.name)} — ${esc(s.venue)} ${esc(s.genre)} 일정·예매 | FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
   <link rel="canonical" href="${SITE_URL}/show/${s.id}.html" />
-  ${s.detail ? "" : `<meta name="robots" content="noindex,follow" />`}
+  <meta name="robots" content="noindex,follow" /><!-- 2026-11-05: 공연 상세는 KOPIS 표 데이터뿐이라 색인·광고 제외 (목록 shows.html만 색인) -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(s.name)} — ${esc(s.venue)}" />
   <meta property="og:description" content="${esc(description)}" />
@@ -1455,7 +1463,6 @@ if (shows.length >= 10) {
       ${VP.photoCallHtml({ title: "공연 사진 자랑해 주세요!", text: "이 공연 보고 오셨나요? 커튼콜·공연장 앞 인증샷·포스터 사진을 보내주세요 — <strong>닉네임과 함께</strong> 이 페이지에 올려드려요. (공연 중 촬영은 공연장 규정을 따라 주세요)", href: showReportMailto(s) })}
       ${story}
       ${gallery}
-      ${ADFIT_BODY}
       <section class="map-section"><h2>오시는 길</h2>${hasCoords ? `<div id="map"></div>` : ""}
         <div class="dir-buttons">
           ${hasCoords ? `<a class="dir-btn kakao" target="_blank" rel="noopener" href="https://map.kakao.com/link/to/${encodeURIComponent(s.venue)},${s.lat},${s.lng}">🚗 카카오맵 길찾기</a>` : ""}
@@ -1477,7 +1484,7 @@ if (shows.length >= 10) {
 </body>
 </html>`;
     fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
-    if (s.detail) showFiles.push(`show/${s.id}.html`); // 상세가 채워진 공연만 사이트맵에 (나머지는 noindex, 매일 400건씩 채워짐)
+    // 2026-11-05: 공연 상세는 사이트맵에서 제외 (noindex). 목록 shows.html은 sitemap 상단에서 별도 포함
   }
 
   // 목록 페이지 shows.html — 이번 주 시작 / 장르 칩 / 지역별
@@ -1500,7 +1507,7 @@ if (shows.length >= 10) {
   <link rel="stylesheet" href="style.css" />
   ${FONT_LINK}
   <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${ADSENSE_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -1548,7 +1555,7 @@ function articlePage({ filename, title, desc, icon, bodyHtml }) {
   <meta property="og:description" content="${esc(desc)}" />
   <meta property="og:url" content="${SITE_URL}/${filename}" />
   <link rel="stylesheet" href="style.css" />
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${ADSENSE_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -1643,7 +1650,7 @@ for (const g of GUIDE_PAGES) {
   ${entries[0] ? `<meta property="og:image" content="${esc(VP.firstImage(entries[0].list) || "")}" />` : ""}
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="report.css?v=${BUILD_VER}" />
-  ${GA_SNIPPET}
+  ${GA_SNIPPET}${ADSENSE_SNIPPET}
 </head>
 <body>
   <header class="site-header">
@@ -1750,7 +1757,7 @@ const urls = [
   // 정말 빈 페이지(noindex)는 사이트맵에서도 제외
   ...festivals.filter((f) => !isBarePage(f)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
   // 종료 축제도 사이트맵에 유지 — 색인을 지키고 내년 검색까지 잡는 자산
-  ...archivedFestivals.filter((f) => !isBarePage(f)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`),
+  ...archivedFestivals.filter((f) => !isBarePage(f) && (findFestivalNote(f) || visitorPhotos[String(f.contentid)] || f.corrected)).map((f) => `${SITE_URL}/festival/${f.contentid}.html`), // 2026-11-05: 우리 글이 있는 종료 축제만 (나머지는 noindex)
 ];
 console.log(`ℹ️ noindex(빈 페이지) ${[...festivals, ...archivedFestivals].filter(isBarePage).length}개`);
 const sitemap =
