@@ -1207,6 +1207,120 @@
     }
   },
   {
+    "contentid": "3401306",
+    "name": "김포 해병대 문화축제 in 대명항",
+    "startDate": "20261107",
+    "endDate": "20261107",
+    "address": "경기도 김포시 대곶면 대명항1로 110-36",
+    "lat": "37.6400140918",
+    "lng": "126.5394517250",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/71/4131171_image2_1.jpg",
+    "overview": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회, 군번줄·팔각모 만들기 등 다양한 프로그램이 펼쳐지며, 시민들이 해병대 문화를 직접 보고 느끼며 소통할 수 있는 자리가 마련된다. 또한 수산물직판장 옥상 광장에서는 제철 수산물과 로컬푸드, 셀프 바비큐 등 김포의 먹거리를 즐길 수 있는 '선셋야장'이 함께 운영된다. 해 질 무렵 대명항의 노을을 배경으로 야시장 분위기의 먹거리장터와 버스킹이 이어진다. 낮에는 해병대 문화를, 밤에는 노을과 먹거리를 즐기는 두 가지 테마의 축제를 한 공간에서 모두 만날 수 있는 특별한 시간이다.",
+    "tel": "031-980-5110",
+    "homepage": "https://www.gimpo.go.kr/u/53850",
+    "eventplace": "김포함상공원 및 대명항 일원",
+    "playtime": "11:00~19:00",
+    "usefee": "무료",
+    "sponsor": "김포시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/73/4131173_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/74/4131174_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/72/4131172_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/70/4131170_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "김포 해병대 문화축제 in 대명항은 해병대 제2사단 주둔지라는 지역적 특성을 살려 해병대의 강인한 정신과 전통을 기리는 축제이다. 해병대 장비 전시와 군악대·의장대 공연을 비롯해 강철근육 선발대회, 군번줄·팔각모 만들기 등 다양한 프로그램이 펼쳐지며, 시민들이 해병대 문화를 직접 보고 느끼며 소통할 수 있는 자리가 마련된다. 또한 수산물직판장 옥상 광장에서는 제철 수산물과 로컬푸드, 셀프 바비큐 등 김포의 먹거리를 즐길 수 있는 '선셋야장'이 함께 운영된다. 해 질 무렵 대명항의 노을을 배경으로 야시장 분위기의 먹거리장터와 버스킹이 이어진다. 낮에는 해병대 문화를, 밤에는 노을과 먹거리를 즐기는 두 가지 테마의 축제를 한 공간에서 모두 만날 수 있는 특별한 시간이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 주요 프로그램\n- 해병대 장비 전시 및 체험, 군악대·의장대 공연, 선셋야장(대명항 직판장 옥상) 등\n2. 부대 행사 및 프로그램\n- 군복체험, 군번줄 만들기, 팔각모 만들기, 레이저 사격 체험 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "초지대교",
+        "dist": 1417,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3350618_image2_1.JPG",
+        "addr": "인천광역시 강화군 길상면 초지로 141"
+      },
+      {
+        "name": "정족산",
+        "dist": 5315,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/39/3559339_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상면 온수리"
+      },
+      {
+        "name": "대포서원(김포)",
+        "dist": 8369,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/3350343_image2_1.JPG",
+        "addr": "경기도 김포시 양촌읍 황금로23번길 30-32"
+      },
+      {
+        "name": "월곶면민만세운동유적비",
+        "dist": 8608,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/31/3350331_image2_1.JPG",
+        "addr": "경기도 김포시 월곶면 김포대로 2857-39"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "마레 616",
+        "dist": 903,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2872846_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상면 해안동로 96-29"
+      },
+      {
+        "name": "더 라두",
+        "dist": 937,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/94/2872794_image2_1.jpg",
+        "addr": "인천광역시 강화군 해안동로 112-12"
+      },
+      {
+        "name": "약암육개장",
+        "dist": 1380,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/2853148_image2_1.jpg",
+        "addr": "경기도 김포시 대곶면 약암로 907"
+      },
+      {
+        "name": "황촌집",
+        "dist": 1568,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/83/2853183_image2_1.jpg",
+        "addr": "경기도 김포시 약암로 853"
+      },
+      {
+        "name": "매화마름",
+        "dist": 1856,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2872872_image2_1.jpg",
+        "addr": "인천광역시 강화군 길상로25번길 28"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "대명항",
+          "dist": 482,
+          "walkMin": 7
+        }
+      ],
+      "parking": [
+        {
+          "name": "초지진주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 56,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "032-930-3366",
+          "dist": 1039,
+          "walkMin": 16
+        }
+      ]
+    }
+  },
+  {
     "contentid": "506470",
     "name": "김해분청도자기축제",
     "startDate": "20261106",
@@ -4487,6 +4601,168 @@
     }
   },
   {
+    "contentid": "3555835",
+    "name": "안산사이언스밸리(ASV) 과학축제",
+    "startDate": "20261107",
+    "endDate": "20261108",
+    "address": "경기도 안산시 상록구 한양대학로 55 (사동)",
+    "lat": "37.3001630571",
+    "lng": "126.8377108256",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/13/4133513_image2_1.jpg",
+    "overview": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단체 등과 협력하여 다양한 미래 과학기술을 직접 보고 체험할 수 있는 기회를 제공하는 안산시의 브랜드 축제이다.\n\n특히 올해는 안산시 승격 40주년을 맞아 지역의 과학기술 발전과 미래 비전을 공유하는 특별 프로그램을 마련한다. AI와 로봇 등 첨단 과학기술을 비롯해 환경과 탄소중립을 주제로 한 전시·체험 프로그램, 창의융합 교육, 과학문화공연, 시민 참여형 이벤트 등 다양한 콘텐츠로 구성된다.\n\n과학과 인문, 문화, 예술 등 여러 분야가 융합된 프로그램을 통해 어린이부터 성인까지 누구나 과학을 쉽고 재미있게 경험할 수 있는 축제이다.",
+    "tel": "02-780-6881",
+    "homepage": "https://asv-2026-delta.vercel.app/",
+    "eventplace": "한양대학교 ERICA 캠퍼스",
+    "playtime": "10:00~16:00",
+    "usefee": "무료",
+    "sponsor": "안산시",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/14/4133514_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/43/4133543_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/15/4133515_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/16/4133516_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/17/4133517_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/29/4133529_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/30/4133530_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/31/4133531_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 안산사이언스밸리(ASV) 과학축제는 AI, 로봇 등 미래 과학기술을 한자리에서 만나볼 수 있는 시민 참여형 과학문화축제이다. 안산시가 ASV 유관기관 및 대학, 연구기관, 기업, 재단, 단체 등과 협력하여 다양한 미래 과학기술을 직접 보고 체험할 수 있는 기회를 제공하는 안산시의 브랜드 축제이다.\n\n특히 올해는 안산시 승격 40주년을 맞아 지역의 과학기술 발전과 미래 비전을 공유하는 특별 프로그램을 마련한다. AI와 로봇 등 첨단 과학기술을 비롯해 환경과 탄소중립을 주제로 한 전시·체험 프로그램, 창의융합 교육, 과학문화공연, 시민 참여형 이벤트 등 다양한 콘텐츠로 구성된다.\n\n과학과 인문, 문화, 예술 등 여러 분야가 융합된 프로그램을 통해 어린이부터 성인까지 누구나 과학을 쉽고 재미있게 경험할 수 있는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램 :  미래과학기술 체험 및 전시 부스 90여종\n2. 부대프로그램 : 과학토크콘서트, 과학문화공연, 로봇공연, 페이스페인팅, 삐에로 풍선아트\n3. 소비자 참여 프로그램 :  스탬프 투어 이벤트\n4. 기타 내용 : AI바둑로봇 체험, 케이팝 로봇 헌터스, 휴머노이드 조종 미션, 랜덤스틱잡기로봇 체험, 즐거운 AI로봇 조종 체험, 증강현실 스마트놀이터, 드론 시뮬레이터 체험, 태양열 자동차, GOGO씽! 고카트, 섬유 속 숨은 과학찾기, 기상기후 놀이터, AR 피구, 탑승형 로봇, AI포토존 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "댕이골 전통음식거리",
+        "dist": 732,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/3398280_image2_1.jpg",
+        "addr": "경기도 안산시 상록구 댕이길 84-2"
+      },
+      {
+        "name": "4.16희망목공소(4.16희망목공협동조합)",
+        "dist": 4838,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/67/2698667_image2_1.bmp",
+        "addr": "경기도 안산시 단원구 순환로 416"
+      },
+      {
+        "name": "안산 다문화특구",
+        "dist": 5301,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/17/1987317_image2_1.jpg",
+        "addr": "경기도 안산시 단원구 다문화길 16"
+      },
+      {
+        "name": "영각사(시흥)",
+        "dist": 7243,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3560846_image2_1.jpg",
+        "addr": "경기도 시흥시 영각사길 52 (군자동)"
+      },
+      {
+        "name": "진주목장 낙농체험",
+        "dist": 7507,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3396512_image2_1.JPG",
+        "addr": "경기도 화성시 비봉면 일묵동길 24"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "더스크커피랩",
+        "dist": 142,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3442852_image2_1.jpg",
+        "addr": "경기도 안산시 상록구 성안길 76 (사동)"
+      },
+      {
+        "name": "묵커피바",
+        "dist": 217,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3452912_image2_1.jpg",
+        "addr": "경기도 안산시 상록구 성안1길 25 (사동)"
+      },
+      {
+        "name": "신중한커피",
+        "dist": 805,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/93/2792393_image2_1.JPG",
+        "addr": "경기도 안산시 상록구 댕이길 1-1 (사동)"
+      },
+      {
+        "name": "담양죽순추어탕",
+        "dist": 862,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/26/3427626_image2_1.jpg",
+        "addr": "경기도 안산시 상록구 석호로 102 (사동)"
+      },
+      {
+        "name": "영의정",
+        "dist": 1143,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/2848619_image2_1.jpeg",
+        "addr": "경기도 안산시 단원구 광덕대로 138 (고잔동)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "한대앞역",
+        "lines": [
+          "안산과천선",
+          "수인선"
+        ],
+        "dist": 1764,
+        "walkMin": 26
+      },
+      "stops": [
+        {
+          "name": "한양대",
+          "dist": 50,
+          "walkMin": 1
+        },
+        {
+          "name": "한양대입구",
+          "dist": 71,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "사동 120호",
+          "se": "공영",
+          "type": "노외",
+          "cap": 26,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-481-2974",
+          "dist": 741,
+          "walkMin": 11
+        },
+        {
+          "name": "상록구청부설주차장",
+          "se": "공영",
+          "type": "부설",
+          "cap": 400,
+          "fee": "무료",
+          "hours": "08:00~19:00",
+          "days": "평일",
+          "tel": "031-481-2974",
+          "dist": 780,
+          "walkMin": 12
+        },
+        {
+          "name": "사동 121호",
+          "se": "공영",
+          "type": "노외",
+          "cap": 32,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "031-481-2974",
+          "dist": 897,
+          "walkMin": 13
+        }
+      ]
+    }
+  },
+  {
     "contentid": "293030",
     "name": "안성 남사당바우덕이 풍물단 상설 공연 ‘곰뱅이텄다’",
     "startDate": "20260404",
@@ -5162,6 +5438,165 @@
           "tel": "033-440-2365",
           "dist": 625,
           "walkMin": 9
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "2613615",
+    "name": "영주 사과축제",
+    "startDate": "20261113",
+    "endDate": "20261115",
+    "address": "서울 중구 태평로1가 1",
+    "lat": "37.5690746935",
+    "lng": "126.9775921210",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image2_1.jpg",
+    "overview": "2026 영주사과축제는 영주의 맑은 자연 속에서 자란 최고 품질의 영주 사과를 오감으로 즐기는 가을 축제로, 올해 영주사과축제는 영주 사과의 맛과 매력을 산지와 도심에서 동시에 전한다. 10월 30일부터 11월 1일까지 부석면 미로공원 일원에서 열리며, 11월 13일부터 15일까지는 서울 청계광장에서도 행사가 펼쳐진다. 영주 사과는 일교차가 크고 풍부한 햇살을 받아 당도가 높고 식감이 아삭한 것이 특징이다. 축제 현장에서는 여러 체험프로그램, 다양한 품종 전시, 사과 판매 장터가 열린다. 다채로운 시식 행사, 문화 공연도 함께 준비된다. 방문객들은 유네스코 세계유산인 부석사와 함께 가을 풍경을 만끽할 수 있다. 산지 직송의 신선함과 신나는 공연 및 이벤트가 어우러져 남녀노소 모두에게 즐거운 추억을 선사하는 풍성한 결실의 장이다. 영주의 유수한 가을 풍경은 물론 서울 도심 한복판에서도 최고 품질의 영주 사과와 풍성한 즐길 거리를 오감으로 체험할 수 있는 절호의 기회이다.",
+    "tel": "054-630-8706",
+    "homepage": "https://yctf.or.kr/aspf/",
+    "eventplace": "서울시 청계광장",
+    "playtime": "10:00~19:00",
+    "usefee": "무료(일부 체험프로그램 유료)",
+    "sponsor": "영주문화관광재단",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/75/4139575_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/81/4139581_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/85/4139585_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/73/4139573_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/72/4139572_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/71/4139571_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2026 영주사과축제는 영주의 맑은 자연 속에서 자란 최고 품질의 영주 사과를 오감으로 즐기는 가을 축제로, 올해 영주사과축제는 영주 사과의 맛과 매력을 산지와 도심에서 동시에 전한다. 10월 30일부터 11월 1일까지 부석면 미로공원 일원에서 열리며, 11월 13일부터 15일까지는 서울 청계광장에서도 행사가 펼쳐진다. 영주 사과는 일교차가 크고 풍부한 햇살을 받아 당도가 높고 식감이 아삭한 것이 특징이다. 축제 현장에서는 여러 체험프로그램, 다양한 품종 전시, 사과 판매 장터가 열린다. 다채로운 시식 행사, 문화 공연도 함께 준비된다. 방문객들은 유네스코 세계유산인 부석사와 함께 가을 풍경을 만끽할 수 있다. 산지 직송의 신선함과 신나는 공연 및 이벤트가 어우러져 남녀노소 모두에게 즐거운 추억을 선사하는 풍성한 결실의 장이다. 영주의 유수한 가을 풍경은 물론 서울 도심 한복판에서도 최고 품질의 영주 사과와 풍성한 즐길 거리를 오감으로 체험할 수 있는 절호의 기회이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 판매 및 시식행사 \n- 애플팜 마켓존: 영주사과 판매 및 시식  \n\n2. 영주 사과 홍보관 운영 \n- 애플하우스: 영주 사과 품종 전시, 전문 프로모터 운영  \n\n3. 체험프로그램 \n- 키캡 만들기, 사과풍선만들기, 한복체험, 인생네컷  \n\n4. 레크레이션 \n -데굴데굴 사과굴리기 게임"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "경성 부민관 폭탄 의거지",
+        "dist": 182,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3077530_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 125 (태평로1가)"
+      },
+      {
+        "name": "충무공 이순신 동상",
+        "dist": 228,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/45/3590045_image2_1.jpg",
+        "addr": "서울특별시 종로구 세종로"
+      },
+      {
+        "name": "대한성공회 서울주교좌성당",
+        "dist": 230,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/54/3568354_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로21길 15 (정동)"
+      },
+      {
+        "name": "서울 종로 낙지볶음 골목",
+        "dist": 291,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/3478546_image2_1.jpg",
+        "addr": "서울특별시 종로구 종로 19 (종로1가)"
+      },
+      {
+        "name": "세종대왕 동상",
+        "dist": 435,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3590038_image2_1.jpg",
+        "addr": "서울특별시 종로구 세종로"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "디라이프스타일키친 광화문점",
+        "dist": 89,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2853904_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 136 파이낸스빌딩"
+      },
+      {
+        "name": "붓처스컷 광화문점",
+        "dist": 89,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2853980_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 136 (태평로1가)"
+      },
+      {
+        "name": "오양회참치",
+        "dist": 178,
+        "image": "",
+        "addr": "서울특별시 중구 세종대로21길 49 (태평로1가)"
+      },
+      {
+        "name": "동해도 광화문",
+        "dist": 189,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/2789532_image2_1.jpg",
+        "addr": "서울특별시 중구 무교로 28 (무교동)"
+      },
+      {
+        "name": "이북만두",
+        "dist": 215,
+        "image": "",
+        "addr": "서울특별시 중구 무교로 17-13 (무교동)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "광화문(세종문화회관)",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 300,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "청계광장",
+          "dist": 55,
+          "walkMin": 1
+        },
+        {
+          "name": "광화문",
+          "dist": 64,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "뉴국제호텔앞 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 19,
+          "fee": "기본 5분 600원 · 추가 5분 600원",
+          "hours": "08:00~22:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "서울글로벌센터",
+          "se": "공영",
+          "type": "노외",
+          "cap": 44,
+          "fee": "기본 5분 700원 · 추가 5분 700원",
+          "hours": "09:00~18:00",
+          "days": "평일",
+          "tel": "02-720-9862",
+          "dist": 353,
+          "walkMin": 5
+        },
+        {
+          "name": "다동쉼터 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 7,
+          "fee": "기본 5분 500원 · 추가 5분 600원",
+          "hours": "09:00~20:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 242,
+          "walkMin": 4
         }
       ]
     }
@@ -7008,159 +7443,6 @@
           "tel": "054-870-6144",
           "dist": 273,
           "walkMin": 4
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "506627",
-    "name": "최남단방어축제",
-    "startDate": "20261119",
-    "endDate": "20261122",
-    "address": "제주특별자치도 서귀포시 대정읍 최남단해안로 66",
-    "lat": "33.2144983016",
-    "lng": "126.2520492078",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/12/4141112_image2_1.jpg",
-    "overview": "‘제주의 바다와 땅, 그리고 사람’을 하나로 잇는 축제로서 청정 제주 바다가 만들어 낸 겨울의 풍미 방어와 마늘·감자 등 지역특산물의 우수성을 하나의 축제로 연결하여 브랜드 가치를 높이고, 관광객 유입과 소비 확대로 지역경제를 활성화한다. 주민과 관광객이 함께 참여하고 즐기는 체험·문화·공연 프로그램으로 세대와 지역을 넘어선 화합의 장을 마련함으로써 대한민국 최남단이라는 지역의 상징성을 부각시키고 차별화된 콘텐츠로 지역 브랜드 가치를 높여 ‘최남단 방어축제’를 대한민국 대표 해양수산 관광축제로 육성바다에서 시작해 마을로 이어지고, 축제의 즐거움이 지역경제의 활력으로 이어지는 최남단 방어축제 이다.",
-    "tel": "064-794-8032",
-    "homepage": "http://www.bangeofestival.com",
-    "eventplace": "서귀포시 대정읍 모슬포항 일원",
-    "playtime": "10:00~17:00",
-    "usefee": "무료",
-    "sponsor": "최남단방어축제위원회",
-    "images": [
-      "https://tong.visitkorea.or.kr/cms/resource/08/4141108_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/14/4141114_image2_1.png",
-      "https://tong.visitkorea.or.kr/cms/resource/06/4141106_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/09/4141109_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/04/4141104_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/13/4141113_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/10/4141110_image2_1.jpg",
-      "https://tong.visitkorea.or.kr/cms/resource/05/4141105_image2_1.jpg"
-    ],
-    "extraInfo": [
-      {
-        "name": "행사소개",
-        "text": "‘제주의 바다와 땅, 그리고 사람’을 하나로 잇는 축제로서 청정 제주 바다가 만들어 낸 겨울의 풍미 방어와 마늘·감자 등 지역특산물의 우수성을 하나의 축제로 연결하여 브랜드 가치를 높이고, 관광객 유입과 소비 확대로 지역경제를 활성화한다. 주민과 관광객이 함께 참여하고 즐기는 체험·문화·공연 프로그램으로 세대와 지역을 넘어선 화합의 장을 마련함으로써 대한민국 최남단이라는 지역의 상징성을 부각시키고 차별화된 콘텐츠로 지역 브랜드 가치를 높여 ‘최남단 방어축제’를 대한민국 대표 해양수산 관광축제로 육성바다에서 시작해 마을로 이어지고, 축제의 즐거움이 지역경제의 활력으로 이어지는 최남단 방어축제 이다."
-      },
-      {
-        "name": "행사내용",
-        "text": "- 방어맨손잡기, 어린이 방어맨손잡기 \n- 관람객과 함께하는 방어경매 \n- 가두리 방어 낚시체험 \n- 길트기(퍼레이드) \n- 방어회 무료시식 및 방어 할인판매 \n- 다양한 무대행사(지역가수, 지역공연팀, 초대가수) \n- 방어가요제 \n- 방어먹방대회 \n- 해녀노래자랑 및 해녀공연 \n- 방어를 활용한 황금열쇠를 잡아라 게임 체험 \n- 119 소방체험 \n- 다양한 포토존 운영 \n- 향토음식점 운영 \n- 폐막식 희망의 불꽃놀이"
-      }
-    ],
-    "nearbySpots": [
-      {
-        "name": "마라도 가파도 정기여객선",
-        "dist": 746,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/79/3552479_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 최남단해안로 120"
-      },
-      {
-        "name": "운진항",
-        "dist": 784,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3551609_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 하모리"
-      },
-      {
-        "name": "하모해변",
-        "dist": 835,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/22/3391622_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 하모리"
-      },
-      {
-        "name": "동일리포구",
-        "dist": 1617,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/01/3552201_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 동일하모로98번길 14-32"
-      },
-      {
-        "name": "섯알오름",
-        "dist": 2861,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/62/3383862_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 상모리 1618"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "부두식당 / (주)부두식당",
-        "dist": 491,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/95/2758895_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 하모항구로 62"
-      },
-      {
-        "name": "글라글라하와이",
-        "dist": 571,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/39/2843739_image2_1.png",
-        "addr": "제주특별자치도 서귀포시 대정읍 하모항구로 70"
-      },
-      {
-        "name": "M1971 카페 엠브릿지",
-        "dist": 662,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/98/2877798_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 최남단해안로 128"
-      },
-      {
-        "name": "와토커피",
-        "dist": 1284,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/30/2843930_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 동일하모로 238"
-      },
-      {
-        "name": "검은노루",
-        "dist": 1353,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/69/2873669_image2_1.jpg",
-        "addr": "제주특별자치도 서귀포시 대정읍 상모로 257"
-      }
-    ],
-    "transit": {
-      "stops": [
-        {
-          "name": "모슬포항",
-          "dist": 225,
-          "walkMin": 3
-        },
-        {
-          "name": "하모체육공원",
-          "dist": 441,
-          "walkMin": 7
-        }
-      ],
-      "parking": [
-        {
-          "name": "하모리 홍마트 북측 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 11,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-4092",
-          "dist": 622,
-          "walkMin": 9
-        },
-        {
-          "name": "하모리 삼성의원 앞 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 6,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 657,
-          "walkMin": 10
-        },
-        {
-          "name": "하모리 제주은행 맞은편 공영주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 17,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "064-760-3138",
-          "dist": 758,
-          "walkMin": 11
         }
       ]
     }
@@ -11751,8 +12033,8 @@
   {
     "contentid": "4113301",
     "name": "2026 렉키의 수상한 피크닉",
-    "startDate": "20261113",
-    "endDate": "20261114",
+    "startDate": "20261114",
+    "endDate": "20261115",
     "address": "경상남도 창원시 마산합포구 돝섬1길 275 (월영동)",
     "lat": "35.1782828634",
     "lng": "128.5809535308",
@@ -17258,10 +17540,9 @@
     "lat": "35.100209",
     "lng": "129.032278",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/41/3406741.jpg",
-      "name": "용두산공원",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 이병현"
+      "image": "http://tong.visitkorea.or.kr/cms/resource/24/3049224_image2_1.JPG",
+      "name": "관수옥과 초량왜관 터",
+      "dist": 56
     },
     "image": "",
     "overview": "시민의종 타종+문화공연",
@@ -18294,10 +18575,10 @@
     "lat": "37.88953876",
     "lng": "126.7401859",
     "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/49/2715649.jpg",
-      "name": "임진각 평화 곤돌라",
+      "image": "https://tong.visitkorea.or.kr/cms2/website/56/4135156.jpg",
+      "name": "임진각 관광지",
       "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 한국관광공사 이범수"
+      "credit": "한국관광공사 포토코리아 · 촬영 이지윤"
     },
     "image": "",
     "overview": "파주장단콩 전시 및 판매+농특산물 홍보 및 판매+각종 공연+체험행사 등",
@@ -19276,12 +19557,7 @@
     "address": "충청북도 보은군 보은읍 교사삼산길 20-4",
     "lat": "36.532721",
     "lng": "127.8248196",
-    "venuePhoto": {
-      "image": "https://tong.visitkorea.or.kr/cms2/website/48/3590748.jpg",
-      "name": "보은 법주사",
-      "dist": null,
-      "credit": "한국관광공사 포토코리아 · 촬영 이효직"
-    },
+    "venuePhoto": null,
     "image": "",
     "overview": "속리산 전통문화 보존과 지역경제 활성화를 위한 축제개최",
     "tourOverview": "",
@@ -20115,7 +20391,12 @@
     "address": "충청남도 당진시 면천면 동문1길 3",
     "lat": "",
     "lng": "",
-    "venuePhoto": null,
+    "venuePhoto": {
+      "image": "https://tong.visitkorea.or.kr/cms2/website/63/4135763.jpg",
+      "name": "당진 면천읍성",
+      "dist": null,
+      "credit": "한국관광공사 포토코리아 · 촬영 김지호"
+    },
     "image": "",
     "overview": "공연+체험",
     "tourOverview": "",

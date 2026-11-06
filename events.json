@@ -572,45 +572,6 @@
     "homepage": "http://www.ucf.or.kr"
   },
   {
-    "name": "제68회 충북예술제",
-    "startDate": "20261029",
-    "endDate": "20261105",
-    "time": "09:00~22:00",
-    "place": "제4전시실외3건",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제 68회 충북예술제",
-    "startDate": "20261029",
-    "endDate": "20261105",
-    "time": "09:00~22:00",
-    "place": "소2전시실외2건",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제 68회 충북예술제",
-    "startDate": "20261030",
-    "endDate": "20261105",
-    "time": "09:00~22:00",
-    "place": "대공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "무료",
-    "desc": "기타",
-    "tel": "",
-    "host": "충북예총",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
     "name": "2025 내일의 작가 대상 수상자전 <이혜진 개인전>",
     "startDate": "20261030",
     "endDate": "20261126",
@@ -650,19 +611,6 @@
     "homepage": "https://www.osan.go.kr/main.do"
   },
   {
-    "name": "김지안 전시",
-    "startDate": "20261101",
-    "endDate": "20261105",
-    "time": "10:00~17:00",
-    "place": "광양문화예술회관",
-    "address": "전남광주통합특별시 광양시 광양읍 향교길 9-30",
-    "charge": "무료",
-    "desc": "전시",
-    "tel": "",
-    "host": "김지안",
-    "homepage": ""
-  },
-  {
     "name": "2026 윤이상국제음악콩구르",
     "startDate": "20261101",
     "endDate": "20261108",
@@ -700,71 +648,6 @@
     "tel": "",
     "host": "한국사진작가협회 영등포지부",
     "homepage": ""
-  },
-  {
-    "name": "아티스트 IN 과천 - 팔도거리 풍류",
-    "startDate": "20261105",
-    "endDate": "20261105",
-    "time": "19:00~20:10",
-    "place": "과천시민회관 소극장",
-    "address": "경기도 과천시 통영로 5",
-    "charge": "무료",
-    "desc": "전통예술",
-    "tel": "02-2009-9736",
-    "host": "한뫼국악예술단",
-    "homepage": "https://www.gcart.or.kr"
-  },
-  {
-    "name": "해설음악회<세상의 모든 음악: 영국>",
-    "startDate": "20261105",
-    "endDate": "20261105",
-    "time": "19:30~21:30",
-    "place": "부천아트센터 콘서트홀",
-    "address": "경기도 부천시 원미구 소향로 165",
-    "charge": "유료",
-    "desc": "부천시립합창단 연주회",
-    "tel": "032-327-7523",
-    "host": "부천시립예술단",
-    "homepage": "https://www.bucheonphil.or.kr/"
-  },
-  {
-    "name": "KBS 전국투어콘서트(고령편)",
-    "startDate": "20261105",
-    "endDate": "20261105",
-    "time": "19:00~22:00",
-    "place": "대가야문화누리",
-    "address": "경상북도 고령군 대가야읍 왕릉로 30",
-    "charge": "무료",
-    "desc": "군립가야금 공연",
-    "tel": "",
-    "host": "KBS·경상북도 고령군 문화유산과",
-    "homepage": ""
-  },
-  {
-    "name": "찾아가는 연주회 <팽성가을축제>",
-    "startDate": "20261105",
-    "endDate": "20261105",
-    "time": "19:00~19:20",
-    "place": "팽성초등학교 강당",
-    "address": "경기도 평택시 팽성읍 송화2길 2",
-    "charge": "무료",
-    "desc": "국악",
-    "tel": "031-669-0854",
-    "host": "평택시문화재단",
-    "homepage": ""
-  },
-  {
-    "name": "로비콘서트Ⅶ : Shall we dance?",
-    "startDate": "20261105",
-    "endDate": "20261105",
-    "time": "14:00~15:00",
-    "place": "수성아트피아 로비",
-    "address": "대구광역시 수성구 무학로 180",
-    "charge": "무료",
-    "desc": "음악회",
-    "tel": "053-668-1800",
-    "host": "수성아트피아",
-    "homepage": "http://www.ssartpia.kr"
   },
   {
     "name": "남이장군사당제",

@@ -9030,5 +9030,117 @@
     "lng": 127.425147,
     "tel": "",
     "homepage": ""
+  },
+  "FC004937": {
+    "name": "FLAC",
+    "address": "서울특별시 용산구 이태원로27가길 5 (이태원동)",
+    "lat": 37.534975,
+    "lng": 126.994987,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC003249": {
+    "name": "한예극장",
+    "address": "서울특별시 종로구 이화장길 66(동숭동)",
+    "lat": 37.5782086,
+    "lng": 127.0047187,
+    "tel": "02-3665-6268",
+    "homepage": "https://hanye.modoo.at/"
+  },
+  "FC000070": {
+    "name": "호원아트홀",
+    "address": "서울특별시 강동구 성안로 30 (성내동)",
+    "lat": 37.5262867,
+    "lng": 127.1303173,
+    "tel": "02-482-8794",
+    "homepage": "http://blog.naver.com/enter_pf"
+  },
+  "FC002034": {
+    "name": "2D Hall(이디홀)",
+    "address": "제주특별자치도 제주시 도공로 54 (도두일동)",
+    "lat": 33.5018778,
+    "lng": 126.4659855,
+    "tel": "064-702-1999",
+    "homepage": "https://2dhall.modoo.at/"
+  },
+  "FC001950": {
+    "name": "대진대학교",
+    "address": "경기도 포천시 호국로 1007 (선단동)",
+    "lat": 37.8734346,
+    "lng": 127.1573986,
+    "tel": "031-539-1114",
+    "homepage": "http://www.daejin.ac.kr/index.do?sso=ok"
+  },
+  "FC005174": {
+    "name": "Small but great",
+    "address": "서울특별시 종로구 필운대로7길 12 (옥인동)",
+    "lat": 37.581596,
+    "lng": 126.967857,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004635": {
+    "name": "남북통합문화센터",
+    "address": "서울특별시 강서구 마곡서1로 56 (마곡동)",
+    "lat": 37.561762,
+    "lng": 126.821114,
+    "tel": "",
+    "homepage": "https://uniculture.unikorea.go.kr/mpage"
+  },
+  "FC001140": {
+    "name": "에저또소극장 [부산]",
+    "address": "부산광역시 남구 수영로293번길 42 (대연동)",
+    "lat": 35.1431981,
+    "lng": 129.09650169999998,
+    "tel": "051-852-9161",
+    "homepage": "https://cafe.daum.net/ejotto"
+  },
+  "FC000558": {
+    "name": "북촌나래홀",
+    "address": "서울특별시 종로구 창덕궁길 29 - 38",
+    "lat": 37.5788502465793,
+    "lng": 126.988448176969,
+    "tel": "02-988-2258",
+    "homepage": ""
+  },
+  "FC004657": {
+    "name": "홍천종합체육관",
+    "address": "강원특별자치도 홍천군 홍천읍 태학여내길 22",
+    "lat": 37.708693,
+    "lng": 127.908122,
+    "tel": "",
+    "homepage": "https://www.hongcheon.go.kr/www/contents.do?key=399"
+  },
+  "FC003798": {
+    "name": "알레스 아트(Alles-Art)",
+    "address": "제주특별자치도 제주시 애월읍 중산간서로 5397",
+    "lat": 33.4320693,
+    "lng": 126.3205174,
+    "tel": "010-9687-6055",
+    "homepage": ""
+  },
+  "FC005023": {
+    "name": "리치버번 [시흥]",
+    "address": "경기도 시흥시 삼미시장3길 46 (신천동)",
+    "lat": 37.440966,
+    "lng": 126.780306,
+    "tel": "",
+    "homepage": "https://www.instagram.com/richbourbon"
+  },
+  "FC004720": {
+    "name": "리오아트 아뜰리에",
+    "address": "인천광역시 연수구 센트럴로 232 (송도동, 더샵센트럴파크1)",
+    "lat": 37.396779,
+    "lng": 126.636933,
+    "tel": "",
+    "homepage": "https://youtube.com/@RioART.atelier"
+  },
+  "FC000787": {
+    "name": "강남구민회관",
+    "address": "서울특별시 강남구 삼성로 154 (대치동)",
+    "lat": 37.493823,
+    "lng": 127.06421320000004,
+    "tel": "02-2176-0891",
+    "homepage": "https://cna.gncity.or.kr/center/findcenterall.aspx?center=100014"
   }
 }
