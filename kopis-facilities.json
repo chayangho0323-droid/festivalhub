@@ -9142,5 +9142,37 @@
     "lng": 127.06421320000004,
     "tel": "02-2176-0891",
     "homepage": "https://cna.gncity.or.kr/center/findcenterall.aspx?center=100014"
+  },
+  "FC000060": {
+    "name": "달성문화센터",
+    "address": "대구광역시 달성군 다사읍 대실역북로2길 188 달성문화센터",
+    "lat": 35.8655728,
+    "lng": 128.46079140000006,
+    "tel": "053-659-4200",
+    "homepage": "http://dsculture.or.kr/"
+  },
+  "FC004933": {
+    "name": "죽도피아노살롱",
+    "address": "경상북도 포항시 북구 중흥로322번길 7-6 (죽도동)",
+    "lat": 36.030561,
+    "lng": 129.365387,
+    "tel": "",
+    "homepage": "https://blog.naver.com/jukdo_salons"
+  },
+  "FC003571": {
+    "name": "리조이스 스튜디오",
+    "address": "서울특별시 강남구 강남대로 480 (논현동)",
+    "lat": 37.5052903,
+    "lng": 127.0245552,
+    "tel": "02-540-2524",
+    "homepage": "http://www.rejoicestudio.co.kr/site/"
+  },
+  "FC001083": {
+    "name": "광주아트홀",
+    "address": "전남광주통합특별시 동구 중앙로160번길 22 (황금동)",
+    "lat": 35.146874,
+    "lng": 126.91517539999995,
+    "tel": "062-227-7440",
+    "homepage": "http://gwangjuarthall.com/"
   }
 }
