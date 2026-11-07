@@ -27,10 +27,10 @@
   "final": "https://www.garak.co.kr/homepage/landing.do"
  },
  "https://www.kh.or.kr/short/g6cX": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-04T00:24:19.978Z",
-  "error": "fetch failed"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-07T23:19:47.614Z",
+  "final": "https://www.kh.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=110615&searchCategory1=600&searchCategory2=617&searchCategory3=&searchCategory6=&searchField=all&searchDate=202609&weekSel=&searchType=&year=2026&month=09&searchText="
  },
  "https://gsctf.or.kr/": {
   "state": "ok",
@@ -247,7 +247,7 @@
  "http://iksan-treasure.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-04T00:24:19.978Z",
+  "checkedAt": "2026-11-07T23:19:47.614Z",
   "error": "fetch failed"
  },
  "https://www.buanmasil.com/buansunset/main.php": {
@@ -1236,7 +1236,7 @@
  "https://www.creatorfesta.co.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-04T00:24:19.978Z",
+  "checkedAt": "2026-11-07T23:19:47.614Z",
   "error": "20"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1375&": {
@@ -3013,7 +3013,7 @@
  "https://wj.nonghyup.com/": {
   "state": "unknown",
   "status": 400,
-  "checkedAt": "2026-10-31T23:01:29.075Z"
+  "checkedAt": "2026-11-07T23:19:47.614Z"
  },
  "https://www.mamf.co.kr/": {
   "state": "ok",
@@ -3197,7 +3197,7 @@
  "https://tour.muan.go.kr/tour/festival/yd_festival/introduce": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-10-31T23:01:29.075Z"
+  "checkedAt": "2026-11-07T23:19:47.614Z"
  },
  "https://www.instagram.com/cc_youngmic": {
   "state": "unknown",
