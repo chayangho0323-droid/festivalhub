@@ -1426,7 +1426,7 @@ if (shows.length >= 10) {
   <title>${esc(s.name)} — ${esc(s.venue)} ${esc(s.genre)} 일정·예매 | FestivalHub</title>
   <meta name="description" content="${esc(description)}" />
   <link rel="canonical" href="${SITE_URL}/show/${s.id}.html" />
-  <meta name="robots" content="noindex,follow" /><!-- 2026-11-05: 공연 상세는 KOPIS 표 데이터뿐이라 색인·광고 제외 (목록 shows.html만 색인) -->
+  <meta name="googlebot" content="noindex,follow" /><!-- 2026-11-10: 구글만 색인 제외(애드센스 "가치 낮은 콘텐츠" 대응). 네이버는 유지 — 11/3~9 뽀로로·시카고 공연 페이지가 조회 2·4위 -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="${esc(s.name)} — ${esc(s.venue)}" />
   <meta property="og:description" content="${esc(description)}" />
@@ -1484,7 +1484,7 @@ if (shows.length >= 10) {
 </body>
 </html>`;
     fs.writeFileSync(path.join(showDir, `${s.id}.html`), html, "utf-8");
-    // 2026-11-05: 공연 상세는 사이트맵에서 제외 (noindex). 목록 shows.html은 sitemap 상단에서 별도 포함
+    showFiles.push(`show/${s.id}.html`); // 2026-11-10: sitemap.xml(구글 제출)엔 안 넣고 sitemap-shows.xml(네이버 서치어드바이저에만 제출, robots.txt에 미기재)로 분리
   }
 
   // 목록 페이지 shows.html — 이번 주 시작 / 장르 칩 / 지역별
@@ -1749,7 +1749,6 @@ const urls = [
   `${SITE_URL}/privacy.html`,
   `${SITE_URL}/weekend.html`,
   ...guideFiles.map((gf) => `${SITE_URL}/${gf}`),
-  ...showFiles.map((sf) => `${SITE_URL}/${sf}`),
   ...(hasEventsPage ? [`${SITE_URL}/events.html`] : []),
   ...monthFiles.map((mf) => `${SITE_URL}/${mf}`),
   ...themeFiles.map((tf) => `${SITE_URL}/${tf}`),
@@ -1767,6 +1766,9 @@ const sitemap =
   `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap, "utf-8");
 console.log(`✅ sitemap.xml 생성 (${urls.length}개 주소)`);
+// sitemap-shows.xml — 공연 상세 전용. 네이버 서치어드바이저에만 제출(robots.txt·구글엔 알리지 않음). 구글은 googlebot noindex라 제외 대상.
+fs.writeFileSync("sitemap-shows.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` + showFiles.map((sf) => `  <url><loc>${SITE_URL}/${sf}</loc><lastmod>${today}</lastmod></url>`).join("\n") + `\n</urlset>\n`, "utf-8");
+console.log(`✅ sitemap-shows.xml (공연 ${showFiles.length}개, 네이버 전용)`);
 
 // ── sitemap-core.xml: 핵심 페이지만 담은 작은 사이트맵 (2026-11-03, 구글 색인 우선순위용) ──
 // 전체 sitemap.xml은 3,700쪽이라 구글이 우선순위를 못 잡는다 → 허브·가이드·이야기/사진/정정/추천이 붙은 상세만 따로 제출
