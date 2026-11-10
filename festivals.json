@@ -1487,6 +1487,118 @@
     }
   },
   {
+    "contentid": "3301415",
+    "name": "무안 YD 페스티벌",
+    "startDate": "20261120",
+    "endDate": "20261122",
+    "address": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16",
+    "lat": "34.8111428583",
+    "lng": "126.4628109019",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/08/4131308_image2_1.JPG",
+    "overview": "무안YD페스티벌은 청년들의 문화 참여와 소통을 위해 무안군에서 개최하는 청년문화 축제이다. 2026년 제6회 무안YD페스티벌은 11월 20일부터 22일까지 3일간 무안군 삼향읍 남악중앙공원에서 개최되며, 올해 주제는 ‘PLAY YD’이다. 청년들이 다양한 문화 콘텐츠를 직접 즐기고 참여할 수 있도록 공연, 체험, 참여형 프로그램 등으로 구성하며, 청년들의 꿈과 끼를 펼칠 수 있는 기회와 청년 간 교류·소통의 장을 제공한다. 지역 청년을 비롯해 군민과 관광객이 함께 참여할 수 있는 프로그램을 운영하고, 청년문화에 대한 관심과 참여 기회를 확대하는 행사이다. 또한 청년도시 무안의 청년문화와 지역의 다양한 매력을 알리고, 청년들이 함께 어울리며 문화를 즐길 수 있는 공간을 마련하기 위해 추진하는 축제이다.",
+    "tel": "061-450-5474",
+    "homepage": "https://tour.muan.go.kr/tour/festival/yd_festival/introduce",
+    "eventplace": "남악중앙공원",
+    "playtime": "09:00~22:00",
+    "usefee": "무료(일부 프로그램 유료)",
+    "sponsor": "무안군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/05/4131305_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/06/4131306_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/07/4131307_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/03/4131303_image2_1.JPG",
+      "https://tong.visitkorea.or.kr/cms/resource/04/4131304_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "무안YD페스티벌은 청년들의 문화 참여와 소통을 위해 무안군에서 개최하는 청년문화 축제이다. 2026년 제6회 무안YD페스티벌은 11월 20일부터 22일까지 3일간 무안군 삼향읍 남악중앙공원에서 개최되며, 올해 주제는 ‘PLAY YD’이다. 청년들이 다양한 문화 콘텐츠를 직접 즐기고 참여할 수 있도록 공연, 체험, 참여형 프로그램 등으로 구성하며, 청년들의 꿈과 끼를 펼칠 수 있는 기회와 청년 간 교류·소통의 장을 제공한다. 지역 청년을 비롯해 군민과 관광객이 함께 참여할 수 있는 프로그램을 운영하고, 청년문화에 대한 관심과 참여 기회를 확대하는 행사이다. 또한 청년도시 무안의 청년문화와 지역의 다양한 매력을 알리고, 청년들이 함께 어울리며 문화를 즐길 수 있는 공간을 마련하기 위해 추진하는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "1. 메인프로그램 : 개막퍼레이드, 축하콘서트, 길거리 농구대회 등\n2. 부대프로그램 : 국화 전시, 농수특산물 판매, 청년 참여 프로그램 등\n3. 소비자 참여 프로그램 : 드론조종, 뷰티, AI게임 등 체험 프로그램\n4. 기타 내용 : 거리퍼레이드, 버스킹 등 공연 행사 및 각종 홍보"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "삼학도",
+        "dist": 7123,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3521515_image2_1.jpg",
+        "addr": "전남광주통합특별시 목포시 삼학로92번길 "
+      },
+      {
+        "name": "무안 하늘백련마을",
+        "dist": 8025,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/02/3535602_image2_1.jpg",
+        "addr": "전남광주통합특별시 무안군 일로읍 백련로 339-2"
+      },
+      {
+        "name": "목포 관광특구",
+        "dist": 8253,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/27/3054727_image2_1.jpg",
+        "addr": "전남광주통합특별시 목포시"
+      },
+      {
+        "name": "이난영의 목포의 눈물 노래비",
+        "dist": 8307,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3535173_image2_1.jpg",
+        "addr": "전남광주통합특별시 목포시 죽교동"
+      },
+      {
+        "name": "목포 해상케이블카",
+        "dist": 8348,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3554020_image2_1.jpg",
+        "addr": "전남광주통합특별시 목포시 해양대학로 240"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "꽃게랑 낙지랑",
+        "dist": 891,
+        "image": "",
+        "addr": "전남광주통합특별시 무안군 삼향읍 남악리"
+      },
+      {
+        "name": "고흥삼계탕",
+        "dist": 2423,
+        "image": "",
+        "addr": "전남광주통합특별시 목포시 복산길6번길 40"
+      },
+      {
+        "name": "시골집순두부 목포본점",
+        "dist": 2449,
+        "image": "",
+        "addr": "전남광주통합특별시 목포시 복산길6번길 44"
+      },
+      {
+        "name": "미항횟집",
+        "dist": 2518,
+        "image": "",
+        "addr": "전남광주통합특별시 목포시 미항로 197-1"
+      },
+      {
+        "name": "독천골",
+        "dist": 2529,
+        "image": "",
+        "addr": "전남광주통합특별시 목포시 미항로 197 (옥암동)"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "남악복합주민센터",
+          "dist": 202,
+          "walkMin": 3
+        },
+        {
+          "name": "펠리시티3차",
+          "dist": 235,
+          "walkMin": 4
+        }
+      ]
+    }
+  },
+  {
     "contentid": "2598331",
     "name": "문화가 흐르는 서울광장",
     "startDate": "20260506",
@@ -4248,6 +4360,147 @@
       ]
     },
     "photoCredit": "한국관광공사 포토코리아 · 촬영 한국관광공사 김지호"
+  },
+  {
+    "contentid": "2646950",
+    "name": "진안고원 김치보쌈축제",
+    "startDate": "20261114",
+    "endDate": "20261115",
+    "address": "전북특별자치도 진안군 진안읍 진무로 1166",
+    "lat": "35.7953163124",
+    "lng": "127.4339300277",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/78/4149678_image2_1.jpeg",
+    "overview": "진안고원 김치보쌈축제는 전북특별자치도 진안군에서 개최되는 지역축제로, 우리나라 고유의 전통문화인 김장문화를 축제와 접목하여 가족과 이웃이 함께하는 공동체 문화를 확산하기 위해 마련된 축제이다. 핵가족화와 1인 가구 증가 등으로 점차 변화하는 식생활 환경 속에서 김장문화의 전통적 가치를 되새기고, 김치를 함께 담그고 나누는 과정을 통해 이웃 간 정을 나누는 데 목적이 있다. 진안고원의 청정 자연환경에서 생산된 지역 농산물을 활용한 김장 체험과 김치 및 보쌈 먹거리 프로그램 등 다양한 체험·참여 행사가 운영되며, 지역 농특산물의 우수성을 알리고 지역 농산물 소비를 촉진하는 역할도 하고 있다. 전통 김장문화의 계승과 지역 농산물의 가치를 함께 경험할 수 있는 축제이다.",
+    "tel": "063-433-6613",
+    "homepage": "",
+    "eventplace": "진안로컬푸드진안점",
+    "playtime": "10:30~17:00",
+    "usefee": "무료 (일부 체험 프로그램 유료 - 우리집 김장담그기 체험)",
+    "sponsor": "진안군",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/86/4149686_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/89/4149689_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/87/4149687_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/85/4149685_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/84/4149684_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/83/4149683_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/81/4149681_image2_1.jpeg",
+      "https://tong.visitkorea.or.kr/cms/resource/79/4149679_image2_1.jpeg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "진안고원 김치보쌈축제는 전북특별자치도 진안군에서 개최되는 지역축제로, 우리나라 고유의 전통문화인 김장문화를 축제와 접목하여 가족과 이웃이 함께하는 공동체 문화를 확산하기 위해 마련된 축제이다. 핵가족화와 1인 가구 증가 등으로 점차 변화하는 식생활 환경 속에서 김장문화의 전통적 가치를 되새기고, 김치를 함께 담그고 나누는 과정을 통해 이웃 간 정을 나누는 데 목적이 있다. 진안고원의 청정 자연환경에서 생산된 지역 농산물을 활용한 김장 체험과 김치 및 보쌈 먹거리 프로그램 등 다양한 체험·참여 행사가 운영되며, 지역 농특산물의 우수성을 알리고 지역 농산물 소비를 촉진하는 역할도 하고 있다. 전통 김장문화의 계승과 지역 농산물의 가치를 함께 경험할 수 있는 축제이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 개막행사 \n- 무대 이벤트 \n- 신나는 예술버스 \n- 김장골든벨 \n- SHOW ME THE 김장 \n- 가을음악콘서트 \n- 홍삼칵테일 이벤트 \n- 트롯콘서트 \n- 밴드콘서트 \n- 상설운영 : 김치마을 팝업존, 플리마켓, 고원구이존, 먹거리부스 \n- 우리집 김장담그기 체험 : 1일 3타임 \n체험비 : 185,000원(1세트 절임배추 20kg + 양념 10kg) \n모집기간 : 선착순마감시까지"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "진안 은수사 청실배나무",
+        "dist": 4357,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3520730_image2_1.jpg",
+        "addr": "전북특별자치도 진안군 마령면 동촌리"
+      },
+      {
+        "name": "마이산 타포니지형",
+        "dist": 4386,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/34/3061534_image2_1.JPG",
+        "addr": "전북특별자치도 진안군 진안읍 마이산로 255"
+      },
+      {
+        "name": "봉황대(장수)",
+        "dist": 7645,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/25/3570325_image2_1.jpg",
+        "addr": "전북특별자치도 장수군 천천면 봉황대길 2"
+      },
+      {
+        "name": "금강",
+        "dist": 8577,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/38/3583638_image2_1.jpg",
+        "addr": "전북특별자치도 장수군 천천면 오리골길"
+      },
+      {
+        "name": "신의연효자각",
+        "dist": 9324,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/02/3365602_image2_1.JPG",
+        "addr": "전북특별자치도 진안군 백운면 평노길 117"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "연꽃두부",
+        "dist": 3780,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2844090_image2_1.jpg",
+        "addr": "전북특별자치도 진안군 진안읍 전진로 3071-21"
+      },
+      {
+        "name": "세계로가든",
+        "dist": 6307,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2844081_image2_1.jpg",
+        "addr": "전북특별자치도 진안군 전진로 2759 세계로가든"
+      },
+      {
+        "name": "금강참붕어",
+        "dist": 8320,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/76/2844076_image2_1.jpg",
+        "addr": "전북특별자치도 진안군 상전면 금지1길 18-20"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "홍삼한방센터",
+          "dist": 17,
+          "walkMin": 1
+        },
+        {
+          "name": "진안군의료원",
+          "dist": 144,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "고원3 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 22,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 195,
+          "walkMin": 3
+        },
+        {
+          "name": "중앙3 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 27,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 406,
+          "walkMin": 6
+        },
+        {
+          "name": "노계3동 주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 28,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 509,
+          "walkMin": 8
+        }
+      ]
+    }
   },
   {
     "contentid": "1882134",
@@ -13444,138 +13697,6 @@
     }
   },
   {
-    "contentid": "s1d1dkcf",
-    "name": "제8회 진안고원 김치보쌈축제",
-    "startDate": "20261114",
-    "endDate": "20261115",
-    "address": "전북특별자치도 진안군 진안읍 진무로 1166",
-    "lat": "35.7949205",
-    "lng": "127.434257",
-    "venuePhoto": null,
-    "image": "",
-    "overview": "우리집 김치담그기+사랑의 김장나눔 등",
-    "tourOverview": "",
-    "tel": "063-430-2393",
-    "homepage": "https://jinankimchi.kr/",
-    "eventplace": "진안홍삼한방센터 일원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "전북특별자치도 진안군",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "진안향교",
-        "dist": 684,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3365836_image2_1.JPG",
-        "addr": "전북특별자치도 진안군 진안읍 향교길 13-6"
-      },
-      {
-        "name": "산약초타운",
-        "dist": 2567,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3557742_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 진안읍 외사양길 16-19"
-      },
-      {
-        "name": "마이정원",
-        "dist": 2862,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3575395_image2_1.JPG",
-        "addr": "전북특별자치도 진안군 진안읍 단양리"
-      },
-      {
-        "name": "마이돈농촌테마공원",
-        "dist": 2904,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/99/3520699_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 진안읍 마이산로 160"
-      },
-      {
-        "name": "고림사",
-        "dist": 2998,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/12/3368512_image2_1.JPG",
-        "addr": "전북특별자치도 진안군 진안읍 상역로 174-96"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "진안관",
-        "dist": 249,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/44/219944_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 진안읍 진장로 21"
-      },
-      {
-        "name": "연꽃두부",
-        "dist": 3786,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/90/2844090_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 진안읍 전진로 3071-21"
-      },
-      {
-        "name": "세계로가든",
-        "dist": 6320,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/81/2844081_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 전진로 2759 세계로가든"
-      },
-      {
-        "name": "금강참붕어",
-        "dist": 8346,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/76/2844076_image2_1.jpg",
-        "addr": "전북특별자치도 진안군 상전면 금지1길 18-20"
-      }
-    ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "홍삼한방센터",
-          "dist": 62,
-          "walkMin": 1
-        },
-        {
-          "name": "진안군의료원",
-          "dist": 143,
-          "walkMin": 2
-        }
-      ],
-      "parking": [
-        {
-          "name": "고원3 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 22,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 211,
-          "walkMin": 3
-        },
-        {
-          "name": "중앙3 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 27,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 381,
-          "walkMin": 6
-        },
-        {
-          "name": "고원2 주차장",
-          "se": "공영",
-          "type": "노외",
-          "cap": 121,
-          "fee": "무료",
-          "hours": "00:00~23:59",
-          "days": "평일+토요일+공휴일",
-          "tel": "",
-          "dist": 487,
-          "walkMin": 7
-        }
-      ]
-    }
-  },
-  {
     "contentid": "s7id9wl",
     "name": "천을산 해맞이",
     "startDate": "20270101",
@@ -14489,106 +14610,6 @@
           "tel": "041-746-6257",
           "dist": 1409,
           "walkMin": 21
-        }
-      ]
-    }
-  },
-  {
-    "contentid": "s1v7ldcc",
-    "name": "제6회 무안YD페스티벌",
-    "startDate": "20261120",
-    "endDate": "20261122",
-    "address": "전남광주통합특별시 무안군 삼향읍 대죽서로16번길 16",
-    "lat": "34.81114286",
-    "lng": "126.4628109",
-    "venuePhoto": null,
-    "image": "",
-    "overview": "공연+경연+체험프로그램",
-    "tourOverview": "",
-    "tel": "061-450-5474",
-    "homepage": "http://tour.muan.go.kr/",
-    "eventplace": "남악중앙공원 및 김대중광장 일원",
-    "playtime": "",
-    "usefee": "",
-    "sponsor": "전남광주통합특별시 무안군",
-    "images": [],
-    "extraInfo": [],
-    "nearbySpots": [
-      {
-        "name": "삼학도",
-        "dist": 7123,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3521515_image2_1.jpg",
-        "addr": "전남광주통합특별시 목포시 삼학로92번길 "
-      },
-      {
-        "name": "무안 하늘백련마을",
-        "dist": 8025,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/02/3535602_image2_1.jpg",
-        "addr": "전남광주통합특별시 무안군 일로읍 백련로 339-2"
-      },
-      {
-        "name": "무안회산백련지",
-        "dist": 8071,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/09/3535609_image2_1.jpg",
-        "addr": "전남광주통합특별시 무안군 일로읍 백련로 333"
-      },
-      {
-        "name": "목포 관광특구",
-        "dist": 8253,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/27/3054727_image2_1.jpg",
-        "addr": "전남광주통합특별시 목포시"
-      },
-      {
-        "name": "이난영의 목포의 눈물 노래비",
-        "dist": 8307,
-        "image": "http://tong.visitkorea.or.kr/cms/resource/73/3535173_image2_1.jpg",
-        "addr": "전남광주통합특별시 목포시 죽교동"
-      }
-    ],
-    "nearbyFood": [
-      {
-        "name": "꽃게랑 낙지랑",
-        "dist": 891,
-        "image": "",
-        "addr": "전남광주통합특별시 무안군 삼향읍 남악리"
-      },
-      {
-        "name": "고흥삼계탕",
-        "dist": 2423,
-        "image": "",
-        "addr": "전남광주통합특별시 목포시 복산길6번길 40"
-      },
-      {
-        "name": "시골집순두부 목포본점",
-        "dist": 2449,
-        "image": "",
-        "addr": "전남광주통합특별시 목포시 복산길6번길 44"
-      },
-      {
-        "name": "미항횟집",
-        "dist": 2518,
-        "image": "",
-        "addr": "전남광주통합특별시 목포시 미항로 197-1"
-      },
-      {
-        "name": "독천골",
-        "dist": 2529,
-        "image": "",
-        "addr": "전남광주통합특별시 목포시 미항로 197 (옥암동)"
-      }
-    ],
-    "source": "std",
-    "transit": {
-      "stops": [
-        {
-          "name": "남악복합주민센터",
-          "dist": 202,
-          "walkMin": 3
-        },
-        {
-          "name": "펠리시티3차",
-          "dist": 235,
-          "walkMin": 4
         }
       ]
     }
