@@ -247,7 +247,7 @@
  "http://iksan-treasure.kr/": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-07T23:19:47.614Z",
+  "checkedAt": "2026-11-11T00:23:13.274Z",
   "error": "fetch failed"
  },
  "https://www.buanmasil.com/buansunset/main.php": {
@@ -1234,10 +1234,9 @@
   "checkedAt": "2026-11-04T00:24:19.978Z"
  },
  "https://www.creatorfesta.co.kr/": {
-  "state": "dead",
-  "status": 0,
-  "checkedAt": "2026-11-07T23:19:47.614Z",
-  "error": "20"
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-11T00:23:13.274Z"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1375&": {
   "state": "ok",
@@ -3404,5 +3403,10 @@
   "status": 200,
   "checkedAt": "2026-11-07T00:04:26.050Z",
   "final": "http://stolantern.com/"
+ },
+ "https://gwurc.or.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-11T00:23:13.274Z"
  }
 }

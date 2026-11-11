@@ -9246,5 +9246,53 @@
     "lng": 128.7284671,
     "tel": "054-840-6537",
     "homepage": "https://www.andongsisul.or.kr:452/coding/sub3/sub2.asp"
+  },
+  "FC001836": {
+    "name": "경기상상캠퍼스",
+    "address": "경기도 수원시 권선구 서둔로 166 (서둔동)",
+    "lat": 37.2629491,
+    "lng": 126.9817372,
+    "tel": "031-296-1980",
+    "homepage": "https://sscampus.ggcf.kr/"
+  },
+  "FC004035": {
+    "name": "서울연극센터",
+    "address": "서울특별시 종로구 대명길 3 (명륜4가)",
+    "lat": 37.5833896,
+    "lng": 127.0013221,
+    "tel": "02-743-9333",
+    "homepage": "https://www.sfac.or.kr/artspace/artspace/play_main.do?groupCtgry=g3"
+  },
+  "FC004427": {
+    "name": "장생포문화창고",
+    "address": "울산광역시 남구 장생포고래로 110 (장생포동)",
+    "lat": 35.50341,
+    "lng": 129.367278,
+    "tel": "052-226-0010",
+    "homepage": "https://www.uwcf.or.kr/jspculturedepot/index_main"
+  },
+  "FC002819": {
+    "name": "설렘아트홀",
+    "address": "서울특별시 광진구 능동로19길 23(화양동)",
+    "lat": 37.5470491,
+    "lng": 127.0723822,
+    "tel": "010-3518-7843",
+    "homepage": "https://arthallserlem.modoo.at/"
+  },
+  "FC000475": {
+    "name": "춘향문화예술회관",
+    "address": "전라북도 남원시 양림길 43 (어현동)",
+    "lat": 35.4022201,
+    "lng": 127.39007179999999,
+    "tel": "063-620-5724",
+    "homepage": "http://www.namwon.go.kr/tour/board/view.do?menuCd=DOM_000001002003003000&boardId=BBS_0000028&dataSid=121051"
+  },
+  "FC005184": {
+    "name": "베루나 돔(BELLUNA DOME) [일본 사이타마]",
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "tel": "",
+    "homepage": "https://bellunadome.seibulions.co.jp/"
   }
 }

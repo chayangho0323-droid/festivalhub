@@ -850,6 +850,47 @@
     "venueHomepage": ""
   },
   {
+    "id": "PF230196",
+    "name": "여수월드, 여수서커스",
+    "startDate": "20230318",
+    "endDate": "20261231",
+    "venue": "여수월드서커스",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF230196_261110_141401.jpg",
+    "area": "전남광주통합특별시",
+    "genre": "서커스/마술",
+    "openrun": true,
+    "state": "공연중",
+    "detail": {
+      "facilityId": "FC003640",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "전석 23,000원",
+      "schedule": "월요일 ~ 화요일(11:00,14:20,16:20), 목요일 ~ 금요일(11:00,14:20,16:20), 토요일 ~ 일요일(11:00,14:20,16:20), HOL(11:00,14:20,16:20)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF230196_202611100215338420.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF230196_202611100215338491.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF230196_202611100215338522.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/832376"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 14:20:40"
+    },
+    "address": "전남광주통합특별시 여수시 돌산읍 돌산로 2876",
+    "lat": 34.6860406,
+    "lng": 127.7764878,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF215020",
     "name": "핫식스",
     "startDate": "20230401",
@@ -2673,6 +2714,69 @@
     "lng": 128.0400005,
     "venueTel": "",
     "venueHomepage": "http://www.sacheoncircus.co.kr/"
+  },
+  {
+    "id": "PF259779",
+    "name": "써니텐 [대학로]",
+    "startDate": "20250101",
+    "endDate": "20261231",
+    "venue": "JTN 아트홀(구. 대학로예술마당)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF259779_260223_160526.gif",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": true,
+    "state": "공연중",
+    "detail": {
+      "facilityId": "FC000139",
+      "cast": "정승환, 이채원, 권도윤, 지인규, 이신주, 정의혁, 천지",
+      "crew": "이주영, 박지만, 김성윤 등",
+      "runtime": "1시간 40분",
+      "age": "만 9세 이상",
+      "producer": "하마컴퍼니",
+      "price": "전석 66,000원",
+      "schedule": "화요일 ~ 금요일(19:30), 토요일(14:00,16:30), 일요일(14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF259779_202507070118146400.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/55102"
+        },
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/483020"
+        },
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25002567"
+        },
+        {
+          "name": "대학로티켓닷컴",
+          "url": "http://www.maketicket.co.kr/ticket/GD27049"
+        },
+        {
+          "name": "예스24",
+          "url": "http://ticket.yes24.com/Perf/52880"
+        },
+        {
+          "name": "쿠팡",
+          "url": "https://trip.coupang.com/tp/products/100000031224"
+        },
+        {
+          "name": "타임티켓",
+          "url": "https://timeticket.co.kr/product/5496"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 14:36:08"
+    },
+    "address": "서울특별시 종로구 이화장길 26 (이화동)",
+    "lat": 37.5767066,
+    "lng": 127.00376210000002,
+    "venueTel": "02-779-1595",
+    "venueHomepage": "http://www.jtnarthall.com/"
   },
   {
     "id": "PF255313",
@@ -5858,7 +5962,7 @@
     "id": "PF293558",
     "name": "타임 [대학로]",
     "startDate": "20260715",
-    "endDate": "20261129",
+    "endDate": "20261231",
     "venue": "대학로 스타릿홀",
     "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293558_261008_113442.gif",
     "area": "서울특별시",
@@ -9963,45 +10067,6 @@
     "venueHomepage": "http://koreajobworld.or.kr/Index.do"
   },
   {
-    "id": "PF304623",
-    "name": "리바이벌 (REVIVER)",
-    "startDate": "20261028",
-    "endDate": "20261110",
-    "venue": "로드 유미플레이 2",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304623_261030_095257.png",
-    "area": "서울특별시",
-    "genre": "연극",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC005160",
-      "cast": "엄수연, 이예은, 김범석, 박재호, 정연걸, 지명규, 박재호 등",
-      "crew": "손현규",
-      "runtime": "1시간 15분",
-      "age": "만 15세 이상",
-      "producer": "(주)로드유니티, 유미플레이 코리아(UMEPLAY Korea)",
-      "price": "전석 69,000원",
-      "schedule": "월요일 ~ 금요일(14:30,16:45,19:00,21:15), 토요일 ~ 일요일(11:00,12:45,14:30,16:15,18:00,20:45)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304623_202610300951159550.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "네이버N예약",
-          "url": "https://booking.naver.com/booking/12/bizes/1752702"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-30 15:00:03.089931"
-    },
-    "address": "서울특별시 마포구 와우산로 70 (서교동)",
-    "lat": 37.550581,
-    "lng": 126.923065,
-    "venueTel": "",
-    "venueHomepage": ""
-  },
-  {
     "id": "PF300582",
     "name": "보물찾기 [울산]",
     "startDate": "20261028",
@@ -12712,45 +12777,6 @@
     "venueHomepage": "https://www.facebook.com/hhdlab"
   },
   {
-    "id": "PF303248",
-    "name": "강초롱 플루트 독주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "예술의전당 [서울]",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303248_261013_163903.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000001",
-      "cast": "강초롱, 윤예진",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "예인예술기획",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303248_202610130439038720.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014588"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-13 18:00:00.048289"
-    },
-    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
-    "lat": 37.4786896,
-    "lng": 127.01182410000001,
-    "venueTel": "02-580-1300",
-    "venueHomepage": "http://www.sac.or.kr"
-  },
-  {
     "id": "PF303266",
     "name": "국립발레단, 카멜리아 레이디",
     "startDate": "20261110",
@@ -12881,248 +12907,6 @@
     "venueHomepage": "http://art.jangheung.go.kr/"
   },
   {
-    "id": "PF302457",
-    "name": "누구나 클래식 with 대전시립교향악단 (11월)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "세종문화회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302457_261006_104956.jpg",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000020",
-      "cast": "여자경, 김규연, 최은규 등",
-      "crew": "",
-      "runtime": "2시간",
-      "age": "만 6세 이상",
-      "producer": "(재)세종문화회관",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302457_202610061049562192.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302457_202610061049562151.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302457_202610061049562070.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "세종문화회관",
-          "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=36851&menuNo=200320"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-06 15:00:00.074715"
-    },
-    "address": "서울특별시 종로구 세종대로 175 (세종로)",
-    "lat": 37.5725254,
-    "lng": 126.97564290000003,
-    "venueTel": "02-399-1000",
-    "venueHomepage": "http://www.sejongpac.or.kr/"
-  },
-  {
-    "id": "PF303729",
-    "name": "대전세계예술가곡 페스티벌, Die Schonemullerin 아름다운 물방앗간의 아가씨",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "대전시립연정국악원",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303729_261019_132411.gif",
-    "area": "대전광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001415",
-      "cast": "이병민, 이경휘",
-      "crew": "",
-      "runtime": "1시간 5분",
-      "age": "만 7세 이상",
-      "producer": "순수예술기획",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303729_202610190124120170.png"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014832"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-19 15:00:00.077709"
-    },
-    "address": "대전광역시 서구 둔산대로 181 (만년동)",
-    "lat": 36.3555511,
-    "lng": 127.38994500000001,
-    "venueTel": "042-270-8500",
-    "venueHomepage": "https://www.daejeon.go.kr/kmusic/"
-  },
-  {
-    "id": "PF298862",
-    "name": "디 오리지널 시리즈, 임동혁 X 오케스트라 디 오리지널, 리부트: 라흐마니노프",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "예술의전당 [서울]",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298862_260819_141052.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000001",
-      "cast": "김동혁, 임동혁 등",
-      "crew": "",
-      "runtime": "1시간 50분",
-      "age": "만 7세 이상",
-      "producer": "(사)오케스트라 디 오리지널",
-      "price": "R석 120,000원, S석 90,000원, A석 60,000원, B석 30,000원, C석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "[공연소개]\n대한민국을 대표하는 세계적인 피아니스트 임동혁이 오케스트라 디 오리지널의 정기공연 <디 오리지널 시리즈 2026> 무대에 오른다. 독자적인 음악 세계를 구축해 온 지휘자 아드리엘 김과 피아니스트 임동혁의 첫 협업으로 선보일 곡은 라흐마니노프 인생에 위대한 반전을 가져다준 세기의 명작, '피아노 협주곡 2번'이다.\n\n여기에 드보르작의 후기 3대 교향곡의 정수로 손꼽히며 깊은 비장미와 최고의 완성도를 자랑하는 '교향곡 제7번'이 더해진다. 또한, 클래식의 동시대성을 이끌어가는 오케스트라 디 오리지널이 위촉한 태국의 국민 작곡가 나롱 프랑츠른의 세계 초연작 <사라진 침묵>이 무대에 올라 깊은 감동과 신선한 울림을 선사할 예정이다.\n\n[PROGRAM]\n나롱 프랑차로엔              <사라지는 고요>   *오케스트라 디 오리지널 위촉 세계 초연\nNarong Prangcharoen     Vanishing Silence  * world premiere, commissioned by Orchestra the Original\n\n드보르자크                   교향곡 7번  Op.70A. \nDvořák                       Symphony No. 7 in D minor, Op. 70  \n \n라흐마니노프              피아노 협주곡 2번  Op.18S. \nRachmaninoff            Piano Concerto No. 2 in C minor, Op. 18\n                                             I. Moderato\n                                             II. Adagio sostenuto\n                                             III. Allegro scherzando",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF298862_202608190210527740.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012173"
-        },
-        {
-          "name": "예스24",
-          "url": "https://ticket.yes24.com/Perf/59791"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-08-28 11:26:58"
-    },
-    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
-    "lat": 37.4786896,
-    "lng": 127.01182410000001,
-    "venueTel": "02-580-1300",
-    "venueHomepage": "http://www.sac.or.kr"
-  },
-  {
-    "id": "PF304601",
-    "name": "라라라온 [스페이스 한강]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "스페이스한강",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304601_261027_141501.jpg",
-    "area": "서울특별시",
-    "genre": "대중음악",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC003254",
-      "cast": "정혜빈, 조지훈, 이현영, 김영준, 정명성, 노윤영, 이봉연",
-      "crew": "",
-      "runtime": "1시간 40분",
-      "age": "만 7세 이상",
-      "producer": "(사)한국음악레이블산업협회",
-      "price": "전석 22,000원",
-      "schedule": "화요일(20:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304601_202610270215017690.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "2TM(우리은행)",
-          "url": "https://www.2tm.co.kr/ticket/10940"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-27 15:00:00.104381"
-    },
-    "address": "서울특별시 마포구 와우산로 128(창전동)",
-    "lat": 37.5533112,
-    "lng": 126.9276554,
-    "venueTel": "",
-    "venueHomepage": "https://www.instagram.com/space_hangang/"
-  },
-  {
-    "id": "PF285341",
-    "name": "렉처 콘서트 Ⅳ. 미국 음악의 탄생 [공주]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "공주문예회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF285341_260219_141836.gif",
-    "area": "충청남도",
-    "genre": "대중음악",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000415",
-      "cast": "한동운, 김경희, 송관섭, 정유하, 하지욱",
-      "crew": "",
-      "runtime": "1시간 20분",
-      "age": "만 7세 이상",
-      "producer": "(재) 공주문화관광재단(공주문예회관)",
-      "price": "전석 10,000원",
-      "schedule": "화요일(11:00)",
-      "story": "[공연소개]\n미국음악의 탄생\n\n재즈 음악을 통해 미국 음악의 형성과 역사를 탐구한다. 초창기 스윙·빅밴드 시대의 에너지에서부터 브로드웨이·할리우드 음악이 재즈 스탠더드로 자리 잡기까지의 과정을 소개한다. 이어 50?60년대 보컬 재즈의 개인적이고 서정적인 매력을 듬뿍 담은 아티스트들의 이야기를 통해 ‘노래하는 재즈’의 매력을 전달한다.\n\n[PROGRAM]\n<재즈의 탄생과 스윙 시대>\n듀크 엘링턴(Duke Ellington)  It Don’t Mean a Thing (If It Ain’t Got That Swing)\n \n<스탠더드의 황금기>\n어빙 벌린(Irving Berlin)  Cheek to Cheek \n앨라 피츠제럴드 & 반 알렉산더(Ella Fitzgerald & Van Alexander)  A-Tisket, A-Tasket \n조지 거슈윈 & 아이라 거슈윈(George Gershwin & Ira Gershwin)  They can't take that away from me\n리처드 로저스 & 오스카 해머스타인 2세(Richard Rodgers & Oscar Hammerstein II)   My Favorite Things\n \n<보컬 재즈의 정수>\n에롤 가너(Erroll Garner)  Misty\n모건 루이스 & 낸시 해밀턴(Morgan Lewis & Nancy Hamilton)  How High the Moon\n바트 하워드(Bart Howard)   Fly me to the moon\n조셉 코스마(Joseph Kosma)   Autumn Leaves \n \n*상기 프로그램은 출연진의 사정에 의해 변경될 수 있습니다.",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF285341_202602190218367641.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF285341_202602190218367160.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=25018426"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-02-19 15:00:04.127454"
-    },
-    "address": "충청남도 공주시 고마나루길 5 (웅진동)",
-    "lat": 36.46003280000001,
-    "lng": 127.11140380000006,
-    "venueTel": "041-840-2180",
-    "venueHomepage": "http://acc.gongju.go.kr/"
-  },
-  {
-    "id": "PF302691",
-    "name": "리트플레이 겨울나그네 렉처 콘서트 (베스티클럽)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "강동아트센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302691_261007_130248.jpg",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000028",
-      "cast": "김준동, 박효민",
-      "crew": "",
-      "runtime": "1시간",
-      "age": "만 7세 이상",
-      "producer": "",
-      "price": "전석무료",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302691_202610070101310610.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302691_202610070103465830.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "강동아트센터(강동문화재단)",
-          "url": "https://www.gdfac.or.kr/product/performance/258497?q=OTgwNDBhODY0MmE5NGZkYjk5MWVkMmI4NGY4MzYwMGI%3d"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-07 15:00:00.086823"
-    },
-    "address": "서울특별시 강동구 동남로 870 (상일동)",
-    "lat": 37.5512621,
-    "lng": 127.15761910000003,
-    "venueTel": "02-440-0500",
-    "venueHomepage": "https://www.gangdongarts.or.kr/"
-  },
-  {
     "id": "PF303399",
     "name": "머더: 나는 오늘, 사람을 죽였다 [대학로]",
     "startDate": "20261110",
@@ -13202,128 +12986,6 @@
     "venueHomepage": "https://vkart.co.kr/shopinfo/facility.html"
   },
   {
-    "id": "PF304085",
-    "name": "바로크 실내악의 정령: 파비오 비온디와 에우로파 갈란테의 사계 [부산]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "부산콘서트홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304085_261021_165815.jpg",
-    "area": "부산광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004296",
-      "cast": "파비오 비온디 등",
-      "crew": "",
-      "runtime": "1시간 50분",
-      "age": "만 7세 이상",
-      "producer": "클래식부산",
-      "price": "R석 100,000원, S석 80,000원, A석 60,000원, C석 40,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304085_202610210458158721.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304085_202610210458158380.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015029"
-        },
-        {
-          "name": "부산콘서트홀",
-          "url": "https://classicbusan.busan.go.kr/product/performance/253344"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-21 18:00:00.114794"
-    },
-    "address": "부산광역시 부산진구 동평로 250 (연지동)",
-    "lat": 35.1693728,
-    "lng": 129.0542532,
-    "venueTel": "051-640-8888",
-    "venueHomepage": "https://classicbusan.busan.go.kr/"
-  },
-  {
-    "id": "PF303316",
-    "name": "바리톤 고성현이 부르는 김연준 가곡 콘서트: 시인의 사랑과 생애 [대구]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "어울아트센터(구. 대구북구문예회관)",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303316_261014_142459.jpg",
-    "area": "대구광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001178",
-      "cast": "고성현, 이경민",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "(재)행복북구문화재단(어울아트센터)",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303316_202610140224592070.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "NHN티켓링크",
-          "url": "http://www.ticketlink.co.kr/product/66211"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-14 15:00:00.129791"
-    },
-    "address": "대구광역시 북구 구암로 47 (관음동)",
-    "lat": 35.9351297,
-    "lng": 128.54623719999995,
-    "venueTel": "053-320-5120",
-    "venueHomepage": "http://www.hbcf.or.kr/front/"
-  },
-  {
-    "id": "PF305564",
-    "name": "베리타스 뮤지케 음악제, TVT와의 국제교류 작품발표회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "일신홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305564_261105_134340.jpg",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001629",
-      "cast": "김진수, 이수정, 명지영, 이수아",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 6세 이상",
-      "producer": "베리타스뮤지케",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305564_202611050143403930.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "예스24",
-          "url": "https://ticket.yes24.com/Perf/60613"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-05 15:00:03.098692"
-    },
-    "address": "서울특별시 용산구 한남대로 98 (한남동)",
-    "lat": 37.5372055,
-    "lng": 127.00552319999997,
-    "venueTel": "02-790-3364",
-    "venueHomepage": "http://ilshinhall.com/"
-  },
-  {
     "id": "PF301005",
     "name": "사과가 쿵! [부천]",
     "startDate": "20261110",
@@ -13371,45 +13033,6 @@
     "venueHomepage": "http://www.komacon.kr/comicsmuseum/index.asp"
   },
   {
-    "id": "PF303378",
-    "name": "서울바흐축제, 칸타타 시리즈",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "예술의전당 [서울]",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303378_261014_175831.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000001",
-      "cast": "정주원, 안나 네시바, 요하네스 가우비츠, 크리스토퍼 렌츠, 마티아스 루체, 플로라 파브리, 정민호 등",
-      "crew": "알렉산더 슈나이더",
-      "runtime": "2시간",
-      "age": "만 7세 이상",
-      "producer": "콜레기움 보칼레 서울(Collegium Vocale Seoul)",
-      "price": "R석 50,000원, S석 30,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303378_202610140558319330.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014678"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-14 18:00:00.081568"
-    },
-    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
-    "lat": 37.4786896,
-    "lng": 127.01182410000001,
-    "venueTel": "02-580-1300",
-    "venueHomepage": "http://www.sac.or.kr"
-  },
-  {
     "id": "PF305554",
     "name": "서울시민 생활음악 심포니 페스티벌",
     "startDate": "20261110",
@@ -13447,84 +13070,6 @@
     "lng": 126.93175139999994,
     "venueTel": "02-360-8686",
     "venueHomepage": "http://www.sscmc.or.kr/culture1/lend_library/equip_info.asp"
-  },
-  {
-    "id": "PF293997",
-    "name": "아침을 여는 클래식, 피아니스트 안종도 [대전] (11월)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "대전예술의전당",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF293997_260617_164241.gif",
-    "area": "대전광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000076",
-      "cast": "안종도, 송현민",
-      "crew": "",
-      "runtime": "1시간 10분",
-      "age": "만 7세 이상",
-      "producer": "대전예술의전당",
-      "price": "전석 20,000원",
-      "schedule": "화요일(11:00)",
-      "story": "[프로그램]\n\n멘델스존 _ 무언가, 작품 67\nF. Mendelssohn _ Lieder ohne Worte, Op. 67\n\n쇼팽 _ 야상곡 나장조, 작품 32-1\nF. Chopin _ Nocturne in B Major, Op. 32 No. 1\n\n쇼팽 _ 야상곡 마장조, 작품 62-2\nF. Chopin _ Nocturne in E Major, Op. 62 No. 2\n\n쇼팽 _ 발라드 제1번 사단조, 작품 23\nF. Chopin _ Ballade No. 1 in g minor, Op. 23\n\n* 본 공연의 프로그램은 연주자 사정에 의해 사전 공지 없이 변경될 수 있습니다.",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF293997_202606170442414580.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008185"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-06-17 18:00:04.132085"
-    },
-    "address": "대전광역시 서구 둔산대로 135 (만년동)",
-    "lat": 36.3665211,
-    "lng": 127.3837135,
-    "venueTel": "042-270-8333",
-    "venueHomepage": "https://www.daejeon.go.kr/djac/index.do"
-  },
-  {
-    "id": "PF303916",
-    "name": "연주자를 만나다 Ⅸ, 테너 임권묵: 내 영혼의 솔레미오 [대전]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "복합문화공간 플랜에이",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303916_261020_150139.gif",
-    "area": "대전광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004343",
-      "cast": "임권묵, 고선영, 임찬양",
-      "crew": "",
-      "runtime": "1시간 10분",
-      "age": "만 7세 이상",
-      "producer": "나무예술기획",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "[프로그램]\n\n• G. F. Händel - Opera ‘Serse’ 中 ‘Ombra mai fu’\n(오페라 ‘세르세’ 中 ‘그리운 나무 그늘이여’)\n• A. Scarlatti - Già il sole dal Gange\n(이미 해가 갠지스강에서)\n• G. Giordani - Caro mio ben\n(오 내 사랑)\n• F. P. Tosti - Ideale\n(이상)\n• 김연준 작사, 작곡 - 청산에 살리라\n\nINTERMISSION\n\n• S. Gastaldon - Musica Proibita\n(금지된 노래)\n\nGuest - Soprano 임찬양\n• F. Schira – Sognai\n(나 꿈꾸었네)\n• G. Puccini - Opera ‘Gianni Schicchi’ 中 ‘O mio babbino caro’\n(오페라 ‘잔니 스키키’ 中 ‘오 사랑하는 나의 아버지’)\n• E. D. Curtis - Non ti Scordar di me\n(나를 잊지 말아요)\n\nDuet\n• L. Bernstein - Musical ‘West Side Story’ 中 ‘Tonight’\n(뮤지컬 ‘웨스트 사이드 스토리’ 中 ‘오늘 밤’)",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303916_202610200301397090.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014072"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-20 18:00:00.051159"
-    },
-    "address": "대전광역시 유성구 엑스포로97번길 40 (도룡동)",
-    "lat": 36.3763434,
-    "lng": 127.3904662,
-    "venueTel": "070-4229-8196",
-    "venueHomepage": "https://blog.naver.com/plan-a2021"
   },
   {
     "id": "PF305119",
@@ -13567,164 +13112,6 @@
     "venueHomepage": "www.whoplus.net"
   },
   {
-    "id": "PF302876",
-    "name": "영 프라미스 아티스트, 양진우 첼로 리사이틀 [부산]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "낙동아트센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302876_261012_110016.jpg",
-    "area": "부산광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004469",
-      "cast": "양진우, 김채원, 박하은",
-      "crew": "",
-      "runtime": "1시간 20분",
-      "age": "만 7세 이상",
-      "producer": "낙동아트센터",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302876_202610121100167191.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302876_202610121100167070.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "예스24",
-          "url": "https://ticket.yes24.com/Perf/60512"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-12 15:00:00.095552"
-    },
-    "address": "부산광역시 강서구 명지국제1로 141 (명지동)",
-    "lat": 35.102094,
-    "lng": 128.903987,
-    "venueTel": "",
-    "venueHomepage": "https://bsgangseo.go.kr/nac"
-  },
-  {
-    "id": "PF303141",
-    "name": "와락심포니 정기연주회: 여성, 청춘을 품다 [부산]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "낙동아트센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303141_261013_111145.jpg",
-    "area": "부산광역시",
-    "genre": "한국음악(국악)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004469",
-      "cast": "김경수, 안이서, 안주희, 박태연, 손호정, 조성빈, 이소영 등",
-      "crew": "윤경선, 장석진, 변재벽 등",
-      "runtime": "1시간 20분",
-      "age": "만 6세 이상",
-      "producer": "와락심포니",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303141_202610131111453740.png"
-      ],
-      "tickets": [
-        {
-          "name": "예스24",
-          "url": "https://ticket.yes24.com/Perf/60540"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-13 15:00:00.058353"
-    },
-    "address": "부산광역시 강서구 명지국제1로 141 (명지동)",
-    "lat": 35.102094,
-    "lng": 128.903987,
-    "venueTel": "",
-    "venueHomepage": "https://bsgangseo.go.kr/nac"
-  },
-  {
-    "id": "PF302907",
-    "name": "울산시립합창단 기획연주회: 한국가곡 토크콘서트",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "울산문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302907_261012_124443.jpg",
-    "area": "울산광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000081",
-      "cast": "정윤지, 박동희, 최진아 등",
-      "crew": "조성은, 지혜정, 박동희",
-      "runtime": "1시간 20분",
-      "age": "만 7세 이상",
-      "producer": "",
-      "price": "전석 5,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302907_202610121244437880.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "울산문화예술회관",
-          "url": "https://www.ulsan.go.kr/ucac/art/page.do?mnu_code=mnu001002&per_ing=0&site_code=art&res_cate=ResCateCD_001&pageNo=2&cmd=2&per_sn=522"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-12 15:00:00.095552"
-    },
-    "address": "울산광역시 남구 번영로 200 (달동)",
-    "lat": 35.5429378079717,
-    "lng": 129.327089892733,
-    "venueTel": "052-266-8282",
-    "venueHomepage": "http://ucac.ulsan.go.kr/"
-  },
-  {
-    "id": "PF304586",
-    "name": "음악감독 송경하와 함께하는 이탈리아 바닷가 도시 음악 여행",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "아트센터 인천",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304586_261027_134126.jpg",
-    "area": "인천광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001873",
-      "cast": "송경하, 이상현, 이진복, 한주희",
-      "crew": "송경하, 김진우 등",
-      "runtime": "1시간 30분",
-      "age": "전체 관람가",
-      "producer": "",
-      "price": "전석무료",
-      "schedule": "화요일(19:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304586_202610270141268311.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304586_202610270141268270.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "엔티켓",
-          "url": "https://www.enticket.com:469/pfm/sub01_view.html?p_idx=4472"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-27 15:00:00.104381"
-    },
-    "address": "인천광역시 연수구 아트센터대로 222 (송도동)",
-    "lat": 37.39348409999999,
-    "lng": 126.63095859999999,
-    "venueTel": "032-453-7700",
-    "venueHomepage": "http://www.aci.or.kr/"
-  },
-  {
     "id": "PF303133",
     "name": "인트라 무로스 (INTRA MUROS)",
     "startDate": "20261110",
@@ -13762,165 +13149,6 @@
     "lng": 127.01481309999997,
     "venueTel": "02-2230-6601",
     "venueHomepage": "www.caci.or.kr"
-  },
-  {
-    "id": "PF304820",
-    "name": "정선군 고창군 상호결연 2주년 기념공연: 1872 고창히어로 [정선]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "정선아리랑센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304820_261029_131355.png",
-    "area": "강원특별자치도",
-    "genre": "한국음악(국악)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC002264",
-      "cast": "",
-      "crew": "",
-      "runtime": "1시간 10분",
-      "age": "전체 관람가",
-      "producer": "동리창극단",
-      "price": "전석무료",
-      "schedule": "화요일(19:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304820_202610290113555561.png",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304820_202610290113555500.png"
-      ],
-      "tickets": [
-        {
-          "name": "정선아리랑문화재단",
-          "url": "https://www.jacf.or.kr/jacf/pageview.php?url=sub01a_view&keyvalue=sub01&idx=674"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-29 15:00:00.11594"
-    },
-    "address": "강원도 정선군 정선읍 애산로 51",
-    "lat": 37.3754322,
-    "lng": 128.6714877,
-    "venueTel": "033-560-3000",
-    "venueHomepage": "http://www.jacf.or.kr/"
-  },
-  {
-    "id": "PF304536",
-    "name": "제10회 대전 어린이 연극축제, 춤추는 도깨비",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "작은극장 다함",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304536_261026_173831.jpg",
-    "area": "대전광역시",
-    "genre": "연극",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001407",
-      "cast": "",
-      "crew": "",
-      "runtime": "40분",
-      "age": "전체 관람가",
-      "producer": "극단 놀이터",
-      "price": "전석 20,000원",
-      "schedule": "화요일(10:20,19:30)",
-      "story": "[공연소개]\n\n추석을 앞두고 할머니댁에 메밀묵을 들고 가던 돌이와 엄마 심부름길에 나선 석이, 지름길인 뒷산에는 도깨비가 산다는 소문이 있는데 하필 보통 도깨비도 아닌 '춤추는 도깨비'  자기 춤을 못 따라하면 소중한 것 하나를 가져간다는 막무가내 내기에 아이들은 메밀묵과 떡을 빼앗기고 만다....",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304536_202610260538316670.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304536_202610271000059790.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304536_202610271000060351.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "네이버N예약",
-          "url": "https://booking.naver.com/booking/12/bizes/1232903"
-        }
-      ],
-      "kids": true,
-      "updatedAt": "2026-10-27 15:00:00.104381"
-    },
-    "address": "대전광역시 동구 대전로448번길 70 (가오동)",
-    "lat": 36.3074733,
-    "lng": 127.45554930000003,
-    "venueTel": "042-282-2116",
-    "venueHomepage": ""
-  },
-  {
-    "id": "PF303811",
-    "name": "제12회 경남페스티벌앙상블 정기연주회: 맥박 [창원]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "성산아트홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303811_261019_160031.jpg",
-    "area": "경상남도",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000885",
-      "cast": "이동신, 정원영, 황경민, 장원우, 이승빈 등",
-      "crew": "이주은",
-      "runtime": "",
-      "age": "전체 관람가",
-      "producer": "",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303811_202611030519499670.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "네이버N예약",
-          "url": "https://booking.naver.com/booking/12/bizes/1748765"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-03 18:00:03.094663"
-    },
-    "address": "경상남도 창원시 성산구 중앙대로 181 (용호동)",
-    "lat": 35.2293871,
-    "lng": 128.6831193,
-    "venueTel": "055-268-7900",
-    "venueHomepage": "http://www.cwcf.or.kr/facility/facility_sungsan.asp"
-  },
-  {
-    "id": "PF304887",
-    "name": "제21회 예인교수앙상블 정기연주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "영산아트홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304887_261030_105516.jpg",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000384",
-      "cast": "김미아, 임소현, 백승민, 최혜영, 허정림, 황현석, 박서연 등",
-      "crew": "",
-      "runtime": "1시간 50분",
-      "age": "만 7세 이상",
-      "producer": "현대문화기획",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304887_202610301055163420.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "예스24",
-          "url": "https://ticket.yes24.com/Perf/60715"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-30 15:00:03.089931"
-    },
-    "address": "서울특별시 영등포구 여의공원로 101 (여의도동)",
-    "lat": 37.5292309,
-    "lng": 126.92487210000002,
-    "venueTel": "02-6181-5260",
-    "venueHomepage": "http://www.youngsanarthall.com/rb/"
   },
   {
     "id": "PF303772",
@@ -14041,239 +13269,43 @@
     "venueHomepage": "https://www.facebook.com/PalyDongGuk"
   },
   {
-    "id": "PF304904",
-    "name": "제26회 월드 2인극 페스티벌: 때, 사랑할",
+    "id": "PF305986",
+    "name": "제34회 전북 소극장 연극제, 시암골 사람들 [전주]",
     "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "광복극장",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304904_261105_175235.jpg",
-    "area": "서울특별시",
+    "endDate": "20261114",
+    "venue": "김영오 아트센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305986_261110_142613.jpg",
+    "area": "전북특별자치도",
     "genre": "연극",
     "openrun": false,
     "state": "공연중",
     "detail": {
-      "facilityId": "FC004482",
-      "cast": "김선우, 박상욱",
-      "crew": "정다희, 이재현, 홍성은 등",
-      "runtime": "40분",
-      "age": "만 13세 이상",
-      "producer": "",
-      "price": "전석무료",
-      "schedule": "화요일(16:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304904_202611050552353570.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "플레이티켓",
-          "url": "http://playticket.co.kr/nav/detail.html?idx=4662"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-05 18:00:03.086861"
-    },
-    "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
-    "lat": 37.583886,
-    "lng": 126.997156,
-    "venueTel": "",
-    "venueHomepage": ""
-  },
-  {
-    "id": "PF304022",
-    "name": "제26회 월드 2인극페스티벌, 나는 아직 그곳에",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "광복극장",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304022_261021_140211.jpg",
-    "area": "서울특별시",
-    "genre": "연극",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004482",
-      "cast": "김혜경, 윤시현",
-      "crew": "이숭인, 오서윤, 송예원 등",
-      "runtime": "40분",
-      "age": "만 13세 이상",
-      "producer": "",
-      "price": "전석무료",
-      "schedule": "화요일(17:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304022_202610210202119630.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "플레이티켓",
-          "url": "http://playticket.co.kr/nav/detail.html?idx=4663"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-21 15:00:00.109681"
-    },
-    "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
-    "lat": 37.583886,
-    "lng": 126.997156,
-    "venueTel": "",
-    "venueHomepage": ""
-  },
-  {
-    "id": "PF304626",
-    "name": "제26회 월드 2인극페스티벌, 파수꾼",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "광복극장",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304626_261027_155036.png",
-    "area": "서울특별시",
-    "genre": "연극",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004482",
-      "cast": "김도균 하준혁",
-      "crew": "이강백, 황연희, 김도균 등",
-      "runtime": "40분",
-      "age": "만 13세 이상",
-      "producer": "",
-      "price": "전석무료",
-      "schedule": "화요일(19:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304626_202610270350368950.png"
-      ],
-      "tickets": [
-        {
-          "name": "플레이티켓",
-          "url": "http://playticket.co.kr/nav/detail.html?idx=4665"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-04 18:00:03.074591"
-    },
-    "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
-    "lat": 37.583886,
-    "lng": 126.997156,
-    "venueTel": "",
-    "venueHomepage": ""
-  },
-  {
-    "id": "PF305489",
-    "name": "제27회 중구구립합창단 정기 연주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "충무아트센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305489_261104_152156.jpg",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000014",
-      "cast": "구희용, 안은영, 조정현, 나예리, 유경진, 조은경 등",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "전체 관람가",
-      "producer": "(재)중구문화재단(충무아트센터)",
-      "price": "전석무료",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305489_202611040321563170.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016014"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-04 18:00:03.074591"
-    },
-    "address": "서울특별시 중구 퇴계로 387 (흥인동)",
-    "lat": 37.5660139,
-    "lng": 127.01481309999997,
-    "venueTel": "02-2230-6601",
-    "venueHomepage": "www.caci.or.kr"
-  },
-  {
-    "id": "PF303362",
-    "name": "제37회 여음목관5중주 정기연주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "예술의전당 [서울]",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303362_261014_165510.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000001",
-      "cast": "이지영, 오선영, 송정민, 신현석, 백승훈",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "지클레프",
+      "facilityId": "FC002905",
+      "cast": "진시라, 홍정은",
+      "crew": "정찬호, 정준영, 박재석 등",
+      "runtime": "1시간 5분",
+      "age": "만 5세 이상",
+      "producer": "김영오 아트센터",
       "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
+      "schedule": "화요일 ~ 금요일(18:30), 토요일(15:00,18:30)",
       "story": "",
       "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303362_202610140455106181.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303362_202610140455106130.jpg"
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305986_202611100226134730.jpg"
       ],
       "tickets": [
         {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014675"
+          "name": "타임티켓",
+          "url": "https://timeticket.co.kr/product/7503"
         }
       ],
       "kids": false,
-      "updatedAt": "2026-10-14 18:00:00.081568"
+      "updatedAt": "2026-11-10 15:00:03.058793"
     },
-    "address": "서울특별시 서초구 남부순환로 2406 (서초동)",
-    "lat": 37.4786896,
-    "lng": 127.01182410000001,
-    "venueTel": "02-580-1300",
-    "venueHomepage": "http://www.sac.or.kr"
-  },
-  {
-    "id": "PF305698",
-    "name": "제6회 드로잉더뮤직 음악콩쿠르 대상전",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "거암아트홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305698_261109_103913.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC003195",
-      "cast": "황아영, 정찬우, 홍예빈, 이윤서",
-      "crew": "",
-      "runtime": "2시간",
-      "age": "만 7세 이상",
-      "producer": "(주)드로잉더뮤직",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305698_202611091039136630.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015663"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-09 15:00:03.078038"
-    },
-    "address": "서울특별시 강남구 강남대로 652(신사동)",
-    "lat": 37.5195101,
-    "lng": 127.019106,
-    "venueTel": "",
-    "venueHomepage": "http://sinsasquare.co.kr/"
+    "address": "전라북도 전주시 완산구 홍산북로 23-9(효자동2가)",
+    "lat": 35.818148,
+    "lng": 127.1042953,
+    "venueTel": "063-227-8287",
+    "venueHomepage": "https://blog.naver.com/kyoartcenter"
   },
   {
     "id": "PF305583",
@@ -14315,203 +13347,6 @@
     "venueHomepage": "https://sgtt.kr/"
   },
   {
-    "id": "PF305138",
-    "name": "제7회 김정림 구민희 피아노 듀오 콘서트",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "금호아트홀 연세",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305138_261102_155949.gif",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001556",
-      "cast": "김정림, 구민희",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "이든예술기획(주)",
-      "price": "전석 20,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305138_202611020359497960.png"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26014636"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-02 18:00:03.123264"
-    },
-    "address": "서울특별시 서대문구 연세로 50 (신촌동) 연세대학교 백양누리 B1 금호아트홀 연세",
-    "lat": 37.564089,
-    "lng": 126.93898089999993,
-    "venueTel": "02-6303-1977",
-    "venueHomepage": "http://www.kumhoarthall.com/"
-  },
-  {
-    "id": "PF301176",
-    "name": "제7회 블루밍 트리오 정기연주회",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "세종문화회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301176_260917_113646.png",
-    "area": "서울특별시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000020",
-      "cast": "나윤아, 장혜리, 정소윤",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 6세 이상",
-      "producer": "이든예술기획(주)",
-      "price": "전석 30,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301176_202609171136460911.png",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF301176_202609171136460750.png"
-      ],
-      "tickets": [
-        {
-          "name": "세종문화회관",
-          "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37637&menuNo=200320"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-09-17 15:00:00.085083"
-    },
-    "address": "서울특별시 종로구 세종대로 175 (세종로)",
-    "lat": 37.5725254,
-    "lng": 126.97564290000003,
-    "venueTel": "02-399-1000",
-    "venueHomepage": "http://www.sejongpac.or.kr/"
-  },
-  {
-    "id": "PF303836",
-    "name": "제8회 스케치 정기연주회: 온 더 레드카펫 [대구] (11.10)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "비원뮤직홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303836_261019_172502.jpg",
-    "area": "대구광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC003162",
-      "cast": "이예영, 문지원, 조서연, 전소은, 박예빈, 신민섭, 채우혁 등",
-      "crew": "정영훈",
-      "runtime": "2시간",
-      "age": "만 6세 이상",
-      "producer": "스케치",
-      "price": "전석무료",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303836_202610190525025101.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303836_202610190525025040.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "NHN티켓링크",
-          "url": "http://www.ticketlink.co.kr/product/66344"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-19 18:00:00.095087"
-    },
-    "address": "대구광역시 서구 달서천로 374(원대동1가)",
-    "lat": 35.8830361,
-    "lng": 128.5745653,
-    "venueTel": "053-663-3681",
-    "venueHomepage": "https://www.dgs.go.kr/music/index.php"
-  },
-  {
-    "id": "PF303779",
-    "name": "제98회 예술공감, 빈체로오페라콰이어가 부르는 부산",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "을숙도문화회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303779_261019_150859.jpg",
-    "area": "부산광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000178",
-      "cast": "",
-      "crew": "",
-      "runtime": "1시간 10분",
-      "age": "만 7세 이상",
-      "producer": "을숙도문화회관",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "[공연소개]\n부산·경남을 지역 연고로 창단된 오페라 전문 합창단 ‘빈체로오페라콰이어’가 부산의 풍경과 이야기를 음악으로 풀어낸 특별한 무대를 선보인다.\n\n이번 공연은 부산 출신 작곡가들이 부산의 정서와 지역의 명소, 그곳에 깃든 이야기를 소재로 창작한 작품들을 통해 ‘음악으로 만나는 부산’을 선보이는 자리다. \n익숙한 부산의 공간들이 작곡가의 시선과 음악적 상상력을 만나 새로운 모습으로 펼쳐지며, 합창의 풍성한 울림을 통해 부산만의 색채와 감성을 고스란히 전한다.\n\n지역의 창작음악과 오페라 전문 합창의 만남을 통해 부산의 이야기를 보다 쉽고 흥미롭게 소개하고, 지역 문화예술에 대한 공감과 자긍심을 높이는 무대가 될 예정이다.",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303779_202610190308596490.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "을숙도문화회관",
-          "url": "https://esd.moonhwain.net:451/rsvc/rsv_pm_detail.html?pfmIng=1&p_idx=442"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-19 18:00:00.095087"
-    },
-    "address": "부산광역시 사하구 낙동남로1233번길 25 (하단동)",
-    "lat": 35.1099098,
-    "lng": 128.94485229999998,
-    "venueTel": "051-220-5804",
-    "venueHomepage": "http://www.saha.go.kr/eulsukdo/contents.do?mId=0103000000"
-  },
-  {
-    "id": "PF304098",
-    "name": "조선혼인프로젝트: 김신부부뎐 [청양]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "청양문예회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304098_261022_101807.png",
-    "area": "충청남도",
-    "genre": "한국음악(국악)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000441",
-      "cast": "",
-      "crew": "",
-      "runtime": "1시간",
-      "age": "전체 관람가",
-      "producer": "",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:00)",
-      "story": "[공연소개]\n조선 팔도에 내려진 특명, 혼인하지 않은 세 사람을 혼인시켜라!\n\n계속되는 천재지변과 가뭄의 원인이 결혼 못 한 남녀 때문이라는 소문이 퍼진다. 조정은 가난한 백성들에게 혼인 비용을 지원하지만, \n몇 달 뒤에도 남은 이는 단 세 사람. 마침내 왕이 직접 주관하는 대형 혼인 프로젝트가 시작된다!\n\n<김신부부뎐>은 고전소설 <김신부부전>을 오늘의 감각으로 재창작한 판소리극입니다. 판소리와 기악, 무용, 연극, 미디어아트가 어우러져 조선의 혼인 소동을 유쾌하게 펼쳐냅니다. \n독신과 비혼이라는 오늘의 시선을 더해, 세상의 기준 속에서 자신의 삶을 주체적으로 선택하는 의미를 전합니다.",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304098_202610221018075360.png"
-      ],
-      "tickets": [
-        {
-          "name": "네이버N예약",
-          "url": "https://booking.naver.com/booking/12/bizes/1544315"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-22 15:00:00.152835"
-    },
-    "address": "충청남도 청양군 청양읍 문화예술로 187",
-    "lat": 36.4562778,
-    "lng": 126.80048940000006,
-    "venueTel": "041-940-2734",
-    "venueHomepage": "http://art.cheongyang.go.kr/"
-  },
-  {
     "id": "PF302723",
     "name": "지금 정리할게요 [대학로]",
     "startDate": "20261110",
@@ -14549,46 +13384,6 @@
     "lng": 127.00526530000002,
     "venueTel": "02-747-1912",
     "venueHomepage": ""
-  },
-  {
-    "id": "PF295323",
-    "name": "클래식 온: 소프라노 강혜정 리사이틀 [대구]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "대구콘서트하우스",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295323_261104_165546.gif",
-    "area": "대구광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001193",
-      "cast": "강혜정, 박상욱",
-      "crew": "",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "대구콘서트하우스",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295323_202611040455461380.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF295323_202611040455461451.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008675"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-11-04 18:00:03.074591"
-    },
-    "address": "대구광역시 중구 태평로 141 (태평로2가)",
-    "lat": 35.8760471,
-    "lng": 128.59384449999993,
-    "venueTel": "053-250-1400",
-    "venueHomepage": "https://daeguconcerthouse.or.kr/"
   },
   {
     "id": "PF305422",
@@ -14630,282 +13425,43 @@
     "venueHomepage": "https://cafe.daum.net/ejotto"
   },
   {
-    "id": "PF302934",
-    "name": "포항국제음악제, 아티스트 포항 Ⅱ. 문성우",
+    "id": "PF305980",
+    "name": "택시택시 [부산]",
     "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "포항문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302934_261012_133509.jpg",
-    "area": "경상북도",
-    "genre": "서양음악(클래식)",
+    "endDate": "20261112",
+    "venue": "에저또소극장 [부산]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305980_261110_141058.gif",
+    "area": "부산광역시",
+    "genre": "연극",
     "openrun": false,
     "state": "공연중",
     "detail": {
-      "facilityId": "FC001191",
-      "cast": "문성우",
-      "crew": "",
-      "runtime": "1시간 30분",
+      "facilityId": "FC001140",
+      "cast": "이지훈, 김지연, 최재민",
+      "crew": "김지연, 최재민, 방태수 등",
+      "runtime": "1시간 25분",
       "age": "만 7세 이상",
-      "producer": "(재)포항문화재단",
-      "price": "전석 10,000원",
-      "schedule": "화요일(16:00)",
+      "producer": "(사)극단 에저또",
+      "price": "전석 30,000원",
+      "schedule": "화요일 ~ 목요일(19:30)",
       "story": "",
       "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302934_202610120136016850.png"
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305980_202611100210585880.jpg"
       ],
       "tickets": [
         {
-          "name": "NHN티켓링크",
-          "url": "http://www.ticketlink.co.kr/product/66116"
+          "name": "타임티켓",
+          "url": "https://timeticket.co.kr/product/7483"
         }
       ],
       "kids": false,
-      "updatedAt": "2026-10-12 15:00:00.095552"
+      "updatedAt": "2026-11-10 15:00:03.058793"
     },
-    "address": "경상북도 포항시 남구 희망대로 850 (대도동)",
-    "lat": 36.009548,
-    "lng": 129.3659927,
-    "venueTel": "054-289-7999",
-    "venueHomepage": "https://culturalspace.phcf.or.kr/munhwaArtCenter/subMain.do"
-  },
-  {
-    "id": "PF300322",
-    "name": "포항국제음악제, 포항시립교향악단 with 김영욱 & 율리안 슈테켈",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "포항문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300322_260907_154644.jpg",
-    "area": "경상북도",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001191",
-      "cast": "차웅, 김영욱, 율리안 슈테켈 등",
-      "crew": "박유신 등",
-      "runtime": "1시간 20분",
-      "age": "만 7세 이상",
-      "producer": "(재)포항문화재단",
-      "price": "R석 50,000원, S석 40,000원",
-      "schedule": "화요일(19:00)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF300322_202609070346444130.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "NHN티켓링크",
-          "url": "http://www.ticketlink.co.kr/product/65392"
-        },
-        {
-          "name": "네이버N예약",
-          "url": "https://booking.naver.com/booking/12/bizes/1739918"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-09-21 11:20:40"
-    },
-    "address": "경상북도 포항시 남구 희망대로 850 (대도동)",
-    "lat": 36.009548,
-    "lng": 129.3659927,
-    "venueTel": "054-289-7999",
-    "venueHomepage": "https://culturalspace.phcf.or.kr/munhwaArtCenter/subMain.do"
-  },
-  {
-    "id": "PF303986",
-    "name": "해설이 있는 음악회 서.클.스, 티치아노 베첼리오 (11월)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "서울주문화센터",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303986_261021_124719.jpg",
-    "area": "울산광역시",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC002626",
-      "cast": "김성민, 김은경, 신성희, 이형석, 김경미",
-      "crew": "",
-      "runtime": "1시간 20분",
-      "age": "만 7세 이상",
-      "producer": "",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303986_202610211247190160.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "서울주문화센터(울주문화재단)",
-          "url": "https://www.ucf.or.kr:478/culturearts/pe_detail.html?pfmIng=1&p_idx=1707"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-21 15:00:00.109681"
-    },
-    "address": "울산광역시 울주군 언양읍 언양로 40-7",
-    "lat": 35.5612048,
-    "lng": 129.1313812,
-    "venueTel": "052-204-0318",
-    "venueHomepage": "https://wucc.or.kr/"
-  },
-  {
-    "id": "PF304782",
-    "name": "헤어드레서 [장성]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "장성문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF304782_261029_103514.png",
-    "area": "전남광주통합특별시",
-    "genre": "뮤지컬",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000053",
-      "cast": "유도온, 조정민",
-      "crew": "",
-      "runtime": "",
-      "age": "만 6세 이상",
-      "producer": "",
-      "price": "전석 10,000원",
-      "schedule": "화요일(19:00)",
-      "story": "[공연소개]\no 자신의 재능을 발견하고 앞서가는 삶을 살았던 한 여성의 성공기를 그린 뮤지컬\no 동서양이 조화를 이루던 개화기 시대를 배경으로 화려한 볼거리, 다양한 무대배경, 몰입감 높은 스토리 전개\n   전세대가 공감할 수 있는 블록버스터 뮤지컬",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF304782_202610291035143730.png"
-      ],
-      "tickets": [
-        {
-          "name": "장성문화예술회관",
-          "url": "http://jsac.moonhwain.net/rsvc/rsv_pm.html?b_id=jsac&p_idx=195"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-29 15:00:00.11594"
-    },
-    "address": "전남광주통합특별시 장성군 장성읍 문화로 110",
-    "lat": 35.3022066,
-    "lng": 126.76655010000002,
-    "venueTel": "061-390-7552",
-    "venueHomepage": "https://www.jangseong.go.kr/home/www/openinfo/openinfo_15/"
-  },
-  {
-    "id": "PF303938",
-    "name": "화요국악무대, Beyond K-GUGAK [대구]",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "대구문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303938_261020_172106.gif",
-    "area": "대구광역시",
-    "genre": "한국음악(국악)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC000191",
-      "cast": "박은경, 이아름, 김선미, 권민형, 허성애, 이주영, 구슬기 등",
-      "crew": "한상일",
-      "runtime": "1시간 10분",
-      "age": "만 7세 이상",
-      "producer": "대구문화예술회관",
-      "price": "전석 2,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303938_202610200521062661.jpg",
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303938_202610200521062260.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015002"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-20 18:00:00.051159"
-    },
-    "address": "대구광역시 달서구 공원순환로 201 (성당동)",
-    "lat": 35.8446585,
-    "lng": 128.55874089999998,
-    "venueTel": "053-606-6114",
-    "venueHomepage": "http://artcenter.daegu.go.kr/content.html?md=0047"
-  },
-  {
-    "id": "PF299347",
-    "name": "SAC ON SCREEN, 보컬 마스터 시리즈 Ⅲ. 베이스 바리톤 사무엘 윤 [화성] (영상화)",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "화성예술의전당",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF299347_260825_140634.gif",
-    "area": "경기도",
-    "genre": "서양음악(클래식)",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC004725",
-      "cast": "윤태현, 박종화 등",
-      "crew": "박귀섭, 윤태현 등",
-      "runtime": "1시간 38분",
-      "age": "전체 관람가",
-      "producer": "(재) 화성시문화관광재단(화성예술의전당)",
-      "price": "전석무료",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF299347_202608250206344490.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "놀유니버스",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012188"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-08-25 15:00:00.047691"
-    },
-    "address": "경기도 화성시 노작로 11-1 (오산동)",
-    "lat": 37.192637,
-    "lng": 127.086362,
-    "venueTel": "",
-    "venueHomepage": "https://hac.hcf.or.kr/index.do"
-  },
-  {
-    "id": "PF302792",
-    "name": "Sounds of Autumn",
-    "startDate": "20261110",
-    "endDate": "20261110",
-    "venue": "롯데콘서트홀",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302792_261008_112216.jpg",
-    "area": "서울특별시",
-    "genre": "뮤지컬",
-    "openrun": false,
-    "state": "공연중",
-    "detail": {
-      "facilityId": "FC001513",
-      "cast": "칼린 수 팍, 최재림, 정선아, 신효범 등",
-      "crew": "칼린 수 팍 등",
-      "runtime": "1시간 30분",
-      "age": "만 7세 이상",
-      "producer": "",
-      "price": "R석 180,000원, S석 160,000원, A석 140,000원, B석 120,000원, 시야방해 R석 126,000원, 시야방해 S석 112,000원, 시야방해 A석 98,000원, 시야방해 B석 84,000원",
-      "schedule": "화요일(19:30)",
-      "story": "",
-      "images": [
-        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF302792_202610081122167680.jpg"
-      ],
-      "tickets": [
-        {
-          "name": "롯데콘서트홀",
-          "url": "https://www.lotteconcerthall.com/product/performance/261225"
-        }
-      ],
-      "kids": false,
-      "updatedAt": "2026-10-08 15:00:00.092925"
-    },
-    "address": "서울특별시 송파구 올림픽로 300 (신천동) 롯데월드몰 8층 롯데문화재단",
-    "lat": 37.5130605,
-    "lng": 127.10349500000007,
-    "venueTel": "00-1544-7744",
-    "venueHomepage": "http://www.lotteconcerthall.com/"
+    "address": "부산광역시 남구 수영로293번길 42 (대연동)",
+    "lat": 35.1431981,
+    "lng": 129.09650169999998,
+    "venueTel": "051-852-9161",
+    "venueHomepage": "https://cafe.daum.net/ejotto"
   },
   {
     "id": "PF304070",
@@ -14917,7 +13473,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000001",
       "cast": "안두현, 김동현 등",
@@ -14956,7 +13512,7 @@
     "area": "강원특별자치도",
     "genre": "한국음악(국악)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000755",
       "cast": "모선미, 신용훈, 박애리, 장은애, 최진석, 박종완, 장영진 등",
@@ -14996,7 +13552,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000783",
       "cast": "에리카 파간, 체사레 그라시",
@@ -15035,7 +13591,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC002228",
       "cast": "김준, 김선호, 김연준, 김종훈, 주부현, 김세종, 손승우 등",
@@ -15074,7 +13630,7 @@
     "area": "서울특별시",
     "genre": "한국음악(국악)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000065",
       "cast": "유영주, 이용구, 송영숙, 서수복, 서은영, 유현수, 이지안 등",
@@ -15116,7 +13672,7 @@
     "area": "대구광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001193",
       "cast": "김수지, 김명현",
@@ -15155,7 +13711,7 @@
     "area": "경기도",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC003150",
       "cast": "김연경, 원영채, 홍다혜, 기선진, 신상일",
@@ -15196,7 +13752,7 @@
     "area": "서울특별시",
     "genre": "뮤지컬",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001370",
       "cast": "정기열, 신성록, 고은성, 백형훈, 진태화, 노윤, 이선민 등",
@@ -15252,7 +13808,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC002721",
       "cast": "",
@@ -15291,7 +13847,7 @@
     "area": "경기도",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000332",
       "cast": "안인모",
@@ -15334,7 +13890,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000032",
       "cast": "다비데 알로냐, 줄리오 탐팔리니",
@@ -15373,7 +13929,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004500",
       "cast": "",
@@ -15412,7 +13968,7 @@
     "area": "경상남도",
     "genre": "뮤지컬",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001170",
       "cast": "",
@@ -15451,7 +14007,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001958",
       "cast": "김대경, 김유진, 민주신, 서수진",
@@ -15490,7 +14046,7 @@
     "area": "부산광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004307",
       "cast": "김지현, 류무룡, 정혜주, 강혜인",
@@ -15532,7 +14088,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000001",
       "cast": "소현정",
@@ -15571,7 +14127,7 @@
     "area": "경상남도",
     "genre": "무용(서양/한국무용)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001701",
       "cast": "김서윤, 김은, 박시한, 이상재, 이시우, 이은경, 이주희 등",
@@ -15614,7 +14170,7 @@
     "area": "경상북도",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000537",
       "cast": "민경인, 최진배, 신동진, 남예지",
@@ -15654,7 +14210,7 @@
     "area": "서울특별시",
     "genre": "뮤지컬",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001535",
       "cast": "권오현, 김찬우, 김지수, 전소하, 유채린, 김연주, 최은화 등",
@@ -15697,7 +14253,7 @@
     "area": "대구광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001193",
       "cast": "백윤학, 이지호, 김민기, 최라나, 이강우",
@@ -15738,7 +14294,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001513",
       "cast": "최영선, 일리야 라쉬코프스키, 김준형 등",
@@ -15781,7 +14337,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000001",
       "cast": "이영신, 장진영",
@@ -15820,7 +14376,7 @@
     "area": "서울특별시",
     "genre": "한국음악(국악)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000009",
       "cast": "이영훈, 진성수, 문양숙, 오경준, 홍지혜, 이승호",
@@ -15859,7 +14415,7 @@
     "area": "전남광주통합특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000233",
       "cast": "이후성, 석민정, 김예빈, 나유빈, 이다영, 이영민",
@@ -15898,7 +14454,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000001",
       "cast": "김상진, 조성현 등",
@@ -15937,7 +14493,7 @@
     "area": "대전광역시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000752",
       "cast": "",
@@ -15978,7 +14534,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001485",
       "cast": "김경복, 지영란, 정영희, 국혜숙, 오선숙, 이현정, 이지안 등",
@@ -16017,7 +14573,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001085",
       "cast": "정주희, 진영찬, 한예솔, 이선재",
@@ -16056,7 +14612,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001424",
       "cast": "김세향, 조하나, 이재훈, 전송희, 안성찬",
@@ -16095,7 +14651,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "이인성, 정성원",
@@ -16137,7 +14693,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "박정하, 이요원",
@@ -16179,7 +14735,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "장한율, 정소민",
@@ -16218,7 +14774,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "조민형, 정회예",
@@ -16260,7 +14816,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "서우남, 최진우",
@@ -16299,7 +14855,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001203",
       "cast": "김혜인, 조서영",
@@ -16339,7 +14895,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001121",
       "cast": "김충만, 송지현, 한채윤, 윤예성, 김한솔, 김다민, 이하늘 등",
@@ -16378,7 +14934,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC002625",
       "cast": "허지윤, 이기상",
@@ -16417,7 +14973,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004866",
       "cast": "이우복, 이석구, 허솔, 최지욱, 홍한빈, 서찬휘, 위환 등",
@@ -16456,7 +15012,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001091",
       "cast": "왕유정, 배태민, 정지윤, 김정은, 권남후, 송수빈, 조호선",
@@ -16495,7 +15051,7 @@
     "area": "대구광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000191",
       "cast": "문지원, 박경빈, 박예빈, 백인혁, 신민섭, 이동현, 이세지 등",
@@ -16535,7 +15091,7 @@
     "area": "충청북도",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC003948",
       "cast": "김나영, 김국주, 김홍연, 조용우, 김민이",
@@ -16574,7 +15130,7 @@
     "area": "전남광주통합특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000509",
       "cast": "권용만, 김효주, 장주훈, 이현빈, 강수정, 김기진,  김수안 등",
@@ -16613,7 +15169,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001556",
       "cast": "김수정, 김경은, 이현아",
@@ -16652,7 +15208,7 @@
     "area": "세종특별자치시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC002784",
       "cast": "엄태윤, 조찬현, 황진아, 송하은",
@@ -16691,7 +15247,7 @@
     "area": "부산광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000175",
       "cast": "서희태, 김종표, 박현진, 이은진, 신동룡 등",
@@ -16730,7 +15286,7 @@
     "area": "경상북도",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001191",
       "cast": "선우예권",
@@ -16773,7 +15329,7 @@
     "area": "서울특별시",
     "genre": "연극",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000798",
       "cast": "류제윤, 이시형, 박도하, 강기혁, 김지웅, 정아람, 홍수주 등",
@@ -16812,7 +15368,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004583",
       "cast": "",
@@ -16851,7 +15407,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001868",
       "cast": "김민, 이경숙",
@@ -16891,7 +15447,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004237",
       "cast": "",
@@ -16930,7 +15486,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC004674",
       "cast": "",
@@ -16969,7 +15525,7 @@
     "area": "서울특별시",
     "genre": "대중음악",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC003645",
       "cast": "알리셰르 타기로비치 발레예프",
@@ -17008,7 +15564,7 @@
     "area": "경기도",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001812",
       "cast": "",
@@ -17047,7 +15603,7 @@
     "area": "부산광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000164",
       "cast": "민종호, 최진영, 신승엽",
@@ -17086,7 +15642,7 @@
     "area": "대구광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC001816",
       "cast": "조현진, 서영진, 김승주, 김도엽, 정지교, 최재호, 정혜진 등",
@@ -17125,7 +15681,7 @@
     "area": "서울특별시",
     "genre": "서양음악(클래식)",
     "openrun": false,
-    "state": "공연예정",
+    "state": "공연중",
     "detail": {
       "facilityId": "FC000384",
       "cast": "",
@@ -22743,6 +21299,46 @@
     "venueHomepage": "https://www.guroartsvalley.or.kr/user/overall/overallArt5.do"
   },
   {
+    "id": "PF305987",
+    "name": "제10회 대전어린이연극축제, 달토끼의 소리함이 비었다!",
+    "startDate": "20261113",
+    "endDate": "20261113",
+    "venue": "드림아트홀 [대전]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305987_261110_143030.jpg",
+    "area": "대전광역시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000752",
+      "cast": "",
+      "crew": "",
+      "runtime": "40분",
+      "age": "전체 관람가",
+      "producer": "인형극단 부엉이곳간",
+      "price": "전석 20,000원",
+      "schedule": "금요일(10:20,19:30)",
+      "story": "[공연소개]\n\n동시들이 없어진 달나라는 빛이 사라지고 낭만도 사라져서 어둠의 세상으로 변한다.\n서둘러 시들을 찾아서 길을 떠나려는 달토끼, 하지만 짧쪼로롬 바다 소리로 가는 문을 굳게 닫혀있다\n관객의 도움으로 무사히 문을 통과하고 달토끼는 하나 둘 동시들을 소리함에 담는다",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305987_202611100230301880.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305987_202611100231221390.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1232903"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대전광역시 중구 선화서로 2 (대흥동)",
+    "lat": 36.3243771,
+    "lng": 127.42044770000007,
+    "venueTel": "042-252-0887",
+    "venueHomepage": "https://www.instagram.com/dreamarthall/"
+  },
+  {
     "id": "PF303575",
     "name": "제17회 정주연 플루트 독주회 [부산]",
     "startDate": "20261113",
@@ -23263,6 +21859,49 @@
     "lng": 127.01182410000001,
     "venueTel": "02-580-1300",
     "venueHomepage": "http://www.sac.or.kr"
+  },
+  {
+    "id": "PF303744",
+    "name": "제3회 오브제 연극제, 미틸: 영원한 이별의 해방 [대구]",
+    "startDate": "20261113",
+    "endDate": "20261115",
+    "venue": "아트벙커",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF303744_261019_135040.jpg",
+    "area": "대구광역시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001828",
+      "cast": "조혜영, 김서아, 강영은",
+      "crew": "김성경, 권윤형, 백창하 등",
+      "runtime": "1시간 10분",
+      "age": "만 7세 이상",
+      "producer": "킴모뮤직",
+      "price": "전석 30,000원",
+      "schedule": "금요일(19:30), 토요일(15:00,18:00), 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF303744_202611090559454610.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66336"
+        },
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1757045"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대구광역시 남구 현충로 262 (대명동)",
+    "lat": 35.8557096,
+    "lng": 128.58320249999997,
+    "venueTel": "053-421-2223",
+    "venueHomepage": "https://www.facebook.com/groups/1109711122479798/about/"
   },
   {
     "id": "PF304672",
@@ -24260,6 +22899,48 @@
     "lng": 126.945526907783,
     "venueTel": "02-3274-8500",
     "venueHomepage": "http://www.mapoartcenter.or.kr/"
+  },
+  {
+    "id": "PF305923",
+    "name": "One Piano 4 Hands. 심정은, 전숙영",
+    "startDate": "20261113",
+    "endDate": "20261113",
+    "venue": "콘서트홀 나누",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305923_261110_104535.jpg",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004204",
+      "cast": "심정은, 전숙영",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "전체 관람가",
+      "producer": "콘서트홀 나누",
+      "price": "전석 20,000원",
+      "schedule": "금요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305923_202611101045597260.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305923_202611101044284602.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305923_202611101044284541.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305923_202611101044284490.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1269745"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 망원로 66 (망원동)",
+    "lat": 37.5570634,
+    "lng": 126.9042133,
+    "venueTel": "",
+    "venueHomepage": ""
   },
   {
     "id": "PF303254",
@@ -27670,7 +26351,7 @@
     "startDate": "20261114",
     "endDate": "20261114",
     "venue": "대구문화예술회관",
-    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302127_260930_140259.gif",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302127_261110_170057.jpg",
     "area": "대구광역시",
     "genre": "서양음악(클래식)",
     "openrun": false,
@@ -29485,6 +28166,46 @@
       ],
       "kids": false,
       "updatedAt": "2026-11-02 15:00:03.100972"
+    },
+    "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
+    "lat": 37.583886,
+    "lng": 126.997156,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
+    "id": "PF305934",
+    "name": "제26회 월드 2인극 페스티벌, 누구나 똑같은 강을 두 번 건널 수 없다.",
+    "startDate": "20261114",
+    "endDate": "20261114",
+    "venue": "광복극장",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305934_261110_110624.jpg",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004482",
+      "cast": "김남술, 박재연",
+      "crew": "김남술, 박재연",
+      "runtime": "30분",
+      "age": "만 13세 이상",
+      "producer": "아마가세",
+      "price": "전석무료",
+      "schedule": "토요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305934_202611101106249691.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305934_202611101106249590.png"
+      ],
+      "tickets": [
+        {
+          "name": "플레이티켓",
+          "url": "http://playticket.co.kr/nav/detail.html?idx=4713"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
     },
     "address": "서울특별시 종로구 성균관로 15-10 (명륜3가)",
     "lat": 37.583886,
@@ -35359,6 +34080,45 @@
     "venueHomepage": "https://www.guriart.or.kr/PageLink.do"
   },
   {
+    "id": "PF305901",
+    "name": "천체관측 Vol.18",
+    "startDate": "20261115",
+    "endDate": "20261115",
+    "venue": "세티 라이브홀 (SETI LIVE HALL)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305901_261109_175341.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004237",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "현장판매 25,000원, 사전예약 20,000원",
+      "schedule": "일요일(13:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305901_202611090553419450.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1293964"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 와우산로21길 31 (서교동)",
+    "lat": 37.5522263,
+    "lng": 126.9221353,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF293996",
     "name": "춤추는 발레 FESTA: 백조의호수 & 호두까기인형 [용인]",
     "startDate": "20261115",
@@ -37849,6 +36609,45 @@
     "venueHomepage": "https://www.gangdongarts.or.kr/"
   },
   {
+    "id": "PF305998",
+    "name": "한국마임: 언제 어디서나 마임",
+    "startDate": "20261117",
+    "endDate": "20261121",
+    "venue": "봄날아트홀 (구. 아리랑소극장)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305998_261110_145605.gif",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000453",
+      "cast": "윤성환, 이승협, 장성실, 김흥남, 장유상, 마정석, 이정훈 등",
+      "crew": "이정훈, 김성연",
+      "runtime": "1시간 10분",
+      "age": "전체 관람가",
+      "producer": "극단 빈-공간, 극단 세 개의 시간",
+      "price": "전석 20,000원",
+      "schedule": "화요일 ~ 금요일(19:00), 토요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305998_202611100256055680.png"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015971"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 동숭길 39 (동숭동)",
+    "lat": 37.5799517,
+    "lng": 127.00425100000007,
+    "venueTel": "070-8639-7883",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF304402",
     "name": "한국피아노학회 기획연주, 젊은 피아니스트의 초상: The Art of Virtuosity Series Ⅰ. 잔향과 색채",
     "startDate": "20261117",
@@ -38528,6 +37327,45 @@
     "lng": 127.01182410000001,
     "venueTel": "02-580-1300",
     "venueHomepage": "http://www.sac.or.kr"
+  },
+  {
+    "id": "PF305965",
+    "name": "문민영 피아노 독주회 [대구]",
+    "startDate": "20261118",
+    "endDate": "20261118",
+    "venue": "대구콘서트하우스",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305965_261110_133931.jpg",
+    "area": "대구광역시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001193",
+      "cast": "문민영",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "A.M Entertainment",
+      "price": "전석 20,000원",
+      "schedule": "수요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305965_202611100139312760.png"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66822"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대구광역시 중구 태평로 141 (태평로2가)",
+    "lat": 35.8760471,
+    "lng": 128.59384449999993,
+    "venueTel": "053-250-1400",
+    "venueHomepage": "https://daeguconcerthouse.or.kr/"
   },
   {
     "id": "PF304704",
@@ -41085,6 +39923,48 @@
     "venueHomepage": "https://www.sjac.or.kr/"
   },
   {
+    "id": "PF305948",
+    "name": "소프라노 이민영 독창회: 사랑, 내일의 잎새들",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "venue": "스튜디오 바이탈 바이브",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305948_261110_115024.gif",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC003428",
+      "cast": "이민영, 김지훈",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "만 5세 이상",
+      "producer": "스튜디오바이탈바이브(Studio Vitalvibes)",
+      "price": "전석 10,000원",
+      "schedule": "목요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305948_202611101150240673.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305948_202611101150240622.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305948_202611101150240571.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305948_202611101150240530.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015961"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 강남구 밤고개로34길 14 (세곡동)",
+    "lat": 37.4637733,
+    "lng": 127.1067125,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF299001",
     "name": "스테이시 켄트 내한공연",
     "startDate": "20261119",
@@ -41418,6 +40298,46 @@
     "lng": 126.97564290000003,
     "venueTel": "02-399-1000",
     "venueHomepage": "http://www.sejongpac.or.kr/"
+  },
+  {
+    "id": "PF305966",
+    "name": "이솝이야기 낭독공연 [서울 성동]",
+    "startDate": "20261119",
+    "endDate": "20261119",
+    "venue": "소월아트홀 (성동문화회관)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305966_261110_133931.jpg",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001131",
+      "cast": "김도빈, 김대현, 이형훈, 강연정, 전성우, 송나영, 송상은 등",
+      "crew": "서윤미, 임세영, 마선영 등",
+      "runtime": "2시간",
+      "age": "만 13세 이상",
+      "producer": "(주)컴인컴퍼니",
+      "price": "전석 20,000원",
+      "schedule": "목요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305966_202611100139317761.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305966_202611100139317640.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66846"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 성동구 왕십리로 281",
+    "lat": 37.559276,
+    "lng": 127.03599370000006,
+    "venueTel": "02-2204-6400",
+    "venueHomepage": "http://www.sdfac.or.kr/main/index.html"
   },
   {
     "id": "PF305481",
@@ -42860,6 +41780,45 @@
     "venueHomepage": "https://www.moduarttheater.or.kr/home/ko/main"
   },
   {
+    "id": "PF305904",
+    "name": "냉장고 [대전]",
+    "startDate": "20261120",
+    "endDate": "20261128",
+    "venue": "별별마당 우금치",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305904_261109_181906.png",
+    "area": "대전광역시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC003225",
+      "cast": "이주행, 김황식, 성장순, 이신애, 임창숙, 이광백, 김시현 등",
+      "crew": "류기형, 서정미, 이광백 등",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "(사)마당극패 우금치, 극단 예감, 별별마당",
+      "price": "전석 30,000원",
+      "schedule": "수요일 ~ 금요일(19:30), 토요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305904_202611090619065150.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/948248"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대전광역시 중구 중앙로112번길 15(대흥동)",
+    "lat": 36.3267236,
+    "lng": 127.4230361,
+    "venueTel": "",
+    "venueHomepage": "https://linktr.ee/wukumchi1990"
+  },
+  {
     "id": "PF297237",
     "name": "노맨틱 코미디 [청주]",
     "startDate": "20261120",
@@ -42902,6 +41861,45 @@
     "lng": 127.4889033,
     "venueTel": "043-222-1434",
     "venueHomepage": "http://somyung.modoo.at/"
+  },
+  {
+    "id": "PF305933",
+    "name": "늙은 배우의 노래 [인천]",
+    "startDate": "20261120",
+    "endDate": "20261121",
+    "venue": "학산소극장",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305933_261110_110624.jpg",
+    "area": "인천광역시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000300",
+      "cast": "조남희, 손인찬, 박상우, 임보람, 조효준, 이담희",
+      "crew": "정성원, 동천, 용선중 등",
+      "runtime": "1시간 30분",
+      "age": "만 12세 이상",
+      "producer": "극단 아토",
+      "price": "전석 20,000원",
+      "schedule": "금요일(19:30), 토요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305933_202611101106245830.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66831"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "인천광역시 남구 인하로 126 (용현동)",
+    "lat": 37.4494551,
+    "lng": 126.661876,
+    "venueTel": "032-866-3970",
+    "venueHomepage": "http://www.haksanculture.or.kr/theatre/haksantheater.php"
   },
   {
     "id": "PF304739",
@@ -44239,6 +43237,45 @@
     "venueHomepage": "https://suscoop.com/"
   },
   {
+    "id": "PF305981",
+    "name": "숲세권 라이브, 정수민 쇼케이스: Home",
+    "startDate": "20261120",
+    "endDate": "20261120",
+    "venue": "숲세권 라이브 카인드스퀘어점",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305981_261110_141402.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC005062",
+      "cast": "정수민",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "폰드메이커스",
+      "price": "전석 66,000원",
+      "schedule": "금요일(20:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305981_202611100214023670.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214260"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 사직로 8 (교북동)",
+    "lat": 37.57212,
+    "lng": 126.961099,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF305846",
     "name": "스키니브라운 단독 콘서트 Skinny Brown Mabushii Concert",
     "startDate": "20261120",
@@ -44358,6 +43395,45 @@
     "lng": 126.93978519999996,
     "venueTel": "02-330-4393",
     "venueHomepage": "https://www.scas.or.kr/"
+  },
+  {
+    "id": "PF305983",
+    "name": "슬기로운 대학생활 [춘천]",
+    "startDate": "20261120",
+    "endDate": "20261121",
+    "venue": "아트팩토리 봄",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305983_261110_142028.jpg",
+    "area": "강원특별자치도",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC002814",
+      "cast": "백건우, 이서현, 김진",
+      "crew": "백채윤, 김경민",
+      "runtime": "1시간",
+      "age": "전체 관람가",
+      "producer": "(사)문화프로덕션 도모",
+      "price": "전석 30,000원",
+      "schedule": "금요일(19:30), 토요일(15:00)",
+      "story": "[공연소개]\n\n설레는 캠퍼스, 새로운 친구들, 그리고 처음 마주하는 수많은 고민들!\n\n친구, 사랑, 진로와 미래까지\n마음처럼 흘러가지 않는 대학생활 속에서\n청춘들은 저마다의 방식으로 한 걸음씩 성장해 나간다.\n\n누구나 한 번쯤 겪어봤을\n서툴지만 반짝이는 청춘들의 이야기,\n슬기로운 대학생활",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305983_202611100220281200.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1763060"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "강원도 춘천시 신동면 풍류1길 34",
+    "lat": 37.8179712,
+    "lng": 127.7197078,
+    "venueTel": "033-263-7222",
+    "venueHomepage": ""
   },
   {
     "id": "PF304097",
@@ -50381,6 +49457,45 @@
     "venueHomepage": "https://attihall.modoo.at/"
   },
   {
+    "id": "PF305974",
+    "name": "아는 노래 [인제]",
+    "startDate": "20261121",
+    "endDate": "20261121",
+    "venue": "인제하늘내린센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305974_261110_140126.gif",
+    "area": "강원특별자치도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000559",
+      "cast": "송필근, 나현영, 홍현호, 박은영, 윤승현",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "(재)인제군문화재단",
+      "price": "1층석 20,000원, 2층석 10,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305974_202611100201261170.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015958"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "강원도 인제군 인제읍 비봉로44번길 100",
+    "lat": 38.0611312,
+    "lng": 128.16497060000006,
+    "venueTel": "033-460-8900",
+    "venueHomepage": "http://www.injeart.or.kr/index.php"
+  },
+  {
     "id": "PF302926",
     "name": "아빠와 난 초등1학년 [여수]",
     "startDate": "20261121",
@@ -52835,6 +51950,45 @@
     "venueHomepage": "http://www.cccf.or.kr/designer/skin/cafacility/cahallfacility.html"
   },
   {
+    "id": "PF305990",
+    "name": "플레이티켓 낭독쇼케이스, 낙차 (11월)",
+    "startDate": "20261121",
+    "endDate": "20261122",
+    "venue": "서울연극센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305990_261110_143618.png",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004035",
+      "cast": "임수한, 윤지우, 김재연, 김형석, 양하임",
+      "crew": "정지상, 주용필",
+      "runtime": "1시간",
+      "age": "만 13세 이상",
+      "producer": "",
+      "price": "전석무료",
+      "schedule": "토요일 ~ 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305990_202611100236184250.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "플레이티켓",
+          "url": "http://playticket.co.kr/nav/detail.html?idx=4775"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 대명길 3 (명륜4가)",
+    "lat": 37.5833896,
+    "lng": 127.0013221,
+    "venueTel": "02-743-9333",
+    "venueHomepage": "https://www.sfac.or.kr/artspace/artspace/play_main.do?groupCtgry=g3"
+  },
+  {
     "id": "PF303024",
     "name": "피노키오 [전주]",
     "startDate": "20261121",
@@ -53884,6 +53038,45 @@
     "lng": 126.8889847,
     "venueTel": "02-515-0915",
     "venueHomepage": "https://showkingkpopcenter.modoo.at/"
+  },
+  {
+    "id": "PF305903",
+    "name": "JEONGHAN X JOSHUA JOURNEY INTO: DREAMING [일본]",
+    "startDate": "20261121",
+    "endDate": "20261122",
+    "venue": "베루나 돔(BELLUNA DOME) [일본 사이타마]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305903_261109_180920.gif",
+    "area": "",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC005184",
+      "cast": "조슈아 지수 홍, 윤정한",
+      "crew": "",
+      "runtime": "",
+      "age": "36개월 이상",
+      "producer": "놀유니버스",
+      "price": "전석 150,000원",
+      "schedule": "토요일 ~ 일요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305903_202611090609200590.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016105"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "",
+    "lat": null,
+    "lng": null,
+    "venueTel": "",
+    "venueHomepage": "https://bellunadome.seibulions.co.jp/"
   },
   {
     "id": "PF304819",
@@ -55089,6 +54282,46 @@
     "venueHomepage": "http://www.aci.or.kr/"
   },
   {
+    "id": "PF305913",
+    "name": "발레 & 오케스트라: 호두까기 인형 [남원]",
+    "startDate": "20261122",
+    "endDate": "20261122",
+    "venue": "춘향문화예술회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305913_261110_101451.jpg",
+    "area": "전북특별자치도",
+    "genre": "무용(서양/한국무용)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000475",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "36개월 이상",
+      "producer": "문화체육관광부, 전북발레시어터, 전북특별자치도청, 정읍시(문화예술과)",
+      "price": "1층석 10,000원",
+      "schedule": "일요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305913_202611101014519191.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305913_202611101014519060.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66842"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전라북도 남원시 양림길 43 (어현동)",
+    "lat": 35.4022201,
+    "lng": 127.39007179999999,
+    "venueTel": "063-620-5724",
+    "venueHomepage": "http://www.namwon.go.kr/tour/board/view.do?menuCd=DOM_000001002003003000&boardId=BBS_0000028&dataSid=121051"
+  },
+  {
     "id": "PF303854",
     "name": "버블쇼 [거제]",
     "startDate": "20261122",
@@ -56262,6 +55495,45 @@
     "lng": 126.928539,
     "venueTel": "02-3280-8800",
     "venueHomepage": "http://gurumare.co.kr/"
+  },
+  {
+    "id": "PF305911",
+    "name": "제4회 MJ 윈드 오케스트라 정기연주회 [대전]",
+    "startDate": "20261122",
+    "endDate": "20261122",
+    "venue": "대전예술의전당",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305911_261110_100825.gif",
+    "area": "대전광역시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000076",
+      "cast": "최영도, 박관우, 한영준, 한미선, 최현진, 이종관 등",
+      "crew": "",
+      "runtime": "1시간 35분",
+      "age": "만 7세 이상",
+      "producer": "공연기획피움",
+      "price": "R석 70,000원, S석 50,000원, A석 30,000원",
+      "schedule": "일요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305911_202611101008254570.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016098"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대전광역시 서구 둔산대로 135 (만년동)",
+    "lat": 36.3665211,
+    "lng": 127.3837135,
+    "venueTel": "042-270-8333",
+    "venueHomepage": "https://www.daejeon.go.kr/djac/index.do"
   },
   {
     "id": "PF302506",
@@ -57495,6 +56767,45 @@
     "venueHomepage": "https://gjart.gwangju.go.kr/intro.jsp"
   },
   {
+    "id": "PF305921",
+    "name": "Whiteusedsocks 단독공연, SNL",
+    "startDate": "20261122",
+    "endDate": "20261122",
+    "venue": "허밋",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305921_261110_103716.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC005122",
+      "cast": "김규진, 김시습, 정재헌, 박세진",
+      "crew": "",
+      "runtime": "1시간 10분",
+      "age": "만 19세 이상",
+      "producer": "반다사운드",
+      "price": "전석 30,000원",
+      "schedule": "일요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305921_202611101037163590.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214265"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 양화로6길 27 (서교동)",
+    "lat": 37.549174,
+    "lng": 126.915675,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF302667",
     "name": "Yuki Kajiura LIVE vol.#22 ~precious pieces~ SPECIAL SETLIST [서울]",
     "startDate": "20261122",
@@ -58050,6 +57361,45 @@
     "lng": 127.908122,
     "venueTel": "",
     "venueHomepage": "https://www.hongcheon.go.kr/www/contents.do?key=399"
+  },
+  {
+    "id": "PF305927",
+    "name": "경기팝스앙상블, 팝스 콘서트 [파주]",
+    "startDate": "20261124",
+    "endDate": "20261124",
+    "venue": "솔가람아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305927_261110_105252.jpg",
+    "area": "경기도",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001764",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 10분",
+      "age": "만 7세 이상",
+      "producer": "",
+      "price": "전석무료",
+      "schedule": "화요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305927_202611101052521860.png"
+      ],
+      "tickets": [
+        {
+          "name": "파주문화재단",
+          "url": "http://paju.moonhwain.kr/rsvc/rsv_pm.html?b_id=paju&p_idx=859"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 파주시 가람로116번길 170 (와동동)",
+    "lat": 37.7301182,
+    "lng": 126.76392050000004,
+    "venueTel": "031-950-1958",
+    "venueHomepage": "https://www.pajucf.or.kr/"
   },
   {
     "id": "PF305430",
@@ -59158,6 +58508,45 @@
     "venueHomepage": "http://www.yes24livehall.com/"
   },
   {
+    "id": "PF305985",
+    "name": "idol wave vol.30",
+    "startDate": "20261124",
+    "endDate": "20261124",
+    "venue": "감마홀 [홍대]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305985_261110_142613.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC005063",
+      "cast": "",
+      "crew": "",
+      "runtime": "3시간 50분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "현장판매 25,000원, 사전예약 22,000원",
+      "schedule": "화요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305985_202611100226130570.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/5/bizes/1472775"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 와우산로21길 19-11 (서교동)",
+    "lat": 37.551855,
+    "lng": 126.922929,
+    "venueTel": "",
+    "venueHomepage": "https://www.instagram.com/gammahall.live"
+  },
+  {
     "id": "PF305448",
     "name": "SEA: SONG 시리즈05, 윈터 플리: Winter Playlist [거제]",
     "startDate": "20261124",
@@ -59195,6 +58584,45 @@
     "lng": 128.72397890000002,
     "venueTel": "055-680-1000",
     "venueHomepage": "http://www.geojeart.or.kr/"
+  },
+  {
+    "id": "PF305924",
+    "name": "SHOW ME THE 장구 프로젝트 [예산]",
+    "startDate": "20261124",
+    "endDate": "20261124",
+    "venue": "예산문예회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305924_261110_104535.jpg",
+    "area": "충청남도",
+    "genre": "한국음악(국악)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000435",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "만 7세 이상",
+      "producer": "예산군문예회관",
+      "price": "전석 5,000원",
+      "schedule": "화요일(19:00)",
+      "story": "[공연소개]\n예산군문예회관 기획공연\nSHOW ME THE 장구 프로젝트 🥁\n⠀⠀⠀⠀⠀⠀⠀\n빛과 장구가 만나는 화려한 순간!\n풍물패 청음이 선사하는\n신명 나는 공연과 함께\n전통 예술의 특별한 매력에 푹 빠져보세요! ✨",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305924_202611101045351060.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "예산군문예회관",
+          "url": "http://yesan.moonhwain.net/?p_idx=113"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "충청남도 예산군 예산읍 아리랑로 185-14",
+    "lat": 36.685362,
+    "lng": 126.84961739999994,
+    "venueTel": "041-339-8211",
+    "venueHomepage": "http://public.yesan.go.kr/public/sub03_02.do"
   },
   {
     "id": "PF304640",
@@ -61943,6 +61371,46 @@
     "venueHomepage": "http://ucac.ulsan.go.kr/"
   },
   {
+    "id": "PF305906",
+    "name": "마녀는 아이돌을 좋아해",
+    "startDate": "20261126",
+    "endDate": "20261126",
+    "venue": "NOL 씨어터 합정(구, 신한카드 SOL페이 스퀘어)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305906_261110_095946.gif",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000847",
+      "cast": "김지혜, 강찬, 이효은, 신의정, 천관우, 류정연, 장지민 등",
+      "crew": "김은, 하태성, 이현규 등",
+      "runtime": "1시간",
+      "age": "만 5세 이상",
+      "producer": "(주) 글림아티스트",
+      "price": "R석 20,000원, S석 15,000원",
+      "schedule": "목요일(20:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305906_202611100959464581.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305906_202611100959464430.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015677"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 양화로 45 (서교동, 메세나폴리스)",
+    "lat": 37.5515008,
+    "lng": 126.9139502,
+    "venueTel": "00-1544-1555",
+    "venueHomepage": "https://noltheater-hapjeong.com"
+  },
+  {
     "id": "PF305496",
     "name": "먼데이프로젝트 IN 라이브클럽, Mombrimz 단독콘서트",
     "startDate": "20261126",
@@ -62557,6 +62025,45 @@
     "lng": 126.70008329999996,
     "venueTel": "032-427-8401",
     "venueHomepage": "https://www.incheon.go.kr/art/index"
+  },
+  {
+    "id": "PF305931",
+    "name": "오펀스",
+    "startDate": "20261126",
+    "endDate": "20261129",
+    "venue": "엠스테이지 (구.인사아트홀)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305931_261110_105821.gif",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001535",
+      "cast": "김선아, 김수빈, 김수인, 박시현, 양보경, 이성재, 임정하 등",
+      "crew": "",
+      "runtime": "2시간 30분",
+      "age": "만 13세 이상",
+      "producer": "늘컴퍼니",
+      "price": "전석 20,000원",
+      "schedule": "목요일 ~ 금요일(19:30), 토요일 ~ 일요일(13:00,17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305931_202611101058218100.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015259"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 인사동길 34-1 (관훈동)",
+    "lat": 37.5737858,
+    "lng": 126.98560870000006,
+    "venueTel": "02-2232-7952",
+    "venueHomepage": "https://www.samulnori.xyz/"
   },
   {
     "id": "PF305841",
@@ -63240,6 +62747,45 @@
     "lng": 126.88170230000003,
     "venueTel": "062-613-8333",
     "venueHomepage": "https://gjart.gwangju.go.kr/intro.jsp"
+  },
+  {
+    "id": "PF306008",
+    "name": "타조소년들 [대학로]",
+    "startDate": "20261126",
+    "endDate": "20261129",
+    "venue": "보라 아트홀(구. 지구인아트홀)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306008_261110_152433.jpg",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001250",
+      "cast": "김태영, 이태선, 진선, 조은희, 황아인, 양에진, 김희재",
+      "crew": "하유진, 정나한, 조은희 등",
+      "runtime": "1시간 30분",
+      "age": "만 13세 이상",
+      "producer": "극단 소리샘",
+      "price": "R석 30,000원, A석 15,000원",
+      "schedule": "목요일 ~ 금요일(20:00), 토요일 ~ 일요일(14:00,18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306008_202611100324331620.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66833"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "서울특별시 종로구 창경궁로 260 (명륜2가)",
+    "lat": 37.5843848,
+    "lng": 127.00051899999994,
+    "venueTel": "02-745-3641",
+    "venueHomepage": ""
   },
   {
     "id": "PF305703",
@@ -63939,6 +63485,45 @@
     "lng": 127.01182410000001,
     "venueTel": "02-580-1300",
     "venueHomepage": "http://www.sac.or.kr"
+  },
+  {
+    "id": "PF305928",
+    "name": "그대 내 곁에 [서울]",
+    "startDate": "20261127",
+    "endDate": "20261129",
+    "venue": "설렘아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305928_261110_105416.png",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC002819",
+      "cast": "김시우, 신락훈, 박수정, 정현진, 김사율, 장한, 손현 등",
+      "crew": "최영광, 홍윤화, 김만중 등",
+      "runtime": "1시간 15분",
+      "age": "만 12세 이상",
+      "producer": "설렘아트컴퍼니(설렘아트홀), 시반컴퍼니",
+      "price": "전석 50,000원",
+      "schedule": "금요일(19:30), 토요일(15:00,18:00), 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305928_202611101054166940.png"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1769051"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 광진구 능동로19길 23(화양동)",
+    "lat": 37.5470491,
+    "lng": 127.0723822,
+    "venueTel": "010-3518-7843",
+    "venueHomepage": "https://arthallserlem.modoo.at/"
   },
   {
     "id": "PF305128",
@@ -65905,6 +65490,85 @@
     "venueHomepage": "https://kiminhall.framer.website/"
   },
   {
+    "id": "PF305938",
+    "name": "파주국악대제전",
+    "startDate": "20261127",
+    "endDate": "20261127",
+    "venue": "파주운정행복센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305938_261110_111613.jpg",
+    "area": "경기도",
+    "genre": "한국음악(국악)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001359",
+      "cast": "송현주, 이은미, 김진미, 이찬행, 박명옥, 조태엽, 최은숙 등",
+      "crew": "",
+      "runtime": "1시간 50분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "전석무료",
+      "schedule": "금요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305938_202611101116136051.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305938_202611101116135800.png"
+      ],
+      "tickets": [
+        {
+          "name": "파주문화재단",
+          "url": "http://paju.moonhwain.kr/rsvc/rsv_pm.html?b_id=paju&p_idx=860"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 파주시 와석순환로 415 (와동동)",
+    "lat": 37.724262,
+    "lng": 126.751094,
+    "venueTel": "031-950-1911",
+    "venueHomepage": "https://www.paju.go.kr/uhc/"
+  },
+  {
+    "id": "PF305959",
+    "name": "페인터즈 [영천]",
+    "startDate": "20261127",
+    "endDate": "20261127",
+    "venue": "영천시민회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305959_261110_132341.jpg",
+    "area": "경상북도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000546",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 10분",
+      "age": "전체 관람가",
+      "producer": "(주)펜타토닉",
+      "price": "전석 10,000원",
+      "schedule": "금요일(11:00,19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305959_202611100123413950.png"
+      ],
+      "tickets": [
+        {
+          "name": "영천시민회관",
+          "url": "https://ycac.yc.go.kr:448/play/play_03_view.html?pfmIng=1&p_idx=1412&cate=pfm"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경상북도 영천시 시청로 17 (문외동)",
+    "lat": 35.9729409,
+    "lng": 128.93779010000003,
+    "venueTel": "054-330-6454",
+    "venueHomepage": "http://ycac.yc.go.kr/"
+  },
+  {
     "id": "PF304379",
     "name": "플라워 flower [부산]",
     "startDate": "20261127",
@@ -66182,6 +65846,48 @@
     "lng": 127.00066620000007,
     "venueTel": "02-331-6301",
     "venueHomepage": "https://dive.hyundaicard.com/web/understage/spaceMain.hdc"
+  },
+  {
+    "id": "PF305944",
+    "name": "현민아 두번째 춤판: 상화지연",
+    "startDate": "20261127",
+    "endDate": "20261127",
+    "venue": "서울돈화문국악당",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305944_261110_113553.png",
+    "area": "서울특별시",
+    "genre": "무용(서양/한국무용)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001441",
+      "cast": "현민아, 박성민, 변현조, 신나래, 김다희, 임정민, 유지숙",
+      "crew": "진유림, 송민정, 이성훈 등",
+      "runtime": "1시간 10분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "전석무료",
+      "schedule": "금요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305944_202611101135533683.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305944_202611101135533632.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305944_202611101135533571.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305944_202611101135533530.png"
+      ],
+      "tickets": [
+        {
+          "name": "서울돈화문국악당",
+          "url": "http://sdtt.moonhwain.kr/rsvc/rsv_pm.html?b_id=sdtt&p_idx=710"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 율곡로 102 - 0",
+    "lat": 37.5772009,
+    "lng": 126.99067390000005,
+    "venueTel": "02-3210-7001",
+    "venueHomepage": "http://sdtt.or.kr/user/"
   },
   {
     "id": "PF296900",
@@ -68633,6 +68339,45 @@
     "venueHomepage": ""
   },
   {
+    "id": "PF305993",
+    "name": "세상에서 가장 신기한 마술 [전주]",
+    "startDate": "20261128",
+    "endDate": "20261128",
+    "venue": "전북예술회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305993_261110_144321.gif",
+    "area": "전북특별자치도",
+    "genre": "서커스/마술",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000479",
+      "cast": "이경재, 노유찬, 조성호",
+      "crew": "윤시중, 이경재, 문숙경 등",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "피아트(PI-ART)",
+      "price": "전석 20,000원",
+      "schedule": "토요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305993_202611100243219470.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016044"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전라북도 전주시 완산구 팔달로 161 (경원동1가)",
+    "lat": 35.8167967,
+    "lng": 127.14712510000004,
+    "venueTel": "063-270-8000",
+    "venueHomepage": "http://www.sori21.co.kr/index.sko?menuCd=AA03011000000"
+  },
+  {
     "id": "PF302675",
     "name": "세종솔로이스츠 실내악 시리즈, 이스틴 데이비스와 김지연 그리고 신동훈",
     "startDate": "20261128",
@@ -69554,6 +69299,45 @@
     "venueHomepage": "https://www.artewith.com/"
   },
   {
+    "id": "PF305943",
+    "name": "의병대장 민긍호: 세대를 넘어 [원주]",
+    "startDate": "20261128",
+    "endDate": "20261128",
+    "venue": "원주치악예술관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305943_261110_113552.jpg",
+    "area": "강원특별자치도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000365",
+      "cast": "홍진기, 홍담윤, 진선희, 한청아, 전진, 전영찬, 김민수 등",
+      "crew": "박슬기로, 김륜호, 고은영 등",
+      "runtime": "1시간 20분",
+      "age": "전체 관람가",
+      "producer": "팀크로우",
+      "price": "전석무료",
+      "schedule": "토요일(15:00,19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305943_202611101135529610.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "원주시청",
+          "url": "http://wonju.moonhwain.kr/rsvc/rsv_pm.html?b_id=wonju&p_idx=279"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "강원도 원주시 서원대로 331 (명륜동)",
+    "lat": 37.33538619999999,
+    "lng": 127.94449340000006,
+    "venueTel": "033-763-9114",
+    "venueHomepage": "http://www.wonju.go.kr/www/contents.do?key=328"
+  },
+  {
     "id": "PF304605",
     "name": "이금희와 함께하는 오후 2시 다정한 클래식: 미리메리크리스마스 (11월) [포천]",
     "startDate": "20261128",
@@ -70361,6 +70145,45 @@
     "venueHomepage": "https://www.facebook.com/groups/1109711122479798/about/"
   },
   {
+    "id": "PF305953",
+    "name": "제7회 서울연극25페스티벌, 서초노트",
+    "startDate": "20261128",
+    "endDate": "20261129",
+    "venue": "대학로 스카이씨어터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305953_261110_130403.png",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001091",
+      "cast": "유태균, 양형호, 이재희, 강선숙, 박주원, 이대관, 함지현 등",
+      "crew": "최해주, 이지환, 임민 등",
+      "runtime": "1시간 20분",
+      "age": "전체 관람가",
+      "producer": "서초연극협회, 프로젝트준",
+      "price": "전석 30,000원",
+      "schedule": "토요일(15:00,18:00), 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305953_202611100104039170.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "플레이티켓",
+          "url": "http://playticket.co.kr/nav/detail.html?idx=4774"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 대학로8가길 52 (동숭동)",
+    "lat": 37.5829439,
+    "lng": 127.00262709999993,
+    "venueTel": "070-4106-8889",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF280940",
     "name": "제832회 KBS교향악단 정기연주회",
     "startDate": "20261128",
@@ -71029,6 +70852,45 @@
     "lng": 126.9152742,
     "venueTel": "",
     "venueHomepage": ""
+  },
+  {
+    "id": "PF305979",
+    "name": "플레이티켓 낭독쇼케이스, 스마일 보이 (11월)",
+    "startDate": "20261128",
+    "endDate": "20261129",
+    "venue": "서울연극센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305979_261110_141058.png",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004035",
+      "cast": "정혜원, 한결, 박진우",
+      "crew": "이하미 등",
+      "runtime": "1시간",
+      "age": "만 13세 이상",
+      "producer": "",
+      "price": "전석무료",
+      "schedule": "토요일 ~ 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305979_202611100210581850.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "플레이티켓",
+          "url": "http://playticket.co.kr/nav/detail.html?idx=4776"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 대명길 3 (명륜4가)",
+    "lat": 37.5833896,
+    "lng": 127.0013221,
+    "venueTel": "02-743-9333",
+    "venueHomepage": "https://www.sfac.or.kr/artspace/artspace/play_main.do?groupCtgry=g3"
   },
   {
     "id": "PF300788",
@@ -72308,6 +72170,45 @@
     "venueHomepage": "https://kbsbiz.co.kr/kbsarena/kbs%EC%95%84%EB%A0%88%EB%82%98/"
   },
   {
+    "id": "PF305912",
+    "name": "mono sapa (모노사파) presents, 反骨 (반골)",
+    "startDate": "20261128",
+    "endDate": "20261128",
+    "venue": "롤링홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305912_261110_101254.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000073",
+      "cast": "",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "전체 관람가",
+      "producer": "(주)이릴레반트",
+      "price": "전석 33,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305912_202611101012547390.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214221"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 어울마당로 35 (서교동) 지하 1층",
+    "lat": 37.5484417,
+    "lng": 126.92010579999999,
+    "venueTel": "02-325-6071",
+    "venueHomepage": "http://www.rollinghall.co.kr/"
+  },
+  {
     "id": "PF305627",
     "name": "MUSHROOM HOUSE Vol.5",
     "startDate": "20261128",
@@ -72781,6 +72682,45 @@
     "venueHomepage": "http://www.naruart.or.kr/"
   },
   {
+    "id": "PF305925",
+    "name": "가오가이 첫번째 단독 콘서트: 노모",
+    "startDate": "20261129",
+    "endDate": "20261129",
+    "venue": "웨스트브릿지 라이브홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305925_261110_104752.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001608",
+      "cast": "백한솔",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "전석 44,000원",
+      "schedule": "일요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305925_202611101047526420.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214257"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 와우산로25길 6 (서교동)",
+    "lat": 37.553639,
+    "lng": 126.92614449999996,
+    "venueTel": "02-325-9660",
+    "venueHomepage": "http://www.west-bridge.co.kr/main/main.asp"
+  },
+  {
     "id": "PF301878",
     "name": "겨울왕국 [순천]",
     "startDate": "20261129",
@@ -72861,6 +72801,45 @@
     "lng": 126.945526907783,
     "venueTel": "02-3274-8500",
     "venueHomepage": "http://www.mapoartcenter.or.kr/"
+  },
+  {
+    "id": "PF305960",
+    "name": "구미 노가리 [구미]",
+    "startDate": "20261129",
+    "endDate": "20261129",
+    "venue": "강동문화복지회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305960_261110_132815.png",
+    "area": "경상북도",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001685",
+      "cast": "김성일, 정소영, 예병대, 김정식, 박설하, 김영균, 김정은 등",
+      "crew": "황윤동, 김용원, 오영필 등",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "(사)문화창작집단 공터다",
+      "price": "전석 20,000원",
+      "schedule": "일요일(16:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305960_202611100128155900.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/976927"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경상북도 구미시 인동가산로 392 (구평동) 강동문화복지회관",
+    "lat": 36.0904747,
+    "lng": 128.45493299999998,
+    "venueTel": "054-480-2990",
+    "venueHomepage": "http://www.gumi.go.kr/artsgd/contents.do?mId=0104040000"
   },
   {
     "id": "PF304511",
@@ -73563,6 +73542,45 @@
     "lng": 126.66587019999997,
     "venueTel": "032-561-4115",
     "venueHomepage": "http://www.issi.or.kr/welfare/design/index.asp"
+  },
+  {
+    "id": "PF305996",
+    "name": "아우름 앙상블 시리즈 Ⅰ [성남]",
+    "startDate": "20261129",
+    "endDate": "20261129",
+    "venue": "성남아트센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305996_261110_145138.gif",
+    "area": "경기도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000016",
+      "cast": "홍연주, 홍현민, 김유림, 양수진",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 5세 이상",
+      "producer": "아우름 앙상블",
+      "price": "전석 10,000원",
+      "schedule": "일요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305996_202611100252427810.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015868"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 성남시 분당구 성남대로 808 (야탑동)",
+    "lat": 37.4027309,
+    "lng": 127.13124349999998,
+    "venueTel": "031-783-8000",
+    "venueHomepage": "http://www.snart.or.kr/"
   },
   {
     "id": "PF305569",
@@ -74428,6 +74446,46 @@
     "venueHomepage": ""
   },
   {
+    "id": "PF306013",
+    "name": "해설이 있는 발레, 호두까기 인형 [정읍]",
+    "startDate": "20261129",
+    "endDate": "20261129",
+    "venue": "정읍사예술회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306013_261110_153926.png",
+    "area": "전북특별자치도",
+    "genre": "무용(서양/한국무용)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000471",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "36개월 이상",
+      "producer": "전북발레시어터",
+      "price": "전석 10,000원",
+      "schedule": "일요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306013_202611100339265991.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306013_202611100339265930.png"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66849"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "전라북도 정읍시 시기4길 13 (시기동)",
+    "lat": 35.5529153,
+    "lng": 126.86156249999999,
+    "venueTel": "063-539-6424",
+    "venueHomepage": "http://art.jeongeup.go.kr/"
+  },
+  {
     "id": "PF300753",
     "name": "호두까기 인형 [서울 강남]",
     "startDate": "20261129",
@@ -74947,6 +75005,49 @@
     "lng": 126.97564290000003,
     "venueTel": "02-399-1000",
     "venueHomepage": "http://www.sejongpac.or.kr/"
+  },
+  {
+    "id": "PF305951",
+    "name": "제11회 한국뮤지컬어워즈, 뮤이어 (MU: YEAR) 콘서트",
+    "startDate": "20261130",
+    "endDate": "20261130",
+    "venue": "이화여자대학교 삼성홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305951_261110_130104.jpg",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001799",
+      "cast": "김서연, 김푸름, 박영수, 백형훈, 송용진, 윤도영, 윤은오 등",
+      "crew": "김성수",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "(사)한국뮤지컬협회",
+      "price": "전석 70,000원",
+      "schedule": "월요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305951_202611100101045160.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66850"
+        },
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1774347"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 서대문구 이화여대길 52 (대현동)",
+    "lat": 37.5614238,
+    "lng": 126.94697270000006,
+    "venueTel": "02-6380-4430",
+    "venueHomepage": "http://samsunghall.ticketlink.co.kr/"
   },
   {
     "id": "PF302173",
@@ -75995,6 +76096,45 @@
     "venueHomepage": "http://www.jeongdong.or.kr"
   },
   {
+    "id": "PF305930",
+    "name": "김예진 바순 프로젝트 Ⅱ. SOME WHERE BETWEEN [전주]",
+    "startDate": "20261202",
+    "endDate": "20261202",
+    "venue": "전주한벽문화관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305930_261110_105801.gif",
+    "area": "전북특별자치도",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001263",
+      "cast": "김예진, 오은하, 최장군, 노용현",
+      "crew": "",
+      "runtime": "1시간 25분",
+      "age": "만 8세 이상",
+      "producer": "에스투(S2)문화예술기획",
+      "price": "전석 20,000원",
+      "schedule": "수요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305930_202611101058017760.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016099"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전라북도 전주시 완산구 전주천동로 20 - 0 전통문화센터",
+    "lat": 35.8119872,
+    "lng": 127.15849300000002,
+    "venueTel": "063-280-7000",
+    "venueHomepage": "http://www.jt.or.kr/"
+  },
+  {
     "id": "PF301556",
     "name": "말콤 토드 첫 내한공연",
     "startDate": "20261202",
@@ -76628,6 +76768,45 @@
     "lng": 126.77433789999998,
     "venueTel": "00-1577-7766",
     "venueHomepage": "http://www.artgy.or.kr/aram/introduction.aspx"
+  },
+  {
+    "id": "PF305910",
+    "name": "제23회 소프라노 김미미 독창회: 선율로 그린 여정",
+    "startDate": "20261202",
+    "endDate": "20261202",
+    "venue": "세종문화회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305910_261110_100825.png",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000020",
+      "cast": "김미미, 조현준, 변희진, 최명우 등",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 6세 이상",
+      "producer": "",
+      "price": "전석 30,000원",
+      "schedule": "수요일(19:30)",
+      "story": "[PROGRAM]\n\nW. A. Mozart  - Exsultate, jubilate (Motet k.165 ) \n\nSop. 김미미 Piano 조현준  Violin 김수림 Cello 이채환\n\n\n\nG. Puccini – Opera “La Bohème” (1막) (acc. 변희진) \n\n                      Che gelida manina (Rodolfo) – Ten. 이재필\n\n                      Mi chiamano Mimi (Mimi)\n\n                      O soave fanciulla (Mimi, Rodolfo) – Sop. 김미미, Ten. 이재필 \n\n\n\n-Intermission- \n\n\n\nI. Stravinsky  - Two Songs from Four Russian Songs   (acc. 조현준)    \n\nThe Drake \n\nA Russian Spiritual \n\nGeese and Swans \n\nTilim-bom\n\n윤이상곡/조지훈시 -  고풍의 상          \n\n\n\n박학기 곡/시  -  아름다운 세상 (acc. 이혜진, 그린나래 합창단) \n\n윤학준 곡/조동화시 -  나 하나 꽃피어  (acc. 변희진, 힐링소울싱어즈) \n\n손경민 곡/시 - 여정 (acc. 윤근영, 한음회)  \n\n신상우 곡/시 - 하나님의 은혜  Sop. 김미미 (acc. 조현준)",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305910_202611101008250590.png"
+      ],
+      "tickets": [
+        {
+          "name": "세종문화회관",
+          "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37791&menuNo=200320"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 세종대로 175 (세종로)",
+    "lat": 37.5725254,
+    "lng": 126.97564290000003,
+    "venueTel": "02-399-1000",
+    "venueHomepage": "http://www.sejongpac.or.kr/"
   },
   {
     "id": "PF304374",
@@ -78100,6 +78279,47 @@
     "lng": 127.00051899999994,
     "venueTel": "02-745-3641",
     "venueHomepage": ""
+  },
+  {
+    "id": "PF305940",
+    "name": "토일렛",
+    "startDate": "20261203",
+    "endDate": "20261204",
+    "venue": "한국콘텐츠진흥원 CKL스테이지",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305940_261110_111941.jpg",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001428",
+      "cast": "윤차영, 박태운, 이수진, 조경빈, 차성규, 강민영, 박시연 등",
+      "crew": "손님, 이동근, 이선재 등",
+      "runtime": "1시간 40분",
+      "age": "만 12세 이상",
+      "producer": "창작단 손님선",
+      "price": "전석 40,000원",
+      "schedule": "목요일 ~ 금요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305940_202611101119418582.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305940_202611101119418551.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305940_202611101119418500.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1772597"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 중구 청계천로 40",
+    "lat": 37.5684894,
+    "lng": 126.98161340000001,
+    "venueTel": "02-6441-3951",
+    "venueHomepage": "https://venture.ckl.or.kr/stage/main.do"
   },
   {
     "id": "PF300539",
@@ -80168,6 +80388,46 @@
     "venueHomepage": "http://artcenter.daegu.go.kr/content.html?md=0047"
   },
   {
+    "id": "PF305970",
+    "name": "제3회 씨어터링크 지원 공연, 환희의 송가: 에그몬트 서곡 & 교향곡 제9번 합창 [부산]",
+    "startDate": "20261204",
+    "endDate": "20261204",
+    "venue": "을숙도문화회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305970_261110_135242.jpg",
+    "area": "부산광역시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000178",
+      "cast": "손명균, 설은경, 손호정, 이신범, 강경원 등",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "",
+      "price": "1층석 20,000원, 2층석 10,000원",
+      "schedule": "금요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305970_202611100152423971.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305970_202611100152423890.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "을숙도문화회관",
+          "url": "https://esd.moonhwain.net:451/rsvc/rsv_pm.html?b_id=esd&p_idx=448"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "부산광역시 사하구 낙동남로1233번길 25 (하단동)",
+    "lat": 35.1099098,
+    "lng": 128.94485229999998,
+    "venueTel": "051-220-5804",
+    "venueHomepage": "http://www.saha.go.kr/eulsukdo/contents.do?mId=0103000000"
+  },
+  {
     "id": "PF305273",
     "name": "제531회 대구시립교향악단 정기연주회: 무소륵스키 & 라벨",
     "startDate": "20261204",
@@ -81845,6 +82105,45 @@
     "venueHomepage": "https://blog.naver.com/lordartscenter"
   },
   {
+    "id": "PF305954",
+    "name": "로드페스트7 (RODFEST7)",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "롤링홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305954_261110_130709.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000073",
+      "cast": "",
+      "crew": "",
+      "runtime": "4시간",
+      "age": "만 11세 이상",
+      "producer": "(주)퀸엔터테인먼트",
+      "price": "현장판매 44,000원, 사전예약 33,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305954_202611100107099060.png"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214276"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 어울마당로 35 (서교동) 지하 1층",
+    "lat": 37.5484417,
+    "lng": 126.92010579999999,
+    "venueTel": "02-325-6071",
+    "venueHomepage": "http://www.rollinghall.co.kr/"
+  },
+  {
     "id": "PF300879",
     "name": "로보카폴리: 브룸스타운의 에너지를 지켜라! [대구]",
     "startDate": "20261205",
@@ -83185,6 +83484,45 @@
     "venueHomepage": "https://yonsei-arts.com/"
   },
   {
+    "id": "PF305991",
+    "name": "실험실 콘서트 [수원]",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "경기상상캠퍼스",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305991_261110_143618.jpg",
+    "area": "경기도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001836",
+      "cast": "이경면, 나웅준, 은중기, 장진혁, 김태우, 안평강, 김주형",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "만 5세 이상",
+      "producer": "(주)스테이지 원",
+      "price": "전석 10,000원",
+      "schedule": "토요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305991_202611100236188410.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66815"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 수원시 권선구 서둔로 166 (서둔동)",
+    "lat": 37.2629491,
+    "lng": 126.9817372,
+    "venueTel": "031-296-1980",
+    "venueHomepage": "https://sscampus.ggcf.kr/"
+  },
+  {
     "id": "PF305796",
     "name": "심규선 팬 콘서트: MAD TEA PARTY",
     "startDate": "20261205",
@@ -83343,6 +83681,48 @@
     "lng": 127.0047187,
     "venueTel": "02-3665-6268",
     "venueHomepage": "https://hanye.modoo.at/"
+  },
+  {
+    "id": "PF305941",
+    "name": "얼기설기",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "부암아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305941_261110_112635.gif",
+    "area": "서울특별시",
+    "genre": "무용(서양/한국무용)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000738",
+      "cast": "강한나, 윤채영, 전중근",
+      "crew": "정채민",
+      "runtime": "1시간",
+      "age": "전체 관람가",
+      "producer": "비에이히어",
+      "price": "전석 20,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305941_202611101126351073.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305941_202611101126351012.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305941_202611101126350961.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305941_202611101126350900.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016149"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 자하문로 242 (부암동)",
+    "lat": 37.595711,
+    "lng": 126.9640743,
+    "venueTel": "02-391-9631",
+    "venueHomepage": ""
   },
   {
     "id": "PF305634",
@@ -83658,6 +84038,45 @@
     "lng": 126.93898089999993,
     "venueTel": "02-6303-1977",
     "venueHomepage": "http://www.kumhoarthall.com/"
+  },
+  {
+    "id": "PF305946",
+    "name": "이야기해결단 모여라! (12월)",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "Bibistudio",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305946_261110_114200.png",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004067",
+      "cast": "",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "만 7세 이상",
+      "producer": "",
+      "price": "전석 35,000원",
+      "schedule": "토요일(10:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305946_202611101142008330.png"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/237407"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 은평구 갈현로 250 (갈현동)",
+    "lat": 37.6191498,
+    "lng": 126.915675,
+    "venueTel": "",
+    "venueHomepage": ""
   },
   {
     "id": "PF301221",
@@ -84807,6 +85226,46 @@
     "venueHomepage": "www.gmcf.or.kr"
   },
   {
+    "id": "PF305939",
+    "name": "풍류365, 사계의 문장 (文章) [울산]",
+    "startDate": "20261205",
+    "endDate": "20261206",
+    "venue": "장생포문화창고",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305939_261110_111941.png",
+    "area": "울산광역시",
+    "genre": "한국음악(국악)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004427",
+      "cast": "이유나, 이은진, 김수현, 박찬미",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "전체 관람가",
+      "producer": "풍류365",
+      "price": "전석 10,000원",
+      "schedule": "토요일(17:00), 일요일(14:00)",
+      "story": "[공연소개]\n풍류365 창작초연공연 [붓과 현으로 그린 여인들의 시간 - 사계의 문장(文章)]\n\n과거의 문장이 오늘의 선율을 만나, 시대와 시간을 넘어 다시 살아나는 네 여인의 이야기.\n\n오랜 세월 이어져 온 정가의 깊은 울림이 창작음악과 미디어아트를 만나 조선시대 네 명의 여성 예술가가 남긴 시와 그림, 그리고 삶의 이야기를 사계절의 흐름 속에 새롭게 그려냅니다.",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305939_202611101119414681.png",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305939_202611101119414580.png"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1532313"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "울산광역시 남구 장생포고래로 110 (장생포동)",
+    "lat": 35.50341,
+    "lng": 129.367278,
+    "venueTel": "052-226-0010",
+    "venueHomepage": "https://www.uwcf.or.kr/jspculturedepot/index_main"
+  },
+  {
     "id": "PF303562",
     "name": "풍류고생: 차라리 춤추다 죽겠어",
     "startDate": "20261205",
@@ -84926,6 +85385,47 @@
     "lng": 128.61269530000004,
     "venueTel": "053-950-7122",
     "venueHomepage": "http://globalplaza.knu.ac.kr/gp/sub.php?top=2&sub=1&sub2=1&sub3=0&sub4=0"
+  },
+  {
+    "id": "PF305977",
+    "name": "피아니스트 최진아 리사이틀",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "금호아트홀 연세",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305977_261110_140730.gif",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001556",
+      "cast": "최진아",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "영음예술기획",
+      "price": "전석 20,000원",
+      "schedule": "토요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305977_202611100207308922.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305977_202611100207308891.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305977_202611100207308850.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015810"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 서대문구 연세로 50 (신촌동) 연세대학교 백양누리 B1 금호아트홀 연세",
+    "lat": 37.564089,
+    "lng": 126.93898089999993,
+    "venueTel": "02-6303-1977",
+    "venueHomepage": "http://www.kumhoarthall.com/"
   },
   {
     "id": "PF304510",
@@ -85172,6 +85672,45 @@
     "lng": 126.9607136,
     "venueTel": "031-5183-3214",
     "venueHomepage": "http://childrenjob.hscity.go.kr"
+  },
+  {
+    "id": "PF305967",
+    "name": "홍경민 매달리스트 콘서트 SEASON3 (12월)",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "구름아래소극장",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305967_261110_134339.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC002033",
+      "cast": "홍성민",
+      "crew": "",
+      "runtime": "2시간 30분",
+      "age": "만 7세 이상",
+      "producer": "마루엔터테인먼트",
+      "price": "전석 77,000원",
+      "schedule": "토요일(17:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305967_202611100143399410.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015773"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 와우산로29가길 15 (서교동)",
+    "lat": 37.5541887,
+    "lng": 126.928539,
+    "venueTel": "02-3280-8800",
+    "venueHomepage": "http://gurumare.co.kr/"
   },
   {
     "id": "PF305425",
@@ -85857,6 +86396,45 @@
     "lng": 126.9403281,
     "venueTel": "",
     "venueHomepage": "http://www.wanderlochhall.com"
+  },
+  {
+    "id": "PF305918",
+    "name": "TONE STUDIO LIVE, 모우들",
+    "startDate": "20261205",
+    "endDate": "20261205",
+    "venue": "톤스튜디오 서울",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305918_261110_102329.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001975",
+      "cast": "이감영, 이시현, 최민석, 홍준서 등",
+      "crew": "",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "톤 스튜디오, 톤엔터",
+      "price": "전석 44,000원",
+      "schedule": "토요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305918_202611101023299850.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "멜론티켓",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=214218"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 성미산로 64-5 (성산동)",
+    "lat": 37.5593835,
+    "lng": 126.9154822,
+    "venueTel": "02-3141-4605",
+    "venueHomepage": "http://tonestudio.co.kr/"
   },
   {
     "id": "PF297519",
@@ -86688,6 +87266,50 @@
     "lng": 128.72791099999995,
     "venueTel": "054-840-3651",
     "venueHomepage": ""
+  },
+  {
+    "id": "PF305905",
+    "name": "산타마을의 루돌프와 산타클로스 [광주]",
+    "startDate": "20261206",
+    "endDate": "20261206",
+    "venue": "광주디자인센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305905_261110_095656.png",
+    "area": "전남광주통합특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001406",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "24개월 이상",
+      "producer": "즐겨찾기",
+      "price": "전석 30,000원",
+      "schedule": "일요일(11:00,13:00,15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305905_202611100956569791.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305905_202611100956569580.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66836"
+        },
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1773821"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전남광주통합특별시 북구 첨단과기로176번길 27 (오룡동)",
+    "lat": 35.2238269,
+    "lng": 126.84684870000001,
+    "venueTel": "062-611-5000",
+    "venueHomepage": "http://www.gdc.or.kr/"
   },
   {
     "id": "PF301520",
@@ -88028,6 +88650,45 @@
     "venueHomepage": "https://www.musinsagarage.com/"
   },
   {
+    "id": "PF305963",
+    "name": "루멘챔버콰이어 정기연주회: Colors of Christmas",
+    "startDate": "20261207",
+    "endDate": "20261207",
+    "venue": "영산아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305963_261110_133333.gif",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000384",
+      "cast": "정지윤, 박지원 등",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "오즈클래식",
+      "price": "전석 30,000원",
+      "schedule": "월요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305963_202611100133339500.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015972"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 영등포구 여의공원로 101 (여의도동)",
+    "lat": 37.5292309,
+    "lng": 126.92487210000002,
+    "venueTel": "02-6181-5260",
+    "venueHomepage": "http://www.youngsanarthall.com/rb/"
+  },
+  {
     "id": "PF300511",
     "name": "일리야 라쉬코프스키, 라흐마니노프 3개의 피아노 협주곡 [수원]",
     "startDate": "20261207",
@@ -88144,6 +88805,45 @@
     "lng": 126.97564290000003,
     "venueTel": "02-399-1000",
     "venueHomepage": "http://www.sejongpac.or.kr/"
+  },
+  {
+    "id": "PF305949",
+    "name": "고통 2부작, 넉손이 X 살인의 밤",
+    "startDate": "20261208",
+    "endDate": "20261213",
+    "venue": "서울연극창작센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305949_261110_124200.gif",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004282",
+      "cast": "공아름, 김민형, 김예진, 박지영, 백혜리, 윤동성, 이유진 등",
+      "crew": "최재영, 홍혜련, 전준구 등",
+      "runtime": "1시간 35분",
+      "age": "만 13세 이상",
+      "producer": "극단 춤추어라 빨간구두야",
+      "price": "전석 40,000원",
+      "schedule": "화요일 ~ 금요일(19:30), 토요일 ~ 일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305949_202611101242003080.png"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016121"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 성북구 성북로 8 (동소문동1가)",
+    "lat": 37.5892179,
+    "lng": 127.0060408,
+    "venueTel": "02-758-1607",
+    "venueHomepage": "https://stccenter.or.kr/"
   },
   {
     "id": "PF295970",
@@ -88558,6 +89258,51 @@
     "lng": 127.04692750000004,
     "venueTel": "02-2204-7571",
     "venueHomepage": "https://www.sdfac.or.kr/kor/sdfac/sub/contents.do?gotoMenuNo=08020500"
+  },
+  {
+    "id": "PF305968",
+    "name": "슛 더 크로우 (Shoot the Crow)",
+    "startDate": "20261208",
+    "endDate": "20270307",
+    "venue": "링크아트센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305968_261110_134826.jpg",
+    "area": "서울특별시",
+    "genre": "연극",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC003244",
+      "cast": "임하룡, 박지일, 김승욱, 송종호, 김도현, 최재웅, 오용 등",
+      "crew": "이헌재, 김달중, 남경식 등",
+      "runtime": "1시간 45분",
+      "age": "만 13세 이상",
+      "producer": "(주)네오프로덕션",
+      "price": "VIP석 77,000원, R석 66,000원, S석 55,000원",
+      "schedule": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00), HOL(14:00,18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305968_202611100148266042.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305968_202611100148265921.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305968_202611100148265860.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66840"
+        },
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/61029"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 대학로14길 29(혜화동)",
+    "lat": 37.5846899,
+    "lng": 127.0022947,
+    "venueTel": "",
+    "venueHomepage": ""
   },
   {
     "id": "PF299778",
@@ -89814,6 +90559,45 @@
     "venueHomepage": ""
   },
   {
+    "id": "PF305995",
+    "name": "필그림스 뮤직 크리스마스 콘서트",
+    "startDate": "20261209",
+    "endDate": "20261209",
+    "venue": "영산아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305995_261110_144454.gif",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000384",
+      "cast": "이화수, 김시현, 김하은, 이건, 봉수경, 강남행, 김한결 등",
+      "crew": "이화수",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "마에스트로 컴퍼니",
+      "price": "전석 70,000원",
+      "schedule": "수요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305995_202611100244543390.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016078"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 영등포구 여의공원로 101 (여의도동)",
+    "lat": 37.5292309,
+    "lng": 126.92487210000002,
+    "venueTel": "02-6181-5260",
+    "venueHomepage": "http://www.youngsanarthall.com/rb/"
+  },
+  {
     "id": "PF305462",
     "name": "화약: 암행어사 실종사건 [전주]",
     "startDate": "20261209",
@@ -90021,6 +90805,45 @@
     "venueHomepage": "http://www.wooranfdn.org/about/space.jsp"
   },
   {
+    "id": "PF305926",
+    "name": "군산시립예술단 합동연주회: 헨델 오라토리오, 메시아",
+    "startDate": "20261210",
+    "endDate": "20261210",
+    "venue": "군산예술의전당",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305926_261110_104922.jpg",
+    "area": "전북특별자치도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000447",
+      "cast": "조은혜, 김제니, 정민호, 김효종, 우경식 등",
+      "crew": "조은혜 등",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "군산시청",
+      "price": "전석 5,000원",
+      "schedule": "목요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305926_202611101049223130.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66755"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전라북도 군산시 백토로 203 (지곡동)",
+    "lat": 35.9608078,
+    "lng": 126.70683980000001,
+    "venueTel": "063-454-5520",
+    "venueHomepage": "http://arts.gunsan.go.kr/index.gunsan"
+  },
+  {
     "id": "PF297780",
     "name": "금호 위너스, 김현서 Violin",
     "startDate": "20261210",
@@ -90160,6 +90983,45 @@
     "lng": 126.6341822,
     "venueTel": "032-580-1196",
     "venueHomepage": "https://iscf.kr/_new/html/centerIntro/cheongna.php"
+  },
+  {
+    "id": "PF305964",
+    "name": "제136회 울산시립합창단 정기연주회, 송년음악회: 크리스마스 인 콘서트 [울산]",
+    "startDate": "20261210",
+    "endDate": "20261210",
+    "venue": "울산문화예술회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305964_261110_133550.jpg",
+    "area": "울산광역시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000081",
+      "cast": "구본수 등",
+      "crew": "박동희",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "",
+      "price": "R석 10,000원, S석 5,000원, 시야방해석  4,000원",
+      "schedule": "목요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305964_202611100135500770.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "울산문화예술회관",
+          "url": "https://www.ulsan.go.kr/ucac/art/page.do?mnu_code=mnu001002"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "울산광역시 남구 번영로 200 (달동)",
+    "lat": 35.5429378079717,
+    "lng": 129.327089892733,
+    "venueTel": "052-266-8282",
+    "venueHomepage": "http://ucac.ulsan.go.kr/"
   },
   {
     "id": "PF304314",
@@ -92310,6 +93172,45 @@
     "venueHomepage": "http://www.yangcheon.go.kr/art/art/main.do"
   },
   {
+    "id": "PF306009",
+    "name": "공연단체ON 4번째 프로젝트, 이솝이야기",
+    "startDate": "20261212",
+    "endDate": "20261213",
+    "venue": "북촌창우극장",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306009_261110_152433.gif",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001066",
+      "cast": "이종선, 길우혁, 김다예, 박연주, 홍성민, 박성빈, 이지은 등",
+      "crew": "민필준, 최소영, 고은정 등",
+      "runtime": "1시간 40분",
+      "age": "만 12세 이상",
+      "producer": "공연단체 ON",
+      "price": "전석 30,000원",
+      "schedule": "토요일 ~ 일요일(14:00,18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306009_202611100324335500.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016145"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "서울특별시 종로구 창덕궁길 29-6 (원서동)",
+    "lat": 37.5788675,
+    "lng": 126.98884450000003,
+    "venueTel": "02-747-3809",
+    "venueHomepage": "https://bcchangwoo.modoo.at/"
+  },
+  {
     "id": "PF302739",
     "name": "긴긴밤 [고양]",
     "startDate": "20261212",
@@ -93663,6 +94564,45 @@
     "venueHomepage": "http://www.sejongpac.or.kr/"
   },
   {
+    "id": "PF305978",
+    "name": "세상에서 가장 신기한 마술 [과천]",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "venue": "과천시민회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305978_261110_140935.gif",
+    "area": "경기도",
+    "genre": "서커스/마술",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000808",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 20분",
+      "age": "만 7세 이상",
+      "producer": "피아트(PI-ART)",
+      "price": "전석 20,000원",
+      "schedule": "토요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305978_202611100209357790.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016086"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 과천시 통영로 5 (중앙동)",
+    "lat": 37.4279091,
+    "lng": 126.98950450000007,
+    "venueTel": "02-504-7300",
+    "venueHomepage": "http://www.gccs.or.kr/dev_home/facilities/status.php"
+  },
+  {
     "id": "PF305771",
     "name": "소란: 눈이 부신 우리",
     "startDate": "20261212",
@@ -94162,6 +95102,45 @@
     "lng": 126.9139502,
     "venueTel": "00-1544-1555",
     "venueHomepage": "https://noltheater-hapjeong.com"
+  },
+  {
+    "id": "PF305909",
+    "name": "어느 60대 노부부 이야기 [영덕]",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "venue": "예주문화예술회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305909_261110_100421.jpg",
+    "area": "경상북도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000548",
+      "cast": "이희진, 이필모",
+      "crew": "이주영, 김성윤, 이용석 등",
+      "runtime": "1시간 30분",
+      "age": "만 8세 이상",
+      "producer": "하마컴퍼니",
+      "price": "전석 20,000원",
+      "schedule": "토요일(16:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305909_202611101004215820.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66855"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경상북도 영덕군 영해면 318만세길 36",
+    "lat": 36.529789,
+    "lng": 129.40498860000002,
+    "venueTel": "054-730-7774",
+    "venueHomepage": "http://art.yd.go.kr/"
   },
   {
     "id": "PF305850",
@@ -95487,6 +96466,45 @@
     "venueHomepage": "http://www.tribowl.kr/"
   },
   {
+    "id": "PF305932",
+    "name": "팝펑크락 밴드 HeyMen (헤이맨) : Hey, December",
+    "startDate": "20261212",
+    "endDate": "20261212",
+    "venue": "구로아트밸리",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305932_261110_110029.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000783",
+      "cast": "",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "만 6세 이상",
+      "producer": "(재)구로문화재단",
+      "price": "전석 20,000원",
+      "schedule": "토요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305932_202611101100296260.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016057"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 구로구 가마산로25길 9-24 (구로동)",
+    "lat": 37.4965397,
+    "lng": 126.88896820000002,
+    "venueTel": "02-2029-1700",
+    "venueHomepage": "http://www.guroartsvalley.or.kr/"
+  },
+  {
     "id": "PF304525",
     "name": "플라이 투더 스카이 전국투어 콘서트, FLY TO THE SKY TOUR: Ⅱ [고양]",
     "startDate": "20261212",
@@ -96742,6 +97760,45 @@
     "venueHomepage": "http://www.pyoungsong.com/"
   },
   {
+    "id": "PF305902",
+    "name": "빨간모자와 늑대 [인천 검단]",
+    "startDate": "20261213",
+    "endDate": "20261213",
+    "venue": "검단복지회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305902_261109_175948.jpg",
+    "area": "인천광역시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000310",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "20개월 이상",
+      "producer": "극단 복주머니",
+      "price": "전석 50,000원",
+      "schedule": "일요일(11:00,14:00,16:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305902_202611090559488730.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1773162"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "인천광역시 서구 완정로92번길 18 (마전동)",
+    "lat": 37.6005574,
+    "lng": 126.66587019999997,
+    "venueTel": "032-561-4115",
+    "venueHomepage": "http://www.issi.or.kr/welfare/design/index.asp"
+  },
+  {
     "id": "PF303164",
     "name": "빨간코 루돌프와 산타크로스 [아산]",
     "startDate": "20261213",
@@ -97910,6 +98967,45 @@
     "venueHomepage": "http://www.f1963.org/ko/"
   },
   {
+    "id": "PF305950",
+    "name": "KIM JONGHYEON FAN CONCERT: HAPPY CEREMONY (Mapo Winter Edition)",
+    "startDate": "20261213",
+    "endDate": "20261213",
+    "venue": "마포아트센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305950_261110_125152.jpg",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000788",
+      "cast": "김종현",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "롤링홀",
+      "price": "1층석 121,000원, 2층석 110,000원",
+      "schedule": "일요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305950_202611101251522710.png"
+      ],
+      "tickets": [
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/61014"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 대흥로20길 28 (대흥동)",
+    "lat": 37.5499054542971,
+    "lng": 126.945526907783,
+    "venueTel": "02-3274-8500",
+    "venueHomepage": "http://www.mapoartcenter.or.kr/"
+  },
+  {
     "id": "PF303603",
     "name": "Merry Coucou-mas’ by Madame Coucou",
     "startDate": "20261213",
@@ -98736,6 +99832,46 @@
     "lng": 128.903987,
     "venueTel": "",
     "venueHomepage": "https://bsgangseo.go.kr/nac"
+  },
+  {
+    "id": "PF306011",
+    "name": "고양월드클래식, 콘서트 오페라: 비제 카르멘 [고양]",
+    "startDate": "20261216",
+    "endDate": "20261216",
+    "venue": "고양아람누리",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306011_261110_153220.jpeg",
+    "area": "경기도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000127",
+      "cast": "리하브 샤이에브, 윤정수, 알렉상드르 뒤아멜, 조수아, 이얼 등",
+      "crew": "",
+      "runtime": "2시간 10분",
+      "age": "만 7세 이상",
+      "producer": "(재)고양문화재단",
+      "price": "R석 120,000원, S석 90,000원, A석 70,000원, B석 40,000원",
+      "schedule": "수요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306011_202611100332209111.jpeg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306011_202611100332209010.jpeg"
+      ],
+      "tickets": [
+        {
+          "name": "고양아람누리(고양문화재단)",
+          "url": "http://www.artgy.or.kr/PF/PF0201V.aspx?showid=0000008527"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "경기도 고양시 일산동구 중앙로 1286 (마두동) 고양아람누리",
+    "lat": 37.6614074,
+    "lng": 126.77433789999998,
+    "venueTel": "00-1577-7766",
+    "venueHomepage": "http://www.artgy.or.kr/aram/introduction.aspx"
   },
   {
     "id": "PF293081",
@@ -101734,6 +102870,86 @@
     "venueHomepage": "https://www.uac.or.kr/"
   },
   {
+    "id": "PF306007",
+    "name": "겨울왕국 [충주]",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "venue": "충주시문화회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306007_261110_152000.jpg",
+    "area": "충청북도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000405",
+      "cast": "",
+      "crew": "",
+      "runtime": "55분",
+      "age": "20개월 이상",
+      "producer": "",
+      "price": "전석 25,000원",
+      "schedule": "토요일(11:00,14:00,16:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306007_202611100320004700.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1773050"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "충청북도 충주시 중앙로 128 (성내동)",
+    "lat": 36.9707081,
+    "lng": 127.93725459999996,
+    "venueTel": "043-850-3914",
+    "venueHomepage": "https://www.chungju.go.kr/culture/"
+  },
+  {
+    "id": "PF305984",
+    "name": "고양월드클래식, 고양-몽펠리에 페스티벌 오케스트라 with 백건우 [고양]",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "venue": "고양아람누리",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305984_261110_142210.jpeg",
+    "area": "경기도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000127",
+      "cast": "백건우, 로더릭 콕스, 박준호 등",
+      "crew": "",
+      "runtime": "1시간 50분",
+      "age": "만 7세 이상",
+      "producer": "",
+      "price": "R석 120,000원, S석 90,000원, A석 70,000원, B석 40,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305984_202611100222106062.jpeg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305984_202611100222106021.jpeg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305984_202611100222105980.png"
+      ],
+      "tickets": [
+        {
+          "name": "고양아람누리(고양문화재단)",
+          "url": "http://www.artgy.or.kr/PF/PF0201V.aspx?showid=0000008528"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 고양시 일산동구 중앙로 1286 (마두동) 고양아람누리",
+    "lat": 37.6614074,
+    "lng": 126.77433789999998,
+    "venueTel": "00-1577-7766",
+    "venueHomepage": "http://www.artgy.or.kr/aram/introduction.aspx"
+  },
+  {
     "id": "PF304946",
     "name": "고집쟁이 딸 [동해]",
     "startDate": "20261219",
@@ -102350,6 +103566,45 @@
     "venueHomepage": "http://www.tribowl.kr/"
   },
   {
+    "id": "PF305976",
+    "name": "디어클라우드 연말 콘서트: Merry Christmas & Farewell, Week1",
+    "startDate": "20261219",
+    "endDate": "20261220",
+    "venue": "서보아트스페이스(서보미술문화공간)[서울]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305976_261110_140548.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004146",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "(주)재미진사무소",
+      "price": "전석 88,000원",
+      "schedule": "토요일 ~ 일요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305976_202611100205481920.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015921"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 월드컵북로12안길 3 (성산동)",
+    "lat": 37.5620777,
+    "lng": 126.9152742,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF303808",
     "name": "라이어 [대전]",
     "startDate": "20261219",
@@ -102946,6 +104201,45 @@
     "venueHomepage": "https://www.jecheon.go.kr/jcac"
   },
   {
+    "id": "PF305936",
+    "name": "뮤지컬배우 정다예 10주년 콘서트: 다 예쁜, 다예 뿐!",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "venue": "브이씨어터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305936_261110_111118.jpg",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004208",
+      "cast": "정다예",
+      "crew": "정다예 등",
+      "runtime": "1시간 40분",
+      "age": "만 6세 이상",
+      "producer": "",
+      "price": "전석 55,000원",
+      "schedule": "토요일(14:00,18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305936_202611101111184720.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/61010"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 혜화로 18 (혜화동)",
+    "lat": 37.5871701,
+    "lng": 127.0001984,
+    "venueTel": "",
+    "venueHomepage": ""
+  },
+  {
     "id": "PF305395",
     "name": "바둑이와 세리 [용인]",
     "startDate": "20261219",
@@ -103298,6 +104592,45 @@
     "lng": 129.34329830000001,
     "venueTel": "054-270-8282",
     "venueHomepage": "http://www.phcf.or.kr/kr/sub.do?MENU_SEQ=10076&PAGE_SEQ=10158&LANG=ko_KR#none https://www.pohang.go.kr/pohang/index.do"
+  },
+  {
+    "id": "PF305920",
+    "name": "빨래 [평택 남부]",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "venue": "평택시남부문예회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305920_261110_103251.jpg",
+    "area": "경기도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000934",
+      "cast": "장혜민, 류석호, 강나리, 백지예, 김영환, 박준성, 박존정민 등",
+      "crew": "최세연, 추민주, 서정선 등",
+      "runtime": "2시간 45분",
+      "age": "만 13세 이상",
+      "producer": "(주)씨에이치수박",
+      "price": "전석 30,000원",
+      "schedule": "토요일(14:00,18:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305920_202611101032515150.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/60974"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 평택시 중앙로 277 (비전동)",
+    "lat": 36.9909219,
+    "lng": 127.11427630000003,
+    "venueTel": "031-8024-5411",
+    "venueHomepage": "http://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mId=0601060300"
   },
   {
     "id": "PF291313",
@@ -104023,6 +105356,45 @@
     "lng": 128.61277599999994,
     "venueTel": "053-601-5000",
     "venueHomepage": "https://www.exco.co.kr/kor/index.html"
+  },
+  {
+    "id": "PF305935",
+    "name": "연정 (YEONJEONG) 단독공연: 사랑에 춤추고",
+    "startDate": "20261219",
+    "endDate": "20261219",
+    "venue": "XSCALA(엑스칼라)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305935_261110_110900.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004693",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "price": "전석 77,000원",
+      "schedule": "토요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305935_202611101109002020.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015940"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 중구 남대문시장10길 2 (회현동1가)",
+    "lat": 37.560373,
+    "lng": 126.979601,
+    "venueTel": "",
+    "venueHomepage": ""
   },
   {
     "id": "PF304032",
@@ -106157,6 +107529,47 @@
     "venueHomepage": "http://www.cheongju.go.kr/ac/contents.do?key=16276"
   },
   {
+    "id": "PF305982",
+    "name": "고양월드클래식, 몽펠리에 국립 오페라 주니어 합창단",
+    "startDate": "20261220",
+    "endDate": "20261220",
+    "venue": "고양아람누리",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305982_261110_141807.jpeg",
+    "area": "경기도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000127",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 10분",
+      "age": "만 7세 이상",
+      "producer": "(재)고양문화재단",
+      "price": "R석 40,000원, S석 30,000원",
+      "schedule": "일요일(15:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305982_202611100218076942.jpeg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305982_202611100218076861.jpeg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305982_202611100218076800.png"
+      ],
+      "tickets": [
+        {
+          "name": "고양아람누리(고양문화재단)",
+          "url": "http://www.artgy.or.kr/PF/PF0201V.aspx?showid=0000008529"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경기도 고양시 일산동구 중앙로 1286 (마두동) 고양아람누리",
+    "lat": 37.6614074,
+    "lng": 126.77433789999998,
+    "venueTel": "00-1577-7766",
+    "venueHomepage": "http://www.artgy.or.kr/aram/introduction.aspx"
+  },
+  {
     "id": "PF304125",
     "name": "공룡 애니멀쇼 시즌3 [양주]",
     "startDate": "20261220",
@@ -108055,6 +109468,45 @@
     "venueHomepage": "http://www.sac.or.kr"
   },
   {
+    "id": "PF305914",
+    "name": "김소현X손준호: 뮤지컬 갈라 콘서트 [공주 (앵콜) ]",
+    "startDate": "20261222",
+    "endDate": "20261222",
+    "venue": "공주문예회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305914_261110_101616.gif",
+    "area": "충청남도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000415",
+      "cast": "김소현, 손준호, 정나라 등",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 7세 이상",
+      "producer": "(재) 공주문화관광재단(공주문예회관)",
+      "price": "R석 50,000원, S석 30,000원, A석 20,000원, B석 10,000원",
+      "schedule": "화요일(19:30)",
+      "story": "[공연소개]\n\n뮤지컬 배우 김소현 · 손준호의 환상적인 호흡과 오케스트라의 하모니\n\n12월 11일 공연 매진에 힘입어, 대한민국을 대표하는 뮤지컬 배우 부부 김소현 · 손준호의 명품 보컬과\n공주시충남교향악단의 풍성하고 웅장한 오케스트라 선율이 어우러지는 품격 있는 협연 무대가 다시 한 번 펼쳐진다.\n뮤지컬 <지킬 앤 하이드>의 전율 어린 ‘지금 이 순간’, <모차르트!>의 따뜻한 희망을 담은 ‘황금별’ 등\n다양한 뮤지컬의 대표 넘버들이 오케스트라의 연주와 만나 잊지 못할 깊은 감동을 선사한다.\n한 해 동안 보내준 성원에 보답하고자 준비한 앵콜 무대를 통해 풍성한 음악과 함께 한 해의 마지막 순간을 뜻깊게 채우고자 한다.\n\n\n[Program]\n\n미스 사이공\n내일로 가는 계단 - 뮤지컬 '황태자 루돌프' 중\nYou'll never walk alone - 뮤지컬 '회전목마' 중\n지금 이 순간 - 뮤지컬 '지킬 앤 하이드' 중\nForgotten Dreams - Leroy Anderson\n뮤지컬 레미제라블 메들리\nI could have danced all night - 뮤지컬 '마이 페어 레이디' 중\n황금별 - 뮤지컬 '모차르트' 중\nChicago\nAnastasia\nAll I ask of you - 뮤지컬 '오페라의 유령' 중\n\n*상기 프로그램은 출연진의 사정에 의해 변경될 수 있습니다",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305914_202611101016162290.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016178"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "충청남도 공주시 고마나루길 5 (웅진동)",
+    "lat": 36.46003280000001,
+    "lng": 127.11140380000006,
+    "venueTel": "041-840-2180",
+    "venueHomepage": "http://acc.gongju.go.kr/"
+  },
+  {
     "id": "PF299744",
     "name": "니콜라이 루간스키 피아노 리사이틀 [서울]",
     "startDate": "20261222",
@@ -109423,6 +110875,53 @@
     "venueHomepage": "http://bitculture.gjcf.or.kr/php/"
   },
   {
+    "id": "PF305999",
+    "name": "얼음나무 숲 [대학로]",
+    "startDate": "20261223",
+    "endDate": "20270314",
+    "venue": "동덕여대공연예술센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305999_261110_150237.jpg",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000528",
+      "cast": "김종구, 기세중, 홍승안, 정민, 박선영, 박정혁, 노희찬 등",
+      "crew": "이기쁨, 최원섭, 남경식 등",
+      "runtime": "1시간 50분",
+      "age": "만 13세 이상",
+      "producer": "(주)뷰티풀웨이, 엠에이뮤지컬컴퍼니",
+      "price": "R석 77,000원, S석 55,000원",
+      "schedule": "화요일(20:00), 수요일(16:00,20:00), 목요일 ~ 금요일(20:00), 토요일(15:00,19:00), 일요일(14:00,18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305999_202611100302378710.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66844"
+        },
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1775235"
+        },
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/61028"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "서울특별시 종로구 동숭길 126 (동숭동)",
+    "lat": 37.5836998,
+    "lng": 127.0032999,
+    "venueTel": "02-940-4578",
+    "venueHomepage": "https://www.dongduk.ac.kr/kor/intro/subinstitute05.do"
+  },
+  {
     "id": "PF280816",
     "name": "제342회 부천필하모닉오케스트라 정기연주회: 베토벤, 합창",
     "startDate": "20261223",
@@ -110474,6 +111973,45 @@
     "venueHomepage": "http://www.bexco.co.kr/audi/Contents.do?mCode=MN0001"
   },
   {
+    "id": "PF305997",
+    "name": "이영현 콘서트: 나의 노래가 필요한 너에게 - 울림 [서울]",
+    "startDate": "20261224",
+    "endDate": "20261225",
+    "venue": "연세대학교 백주년기념관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305997_261110_145138.png",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001793",
+      "cast": "이영현",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "만 7세 이상",
+      "producer": "(주) 에이치오이엔티(HO ENT), (주) 컨셉케이컴퍼니 CONCEPT.K COMPANY, (주)에이치오씨앤씨(HO CNC)",
+      "price": "R석 154,000원, S석 143,000원",
+      "schedule": "목요일(19:00), 금요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305997_202611100251384860.png"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66834"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 서대문구 연세로 50 (신촌동)",
+    "lat": 37.5620902,
+    "lng": 126.93805689999999,
+    "venueTel": "02-2123-3697",
+    "venueHomepage": "https://yonsei-arts.com/"
+  },
+  {
     "id": "PF301502",
     "name": "이은결 30주년: ONE OF ONE [고양]",
     "startDate": "20261224",
@@ -111391,6 +112929,45 @@
     "venueHomepage": "https://bsgangseo.go.kr/nac"
   },
   {
+    "id": "PF305908",
+    "name": "Wine & Music Night, 크리스마스 이브 콘서트 [인천]",
+    "startDate": "20261224",
+    "endDate": "20261224",
+    "venue": "엘림아트센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305908_261110_100254.gif",
+    "area": "인천광역시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001555",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간 30분",
+      "age": "만 19세 이상",
+      "producer": "엘림아트센터",
+      "price": "전석 80,000원",
+      "schedule": "목요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305908_202611101002542770.png"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016091"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "인천광역시 서구 크리스탈로 78 (경서동)",
+    "lat": 37.5317983,
+    "lng": 126.63695299999995,
+    "venueTel": "032-289-4275",
+    "venueHomepage": "http://elimartcenter.co.kr/"
+  },
+  {
     "id": "PF287853",
     "name": "겨울왕국: 겨울이야기 [고양]",
     "startDate": "20261225",
@@ -111734,6 +113311,45 @@
     "lng": 127.01182410000001,
     "venueTel": "02-580-1300",
     "venueHomepage": "http://www.sac.or.kr"
+  },
+  {
+    "id": "PF306014",
+    "name": "디어클라우드 연말 콘서트: Merry Christmas & Farewell, Week2",
+    "startDate": "20261225",
+    "endDate": "20261226",
+    "venue": "서보아트스페이스(서보미술문화공간)[서울]",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306014_261110_154519.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC004146",
+      "cast": "장희연, 임이랑, 김광석",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 7세 이상",
+      "producer": "(주)재미진사무소",
+      "price": "전석 88,000원",
+      "schedule": "토요일(18:00), HOL(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306014_202611100345194260.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015922"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "서울특별시 마포구 월드컵북로12안길 3 (성산동)",
+    "lat": 37.5620777,
+    "lng": 126.9152742,
+    "venueTel": "",
+    "venueHomepage": ""
   },
   {
     "id": "PF304315",
@@ -116770,6 +118386,45 @@
     "venueHomepage": "http://yicf.or.kr/main/?skin=guide010101.htm"
   },
   {
+    "id": "PF305992",
+    "name": "피치은우의 크리스마스 콘서트",
+    "startDate": "20261226",
+    "endDate": "20261226",
+    "venue": "엠팟홀 (구. 삼익아트홀)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305992_261110_143959.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000842",
+      "cast": "",
+      "crew": "",
+      "runtime": "1시간",
+      "age": "만 15세 이상",
+      "producer": "로샤",
+      "price": "전석 30,000원",
+      "schedule": "토요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305992_202611100239595870.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016060"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 강남구 학동로 171 (논현동) 삼익악기빌딩 3층",
+    "lat": 37.5139927,
+    "lng": 127.02955880000002,
+    "venueTel": "02-541-3929",
+    "venueHomepage": "http://www.mpot.co.kr/"
+  },
+  {
     "id": "PF302820",
     "name": "호두까기 인형 [진천]",
     "startDate": "20261226",
@@ -118670,6 +120325,45 @@
     "venueHomepage": "http://www.ssartpia.kr"
   },
   {
+    "id": "PF305952",
+    "name": "송년음악회: 스텔라 오디세이, 별빛을 따라 떠나는 음악의 여정 [안동]",
+    "startDate": "20261229",
+    "endDate": "20261229",
+    "venue": "안동문화예술의전당",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305952_261110_130250.jpg",
+    "area": "경상북도",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000537",
+      "cast": "백윤학, 임선혜, 안민수, 김소현, 손준호, 김바울 등",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 4세 이상",
+      "producer": "",
+      "price": "R석 50,000원, S석 30,000원, A석 20,000원",
+      "schedule": "화요일(19:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305952_202611100102503160.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66705"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "경상북도 안동시 축제장길 66 (안흥동)",
+    "lat": 36.5595259,
+    "lng": 128.7256906,
+    "venueTel": "054-840-3600",
+    "venueHomepage": "http://andongart.go.kr/"
+  },
+  {
     "id": "PF304735",
     "name": "송년음악회: KBS교향악단 & 백건우",
     "startDate": "20261229",
@@ -118832,6 +120526,49 @@
     "lng": 127.01182410000001,
     "venueTel": "02-580-1300",
     "venueHomepage": "http://www.sac.or.kr"
+  },
+  {
+    "id": "PF305969",
+    "name": "귀를 기울이면 필름 콘서트",
+    "startDate": "20261230",
+    "endDate": "20261231",
+    "venue": "롯데콘서트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305969_261110_135041.gif",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001513",
+      "cast": "와다 카즈키, 혼나 요코 등",
+      "crew": "노미 유지",
+      "runtime": "2시간 20분",
+      "age": "만 7세 이상",
+      "producer": "귀를 기울이면 필름 콘서트 실행위원회",
+      "price": "R석 165,000원, S석 143,000원, A석 110,000원",
+      "schedule": "수요일(19:00), 목요일(14:00,19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305969_202611100150417320.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016032"
+        },
+        {
+          "name": "롯데콘서트홀",
+          "url": "https://www.lotteconcerthall.com/product/performance/261248"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 송파구 올림픽로 300 (신천동) 롯데월드몰 8층 롯데문화재단",
+    "lat": 37.5130605,
+    "lng": 127.10349500000007,
+    "venueTel": "00-1544-7744",
+    "venueHomepage": "http://www.lotteconcerthall.com/"
   },
   {
     "id": "PF304445",
@@ -119107,6 +120844,46 @@
     "lng": 128.62841500000002,
     "venueTel": "053-666-3300",
     "venueHomepage": "http://www.ssartpia.kr"
+  },
+  {
+    "id": "PF305916",
+    "name": "오즈의 마법사 [서울 양천]",
+    "startDate": "20261230",
+    "endDate": "20270131",
+    "venue": "한국방송회관 코바코홀 (구. 브로드홀)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305916_261110_102136.jpg",
+    "area": "서울특별시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001107",
+      "cast": "",
+      "crew": "",
+      "runtime": "55분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "전석 40,000원",
+      "schedule": "수요일 ~ 목요일(11:00,14:00), 토요일(11:00,13:00,15:00), 일요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305916_202611101021369381.jpg",
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305916_202611101021369020.gif"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1774154"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 양천구 목동동로 233 (목동) 한국방송회관",
+    "lat": 37.5269334,
+    "lng": 126.87138789999995,
+    "venueTel": "070-7581-8902",
+    "venueHomepage": "https://broadcast.kobaco.co.kr/main.jsp"
   },
   {
     "id": "PF280939",
@@ -119570,6 +121347,49 @@
     "venueHomepage": "http://www.sac.or.kr"
   },
   {
+    "id": "PF305975",
+    "name": "이영현 콘서트: 나의 노래가 필요한 너에게 - 울림 [부산]",
+    "startDate": "20261231",
+    "endDate": "20261231",
+    "venue": "소향씨어터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305975_261110_140126.gif",
+    "area": "부산광역시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001347",
+      "cast": "이영현",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "만 7세 이상",
+      "producer": "(주) 에이치오이엔티(HO ENT), (주)에이치오씨앤씨(HO CNC), 파이오니아(주)",
+      "price": "R석 154,000원, S석 132,000원, A석 110,000원",
+      "schedule": "목요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305975_202611100201265250.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "https://www.ticketlink.co.kr/product/66779"
+        },
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015969"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "부산광역시 해운대구 센텀중앙로 55 (우동) 경남정보대학교및동서대학교센텀산학캠퍼스",
+    "lat": 35.1731656,
+    "lng": 129.12766,
+    "venueTel": "051-950-6500",
+    "venueHomepage": "http://sohyangtheater.co.kr"
+  },
+  {
     "id": "PF305856",
     "name": "장종선 클라리넷 독주회",
     "startDate": "20261231",
@@ -120004,6 +121824,45 @@
     "venueHomepage": "http://www.songdoconvensia.com/"
   },
   {
+    "id": "PF305922",
+    "name": "Project RAW: PYUNSUNGHYUN Live Session",
+    "startDate": "20261231",
+    "endDate": "20261231",
+    "venue": "구름아래소극장",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305922_261110_104132.gif",
+    "area": "서울특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC002033",
+      "cast": "편성현",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 8세 이상",
+      "producer": "편성현재",
+      "price": "전석 99,000원",
+      "schedule": "목요일(19:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305922_202611101041324740.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "놀유니버스",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26015821"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 마포구 와우산로29가길 15 (서교동)",
+    "lat": 37.5541887,
+    "lng": 126.928539,
+    "venueTel": "02-3280-8800",
+    "venueHomepage": "http://gurumare.co.kr/"
+  },
+  {
     "id": "PF305510",
     "name": "미안해 아빠 [수원]",
     "startDate": "20270101",
@@ -120336,6 +122195,45 @@
     "venueHomepage": "http://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mId=0601060300"
   },
   {
+    "id": "PF305907",
+    "name": "오즈의 마법사 [대전]",
+    "startDate": "20270102",
+    "endDate": "20270102",
+    "venue": "대전 서구 관저문예회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305907_261110_100421.jpg",
+    "area": "대전광역시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001194",
+      "cast": "",
+      "crew": "",
+      "runtime": "50분",
+      "age": "전체 관람가",
+      "producer": "",
+      "price": "현장판매 14,900원, 사전예약 9,900원",
+      "schedule": "토요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305907_202611101002538080.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1771764"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대전광역시 서구 관저동로105번길 20",
+    "lat": 36.30168159999999,
+    "lng": 127.3394323,
+    "venueTel": "042-288-2790",
+    "venueHomepage": "http://www.seogu.go.kr/art/contents/dms/main.jsp"
+  },
+  {
     "id": "PF305492",
     "name": "자우림 단독 콘서트: MIDNIGHT EXPRESS [대전]",
     "startDate": "20270102",
@@ -120496,6 +122394,45 @@
     "lng": 126.840268,
     "venueTel": "062-611-2221",
     "venueHomepage": "https://kdjcenter.gjto.or.kr/"
+  },
+  {
+    "id": "PF305917",
+    "name": "조유리 바이올린 독주회: 베토벤 소나타 전곡 시리즈 Ⅲ",
+    "startDate": "20270102",
+    "endDate": "20270102",
+    "venue": "세종문화회관",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305917_261110_102329.jpg",
+    "area": "서울특별시",
+    "genre": "서양음악(클래식)",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000020",
+      "cast": "조유리, 히로타 슌지",
+      "crew": "",
+      "runtime": "1시간 40분",
+      "age": "만 6세 이상",
+      "producer": "",
+      "price": "전석 30,000원",
+      "schedule": "토요일(17:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305917_202611101023295770.jpeg"
+      ],
+      "tickets": [
+        {
+          "name": "세종문화회관",
+          "url": "https://www.sejongpac.or.kr/portal/performance/performance/performTicket.do?performIdx=37733&menuNo=200320"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "서울특별시 종로구 세종대로 175 (세종로)",
+    "lat": 37.5725254,
+    "lng": 126.97564290000003,
+    "venueTel": "02-399-1000",
+    "venueHomepage": "http://www.sejongpac.or.kr/"
   },
   {
     "id": "PF303291",
@@ -120661,6 +122598,45 @@
     "lng": 127.46975329999998,
     "venueTel": "043-201-2304",
     "venueHomepage": "https://www.cheongju.go.kr/ac/index.do"
+  },
+  {
+    "id": "PF305972",
+    "name": "이영현 콘서트: 나의 노래가 필요한 너에게 - 울림 [전남광주]",
+    "startDate": "20270103",
+    "endDate": "20270103",
+    "venue": "전남광주통합특별시 예술의전당 (구. 광주예술의전당)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305972_261110_135808.jpg",
+    "area": "전남광주통합특별시",
+    "genre": "대중음악",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000233",
+      "cast": "이영현",
+      "crew": "",
+      "runtime": "2시간",
+      "age": "만 7세 이상",
+      "producer": "(주) 에이치오이엔티(HO ENT), (주)에이치오씨앤씨(HO CNC), 파이오니아(주)",
+      "price": "R석 154,000원, S석 132,000원, A석 110,000원",
+      "schedule": "일요일(18:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305972_202611100158086500.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "NHN티켓링크",
+          "url": "http://www.ticketlink.co.kr/product/66809"
+        }
+      ],
+      "kids": false,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "전남광주통합특별시 북구 북문대로 60 (운암동)",
+    "lat": 35.1777124,
+    "lng": 126.88170230000003,
+    "venueTel": "062-613-8333",
+    "venueHomepage": "https://gjart.gwangju.go.kr/intro.jsp"
   },
   {
     "id": "PF305475",
@@ -121609,6 +123585,49 @@
     "lng": 127.3837135,
     "venueTel": "042-270-8333",
     "venueHomepage": "https://www.daejeon.go.kr/djac/index.do"
+  },
+  {
+    "id": "PF305945",
+    "name": "콧구멍을 후비면 [대전]",
+    "startDate": "20270109",
+    "endDate": "20270110",
+    "venue": "대전평송청소년문화센터",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF305945_261110_114200.jpg",
+    "area": "대전광역시",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000323",
+      "cast": "",
+      "crew": "",
+      "runtime": "55분",
+      "age": "24개월 이상",
+      "producer": "(주)조이컬처",
+      "price": "전석 40,000원",
+      "schedule": "토요일(13:00,15:00,17:00), 일요일(11:00,14:00,16:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF305945_202611101142004390.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1773949"
+        },
+        {
+          "name": "예스24",
+          "url": "https://ticket.yes24.com/Perf/61034"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 15:00:03.058793"
+    },
+    "address": "대전광역시 서구 둔산대로 201 (만년동)",
+    "lat": 36.365688,
+    "lng": 127.39157390000003,
+    "venueTel": "042-480-1622",
+    "venueHomepage": "http://www.pyoungsong.com/"
   },
   {
     "id": "PF294073",
@@ -122977,6 +124996,45 @@
     "venueHomepage": "http://www.artgy.or.kr/"
   },
   {
+    "id": "PF306003",
+    "name": "로보카폴리: 브룸스타운의 에너지를 지켜라! [구리]",
+    "startDate": "20270123",
+    "endDate": "20270124",
+    "venue": "구리아트홀",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306003_261110_151147.jpg",
+    "area": "경기도",
+    "genre": "뮤지컬",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC001196",
+      "cast": "",
+      "crew": "오세준, 김현오, 최하은 등",
+      "runtime": "1시간 5분",
+      "age": "24개월 이상",
+      "producer": "(주)더화랑이엔티",
+      "price": "R석 66,000원",
+      "schedule": "토요일(11:00,14:00,16:30), 일요일(11:00,14:00)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306003_202611100311471370.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1774052"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "경기도 구리시 아차산로 453",
+    "lat": 37.5954358,
+    "lng": 127.12996380000004,
+    "venueTel": "031-580-7900",
+    "venueHomepage": "https://www.guriart.or.kr/PageLink.do"
+  },
+  {
     "id": "PF305897",
     "name": "무명전설 전국투어 콘서트 [천안]",
     "startDate": "20270123",
@@ -123054,6 +125112,45 @@
     "lng": 127.01016819999995,
     "venueTel": "031-240-3000",
     "venueHomepage": "https://www.suwonudc.co.kr/jacc/PageLink.do"
+  },
+  {
+    "id": "PF306002",
+    "name": "어린이 서커스 쇼 [광주]",
+    "startDate": "20270123",
+    "endDate": "20270123",
+    "venue": "전남광주통합특별시 예술의전당 (구. 광주예술의전당)",
+    "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF306002_261110_150903.jpg",
+    "area": "전남광주통합특별시",
+    "genre": "서커스/마술",
+    "openrun": false,
+    "state": "공연예정",
+    "detail": {
+      "facilityId": "FC000233",
+      "cast": "",
+      "crew": "",
+      "runtime": "55분",
+      "age": "24개월 이상",
+      "producer": "",
+      "price": "서커스석  30,000원, 저글링석  20,000원",
+      "schedule": "토요일(13:30,15:30)",
+      "story": "",
+      "images": [
+        "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF306002_202611100309031490.jpg"
+      ],
+      "tickets": [
+        {
+          "name": "네이버N예약",
+          "url": "https://booking.naver.com/booking/12/bizes/1773860"
+        }
+      ],
+      "kids": true,
+      "updatedAt": "2026-11-10 18:00:03.035831"
+    },
+    "address": "전남광주통합특별시 북구 북문대로 60 (운암동)",
+    "lat": 35.1777124,
+    "lng": 126.88170230000003,
+    "venueTel": "062-613-8333",
+    "venueHomepage": "https://gjart.gwangju.go.kr/intro.jsp"
   },
   {
     "id": "PF304913",
