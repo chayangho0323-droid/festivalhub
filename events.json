@@ -624,32 +624,6 @@
     "homepage": ""
   },
   {
-    "name": "평택시문화재단  - 마티네콘서트 (5회차)",
-    "startDate": "20261111",
-    "endDate": "20261111",
-    "time": "11:00~12:00",
-    "place": "북부문화예술회관 소극장",
-    "address": "경기도 평택시 경기대로 1366",
-    "charge": "유료",
-    "desc": "정오의 음악회",
-    "tel": "031-8053-3531",
-    "host": "평택시문화재단",
-    "homepage": "https://www.pccf.or.kr/main.do"
-  },
-  {
-    "name": "과천시립교향악단 콘서트시리즈6",
-    "startDate": "20261111",
-    "endDate": "20261111",
-    "time": "19:30~21:00",
-    "place": "예술의전당",
-    "address": "서울특별시 서초구 남부순환로 2406",
-    "charge": "유료",
-    "desc": "클래식",
-    "tel": "02-2009-9700",
-    "host": "경기도 과천시",
-    "homepage": "https://www.gcart.or.kr"
-  },
-  {
     "name": "토스카",
     "startDate": "20261111",
     "endDate": "20261115",
@@ -661,19 +635,6 @@
     "tel": "",
     "host": "라포르짜오페라단",
     "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "제947회 금정수요음악회 <소리: 들여다봄Ⅳ>",
-    "startDate": "20261111",
-    "endDate": "20261111",
-    "time": "19:30~21:00",
-    "place": "금정문화회관 은빛샘홀",
-    "address": "부산광역시 금정구 체육공원로7",
-    "charge": "유료",
-    "desc": "실내악공연",
-    "tel": "051-519-5664",
-    "host": "금정문화회관",
-    "homepage": "http://art.geumjeong.go.kr/"
   },
   {
     "name": "댄스컬 <안드레아 김대건>",

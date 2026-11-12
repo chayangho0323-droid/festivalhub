@@ -9294,5 +9294,29 @@
     "lng": null,
     "tel": "",
     "homepage": "https://bellunadome.seibulions.co.jp/"
+  },
+  "FC005187": {
+    "name": "클럽 벨포스",
+    "address": "부산광역시 부산진구 서전로10번길 61 (부전동)",
+    "lat": 35.155107,
+    "lng": 129.060353,
+    "tel": "",
+    "homepage": "https://www.instagram.com/belpos_official"
+  },
+  "FC005186": {
+    "name": "인혜야",
+    "address": "서울특별시 성북구 동소문로2길 31 (동소문동2가)",
+    "lat": 37.587954,
+    "lng": 127.008054,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC002355": {
+    "name": "이화여자대학교 대강당",
+    "address": "서울특별시 서대문구 이화여대길 52 (대현동)",
+    "lat": 37.5625599,
+    "lng": 126.9474554,
+    "tel": "02-3277-3119",
+    "homepage": "http://www.ewha.ac.kr/ewha/index.do#menu"
   }
 }

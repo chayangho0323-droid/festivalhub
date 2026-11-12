@@ -477,7 +477,7 @@
     "address": "서울특별시 종로구 세종대로 지하172 (세종로)",
     "lat": "37.5716249337",
     "lng": "126.9767679222",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/78/4153378_image2_1.png",
     "overview": "서울의 겨울밤을 밝히는 「광화문 마켓」이 올해도 광화문광장을 찾아온다. 5회차를 맞이한 올해는 「시간이 멈춘 산타마을」을 주제로, 바쁜 일상 속 잠시 머물러 크리스마스의 설렘을 만끽할 수 있는 특별한 겨울 풍경을 선보인다. 대형 트리와 마켓 빌리지를 중심으로 크리스마스 시즌 소품과 따뜻한 먹거리를 한자리에서 만나볼 수 있으며, 오감을 자극하는 몰입형 포토존과 다채로운 체험 프로그램도 곳곳에 마련 될 예정이다. 크리스마스의 설렘이 머무는 곳, 올 겨울 광화문 마켓에서 특별한 겨울밤을 만날 수 있다.",
     "tel": "02-3788-8105",
     "homepage": "https://www.stolantern.com/",
@@ -3060,7 +3060,7 @@
     "address": "서울 중구 태평로1가 1",
     "lat": "37.5690746935",
     "lng": "126.9775921210",
-    "image": "https://tong.visitkorea.or.kr/cms/resource/79/4139579_image2_1.jpg",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/85/4139585_image2_1.jpg",
     "overview": "2026 영주사과축제는 영주의 맑은 자연 속에서 자란 최고 품질의 영주 사과를 오감으로 즐기는 가을 축제로, 올해 영주사과축제는 영주 사과의 맛과 매력을 산지와 도심에서 동시에 전한다. 10월 30일부터 11월 1일까지 부석면 미로공원 일원에서 열리며, 11월 13일부터 15일까지는 서울 청계광장에서도 행사가 펼쳐진다. 영주 사과는 일교차가 크고 풍부한 햇살을 받아 당도가 높고 식감이 아삭한 것이 특징이다. 축제 현장에서는 여러 체험프로그램, 다양한 품종 전시, 사과 판매 장터가 열린다. 다채로운 시식 행사, 문화 공연도 함께 준비된다. 방문객들은 유네스코 세계유산인 부석사와 함께 가을 풍경을 만끽할 수 있다. 산지 직송의 신선함과 신나는 공연 및 이벤트가 어우러져 남녀노소 모두에게 즐거운 추억을 선사하는 풍성한 결실의 장이다. 영주의 유수한 가을 풍경은 물론 서울 도심 한복판에서도 최고 품질의 영주 사과와 풍성한 즐길 거리를 오감으로 체험할 수 있는 절호의 기회이다.",
     "tel": "054-630-8706",
     "homepage": "https://yctf.or.kr/aspf/",
@@ -3642,6 +3642,150 @@
           "tel": "031-909-6305",
           "dist": 870,
           "walkMin": 13
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "3578130",
+    "name": "울산 크리스마스 마켓",
+    "startDate": "20261127",
+    "endDate": "20261226",
+    "address": "울산광역시 남구 대공원로 94 (옥동)",
+    "lat": "35.5316566254",
+    "lng": "129.2935190325",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/40/4153340_image2_1.jpg",
+    "overview": "울산 크리스마스 마켓은 2026년 11월 27일부터 12월 26일까지 울산대공원 정문 풍차 일원에서 개최되는 크리스마스 테마의 야간 마켓이다. 울산문화관광재단이 주최·주관하는 행사로 판매와 체험, 먹거리, 놀이시설 및 공연 프로그램을 함께 운영하는 행사이다.\n정기 운영일은 행사 기간 중 매주 금요일과 토요일이며, 운영시간은 오후 6시부터 오후 10시까지이다. 크리스마스 주간에는 운영일을 확대하며, 해당 주간의 운영일은 12월 23일 수요일부터 12월 26일 토요일까지 총 4일이다.\n주요 내용은 다양한 상품을 판매하는 판매 부스, 방문객이 참여하는 체험 부스, 먹거리 부스와 푸드트럭 운영이다. 이와 함께 회전목마, 산타의 집, 스노우존을 운영하며, 버스킹 공연도 진행하는 구성이다. 상품 구매와 체험, 식음료 이용, 놀이시설 이용 및 공연 관람이 행사장 내 주요 활동이다. 행사 장소는 울산대공원 정문에 위치한 풍차와 그 주변 구역이다.",
+    "tel": "052-271-8701",
+    "homepage": "http://ulsanstorynightmarket.com/",
+    "eventplace": "울산대공원 풍차 일원",
+    "playtime": "18:00~22:00",
+    "usefee": "무료",
+    "sponsor": "울산광역시",
+    "images": [],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "울산 크리스마스 마켓은 2026년 11월 27일부터 12월 26일까지 울산대공원 정문 풍차 일원에서 개최되는 크리스마스 테마의 야간 마켓이다. 울산문화관광재단이 주최·주관하는 행사로 판매와 체험, 먹거리, 놀이시설 및 공연 프로그램을 함께 운영하는 행사이다.\n정기 운영일은 행사 기간 중 매주 금요일과 토요일이며, 운영시간은 오후 6시부터 오후 10시까지이다. 크리스마스 주간에는 운영일을 확대하며, 해당 주간의 운영일은 12월 23일 수요일부터 12월 26일 토요일까지 총 4일이다.\n주요 내용은 다양한 상품을 판매하는 판매 부스, 방문객이 참여하는 체험 부스, 먹거리 부스와 푸드트럭 운영이다. 이와 함께 회전목마, 산타의 집, 스노우존을 운영하며, 버스킹 공연도 진행하는 구성이다. 상품 구매와 체험, 식음료 이용, 놀이시설 이용 및 공연 관람이 행사장 내 주요 활동이다. 행사 장소는 울산대공원 정문에 위치한 풍차와 그 주변 구역이다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요프로그램 : 크리스마스 마켓 운영\n- 부대 행사 및 프로그램 : 회전목마 / 스노우존 / 산타의 집 / 버스킹 공연 / 체험 부스 / 먹거리 부스 등"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "레이홉",
+        "dist": 1717,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3337195_image2_1.jpg",
+        "addr": "울산광역시 남구 월평로21번길 15 (신정동)"
+      },
+      {
+        "name": "학산서원",
+        "dist": 2495,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/66/2953166_image2_1.jpg",
+        "addr": "울산광역시 중구 신기16길 15"
+      },
+      {
+        "name": "울산 큰애기집",
+        "dist": 3737,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3581842_image2_1.jpg",
+        "addr": "울산광역시 중구 문화의거리 28"
+      },
+      {
+        "name": "더맑음",
+        "dist": 4126,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/95/3422495_image2_1.jpg",
+        "addr": "울산광역시 남구 삼산중로74번길 30 (삼산동)"
+      },
+      {
+        "name": "선바위",
+        "dist": 7638,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/15/3549315_image2_1.jpg",
+        "addr": "울산광역시 울주군 범서읍 두동로 160"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "디앤유커피 본점",
+        "dist": 2062,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/75/2852575_image2_1.jpg",
+        "addr": "울산광역시 남구 남부순환도로626번길 8 (두왕동)"
+      },
+      {
+        "name": "목포식당",
+        "dist": 2638,
+        "image": "",
+        "addr": "울산광역시 중구 태화강국가정원길 59 (태화동)"
+      },
+      {
+        "name": "리코파스토 우정혁신본점",
+        "dist": 3023,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/34/2848834_image2_1.jpg",
+        "addr": "울산광역시 중구 종가1길 14"
+      },
+      {
+        "name": "다운목살구이",
+        "dist": 3148,
+        "image": "",
+        "addr": "울산광역시 중구 운곡안길 9"
+      },
+      {
+        "name": "[착한가게] 덤",
+        "dist": 3196,
+        "image": "",
+        "addr": "울산광역시 남구 대학로84번길 5-5"
+      }
+    ],
+    "transit": {
+      "stops": [
+        {
+          "name": "울산대공원 정문 로터리(종점)",
+          "dist": 18,
+          "walkMin": 1
+        },
+        {
+          "name": "울산대공원 정문 로터리",
+          "dist": 22,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "정문주차장",
+          "se": "공영",
+          "type": "부설",
+          "cap": 333,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-226-0319",
+          "dist": 87,
+          "walkMin": 1
+        },
+        {
+          "name": "남문주차장",
+          "se": "공영",
+          "type": "부설",
+          "cap": 989,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-226-0319",
+          "dist": 87,
+          "walkMin": 1
+        },
+        {
+          "name": "동문주차장",
+          "se": "공영",
+          "type": "부설",
+          "cap": 518,
+          "fee": "기본 30분 500원 · 추가 10분 200원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "052-226-0319",
+          "dist": 87,
+          "walkMin": 1
         }
       ]
     }
@@ -4471,6 +4615,166 @@
           "name": "상사리",
           "dist": 655,
           "walkMin": 10
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "2785797",
+    "name": "청계천의 빛",
+    "startDate": "20261211",
+    "endDate": "20261231",
+    "address": "서울특별시 중구 태평로 1가 1",
+    "lat": "37.5690771533",
+    "lng": "126.9775992390",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/70/4152170_image2_1.jpg",
+    "overview": "2015년 서울의 겨울밤을 처음 밝힌 '청계천의 빛'이 열두 번째 겨울을 맞아 12월 11일부터 31일까지 21일간 서울 청계광장에서 펼쳐진다. 올해는 '내일을 밝히는 꿈(Light Up Tomorrow)'을 주제로, 시민들의 꿈과 희망을 빛으로 이야기하는 스토리텔링형 축제로 새롭게 선보인다. 매년 많은 사랑을 받아온 이색 트리와 포토존, 꿈빛기차(꼬마기차) 탑승 체험에 더해, 올해는 발달장애 어린이 작가들이 그린 꿈 그림과 시민들이 보내온 꿈 메시지를 담은 영상을 대형 전광판으로 상영한다. 축제는 매일 오후 6시부터 10시까지 청계광장을 밝히며, 누구나 무료로 관람할 수 있다.",
+    "tel": "02-904-1159",
+    "homepage": "http://www.seoulcl.kr/main/index.html",
+    "eventplace": "서울특별시 중구 청계천 청계광장 일대",
+    "playtime": "18:00~22:00",
+    "usefee": "무료",
+    "sponsor": "경향신문사",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/74/4152174_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/75/4152175_image2_1.png",
+      "https://tong.visitkorea.or.kr/cms/resource/73/4152173_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/71/4152171_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/72/4152172_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/69/4152169_image2_1.jpg",
+      "https://tong.visitkorea.or.kr/cms/resource/68/4152168_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "2015년 서울의 겨울밤을 처음 밝힌 '청계천의 빛'이 열두 번째 겨울을 맞아 12월 11일부터 31일까지 21일간 서울 청계광장에서 펼쳐진다. 올해는 '내일을 밝히는 꿈(Light Up Tomorrow)'을 주제로, 시민들의 꿈과 희망을 빛으로 이야기하는 스토리텔링형 축제로 새롭게 선보인다. 매년 많은 사랑을 받아온 이색 트리와 포토존, 꿈빛기차(꼬마기차) 탑승 체험에 더해, 올해는 발달장애 어린이 작가들이 그린 꿈 그림과 시민들이 보내온 꿈 메시지를 담은 영상을 대형 전광판으로 상영한다. 축제는 매일 오후 6시부터 10시까지 청계광장을 밝히며, 누구나 무료로 관람할 수 있다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 첫번째 빛  The First Glow : 점등식 26. 12. 12 \n- 꿈빛 광장 Dreamlight Square : 대형 트리 및 LED 조형물, 포토존 전시 \n- 꿈빛 기차 Dreamlight Train : 꼬마기차 탑승체험 프로그램 \n- 빛나는 나의 꿈 Shining Dreams : 시민들의 꿈과 소망이 담긴 메시지 상영 \n- 꿈을 그리는 캔버스 Dream Canvas : 발달장애 어린이 작가들의 '꿈' 과 '빛'을 주제로 한 미술작품 상영"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "경성 부민관 폭탄 의거지",
+        "dist": 183,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/30/3077530_image2_1.JPG",
+        "addr": "서울특별시 중구 세종대로 125 (태평로1가)"
+      },
+      {
+        "name": "보성사터",
+        "dist": 711,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/61/3518361_image2_1.jpg",
+        "addr": "서울특별시 종로구 우정국로 55 (견지동)"
+      },
+      {
+        "name": "북촌한옥마을 감고당길",
+        "dist": 1074,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/06/2945806_image2_1.jpg",
+        "addr": "서울특별시 종로구 송현동"
+      },
+      {
+        "name": "익선동 한옥거리",
+        "dist": 1231,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/22/2947522_image2_1.jpg",
+        "addr": ""
+      },
+      {
+        "name": "백인제가옥",
+        "dist": 1392,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/92/3096392_image2_1.jpg",
+        "addr": "서울특별시 종로구 북촌로7길 16 (가회동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "디라이프스타일키친 광화문점",
+        "dist": 89,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/04/2853904_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 136 파이낸스빌딩"
+      },
+      {
+        "name": "붓처스컷 광화문점",
+        "dist": 89,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2853980_image2_1.jpg",
+        "addr": "서울특별시 중구 세종대로 136 (태평로1가)"
+      },
+      {
+        "name": "오양회참치",
+        "dist": 179,
+        "image": "",
+        "addr": "서울특별시 중구 세종대로21길 49 (태평로1가)"
+      },
+      {
+        "name": "동해도 광화문",
+        "dist": 188,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/32/2789532_image2_1.jpg",
+        "addr": "서울특별시 중구 무교로 28 (무교동)"
+      },
+      {
+        "name": "낙동강",
+        "dist": 255,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/2789520_image2_1.jpg",
+        "addr": "서울특별시 중구 을지로1길 34 (다동)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "광화문(세종문화회관)",
+        "lines": [
+          "5호선"
+        ],
+        "dist": 300,
+        "walkMin": 4
+      },
+      "stops": [
+        {
+          "name": "청계광장",
+          "dist": 54,
+          "walkMin": 1
+        },
+        {
+          "name": "광화문",
+          "dist": 64,
+          "walkMin": 1
+        }
+      ],
+      "parking": [
+        {
+          "name": "뉴국제호텔앞 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 19,
+          "fee": "기본 5분 600원 · 추가 5분 600원",
+          "hours": "08:00~22:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 130,
+          "walkMin": 2
+        },
+        {
+          "name": "서울글로벌센터",
+          "se": "공영",
+          "type": "노외",
+          "cap": 44,
+          "fee": "기본 5분 700원 · 추가 5분 700원",
+          "hours": "09:00~18:00",
+          "days": "평일",
+          "tel": "02-720-9862",
+          "dist": 352,
+          "walkMin": 5
+        },
+        {
+          "name": "다동쉼터 공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 7,
+          "fee": "기본 5분 500원 · 추가 5분 600원",
+          "hours": "09:00~20:00",
+          "days": "평일+토요일",
+          "tel": "02-2280-8360",
+          "dist": 242,
+          "walkMin": 4
         }
       ]
     }
