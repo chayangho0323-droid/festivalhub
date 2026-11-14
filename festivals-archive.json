@@ -99300,5 +99300,143 @@
         }
       ]
     }
+  },
+  {
+    "contentid": "s19kdfb3",
+    "name": "거리예술제",
+    "startDate": "20260904",
+    "endDate": "20261113",
+    "address": "제주특별자치도 제주시 관덕로11길 6",
+    "lat": "33.51371216",
+    "lng": "126.525567",
+    "venuePhoto": null,
+    "image": "",
+    "overview": "음악+댄스+마술 등 거리예술이 가능한 공연",
+    "tourOverview": "",
+    "tel": "",
+    "homepage": "",
+    "eventplace": "칠성로상점가 및 연동 누웨마루 거리",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "제주특별자치도 제주시 문화예술과",
+    "images": [],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "제주성지",
+        "dist": 380,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/3556191_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 오현길 61"
+      },
+      {
+        "name": "두맹이골목",
+        "dist": 852,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/20/3384820_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 동문로16길 17-4 (일도이동)"
+      },
+      {
+        "name": "귤림서원",
+        "dist": 869,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/52/3477852_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 이도일동"
+      },
+      {
+        "name": "복신미륵",
+        "dist": 923,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/42/3555142_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 동한두기길 7-6 (용담일동)"
+      },
+      {
+        "name": "용연구름다리",
+        "dist": 1010,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/3527081_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 용담이동"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "신해바라기",
+        "dist": 68,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2854096_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 관덕로13길 13 (일도일동)"
+      },
+      {
+        "name": "이돈갓",
+        "dist": 93,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/96/2861696_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 칠성로길 27 (일도일동)"
+      },
+      {
+        "name": "마음에온",
+        "dist": 106,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/12/2904812_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 칠성로길 29-1"
+      },
+      {
+        "name": "골목식당",
+        "dist": 212,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/79/2857279_image2_1.JPG",
+        "addr": "제주특별자치도 제주시 중앙로 63-9 (이도일동)"
+      },
+      {
+        "name": "자연몸국",
+        "dist": 220,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/59/2840659_image2_1.jpg",
+        "addr": "제주특별자치도 제주시 중앙로 63-11"
+      }
+    ],
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "동문로터리, 동문시장[북]",
+          "dist": 152,
+          "walkMin": 2
+        },
+        {
+          "name": "탑동입구[서]",
+          "dist": 196,
+          "walkMin": 3
+        }
+      ],
+      "parking": [
+        {
+          "name": "칠성상가1",
+          "se": "공영",
+          "type": "노외",
+          "cap": 19,
+          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 88,
+          "walkMin": 1
+        },
+        {
+          "name": "일도일동 1476-33",
+          "se": "공영",
+          "type": "노외",
+          "cap": 13,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 99,
+          "walkMin": 1
+        },
+        {
+          "name": "제일주차빌딩",
+          "se": "공영",
+          "type": "노외",
+          "cap": 13,
+          "fee": "기본 30분 1,000원 · 추가 15분 500원 · 1일 10,000원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "",
+          "dist": 99,
+          "walkMin": 1
+        }
+      ]
+    }
   }
 ]
