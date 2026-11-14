@@ -29,7 +29,7 @@
  "https://www.kh.or.kr/short/g6cX": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-07T23:19:47.614Z",
+  "checkedAt": "2026-11-14T23:31:32.060Z",
   "final": "https://www.kh.or.kr/cont/view/fest/month/menu/210?thisPage=1&idx=110615&searchCategory1=600&searchCategory2=617&searchCategory3=&searchCategory6=&searchField=all&searchDate=202609&weekSel=&searchType=&year=2026&month=09&searchText="
  },
  "https://gsctf.or.kr/": {
@@ -2989,7 +2989,7 @@
  "https://wj.nonghyup.com/": {
   "state": "unknown",
   "status": 400,
-  "checkedAt": "2026-11-07T23:19:47.614Z"
+  "checkedAt": "2026-11-14T23:31:32.060Z"
  },
  "https://www.mamf.co.kr/": {
   "state": "ok",
@@ -3174,7 +3174,7 @@
  "https://tour.muan.go.kr/tour/festival/yd_festival/introduce": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-07T23:19:47.614Z"
+  "checkedAt": "2026-11-14T23:31:32.060Z"
  },
  "https://www.instagram.com/cc_youngmic": {
   "state": "unknown",
