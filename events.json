@@ -442,19 +442,6 @@
     "homepage": ""
   },
   {
-    "name": "창원조각비엔날레",
-    "startDate": "20260930",
-    "endDate": "20261115",
-    "time": "09:00~18:00",
-    "place": "성산아트홀과 창원의집, 창원역사민속관, 진해역 일원, 마산어시장",
-    "address": "경상남도 창원시 성산구 중앙대로 151, 문화예술과 (용호동) (용호동)",
-    "charge": "무료",
-    "desc": "2년마다 개최되는 조각 비안날레 행사",
-    "tel": "055-225-3654",
-    "host": "경상남도 창원시",
-    "homepage": "https://cwsb.or.kr/cboc/"
-  },
-  {
     "name": "허준축제 기념 특별전<k-beauty, 처방에서 일상으로>",
     "startDate": "20261008",
     "endDate": "20270214",
@@ -585,32 +572,6 @@
     "homepage": ""
   },
   {
-    "name": "토스카",
-    "startDate": "20261111",
-    "endDate": "20261115",
-    "time": "09:00~22:00",
-    "place": "대공연장",
-    "address": "충청북도 청주시 서원구 흥덕로 69",
-    "charge": "유료",
-    "desc": "뮤지컬 및 오페라",
-    "tel": "",
-    "host": "라포르짜오페라단",
-    "homepage": "https://www.cheongju.go.kr/ac/index.do"
-  },
-  {
-    "name": "댄스컬 <안드레아 김대건>",
-    "startDate": "20261112",
-    "endDate": "20261115",
-    "time": "00:00~23:59",
-    "place": "당진문예의전당 대공연장",
-    "address": "충청남도 당진시 무수동2길 25-21",
-    "charge": "유료",
-    "desc": "댄스컬",
-    "tel": "041-350-2911",
-    "host": "(재)당진문화재단·당진문예의전당",
-    "homepage": ""
-  },
-  {
     "name": "강규림 개인전",
     "startDate": "20261113",
     "endDate": "20261119",
@@ -661,58 +622,6 @@
     "tel": "",
     "host": "화동미술학원",
     "homepage": ""
-  },
-  {
-    "name": "상주단체시리즈 : 청춘 18대1",
-    "startDate": "20261114",
-    "endDate": "20261115",
-    "time": "18:00~19:30",
-    "place": "관악아트홀 전시실",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "무료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5861",
-    "host": "관악문화재단  극단죽도록달린다",
-    "homepage": "https://gfac.or.kr/"
-  },
-  {
-    "name": "제주 타악의 울림",
-    "startDate": "20261115",
-    "endDate": "20261115",
-    "time": "17:00~18:00",
-    "place": "김정문화회관",
-    "address": "제주특별자치도 서귀포시 김정문화로 36",
-    "charge": "무료",
-    "desc": "연주회",
-    "tel": "064-760-3792",
-    "host": "김정문화회관",
-    "homepage": "https://culture.seogwipo.go.kr/kimjeong/"
-  },
-  {
-    "name": "[대관] La Reserve Label Concert",
-    "startDate": "20261115",
-    "endDate": "20261115",
-    "time": "19:30~21:30",
-    "place": "소월아트홀",
-    "address": "서울특별시 성동구 왕십리로 281",
-    "charge": "유료",
-    "desc": "재즈+라이브콘서트",
-    "tel": "",
-    "host": "성동문화재단",
-    "homepage": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1640"
-  },
-  {
-    "name": "업사이클 뮤직 〈숨의기억(Breath of Memory)〉",
-    "startDate": "20261115",
-    "endDate": "20261115",
-    "time": "11:00~13:00",
-    "place": "싱글벙글교육센터",
-    "address": "서울특별시 관악구 신림로3길 35",
-    "charge": "무료",
-    "desc": "관악아트홀 기획공연",
-    "tel": "02-828-5853",
-    "host": "한국지역문화재단총연합회",
-    "homepage": "https://gfac.or.kr/"
   },
   {
     "name": "2026 전국환경사진대전 입상작 전시회 및 시상식",
