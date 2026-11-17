@@ -9478,5 +9478,101 @@
     "lng": 127.111815,
     "tel": "",
     "homepage": "https://panesima-dukehall.netlify.app/"
+  },
+  "FC003846": {
+    "name": "혜화동성당",
+    "address": "서울특별시 종로구 창경궁로 288 (혜화동)",
+    "lat": 37.5862041,
+    "lng": 127.0027406,
+    "tel": "02-764-0221",
+    "homepage": "http://www.hyehwa.org/"
+  },
+  "FC005199": {
+    "name": "노웨어스튜디오",
+    "address": "서울특별시 중랑구 봉화산로3길 40 (중화동)",
+    "lat": 37.603386,
+    "lng": 127.07579,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005197": {
+    "name": "남온",
+    "address": "제주특별자치도 서귀포시 남원읍 한신로 515",
+    "lat": 33.317428,
+    "lng": 126.744351,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005196": {
+    "name": "와부도서관",
+    "address": "경기도 남양주시 와부읍 월문천로 43",
+    "lat": 37.585717,
+    "lng": 127.217512,
+    "tel": "",
+    "homepage": "https://lib.nyj.go.kr/waboo/index.do"
+  },
+  "FC005194": {
+    "name": "공간민들레",
+    "address": "서울특별시 성북구 동소문로 47-15 (동소문동4가)",
+    "lat": 37.591458,
+    "lng": 127.010483,
+    "tel": "",
+    "homepage": "http://www.mindle.org"
+  },
+  "FC005193": {
+    "name": "무브먼트랩 한남",
+    "address": "서울특별시 용산구 대사관로15길 8-3 (한남동)",
+    "lat": 37.534166,
+    "lng": 127.002861,
+    "tel": "",
+    "homepage": "https://movementlab.kr/"
+  },
+  "FC004451": {
+    "name": "남양주시청",
+    "address": "경기도 남양주시 경춘로 1037 (금곡동)",
+    "lat": 37.636021,
+    "lng": 127.216473,
+    "tel": "031-590-4232",
+    "homepage": "https://culture.nyj.go.kr/home/14"
+  },
+  "FC004996": {
+    "name": "순창군민예술회관",
+    "address": "전북특별자치도 순창군 순창읍 장류로 407-11",
+    "lat": 35.377252,
+    "lng": 127.149041,
+    "tel": "063-950-1622",
+    "homepage": ""
+  },
+  "FC005192": {
+    "name": "그림라이브하우스",
+    "address": "서울특별시 서대문구 연희로 14 (창천동)",
+    "lat": 37.560069,
+    "lng": 126.926862,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC004881": {
+    "name": "엔아트센터",
+    "address": "서울특별시 강북구 도봉로 214 (미아동)",
+    "lat": 37.627972,
+    "lng": 127.025966,
+    "tel": "",
+    "homepage": "https://www.nartscenter.com"
+  },
+  "FC004332": {
+    "name": "필슈파스 [부산진구]",
+    "address": "부산광역시 부산진구 서전로58번길 16 (전포동)",
+    "lat": 35.1570882,
+    "lng": 129.0659517,
+    "tel": "",
+    "homepage": "https://www.instagram.com/vielspass.official"
+  },
+  "FC000257": {
+    "name": "부산예술회관",
+    "address": "부산광역시 남구 용소로 78 (대연동)",
+    "lat": 35.1307275,
+    "lng": 129.10258479999993,
+    "tel": "051-612-1372",
+    "homepage": "http://www.bsart.or.kr/html/comm/main.asp"
   }
 }
