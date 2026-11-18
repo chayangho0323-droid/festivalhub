@@ -1226,7 +1226,7 @@
  "https://www.creatorfesta.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T00:23:13.274Z"
+  "checkedAt": "2026-11-18T02:01:53.846Z"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1375&": {
   "state": "ok",
@@ -3386,7 +3386,7 @@
  "https://gwurc.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-11T00:23:13.274Z"
+  "checkedAt": "2026-11-18T02:01:53.846Z"
  },
  "http://www.seoulcl.kr/main/index.html": {
   "state": "ok",
@@ -3414,5 +3414,11 @@
   "state": "ok",
   "status": 200,
   "checkedAt": "2026-11-17T02:47:50.146Z"
+ },
+ "https://www.jcia.or.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-18T02:01:53.846Z",
+  "final": "https://www.jcia.or.kr/cf/index.do"
  }
 }
