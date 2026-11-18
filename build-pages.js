@@ -1862,3 +1862,21 @@ fs.writeFileSync(
   "utf-8"
 );
 console.log("✅ robots.txt 생성");
+
+
+// ── 메인(index.html) 정적 콘텐츠 (2026-11-18) — 메인 HTML에 축제 링크 0개(app.js 렌더) → 진행·예정 축제 카드를 빌드가 직접 써 넣는다 ──
+{
+  const idx = "index.html";
+  let html = fs.readFileSync(idx, "utf-8");
+  const today = todayStr();
+  const live = festivals.filter((f) => f.endDate >= today && !isBarePage(f)).sort((a, b) => a.startDate.localeCompare(b.startDate));
+  const score = (f) => (findFestivalNote(f) ? 2 : 0) + (visitorPhotos[String(f.contentid)] ? 2 : 0) + (f.image ? 1 : 0);
+  const ongoing = live.filter((f) => f.startDate <= today).sort((a, b) => score(b) - score(a));
+  const upcoming = live.filter((f) => f.startDate > today);
+  const picked = [...ongoing, ...upcoming].slice(0, 60);
+  const cards = picked.map((f) => listCard(f, today)).join("\n");
+  const before = html;
+  html = html.replace(/(<main id="festival-list" class="festival-grid">)[\s\S]*?(<\/main>)/, `$1\n${cards}\n  $2`);
+  if (html !== before) fs.writeFileSync(idx, html, "utf-8");
+  console.log(`✅ index.html 정적 콘텐츠 (축제 카드 ${picked.length}개)`);
+}
