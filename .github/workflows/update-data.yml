@@ -81,6 +81,9 @@ jobs:
 
       # 5. 축제별 정적 페이지 + sitemap 재생성
       - run: node build-pages.js
+      # IndexNow: 새 페이지 + 핵심 페이지 주소를 빙·네이버에 바로 알림 (실패해도 로봇은 계속)
+      - run: node indexnow.js
+        continue-on-error: true
 
       # 6. 바뀐 내용이 있으면 커밋 + 푸시 (푸시되면 GitHub Pages가 자동 재배포)
       - run: |
