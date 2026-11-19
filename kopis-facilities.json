@@ -9646,5 +9646,61 @@
     "lng": 127.0109091,
     "tel": "02-2153-0000",
     "homepage": "http://www.ddp.or.kr/main"
+  },
+  "FC004328": {
+    "name": "가로수극장 [창원]",
+    "address": "경상남도 창원시 성산구 창이대로460번길 11 (용호동)",
+    "lat": 35.2380731,
+    "lng": 128.6844783,
+    "tel": "055-294-9498",
+    "homepage": ""
+  },
+  "FC002574": {
+    "name": "천안박물관",
+    "address": "충청남도 천안시 동남구 천안대로 429-13 (삼룡동)",
+    "lat": 36.7870224,
+    "lng": 127.1628647,
+    "tel": "041-521-2891",
+    "homepage": "http://www.cheonan.go.kr/museum.do"
+  },
+  "FC005205": {
+    "name": "베토벤하우스",
+    "address": "인천광역시 영종구 용유서로2번길 11 (남북동)",
+    "lat": 37.443169,
+    "lng": 126.404946,
+    "tel": "",
+    "homepage": "https://www.instagram.com/beethovenhaus_incheon"
+  },
+  "FC005204": {
+    "name": "문화플랫폼 열무",
+    "address": "경기도 안산시 상록구 일동로 37 (일동)",
+    "lat": 37.309286,
+    "lng": 126.870289,
+    "tel": "",
+    "homepage": "https://www.instagram.com/cultureyeolmoo/"
+  },
+  "FC002105": {
+    "name": "끌로드아트홀",
+    "address": "제주특별자치도 서귀포시 안덕면 신화역사로304번길 139 (서광리)",
+    "lat": 33.3013442,
+    "lng": 126.3206558,
+    "tel": "010-3361-8919",
+    "homepage": "https://claudearthall.modoo.at/"
+  },
+  "FC005136": {
+    "name": "당진시 평생학습관",
+    "address": "충청남도 당진시 남산공원길 151-13 (읍내동)",
+    "lat": 36.893445,
+    "lng": 126.636025,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC005055": {
+    "name": "CAFE 비온디앤",
+    "address": "서울특별시 중구 세종대로18길 28 (북창동)",
+    "lat": 37.563693,
+    "lng": 126.978619,
+    "tel": "",
+    "homepage": ""
   }
 }
