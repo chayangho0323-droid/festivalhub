@@ -102714,5 +102714,279 @@
         }
       ]
     }
+  },
+  {
+    "contentid": "4151220",
+    "name": "2026년 제7회 김치의 날 X 제4회 위킴 페스티벌",
+    "startDate": "20261120",
+    "endDate": "20261120",
+    "address": "서울특별시 서초구 강남대로 27 (양재동)",
+    "lat": "37.4682787075",
+    "lng": "127.0391364334",
+    "image": "https://tong.visitkorea.or.kr/cms/resource/59/4155259_image2_1.jpg",
+    "overview": "「2026년 제7회 김치의 날 기념행사」는 법정기념일인 김치의 날(11월 22일)을 기념하여 개최하는 행사이다. 김치의 날은 「김치산업 진흥법」에 따라 지정된 기념일로, 김치 소재 하나하나(11)가 모여 22가지 효능(22)을 나타낸다는 의미를 담고 있다. 행사는 농림축산식품부가 주최하고 한국농수산식품유통공사(aT), 세계김치연구소, (사)대한민국김치협회가 주관하며, 2026년 11월 20일 서울 aT센터 제1전시장에서 열린다. 1부 김치의 날 기념식은 추진 경과보고, VIP 퍼포먼스, 유공자 및 김치 품평회 시상식으로 진행된다. 2부는 세계김치연구소의 제4회 위킴 페스티벌로, 우리의 발효과학, 모두의 김치를 주제로 공모전 시상식, 주제 강연, 경품 추첨이 진행된다. 행사장에서는 김치 연구성과 전시, 스타트업 아이디어 제품 시식, 김장문화 퍼포먼스, 김치 판매 장터, 김치 품평회 및 김치요리 경연대회 수상작 전시, 푸드트럭이 함께 운영된다.",
+    "tel": "02-6405-3641",
+    "homepage": "https://www.instagram.com/kimchiday_1122/",
+    "eventplace": "aT센터 제1전시장",
+    "playtime": "10:00~18:00",
+    "usefee": "무료",
+    "sponsor": "농림축산식품부",
+    "images": [
+      "https://tong.visitkorea.or.kr/cms/resource/60/4155260_image2_1.jpg"
+    ],
+    "extraInfo": [
+      {
+        "name": "행사소개",
+        "text": "「2026년 제7회 김치의 날 기념행사」는 법정기념일인 김치의 날(11월 22일)을 기념하여 개최하는 행사이다. 김치의 날은 「김치산업 진흥법」에 따라 지정된 기념일로, 김치 소재 하나하나(11)가 모여 22가지 효능(22)을 나타낸다는 의미를 담고 있다. 행사는 농림축산식품부가 주최하고 한국농수산식품유통공사(aT), 세계김치연구소, (사)대한민국김치협회가 주관하며, 2026년 11월 20일 서울 aT센터 제1전시장에서 열린다. 1부 김치의 날 기념식은 추진 경과보고, VIP 퍼포먼스, 유공자 및 김치 품평회 시상식으로 진행된다. 2부는 세계김치연구소의 제4회 위킴 페스티벌로, 우리의 발효과학, 모두의 김치를 주제로 공모전 시상식, 주제 강연, 경품 추첨이 진행된다. 행사장에서는 김치 연구성과 전시, 스타트업 아이디어 제품 시식, 김장문화 퍼포먼스, 김치 판매 장터, 김치 품평회 및 김치요리 경연대회 수상작 전시, 푸드트럭이 함께 운영된다."
+      },
+      {
+        "name": "행사내용",
+        "text": "- 주요 프로그램 : 김치의 날 기념식 / 추진 경과보고 / VIP 퍼포먼스 / 유공자 및 김치 품평회 시상식 / 위킴 페스티벌 / 공모전 시상식 / 주제 강연 / 경품 추첨(세계김치연구소 유튜브 WiKimTV 생중계 예정)\n- 부대 행사 및 프로그램 : 통합 전시(김치 과학·문화·산업 연구성과, 글로벌 김치 앰배서더 성과, 어린이 김치 콘텐츠 공모전 수상작) / 김치 품평회 및 김치요리 경연대회 수상작 전시 / 김장문화 퍼포먼스 / 스타트업 아이디어 제품 시식·평가 / 김치 판매 장터 / 2부 경품 추첨 / 푸드트럭 운영"
+      }
+    ],
+    "nearbySpots": [
+      {
+        "name": "갱매폭포",
+        "dist": 3782,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/89/2363489_image2_1.jpg",
+        "addr": "경기도 과천시 막계동"
+      },
+      {
+        "name": "2025 서울 카페&베이커리페어",
+        "dist": 4176,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/64/3432064_image2_1.jpg",
+        "addr": "서울특별시 강남구 남부순환로 3104 (대치동)"
+      },
+      {
+        "name": "서울대공원 산림욕장",
+        "dist": 5214,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/81/3537381_image2_1.jpg",
+        "addr": "경기도 과천시 막계동"
+      },
+      {
+        "name": "스파레이",
+        "dist": 5852,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2024972_image2_1.jpg",
+        "addr": "서울특별시 서초구 강남대로107길 5 (잠원동)"
+      },
+      {
+        "name": "과천향교",
+        "dist": 6005,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/98/3534998_image2_1.JPG",
+        "addr": "경기도 과천시 자하동길 18 (중앙동)"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "양재해장국",
+        "dist": 165,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/03/2856103_image2_1.jpg",
+        "addr": "서울특별시 서초구 강남대로10길 11 (양재동)"
+      },
+      {
+        "name": "배나무골오리집 양재본점",
+        "dist": 542,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/01/2779901_image2_1.jpeg",
+        "addr": "서울특별시 서초구 마방로2길 12"
+      },
+      {
+        "name": "보아즈",
+        "dist": 727,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/91/2856191_image2_1.jpg",
+        "addr": "서울특별시 서초구 양재천로 53 (양재동)"
+      },
+      {
+        "name": "원조닭한마리",
+        "dist": 1162,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/43/2869643_image2_1.jpg",
+        "addr": "서울특별시 강남구 논현로10길 13 (개포동)"
+      },
+      {
+        "name": "영동올뱅이집",
+        "dist": 1323,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/40/2869140_image2_1.JPG",
+        "addr": "서울특별시 강남구 개포로22길 16 (개포동)"
+      }
+    ],
+    "transit": {
+      "station": {
+        "name": "양재시민의숲(매헌)",
+        "lines": [
+          "신분당선"
+        ],
+        "dist": 305,
+        "walkMin": 5
+      },
+      "stops": [
+        {
+          "name": "AT센터.양재꽃시장",
+          "dist": 53,
+          "walkMin": 1
+        },
+        {
+          "name": "매헌시민의숲",
+          "dist": 118,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "매헌시민의숲(매헌)역",
+          "se": "공영",
+          "type": "노외",
+          "cap": 46,
+          "fee": "기본 5분 250원 · 추가 5분 250원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2155-7284",
+          "dist": 245,
+          "walkMin": 4
+        },
+        {
+          "name": "양재2동주민센터",
+          "se": "공영",
+          "type": "노외",
+          "cap": 32,
+          "fee": "기본 5분 150원 · 추가 5분 150원",
+          "hours": "07:00~21:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2155-7268",
+          "dist": 324,
+          "walkMin": 5
+        },
+        {
+          "name": "매헌시민의숲동측",
+          "se": "공영",
+          "type": "노외",
+          "cap": 143,
+          "fee": "기본 5분 250원 · 추가 5분 250원",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "02-2155-7284",
+          "dist": 455,
+          "walkMin": 7
+        }
+      ]
+    }
+  },
+  {
+    "contentid": "s1tg3zj9",
+    "name": "2026 양촌곶감축제",
+    "startDate": "20261211",
+    "endDate": "20261213",
+    "address": "충청남도 논산시 양촌면 이메길 31-13",
+    "lat": "36.1295106",
+    "lng": "127.2472045",
+    "venuePhoto": null,
+    "image": "http://tong.visitkorea.or.kr/cms/resource/87/3574987_image2_1.JPG",
+    "overview": "‘논산양촌곶감축제’는 양촌곶감의 달콤함과 크리스마스의 따뜻한 감성을 결합한 겨울 대표 축제로, 가족이 함께 즐기는 체험·공연·마켓 콘텐츠로 구성된다. ‘곶감 같은 달콤한 인생!’을 주제로 12월 12일부터 3일간 양촌리 체육공원에서 열리며, 20여 곶감 농가와 지역 예술단체, 시민이 함께 참여해 겨울철 논산의 대표 체류형 축제로 자리매김 할 예정이다.",
+    "tourOverview": "‘논산양촌곶감축제’는 양촌곶감의 달콤함과 크리스마스의 따뜻한 감성을 결합한 겨울 대표 축제로, 가족이 함께 즐기는 체험·공연·마켓 콘텐츠로 구성된다. ‘곶감 같은 달콤한 인생!’을 주제로 12월 12일부터 3일간 양촌리 체육공원에서 열리며, 20여 곶감 농가와 지역 예술단체, 시민이 함께 참여해 겨울철 논산의 대표 체류형 축제로 자리매김 할 예정이다.",
+    "tel": "041-746-5664",
+    "homepage": "",
+    "eventplace": "양촌체육공원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "충청남도 논산시",
+    "images": [
+      "http://tong.visitkorea.or.kr/cms/resource/85/3574985_image2_1.JPG",
+      "http://tong.visitkorea.or.kr/cms/resource/86/3574986_image2_1.jpg",
+      "http://tong.visitkorea.or.kr/cms/resource/88/3574988_image2_1.JPG",
+      "http://tong.visitkorea.or.kr/cms/resource/89/3574989_image2_1.JPG",
+      "http://tong.visitkorea.or.kr/cms/resource/90/3574990_image2_1.JPG"
+    ],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "도정딸기마을",
+        "dist": 633,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/18/3577218_image2_1.jpg",
+        "addr": "충청남도 논산시 양촌면 황산벌로380번길 15"
+      },
+      {
+        "name": "장선천",
+        "dist": 3012,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/41/3560041_image2_1.jpg",
+        "addr": "전북특별자치도 완주군 운주면 완창리"
+      },
+      {
+        "name": "양촌자연휴양림",
+        "dist": 3083,
+        "image": "",
+        "addr": "충청남도 논산시 양촌면 매죽헌로1723번길 176-23"
+      },
+      {
+        "name": "쌍계사(논산)",
+        "dist": 4546,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3050157_image2_1.JPG",
+        "addr": "충청남도 논산시 양촌면 중산길 192"
+      },
+      {
+        "name": "안심사(완주)",
+        "dist": 5476,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/19/3558319_image2_1.jpg",
+        "addr": "전북특별자치도 완주군 운주면 안심길 372"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "알바노",
+        "dist": 7559,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/46/2735146_image2_1.jpg",
+        "addr": "충청남도 논산시 가야곡면 산노1길 79-12"
+      },
+      {
+        "name": "대둔산골",
+        "dist": 7751,
+        "image": "",
+        "addr": "전북특별자치도 완주군 운주면 대둔산로 2268"
+      },
+      {
+        "name": "신풍매운탕",
+        "dist": 8443,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/23/2877223_image2_1.jpg",
+        "addr": "충청남도 논산시 신풍길 84-15"
+      },
+      {
+        "name": "황토집사람들",
+        "dist": 8789,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/80/2834480_image2_1.jpg",
+        "addr": "충청남도 금산군 태고사로 444 황토집사람들"
+      },
+      {
+        "name": "카페 로벨리아",
+        "dist": 8977,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/72/2834472_image2_1.jpg",
+        "addr": "충청남도 금산군 태고사로 422"
+      }
+    ],
+    "source": "std",
+    "transit": {
+      "stops": [
+        {
+          "name": "채광리",
+          "dist": 307,
+          "walkMin": 5
+        },
+        {
+          "name": "인천4리",
+          "dist": 520,
+          "walkMin": 8
+        }
+      ],
+      "parking": [
+        {
+          "name": "안산 노외주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 32,
+          "fee": "무료",
+          "hours": "00:00~23:59",
+          "days": "평일+토요일+공휴일",
+          "tel": "041-746-6257",
+          "dist": 1409,
+          "walkMin": 21
+        }
+      ]
+    }
   }
 ]

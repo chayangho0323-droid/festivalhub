@@ -575,11 +575,26 @@
     "photos": [],
     "checked": "20261107"
   },
+  "3420072": {
+    "tier": 2,
+    "query": "엑스포 과학공원",
+    "photos": [
+      {
+        "url": "https://tong.visitkorea.or.kr/cms2/website/16/3403316.jpg",
+        "title": "엑스포과학공원",
+        "keyword": "엑스포과학공원, 대전광역시 유성구, 테마공원, 한빛광장, 9월 추천여행지, 사진기자단, 프레임코리아2기",
+        "location": "대전광역시 유성구 도룡동",
+        "month": "202409",
+        "photographer": "강윤구"
+      }
+    ],
+    "checked": "20261121"
+  },
   "3437916": {
     "tier": 0,
     "query": "",
     "photos": [],
-    "checked": "20261021"
+    "checked": "20261121"
   },
   "3470738": {
     "tier": 0,
@@ -1183,6 +1198,12 @@
     "query": "",
     "photos": [],
     "checked": "20261104"
+  },
+  "4144190": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261121"
   },
   "4144229": {
     "tier": 0,
@@ -2908,5 +2929,11 @@
     "query": "",
     "photos": [],
     "checked": "20261107"
+  },
+  "sh3uzh5": {
+    "tier": 0,
+    "query": "",
+    "photos": [],
+    "checked": "20261121"
   }
 }
