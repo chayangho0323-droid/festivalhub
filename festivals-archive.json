@@ -105925,5 +105925,157 @@
         }
       ]
     }
+  },
+  {
+    "contentid": "sf5920z",
+    "name": "제8회 수성빛예술제",
+    "startDate": "20261224",
+    "endDate": "20270103",
+    "address": "대구광역시 수성구 달구벌대로 2450",
+    "lat": "35.85820008",
+    "lng": "128.6306298",
+    "venuePhoto": null,
+    "image": "http://tong.visitkorea.or.kr/cms/resource/12/3578312_image2_1.JPG",
+    "overview": "매년 새로운 주제와 다양한 빛예술작품으로 시민들에게 다가간 ‘수성빛예술제’가 12월 24일에서 2026년 1월 4일 까지 12일간 수성못에서 빛 예술의 향연을 펼친다. 올해 7회를 맞이하는 수성빛예술제는 주민주도형축제로 다양한 주민 작품들이 수성못 일대에 전시될 예정이다. 12월 24일 개막 점등식을 시작으로 매년 수성못 밤하늘을 화려하게 수놓아 온 드론아트쇼가 개막일과 성탄절 저녁에 총 2회 진행된다.",
+    "tourOverview": "매년 새로운 주제와 다양한 빛예술작품으로 시민들에게 다가간 ‘수성빛예술제’가 12월 24일에서 2026년 1월 4일 까지 12일간 수성못에서 빛 예술의 향연을 펼친다. 올해 7회를 맞이하는 수성빛예술제는 주민주도형축제로 다양한 주민 작품들이 수성못 일대에 전시될 예정이다. 12월 24일 개막 점등식을 시작으로 매년 수성못 밤하늘을 화려하게 수놓아 온 드론아트쇼가 개막일과 성탄절 저녁에 총 2회 진행된다.",
+    "tel": "053-666-2000",
+    "homepage": "https://www.suseong.kr/",
+    "eventplace": "수성못 일원",
+    "playtime": "",
+    "usefee": "",
+    "sponsor": "대구광역시 수성구",
+    "images": [
+      "http://tong.visitkorea.or.kr/cms/resource/09/3578309_image2_1.jpg",
+      "http://tong.visitkorea.or.kr/cms/resource/10/3578310_image2_1.jpg",
+      "http://tong.visitkorea.or.kr/cms/resource/11/3578311_image2_1.jpg",
+      "http://tong.visitkorea.or.kr/cms/resource/13/3578313_image2_1.JPG",
+      "http://tong.visitkorea.or.kr/cms/resource/14/3578314_image2_1.jpg"
+    ],
+    "extraInfo": [],
+    "nearbySpots": [
+      {
+        "name": "대구어린이대공원",
+        "dist": 1298,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/57/3459357_image2_1.jpg",
+        "addr": "대구광역시 수성구 동대구로 176"
+      },
+      {
+        "name": "대구경북디자인진흥원",
+        "dist": 1555,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/36/3348336_image2_1.jpg",
+        "addr": "대구광역시 동구 동대구로 461"
+      },
+      {
+        "name": "대구 신천물놀이장",
+        "dist": 2097,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/75/3544675_image2_1.jpg",
+        "addr": "대구광역시 남구 신천서쪽자전거길 237 (이천동)"
+      },
+      {
+        "name": "청호서원",
+        "dist": 2274,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/03/3349603_image2_1.jpg",
+        "addr": "대구광역시 수성구 청호로 250-11"
+      },
+      {
+        "name": "덕산서원(대구)",
+        "dist": 2302,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/3338110_image2_1.jpg",
+        "addr": "대구광역시 수성구 청호로46길 5-3"
+      }
+    ],
+    "nearbyFood": [
+      {
+        "name": "고운곰탕",
+        "dist": 245,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/50/2846250_image2_1.png",
+        "addr": "대구광역시 수성구 달구벌대로 2474-8 (범어동)"
+      },
+      {
+        "name": "다이닝슬로우라이프",
+        "dist": 615,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/76/2846276_image2_1.jpg",
+        "addr": "대구광역시 수성구 상록로2길 45 (범어동)"
+      },
+      {
+        "name": "무화커피",
+        "dist": 792,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/48/2766648_image2_1.jpg",
+        "addr": "대구광역시 수성구 국채보상로186길 81 (범어동)"
+      },
+      {
+        "name": "우니카트",
+        "dist": 809,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/10/2866310_image2_1.png",
+        "addr": "대구광역시 수성구 범어천로 151-4"
+      },
+      {
+        "name": "고미텐",
+        "dist": 894,
+        "image": "http://tong.visitkorea.or.kr/cms/resource/85/2850585_image2_1.png",
+        "addr": "대구광역시 수성구 동원로 6 (만촌동)"
+      }
+    ],
+    "source": "std",
+    "transit": {
+      "station": {
+        "name": "범어",
+        "lines": [
+          "대구 도시철도 2호선"
+        ],
+        "dist": 455,
+        "walkMin": 7
+      },
+      "stops": [
+        {
+          "name": "수성구청건너",
+          "dist": 77,
+          "walkMin": 1
+        },
+        {
+          "name": "수성구청앞",
+          "dist": 133,
+          "walkMin": 2
+        }
+      ],
+      "parking": [
+        {
+          "name": "범어공영주차장",
+          "se": "공영",
+          "type": "노외",
+          "cap": 62,
+          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 6,000원",
+          "hours": "08:00~19:30",
+          "days": "평일+토요일+공휴일",
+          "tel": "053-666-3043",
+          "dist": 281,
+          "walkMin": 4
+        },
+        {
+          "name": "대구여고북편노상공영주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 71,
+          "fee": "기본 30분 600원 · 추가 10분 300원 · 1일 6,000원",
+          "hours": "08:00~20:00",
+          "days": "평일+토요일+공휴일",
+          "tel": "053-666-3043",
+          "dist": 192,
+          "walkMin": 3
+        },
+        {
+          "name": "대구은행범어동지점주차장",
+          "se": "공영",
+          "type": "노상",
+          "cap": 72,
+          "fee": "기본 10분 600원 · 추가 10분 600원 · 1일 14,000원",
+          "hours": "09:00~18:00",
+          "days": "평일",
+          "tel": "053-603-4064",
+          "dist": 598,
+          "walkMin": 9
+        }
+      ]
+    }
   }
 ]

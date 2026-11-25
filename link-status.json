@@ -1047,7 +1047,7 @@
  "https://www.cng.go.kr/01659/02144/03803.web": {
   "state": "dead",
   "status": 0,
-  "checkedAt": "2026-11-22T00:03:48.613Z",
+  "checkedAt": "2026-11-25T03:17:12.567Z",
   "error": "20"
  },
  "https://www.cng.go.kr/01659/02139/03797.web": {
@@ -1234,7 +1234,9 @@
  "https://www.creatorfesta.co.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-18T02:01:53.846Z"
+  "checkedAt": "2026-11-25T03:17:12.567Z",
+  "suspect": true,
+  "lastError": "20"
  },
  "https://www.hsg.go.kr/tour/contents.do?key=1375&": {
   "state": "ok",
@@ -3397,7 +3399,7 @@
  "https://gwurc.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-18T02:01:53.846Z"
+  "checkedAt": "2026-11-25T03:17:12.567Z"
  },
  "http://www.seoulcl.kr/main/index.html": {
   "state": "ok",
@@ -3429,7 +3431,7 @@
  "https://www.jcia.or.kr/": {
   "state": "ok",
   "status": 200,
-  "checkedAt": "2026-11-18T02:01:53.846Z",
+  "checkedAt": "2026-11-25T03:17:12.567Z",
   "final": "https://www.jcia.or.kr/cf/index.do"
  },
  "https://soomyland.com/main/main.php": {
@@ -3467,5 +3469,16 @@
   "state": "ok",
   "status": 200,
   "checkedAt": "2026-11-21T01:11:11.498Z"
+ },
+ "https://sslaf.kr/": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-25T03:17:12.567Z"
+ },
+ "https://겨울엔양평.kr": {
+  "state": "ok",
+  "status": 200,
+  "checkedAt": "2026-11-25T03:17:12.567Z",
+  "final": "https://xn--h89ak68bzfap6a619b.kr/"
  }
 }
