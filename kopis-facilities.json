@@ -10070,5 +10070,69 @@
     "lng": 127.0150575,
     "tel": "",
     "homepage": ""
+  },
+  "FC005227": {
+    "name": "극발전소301",
+    "address": "서울특별시 성북구 동소문로23길 48 (동선동5가)",
+    "lat": 37.595401,
+    "lng": 127.016527,
+    "tel": "",
+    "homepage": "https://www.instagram.com/301theater"
+  },
+  "FC001844": {
+    "name": "대원 팝콘D 스퀘어",
+    "address": "서울특별시 용산구 한강대로23길 55 (한강로3가)",
+    "lat": 37.5288886,
+    "lng": 126.96583639999994,
+    "tel": "02-6373-3366",
+    "homepage": "http://www.popcond.com/"
+  },
+  "FC005009": {
+    "name": "갤러리 지노(ZINO)",
+    "address": "경기도 파주시 탄현면 새오리로 211-17",
+    "lat": 37.800908,
+    "lng": 126.686714,
+    "tel": "",
+    "homepage": "https://www.instagram.com/paju_zino"
+  },
+  "FC000534": {
+    "name": "(재)구리시청소년수련관",
+    "address": "경기도 구리시 건원대로34번길 32-10 (인창동)",
+    "lat": 37.603757,
+    "lng": 127.14178449999997,
+    "tel": "031-553-7101",
+    "homepage": "http://www.guriyouth.or.kr/"
+  },
+  "FC001945": {
+    "name": "드림홀",
+    "address": "서울특별시 마포구 양화로 64 (서교동)",
+    "lat": 37.5503019,
+    "lng": 126.9159023,
+    "tel": "010-6213-0001",
+    "homepage": "https://cafe.naver.com/dreamlivehall"
+  },
+  "FC001402": {
+    "name": "부산학생예술문화회관",
+    "address": "부산광역시 북구 낙동북로 737-1 (구포동)",
+    "lat": 35.2001396,
+    "lng": 128.99989089999997,
+    "tel": "",
+    "homepage": "http://www.bacs.go.kr/main/main.php"
+  },
+  "FC005228": {
+    "name": "엘림아트홀 성악연구소",
+    "address": "부산광역시 수영구 광남로 121 (광안동)",
+    "lat": 35.152527,
+    "lng": 129.116005,
+    "tel": "",
+    "homepage": ""
+  },
+  "FC000927": {
+    "name": "곡성레저문화센터",
+    "address": "전남광주통합특별시 곡성군 곡성읍 곡성로 855",
+    "lat": 35.280205,
+    "lng": 127.29703819999997,
+    "tel": "061-360-8343",
+    "homepage": "http://www.gokseong.go.kr/leisure/?pid=7"
   }
 }
